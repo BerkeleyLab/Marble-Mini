@@ -6,4 +6,4 @@ some BPM and LLRF applications
 
 Original concept:
 
-![block diagram](block3.png)
+![block diagram](block_3.png)
