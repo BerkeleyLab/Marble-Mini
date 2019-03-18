@@ -1,5 +1,4 @@
-# "MARBLE" LBNL/Creotech Dual LPC FMC NAD/AFC Carrier
-(in search of a better name)
+# "MARBLE" LBNL/Creotech Dual LPC FMC NAD/AMC Carrier
 
 Sized to satisfy needs of at least
 some BPM and LLRF applications
