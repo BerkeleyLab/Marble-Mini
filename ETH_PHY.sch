@@ -2599,4 +2599,20 @@ Wire Bus Line
 	8900 4500 8900 4800
 Wire Bus Line
 	11850 3800 11850 4100
+Text Label 8250 2300 0    50   ~ 0
+MDI0_P
+Text Label 8250 2400 0    50   ~ 0
+MDI0_N
+Text Label 8250 2600 0    50   ~ 0
+MDI1_P
+Text Label 8250 2700 0    50   ~ 0
+MDI1_N
+Text Label 8250 2900 0    50   ~ 0
+MDI2_P
+Text Label 8250 3000 0    50   ~ 0
+MDI2_N
+Text Label 8250 3200 0    50   ~ 0
+MDI3_P
+Text Label 8250 3300 0    50   ~ 0
+MDI3_N
 $EndSCHEMATC

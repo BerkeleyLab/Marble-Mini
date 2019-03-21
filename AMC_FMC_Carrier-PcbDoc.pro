@@ -1,4 +1,4 @@
-update=26.02.2019 15:42:42
+update=21.03.2019 18:02:58
 version=1
 last_client=kicad
 [general]
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=../schematic/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -58,11 +48,17 @@ dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
 dPairWidth2=0.102
-dPairGap2=0.22
-dPairViaGap2=0.22
-dPairWidth3=0.112
+dPairGap2=0.127
+dPairViaGap2=0.127
+dPairWidth3=0.102
 dPairGap3=0.22
 dPairViaGap3=0.22
+dPairWidth4=0.112
+dPairGap4=0.22
+dPairViaGap4=0.22
+dPairWidth5=0.118
+dPairGap5=0.127
+dPairViaGap5=0.127
 SilkLineWidth=0.15
 SilkTextSizeV=0.5
 SilkTextSizeH=0.5
@@ -196,3 +192,13 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

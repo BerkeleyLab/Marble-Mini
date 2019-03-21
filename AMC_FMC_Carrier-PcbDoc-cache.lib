@@ -61,21 +61,6 @@ X +1V8_USB 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+3V3MP
-#
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+3V3MP #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+3V3MP" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3PM 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG
 #
 DEF AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG #PWR 0 0 Y Y 1 F P
@@ -6385,26 +6370,26 @@ X SW 9 1000 -100 200 L 60 60 0 1 O
 ENDDRAW
 ENDDEF
 #
-# Regulators_XR77129ELB-F
+# Regulators_XRP7724ILB-F
 #
-DEF Regulators_XR77129ELB-F IC 0 60 Y Y 1 L N
+DEF Regulators_XRP7724ILB-F IC 0 60 Y Y 1 L N
 F0 "IC" 500 50 50 H V C CNN
-F1 "Regulators_XR77129ELB-F" 500 -3650 50 H V C CNN
+F1 "Regulators_XRP7724ILB-F" 500 -3650 50 H V C CNN
 F2 "ICs And Semiconductors SMD:QFN50P700X700X80-45N-S520" 0 -3880 60 H I L CNN
-F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XR77129ELB-F.pdf" 0 -3970 60 H I L CNN
-F4 "XR77129ELB-F" 0 -4060 60 H I L CNN "Part Number"
-F5 "XR77129ELB-F" 0 -4150 60 H I L CNN "Library Ref"
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XRP7724ILB-F.pdf" 0 -3970 60 H I L CNN
+F4 "XRP7724ILB-F" 0 -4060 60 H I L CNN "Part Number"
+F5 "XRP7724ILB-F" 0 -4150 60 H I L CNN "Library Ref"
 F6 "SchLib\\Regulators.SchLib" 0 -4240 60 H I L CNN "Library Path"
 F7 "=Device" 0 -4330 60 H I L CNN "Comment"
 F8 "Standard" 0 -4420 60 H I L CNN "Component Kind"
 F9 "Standard" 0 -4510 60 H I L CNN "Component Type"
-F10 "XR77129ELB-F" 0 -4600 60 H I L CNN "Device"
+F10 "XRP7724ILB-F" 0 -4600 60 H I L CNN "Device"
 F11 "QFN50P700X700X80-45N-S520" 0 -4690 60 H I L CNN "Footprint"
 F12 "50mm Pitch, Square; 44 Pin, 7.00mm L X 7.00mm W X 0.80mm H Body (W/Thermal Tab 5.2mm X 5.2mm), IPC Medium Density" 0 -4780 60 H I L CNN "PackageDescription"
 F13 "~~" 0 -4870 60 H I L CNN "Status"
-F14 "40V Quad Channel Digital PWM/PFM Universal PMIC" 0 -4960 60 H I L CNN "Part Description"
+F14 "Quad Channel Digital PWM/PFM Proggrammable Power Management System" 0 -4960 60 H I L CNN "Part Description"
 F15 "EXAR" 0 -5050 60 H I L CNN "Manufacturer"
-F16 "XR77129ELB-F" 0 -5140 60 H I L CNN "Manufacturer Part Number"
+F16 "XRP7724ILB-F" 0 -5140 60 H I L CNN "Manufacturer Part Number"
 F17 "45" 0 -5230 60 H I L CNN "Pin Count"
 F18 "QFN44" 0 -5320 60 H I L CNN "Case"
 F19 "Yes" 0 -5410 60 H I L CNN "Mounted"
@@ -6418,21 +6403,21 @@ F26 "~~" 0 -6040 60 H I L CNN "Status Comment"
 F27 "0.8mm" 0 -6130 60 H I L CNN "ComponentHeight"
 F28 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -6220 60 H I L CNN "Footprint Path"
 F29 "QFN50P700X700X80-45N-S520" 0 -6310 60 H I L CNN "Footprint Ref"
-F30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XR77129ELB-F.pdf" 0 -6400 60 H I L CNN "HelpURL"
+F30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XRP7724ILB-F.pdf" 0 -6400 60 H I L CNN "HelpURL"
 F31 "~~" 0 -6490 60 H I L CNN "ComponentLink1URL"
 F32 "~~" 0 -6580 60 H I L CNN "ComponentLink1Description"
 F33 "~~" 0 -6670 60 H I L CNN "ComponentLink2URL"
 F34 "~~" 0 -6760 60 H I L CNN "ComponentLink2Description"
 F35 "CERN DEM JLC" 0 -6850 60 H I L CNN "Author"
-F36 "07/04/17 00:00:00" 0 -6940 60 H I L CNN "CreateDate"
-F37 "07/04/17 00:00:00" 0 -7030 60 H I L CNN "LatestRevisionDate"
+F36 "11/20/14 00:00:00" 0 -6940 60 H I L CNN "CreateDate"
+F37 "11/20/14 00:00:00" 0 -7030 60 H I L CNN "LatestRevisionDate"
 F38 "~~" 0 -7120 60 H I L CNN "SCEM"
 F39 "ICs And Semiconductors SMD" 0 -7210 60 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -7300 60 H I L CNN "License"
 DRAW
 S 0 -3600 1000 0 0 1 0 f
 S 0 -3550 20 -3460 0 1 0 F
-X LDOOUT 1 1200 -3500 200 L 60 60 0 1 O
+X LDO3_3 1 1200 -3500 200 L 60 60 0 1 O
 X GPIO1 10 -200 -600 200 R 60 60 0 1 B
 X SDA 11 -200 -1200 200 R 60 60 0 1 B
 X SCL 12 -200 -1300 200 R 60 60 0 1 B
@@ -6469,9 +6454,9 @@ X AVDD 4 -200 -3300 200 R 60 60 0 1 W
 X ENABLE 40 -200 -300 200 R 60 60 0 1 I
 X VCC 41 -200 -100 200 R 60 60 0 1 W
 X BFB 42 -200 -2100 200 R 60 60 0 1 I
-X V5EXT 43 1200 -2200 200 L 60 60 0 1 I
+X V5EXT 43 1200 -2200 200 L 60 60 0 1 O
 X LDO5 44 1200 -3200 200 L 60 60 0 1 O
-X AGND 45 -200 -3500 200 R 60 60 0 1 W
+X EP 45 -200 -3500 200 R 60 60 0 1 W
 X VOUT1 5 1200 -100 200 L 60 60 0 1 I
 X VOUT2 6 1200 -800 200 L 60 60 0 1 I
 X VOUT3 7 1200 -1500 200 L 60 60 0 1 I

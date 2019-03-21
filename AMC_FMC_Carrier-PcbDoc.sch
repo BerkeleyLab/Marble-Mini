@@ -1064,21 +1064,6 @@ Wire Wire Line
 	8250 7500 8500 7500
 $Comp
 L power:GND #PWR?
-U 1 1 63637175
-P 8250 9250
-AR Path="/5BD32060/63637175" Ref="#PWR?"  Part="1" 
-AR Path="/5BD31F9A/63637175" Ref="#PWR?"  Part="1" 
-AR Path="/5BD31F9F/63637175" Ref="#PWR?"  Part="1" 
-AR Path="/63637175" Ref="#PWR0149"  Part="1" 
-F 0 "#PWR0149" H 8250 9000 50  0001 C CNN
-F 1 "GND" V 8255 9077 50  0000 C CNN
-F 2 "" H 8250 9250 50  0001 C CNN
-F 3 "" H 8250 9250 50  0001 C CNN
-	1    8250 9250
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 6363717B
 P 8250 9350
 AR Path="/5BD32060/6363717B" Ref="#PWR?"  Part="1" 
@@ -1092,8 +1077,6 @@ F 3 "" H 8250 9350 50  0001 C CNN
 	1    8250 9350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8250 9250 8500 9250
 Wire Wire Line
 	8250 9350 8500 9350
 Wire Wire Line
@@ -2089,4 +2072,8 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    3200 6600
 	1    0    0    -1  
 $EndComp
+Text Label 7950 9250 0    50   ~ 10
+FMC2_3P3VAUX
+Wire Wire Line
+	7950 9250 8500 9250
 $EndSCHEMATC

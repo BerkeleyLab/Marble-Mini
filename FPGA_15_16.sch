@@ -2480,23 +2480,19 @@ Text Label 5600 4650 0    50   ~ 10
 MII_RX_CLK
 Text Label 5600 2850 0    50   ~ 10
 MII_TX_CLK
-Wire Wire Line
-	5400 2850 6200 2850
-Wire Wire Line
-	5400 4650 6200 4650
-Text Label 5700 2550 0    50   ~ 10
+Text Label 5600 2250 0    50   ~ 10
 MII_TXD0
-Text Label 5700 5650 0    50   ~ 10
+Text Label 5600 2350 0    50   ~ 10
 MII_TXD1
-Text Label 5700 5750 0    50   ~ 10
-MII_TXD2
-Text Label 5700 1950 0    50   ~ 10
-MII_TXD3
 Text Label 5600 2150 0    50   ~ 10
-MII_RXD1
+MII_TXD2
 Text Label 5600 2050 0    50   ~ 10
+MII_TXD3
+Text Label 5600 2550 0    50   ~ 10
+MII_RXD1
+Text Label 5600 2450 0    50   ~ 10
 MII_RXD2
-Text Label 5700 2450 0    50   ~ 10
+Text Label 5600 5750 0    50   ~ 10
 MII_RXD3
 Wire Wire Line
 	5600 5650 6200 5650
@@ -2504,14 +2500,10 @@ Wire Wire Line
 	5600 5750 6200 5750
 Wire Wire Line
 	5600 1950 6200 1950
-Text Label 5650 6850 0    50   ~ 10
+Text Label 5600 6850 0    50   ~ 10
 PHY_RSTn
-Text Label 5650 5950 0    50   ~ 10
+Text Label 5600 5950 0    50   ~ 10
 MII_RX_DV
-Wire Wire Line
-	5500 6850 6200 6850
-Wire Wire Line
-	5500 5950 6200 5950
 Text GLabel 5550 5450 0    50   Input ~ 10
 FMC1_LA_23_P
 Text GLabel 5550 5550 0    50   Input ~ 10
@@ -2547,16 +2539,10 @@ FMC1_LA_29_P
 Text GLabel 5550 3750 0    50   Input ~ 10
 FMC1_LA_29_N
 Wire Wire Line
-	5000 2450 6200 2450
-Wire Wire Line
-	5000 2550 6200 2550
-Wire Wire Line
 	5600 2350 6200 2350
-Wire Wire Line
-	5500 2250 6200 2250
-Text Label 5650 2250 0    50   ~ 10
+Text Label 5600 1950 0    50   ~ 10
 MII_TX_EN
-Text Label 5700 2350 0    50   ~ 10
+Text Label 5600 5650 0    50   ~ 10
 MII_RXD0
 Wire Wire Line
 	5600 2050 6200 2050
@@ -2692,6 +2678,20 @@ Wire Wire Line
 	4950 8100 4950 7950
 Wire Wire Line
 	5750 8100 5850 8100
+Wire Wire Line
+	5600 2250 6200 2250
+Wire Wire Line
+	5600 2450 6200 2450
+Wire Wire Line
+	5600 2550 6200 2550
+Wire Wire Line
+	5600 2850 6200 2850
+Wire Wire Line
+	5600 4650 6200 4650
+Wire Wire Line
+	5600 5950 6200 5950
+Wire Wire Line
+	5600 6850 6200 6850
 Wire Bus Line
 	14050 7300 14050 7600
 Wire Bus Line

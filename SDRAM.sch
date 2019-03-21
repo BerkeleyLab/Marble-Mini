@@ -489,7 +489,7 @@ F 3 "" H 3950 4550 50  0001 C CNN
 	1    3950 4550
 	-1   0    0    -1  
 $EndComp
-Text Label 4400 4250 2    50   ~ 10
+Text Label 4150 4250 2    50   ~ 10
 VREF_DDR3
 Wire Wire Line
 	3300 2750 3650 2750
@@ -2698,17 +2698,6 @@ F 3 "" H 2550 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2550 1050
-$Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VTT_DDR3-powerMG #PWR0226
-U 1 1 5DA46B3F
-P 3750 4250
-F 0 "#PWR0226" H 3750 4100 50  0001 C CNN
-F 1 "VTT_DDR3" V 3765 4377 50  0000 L CNN
-F 2 "" H 3750 4250 50  0001 C CNN
-F 3 "" H 3750 4250 50  0001 C CNN
-	1    3750 4250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3750 4250 3950 4250
 Connection ~ 3950 4250
