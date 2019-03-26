@@ -2480,7 +2480,7 @@ F 3 "" H 9300 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3V3MP #PWR?
+L power:+3.3VP #PWR?
 U 1 1 5D430167
 P 8850 3000
 AR Path="/5C16C03C/5D430167" Ref="#PWR?"  Part="1" 
@@ -2488,6 +2488,7 @@ AR Path="/5BCEDA39/5D430167" Ref="#PWR?"  Part="1"
 AR Path="/5D05A99E/5D430167" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5D430167" Ref="#PWR?"  Part="1" 
 AR Path="/5CA40231/5D430167" Ref="#PWR0317"  Part="1" 
+AR Path="/5D430167" Ref="#PWR0317"  Part="1" 
 F 0 "#PWR0317" H 8850 2850 50  0001 C CNN
 F 1 "+3V3MP" H 8865 3173 50  0000 C CNN
 F 2 "" H 8850 3000 50  0001 C CNN
@@ -2496,7 +2497,7 @@ F 3 "" H 8850 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3V3MP #PWR?
+L power:+3.3VP #PWR?
 U 1 1 5D4357CC
 P 9300 3000
 AR Path="/5C16C03C/5D4357CC" Ref="#PWR?"  Part="1" 
@@ -2504,6 +2505,7 @@ AR Path="/5BCEDA39/5D4357CC" Ref="#PWR?"  Part="1"
 AR Path="/5D05A99E/5D4357CC" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5D4357CC" Ref="#PWR?"  Part="1" 
 AR Path="/5CA40231/5D4357CC" Ref="#PWR0322"  Part="1" 
+AR Path="/5D4357CC" Ref="#PWR0322"  Part="1" 
 F 0 "#PWR0322" H 9300 2850 50  0001 C CNN
 F 1 "+3V3MP" H 9315 3173 50  0000 C CNN
 F 2 "" H 9300 3000 50  0001 C CNN
@@ -2512,7 +2514,7 @@ F 3 "" H 9300 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3V3MP #PWR?
+L power:+3.3VP #PWR?
 U 1 1 5D440498
 P 5500 2850
 AR Path="/5C16C03C/5D440498" Ref="#PWR?"  Part="1" 
@@ -2520,6 +2522,7 @@ AR Path="/5BCEDA39/5D440498" Ref="#PWR?"  Part="1"
 AR Path="/5D05A99E/5D440498" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5D440498" Ref="#PWR?"  Part="1" 
 AR Path="/5CA40231/5D440498" Ref="#PWR0324"  Part="1" 
+AR Path="/5D440498" Ref="#PWR0324"  Part="1" 
 F 0 "#PWR0324" H 5500 2700 50  0001 C CNN
 F 1 "+3V3MP" H 5515 3023 50  0000 C CNN
 F 2 "" H 5500 2850 50  0001 C CNN
@@ -2528,7 +2531,7 @@ F 3 "" H 5500 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3V3MP #PWR?
+L power:+3.3VP #PWR?
 U 1 1 5D445B1A
 P 6000 2300
 AR Path="/5C16C03C/5D445B1A" Ref="#PWR?"  Part="1" 
@@ -2536,6 +2539,7 @@ AR Path="/5BCEDA39/5D445B1A" Ref="#PWR?"  Part="1"
 AR Path="/5D05A99E/5D445B1A" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5D445B1A" Ref="#PWR?"  Part="1" 
 AR Path="/5CA40231/5D445B1A" Ref="#PWR0589"  Part="1" 
+AR Path="/5D445B1A" Ref="#PWR0589"  Part="1" 
 F 0 "#PWR0589" H 6000 2150 50  0001 C CNN
 F 1 "+3V3MP" V 6000 2550 50  0000 C CNN
 F 2 "" H 6000 2300 50  0001 C CNN
@@ -2544,7 +2548,7 @@ F 3 "" H 6000 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power2:+3V3MP #PWR?
+L power:+3.3VP #PWR?
 U 1 1 5D460C62
 P 8400 2300
 AR Path="/5C16C03C/5D460C62" Ref="#PWR?"  Part="1" 
@@ -2552,6 +2556,7 @@ AR Path="/5BCEDA39/5D460C62" Ref="#PWR?"  Part="1"
 AR Path="/5D05A99E/5D460C62" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5D460C62" Ref="#PWR?"  Part="1" 
 AR Path="/5CA40231/5D460C62" Ref="#PWR0590"  Part="1" 
+AR Path="/5D460C62" Ref="#PWR0590"  Part="1" 
 F 0 "#PWR0590" H 8400 2150 50  0001 C CNN
 F 1 "+3V3MP" V 8400 2550 50  0000 C CNN
 F 2 "" H 8400 2300 50  0001 C CNN
@@ -2560,7 +2565,7 @@ F 3 "" H 8400 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power2:+3V3MP #PWR?
+L power:+3.3VP #PWR?
 U 1 1 5D46B90D
 P 2300 5350
 AR Path="/5C16C03C/5D46B90D" Ref="#PWR?"  Part="1" 
@@ -2568,6 +2573,7 @@ AR Path="/5BCEDA39/5D46B90D" Ref="#PWR?"  Part="1"
 AR Path="/5D05A99E/5D46B90D" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5D46B90D" Ref="#PWR?"  Part="1" 
 AR Path="/5CA40231/5D46B90D" Ref="#PWR0609"  Part="1" 
+AR Path="/5D46B90D" Ref="#PWR0609"  Part="1" 
 F 0 "#PWR0609" H 2300 5200 50  0001 C CNN
 F 1 "+3V3MP" H 2315 5523 50  0000 C CNN
 F 2 "" H 2300 5350 50  0001 C CNN

@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 25
+Sheet 25 25
 Title "Simple AFC"
 Date "2019-01-16"
 Rev "9"
@@ -738,13 +738,14 @@ GA0_1
 Text HLabel 14350 4350 2    50   Input ~ 10
 GA1_1
 $Comp
-L power2:+3V3MP #PWR?
+L power:+3.3VP #PWR?
 U 1 1 5DD348B7
 P 7000 6600
 AR Path="/5C16C03C/5DD348B7" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA39/5DD348B7" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5DD348B7" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/5DD348B7" Ref="#PWR0550"  Part="1" 
+AR Path="/5DD348B7" Ref="#PWR0550"  Part="1" 
 F 0 "#PWR0550" H 7000 6450 50  0001 C CNN
 F 1 "+3V3MP" V 7000 6850 50  0000 C CNN
 F 2 "" H 7000 6600 50  0001 C CNN
@@ -827,13 +828,14 @@ Wire Wire Line
 Wire Wire Line
 	10350 1750 11250 1750
 $Comp
-L power2:+3V3MP #PWR?
+L power:+3.3VP #PWR?
 U 1 1 5E9F763B
 P 10350 1200
 AR Path="/5C16C03C/5E9F763B" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA39/5E9F763B" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/5E9F763B" Ref="#PWR0503"  Part="1" 
 AR Path="/5C16BF8E/5E9F763B" Ref="#PWR0503"  Part="1" 
+AR Path="/5E9F763B" Ref="#PWR0503"  Part="1" 
 F 0 "#PWR0503" H 10350 1050 50  0001 C CNN
 F 1 "+3V3MP" H 10365 1373 50  0000 C CNN
 F 2 "" H 10350 1200 50  0001 C CNN
@@ -1804,4 +1806,130 @@ Wire Wire Line
 	10200 5050 11250 5050
 Wire Wire Line
 	10200 5350 11250 5350
+Text HLabel 4500 6600 0    50   Output ~ 0
+FMC1_FUSE
+Wire Wire Line
+	4500 6600 5050 6600
+Text Label 4550 6600 0    50   ~ 0
+FMC1_FUSE
+$Comp
+L Resistors_SMD:R0402_0R_JUMPER R?
+U 1 1 5D1CDD26
+P 5500 6600
+AR Path="/5C16BF8E/5DB9B7E6/5D1CDD26" Ref="R?"  Part="1" 
+AR Path="/5CA40231/5D1CDD26" Ref="R?"  Part="1" 
+AR Path="/5BD31F9A/5D1CDD26" Ref="R261"  Part="1" 
+F 0 "R261" H 5850 6550 50  0000 C CNN
+F 1 "R0402_0R_JUMPER" H 5500 6390 60  0001 L CNN
+F 2 "RESC1005X40N" H 5500 5580 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5500 6210 60  0001 L CNN
+F 4 "0" H 5500 6550 50  0000 C CNN "~"
+F 5 "R0402_0R_JUMPER" H 5500 6120 60  0001 L CNN "Part Number"
+F 6 "Resistor" H 5500 6030 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 5500 5940 60  0001 L CNN "Library Path"
+F 8 "=Value" H 5500 5850 60  0001 L CNN "Comment"
+F 9 "Standard" H 5500 5760 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 5500 5670 60  0001 L CNN "Component Type"
+F 11 "~~" H 5500 5490 60  0001 L CNN "PackageDescription"
+F 12 "2" H 5500 5400 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 5500 5310 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 5500 5220 60  0001 L CNN "Footprint Ref"
+F 15 "0" H 5500 5130 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 5500 5040 60  0001 L CNN "Status"
+F 17 "~~" H 5500 4950 60  0001 L CNN "Power"
+F 18 "~~" H 5500 4860 60  0001 L CNN "TC"
+F 19 "~~" H 5500 4770 60  0001 L CNN "Voltage"
+F 20 "~~" H 5500 4680 60  0001 L CNN "Tolerance"
+F 21 "1A (0.05R Max DC Resistance) Zero Ohm Jumper" H 5500 4590 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 5500 4500 60  0001 L CNN "Manufacturer"
+F 23 "R0402_0R_JUMPER" H 5500 4410 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 5500 4320 60  0001 L CNN "Case"
+F 25 "No" H 5500 4230 60  0001 L CNN "PressFit"
+F 26 "Yes" H 5500 4140 60  0001 L CNN "Mounted"
+F 27 "~~" H 5500 4050 60  0001 L CNN "Sense Comment"
+F 28 "No" H 5500 3960 60  0001 L CNN "Sense"
+F 29 "~~" H 5500 3870 60  0001 L CNN "Status Comment"
+F 30 "No" H 5500 3780 60  0001 L CNN "Socket"
+F 31 "Yes" H 5500 3690 60  0001 L CNN "SMD"
+F 32 "~~" H 5500 3600 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 5500 3510 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270591001L" H 5500 3420 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 5500 3330 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5500 3240 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 5500 3150 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 5500 3060 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 5500 2970 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 5500 2880 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5500 2790 60  0001 L CNN "License"
+	1    5500 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R260
+U 1 1 5D27C16B
+P 5050 6600
+F 0 "R260" V 5154 6660 50  0000 L CNN
+F 1 "R0402_10K_1%_0.0625W_100PPM" H 5050 6390 60  0001 L CNN
+F 2 "RESC1005X40N" H 5050 5580 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5050 6210 60  0001 L CNN
+F 4 "10k" V 5245 6660 50  0000 L CNN "~"
+F 5 "R0402_10K_1%_0.0625W_100PPM" H 5050 6120 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 5050 6030 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 5050 5940 60  0001 L CNN "Library Path"
+F 8 "=Value" H 5050 5850 60  0001 L CNN "Comment"
+F 9 "Standard" H 5050 5760 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 5050 5670 60  0001 L CNN "Component Type"
+F 11 "~~" H 5050 5490 60  0001 L CNN "PackageDescription"
+F 12 "2" H 5050 5400 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 5050 5310 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 5050 5220 60  0001 L CNN "Footprint Ref"
+F 15 "10k" H 5050 5130 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 5050 5040 60  0001 L CNN "Status"
+F 17 "0.0625W" H 5050 4950 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 5050 4860 60  0001 L CNN "TC"
+F 19 "~~" H 5050 4770 60  0001 L CNN "Voltage"
+F 20 "±1%" H 5050 4680 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 5050 4590 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 5050 4500 60  0001 L CNN "Manufacturer"
+F 23 "R0402_10K_1%_0.0625W_100PPM" H 5050 4410 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 5050 4320 60  0001 L CNN "Case"
+F 25 "No" H 5050 4230 60  0001 L CNN "PressFit"
+F 26 "Yes" H 5050 4140 60  0001 L CNN "Mounted"
+F 27 "~~" H 5050 4050 60  0001 L CNN "Sense Comment"
+F 28 "No" H 5050 3960 60  0001 L CNN "Sense"
+F 29 "~~" H 5050 3870 60  0001 L CNN "Status Comment"
+F 30 "No" H 5050 3780 60  0001 L CNN "Socket"
+F 31 "Yes" H 5050 3690 60  0001 L CNN "SMD"
+F 32 "~~" H 5050 3600 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 5050 3510 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270671003L" H 5050 3420 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 5050 3330 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5050 3240 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 5050 3150 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 5050 3060 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 5050 2970 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 5050 2880 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5050 2790 60  0001 L CNN "License"
+	1    5050 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D2AADD8
+P 5050 6900
+AR Path="/5BD32060/5D2AADD8" Ref="#PWR?"  Part="1" 
+AR Path="/5BD31F9A/5D2AADD8" Ref="#PWR0611"  Part="1" 
+F 0 "#PWR0611" H 5050 6650 50  0001 C CNN
+F 1 "GND" H 5055 6727 50  0000 C CNN
+F 2 "" H 5050 6900 50  0001 C CNN
+F 3 "" H 5050 6900 50  0001 C CNN
+	1    5050 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 6600 5200 6600
+Connection ~ 5050 6600
+Wire Wire Line
+	5500 6600 5650 6600
+Connection ~ 5650 6600
 $EndSCHEMATC

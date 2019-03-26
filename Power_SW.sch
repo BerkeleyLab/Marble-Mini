@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 15 25
+Sheet 14 25
 Title "Simple AFC"
 Date "2019-01-16"
 Rev "9"
@@ -380,13 +380,14 @@ Wire Wire Line
 	4450 2600 4350 2600
 Connection ~ 4350 2600
 $Comp
-L power2:+3V3MP #PWR?
+L power:+3.3VP #PWR?
 U 1 1 5DBB47C4
 P 4750 2600
 AR Path="/5C16C03C/5DBB47C4" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA39/5DBB47C4" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5DBB47C4" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5DB9B7E6/5DBB47C4" Ref="#PWR0254"  Part="1" 
+AR Path="/5DBB47C4" Ref="#PWR0254"  Part="1" 
 F 0 "#PWR0254" H 4750 2450 50  0001 C CNN
 F 1 "+3V3MP" V 4750 2850 50  0000 C CNN
 F 2 "" H 4750 2600 50  0001 C CNN

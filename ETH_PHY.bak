@@ -563,58 +563,6 @@ F 3 "" H 14500 5000 50  0001 C CNN
 	1    14500 5000
 	1    0    0    -1  
 $EndComp
-$Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:BELFUSE_0826-1X1T-80-F-Miscellaneous J4
-U 1 1 5C91BCAE
-P 12500 1900
-F 0 "J4" H 13400 2067 50  0000 C CNN
-F 1 "BELFUSE_0826-1X1T-80-F" H 13400 1976 50  0000 C CNN
-F 2 "BELFUSE_0826-1X1T-80-F" H 12500 -2040 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BELFUSE_0826-1X1T-80-F.pdf" H 12500 -1320 60  0001 L CNN
-F 4 "BELFUSE_0826-1X1T-80-F" H 12500 -1410 60  0001 L CNN "Part Number"
-F 5 "BELFUSE_0826-1X1T-80-F" H 12500 -1500 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Connectors.SchLib" H 12500 -1590 60  0001 L CNN "Library Path"
-F 7 "=Family" H 12500 -1680 60  0001 L CNN "Comment"
-F 8 "Standard" H 12500 -1770 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 12500 -1860 60  0001 L CNN "Component Type"
-F 10 "~~" H 12500 -1950 60  0001 L CNN "Device"
-F 11 "~~" H 12500 -2130 60  0001 L CNN "PackageDescription"
-F 12 "20" H 12500 -2220 60  0001 L CNN "Pin Count"
-F 13 "~~" H 12500 -2310 60  0001 L CNN "Case"
-F 14 "PcbLib\\Miscellaneous THD.PcbLib" H 12500 -2400 60  0001 L CNN "Footprint Path"
-F 15 "BELFUSE_0826-1X1T-80-F" H 12500 -2490 60  0001 L CNN "Footprint Ref"
-F 16 "RJ45" H 12500 -2580 60  0001 L CNN "Family"
-F 17 "Yes" H 12500 -2670 60  0001 L CNN "Mounted"
-F 18 "No" H 12500 -2760 60  0001 L CNN "Socket"
-F 19 "No" H 12500 -2850 60  0001 L CNN "PressFit"
-F 20 "No" H 12500 -2940 60  0001 L CNN "SMD"
-F 21 "No" H 12500 -3030 60  0001 L CNN "Sense"
-F 22 "~~" H 12500 -3120 60  0001 L CNN "Sense Comment"
-F 23 "~~" H 12500 -3210 60  0001 L CNN "Status Comment"
-F 24 "None" H 12500 -3300 60  0001 L CNN "Status"
-F 25 "~~" H 12500 -3390 60  0001 L CNN "SCEM"
-F 26 "1 Port, Orange Green/Yellow LEDs, RJ45 1000BaseT, PoE, Gigabit MagJack® Connector Module" H 12500 -3480 60  0001 L CNN "Part Description"
-F 27 "BELFUSE" H 12500 -3570 60  0001 L CNN "Manufacturer"
-F 28 "0826-1X1T-80-F" H 12500 -3660 60  0001 L CNN "Manufacturer Part Number"
-F 29 "13.61mm" H 12500 -3750 60  0001 L CNN "ComponentHeight"
-F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BELFUSE_0826-1X1T-80-F.pdf" H 12500 -3840 60  0001 L CNN "HelpURL"
-F 31 "~~" H 12500 -3930 60  0001 L CNN "ComponentLink1URL"
-F 32 "~~" H 12500 -4020 60  0001 L CNN "ComponentLink1Description"
-F 33 "~~" H 12500 -4110 60  0001 L CNN "ComponentLink2URL"
-F 34 "~~" H 12500 -4200 60  0001 L CNN "ComponentLink2Description"
-F 35 "CERN DEM JLC" H 12500 -4290 60  0001 L CNN "Author"
-F 36 "04/30/14 00:00:00" H 12500 -4380 60  0001 L CNN "CreateDate"
-F 37 "04/30/14 00:00:00" H 12500 -4470 60  0001 L CNN "LatestRevisionDate"
-F 38 "Miscellaneous THD" H 12500 -4560 60  0001 L CNN "Library Name"
-F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12500 -4650 60  0001 L CNN "License"
-	1    12500 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14500 4500 14500 4650
-Wire Wire Line
-	14500 2000 14500 4500
-Connection ~ 14500 4500
 Wire Wire Line
 	3600 3250 4500 3250
 Wire Wire Line
@@ -2593,12 +2541,6 @@ Wire Wire Line
 Connection ~ 8100 7000
 Wire Wire Line
 	8100 7000 8100 6900
-Wire Bus Line
-	8900 3800 8900 4100
-Wire Bus Line
-	8900 4500 8900 4800
-Wire Bus Line
-	11850 3800 11850 4100
 Text Label 8250 2300 0    50   ~ 0
 MDI0_P
 Text Label 8250 2400 0    50   ~ 0
@@ -2615,4 +2557,134 @@ Text Label 8250 3200 0    50   ~ 0
 MDI3_P
 Text Label 8250 3300 0    50   ~ 0
 MDI3_N
+$Comp
+L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
+U 1 1 5DAB8B19
+P 3050 1200
+AR Path="/5CC393D3/5DAB8B19" Ref="R?"  Part="1" 
+AR Path="/5BABAC65/5DAB8B19" Ref="R?"  Part="1" 
+AR Path="/5BCEDA59/5DAB8B19" Ref="R262"  Part="1" 
+F 0 "R262" V 3154 1260 50  0000 L CNN
+F 1 "R0402_10K_1%_0.0625W_100PPM" H 3050 990 60  0001 L CNN
+F 2 "RESC1005X40N" H 3050 180 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 3050 810 60  0001 L CNN
+F 4 "10k" V 3245 1260 50  0000 L CNN "~"
+F 5 "R0402_10K_1%_0.0625W_100PPM" H 3050 720 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 3050 630 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 3050 540 60  0001 L CNN "Library Path"
+F 8 "=Value" H 3050 450 60  0001 L CNN "Comment"
+F 9 "Standard" H 3050 360 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 3050 270 60  0001 L CNN "Component Type"
+F 11 "~~" H 3050 90  60  0001 L CNN "PackageDescription"
+F 12 "2" H 3050 0   60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 3050 -90 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 3050 -180 60  0001 L CNN "Footprint Ref"
+F 15 "10k" H 3050 -270 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 3050 -360 60  0001 L CNN "Status"
+F 17 "0.0625W" H 3050 -450 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 3050 -540 60  0001 L CNN "TC"
+F 19 "~~" H 3050 -630 60  0001 L CNN "Voltage"
+F 20 "±1%" H 3050 -720 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 3050 -810 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 3050 -900 60  0001 L CNN "Manufacturer"
+F 23 "R0402_10K_1%_0.0625W_100PPM" H 3050 -990 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 3050 -1080 60  0001 L CNN "Case"
+F 25 "No" H 3050 -1170 60  0001 L CNN "PressFit"
+F 26 "Yes" H 3050 -1260 60  0001 L CNN "Mounted"
+F 27 "~~" H 3050 -1350 60  0001 L CNN "Sense Comment"
+F 28 "No" H 3050 -1440 60  0001 L CNN "Sense"
+F 29 "~~" H 3050 -1530 60  0001 L CNN "Status Comment"
+F 30 "No" H 3050 -1620 60  0001 L CNN "Socket"
+F 31 "Yes" H 3050 -1710 60  0001 L CNN "SMD"
+F 32 "~~" H 3050 -1800 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 3050 -1890 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270671003L" H 3050 -1980 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 3050 -2070 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 3050 -2160 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 3050 -2250 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 3050 -2340 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 3050 -2430 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 3050 -2520 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3050 -2610 60  0001 L CNN "License"
+	1    3050 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DAD11AE
+P 3050 1200
+AR Path="/5BD32060/5DAD11AE" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/5DAD11AE" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/5DAD11AE" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/5DAD11AE" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/5DAD11AE" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8AFE1/5DAD11AE" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA59/5DAD11AE" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 3050 1050 50  0001 C CNN
+F 1 "+3V3" H 3065 1373 50  0000 C CNN
+F 2 "" H 3050 1200 50  0001 C CNN
+F 3 "" H 3050 1200 50  0001 C CNN
+	1    3050 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1500 3250 1500
+$Comp
+L Miscellaneous:BELFUSE_0826-1X1T-HS-F J4
+U 1 1 5DB81DF6
+P 12500 1900
+F 0 "J4" H 13400 2067 50  0000 C CNN
+F 1 "BELFUSE_0826-1X1T-HS-F" H 13400 1976 50  0000 C CNN
+F 2 "BELFUSE_0826-1X1T-80-F" H 12500 -2040 60  0001 L CNN
+F 3 "" H 12500 -1320 60  0001 L CNN
+F 4 "BELFUSE_0826-1X1T-HS-F" H 12500 -1410 60  0001 L CNN "Part Number"
+F 5 "BELFUSE_0826-1X1T-HS-F" H 12500 -1500 60  0001 L CNN "Library Ref"
+F 6 "SchLib\\Connectors.SchLib" H 12500 -1590 60  0001 L CNN "Library Path"
+F 7 "=Family" H 12500 -1680 60  0001 L CNN "Comment"
+F 8 "Standard" H 12500 -1770 60  0001 L CNN "Component Kind"
+F 9 "Standard" H 12500 -1860 60  0001 L CNN "Component Type"
+F 10 "~~" H 12500 -1950 60  0001 L CNN "Device"
+F 11 "~~" H 12500 -2130 60  0001 L CNN "PackageDescription"
+F 12 "20" H 12500 -2220 60  0001 L CNN "Pin Count"
+F 13 "~~" H 12500 -2310 60  0001 L CNN "Case"
+F 14 "PcbLib\\Miscellaneous THD.PcbLib" H 12500 -2400 60  0001 L CNN "Footprint Path"
+F 15 "BELFUSE_0826-1X1T-80-F" H 12500 -2490 60  0001 L CNN "Footprint Ref"
+F 16 "RJ45" H 12500 -2580 60  0001 L CNN "Family"
+F 17 "Yes" H 12500 -2670 60  0001 L CNN "Mounted"
+F 18 "No" H 12500 -2760 60  0001 L CNN "Socket"
+F 19 "No" H 12500 -2850 60  0001 L CNN "PressFit"
+F 20 "No" H 12500 -2940 60  0001 L CNN "SMD"
+F 21 "No" H 12500 -3030 60  0001 L CNN "Sense"
+F 22 "~~" H 12500 -3120 60  0001 L CNN "Sense Comment"
+F 23 "~~" H 12500 -3210 60  0001 L CNN "Status Comment"
+F 24 "None" H 12500 -3300 60  0001 L CNN "Status"
+F 25 "~~" H 12500 -3390 60  0001 L CNN "SCEM"
+F 26 "1 Port, Orange Green/Yellow LEDs, RJ45 1000BaseT, PoE, Gigabit MagJack® Connector Module" H 12500 -3480 60  0001 L CNN "Part Description"
+F 27 "BELFUSE" H 12500 -3570 60  0001 L CNN "Manufacturer"
+F 28 "0826-1X1T-80-F" H 12500 -3660 60  0001 L CNN "Manufacturer Part Number"
+F 29 "13.61mm" H 12500 -3750 60  0001 L CNN "ComponentHeight"
+F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BELFUSE_0826-1X1T-80-F.pdf" H 12500 -3840 60  0001 L CNN "HelpURL"
+F 31 "~~" H 12500 -3930 60  0001 L CNN "ComponentLink1URL"
+F 32 "~~" H 12500 -4020 60  0001 L CNN "ComponentLink1Description"
+F 33 "~~" H 12500 -4110 60  0001 L CNN "ComponentLink2URL"
+F 34 "~~" H 12500 -4200 60  0001 L CNN "ComponentLink2Description"
+F 35 "CERN DEM JLC" H 12500 -4290 60  0001 L CNN "Author"
+F 36 "04/30/14 00:00:00" H 12500 -4380 60  0001 L CNN "CreateDate"
+F 37 "04/30/14 00:00:00" H 12500 -4470 60  0001 L CNN "LatestRevisionDate"
+F 38 "Miscellaneous THD" H 12500 -4560 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12500 -4650 60  0001 L CNN "License"
+	1    12500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14500 2000 14500 4500
+Wire Wire Line
+	14500 4500 14500 4650
+Wire Bus Line
+	8900 3800 8900 4100
+Wire Bus Line
+	8900 4500 8900 4800
+Wire Bus Line
+	11850 3800 11850 4100
+Connection ~ 14500 4500
 $EndSCHEMATC

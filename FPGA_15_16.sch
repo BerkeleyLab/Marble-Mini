@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 23 25
+Sheet 22 25
 Title "Simple AFC"
 Date "2019-01-16"
 Rev "9"
@@ -1313,19 +1313,19 @@ Text Label 14100 5850 0    50   ~ 10
 Pmod1_7
 Text Label 10350 4450 0    50   ~ 10
 Pmod1_0
-Text Label 10350 5850 0    50   ~ 10
-Pmod1_1
-Text Label 10350 6350 0    50   ~ 10
-Pmod1_2
-Text Label 10350 6450 0    50   ~ 10
-Pmod1_3
 Text Label 10350 6550 0    50   ~ 10
-Pmod1_4
+Pmod1_1
+Text Label 10350 6450 0    50   ~ 10
+Pmod1_2
 Text Label 10350 6650 0    50   ~ 10
+Pmod1_3
+Text Label 10400 5850 0    50   ~ 10
+Pmod1_4
+Text Label 10350 6350 0    50   ~ 10
 Pmod1_5
-Text Label 10350 6750 0    50   ~ 10
-Pmod1_6
 Text Label 10350 6850 0    50   ~ 10
+Pmod1_6
+Text Label 10350 6750 0    50   ~ 10
 Pmod1_7
 Wire Wire Line
 	10200 6550 10750 6550
