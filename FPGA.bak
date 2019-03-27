@@ -595,10 +595,6 @@ Wire Wire Line
 	6300 1850 6950 1850
 Wire Wire Line
 	6300 1950 6950 1950
-Text Label 1650 8450 0    50   ~ 10
-I2C_FPGA_SDA
-Text Label 1650 8350 0    50   ~ 10
-I2C_FPGA_SCL
 Wire Wire Line
 	1650 8450 2250 8450
 Wire Wire Line
@@ -1537,4 +1533,8 @@ Wire Wire Line
 	8500 9750 10200 9750
 Wire Wire Line
 	10200 9750 10200 9550
+Text Label 1650 8350 0    50   ~ 10
+I2C_APP_SCL
+Text Label 1650 8450 0    50   ~ 10
+I2C_APP_SDA
 $EndSCHEMATC

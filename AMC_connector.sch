@@ -71,19 +71,19 @@ Text Label 5650 7493 1    60   ~ 12
 AMC_En
 Text Label 7150 7493 1    60   ~ 12
 IPMB_SCL
-Text Label 8650 7493 1    60   ~ 12
+Text Label 8650 7500 1    60   ~ 12
 IPMB_SDA
-Text Label 8950 7493 1    60   ~ 12
+Text Label 8950 7500 1    60   ~ 12
 TCLKA_P
-Text Label 9050 7493 1    60   ~ 12
+Text Label 9050 7500 1    60   ~ 12
 TCLKA_N
-Text Label 9250 7493 1    60   ~ 12
+Text Label 9250 7500 1    60   ~ 12
 TCLKB_P
-Text Label 9350 7493 1    60   ~ 12
+Text Label 9350 7500 1    60   ~ 12
 TCLKB_N
-Text Label 9550 7493 1    60   ~ 12
+Text Label 9550 7500 1    60   ~ 12
 FCLKA_P
-Text Label 9650 7493 1    60   ~ 12
+Text Label 9650 7500 1    60   ~ 12
 FCLKA_N
 Text Label 9850 7493 1    60   ~ 12
 PS0#
@@ -119,13 +119,13 @@ Text Label 3850 9143 1    60   ~ 12
 Tx11_N
 Text Label 3950 9243 1    60   ~ 12
 Tx11_P
-Text Label 6550 9143 1    60   ~ 12
+Text Label 6550 9100 1    60   ~ 12
 TCLKC_N
-Text Label 6650 9143 1    60   ~ 12
+Text Label 6650 9100 1    60   ~ 12
 TCLKC_P
-Text Label 6850 9143 1    60   ~ 12
+Text Label 6850 9150 1    60   ~ 12
 TCLKD_N
-Text Label 6950 9143 1    60   ~ 12
+Text Label 6950 9150 1    60   ~ 12
 TCLKD_P
 Text Label 7150 9143 1    60   ~ 12
 Rx17_N

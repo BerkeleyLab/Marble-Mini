@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 16 25
+Sheet 15 25
 Title "Simple AFC"
 Date "2019-01-16"
 Rev "9"
@@ -61,20 +61,6 @@ F 39 "Miscellaneous SMD" H 1700 -910 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1700 -1000 60  0001 L CNN "License"
 	1    1700 3500
 	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0304
-U 1 1 5BEBDA2C
-P 6350 3300
-AR Path="/5BEBDA2C" Ref="#PWR0304"  Part="1" 
-AR Path="/5C16C03C/5BEBDA2C" Ref="#PWR0304"  Part="1" 
-AR Path="/5BCEDA39/5BEBDA2C" Ref="#PWR0304"  Part="1" 
-F 0 "#PWR0304" H 6350 3150 50  0001 C CNN
-F 1 "+3V3_USB" H 6365 3473 50  0000 C CNN
-F 2 "" H 6350 3300 50  0001 C CNN
-F 3 "" H 6350 3300 50  0001 C CNN
-	1    6350 3300
-	1    0    0    -1  
 $EndComp
 $Comp
 L AMC_FMC_Carrier-PcbDoc-rescue:+1V8_USB-powerMG #PWR0296
@@ -231,34 +217,6 @@ F 3 "" H 6100 6800 50  0001 C CNN
 	1    6100 6800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3VP #PWR0281
-U 1 1 5BEDE584
-P 4900 5800
-AR Path="/5BEDE584" Ref="#PWR0281"  Part="1" 
-AR Path="/5C16C03C/5BEDE584" Ref="#PWR0281"  Part="1" 
-AR Path="/5BCEDA39/5BEDE584" Ref="#PWR0281"  Part="1" 
-F 0 "#PWR0281" H 4900 5650 50  0001 C CNN
-F 1 "+3V3_USB" H 4915 5973 50  0000 C CNN
-F 2 "" H 4900 5800 50  0001 C CNN
-F 3 "" H 4900 5800 50  0001 C CNN
-	1    4900 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0282
-U 1 1 5BEDE76A
-P 4900 6500
-AR Path="/5BEDE76A" Ref="#PWR0282"  Part="1" 
-AR Path="/5C16C03C/5BEDE76A" Ref="#PWR0282"  Part="1" 
-AR Path="/5BCEDA39/5BEDE76A" Ref="#PWR0282"  Part="1" 
-F 0 "#PWR0282" H 4900 6350 50  0001 C CNN
-F 1 "+3V3_USB" H 4915 6673 50  0000 C CNN
-F 2 "" H 4900 6500 50  0001 C CNN
-F 3 "" H 4900 6500 50  0001 C CNN
-	1    4900 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6400 5400 4550 5400
 Wire Wire Line
@@ -322,34 +280,6 @@ F 3 "" H 5200 8300 50  0001 C CNN
 	1    5200 8300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3VP #PWR0284
-U 1 1 5BEE3303
-P 5200 7200
-AR Path="/5BEE3303" Ref="#PWR0284"  Part="1" 
-AR Path="/5C16C03C/5BEE3303" Ref="#PWR0284"  Part="1" 
-AR Path="/5BCEDA39/5BEE3303" Ref="#PWR0284"  Part="1" 
-F 0 "#PWR0284" H 5200 7050 50  0001 C CNN
-F 1 "+3V3_USB" H 5215 7373 50  0000 C CNN
-F 2 "" H 5200 7200 50  0001 C CNN
-F 3 "" H 5200 7200 50  0001 C CNN
-	1    5200 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0285
-U 1 1 5BEE3995
-P 5200 8000
-AR Path="/5BEE3995" Ref="#PWR0285"  Part="1" 
-AR Path="/5C16C03C/5BEE3995" Ref="#PWR0285"  Part="1" 
-AR Path="/5BCEDA39/5BEE3995" Ref="#PWR0285"  Part="1" 
-F 0 "#PWR0285" H 5200 7850 50  0001 C CNN
-F 1 "+3V3_USB" H 5215 8173 50  0000 C CNN
-F 2 "" H 5200 8000 50  0001 C CNN
-F 3 "" H 5200 8000 50  0001 C CNN
-	1    5200 8000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 3400 8300 3400
 Wire Wire Line
@@ -370,20 +300,6 @@ Wire Wire Line
 Connection ~ 9200 3700
 Wire Wire Line
 	9200 3700 8000 3700
-$Comp
-L power:+3.3VP #PWR0307
-U 1 1 5BEF4782
-P 8300 2950
-AR Path="/5BEF4782" Ref="#PWR0307"  Part="1" 
-AR Path="/5C16C03C/5BEF4782" Ref="#PWR0307"  Part="1" 
-AR Path="/5BCEDA39/5BEF4782" Ref="#PWR0307"  Part="1" 
-F 0 "#PWR0307" H 8300 2800 50  0001 C CNN
-F 1 "+3V3_USB" H 8315 3123 50  0000 C CNN
-F 2 "" H 8300 2950 50  0001 C CNN
-F 3 "" H 8300 2950 50  0001 C CNN
-	1    8300 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8300 2950 8300 3000
 Wire Wire Line
@@ -399,20 +315,6 @@ F 1 "GND" H 8005 8127 50  0000 C CNN
 F 2 "" H 8000 8300 50  0001 C CNN
 F 3 "" H 8000 8300 50  0001 C CNN
 	1    8000 8300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0327
-U 1 1 5BF05253
-P 11300 1500
-AR Path="/5BF05253" Ref="#PWR0327"  Part="1" 
-AR Path="/5C16C03C/5BF05253" Ref="#PWR0327"  Part="1" 
-AR Path="/5BCEDA39/5BF05253" Ref="#PWR0327"  Part="1" 
-F 0 "#PWR0327" H 11300 1350 50  0001 C CNN
-F 1 "+3V3_USB" H 11250 1650 50  0000 C CNN
-F 2 "" H 11300 1500 50  0001 C CNN
-F 3 "" H 11300 1500 50  0001 C CNN
-	1    11300 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -445,34 +347,6 @@ F 2 "" H 12000 3000 50  0001 C CNN
 F 3 "" H 12000 3000 50  0001 C CNN
 	1    12000 3000
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0339
-U 1 1 5BF0DA22
-P 11550 2700
-AR Path="/5BF0DA22" Ref="#PWR0339"  Part="1" 
-AR Path="/5C16C03C/5BF0DA22" Ref="#PWR0339"  Part="1" 
-AR Path="/5BCEDA39/5BF0DA22" Ref="#PWR0339"  Part="1" 
-F 0 "#PWR0339" H 11550 2550 50  0001 C CNN
-F 1 "+3V3_USB" H 11565 2873 50  0000 C CNN
-F 2 "" H 11550 2700 50  0001 C CNN
-F 3 "" H 11550 2700 50  0001 C CNN
-	1    11550 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0328
-U 1 1 5BF1007E
-P 11300 2250
-AR Path="/5BF1007E" Ref="#PWR0328"  Part="1" 
-AR Path="/5C16C03C/5BF1007E" Ref="#PWR0328"  Part="1" 
-AR Path="/5BCEDA39/5BF1007E" Ref="#PWR0328"  Part="1" 
-F 0 "#PWR0328" H 11300 2100 50  0001 C CNN
-F 1 "+3V3_USB" V 11300 2550 50  0000 C CNN
-F 2 "" H 11300 2250 50  0001 C CNN
-F 3 "" H 11300 2250 50  0001 C CNN
-	1    11300 2250
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	11300 2250 11350 2250
@@ -533,20 +407,6 @@ Wire Wire Line
 	10350 2050 11350 2050
 Wire Wire Line
 	10800 1750 10800 1700
-$Comp
-L power:+3.3VP #PWR0330
-U 1 1 5BF2A6B3
-P 11300 3450
-AR Path="/5BF2A6B3" Ref="#PWR0330"  Part="1" 
-AR Path="/5C16C03C/5BF2A6B3" Ref="#PWR0330"  Part="1" 
-AR Path="/5BCEDA39/5BF2A6B3" Ref="#PWR0330"  Part="1" 
-F 0 "#PWR0330" H 11300 3300 50  0001 C CNN
-F 1 "+3V3_USB" H 11200 3600 50  0000 C CNN
-F 2 "" H 11300 3450 50  0001 C CNN
-F 3 "" H 11300 3450 50  0001 C CNN
-	1    11300 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11350 3500 11300 3500
 Wire Wire Line
@@ -572,34 +432,6 @@ F 2 "" H 12000 4950 50  0001 C CNN
 F 3 "" H 12000 4950 50  0001 C CNN
 	1    12000 4950
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0341
-U 1 1 5BF2A6DA
-P 11550 4650
-AR Path="/5BF2A6DA" Ref="#PWR0341"  Part="1" 
-AR Path="/5C16C03C/5BF2A6DA" Ref="#PWR0341"  Part="1" 
-AR Path="/5BCEDA39/5BF2A6DA" Ref="#PWR0341"  Part="1" 
-F 0 "#PWR0341" H 11550 4500 50  0001 C CNN
-F 1 "+3V3_USB" H 11565 4823 50  0000 C CNN
-F 2 "" H 11550 4650 50  0001 C CNN
-F 3 "" H 11550 4650 50  0001 C CNN
-	1    11550 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0332
-U 1 1 5BF2A6E0
-P 11300 4200
-AR Path="/5BF2A6E0" Ref="#PWR0332"  Part="1" 
-AR Path="/5C16C03C/5BF2A6E0" Ref="#PWR0332"  Part="1" 
-AR Path="/5BCEDA39/5BF2A6E0" Ref="#PWR0332"  Part="1" 
-F 0 "#PWR0332" H 11300 4050 50  0001 C CNN
-F 1 "+3V3_USB" V 11300 4500 50  0000 C CNN
-F 2 "" H 11300 4200 50  0001 C CNN
-F 3 "" H 11300 4200 50  0001 C CNN
-	1    11300 4200
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	11300 4200 11350 4200
@@ -712,34 +544,6 @@ F 3 "" H 12000 8400 50  0001 C CNN
 	1    12000 8400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3VP #PWR0343
-U 1 1 5BFC3BDC
-P 11550 8100
-AR Path="/5BFC3BDC" Ref="#PWR0343"  Part="1" 
-AR Path="/5C16C03C/5BFC3BDC" Ref="#PWR0343"  Part="1" 
-AR Path="/5BCEDA39/5BFC3BDC" Ref="#PWR0343"  Part="1" 
-F 0 "#PWR0343" H 11550 7950 50  0001 C CNN
-F 1 "+3V3_USB" H 11565 8273 50  0000 C CNN
-F 2 "" H 11550 8100 50  0001 C CNN
-F 3 "" H 11550 8100 50  0001 C CNN
-	1    11550 8100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0337
-U 1 1 5BFC3BE2
-P 11300 7650
-AR Path="/5BFC3BE2" Ref="#PWR0337"  Part="1" 
-AR Path="/5C16C03C/5BFC3BE2" Ref="#PWR0337"  Part="1" 
-AR Path="/5BCEDA39/5BFC3BE2" Ref="#PWR0337"  Part="1" 
-F 0 "#PWR0337" H 11300 7500 50  0001 C CNN
-F 1 "+3V3_USB" V 11300 7950 50  0000 C CNN
-F 2 "" H 11300 7650 50  0001 C CNN
-F 3 "" H 11300 7650 50  0001 C CNN
-	1    11300 7650
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	11300 7650 11350 7650
 $Comp
@@ -826,34 +630,6 @@ F 3 "" H 10700 9600 50  0001 C CNN
 	1    10700 9600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3VP #PWR0319
-U 1 1 5BFD5006
-P 10250 9300
-AR Path="/5BFD5006" Ref="#PWR0319"  Part="1" 
-AR Path="/5C16C03C/5BFD5006" Ref="#PWR0319"  Part="1" 
-AR Path="/5BCEDA39/5BFD5006" Ref="#PWR0319"  Part="1" 
-F 0 "#PWR0319" H 10250 9150 50  0001 C CNN
-F 1 "+3V3_USB" H 10265 9473 50  0000 C CNN
-F 2 "" H 10250 9300 50  0001 C CNN
-F 3 "" H 10250 9300 50  0001 C CNN
-	1    10250 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0316
-U 1 1 5BFD500C
-P 10000 8850
-AR Path="/5BFD500C" Ref="#PWR0316"  Part="1" 
-AR Path="/5C16C03C/5BFD500C" Ref="#PWR0316"  Part="1" 
-AR Path="/5BCEDA39/5BFD500C" Ref="#PWR0316"  Part="1" 
-F 0 "#PWR0316" H 10000 8700 50  0001 C CNN
-F 1 "+3V3_USB" V 10000 9150 50  0000 C CNN
-F 2 "" H 10000 8850 50  0001 C CNN
-F 3 "" H 10000 8850 50  0001 C CNN
-	1    10000 8850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	10000 8850 10050 8850
 $Comp
@@ -902,34 +678,6 @@ F 3 "" H 9650 10950 50  0001 C CNN
 	1    9650 10950
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3VP #PWR0311
-U 1 1 5BFD8C34
-P 9200 10650
-AR Path="/5BFD8C34" Ref="#PWR0311"  Part="1" 
-AR Path="/5C16C03C/5BFD8C34" Ref="#PWR0311"  Part="1" 
-AR Path="/5BCEDA39/5BFD8C34" Ref="#PWR0311"  Part="1" 
-F 0 "#PWR0311" H 9200 10500 50  0001 C CNN
-F 1 "+3V3_USB" H 9215 10823 50  0000 C CNN
-F 2 "" H 9200 10650 50  0001 C CNN
-F 3 "" H 9200 10650 50  0001 C CNN
-	1    9200 10650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0309
-U 1 1 5BFD8C3A
-P 8950 10200
-AR Path="/5BFD8C3A" Ref="#PWR0309"  Part="1" 
-AR Path="/5C16C03C/5BFD8C3A" Ref="#PWR0309"  Part="1" 
-AR Path="/5BCEDA39/5BFD8C3A" Ref="#PWR0309"  Part="1" 
-F 0 "#PWR0309" H 8950 10050 50  0001 C CNN
-F 1 "+3V3_USB" V 8950 10500 50  0000 C CNN
-F 2 "" H 8950 10200 50  0001 C CNN
-F 3 "" H 8950 10200 50  0001 C CNN
-	1    8950 10200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8950 10200 9000 10200
 Wire Wire Line
@@ -959,8 +707,6 @@ F 3 "" H 8950 9700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8950 9600 9000 9600
-Wire Wire Line
 	9950 5200 9950 7450
 Wire Wire Line
 	9950 7450 11350 7450
@@ -988,20 +734,6 @@ F 2 "" H 11300 7150 50  0001 C CNN
 F 3 "" H 11300 7150 50  0001 C CNN
 	1    11300 7150
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3VP #PWR0335
-U 1 1 5C1F7CC8
-P 11300 7050
-AR Path="/5C1F7CC8" Ref="#PWR0335"  Part="1" 
-AR Path="/5C16C03C/5C1F7CC8" Ref="#PWR0335"  Part="1" 
-AR Path="/5BCEDA39/5C1F7CC8" Ref="#PWR0335"  Part="1" 
-F 0 "#PWR0335" H 11300 6900 50  0001 C CNN
-F 1 "+3V3_USB" V 11300 7350 50  0000 C CNN
-F 2 "" H 11300 7050 50  0001 C CNN
-F 3 "" H 11300 7050 50  0001 C CNN
-	1    11300 7050
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	11300 7150 11350 7150
@@ -1073,28 +805,12 @@ Wire Wire Line
 	8650 9300 8650 9900
 Wire Wire Line
 	8000 8950 8300 8950
-$Comp
-L power:+3.3VP #PWR0306
-U 1 1 5C2602D6
-P 8000 8900
-AR Path="/5C2602D6" Ref="#PWR0306"  Part="1" 
-AR Path="/5C16C03C/5C2602D6" Ref="#PWR0306"  Part="1" 
-AR Path="/5BCEDA39/5C2602D6" Ref="#PWR0306"  Part="1" 
-F 0 "#PWR0306" H 8000 8750 50  0001 C CNN
-F 1 "+3V3_USB" H 8015 9073 50  0000 C CNN
-F 2 "" H 8000 8900 50  0001 C CNN
-F 3 "" H 8000 8900 50  0001 C CNN
-	1    8000 8900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 8900 8000 8950
 Wire Wire Line
 	10000 8350 10050 8350
 Wire Wire Line
 	8950 9700 9000 9700
-Wire Wire Line
-	8950 9500 9000 9500
 Wire Wire Line
 	10550 10150 10550 9900
 $Comp
@@ -1199,20 +915,6 @@ F 3 "" H 5900 2200 50  0001 C CNN
 	1    5900 2200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3VP #PWR0294
-U 1 1 5C3A3BB0
-P 5900 1850
-AR Path="/5C3A3BB0" Ref="#PWR0294"  Part="1" 
-AR Path="/5C16C03C/5C3A3BB0" Ref="#PWR0294"  Part="1" 
-AR Path="/5BCEDA39/5C3A3BB0" Ref="#PWR0294"  Part="1" 
-F 0 "#PWR0294" H 5900 1700 50  0001 C CNN
-F 1 "+3V3_USB" H 5915 2023 50  0000 C CNN
-F 2 "" H 5900 1850 50  0001 C CNN
-F 3 "" H 5900 1850 50  0001 C CNN
-	1    5900 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5900 1850 5900 1900
 Wire Wire Line
@@ -1282,20 +984,6 @@ Wire Wire Line
 	4550 5400 4550 6950
 Wire Wire Line
 	3650 7250 3600 7250
-$Comp
-L power:+3.3VP #PWR0277
-U 1 1 5C4A4C55
-P 3650 7250
-AR Path="/5C4A4C55" Ref="#PWR0277"  Part="1" 
-AR Path="/5C16C03C/5C4A4C55" Ref="#PWR0277"  Part="1" 
-AR Path="/5BCEDA39/5C4A4C55" Ref="#PWR0277"  Part="1" 
-F 0 "#PWR0277" H 3650 7100 50  0001 C CNN
-F 1 "+3V3_USB" V 3650 7550 50  0000 C CNN
-F 2 "" H 3650 7250 50  0001 C CNN
-F 3 "" H 3650 7250 50  0001 C CNN
-	1    3650 7250
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	3450 7150 4050 7150
 Wire Wire Line
@@ -1307,38 +995,10 @@ Wire Wire Line
 Wire Wire Line
 	4050 6900 4050 7150
 Connection ~ 4050 7150
-$Comp
-L power:+3.3VP #PWR0275
-U 1 1 5C55D3ED
-P 3450 6200
-AR Path="/5C55D3ED" Ref="#PWR0275"  Part="1" 
-AR Path="/5C16C03C/5C55D3ED" Ref="#PWR0275"  Part="1" 
-AR Path="/5BCEDA39/5C55D3ED" Ref="#PWR0275"  Part="1" 
-F 0 "#PWR0275" H 3450 6050 50  0001 C CNN
-F 1 "+3V3_USB" H 3465 6373 50  0000 C CNN
-F 2 "" H 3450 6200 50  0001 C CNN
-F 3 "" H 3450 6200 50  0001 C CNN
-	1    3450 6200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3450 6200 3450 6250
 Wire Wire Line
 	3450 6550 3450 6600
-$Comp
-L power:+3.3VP #PWR0279
-U 1 1 5C580305
-P 4050 6550
-AR Path="/5C580305" Ref="#PWR0279"  Part="1" 
-AR Path="/5C16C03C/5C580305" Ref="#PWR0279"  Part="1" 
-AR Path="/5BCEDA39/5C580305" Ref="#PWR0279"  Part="1" 
-F 0 "#PWR0279" H 4050 6400 50  0001 C CNN
-F 1 "+3V3_USB" H 4065 6723 50  0000 C CNN
-F 2 "" H 4050 6550 50  0001 C CNN
-F 3 "" H 4050 6550 50  0001 C CNN
-	1    4050 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 6550 4050 6600
 Wire Wire Line
@@ -1425,52 +1085,8 @@ F 3 "" H 9950 8250 50  0001 C CNN
 	1    9950 8250
 	0    1    1    0   
 $EndComp
-$Comp
-L power:+3.3VP #PWR0480
-U 1 1 638DA2F7
-P 9950 8150
-AR Path="/638DA2F7" Ref="#PWR0480"  Part="1" 
-AR Path="/5C16C03C/638DA2F7" Ref="#PWR0480"  Part="1" 
-AR Path="/5BCEDA39/638DA2F7" Ref="#PWR0480"  Part="1" 
-F 0 "#PWR0480" H 9950 8000 50  0001 C CNN
-F 1 "+3V3_USB" V 9950 8450 50  0000 C CNN
-F 2 "" H 9950 8150 50  0001 C CNN
-F 3 "" H 9950 8150 50  0001 C CNN
-	1    9950 8150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9950 8150 10050 8150
 Wire Wire Line
 	9950 8250 10050 8250
-$Comp
-L power:+3.3VP #PWR0478
-U 1 1 638E7244
-P 8950 9500
-AR Path="/638E7244" Ref="#PWR0478"  Part="1" 
-AR Path="/5C16C03C/638E7244" Ref="#PWR0478"  Part="1" 
-AR Path="/5BCEDA39/638E7244" Ref="#PWR0478"  Part="1" 
-F 0 "#PWR0478" H 8950 9350 50  0001 C CNN
-F 1 "+3V3_USB" V 8950 9800 50  0000 C CNN
-F 2 "" H 8950 9500 50  0001 C CNN
-F 3 "" H 8950 9500 50  0001 C CNN
-	1    8950 9500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3VP #PWR0479
-U 1 1 638F3A06
-P 8950 9600
-AR Path="/638F3A06" Ref="#PWR0479"  Part="1" 
-AR Path="/5C16C03C/638F3A06" Ref="#PWR0479"  Part="1" 
-AR Path="/5BCEDA39/638F3A06" Ref="#PWR0479"  Part="1" 
-F 0 "#PWR0479" H 8950 9450 50  0001 C CNN
-F 1 "+3V3_USB" V 8950 9900 50  0000 C CNN
-F 2 "" H 8950 9600 50  0001 C CNN
-F 3 "" H 8950 9600 50  0001 C CNN
-	1    8950 9600
-	0    -1   -1   0   
-$EndComp
 Connection ~ 3750 7050
 Wire Wire Line
 	3450 6950 4550 6950
@@ -1805,52 +1421,6 @@ F 36 "03/30/17 00:00:00" H 11550 -2980 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 11550 -3070 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11550 -3160 60  0001 L CNN "License"
 	1    11550 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Standard_Logic:SN74AVC2T245RSWR U33
-U 1 1 5C6B6AA8
-P 11550 3400
-F 0 "U33" H 11850 3565 50  0000 C CNN
-F 1 "SN74AVC2T245RSWR" H 11850 3474 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:QFN40P140X180X55-10N" H 11550 1310 60  0001 L CNN
-F 3 "" H 11550 2030 60  0001 L CNN
-F 4 "SN74AVC2T245RSWR" H 11550 1940 60  0001 L CNN "Part Number"
-F 5 "742T245" H 11550 1850 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Standard Logic.SchLib" H 11550 1760 60  0001 L CNN "Library Path"
-F 7 "=Device" H 11550 1670 60  0001 L CNN "Comment"
-F 8 "Standard" H 11550 1580 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 11550 1490 60  0001 L CNN "Component Type"
-F 10 "SN74AVC2T245RSWR" H 11550 1400 60  0001 L CNN "Device"
-F 11 "QFN, 0.40mm Pitch, Rect.;10 Pin, 1.80mm L X 1.40mm W X 0.55mm H Body, IPC Medium Density" H 11550 1220 60  0001 L CNN "PackageDescription"
-F 12 "Not Recommended" H 11550 1130 60  0001 L CNN "Status"
-F 13 "Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs" H 11550 1040 60  0001 L CNN "Part Description"
-F 14 "TEXAS INSTRUMENTS" H 11550 950 60  0001 L CNN "Manufacturer"
-F 15 "SN74AVC2T245RSWR" H 11550 860 60  0001 L CNN "Manufacturer Part Number"
-F 16 "10" H 11550 770 60  0001 L CNN "Pin Count"
-F 17 "QFN10" H 11550 680 60  0001 L CNN "Case"
-F 18 "Yes" H 11550 590 60  0001 L CNN "Mounted"
-F 19 "No" H 11550 500 60  0001 L CNN "Socket"
-F 20 "Yes" H 11550 410 60  0001 L CNN "SMD"
-F 21 "No" H 11550 320 60  0001 L CNN "PressFit"
-F 22 "No" H 11550 230 60  0001 L CNN "Sense"
-F 23 "~~" H 11550 140 60  0001 L CNN "Sense Comment"
-F 24 "No" H 11550 50  60  0001 L CNN "Bonding"
-F 25 "~~" H 11550 -40 60  0001 L CNN "Status Comment"
-F 26 "0.55mm" H 11550 -130 60  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 11550 -220 60  0001 L CNN "Footprint Path"
-F 28 "QFN40P140X180X55-10N" H 11550 -310 60  0001 L CNN "Footprint Ref"
-F 29 "CERN DEM JLC" H 11550 -400 60  0001 L CNN "Author"
-F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74AVC2T245RSWR.pdf" H 11550 -490 60  0001 L CNN "HelpURL"
-F 31 "~~" H 11550 -580 60  0001 L CNN "ComponentLink1URL"
-F 32 "~~" H 11550 -670 60  0001 L CNN "ComponentLink1Description"
-F 33 "~~" H 11550 -760 60  0001 L CNN "ComponentLink2URL"
-F 34 "~~" H 11550 -850 60  0001 L CNN "ComponentLink2Description"
-F 35 "07/07/14 00:00:00" H 11550 -940 60  0001 L CNN "CreateDate"
-F 36 "03/30/17 00:00:00" H 11550 -1030 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 11550 -1120 60  0001 L CNN "Library Name"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11550 -1210 60  0001 L CNN "License"
-	1    11550 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2749,7 +2319,6 @@ Wire Wire Line
 	5200 7200 5650 7200
 Wire Wire Line
 	5200 8000 5650 8000
-Connection ~ 5200 8000
 Connection ~ 5650 8000
 Wire Wire Line
 	5650 8000 6100 8000
@@ -4596,34 +4165,6 @@ F 3 "" H 14050 7550 50  0001 C CNN
 	1    14050 7550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3VP #PWR0601
-U 1 1 5C94B5C0
-P 13600 7250
-AR Path="/5C94B5C0" Ref="#PWR0601"  Part="1" 
-AR Path="/5C16C03C/5C94B5C0" Ref="#PWR0601"  Part="1" 
-AR Path="/5BCEDA39/5C94B5C0" Ref="#PWR0601"  Part="1" 
-F 0 "#PWR0601" H 13600 7100 50  0001 C CNN
-F 1 "+3V3_USB" H 13615 7423 50  0000 C CNN
-F 2 "" H 13600 7250 50  0001 C CNN
-F 3 "" H 13600 7250 50  0001 C CNN
-	1    13600 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VP #PWR0599
-U 1 1 5C94B5C6
-P 13350 6800
-AR Path="/5C94B5C6" Ref="#PWR0599"  Part="1" 
-AR Path="/5C16C03C/5C94B5C6" Ref="#PWR0599"  Part="1" 
-AR Path="/5BCEDA39/5C94B5C6" Ref="#PWR0599"  Part="1" 
-F 0 "#PWR0599" H 13350 6650 50  0001 C CNN
-F 1 "+3V3_USB" V 13350 7100 50  0000 C CNN
-F 2 "" H 13350 6800 50  0001 C CNN
-F 3 "" H 13350 6800 50  0001 C CNN
-	1    13350 6800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	13350 6800 13400 6800
 $Comp
@@ -4676,8 +4217,6 @@ $EndComp
 Wire Wire Line
 	14400 6900 14400 6950
 Wire Wire Line
-	13350 6100 13400 6100
-Wire Wire Line
 	14400 6500 15050 6500
 Text Label 14600 6500 0    50   ~ 10
 FPGA_RTS
@@ -4691,20 +4230,6 @@ F 2 "" H 13350 6300 50  0001 C CNN
 F 3 "" H 13350 6300 50  0001 C CNN
 	1    13350 6300
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3VP #PWR0325
-U 1 1 5C94B5F4
-P 13350 6100
-AR Path="/5C94B5F4" Ref="#PWR0325"  Part="1" 
-AR Path="/5C16C03C/5C94B5F4" Ref="#PWR0325"  Part="1" 
-AR Path="/5BCEDA39/5C94B5F4" Ref="#PWR0325"  Part="1" 
-F 0 "#PWR0325" H 13350 5950 50  0001 C CNN
-F 1 "+3V3_USB" V 13350 6400 50  0000 C CNN
-F 2 "" H 13350 6100 50  0001 C CNN
-F 3 "" H 13350 6100 50  0001 C CNN
-	1    13350 6100
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	13350 6300 13400 6300
@@ -4964,5 +4489,384 @@ F 2 "" H 10000 8950 50  0001 C CNN
 F 3 "" H 10000 8950 50  0001 C CNN
 	1    10000 8950
 	0    -1   -1   0   
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0275
+U 1 1 5E0639EB
+P 5900 1850
+F 0 "#PWR0275" H 5900 1700 50  0001 C CNN
+F 1 "+3V3_USB" H 5915 2023 50  0000 C CNN
+F 2 "" H 5900 1850 50  0001 C CNN
+F 3 "" H 5900 1850 50  0001 C CNN
+	1    5900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0277
+U 1 1 5E0910B1
+P 6350 3300
+F 0 "#PWR0277" H 6350 3150 50  0001 C CNN
+F 1 "+3V3_USB" H 6365 3473 50  0000 C CNN
+F 2 "" H 6350 3300 50  0001 C CNN
+F 3 "" H 6350 3300 50  0001 C CNN
+	1    6350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0279
+U 1 1 5E0AE015
+P 8300 2950
+F 0 "#PWR0279" H 8300 2800 50  0001 C CNN
+F 1 "+3V3_USB" H 8315 3123 50  0000 C CNN
+F 2 "" H 8300 2950 50  0001 C CNN
+F 3 "" H 8300 2950 50  0001 C CNN
+	1    8300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0281
+U 1 1 5E0CAFF4
+P 11300 1500
+F 0 "#PWR0281" H 11300 1350 50  0001 C CNN
+F 1 "+3V3_USB" H 11315 1673 50  0000 C CNN
+F 2 "" H 11300 1500 50  0001 C CNN
+F 3 "" H 11300 1500 50  0001 C CNN
+	1    11300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0282
+U 1 1 5E0E7F6F
+P 11550 2700
+F 0 "#PWR0282" H 11550 2550 50  0001 C CNN
+F 1 "+3V3_USB" H 11565 2873 50  0000 C CNN
+F 2 "" H 11550 2700 50  0001 C CNN
+F 3 "" H 11550 2700 50  0001 C CNN
+	1    11550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Standard_Logic:SN74AVC2T245RSWR U33
+U 1 1 5C6B6AA8
+P 11550 3400
+F 0 "U33" H 11850 3565 50  0000 C CNN
+F 1 "SN74AVC2T245RSWR" H 11850 3474 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:QFN40P140X180X55-10N" H 11550 1310 60  0001 L CNN
+F 3 "" H 11550 2030 60  0001 L CNN
+F 4 "SN74AVC2T245RSWR" H 11550 1940 60  0001 L CNN "Part Number"
+F 5 "742T245" H 11550 1850 60  0001 L CNN "Library Ref"
+F 6 "SchLib\\Standard Logic.SchLib" H 11550 1760 60  0001 L CNN "Library Path"
+F 7 "=Device" H 11550 1670 60  0001 L CNN "Comment"
+F 8 "Standard" H 11550 1580 60  0001 L CNN "Component Kind"
+F 9 "Standard" H 11550 1490 60  0001 L CNN "Component Type"
+F 10 "SN74AVC2T245RSWR" H 11550 1400 60  0001 L CNN "Device"
+F 11 "QFN, 0.40mm Pitch, Rect.;10 Pin, 1.80mm L X 1.40mm W X 0.55mm H Body, IPC Medium Density" H 11550 1220 60  0001 L CNN "PackageDescription"
+F 12 "Not Recommended" H 11550 1130 60  0001 L CNN "Status"
+F 13 "Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs" H 11550 1040 60  0001 L CNN "Part Description"
+F 14 "TEXAS INSTRUMENTS" H 11550 950 60  0001 L CNN "Manufacturer"
+F 15 "SN74AVC2T245RSWR" H 11550 860 60  0001 L CNN "Manufacturer Part Number"
+F 16 "10" H 11550 770 60  0001 L CNN "Pin Count"
+F 17 "QFN10" H 11550 680 60  0001 L CNN "Case"
+F 18 "Yes" H 11550 590 60  0001 L CNN "Mounted"
+F 19 "No" H 11550 500 60  0001 L CNN "Socket"
+F 20 "Yes" H 11550 410 60  0001 L CNN "SMD"
+F 21 "No" H 11550 320 60  0001 L CNN "PressFit"
+F 22 "No" H 11550 230 60  0001 L CNN "Sense"
+F 23 "~~" H 11550 140 60  0001 L CNN "Sense Comment"
+F 24 "No" H 11550 50  60  0001 L CNN "Bonding"
+F 25 "~~" H 11550 -40 60  0001 L CNN "Status Comment"
+F 26 "0.55mm" H 11550 -130 60  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 11550 -220 60  0001 L CNN "Footprint Path"
+F 28 "QFN40P140X180X55-10N" H 11550 -310 60  0001 L CNN "Footprint Ref"
+F 29 "CERN DEM JLC" H 11550 -400 60  0001 L CNN "Author"
+F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74AVC2T245RSWR.pdf" H 11550 -490 60  0001 L CNN "HelpURL"
+F 31 "~~" H 11550 -580 60  0001 L CNN "ComponentLink1URL"
+F 32 "~~" H 11550 -670 60  0001 L CNN "ComponentLink1Description"
+F 33 "~~" H 11550 -760 60  0001 L CNN "ComponentLink2URL"
+F 34 "~~" H 11550 -850 60  0001 L CNN "ComponentLink2Description"
+F 35 "07/07/14 00:00:00" H 11550 -940 60  0001 L CNN "CreateDate"
+F 36 "03/30/17 00:00:00" H 11550 -1030 60  0001 L CNN "LatestRevisionDate"
+F 37 "ICs And Semiconductors SMD" H 11550 -1120 60  0001 L CNN "Library Name"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11550 -1210 60  0001 L CNN "License"
+	1    11550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0284
+U 1 1 5E1142BD
+P 11300 3450
+F 0 "#PWR0284" H 11300 3300 50  0001 C CNN
+F 1 "+3V3_USB" H 11315 3623 50  0000 C CNN
+F 2 "" H 11300 3450 50  0001 C CNN
+F 3 "" H 11300 3450 50  0001 C CNN
+	1    11300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0285
+U 1 1 5E131666
+P 11300 2250
+F 0 "#PWR0285" H 11300 2100 50  0001 C CNN
+F 1 "+3V3_USB" V 11300 2550 50  0000 C CNN
+F 2 "" H 11300 2250 50  0001 C CNN
+F 3 "" H 11300 2250 50  0001 C CNN
+	1    11300 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0294
+U 1 1 5E14E7E2
+P 11300 4200
+F 0 "#PWR0294" H 11300 4050 50  0001 C CNN
+F 1 "+3V3_USB" V 11300 4500 50  0000 C CNN
+F 2 "" H 11300 4200 50  0001 C CNN
+F 3 "" H 11300 4200 50  0001 C CNN
+	1    11300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0304
+U 1 1 5E16BA3D
+P 11550 4650
+F 0 "#PWR0304" H 11550 4500 50  0001 C CNN
+F 1 "+3V3_USB" H 11565 4823 50  0000 C CNN
+F 2 "" H 11550 4650 50  0001 C CNN
+F 3 "" H 11550 4650 50  0001 C CNN
+	1    11550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0306
+U 1 1 5E1A590C
+P 13600 7250
+F 0 "#PWR0306" H 13600 7100 50  0001 C CNN
+F 1 "+3V3_USB" H 13615 7423 50  0000 C CNN
+F 2 "" H 13600 7250 50  0001 C CNN
+F 3 "" H 13600 7250 50  0001 C CNN
+	1    13600 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0307
+U 1 1 5E1B4270
+P 13250 6100
+F 0 "#PWR0307" H 13250 5950 50  0001 C CNN
+F 1 "+3V3_USB" H 13265 6273 50  0000 C CNN
+F 2 "" H 13250 6100 50  0001 C CNN
+F 3 "" H 13250 6100 50  0001 C CNN
+	1    13250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0309
+U 1 1 5E1C2F5B
+P 13350 6800
+F 0 "#PWR0309" H 13350 6650 50  0001 C CNN
+F 1 "+3V3_USB" V 13350 7100 50  0000 C CNN
+F 2 "" H 13350 6800 50  0001 C CNN
+F 3 "" H 13350 6800 50  0001 C CNN
+	1    13350 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13250 6100 13400 6100
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0311
+U 1 1 5E1E0E93
+P 11300 7050
+F 0 "#PWR0311" H 11300 6900 50  0001 C CNN
+F 1 "+3V3_USB" V 11300 7350 50  0000 C CNN
+F 2 "" H 11300 7050 50  0001 C CNN
+F 3 "" H 11300 7050 50  0001 C CNN
+	1    11300 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0316
+U 1 1 5E20CA7E
+P 11300 7650
+F 0 "#PWR0316" H 11300 7500 50  0001 C CNN
+F 1 "+3V3_USB" V 11300 7950 50  0000 C CNN
+F 2 "" H 11300 7650 50  0001 C CNN
+F 3 "" H 11300 7650 50  0001 C CNN
+	1    11300 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0319
+U 1 1 5E24786F
+P 10050 8150
+F 0 "#PWR0319" H 10050 8000 50  0001 C CNN
+F 1 "+3V3_USB" V 10050 8450 50  0000 C CNN
+F 2 "" H 10050 8150 50  0001 C CNN
+F 3 "" H 10050 8150 50  0001 C CNN
+	1    10050 8150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0325
+U 1 1 5E28111D
+P 10000 8850
+F 0 "#PWR0325" H 10000 8700 50  0001 C CNN
+F 1 "+3V3_USB" V 10000 9150 50  0000 C CNN
+F 2 "" H 10000 8850 50  0001 C CNN
+F 3 "" H 10000 8850 50  0001 C CNN
+	1    10000 8850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0327
+U 1 1 5E29D842
+P 9000 9500
+F 0 "#PWR0327" H 9000 9350 50  0001 C CNN
+F 1 "+3V3_USB" V 9000 9800 50  0000 C CNN
+F 2 "" H 9000 9500 50  0001 C CNN
+F 3 "" H 9000 9500 50  0001 C CNN
+	1    9000 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0328
+U 1 1 5E2AB899
+P 9000 9600
+F 0 "#PWR0328" H 9000 9450 50  0001 C CNN
+F 1 "+3V3_USB" V 9000 9900 50  0000 C CNN
+F 2 "" H 9000 9600 50  0001 C CNN
+F 3 "" H 9000 9600 50  0001 C CNN
+	1    9000 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0330
+U 1 1 5E2C78AB
+P 8950 10200
+F 0 "#PWR0330" H 8950 10050 50  0001 C CNN
+F 1 "+3V3_USB" V 8950 10500 50  0000 C CNN
+F 2 "" H 8950 10200 50  0001 C CNN
+F 3 "" H 8950 10200 50  0001 C CNN
+	1    8950 10200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0332
+U 1 1 5E2E3981
+P 11550 8100
+F 0 "#PWR0332" H 11550 7950 50  0001 C CNN
+F 1 "+3V3_USB" H 11565 8273 50  0000 C CNN
+F 2 "" H 11550 8100 50  0001 C CNN
+F 3 "" H 11550 8100 50  0001 C CNN
+	1    11550 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0335
+U 1 1 5E30DBBE
+P 10250 9300
+F 0 "#PWR0335" H 10250 9150 50  0001 C CNN
+F 1 "+3V3_USB" H 10265 9473 50  0000 C CNN
+F 2 "" H 10250 9300 50  0001 C CNN
+F 3 "" H 10250 9300 50  0001 C CNN
+	1    10250 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0337
+U 1 1 5E329CA2
+P 9200 10650
+F 0 "#PWR0337" H 9200 10500 50  0001 C CNN
+F 1 "+3V3_USB" H 9215 10823 50  0000 C CNN
+F 2 "" H 9200 10650 50  0001 C CNN
+F 3 "" H 9200 10650 50  0001 C CNN
+	1    9200 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0339
+U 1 1 5E345D17
+P 5200 8000
+F 0 "#PWR0339" H 5200 7850 50  0001 C CNN
+F 1 "+3V3_USB" H 5215 8173 50  0000 C CNN
+F 2 "" H 5200 8000 50  0001 C CNN
+F 3 "" H 5200 8000 50  0001 C CNN
+	1    5200 8000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5200 8000
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0341
+U 1 1 5E37DE16
+P 5200 7200
+F 0 "#PWR0341" H 5200 7050 50  0001 C CNN
+F 1 "+3V3_USB" H 5215 7373 50  0000 C CNN
+F 2 "" H 5200 7200 50  0001 C CNN
+F 3 "" H 5200 7200 50  0001 C CNN
+	1    5200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0343
+U 1 1 5E399F01
+P 4900 6500
+F 0 "#PWR0343" H 4900 6350 50  0001 C CNN
+F 1 "+3V3_USB" H 4915 6673 50  0000 C CNN
+F 2 "" H 4900 6500 50  0001 C CNN
+F 3 "" H 4900 6500 50  0001 C CNN
+	1    4900 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0478
+U 1 1 5E3B5F64
+P 4900 5800
+F 0 "#PWR0478" H 4900 5650 50  0001 C CNN
+F 1 "+3V3_USB" H 4915 5973 50  0000 C CNN
+F 2 "" H 4900 5800 50  0001 C CNN
+F 3 "" H 4900 5800 50  0001 C CNN
+	1    4900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0479
+U 1 1 5E3DFF47
+P 4050 6550
+F 0 "#PWR0479" H 4050 6400 50  0001 C CNN
+F 1 "+3V3_USB" H 4065 6723 50  0000 C CNN
+F 2 "" H 4050 6550 50  0001 C CNN
+F 3 "" H 4050 6550 50  0001 C CNN
+	1    4050 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0480
+U 1 1 5E3EE00F
+P 3450 6200
+F 0 "#PWR0480" H 3450 6050 50  0001 C CNN
+F 1 "+3V3_USB" H 3465 6373 50  0000 C CNN
+F 2 "" H 3450 6200 50  0001 C CNN
+F 3 "" H 3450 6200 50  0001 C CNN
+	1    3450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0599
+U 1 1 5E40A0AB
+P 3650 7250
+F 0 "#PWR0599" H 3650 7100 50  0001 C CNN
+F 1 "+3V3_USB" V 3650 7550 50  0000 C CNN
+F 2 "" H 3650 7250 50  0001 C CNN
+F 3 "" H 3650 7250 50  0001 C CNN
+	1    3650 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_USB #PWR0601
+U 1 1 5E4346A3
+P 8000 8900
+F 0 "#PWR0601" H 8000 8750 50  0001 C CNN
+F 1 "+3V3_USB" H 8015 9073 50  0000 C CNN
+F 2 "" H 8000 8900 50  0001 C CNN
+F 3 "" H 8000 8900 50  0001 C CNN
+	1    8000 8900
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

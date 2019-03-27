@@ -3405,6 +3405,370 @@ F 3 "" H 10450 4450 50  0001 C CNN
 	1    10450 4450
 	1    0    0    -1  
 $EndComp
+$Comp
+L LEDs_&_Displays:LED_AVAGO_HSMC-C120 LD?
+U 1 1 5E66E5E1
+P 9950 6500
+AR Path="/5C907554/5E66E5E1" Ref="LD?"  Part="1" 
+AR Path="/5BCEDA39/5E66E5E1" Ref="LD14"  Part="1" 
+F 0 "LD14" H 9950 6400 50  0000 C CNN
+F 1 "LED_AVAGO_HSMC-C120" H 9950 6270 60  0001 L CNN
+F 2 "ICs And Semiconductors SMD:LED_AVAGO_HSMC-C120" H 9950 5280 60  0001 L CNN
+F 3 "" H 9950 6090 60  0001 L CNN
+F 4 "Red" H 9950 6000 60  0001 L CNN "Pole4"
+F 5 "LED_AVAGO_HSMC-C120" H 9950 6000 60  0001 L CNN "Part Number"
+F 6 "LED Red 1C 2A" H 9950 5910 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\LEDs & Displays.SchLib" H 9950 5820 60  0001 L CNN "Library Path"
+F 8 "~~" H 9950 5730 60  0001 L CNN "Comment"
+F 9 "Standard" H 9950 5640 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 9950 5550 60  0001 L CNN "Component Type"
+F 11 "Red" H 9950 5460 60  0001 L CNN "Color"
+F 12 "~~" H 9950 5370 60  0001 L CNN "Device"
+F 13 "Red Chip LED, 2-Leads, Body 1.7x1.1mm, Side Emitting Package" H 9950 5190 60  0001 L CNN "PackageDescription"
+F 14 "~~" H 9950 5100 60  0001 L CNN "Status"
+F 15 "High Performance Right Angle Chip Red LED" H 9950 5010 60  0001 L CNN "Part Description"
+F 16 "AVAGO TECHNOLOGIES" H 9950 4920 60  0001 L CNN "Manufacturer"
+F 17 "HSMC-C120" H 9950 4830 60  0001 L CNN "Manufacturer Part Number"
+F 18 "2" H 9950 4740 60  0001 L CNN "Pin Count"
+F 19 "~~" H 9950 4650 60  0001 L CNN "Case"
+F 20 "Yes" H 9950 4560 60  0001 L CNN "Mounted"
+F 21 "No" H 9950 4470 60  0001 L CNN "Socket"
+F 22 "Yes" H 9950 4380 60  0001 L CNN "SMD"
+F 23 "No" H 9950 4290 60  0001 L CNN "PressFit"
+F 24 "~~" H 9950 4200 60  0001 L CNN "Sense Comment"
+F 25 "No" H 9950 4110 60  0001 L CNN "Sense"
+F 26 "No" H 9950 4020 60  0001 L CNN "Bonding"
+F 27 "~~" H 9950 3930 60  0001 L CNN "Status Comment"
+F 28 "0.7mm" H 9950 3840 60  0001 L CNN "ComponentHeight"
+F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 9950 3750 60  0001 L CNN "Footprint Path"
+F 30 "LED_AVAGO_HSMC-C120" H 9950 3660 60  0001 L CNN "Footprint Ref"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120.pdf" H 9950 3570 60  0001 L CNN "HelpURL"
+F 32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120_DESIGN-GUIDE.pdf" H 9950 3480 60  0001 L CNN "ComponentLink1URL"
+F 33 "Design Guide" H 9950 3390 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 9950 3300 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 9950 3210 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JMW" H 9950 3120 60  0001 L CNN "Author"
+F 37 "07/22/09 00:00:00" H 9950 3030 60  0001 L CNN "CreateDate"
+F 38 "06/20/12 00:00:00" H 9950 2940 60  0001 L CNN "LatestRevisionDate"
+F 39 "ICs And Semiconductors SMD" H 9950 2850 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9950 2760 60  0001 L CNN "License"
+	1    9950 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors_SMD:R0402_1K_1%_0.0625W_100PPM R?
+U 1 1 5E66E638
+P 10300 6050
+AR Path="/5C16BF8E/5DB9B7E6/5E66E638" Ref="R?"  Part="1" 
+AR Path="/5C907554/5E66E638" Ref="R?"  Part="1" 
+AR Path="/5BCEDA39/5E66E638" Ref="R268"  Part="1" 
+F 0 "R268" V 10404 6110 50  0000 L CNN
+F 1 "R0402_1K_1%_0.0625W_100PPM" H 10300 5840 60  0001 L CNN
+F 2 "RESC1005X40N" H 10300 5030 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 10300 5660 60  0001 L CNN
+F 4 "1k" V 10495 6110 50  0000 L CNN "~"
+F 5 "R0402_1K_1%_0.0625W_100PPM" H 10300 5570 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 10300 5480 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 10300 5390 60  0001 L CNN "Library Path"
+F 8 "=Value" H 10300 5300 60  0001 L CNN "Comment"
+F 9 "Standard" H 10300 5210 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 10300 5120 60  0001 L CNN "Component Type"
+F 11 "~~" H 10300 4940 60  0001 L CNN "PackageDescription"
+F 12 "2" H 10300 4850 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 10300 4760 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 10300 4670 60  0001 L CNN "Footprint Ref"
+F 15 "1k" H 10300 4580 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 10300 4490 60  0001 L CNN "Status"
+F 17 "0.0625W" H 10300 4400 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 10300 4310 60  0001 L CNN "TC"
+F 19 "~~" H 10300 4220 60  0001 L CNN "Voltage"
+F 20 "±1%" H 10300 4130 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 10300 4040 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 10300 3950 60  0001 L CNN "Manufacturer"
+F 23 "R0402_1K_1%_0.0625W_100PPM" H 10300 3860 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 10300 3770 60  0001 L CNN "Case"
+F 25 "No" H 10300 3680 60  0001 L CNN "PressFit"
+F 26 "Yes" H 10300 3590 60  0001 L CNN "Mounted"
+F 27 "~~" H 10300 3500 60  0001 L CNN "Sense Comment"
+F 28 "No" H 10300 3410 60  0001 L CNN "Sense"
+F 29 "~~" H 10300 3320 60  0001 L CNN "Status Comment"
+F 30 "No" H 10300 3230 60  0001 L CNN "Socket"
+F 31 "Yes" H 10300 3140 60  0001 L CNN "SMD"
+F 32 "~~" H 10300 3050 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 10300 2960 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270671002L" H 10300 2870 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 10300 2780 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 10300 2690 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 10300 2600 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 10300 2510 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 10300 2420 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 10300 2330 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10300 2240 60  0001 L CNN "License"
+	1    10300 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors_SMD:R0402_1K_1%_0.0625W_100PPM R?
+U 1 1 5E66E664
+P 9950 6050
+AR Path="/5C16BF8E/5DB9B7E6/5E66E664" Ref="R?"  Part="1" 
+AR Path="/5C907554/5E66E664" Ref="R?"  Part="1" 
+AR Path="/5BCEDA39/5E66E664" Ref="R267"  Part="1" 
+F 0 "R267" V 10054 6110 50  0000 L CNN
+F 1 "R0402_1K_1%_0.0625W_100PPM" H 9950 5840 60  0001 L CNN
+F 2 "RESC1005X40N" H 9950 5030 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 9950 5660 60  0001 L CNN
+F 4 "1k" V 10145 6110 50  0000 L CNN "~"
+F 5 "R0402_1K_1%_0.0625W_100PPM" H 9950 5570 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 9950 5480 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 9950 5390 60  0001 L CNN "Library Path"
+F 8 "=Value" H 9950 5300 60  0001 L CNN "Comment"
+F 9 "Standard" H 9950 5210 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 9950 5120 60  0001 L CNN "Component Type"
+F 11 "~~" H 9950 4940 60  0001 L CNN "PackageDescription"
+F 12 "2" H 9950 4850 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 9950 4760 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 9950 4670 60  0001 L CNN "Footprint Ref"
+F 15 "1k" H 9950 4580 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 9950 4490 60  0001 L CNN "Status"
+F 17 "0.0625W" H 9950 4400 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 9950 4310 60  0001 L CNN "TC"
+F 19 "~~" H 9950 4220 60  0001 L CNN "Voltage"
+F 20 "±1%" H 9950 4130 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 9950 4040 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 9950 3950 60  0001 L CNN "Manufacturer"
+F 23 "R0402_1K_1%_0.0625W_100PPM" H 9950 3860 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 9950 3770 60  0001 L CNN "Case"
+F 25 "No" H 9950 3680 60  0001 L CNN "PressFit"
+F 26 "Yes" H 9950 3590 60  0001 L CNN "Mounted"
+F 27 "~~" H 9950 3500 60  0001 L CNN "Sense Comment"
+F 28 "No" H 9950 3410 60  0001 L CNN "Sense"
+F 29 "~~" H 9950 3320 60  0001 L CNN "Status Comment"
+F 30 "No" H 9950 3230 60  0001 L CNN "Socket"
+F 31 "Yes" H 9950 3140 60  0001 L CNN "SMD"
+F 32 "~~" H 9950 3050 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 9950 2960 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270671002L" H 9950 2870 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 9950 2780 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 9950 2690 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 9950 2600 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 9950 2510 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 9950 2420 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 9950 2330 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9950 2240 60  0001 L CNN "License"
+	1    9950 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L LEDs_&_Displays:LED_AVAGO_HSMC-C120 LD?
+U 1 1 5E67FF5B
+P 9600 6500
+AR Path="/5C907554/5E67FF5B" Ref="LD?"  Part="1" 
+AR Path="/5BCEDA39/5E67FF5B" Ref="LD13"  Part="1" 
+F 0 "LD13" H 9600 6400 50  0000 C CNN
+F 1 "LED_AVAGO_HSMC-C120" H 9600 6270 60  0001 L CNN
+F 2 "ICs And Semiconductors SMD:LED_AVAGO_HSMC-C120" H 9600 5280 60  0001 L CNN
+F 3 "" H 9600 6090 60  0001 L CNN
+F 4 "Red" H 9600 6000 60  0001 L CNN "Pole4"
+F 5 "LED_AVAGO_HSMC-C120" H 9600 6000 60  0001 L CNN "Part Number"
+F 6 "LED Red 1C 2A" H 9600 5910 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\LEDs & Displays.SchLib" H 9600 5820 60  0001 L CNN "Library Path"
+F 8 "~~" H 9600 5730 60  0001 L CNN "Comment"
+F 9 "Standard" H 9600 5640 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 9600 5550 60  0001 L CNN "Component Type"
+F 11 "Red" H 9600 5460 60  0001 L CNN "Color"
+F 12 "~~" H 9600 5370 60  0001 L CNN "Device"
+F 13 "Red Chip LED, 2-Leads, Body 1.7x1.1mm, Side Emitting Package" H 9600 5190 60  0001 L CNN "PackageDescription"
+F 14 "~~" H 9600 5100 60  0001 L CNN "Status"
+F 15 "High Performance Right Angle Chip Red LED" H 9600 5010 60  0001 L CNN "Part Description"
+F 16 "AVAGO TECHNOLOGIES" H 9600 4920 60  0001 L CNN "Manufacturer"
+F 17 "HSMC-C120" H 9600 4830 60  0001 L CNN "Manufacturer Part Number"
+F 18 "2" H 9600 4740 60  0001 L CNN "Pin Count"
+F 19 "~~" H 9600 4650 60  0001 L CNN "Case"
+F 20 "Yes" H 9600 4560 60  0001 L CNN "Mounted"
+F 21 "No" H 9600 4470 60  0001 L CNN "Socket"
+F 22 "Yes" H 9600 4380 60  0001 L CNN "SMD"
+F 23 "No" H 9600 4290 60  0001 L CNN "PressFit"
+F 24 "~~" H 9600 4200 60  0001 L CNN "Sense Comment"
+F 25 "No" H 9600 4110 60  0001 L CNN "Sense"
+F 26 "No" H 9600 4020 60  0001 L CNN "Bonding"
+F 27 "~~" H 9600 3930 60  0001 L CNN "Status Comment"
+F 28 "0.7mm" H 9600 3840 60  0001 L CNN "ComponentHeight"
+F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 9600 3750 60  0001 L CNN "Footprint Path"
+F 30 "LED_AVAGO_HSMC-C120" H 9600 3660 60  0001 L CNN "Footprint Ref"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120.pdf" H 9600 3570 60  0001 L CNN "HelpURL"
+F 32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120_DESIGN-GUIDE.pdf" H 9600 3480 60  0001 L CNN "ComponentLink1URL"
+F 33 "Design Guide" H 9600 3390 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 9600 3300 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 9600 3210 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JMW" H 9600 3120 60  0001 L CNN "Author"
+F 37 "07/22/09 00:00:00" H 9600 3030 60  0001 L CNN "CreateDate"
+F 38 "06/20/12 00:00:00" H 9600 2940 60  0001 L CNN "LatestRevisionDate"
+F 39 "ICs And Semiconductors SMD" H 9600 2850 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9600 2760 60  0001 L CNN "License"
+	1    9600 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors_SMD:R0402_1K_1%_0.0625W_100PPM R?
+U 1 1 5E67FF87
+P 9600 6050
+AR Path="/5C16BF8E/5DB9B7E6/5E67FF87" Ref="R?"  Part="1" 
+AR Path="/5C907554/5E67FF87" Ref="R?"  Part="1" 
+AR Path="/5BCEDA39/5E67FF87" Ref="R266"  Part="1" 
+F 0 "R266" V 9704 6110 50  0000 L CNN
+F 1 "R0402_1K_1%_0.0625W_100PPM" H 9600 5840 60  0001 L CNN
+F 2 "RESC1005X40N" H 9600 5030 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 9600 5660 60  0001 L CNN
+F 4 "1k" V 9795 6110 50  0000 L CNN "~"
+F 5 "R0402_1K_1%_0.0625W_100PPM" H 9600 5570 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 9600 5480 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 9600 5390 60  0001 L CNN "Library Path"
+F 8 "=Value" H 9600 5300 60  0001 L CNN "Comment"
+F 9 "Standard" H 9600 5210 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 9600 5120 60  0001 L CNN "Component Type"
+F 11 "~~" H 9600 4940 60  0001 L CNN "PackageDescription"
+F 12 "2" H 9600 4850 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 9600 4760 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 9600 4670 60  0001 L CNN "Footprint Ref"
+F 15 "1k" H 9600 4580 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 9600 4490 60  0001 L CNN "Status"
+F 17 "0.0625W" H 9600 4400 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 9600 4310 60  0001 L CNN "TC"
+F 19 "~~" H 9600 4220 60  0001 L CNN "Voltage"
+F 20 "±1%" H 9600 4130 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 9600 4040 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 9600 3950 60  0001 L CNN "Manufacturer"
+F 23 "R0402_1K_1%_0.0625W_100PPM" H 9600 3860 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 9600 3770 60  0001 L CNN "Case"
+F 25 "No" H 9600 3680 60  0001 L CNN "PressFit"
+F 26 "Yes" H 9600 3590 60  0001 L CNN "Mounted"
+F 27 "~~" H 9600 3500 60  0001 L CNN "Sense Comment"
+F 28 "No" H 9600 3410 60  0001 L CNN "Sense"
+F 29 "~~" H 9600 3320 60  0001 L CNN "Status Comment"
+F 30 "No" H 9600 3230 60  0001 L CNN "Socket"
+F 31 "Yes" H 9600 3140 60  0001 L CNN "SMD"
+F 32 "~~" H 9600 3050 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 9600 2960 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270671002L" H 9600 2870 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 9600 2780 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 9600 2690 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 9600 2600 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 9600 2510 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 9600 2420 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 9600 2330 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9600 2240 60  0001 L CNN "License"
+	1    9600 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12850 6700 10300 6700
+Wire Wire Line
+	10300 6700 10300 6650
+Wire Wire Line
+	12850 6800 9950 6800
+Wire Wire Line
+	9950 6800 9950 6650
+Wire Wire Line
+	12850 6900 9600 6900
+Wire Wire Line
+	9600 6900 9600 6650
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 5E716956
+P 9600 6050
+AR Path="/5C16C03C/5E716956" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5E716956" Ref="#PWR0638"  Part="1" 
+AR Path="/5C16BF8E/5E716956" Ref="#PWR?"  Part="1" 
+AR Path="/5E716956" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0638" H 9600 5900 50  0001 C CNN
+F 1 "+3V3MP" H 9615 6223 50  0000 C CNN
+F 2 "" H 9600 6050 50  0001 C CNN
+F 3 "" H 9600 6050 50  0001 C CNN
+	1    9600 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 5E72749D
+P 9950 6050
+AR Path="/5C16C03C/5E72749D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5E72749D" Ref="#PWR0639"  Part="1" 
+AR Path="/5C16BF8E/5E72749D" Ref="#PWR?"  Part="1" 
+AR Path="/5E72749D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0639" H 9950 5900 50  0001 C CNN
+F 1 "+3V3MP" H 9965 6223 50  0000 C CNN
+F 2 "" H 9950 6050 50  0001 C CNN
+F 3 "" H 9950 6050 50  0001 C CNN
+	1    9950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 5E737FE0
+P 10300 6050
+AR Path="/5C16C03C/5E737FE0" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5E737FE0" Ref="#PWR0640"  Part="1" 
+AR Path="/5C16BF8E/5E737FE0" Ref="#PWR?"  Part="1" 
+AR Path="/5E737FE0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0640" H 10300 5900 50  0001 C CNN
+F 1 "+3V3MP" H 10315 6223 50  0000 C CNN
+F 2 "" H 10300 6050 50  0001 C CNN
+F 3 "" H 10300 6050 50  0001 C CNN
+	1    10300 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LEDs_&_Displays:LED_KINGBRIGHT_KPH-1608CGCK LD?
+U 1 1 5E74B863
+P 10300 6500
+AR Path="/5C907554/5C417BCB/5E74B863" Ref="LD?"  Part="1" 
+AR Path="/5C16BF8E/5E74B863" Ref="LD?"  Part="1" 
+AR Path="/5BCEDA39/5E74B863" Ref="LD15"  Part="1" 
+F 0 "LD15" V 10300 6670 50  0000 L CNN
+F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 10300 6270 60  0001 L CNN
+F 2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" H 10300 5280 60  0001 L CNN
+F 3 "" H 10300 6090 60  0001 L CNN
+F 4 "Green" H 10300 6000 60  0001 L CNN "Pole4"
+F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 10300 6000 60  0001 L CNN "Part Number"
+F 6 "LED Green 1C 2A" H 10300 5910 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\LEDs & Displays.SchLib" H 10300 5820 60  0001 L CNN "Library Path"
+F 8 "~~" H 10300 5730 60  0001 L CNN "Comment"
+F 9 "Standard" H 10300 5640 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 10300 5550 60  0001 L CNN "Component Type"
+F 11 "Green" H 10300 5460 60  0001 L CNN "Color"
+F 12 "~~" H 10300 5370 60  0001 L CNN "Device"
+F 13 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 10300 5190 60  0001 L CNN "PackageDescription"
+F 14 "~~" H 10300 5100 60  0001 L CNN "Status"
+F 15 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 10300 5010 60  0001 L CNN "Part Description"
+F 16 "KINGBRIGHT" H 10300 4920 60  0001 L CNN "Manufacturer"
+F 17 "KPH-1608CGCK" H 10300 4830 60  0001 L CNN "Manufacturer Part Number"
+F 18 "2" H 10300 4740 60  0001 L CNN "Pin Count"
+F 19 "~~" H 10300 4650 60  0001 L CNN "Case"
+F 20 "Yes" H 10300 4560 60  0001 L CNN "Mounted"
+F 21 "No" H 10300 4470 60  0001 L CNN "Socket"
+F 22 "Yes" H 10300 4380 60  0001 L CNN "SMD"
+F 23 "No" H 10300 4290 60  0001 L CNN "PressFit"
+F 24 "~~" H 10300 4200 60  0001 L CNN "Sense Comment"
+F 25 "No" H 10300 4110 60  0001 L CNN "Sense"
+F 26 "No" H 10300 4020 60  0001 L CNN "Bonding"
+F 27 "~~" H 10300 3930 60  0001 L CNN "Status Comment"
+F 28 "0.65mm" H 10300 3840 60  0001 L CNN "ComponentHeight"
+F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 10300 3750 60  0001 L CNN "Footprint Path"
+F 30 "LED_KINGBRIGHT_KPH-1608CGCK" H 10300 3660 60  0001 L CNN "Footprint Ref"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_KINGBRIGHT_KPH-1608CGCK.pdf" H 10300 3570 60  0001 L CNN "HelpURL"
+F 32 "~~" H 10300 3480 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 10300 3390 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 10300 3300 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 10300 3210 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 10300 3120 60  0001 L CNN "Author"
+F 37 "07/03/17 00:00:00" H 10300 3030 60  0001 L CNN "CreateDate"
+F 38 "07/03/17 00:00:00" H 10300 2940 60  0001 L CNN "LatestRevisionDate"
+F 39 "ICs And Semiconductors SMD" H 10300 2850 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10300 2760 60  0001 L CNN "License"
+	1    10300 6500
+	0    1    1    0   
+$EndComp
 Wire Bus Line
 	11600 7200 11600 7400
 Wire Bus Line

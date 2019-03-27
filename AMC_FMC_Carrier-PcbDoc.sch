@@ -1561,7 +1561,7 @@ Wire Wire Line
 	2950 15150 2950 15250
 Text Label 3300 15150 0    50   ~ 10
 ESDSTRIP1
-Text Label 4150 15150 0    50   ~ 10
+Text Label 4100 15150 0    50   ~ 10
 ESDSTRIP2
 Wire Wire Line
 	4550 15150 4050 15150
