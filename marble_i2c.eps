@@ -1,10 +1,10 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%Title: marble_i2c.eps
 %%Creator: XCircuit v3.8 rev78
-%%CreationDate: Mon Mar 25 11:51:13 2019
+%%CreationDate: Tue Apr  2 12:30:06 2019
 %%Pages: 1
 %%BoundingBox: 68 68 736 472
-%%DocumentNeededResources: font Helvetica Times-Roman 
+%%DocumentNeededResources: font Helvetica Times-Roman
 %%EndComments
 %%BeginProlog
 %
@@ -24,11 +24,11 @@
 /XCIRCsave save def
 /topmat matrix currentmatrix def
 
-/fontslant { /slant exch def [1 0 slant 1 0 0] 
+/fontslant { /slant exch def [1 0 slant 1 0 0]
     exch findfont exch makefont dup length dict /ndict exch def
     { 1 index /FID ne { ndict 3 1 roll put } { pop pop } ifelse } forall
     ndict definefont pop} def
-/ul { dup type /stringtype eq showflag 1 eq and { gsave 
+/ul { dup type /stringtype eq showflag 1 eq and { gsave
    currentpoint topmat setmatrix 0 0 moveto 2 index stringwidth pop (_)
    false charpath flattenpath pathbbox grestore exch pop 1 index
    sub setlinewidth exch pop currentpoint 3 -1 roll add moveto 0
@@ -99,8 +99,8 @@
 
 /scb { setrgbcolor } bind def  /sce { defColor aload pop scb } bind def
 /cRedef {/defColor currentcolor 3 array astore def} def
-/begingate {dup type /dicttype ne {1 dict} if begin	% default params
-	dup type /dicttype ne {1 dict} if begin		% instanced params
+/begingate {dup type /dicttype ne {1 dict} if begin % default params
+	dup type /dicttype ne {1 dict} if begin % instanced params
 	/hlevel hlevel 1 add def /defColor currentcolor sce 3 array astore
 	def gsave sce translate 0 0 moveto neg rotate dup type /nametype
 	eq not { dup abs currentlinewidth exch div setlinewidth } { pop }
@@ -135,8 +135,8 @@
   7 exch sub 8 div dup 1 exch sub currentrgbcolor 3 array astore
   {3 copy mul add 4 1 roll pop} forall pop pop setrgbcolor eofill}
   {dup 7 lt {gar exch get ppaint} {pop eofill} ifelse} ifelse}
-  {style 256 and 0 gt {1 setgray eofill} if} ifelse grestore style 8 and 0 gt 
-  style 512 eq or {newpath} {stroke} ifelse grestore endclip} ifelse} def     
+  {style 256 and 0 gt {1 setgray eofill} if} ifelse grestore style 8 and 0 gt
+  style 512 eq or {newpath} {stroke} ifelse grestore endclip} ifelse} def
 
 /addtoy {exch dup dup 2 mul 3 add 1 roll -1 1 { 4 1 roll dup 4 1 roll add
 	4 -1 roll 2 mul 1 add index 2 mul 2 add 2 roll} for pop} def
@@ -160,7 +160,7 @@
 /polyc   { {lineto} repeat } bind def
 /beginpath { gsave moveto } bind def
 /endpath { setstyles } bind def
-/bop	 { 1 setlinecap 2 setlinejoin 6 setmiterlimit 0 0 0 scb cRedef
+/bop     { 1 setlinecap 2 setlinejoin 6 setmiterlimit 0 0 0 scb cRedef
 	/clipped 0 def} def
 /psinsertion {/PSobj save def /showpage {} def /setpagedevice {pop} def bop
 	rotate translate dup scale} def
@@ -183,7 +183,7 @@ begingate
 3 -18 3 -15 0 0 curveto
 -3 -15 -3 -18 -8 -28 curveto
 -2 -26 2 -26 8 -28 curveto
-249 
+249
 1.000 endpath
 endgate
 } def
@@ -287,7 +287,7 @@ endgate
 0 1.000 768 360 768 248 992 248 992 360 4 polygon
 (U39, p.19) {/Helvetica cf} 2 17 0 1.000 880 376 label
 (PCA9555) {/Helvetica cf} 2 21 0 1.000 880 320 label
-(0x44) {/Helvetica cf} 2 21 0 0.800 880 272 label
+(0x42) {/Helvetica cf} 2 21 0 0.800 880 272 label
 1.000 90 32 1072 generic::arrowhead
 1.000 90 352 1072 generic::arrowhead
 1.000 90 352 864 generic::arrowhead
