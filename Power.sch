@@ -2005,71 +2005,8 @@ Wire Wire Line
 Connection ~ 9700 8750
 Wire Wire Line
 	9700 8750 9700 8650
-$Comp
-L Transistors:SI4425DDY-T1-GE3 Q3
-U 1 1 5D3D70B4
-P 5350 2450
-F 0 "Q3" V 6000 2150 50  0000 C CNN
-F 1 "SI4425DDY-T1-GE3" V 5900 2200 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" H 5350 690 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SI4425DDY-T1-GE3.pdf" H 5350 1410 60  0001 L CNN
-F 4 "SI4425DDY-T1-GE3" H 5350 1320 60  0001 L CNN "Part Number"
-F 5 "SI4425DDY" H 5350 1230 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Transistors.SchLib" H 5350 1140 60  0001 L CNN "Library Path"
-F 7 "=Device" H 5350 1050 60  0001 L CNN "Comment"
-F 8 "Standard" H 5350 960 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 5350 870 60  0001 L CNN "Component Type"
-F 10 "SI4425DDY-T1-GE3" H 5350 780 60  0001 L CNN "Device"
-F 11 "SOIC 8, Pitch 1.27mm - Body 4x5mm, IPC Medium Density" H 5350 600 60  0001 L CNN "PackageDescription"
-F 12 "~~" H 5350 510 60  0001 L CNN "Status"
-F 13 "-30V -19.7A P-Channel MOSFET" H 5350 420 60  0001 L CNN "Part Description"
-F 14 "VISHAY SILICONIX" H 5350 330 60  0001 L CNN "Manufacturer"
-F 15 "SI4425DDY-T1-GE3" H 5350 240 60  0001 L CNN "Manufacturer Part Number"
-F 16 "8" H 5350 150 60  0001 L CNN "Pin Count"
-F 17 "SOIC8" H 5350 60  60  0001 L CNN "Case"
-F 18 "Yes" H 5350 -30 60  0001 L CNN "Mounted"
-F 19 "No" H 5350 -120 60  0001 L CNN "Socket"
-F 20 "No" H 5350 -210 60  0001 L CNN "PressFit"
-F 21 "Yes" H 5350 -300 60  0001 L CNN "SMD"
-F 22 "No" H 5350 -390 60  0001 L CNN "Sense"
-F 23 "~~" H 5350 -480 60  0001 L CNN "Sense Comment"
-F 24 "No" H 5350 -570 60  0001 L CNN "Bonding"
-F 25 "~~" H 5350 -660 60  0001 L CNN "Status Comment"
-F 26 "1.75mm" H 5350 -750 60  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 5350 -840 60  0001 L CNN "Footprint Path"
-F 28 "SOIC127P600X175-8N" H 5350 -930 60  0001 L CNN "Footprint Ref"
-F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SI4425DDY-T1-GE3.pdf" H 5350 -1020 60  0001 L CNN "HelpURL"
-F 30 "~~" H 5350 -1110 60  0001 L CNN "ComponentLink1URL"
-F 31 "~~" H 5350 -1200 60  0001 L CNN "ComponentLink1Description"
-F 32 "~~" H 5350 -1290 60  0001 L CNN "ComponentLink2URL"
-F 33 "~~" H 5350 -1380 60  0001 L CNN "ComponentLink2Description"
-F 34 "CERN DEM MR" H 5350 -1470 60  0001 L CNN "Author"
-F 35 "10/05/16 00:00:00" H 5350 -1560 60  0001 L CNN "CreateDate"
-F 36 "10/05/16 00:00:00" H 5350 -1650 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 5350 -1740 60  0001 L CNN "Library Name"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5350 -1830 60  0001 L CNN "License"
-	1    5350 2450
-	0    1    -1   0   
-$EndComp
 Connection ~ 5650 2650
-Wire Wire Line
-	4650 2150 4650 1850
-Wire Wire Line
-	5050 2650 5300 2650
-Wire Wire Line
-	5650 1650 5650 2050
 Connection ~ 5300 2650
-Wire Wire Line
-	4650 2350 4650 2250
-Connection ~ 4650 2150
-Connection ~ 4650 2250
-Wire Wire Line
-	4650 2250 4650 2150
-Wire Wire Line
-	5550 2050 5650 2050
-Connection ~ 5650 2050
-Wire Wire Line
-	5650 2050 5650 2150
 Wire Wire Line
 	5550 2150 5650 2150
 Connection ~ 5650 2150
@@ -4535,6 +4472,67 @@ F 3 "" H 7350 3900 50  0001 C CNN
 	1    7350 3900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 2650 5300 2650
+Wire Wire Line
+	5650 1650 5650 2150
+Connection ~ 4650 2150
+Connection ~ 4650 2050
+Wire Wire Line
+	4650 2050 4650 2150
+Wire Wire Line
+	4650 2050 4650 1850
+Connection ~ 4650 2250
+Wire Wire Line
+	4650 2250 4650 2150
+Wire Wire Line
+	4650 2350 4650 2250
 Wire Bus Line
 	2100 8250 2100 9850
+$Comp
+L Transistors:SI4425DDY-T1-GE3 Q3
+U 1 1 5D3D70B4
+P 4850 2450
+F 0 "Q3" V 5500 2150 50  0000 C CNN
+F 1 "SI4425DDY-T1-GE3" V 5400 2200 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" H 4850 690 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SI4425DDY-T1-GE3.pdf" H 4850 1410 60  0001 L CNN
+F 4 "SI4425DDY-T1-GE3" H 4850 1320 60  0001 L CNN "Part Number"
+F 5 "SI4425DDY" H 4850 1230 60  0001 L CNN "Library Ref"
+F 6 "SchLib\\Transistors.SchLib" H 4850 1140 60  0001 L CNN "Library Path"
+F 7 "=Device" H 4850 1050 60  0001 L CNN "Comment"
+F 8 "Standard" H 4850 960 60  0001 L CNN "Component Kind"
+F 9 "Standard" H 4850 870 60  0001 L CNN "Component Type"
+F 10 "SI4425DDY-T1-GE3" H 4850 780 60  0001 L CNN "Device"
+F 11 "SOIC 8, Pitch 1.27mm - Body 4x5mm, IPC Medium Density" H 4850 600 60  0001 L CNN "PackageDescription"
+F 12 "~~" H 4850 510 60  0001 L CNN "Status"
+F 13 "-30V -19.7A P-Channel MOSFET" H 4850 420 60  0001 L CNN "Part Description"
+F 14 "VISHAY SILICONIX" H 4850 330 60  0001 L CNN "Manufacturer"
+F 15 "SI4425DDY-T1-GE3" H 4850 240 60  0001 L CNN "Manufacturer Part Number"
+F 16 "8" H 4850 150 60  0001 L CNN "Pin Count"
+F 17 "SOIC8" H 4850 60  60  0001 L CNN "Case"
+F 18 "Yes" H 4850 -30 60  0001 L CNN "Mounted"
+F 19 "No" H 4850 -120 60  0001 L CNN "Socket"
+F 20 "No" H 4850 -210 60  0001 L CNN "PressFit"
+F 21 "Yes" H 4850 -300 60  0001 L CNN "SMD"
+F 22 "No" H 4850 -390 60  0001 L CNN "Sense"
+F 23 "~~" H 4850 -480 60  0001 L CNN "Sense Comment"
+F 24 "No" H 4850 -570 60  0001 L CNN "Bonding"
+F 25 "~~" H 4850 -660 60  0001 L CNN "Status Comment"
+F 26 "1.75mm" H 4850 -750 60  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 4850 -840 60  0001 L CNN "Footprint Path"
+F 28 "SOIC127P600X175-8N" H 4850 -930 60  0001 L CNN "Footprint Ref"
+F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SI4425DDY-T1-GE3.pdf" H 4850 -1020 60  0001 L CNN "HelpURL"
+F 30 "~~" H 4850 -1110 60  0001 L CNN "ComponentLink1URL"
+F 31 "~~" H 4850 -1200 60  0001 L CNN "ComponentLink1Description"
+F 32 "~~" H 4850 -1290 60  0001 L CNN "ComponentLink2URL"
+F 33 "~~" H 4850 -1380 60  0001 L CNN "ComponentLink2Description"
+F 34 "CERN DEM MR" H 4850 -1470 60  0001 L CNN "Author"
+F 35 "10/05/16 00:00:00" H 4850 -1560 60  0001 L CNN "CreateDate"
+F 36 "10/05/16 00:00:00" H 4850 -1650 60  0001 L CNN "LatestRevisionDate"
+F 37 "ICs And Semiconductors SMD" H 4850 -1740 60  0001 L CNN "Library Name"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4850 -1830 60  0001 L CNN "License"
+	1    4850 2450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

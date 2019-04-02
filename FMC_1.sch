@@ -763,7 +763,7 @@ AR Path="/5C16BF8E/5C447357" Ref="#PWR?"  Part="1"
 AR Path="/5C16BF8E/5DB9B7E6/5C447357" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/5C447357" Ref="#PWR059"  Part="1" 
 F 0 "#PWR059" H 7100 5350 50  0001 C CNN
-F 1 "+2V5" H 7115 5673 50  0000 C CNN
+F 1 "+2V5" H 7100 5650 50  0000 C CNN
 F 2 "" H 7100 5500 50  0001 C CNN
 F 3 "" H 7100 5500 50  0001 C CNN
 	1    7100 5500
@@ -1600,143 +1600,143 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	4    11450 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 7550 3050 0    50   Input ~ 10
+Text GLabel 7550 3050 0    50   BiDi ~ 10
 FMC1_LA_12_P
-Text GLabel 7550 3150 0    50   Input ~ 10
+Text GLabel 7550 3150 0    50   BiDi ~ 10
 FMC1_LA_12_N
-Text GLabel 4650 3250 0    50   Input ~ 10
+Text GLabel 4650 3250 0    50   BiDi ~ 10
 FMC1_LA_13_P
-Text GLabel 4650 3350 0    50   Input ~ 10
+Text GLabel 4650 3350 0    50   BiDi ~ 10
 FMC1_LA_13_N
-Text GLabel 2350 3350 0    50   Input ~ 10
+Text GLabel 2350 3350 0    50   BiDi ~ 10
 FMC1_LA_14_P
-Text GLabel 2350 3450 0    50   Input ~ 10
+Text GLabel 2350 3450 0    50   BiDi ~ 10
 FMC1_LA_14_N
-Text GLabel 10200 3450 0    50   Input ~ 10
+Text GLabel 10200 3450 0    50   BiDi ~ 10
 FMC1_LA_15_P
-Text GLabel 10200 3550 0    50   Input ~ 10
+Text GLabel 10200 3550 0    50   BiDi ~ 10
 FMC1_LA_15_N
-Text GLabel 7550 3350 0    50   Input ~ 10
+Text GLabel 7550 3350 0    50   BiDi ~ 10
 FMC1_LA_16_P
-Text GLabel 7550 3450 0    50   Input ~ 10
+Text GLabel 7550 3450 0    50   BiDi ~ 10
 FMC1_LA_16_N
-Text GLabel 7550 2150 0    50   Input ~ 10
+Text GLabel 7550 2150 0    50   BiDi ~ 10
 FMC1_LA_0_P
-Text GLabel 7550 2250 0    50   Input ~ 10
+Text GLabel 7550 2250 0    50   BiDi ~ 10
 FMC1_LA_0_N
-Text GLabel 4650 2350 0    50   Input ~ 10
+Text GLabel 4650 2350 0    50   BiDi ~ 10
 FMC1_LA_1_P
-Text GLabel 4650 2450 0    50   Input ~ 10
+Text GLabel 4650 2450 0    50   BiDi ~ 10
 FMC1_LA_1_N
-Text GLabel 10200 2250 0    50   Input ~ 10
+Text GLabel 10200 2250 0    50   BiDi ~ 10
 FMC1_LA_2_P
-Text GLabel 10200 2350 0    50   Input ~ 10
+Text GLabel 10200 2350 0    50   BiDi ~ 10
 FMC1_LA_2_N
-Text GLabel 7550 2450 0    50   Input ~ 10
+Text GLabel 7550 2450 0    50   BiDi ~ 10
 FMC1_LA_3_P
-Text GLabel 7550 2550 0    50   Input ~ 10
+Text GLabel 7550 2550 0    50   BiDi ~ 10
 FMC1_LA_3_N
-Text GLabel 10200 2550 0    50   Input ~ 10
+Text GLabel 10200 2550 0    50   BiDi ~ 10
 FMC1_LA_4_P
-Text GLabel 10200 2650 0    50   Input ~ 10
+Text GLabel 10200 2650 0    50   BiDi ~ 10
 FMC1_LA_4_N
-Text GLabel 4650 2650 0    50   Input ~ 10
+Text GLabel 4650 2650 0    50   BiDi ~ 10
 FMC1_LA_5_P
-Text GLabel 4650 2750 0    50   Input ~ 10
+Text GLabel 4650 2750 0    50   BiDi ~ 10
 FMC1_LA_5_N
-Text GLabel 2350 2550 0    50   Input ~ 10
+Text GLabel 2350 2550 0    50   BiDi ~ 10
 FMC1_LA_6_P
-Text GLabel 2350 2650 0    50   Input ~ 10
+Text GLabel 2350 2650 0    50   BiDi ~ 10
 FMC1_LA_6_N
-Text GLabel 10200 2850 0    50   Input ~ 10
+Text GLabel 10200 2850 0    50   BiDi ~ 10
 FMC1_LA_7_P
-Text GLabel 10200 2950 0    50   Input ~ 10
+Text GLabel 10200 2950 0    50   BiDi ~ 10
 FMC1_LA_7_N
-Text GLabel 7550 2750 0    50   Input ~ 10
+Text GLabel 7550 2750 0    50   BiDi ~ 10
 FMC1_LA_8_P
-Text GLabel 7550 2850 0    50   Input ~ 10
+Text GLabel 7550 2850 0    50   BiDi ~ 10
 FMC1_LA_8_N
-Text GLabel 4650 2950 0    50   Input ~ 10
+Text GLabel 4650 2950 0    50   BiDi ~ 10
 FMC1_LA_9_P
-Text GLabel 4650 3050 0    50   Input ~ 10
+Text GLabel 4650 3050 0    50   BiDi ~ 10
 FMC1_LA_9_N
-Text GLabel 2350 2950 0    50   Input ~ 10
+Text GLabel 2350 2950 0    50   BiDi ~ 10
 FMC1_LA_10_P
-Text GLabel 2350 3050 0    50   Input ~ 10
+Text GLabel 2350 3050 0    50   BiDi ~ 10
 FMC1_LA_10_N
-Text GLabel 10200 3150 0    50   Input ~ 10
+Text GLabel 10200 3150 0    50   BiDi ~ 10
 FMC1_LA_11_P
-Text GLabel 10200 3250 0    50   Input ~ 10
+Text GLabel 10200 3250 0    50   BiDi ~ 10
 FMC1_LA_11_N
 Text Notes 7800 2250 0    50   ~ 10
 LA0_CC_P\nLA0_CC_N
-Text GLabel 10200 3750 0    50   Input ~ 10
+Text GLabel 10200 3750 0    50   BiDi ~ 10
 FMC1_LA_19_P
-Text GLabel 10200 3850 0    50   Input ~ 10
+Text GLabel 10200 3850 0    50   BiDi ~ 10
 FMC1_LA_19_N
-Text GLabel 7550 3650 0    50   Input ~ 10
+Text GLabel 7550 3650 0    50   BiDi ~ 10
 FMC1_LA_20_P
-Text GLabel 7550 3750 0    50   Input ~ 10
+Text GLabel 7550 3750 0    50   BiDi ~ 10
 FMC1_LA_20_N
-Text GLabel 10200 4050 0    50   Input ~ 10
+Text GLabel 10200 4050 0    50   BiDi ~ 10
 FMC1_LA_21_P
-Text GLabel 10200 4150 0    50   Input ~ 10
+Text GLabel 10200 4150 0    50   BiDi ~ 10
 FMC1_LA_21_N
-Text GLabel 7550 3950 0    50   Input ~ 10
+Text GLabel 7550 3950 0    50   BiDi ~ 10
 FMC1_LA_22_P
-Text GLabel 7550 4050 0    50   Input ~ 10
+Text GLabel 7550 4050 0    50   BiDi ~ 10
 FMC1_LA_22_N
-Text GLabel 4650 3850 0    50   Input ~ 10
+Text GLabel 4650 3850 0    50   BiDi ~ 10
 FMC1_LA_23_P
-Text GLabel 4650 3950 0    50   Input ~ 10
+Text GLabel 4650 3950 0    50   BiDi ~ 10
 FMC1_LA_23_N
-Text GLabel 10200 4350 0    50   Input ~ 10
+Text GLabel 10200 4350 0    50   BiDi ~ 10
 FMC1_LA_24_P
-Text GLabel 10200 4450 0    50   Input ~ 10
+Text GLabel 10200 4450 0    50   BiDi ~ 10
 FMC1_LA_24_N
-Text GLabel 7550 4250 0    50   Input ~ 10
+Text GLabel 7550 4250 0    50   BiDi ~ 10
 FMC1_LA_25_P
-Text GLabel 7550 4350 0    50   Input ~ 10
+Text GLabel 7550 4350 0    50   BiDi ~ 10
 FMC1_LA_25_N
-Text GLabel 4650 4150 0    50   Input ~ 10
+Text GLabel 4650 4150 0    50   BiDi ~ 10
 FMC1_LA_26_P
-Text GLabel 4650 4250 0    50   Input ~ 10
+Text GLabel 4650 4250 0    50   BiDi ~ 10
 FMC1_LA_26_N
-Text GLabel 2350 4150 0    50   Input ~ 10
+Text GLabel 2350 4150 0    50   BiDi ~ 10
 FMC1_LA_27_P
-Text GLabel 2350 4250 0    50   Input ~ 10
+Text GLabel 2350 4250 0    50   BiDi ~ 10
 FMC1_LA_27_N
-Text GLabel 10200 4650 0    50   Input ~ 10
+Text GLabel 10200 4650 0    50   BiDi ~ 10
 FMC1_LA_28_P
-Text GLabel 10200 4750 0    50   Input ~ 10
+Text GLabel 10200 4750 0    50   BiDi ~ 10
 FMC1_LA_28_N
-Text GLabel 4650 3550 0    50   Input ~ 10
+Text GLabel 4650 3550 0    50   BiDi ~ 10
 FMC1_LA_17_P
-Text GLabel 4650 3650 0    50   Input ~ 10
+Text GLabel 4650 3650 0    50   BiDi ~ 10
 FMC1_LA_17_N
-Text GLabel 2350 3750 0    50   Input ~ 10
+Text GLabel 2350 3750 0    50   BiDi ~ 10
 FMC1_LA_18_P
-Text GLabel 2350 3850 0    50   Input ~ 10
+Text GLabel 2350 3850 0    50   BiDi ~ 10
 FMC1_LA_18_N
-Text GLabel 10200 5050 0    50   Input ~ 10
+Text GLabel 10200 5050 0    50   BiDi ~ 10
 FMC1_LA_30_N
-Text GLabel 7550 4850 0    50   Input ~ 10
+Text GLabel 7550 4850 0    50   BiDi ~ 10
 FMC1_LA_31_P
-Text GLabel 7550 4950 0    50   Input ~ 10
+Text GLabel 7550 4950 0    50   BiDi ~ 10
 FMC1_LA_31_N
-Text GLabel 10200 5250 0    50   Input ~ 10
+Text GLabel 10200 5250 0    50   BiDi ~ 10
 FMC1_LA_32_P
-Text GLabel 10200 5350 0    50   Input ~ 10
+Text GLabel 10200 5350 0    50   BiDi ~ 10
 FMC1_LA_32_N
-Text GLabel 7550 5150 0    50   Input ~ 10
+Text GLabel 7550 5150 0    50   BiDi ~ 10
 FMC1_LA_33_P
-Text GLabel 7550 5250 0    50   Input ~ 10
+Text GLabel 7550 5250 0    50   BiDi ~ 10
 FMC1_LA_33_N
-Text GLabel 7550 4550 0    50   Input ~ 10
+Text GLabel 7550 4550 0    50   BiDi ~ 10
 FMC1_LA_29_P
-Text GLabel 7550 4650 0    50   Input ~ 10
+Text GLabel 7550 4650 0    50   BiDi ~ 10
 FMC1_LA_29_N
-Text GLabel 10200 4950 0    50   Input ~ 10
+Text GLabel 10200 4950 0    50   BiDi ~ 10
 FMC1_LA_30_P
 Wire Wire Line
 	2350 2650 3550 2650

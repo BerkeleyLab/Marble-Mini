@@ -724,7 +724,7 @@ AR Path="/5C16BF8E/5C506817" Ref="#PWR?"  Part="1"
 AR Path="/5C16BF8E/5DB9B7E6/5C506817" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9F/5C506817" Ref="#PWR08"  Part="1" 
 F 0 "#PWR08" H 7400 5650 50  0001 C CNN
-F 1 "+2V5" H 7415 5973 50  0000 C CNN
+F 1 "+2V5" H 7400 5950 50  0000 C CNN
 F 2 "" H 7400 5800 50  0001 C CNN
 F 3 "" H 7400 5800 50  0001 C CNN
 	1    7400 5800
@@ -1553,73 +1553,73 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	4    11750 1850
 	1    0    0    -1  
 $EndComp
-Text GLabel 10500 2550 0    50   Input ~ 10
+Text GLabel 10500 2550 0    50   BiDi ~ 10
 FMC2_LA_2_P
-Text GLabel 10500 2650 0    50   Input ~ 10
+Text GLabel 10500 2650 0    50   BiDi ~ 10
 FMC2_LA_2_N
-Text GLabel 7600 2750 0    50   Input ~ 10
+Text GLabel 7600 2750 0    50   BiDi ~ 10
 FMC2_LA_3_P
-Text GLabel 7600 2850 0    50   Input ~ 10
+Text GLabel 7600 2850 0    50   BiDi ~ 10
 FMC2_LA_3_N
-Text GLabel 5050 2950 0    50   Input ~ 10
+Text GLabel 5050 2950 0    50   BiDi ~ 10
 FMC2_LA_5_P
-Text GLabel 5050 3050 0    50   Input ~ 10
+Text GLabel 5050 3050 0    50   BiDi ~ 10
 FMC2_LA_5_N
-Text GLabel 2650 2850 0    50   Input ~ 10
+Text GLabel 2650 2850 0    50   BiDi ~ 10
 FMC2_LA_6_P
-Text GLabel 2650 2950 0    50   Input ~ 10
+Text GLabel 2650 2950 0    50   BiDi ~ 10
 FMC2_LA_6_N
-Text GLabel 10500 3150 0    50   Input ~ 10
+Text GLabel 10500 3150 0    50   BiDi ~ 10
 FMC2_LA_7_P
-Text GLabel 10500 3250 0    50   Input ~ 10
+Text GLabel 10500 3250 0    50   BiDi ~ 10
 FMC2_LA_7_N
-Text GLabel 7600 3050 0    50   Input ~ 10
+Text GLabel 7600 3050 0    50   BiDi ~ 10
 FMC2_LA_8_P
-Text GLabel 7600 3150 0    50   Input ~ 10
+Text GLabel 7600 3150 0    50   BiDi ~ 10
 FMC2_LA_8_N
-Text GLabel 7600 3350 0    50   Input ~ 10
+Text GLabel 7600 3350 0    50   BiDi ~ 10
 FMC2_LA_12_P
-Text GLabel 7600 3450 0    50   Input ~ 10
+Text GLabel 7600 3450 0    50   BiDi ~ 10
 FMC2_LA_12_N
-Text GLabel 2650 3250 0    50   Input ~ 10
+Text GLabel 2650 3250 0    50   BiDi ~ 10
 FMC2_LA_10_P
-Text GLabel 2650 3350 0    50   Input ~ 10
+Text GLabel 2650 3350 0    50   BiDi ~ 10
 FMC2_LA_10_N
-Text GLabel 10500 3450 0    50   Input ~ 10
+Text GLabel 10500 3450 0    50   BiDi ~ 10
 FMC2_LA_11_P
-Text GLabel 10500 3550 0    50   Input ~ 10
+Text GLabel 10500 3550 0    50   BiDi ~ 10
 FMC2_LA_11_N
-Text GLabel 5050 3550 0    50   Input ~ 10
+Text GLabel 5050 3550 0    50   BiDi ~ 10
 FMC2_LA_13_P
-Text GLabel 5050 3650 0    50   Input ~ 10
+Text GLabel 5050 3650 0    50   BiDi ~ 10
 FMC2_LA_13_N
-Text GLabel 7600 2450 0    50   Input ~ 10
+Text GLabel 7600 2450 0    50   BiDi ~ 10
 FMC2_LA_0_P
-Text GLabel 7600 2550 0    50   Input ~ 10
+Text GLabel 7600 2550 0    50   BiDi ~ 10
 FMC2_LA_0_N
-Text GLabel 5050 2650 0    50   Input ~ 10
+Text GLabel 5050 2650 0    50   BiDi ~ 10
 FMC2_LA_1_P
-Text GLabel 5050 2750 0    50   Input ~ 10
+Text GLabel 5050 2750 0    50   BiDi ~ 10
 FMC2_LA_1_N
-Text GLabel 10500 3750 0    50   Input ~ 10
+Text GLabel 10500 3750 0    50   BiDi ~ 10
 FMC2_LA_15_P
-Text GLabel 10500 3850 0    50   Input ~ 10
+Text GLabel 10500 3850 0    50   BiDi ~ 10
 FMC2_LA_15_N
-Text GLabel 7600 3650 0    50   Input ~ 10
+Text GLabel 7600 3650 0    50   BiDi ~ 10
 FMC2_LA_16_P
-Text GLabel 7600 3750 0    50   Input ~ 10
+Text GLabel 7600 3750 0    50   BiDi ~ 10
 FMC2_LA_16_N
-Text GLabel 10500 2850 0    50   Input ~ 10
+Text GLabel 10500 2850 0    50   BiDi ~ 10
 FMC2_LA_4_P
-Text GLabel 10500 2950 0    50   Input ~ 10
+Text GLabel 10500 2950 0    50   BiDi ~ 10
 FMC2_LA_4_N
-Text GLabel 5050 3250 0    50   Input ~ 10
+Text GLabel 5050 3250 0    50   BiDi ~ 10
 FMC2_LA_9_P
-Text GLabel 5050 3350 0    50   Input ~ 10
+Text GLabel 5050 3350 0    50   BiDi ~ 10
 FMC2_LA_9_N
-Text GLabel 2650 3650 0    50   Input ~ 10
+Text GLabel 2650 3650 0    50   BiDi ~ 10
 FMC2_LA_14_P
-Text GLabel 2650 3750 0    50   Input ~ 10
+Text GLabel 2650 3750 0    50   BiDi ~ 10
 FMC2_LA_14_N
 Text Notes 5050 3950 0    50   ~ 10
 LA17_CC_P\nLA17_CC_N
@@ -1675,73 +1675,73 @@ Wire Wire Line
 	10500 3850 11550 3850
 Wire Wire Line
 	7600 2550 8900 2550
-Text GLabel 10500 4050 0    50   Input ~ 10
+Text GLabel 10500 4050 0    50   BiDi ~ 10
 FMC2_LA_19_P
-Text GLabel 10500 4150 0    50   Input ~ 10
+Text GLabel 10500 4150 0    50   BiDi ~ 10
 FMC2_LA_19_N
-Text GLabel 7600 3950 0    50   Input ~ 10
+Text GLabel 7600 3950 0    50   BiDi ~ 10
 FMC2_LA_20_P
-Text GLabel 7600 4050 0    50   Input ~ 10
+Text GLabel 7600 4050 0    50   BiDi ~ 10
 FMC2_LA_20_N
-Text GLabel 10500 4350 0    50   Input ~ 10
+Text GLabel 10500 4350 0    50   BiDi ~ 10
 FMC2_LA_21_P
-Text GLabel 10500 4450 0    50   Input ~ 10
+Text GLabel 10500 4450 0    50   BiDi ~ 10
 FMC2_LA_21_N
-Text GLabel 7600 4250 0    50   Input ~ 10
+Text GLabel 7600 4250 0    50   BiDi ~ 10
 FMC2_LA_22_P
-Text GLabel 7600 4350 0    50   Input ~ 10
+Text GLabel 7600 4350 0    50   BiDi ~ 10
 FMC2_LA_22_N
-Text GLabel 5050 4150 0    50   Input ~ 10
+Text GLabel 5050 4150 0    50   BiDi ~ 10
 FMC2_LA_23_P
-Text GLabel 5050 4250 0    50   Input ~ 10
+Text GLabel 5050 4250 0    50   BiDi ~ 10
 FMC2_LA_23_N
-Text GLabel 10500 4650 0    50   Input ~ 10
+Text GLabel 10500 4650 0    50   BiDi ~ 10
 FMC2_LA_24_P
-Text GLabel 10500 4750 0    50   Input ~ 10
+Text GLabel 10500 4750 0    50   BiDi ~ 10
 FMC2_LA_24_N
-Text GLabel 7600 4550 0    50   Input ~ 10
+Text GLabel 7600 4550 0    50   BiDi ~ 10
 FMC2_LA_25_P
-Text GLabel 7600 4650 0    50   Input ~ 10
+Text GLabel 7600 4650 0    50   BiDi ~ 10
 FMC2_LA_25_N
-Text GLabel 5050 4450 0    50   Input ~ 10
+Text GLabel 5050 4450 0    50   BiDi ~ 10
 FMC2_LA_26_P
-Text GLabel 5050 4550 0    50   Input ~ 10
+Text GLabel 5050 4550 0    50   BiDi ~ 10
 FMC2_LA_26_N
-Text GLabel 2650 4450 0    50   Input ~ 10
+Text GLabel 2650 4450 0    50   BiDi ~ 10
 FMC2_LA_27_P
-Text GLabel 2650 4550 0    50   Input ~ 10
+Text GLabel 2650 4550 0    50   BiDi ~ 10
 FMC2_LA_27_N
-Text GLabel 10500 4950 0    50   Input ~ 10
+Text GLabel 10500 4950 0    50   BiDi ~ 10
 FMC2_LA_28_P
-Text GLabel 10500 5050 0    50   Input ~ 10
+Text GLabel 10500 5050 0    50   BiDi ~ 10
 FMC2_LA_28_N
-Text GLabel 7600 4850 0    50   Input ~ 10
+Text GLabel 7600 4850 0    50   BiDi ~ 10
 FMC2_LA_29_P
-Text GLabel 7600 4950 0    50   Input ~ 10
+Text GLabel 7600 4950 0    50   BiDi ~ 10
 FMC2_LA_29_N
-Text GLabel 5050 3850 0    50   Input ~ 10
+Text GLabel 5050 3850 0    50   BiDi ~ 10
 FMC2_LA_17_P
-Text GLabel 5050 3950 0    50   Input ~ 10
+Text GLabel 5050 3950 0    50   BiDi ~ 10
 FMC2_LA_17_N
-Text GLabel 2650 4050 0    50   Input ~ 10
+Text GLabel 2650 4050 0    50   BiDi ~ 10
 FMC2_LA_18_P
-Text GLabel 2650 4150 0    50   Input ~ 10
+Text GLabel 2650 4150 0    50   BiDi ~ 10
 FMC2_LA_18_N
-Text GLabel 10500 5250 0    50   Input ~ 10
+Text GLabel 10500 5250 0    50   BiDi ~ 10
 FMC2_LA_30_P
-Text GLabel 10500 5350 0    50   Input ~ 10
+Text GLabel 10500 5350 0    50   BiDi ~ 10
 FMC2_LA_30_N
-Text GLabel 7600 5150 0    50   Input ~ 10
+Text GLabel 7600 5150 0    50   BiDi ~ 10
 FMC2_LA_31_P
-Text GLabel 7600 5250 0    50   Input ~ 10
+Text GLabel 7600 5250 0    50   BiDi ~ 10
 FMC2_LA_31_N
-Text GLabel 10500 5550 0    50   Input ~ 10
+Text GLabel 10500 5550 0    50   BiDi ~ 10
 FMC2_LA_32_P
-Text GLabel 10500 5650 0    50   Input ~ 10
+Text GLabel 10500 5650 0    50   BiDi ~ 10
 FMC2_LA_32_N
-Text GLabel 7600 5450 0    50   Input ~ 10
+Text GLabel 7600 5450 0    50   BiDi ~ 10
 FMC2_LA_33_P
-Text GLabel 7600 5550 0    50   Input ~ 10
+Text GLabel 7600 5550 0    50   BiDi ~ 10
 FMC2_LA_33_N
 Wire Wire Line
 	2650 4150 3850 4150
@@ -1812,7 +1812,7 @@ F 3 "" H 7300 6900 50  0001 C CNN
 	1    7300 6900
 	0    1    1    0   
 $EndComp
-Text Notes 2800 5250 0    50   ~ 10
+Text Notes 2900 5250 0    50   ~ 10
 GA0_2
 Text Label 3150 5250 0    50   ~ 10
 FMC2_3P3VAUX
