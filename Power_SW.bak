@@ -5069,10 +5069,10 @@ Wire Wire Line
 Wire Wire Line
 	4100 1900 4350 1900
 $Comp
-L Transistors:BC847BV T2
+L Transistors:BC847BV Q26
 U 1 1 5C5AEB93
 P 1200 6650
-F 0 "T2" H 1533 6696 50  0000 L CNN
+F 0 "Q26" H 1533 6696 50  0000 L CNN
 F 1 "BC847BV" H 1533 6605 50  0000 L CNN
 F 2 "SOTFL50P160X60-6N" H 1200 5390 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BC847BV.pdf" H 1200 6110 60  0001 L CNN
@@ -5115,10 +5115,10 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistors:BC847BV T2
+L Transistors:BC847BV Q26
 U 2 1 5C5AEE82
 P 2250 6650
-F 0 "T2" H 2583 6696 50  0000 L CNN
+F 0 "Q26" H 2583 6696 50  0000 L CNN
 F 1 "BC847BV" H 2583 6605 50  0000 L CNN
 F 2 "SOTFL50P160X60-6N" H 2250 5390 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BC847BV.pdf" H 2250 6110 60  0001 L CNN
@@ -5369,10 +5369,10 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistors:BC847BV T3
+L Transistors:BC847BV Q27
 U 1 1 5C608813
 P 3400 6650
-F 0 "T3" H 3733 6696 50  0000 L CNN
+F 0 "Q27" H 3733 6696 50  0000 L CNN
 F 1 "BC847BV" H 3733 6605 50  0000 L CNN
 F 2 "SOTFL50P160X60-6N" H 3400 5390 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BC847BV.pdf" H 3400 6110 60  0001 L CNN
@@ -5415,10 +5415,10 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistors:BC847BV T3
+L Transistors:BC847BV Q27
 U 2 1 5C60883D
 P 4450 6650
-F 0 "T3" H 4783 6696 50  0000 L CNN
+F 0 "Q27" H 4783 6696 50  0000 L CNN
 F 1 "BC847BV" H 4783 6605 50  0000 L CNN
 F 2 "SOTFL50P160X60-6N" H 4450 5390 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BC847BV.pdf" H 4450 6110 60  0001 L CNN

@@ -56,13 +56,13 @@ Text Label 6550 1550 0    50   ~ 10
 SFP_1_TX_P
 Text Label 6550 1750 0    50   ~ 10
 SFP_1_TX_N
-Text HLabel 7400 1050 2    50   BiDi ~ 10
+Text HLabel 7400 1050 2    50   Output ~ 10
 SFP_1_RX_P
-Text HLabel 7400 1250 2    50   BiDi ~ 10
+Text HLabel 7400 1250 2    50   Output ~ 10
 SFP_1_RX_N
-Text HLabel 7400 1550 2    50   BiDi ~ 10
+Text HLabel 7400 1550 2    50   Input ~ 10
 SFP_1_TX_P
-Text HLabel 7400 1750 2    50   BiDi ~ 10
+Text HLabel 7400 1750 2    50   Input ~ 10
 SFP_1_TX_N
 Wire Wire Line
 	6400 1750 7400 1750

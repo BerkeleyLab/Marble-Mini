@@ -77,14 +77,6 @@ Text Label 8950 7500 1    60   ~ 12
 TCLKA_P
 Text Label 9050 7500 1    60   ~ 12
 TCLKA_N
-Text Label 9250 7500 1    60   ~ 12
-TCLKB_P
-Text Label 9350 7500 1    60   ~ 12
-TCLKB_N
-Text Label 9550 7500 1    60   ~ 12
-FCLKA_P
-Text Label 9650 7500 1    60   ~ 12
-FCLKA_N
 Text Label 9850 7493 1    60   ~ 12
 PS0#
 Text Label 1750 9143 1    60   ~ 12
@@ -119,14 +111,6 @@ Text Label 3850 9143 1    60   ~ 12
 Tx11_N
 Text Label 3950 9243 1    60   ~ 12
 Tx11_P
-Text Label 6550 9100 1    60   ~ 12
-TCLKC_N
-Text Label 6650 9100 1    60   ~ 12
-TCLKC_P
-Text Label 6850 9150 1    60   ~ 12
-TCLKD_N
-Text Label 6950 9150 1    60   ~ 12
-TCLKD_P
 Text Label 7150 9143 1    60   ~ 12
 Rx17_N
 Text Label 7250 9143 1    60   ~ 12
@@ -1049,15 +1033,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 6893 9150 7700
 Wire Wire Line
-	9250 6893 9250 7700
-Wire Wire Line
-	9350 6893 9350 7700
-Wire Wire Line
 	9450 6893 9450 7700
-Wire Wire Line
-	9550 6893 9550 7700
-Wire Wire Line
-	9650 6893 9650 7700
 Wire Wire Line
 	9750 6893 9750 7700
 Wire Wire Line
@@ -1335,15 +1311,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 8500 7050 9343
 Wire Wire Line
-	6950 8500 6950 9343
-Wire Wire Line
-	6850 8500 6850 9343
-Wire Wire Line
 	6750 8500 6750 9343
-Wire Wire Line
-	6650 8500 6650 9343
-Wire Wire Line
-	6550 8500 6550 9343
 Wire Wire Line
 	6450 8500 6450 9343
 Wire Wire Line
@@ -1458,56 +1426,8 @@ F 3 "" H 1950 9343 70  0000 C CNN
 	1    1950 9343
 	1    0    0    -1  
 $EndComp
-Text Label 9364 1433 0    60   ~ 12
-TCLKA_N
-Text Label 9364 1533 0    60   ~ 12
-TCLKA_P
-Text Label 9364 1633 0    60   ~ 12
-TCLKB_N
-Text Label 9364 1733 0    60   ~ 12
-TCLKB_P
-Text Label 9364 1833 0    60   ~ 12
-TCLKC_N
-Text Label 9364 1933 0    60   ~ 12
-TCLKC_P
-Text Label 9364 2033 0    60   ~ 12
-TCLKD_N
-Text Label 9364 2133 0    60   ~ 12
-TCLKD_P
 Text Label 9214 2533 0    60   ~ 12
 FCLKA_N
-Text Label 9064 1433 0    70   ~ 14
-TCLKA
-Text Label 9064 1533 0    70   ~ 14
-TCLKA
-Text Label 9064 1633 0    70   ~ 14
-TCLKB
-Text Label 9064 1733 0    70   ~ 14
-TCLKB
-Text Label 9064 2033 0    70   ~ 14
-TCLKC
-Text Label 9064 2133 0    70   ~ 14
-TCLKC
-Text Label 9064 1833 0    70   ~ 14
-TCLKD
-Text Label 9064 1933 0    70   ~ 14
-TCLKD
-Wire Wire Line
-	9864 1433 9064 1433
-Wire Wire Line
-	9864 1533 9064 1533
-Wire Wire Line
-	9864 1633 9064 1633
-Wire Wire Line
-	9864 1733 9064 1733
-Wire Wire Line
-	9864 1833 9064 1833
-Wire Wire Line
-	9864 1933 9064 1933
-Wire Wire Line
-	9864 2033 9064 2033
-Wire Wire Line
-	9864 2133 9064 2133
 Wire Wire Line
 	10014 2533 9214 2533
 Wire Wire Line
@@ -2020,6 +1940,38 @@ F 3 "" H 1950 6700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 6500 2450 7700
+Wire Wire Line
+	9650 6893 9650 7700
+Wire Wire Line
+	9550 6893 9550 7700
+Text Label 9650 7500 1    60   ~ 12
+FCLKA_N
+Text Label 9550 7500 1    60   ~ 12
+FCLKA_P
+Wire Wire Line
+	9350 6893 9350 7700
+Wire Wire Line
+	9250 6893 9250 7700
+Text Label 9350 7500 1    60   ~ 12
+TCLKB_N
+Text Label 9250 7500 1    60   ~ 12
+TCLKB_P
+Wire Wire Line
+	6850 8500 6850 9343
+Wire Wire Line
+	6950 8500 6950 9343
+Wire Wire Line
+	6550 8500 6550 9343
+Wire Wire Line
+	6650 8500 6650 9343
+Text Label 6650 9100 1    60   ~ 12
+TCLKC_P
+Text Label 6550 9100 1    60   ~ 12
+TCLKC_N
+Text Label 6850 9150 1    60   ~ 12
+TCLKD_N
+Text Label 6950 9150 1    60   ~ 12
+TCLKD_P
 Wire Bus Line
 	10026 4346 10026 4546
 Wire Bus Line

@@ -106,7 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2300 4250 2300
 Wire Wire Line
-	4600 3200 4750 3200
+	4600 3200 4650 3200
 Wire Wire Line
 	4600 3300 4750 3300
 Wire Wire Line
@@ -1583,8 +1583,8 @@ Pos 3850 5900
 Scale 2.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 9C 00 00 01 94 08 06 00 00 00 98 F0 F2 
-55 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 0B 12 00 00 0B 
-12 01 D2 DD 7E FC 00 00 20 00 49 44 41 54 78 9C EC BD BD 8E 3A 5D B6 E6 F9 AC D6 AB D2 A8 46 47 
+55 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A 
+F0 01 42 AC 34 98 00 00 20 00 49 44 41 54 78 9C EC BD BD 8E 3A 5D B6 E6 F9 AC D6 AB D2 A8 46 47 
 23 5E E7 B4 54 46 49 A4 55 CE 94 74 48 BF 1D 52 EA 73 01 A4 7D D4 06 69 8F 45 5E 02 5C 02 38 E3 
 27 17 50 06 18 7D 01 89 D3 7E 86 A6 BC 69 E7 4F 8D D4 66 49 6B 8C B5 36 6C 36 11 41 04 44 F0 15 
 CF 4F 0A 65 12 1F 9B 80 BD 83 78 62 ED F5 21 AA 0A 42 08 21 84 10 42 DA E2 3F DD FA 04 08 21 84 
@@ -2351,4 +2351,80 @@ A6 52 EC 1F 0F E0 88 18 E1 04 00 AC 88 E9 F3 5E AF AB 05 70 5C 8C 70 02 00 00 E0
 00 00 70 52 FF 03 FA 14 26 B5 B8 C7 FE F1 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Resistors_SMD:R0402_0R_JUMPER R?
+U 1 1 5D00A0A2
+P 4650 2850
+AR Path="/5C16BF8E/5DB9B7E6/5D00A0A2" Ref="R?"  Part="1" 
+AR Path="/5BCEDA3D/5D00A0A2" Ref="R274"  Part="1" 
+F 0 "R274" H 4800 2750 50  0000 C CNN
+F 1 "R0402_0R_JUMPER" H 4650 2640 60  0001 L CNN
+F 2 "RESC1005X40N" H 4650 1830 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 4650 2460 60  0001 L CNN
+F 4 "DNP" H 4800 2950 50  0000 C CNN "~"
+F 5 "R0402_0R_JUMPER" H 4650 2370 60  0001 L CNN "Part Number"
+F 6 "Resistor" H 4650 2280 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 4650 2190 60  0001 L CNN "Library Path"
+F 8 "=Value" H 4650 2100 60  0001 L CNN "Comment"
+F 9 "Standard" H 4650 2010 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 4650 1920 60  0001 L CNN "Component Type"
+F 11 "~~" H 4650 1740 60  0001 L CNN "PackageDescription"
+F 12 "2" H 4650 1650 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 4650 1560 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 4650 1470 60  0001 L CNN "Footprint Ref"
+F 15 "0" H 4650 1380 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 4650 1290 60  0001 L CNN "Status"
+F 17 "~~" H 4650 1200 60  0001 L CNN "Power"
+F 18 "~~" H 4650 1110 60  0001 L CNN "TC"
+F 19 "~~" H 4650 1020 60  0001 L CNN "Voltage"
+F 20 "~~" H 4650 930 60  0001 L CNN "Tolerance"
+F 21 "1A (0.05R Max DC Resistance) Zero Ohm Jumper" H 4650 840 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 4650 750 60  0001 L CNN "Manufacturer"
+F 23 "R0402_0R_JUMPER" H 4650 660 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 4650 570 60  0001 L CNN "Case"
+F 25 "No" H 4650 480 60  0001 L CNN "PressFit"
+F 26 "Yes" H 4650 390 60  0001 L CNN "Mounted"
+F 27 "~~" H 4650 300 60  0001 L CNN "Sense Comment"
+F 28 "No" H 4650 210 60  0001 L CNN "Sense"
+F 29 "~~" H 4650 120 60  0001 L CNN "Status Comment"
+F 30 "No" H 4650 30  60  0001 L CNN "Socket"
+F 31 "Yes" H 4650 -60 60  0001 L CNN "SMD"
+F 32 "~~" H 4650 -150 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 4650 -240 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270591001L" H 4650 -330 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 4650 -420 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 4650 -510 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 4650 -600 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 4650 -690 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 4650 -780 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 4650 -870 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4650 -960 60  0001 L CNN "License"
+	1    4650 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D00ED85
+P 4450 2850
+AR Path="/5BD32060/5D00ED85" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/5D00ED85" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/5D00ED85" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/5D00ED85" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/5D00ED85" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8AFE1/5D00ED85" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5D00ED85" Ref="#PWR0648"  Part="1" 
+F 0 "#PWR0648" H 4450 2700 50  0001 C CNN
+F 1 "+3V3" V 4450 3050 50  0000 C CNN
+F 2 "" H 4450 2850 50  0001 C CNN
+F 3 "" H 4450 2850 50  0001 C CNN
+	1    4450 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 2850 4650 2850
+Wire Wire Line
+	4650 3150 4650 3200
+Connection ~ 4650 3200
+Wire Wire Line
+	4650 3200 4750 3200
 $EndSCHEMATC

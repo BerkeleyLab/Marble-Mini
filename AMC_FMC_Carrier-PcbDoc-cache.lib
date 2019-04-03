@@ -5186,33 +5186,33 @@ X 2 2 300 0 75 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Inductors_SMD_IND_10UH_20%_WURTH_WE-SPC_74408943100
+# Inductors_SMD_IND_10UH_20%_TDK_VLCF5020-1
 #
-DEF ~Inductors_SMD_IND_10UH_20%_WURTH_WE-SPC_74408943100 L 0 60 Y Y 1 L N
+DEF ~Inductors_SMD_IND_10UH_20%_TDK_VLCF5020-1 L 0 60 Y Y 1 L N
 F0 "L" 150 110 50 H V C CNN
-F1 "Inductors_SMD_IND_10UH_20%_WURTH_WE-SPC_74408943100" 0 -190 60 H I L CNN
-F2 "Inductors SMD:IND_WURTH_WE-SPC-4838" 0 -280 60 H I L CNN
-F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_WURTH_WE-SPC_74408943100.pdf" 0 -370 60 H I L CNN
+F1 "Inductors_SMD_IND_10UH_20%_TDK_VLCF5020-1" 0 -190 60 H I L CNN
+F2 "Inductors SMD:IND_TDK_VLCF5020-1" 0 -280 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_TDK_VLCF.pdf" 0 -370 60 H I L CNN
 F4 "10uH" 150 -50 50 H V C CNN "~"
-F5 "IND_10UH_20%_WURTH_WE-SPC_74408943100" 0 -460 60 H I L CNN "Part Number"
+F5 "IND_10UH_20%_TDK_VLCF5020-1" 0 -460 60 H I L CNN "Part Number"
 F6 "Inductor With Magnetic core" 0 -550 60 H I L CNN "Library Ref"
 F7 "SchLib\\Inductors & Transformers.SchLib" 0 -640 60 H I L CNN "Library Path"
 F8 "=Value" 0 -730 60 H I L CNN "Comment"
 F9 "Standard" 0 -820 60 H I L CNN "Component Kind"
 F10 "Standard" 0 -910 60 H I L CNN "Component Type"
-F11 "IND_WURTH_WE-SPC-4838" 0 -1000 60 H I L CNN "Footprint"
+F11 "IND_TDK_VLCF5020-1" 0 -1000 60 H I L CNN "Footprint"
 F12 "~~" 0 -1090 60 H I L CNN "PackageDescription"
 F13 "2.0000000000000000e+00" 0 -1180 60 H I L CNN "Pin Count"
 F14 "PcbLib\\Inductors SMD.PcbLib" 0 -1270 60 H I L CNN "Footprint Path"
-F15 "IND_WURTH_WE-SPC-4838" 0 -1360 60 H I L CNN "Footprint Ref"
+F15 "IND_TDK_VLCF5020-1" 0 -1360 60 H I L CNN "Footprint Ref"
 F16 "10uH" 0 -1450 60 H I L CNN "Val"
 F17 "None" 0 -1540 60 H I L CNN "Status"
-F18 "1.65A" 0 -1630 60 H I L CNN "Power"
-F19 "0.082R" 0 -1720 60 H I L CNN "Resistance"
+F18 "1.5A" 0 -1630 60 H I L CNN "Power"
+F19 "0.198R" 0 -1720 60 H I L CNN "Resistance"
 F20 "±20%" 0 -1810 60 H I L CNN "Tolerance"
-F21 "SMD Shielded Power Inductor (WE-SPC Series)" 0 -1900 60 H I L CNN "Part Description"
-F22 "WURTH ELEKTRONIK" 0 -1990 60 H I L CNN "Manufacturer"
-F23 "74408943100" 0 -2080 60 H I L CNN "Manufacturer Part Number"
+F21 "SMD Inductor for Power Circuits (Wound/STD , Magnetic Shielded), VLCF series" 0 -1900 60 H I L CNN "Part Description"
+F22 "TDK" 0 -1990 60 H I L CNN "Manufacturer"
+F23 "VLCF5020T-100M1R1-1" 0 -2080 60 H I L CNN "Manufacturer Part Number"
 F24 "~~" 0 -2170 60 H I L CNN "Case"
 F25 "Yes" 0 -2260 60 H I L CNN "Mounted"
 F26 "No" 0 -2350 60 H I L CNN "Socket"
@@ -5220,11 +5220,11 @@ F27 "Yes" 0 -2440 60 H I L CNN "SMD"
 F28 "~~" 0 -2530 60 H I L CNN "Sense Comment"
 F29 "No" 0 -2620 60 H I L CNN "Sense"
 F30 "~~" 0 -2710 60 H I L CNN "Status Comment"
-F31 "4.1mm" 0 -2800 60 H I L CNN "ComponentHeight"
-F32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_WURTH_WE-SPC_74408943100.pdf" 0 -2890 60 H I L CNN "HelpURL"
-F33 "CERN DEM MR" 0 -2980 60 H I L CNN "Author"
-F34 "06/30/17 00:00:00" 0 -3070 60 H I L CNN "CreateDate"
-F35 "07/05/17 00:00:00" 0 -3160 60 H I L CNN "LatestRevisionDate"
+F31 "2mm" 0 -2800 60 H I L CNN "ComponentHeight"
+F32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_TDK_VLCF.pdf" 0 -2890 60 H I L CNN "HelpURL"
+F33 "CERN DEM JLC" 0 -2980 60 H I L CNN "Author"
+F34 "07/10/14 00:00:00" 0 -3070 60 H I L CNN "CreateDate"
+F35 "07/10/14 00:00:00" 0 -3160 60 H I L CNN "LatestRevisionDate"
 F36 "Inductors SMD" 0 -3250 60 H I L CNN "Library Name"
 F37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3340 60 H I L CNN "License"
 DRAW

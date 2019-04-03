@@ -1499,50 +1499,6 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    11150 5300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Inductors_SMD:IND_10UH_20%_WURTH_WE-SPC_74408943100 L13
-U 1 1 5E161E42
-P 4350 4050
-F 0 "L13" H 4500 4285 50  0000 C CNN
-F 1 "IND_10UH_20%_WURTH_WE-SPC_74408943100" H 4350 3860 60  0001 L CNN
-F 2 "IND_WURTH_WE-SPC-4838" H 4350 3050 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_WURTH_WE-SPC_74408943100.pdf" H 4350 3680 60  0001 L CNN
-F 4 "10uH" H 4500 4194 50  0000 C CNN "~"
-F 5 "IND_10UH_20%_WURTH_WE-SPC_74408943100" H 4350 3590 60  0001 L CNN "Part Number"
-F 6 "Inductor With Magnetic core" H 4350 3500 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Inductors & Transformers.SchLib" H 4350 3410 60  0001 L CNN "Library Path"
-F 8 "=Value" H 4350 3320 60  0001 L CNN "Comment"
-F 9 "Standard" H 4350 3230 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 4350 3140 60  0001 L CNN "Component Type"
-F 11 "~~" H 4350 2960 60  0001 L CNN "PackageDescription"
-F 12 "2.0000000000000000e+00" H 4350 2870 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Inductors SMD.PcbLib" H 4350 2780 60  0001 L CNN "Footprint Path"
-F 14 "IND_WURTH_WE-SPC-4838" H 4350 2690 60  0001 L CNN "Footprint Ref"
-F 15 "10uH" H 4350 2600 60  0001 L CNN "Val"
-F 16 "None" H 4350 2510 60  0001 L CNN "Status"
-F 17 "1.65A" H 4350 2420 60  0001 L CNN "Power"
-F 18 "0.082R" H 4350 2330 60  0001 L CNN "Resistance"
-F 19 "±20%" H 4350 2240 60  0001 L CNN "Tolerance"
-F 20 "SMD Shielded Power Inductor (WE-SPC Series)" H 4350 2150 60  0001 L CNN "Part Description"
-F 21 "WURTH ELEKTRONIK" H 4350 2060 60  0001 L CNN "Manufacturer"
-F 22 "74408943100" H 4350 1970 60  0001 L CNN "Manufacturer Part Number"
-F 23 "~~" H 4350 1880 60  0001 L CNN "Case"
-F 24 "Yes" H 4350 1790 60  0001 L CNN "Mounted"
-F 25 "No" H 4350 1700 60  0001 L CNN "Socket"
-F 26 "Yes" H 4350 1610 60  0001 L CNN "SMD"
-F 27 "~~" H 4350 1520 60  0001 L CNN "Sense Comment"
-F 28 "No" H 4350 1430 60  0001 L CNN "Sense"
-F 29 "~~" H 4350 1340 60  0001 L CNN "Status Comment"
-F 30 "4.1mm" H 4350 1250 60  0001 L CNN "ComponentHeight"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_WURTH_WE-SPC_74408943100.pdf" H 4350 1160 60  0001 L CNN "HelpURL"
-F 32 "CERN DEM MR" H 4350 1070 60  0001 L CNN "Author"
-F 33 "06/30/17 00:00:00" H 4350 980 60  0001 L CNN "CreateDate"
-F 34 "07/05/17 00:00:00" H 4350 890 60  0001 L CNN "LatestRevisionDate"
-F 35 "Inductors SMD" H 4350 800 60  0001 L CNN "Library Name"
-F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4350 710 60  0001 L CNN "License"
-	1    4350 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7000 4050 7350 4050
 Wire Wire Line
@@ -1588,10 +1544,10 @@ Wire Wire Line
 Wire Wire Line
 	7150 5000 7350 5000
 $Comp
-L Transistors:Si2315BDS-T1-E3 T1
+L Transistors:Si2315BDS-T1-E3 Q25
 U 1 1 5E3D2575
 P 6850 4300
-F 0 "T1" V 7307 4350 50  0000 C CNN
+F 0 "Q25" V 7307 4350 50  0000 C CNN
 F 1 "Si2315BDS-T1-E3" V 7216 4350 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOT95P237X112-3N" H 6850 3090 60  0001 L CNN
 F 3 "" H 6850 3810 60  0001 L CNN
@@ -4487,8 +4443,6 @@ Wire Wire Line
 	4650 2250 4650 2150
 Wire Wire Line
 	4650 2350 4650 2250
-Wire Bus Line
-	2100 8250 2100 9850
 $Comp
 L Transistors:SI4425DDY-T1-GE3 Q3
 U 1 1 5D3D70B4
@@ -4535,4 +4489,50 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    4850 2450
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Inductors_SMD:IND_10UH_20%_TDK_VLCF5020-1 L13
+U 1 1 5CD9D49F
+P 4350 4050
+F 0 "L13" H 4500 4285 50  0000 C CNN
+F 1 "IND_10UH_20%_TDK_VLCF5020-1" H 4350 3860 60  0001 L CNN
+F 2 "IND_TDK_VLCF5020-1" H 4350 3050 60  0001 L CNN
+F 3 "" H 4350 3680 60  0001 L CNN
+F 4 "10uH" H 4500 4194 50  0000 C CNN "~"
+F 5 "IND_10UH_20%_TDK_VLCF5020-1" H 4350 3590 60  0001 L CNN "Part Number"
+F 6 "Inductor With Magnetic core" H 4350 3500 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Inductors & Transformers.SchLib" H 4350 3410 60  0001 L CNN "Library Path"
+F 8 "=Value" H 4350 3320 60  0001 L CNN "Comment"
+F 9 "Standard" H 4350 3230 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 4350 3140 60  0001 L CNN "Component Type"
+F 11 "~~" H 4350 2960 60  0001 L CNN "PackageDescription"
+F 12 "2.0000000000000000e+00" H 4350 2870 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Inductors SMD.PcbLib" H 4350 2780 60  0001 L CNN "Footprint Path"
+F 14 "IND_TDK_VLCF5020-1" H 4350 2690 60  0001 L CNN "Footprint Ref"
+F 15 "10uH" H 4350 2600 60  0001 L CNN "Val"
+F 16 "None" H 4350 2510 60  0001 L CNN "Status"
+F 17 "1.5A" H 4350 2420 60  0001 L CNN "Power"
+F 18 "0.198R" H 4350 2330 60  0001 L CNN "Resistance"
+F 19 "±20%" H 4350 2240 60  0001 L CNN "Tolerance"
+F 20 "SMD Inductor for Power Circuits (Wound/STD , Magnetic Shielded), VLCF series" H 4350 2150 60  0001 L CNN "Part Description"
+F 21 "TDK" H 4350 2060 60  0001 L CNN "Manufacturer"
+F 22 "VLCF5020T-100M1R1-1" H 4350 1970 60  0001 L CNN "Manufacturer Part Number"
+F 23 "~~" H 4350 1880 60  0001 L CNN "Case"
+F 24 "Yes" H 4350 1790 60  0001 L CNN "Mounted"
+F 25 "No" H 4350 1700 60  0001 L CNN "Socket"
+F 26 "Yes" H 4350 1610 60  0001 L CNN "SMD"
+F 27 "~~" H 4350 1520 60  0001 L CNN "Sense Comment"
+F 28 "No" H 4350 1430 60  0001 L CNN "Sense"
+F 29 "~~" H 4350 1340 60  0001 L CNN "Status Comment"
+F 30 "2mm" H 4350 1250 60  0001 L CNN "ComponentHeight"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_TDK_VLCF.pdf" H 4350 1160 60  0001 L CNN "HelpURL"
+F 32 "CERN DEM JLC" H 4350 1070 60  0001 L CNN "Author"
+F 33 "07/10/14 00:00:00" H 4350 980 60  0001 L CNN "CreateDate"
+F 34 "07/10/14 00:00:00" H 4350 890 60  0001 L CNN "LatestRevisionDate"
+F 35 "Inductors SMD" H 4350 800 60  0001 L CNN "Library Name"
+F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4350 710 60  0001 L CNN "License"
+	1    4350 4050
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	2100 8250 2100 9850
 $EndSCHEMATC
