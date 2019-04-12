@@ -1,4 +1,4 @@
-update=27.03.2019 16:36:14
+update=12.04.2019 14:27:35
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.102
+MinTrackWidth=0.09999999999999999
 MinViaDiameter=0.35
 MinViaDrill=0.152
 MinMicroViaDiameter=0.35
@@ -115,17 +115,6 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
-Name=DE_SIG
-Clearance=0.127
-TrackWidth=0.254
-ViaDiameter=0.889
-ViaDrill=0.635
-uViaDiameter=0.508
-uViaDrill=0.127
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/3]
 Name=FMC1_IPMI
 Clearance=0.127
 TrackWidth=0.254
@@ -136,7 +125,7 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/4]
+[pcbnew/Netclasses/3]
 Name=FMC2_IPMI
 Clearance=0.127
 TrackWidth=0.254
@@ -147,7 +136,7 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/5]
+[pcbnew/Netclasses/4]
 Name=POWER
 Clearance=0.1
 TrackWidth=0.381
@@ -158,7 +147,7 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/6]
+[pcbnew/Netclasses/5]
 Name=RTM_IO[14..0]
 Clearance=0.127
 TrackWidth=0.254
@@ -169,7 +158,7 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/7]
+[pcbnew/Netclasses/6]
 Name=SE50
 Clearance=0.127
 TrackWidth=0.254
@@ -180,7 +169,7 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/8]
+[pcbnew/Netclasses/7]
 Name=SE60DE100
 Clearance=0.127
 TrackWidth=0.254
@@ -191,7 +180,7 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/9]
+[pcbnew/Netclasses/8]
 Name=SE_SIG
 Clearance=0.127
 TrackWidth=0.254
