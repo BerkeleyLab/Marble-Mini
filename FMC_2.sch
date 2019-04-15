@@ -5,12 +5,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 25
-Title "Simple AFC"
+Title "Marble"
 Date "2019-01-16"
 Rev "9"
 Comp "Michał Gąska / WUT"
 Comment1 ""
-Comment2 ""
+Comment2 "FMC 2 connector"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1887,20 +1887,26 @@ F 3 "" H 5350 7200 50  0001 C CNN
 	1    5350 7200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5950 6900 5800 6900
+Connection ~ 5950 6900
+Wire Wire Line
+	5500 6900 5350 6900
+Connection ~ 5350 6900
 $Comp
-L Resistors_SMD:R0402_0R_JUMPER R?
-U 1 1 5D203879
+L Resistors_SMD:R0402_1K_1%_0.0625W_100PPM R?
+U 1 1 5CC978F1
 P 5800 6900
-AR Path="/5C16BF8E/5DB9B7E6/5D203879" Ref="R?"  Part="1" 
-AR Path="/5CA40231/5D203879" Ref="R?"  Part="1" 
-AR Path="/5BD31F9F/5D203879" Ref="R259"  Part="1" 
-F 0 "R259" H 6150 6850 50  0000 C CNN
-F 1 "R0402_0R_JUMPER" H 5800 6690 60  0001 L CNN
+AR Path="/5C16BF8E/5CC978F1" Ref="R?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5CC978F1" Ref="R?"  Part="1" 
+AR Path="/5BD31F9F/5CC978F1" Ref="R259"  Part="1" 
+F 0 "R259" H 5850 6800 50  0000 L CNN
+F 1 "R0402_1K_1%_0.0625W_100PPM" H 5800 6690 60  0001 L CNN
 F 2 "RESC1005X40N" H 5800 5880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5800 6510 60  0001 L CNN
-F 4 "0" H 5800 6850 50  0000 C CNN "~"
-F 5 "R0402_0R_JUMPER" H 5800 6420 60  0001 L CNN "Part Number"
-F 6 "Resistor" H 5800 6330 60  0001 L CNN "Library Ref"
+F 4 "1k" H 5900 7000 50  0000 L CNN "~"
+F 5 "R0402_1K_1%_0.0625W_100PPM" H 5800 6420 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 5800 6330 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 5800 6240 60  0001 L CNN "Library Path"
 F 8 "=Value" H 5800 6150 60  0001 L CNN "Comment"
 F 9 "Standard" H 5800 6060 60  0001 L CNN "Component Kind"
@@ -1909,15 +1915,15 @@ F 11 "~~" H 5800 5790 60  0001 L CNN "PackageDescription"
 F 12 "2" H 5800 5700 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 5800 5610 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 5800 5520 60  0001 L CNN "Footprint Ref"
-F 15 "0" H 5800 5430 60  0001 L CNN "Val"
+F 15 "1k" H 5800 5430 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 5800 5340 60  0001 L CNN "Status"
-F 17 "~~" H 5800 5250 60  0001 L CNN "Power"
-F 18 "~~" H 5800 5160 60  0001 L CNN "TC"
+F 17 "0.0625W" H 5800 5250 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 5800 5160 60  0001 L CNN "TC"
 F 19 "~~" H 5800 5070 60  0001 L CNN "Voltage"
-F 20 "~~" H 5800 4980 60  0001 L CNN "Tolerance"
-F 21 "1A (0.05R Max DC Resistance) Zero Ohm Jumper" H 5800 4890 60  0001 L CNN "Part Description"
+F 20 "±1%" H 5800 4980 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 5800 4890 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 5800 4800 60  0001 L CNN "Manufacturer"
-F 23 "R0402_0R_JUMPER" H 5800 4710 60  0001 L CNN "Manufacturer Part Number"
+F 23 "R0402_1K_1%_0.0625W_100PPM" H 5800 4710 60  0001 L CNN "Manufacturer Part Number"
 F 24 "0402" H 5800 4620 60  0001 L CNN "Case"
 F 25 "No" H 5800 4530 60  0001 L CNN "PressFit"
 F 26 "Yes" H 5800 4440 60  0001 L CNN "Mounted"
@@ -1928,7 +1934,7 @@ F 30 "No" H 5800 4080 60  0001 L CNN "Socket"
 F 31 "Yes" H 5800 3990 60  0001 L CNN "SMD"
 F 32 "~~" H 5800 3900 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 5800 3810 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270591001L" H 5800 3720 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270671002L" H 5800 3720 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 5800 3630 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5800 3540 60  0001 L CNN "HelpURL"
 F 37 "CERN DEM JLC" H 5800 3450 60  0001 L CNN "Author"
@@ -1939,10 +1945,4 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    5800 6900
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5950 6900 5800 6900
-Connection ~ 5950 6900
-Wire Wire Line
-	5500 6900 5350 6900
-Connection ~ 5350 6900
 $EndSCHEMATC

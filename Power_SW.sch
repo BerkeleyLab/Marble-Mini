@@ -5,7 +5,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 14 25
-Title "Simple AFC"
+Title "Marble"
 Date "2019-01-16"
 Rev "9"
 Comp "Michał Gąska / WUT"
@@ -4439,7 +4439,7 @@ U 1 1 5D02947C
 P 4100 1900
 AR Path="/5C16BF8E/5D02947C" Ref="R?"  Part="1" 
 AR Path="/5C16BF8E/5DB9B7E6/5D02947C" Ref="R245"  Part="1" 
-F 0 "R245" H 4200 1800 50  0000 L CNN
+F 0 "R245" H 4150 1800 50  0000 L CNN
 F 1 "R0402_1K_1%_0.0625W_100PPM" H 4100 1690 60  0001 L CNN
 F 2 "RESC1005X40N" H 4100 880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 4100 1510 60  0001 L CNN
