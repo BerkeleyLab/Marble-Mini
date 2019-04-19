@@ -2321,50 +2321,6 @@ Connection ~ 2900 1900
 Wire Wire Line
 	2900 1900 3250 1900
 $Comp
-L Inductors_SMD:IND_2.2UH_20%_WURTH_WE-PMCI_74479276222C L23
-U 1 1 5CBF069A
-P 4450 1900
-F 0 "L23" H 4600 2117 50  0000 C CNN
-F 1 "IND_2.2UH_20%_WURTH_WE-PMCI_74479276222C" H 4450 1710 60  0001 L CNN
-F 2 "IND_WURTH_WE-PMCI_0806LR" H 4450 900 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_WURTH_WE-PMCI_74479276222C.pdf" H 4450 1530 60  0001 L CNN
-F 4 "2.2uH" H 4600 2026 50  0000 C CNN "~"
-F 5 "IND_2.2UH_20%_WURTH_WE-PMCI_74479276222C" H 4450 1440 60  0001 L CNN "Part Number"
-F 6 "Inductor" H 4450 1350 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Inductors & Transformers.SchLib" H 4450 1260 60  0001 L CNN "Library Path"
-F 8 "=Value" H 4450 1170 60  0001 L CNN "Comment"
-F 9 "Standard" H 4450 1080 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 4450 990 60  0001 L CNN "Component Type"
-F 11 "~~" H 4450 810 60  0001 L CNN "PackageDescription"
-F 12 "2.0000000000000000e+00" H 4450 720 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Inductors SMD.PcbLib" H 4450 630 60  0001 L CNN "Footprint Path"
-F 14 "IND_WURTH_WE-PMCI_0806LR" H 4450 540 60  0001 L CNN "Footprint Ref"
-F 15 "2.2uH" H 4450 450 60  0001 L CNN "Val"
-F 16 "None" H 4450 360 60  0001 L CNN "Status"
-F 17 "1.1A" H 4450 270 60  0001 L CNN "Power"
-F 18 "0.112R" H 4450 180 60  0001 L CNN "Resistance"
-F 19 "±20%" H 4450 90  60  0001 L CNN "Tolerance"
-F 20 "SMD Power Molded Chip  Inductor (WE-PMCI Series)" H 4450 0   60  0001 L CNN "Part Description"
-F 21 "WURTH ELEKTRONIK" H 4450 -90 60  0001 L CNN "Manufacturer"
-F 22 "74479276222C" H 4450 -180 60  0001 L CNN "Manufacturer Part Number"
-F 23 "0806" H 4450 -270 60  0001 L CNN "Case"
-F 24 "Yes" H 4450 -360 60  0001 L CNN "Mounted"
-F 25 "No" H 4450 -450 60  0001 L CNN "Socket"
-F 26 "Yes" H 4450 -540 60  0001 L CNN "SMD"
-F 27 "~~" H 4450 -630 60  0001 L CNN "Sense Comment"
-F 28 "No" H 4450 -720 60  0001 L CNN "Sense"
-F 29 "~~" H 4450 -810 60  0001 L CNN "Status Comment"
-F 30 "1mm" H 4450 -900 60  0001 L CNN "ComponentHeight"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_WURTH_WE-PMCI_74479276222C.pdf" H 4450 -990 60  0001 L CNN "HelpURL"
-F 32 "CERN DEM JLC" H 4450 -1080 60  0001 L CNN "Author"
-F 33 "10/20/16 00:00:00" H 4450 -1170 60  0001 L CNN "CreateDate"
-F 34 "10/20/16 00:00:00" H 4450 -1260 60  0001 L CNN "LatestRevisionDate"
-F 35 "Inductors SMD" H 4450 -1350 60  0001 L CNN "Library Name"
-F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4450 -1440 60  0001 L CNN "License"
-	1    4450 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5CC0D7E8
 P 11550 2700
@@ -4166,10 +4122,10 @@ $EndComp
 Wire Wire Line
 	13350 6300 13400 6300
 $Comp
-L Standard_Logic:SN74AVC2T245RSWR U4
+L Standard_Logic:SN74AVC2T245RSWR U15
 U 1 1 5C94B61E
 P 13600 6000
-F 0 "U4" H 13900 6165 50  0000 C CNN
+F 0 "U15" H 13900 6165 50  0000 C CNN
 F 1 "SN74AVC2T245RSWR" H 13900 6074 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:QFN40P140X180X55-10N" H 13600 3910 60  0001 L CNN
 F 3 "" H 13600 4630 60  0001 L CNN
@@ -5503,5 +5459,69 @@ F 40 "Resistors SMD" H 6000 5180 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 5090 60  0001 L CNN "License"
 	1    6000 8900
 	0    1    1    0   
+$EndComp
+NoConn ~ 8000 4300
+NoConn ~ 8000 4400
+NoConn ~ 8000 4500
+NoConn ~ 8000 4600
+NoConn ~ 8000 4700
+NoConn ~ 8000 4800
+NoConn ~ 8000 4900
+NoConn ~ 8000 5000
+NoConn ~ 8000 5500
+NoConn ~ 8000 5600
+NoConn ~ 8000 5700
+NoConn ~ 8000 5800
+NoConn ~ 8000 5900
+NoConn ~ 8000 6400
+NoConn ~ 8000 6600
+NoConn ~ 8000 6700
+NoConn ~ 8000 6800
+NoConn ~ 13400 6200
+NoConn ~ 13400 6600
+NoConn ~ 14400 6600
+$Comp
+L Inductors_SMD:IND_2.2UH_20%_WURTH_WE-PMCI_74479276222C L23
+U 1 1 5CCDD1FD
+P 4450 1900
+F 0 "L23" H 4600 2081 50  0000 C CNN
+F 1 "IND_2.2UH_20%_WURTH_WE-PMCI_74479276222C" H 4450 1710 60  0001 L CNN
+F 2 "IND_WURTH_WE-PMCI_0806LR" H 4450 900 60  0001 L CNN
+F 3 "" H 4450 1530 60  0001 L CNN
+F 4 "2.2uH" H 4600 1990 50  0000 C CNN "~"
+F 5 "IND_2.2UH_20%_WURTH_WE-PMCI_74479276222C" H 4450 1440 60  0001 L CNN "Part Number"
+F 6 "Inductor" H 4450 1350 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Inductors & Transformers.SchLib" H 4450 1260 60  0001 L CNN "Library Path"
+F 8 "=Value" H 4450 1170 60  0001 L CNN "Comment"
+F 9 "Standard" H 4450 1080 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 4450 990 60  0001 L CNN "Component Type"
+F 11 "~~" H 4450 810 60  0001 L CNN "PackageDescription"
+F 12 "2.0000000000000000e+00" H 4450 720 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Inductors SMD.PcbLib" H 4450 630 60  0001 L CNN "Footprint Path"
+F 14 "IND_WURTH_WE-PMCI_0806LR" H 4450 540 60  0001 L CNN "Footprint Ref"
+F 15 "2.2uH" H 4450 450 60  0001 L CNN "Val"
+F 16 "None" H 4450 360 60  0001 L CNN "Status"
+F 17 "1.1A" H 4450 270 60  0001 L CNN "Power"
+F 18 "0.112R" H 4450 180 60  0001 L CNN "Resistance"
+F 19 "±20%" H 4450 90  60  0001 L CNN "Tolerance"
+F 20 "SMD Power Molded Chip  Inductor (WE-PMCI Series)" H 4450 0   60  0001 L CNN "Part Description"
+F 21 "WURTH ELEKTRONIK" H 4450 -90 60  0001 L CNN "Manufacturer"
+F 22 "74479276222C" H 4450 -180 60  0001 L CNN "Manufacturer Part Number"
+F 23 "0806" H 4450 -270 60  0001 L CNN "Case"
+F 24 "Yes" H 4450 -360 60  0001 L CNN "Mounted"
+F 25 "No" H 4450 -450 60  0001 L CNN "Socket"
+F 26 "Yes" H 4450 -540 60  0001 L CNN "SMD"
+F 27 "~~" H 4450 -630 60  0001 L CNN "Sense Comment"
+F 28 "No" H 4450 -720 60  0001 L CNN "Sense"
+F 29 "~~" H 4450 -810 60  0001 L CNN "Status Comment"
+F 30 "1mm" H 4450 -900 60  0001 L CNN "ComponentHeight"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_WURTH_WE-PMCI_74479276222C.pdf" H 4450 -990 60  0001 L CNN "HelpURL"
+F 32 "CERN DEM JLC" H 4450 -1080 60  0001 L CNN "Author"
+F 33 "10/20/16 00:00:00" H 4450 -1170 60  0001 L CNN "CreateDate"
+F 34 "10/20/16 00:00:00" H 4450 -1260 60  0001 L CNN "LatestRevisionDate"
+F 35 "Inductors SMD" H 4450 -1350 60  0001 L CNN "Library Name"
+F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4450 -1440 60  0001 L CNN "License"
+	1    4450 1900
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

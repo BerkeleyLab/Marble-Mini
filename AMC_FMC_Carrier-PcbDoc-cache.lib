@@ -6220,6 +6220,61 @@ X C 4 600 -100 200 L 60 0 0 1 C
 ENDDRAW
 ENDDEF
 #
+# Pads_FIDUCIAL_TARGET_C100-200
+#
+DEF ~Pads_FIDUCIAL_TARGET_C100-200 FTG 0 60 Y Y 1 L N
+F0 "FTG" 10 80 50 H V C CNN
+F1 "Pads_FIDUCIAL_TARGET_C100-200" 0 -150 60 H I L CNN
+F2 "Pads:FIDUCIAL_TOP_C100-200" 0 -240 60 H I L CNN
+F3 "Undefined" 0 -330 60 H I L CNN
+F4 "~~" 0 -420 60 H I L CNN
+F5 "FIDUCIAL_TARGET_C100-200" 0 -420 60 H I L CNN "Part Number"
+F6 "Fiducial Target" 0 -510 60 H I L CNN "Library Ref"
+F7 "SchLib\\Pads.SchLib" 0 -600 60 H I L CNN "Library Path"
+F8 "~~" 0 -690 60 H I L CNN "Comment"
+F9 "Standard (No BOM)" 0 -780 60 H I L CNN "Component Kind"
+F10 "Standard (No BOM)" 0 -870 60 H I L CNN "Component Type"
+F11 "FIDUCIAL_TOP_C100-200" 0 -960 60 H I L CNN "Footprint"
+F12 "1" 0 -1050 60 H I L CNN "Pin Count"
+F13 "~~" 0 -1140 60 H I L CNN "Case"
+F14 "PcbLib\\Pads.PcbLib" 0 -1230 60 H I L CNN "Footprint Path"
+F15 "FIDUCIAL_TOP_C100-200" 0 -1320 60 H I L CNN "Footprint Ref"
+F16 "Fiducial" 0 -1410 60 H I L CNN "Family"
+F17 "No" 0 -1500 60 H I L CNN "Mounted"
+F18 "No" 0 -1590 60 H I L CNN "Socket"
+F19 "Yes" 0 -1680 60 H I L CNN "SMD"
+F20 "No" 0 -1770 60 H I L CNN "Sense"
+F21 "~~" 0 -1860 60 H I L CNN "Sense Comment"
+F22 "None" 0 -1950 60 H I L CNN "Status"
+F23 "~~" 0 -2040 60 H I L CNN "Status Comment"
+F24 "~~" 0 -2130 60 H I L CNN "SCEM"
+F25 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" 0 -2220 60 H I L CNN "Part Description"
+F26 "~~" 0 -2310 60 H I L CNN "Manufacturer"
+F27 "~~" 0 -2400 60 H I L CNN "Manufacturer Part Number"
+F28 "0mm" 0 -2490 60 H I L CNN "ComponentHeight"
+F29 "~~" 0 -2580 60 H I L CNN "Manufacturer1 Example"
+F30 "~~" 0 -2670 60 H I L CNN "Manufacturer1 Part Number"
+F31 "~~" 0 -2760 60 H I L CNN "Manufacturer1 ComponentHeight"
+F32 "Undefined" 0 -2850 60 H I L CNN "HelpURL"
+F33 "~~" 0 -2940 60 H I L CNN "ComponentLink1URL"
+F34 "~~" 0 -3030 60 H I L CNN "ComponentLink1Description"
+F35 "~~" 0 -3120 60 H I L CNN "ComponentLink2URL"
+F36 "~~" 0 -3210 60 H I L CNN "ComponentLink2Description"
+F37 "CERN DEM JLC" 0 -3300 60 H I L CNN "Author"
+F38 "02/09/10 00:00:00" 0 -3390 60 H I L CNN "CreateDate"
+F39 "04/04/12 00:00:00" 0 -3480 60 H I L CNN "LatestRevisionDate"
+F40 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" 0 -3570 60 H I L CNN "PackageDescription"
+F41 "Pads" 0 -3660 60 H I L CNN "Library Name"
+F42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3750 60 H I L CNN "License"
+DRAW
+C 0 0 20 0 1 0 f
+C 0 0 30 0 1 0 f
+C 0 0 40 0 1 0 f
+P 2 0 1 0 -60 0 60 0 N
+P 2 0 1 0 0 60 0 -60 N
+ENDDRAW
+ENDDEF
+#
 # Pads_PLATED_HOLE2.7_PAD5.0
 #
 DEF ~Pads_PLATED_HOLE2.7_PAD5.0 B 0 60 Y Y 1 L N

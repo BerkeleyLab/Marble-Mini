@@ -4491,7 +4491,7 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 $Comp
 L Inductors_SMD:IND_10UH_20%_TDK_VLCF5020-1 L13
-U 1 1 5CD9D49F
+U 1 1 5CD58952
 P 4350 4050
 F 0 "L13" H 4500 4285 50  0000 C CNN
 F 1 "IND_10UH_20%_TDK_VLCF5020-1" H 4350 3860 60  0001 L CNN

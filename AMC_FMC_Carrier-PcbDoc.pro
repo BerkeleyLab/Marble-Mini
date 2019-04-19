@@ -1,4 +1,4 @@
-update=15.04.2019 16:34:08
+update=18.04.2019 11:19:31
 version=1
 last_client=kicad
 [general]
@@ -12,9 +12,19 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/Users/Michal/Desktop/Projekty/AMC FMC/import z altiuma/Marble_pagelayout.kicad_wks
+PlotDirectoryName=../schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=C:/Users/Michal/Desktop/Projekty/AMC FMC/import z altiuma/Marble_pagelayout.kicad_wks
 LastNetListRead=
 CopperLayerCount=8
 BoardThickness=1.6
@@ -82,7 +92,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=1
@@ -105,7 +115,7 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
-Name=FMC1_IPMI
+Name=DE_SIG
 Clearance=0.127
 TrackWidth=0.254
 ViaDiameter=0.889
@@ -116,7 +126,7 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
-Name=FMC2_IPMI
+Name=FMC1_IPMI
 Clearance=0.127
 TrackWidth=0.254
 ViaDiameter=0.889
@@ -127,6 +137,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
+Name=FMC2_IPMI
+Clearance=0.127
+TrackWidth=0.254
+ViaDiameter=0.889
+ViaDrill=0.635
+uViaDiameter=0.508
+uViaDrill=0.127
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/5]
 Name=POWER
 Clearance=0.1
 TrackWidth=0.381
@@ -137,7 +158,7 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/5]
+[pcbnew/Netclasses/6]
 Name=RTM_IO[14..0]
 Clearance=0.127
 TrackWidth=0.254
@@ -148,7 +169,7 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/6]
+[pcbnew/Netclasses/7]
 Name=SE50
 Clearance=0.127
 TrackWidth=0.254
@@ -159,7 +180,7 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/7]
+[pcbnew/Netclasses/8]
 Name=SE60DE100
 Clearance=0.127
 TrackWidth=0.254
@@ -170,7 +191,7 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/8]
+[pcbnew/Netclasses/9]
 Name=SE_SIG
 Clearance=0.127
 TrackWidth=0.254
@@ -181,13 +202,3 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/Users/Michal/Desktop/Projekty/AMC FMC/import z altiuma/Marble_pagelayout.kicad_wks
-PlotDirectoryName=../schematic/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

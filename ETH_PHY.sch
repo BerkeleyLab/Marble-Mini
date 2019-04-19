@@ -1231,10 +1231,10 @@ F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Analog_&_Interface:88E1512-XX-NNP2I000 U15
+L Analog_&_Interface:88E1512-XX-NNP2I000 U4
 U 1 1 5C5FDF8C
 P 6700 2200
-F 0 "U15" H 7300 2365 50  0000 C CNN
+F 0 "U4" H 7300 2365 50  0000 C CNN
 F 1 "88E1512-XX-NNP2I000" H 7300 2274 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:QFN50P800X800X100-57N-S437" H 6700 -390 60  0001 L CNN
 F 3 "" H 6700 330 60  0001 L CNN
@@ -1277,10 +1277,10 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Analog_&_Interface:88E1512-XX-NNP2I000 U15
+L Analog_&_Interface:88E1512-XX-NNP2I000 U4
 U 2 1 5C5FE26B
 P 6700 6600
-F 0 "U15" H 7300 6765 50  0000 C CNN
+F 0 "U4" H 7300 6765 50  0000 C CNN
 F 1 "88E1512-XX-NNP2I000" H 7300 6674 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:QFN50P800X800X100-57N-S437" H 6700 4010 60  0001 L CNN
 F 3 "" H 6700 4730 60  0001 L CNN

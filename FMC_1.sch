@@ -1409,10 +1409,10 @@ F 43 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L SAMTEC:SAMTEC_ASP-134603-01 J5
+L SAMTEC:SAMTEC_ASP-134603-01 P1
 U 1 1 5CF32820
 P 3750 1550
-F 0 "J5" H 4077 -500 50  0000 L CNN
+F 0 "P1" H 4077 -500 50  0000 L CNN
 F 1 "SAMTEC_ASP-134603-01" H 3750 -2640 60  0001 L CNN
 F 2 "SAMTEC_ASP-134603-01" H 3750 -3540 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_ASP-134603-01.pdf" H 3750 -2820 60  0001 L CNN
@@ -1457,10 +1457,10 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L SAMTEC:SAMTEC_ASP-134603-01 J5
+L SAMTEC:SAMTEC_ASP-134603-01 P1
 U 2 1 5CF32A89
 P 6050 1550
-F 0 "J5" H 6378 -500 50  0000 L CNN
+F 0 "P1" H 6378 -500 50  0000 L CNN
 F 1 "SAMTEC_ASP-134603-01" H 6050 -2640 60  0001 L CNN
 F 2 "SAMTEC_ASP-134603-01" H 6050 -3540 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_ASP-134603-01.pdf" H 6050 -2820 60  0001 L CNN
@@ -1505,10 +1505,10 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L SAMTEC:SAMTEC_ASP-134603-01 J5
+L SAMTEC:SAMTEC_ASP-134603-01 P1
 U 3 1 5CF32CEE
 P 8800 1550
-F 0 "J5" H 9128 -500 50  0000 L CNN
+F 0 "P1" H 9128 -500 50  0000 L CNN
 F 1 "SAMTEC_ASP-134603-01" H 8800 -2640 60  0001 L CNN
 F 2 "SAMTEC_ASP-134603-01" H 8800 -3540 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_ASP-134603-01.pdf" H 8800 -2820 60  0001 L CNN
@@ -1553,10 +1553,10 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L SAMTEC:SAMTEC_ASP-134603-01 J5
+L SAMTEC:SAMTEC_ASP-134603-01 P1
 U 4 1 5CF32F53
 P 11450 1550
-F 0 "J5" H 11778 -500 50  0000 L CNN
+F 0 "P1" H 11778 -500 50  0000 L CNN
 F 1 "SAMTEC_ASP-134603-01" H 11450 -2640 60  0001 L CNN
 F 2 "SAMTEC_ASP-134603-01" H 11450 -3540 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_ASP-134603-01.pdf" H 11450 -2820 60  0001 L CNN
