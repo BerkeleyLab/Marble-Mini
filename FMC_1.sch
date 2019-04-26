@@ -305,14 +305,6 @@ Wire Wire Line
 Connection ~ 11100 5150
 Wire Wire Line
 	11100 5150 11100 5450
-Text Label 2650 1750 0    50   ~ 10
-FMC1_DP0_C2M_P
-Text Label 2650 1850 0    50   ~ 10
-FMC1_DP0_C2M_N
-Text Label 2650 2150 0    50   ~ 10
-FMC1_DP0_M2C_P
-Text Label 2650 2250 0    50   ~ 10
-FMC1_DP0_M2C_N
 Text Label 2850 4550 0    50   ~ 10
 I2C_FMC1_SCL
 Text Label 2850 4650 0    50   ~ 10
@@ -341,14 +333,6 @@ Wire Wire Line
 	2850 4550 3550 4550
 Wire Wire Line
 	2850 4650 3550 4650
-Wire Wire Line
-	2650 1750 3550 1750
-Wire Wire Line
-	2650 1850 3550 1850
-Wire Wire Line
-	2650 2150 3550 2150
-Wire Wire Line
-	2650 2250 3550 2250
 Text Notes 2400 3850 0    50   ~ 10
 LA18_CC_P\nLA18_CC_N
 Text Notes 4650 2450 0    50   ~ 10
@@ -369,8 +353,6 @@ Text Label 5100 4750 0    50   ~ 10
 FMC1_3P3VAUX
 Text Label 5150 4850 0    50   ~ 10
 FMC1_TMS
-Text Label 5150 4950 0    50   ~ 10
-FMC1_TRST
 Text Label 5150 5050 0    50   ~ 10
 GA1_1
 Wire Wire Line
@@ -390,8 +372,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 4850 5850 4850
 Wire Wire Line
-	5150 4950 5850 4950
-Wire Wire Line
 	5150 5050 5850 5050
 Text Notes 4650 3650 0    50   ~ 10
 LA17_CC_P\nLA17_CC_N
@@ -399,8 +379,6 @@ Text Label 7700 1750 0    50   ~ 10
 FMC1_CLK1_M2C_P
 Text Label 7700 1850 0    50   ~ 10
 FMC1_CLK1_M2C_N
-Text Label 10450 1650 0    50   ~ 10
-FMC1_VREF_A_M2C
 Text Label 10450 1750 0    50   ~ 10
 FMC1_PRSNT_M2C_L
 Text Label 10350 1950 0    50   ~ 10
@@ -413,8 +391,6 @@ Wire Wire Line
 	7700 1750 8600 1750
 Wire Wire Line
 	7700 1850 8600 1850
-Wire Wire Line
-	10450 1650 11250 1650
 Wire Wire Line
 	10350 1950 11250 1950
 Wire Wire Line
@@ -1932,4 +1908,23 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    5500 6600
 	-1   0    0    1   
 $EndComp
+NoConn ~ 11250 1650
+Text Notes 10450 1650 0    50   ~ 10
+FMC1_VREF_A_M2C
+NoConn ~ 3550 1750
+NoConn ~ 3550 1850
+NoConn ~ 3550 2150
+NoConn ~ 3550 2250
+Text Notes 2650 1750 0    50   ~ 10
+FMC1_DP0_C2M_P
+Text Notes 2650 1850 0    50   ~ 10
+FMC1_DP0_C2M_N
+Text Notes 2650 2150 0    50   ~ 10
+FMC1_DP0_M2C_P
+Text Notes 2650 2250 0    50   ~ 10
+FMC1_DP0_M2C_N
+Text Label 5150 4950 0    50   ~ 10
+FMC1_TRST
+Wire Wire Line
+	5150 4950 5850 4950
 $EndSCHEMATC

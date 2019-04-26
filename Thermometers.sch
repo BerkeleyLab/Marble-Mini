@@ -1582,4 +1582,5 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    1400 5300
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2850 5400
 $EndSCHEMATC

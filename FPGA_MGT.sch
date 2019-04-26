@@ -54,13 +54,13 @@ Text Label 8850 1700 0    50   ~ 10
 SFP_1_TX_P
 Text Label 8850 1800 0    50   ~ 10
 SFP_1_TX_N
-Text HLabel 9700 1500 2    50   BiDi ~ 10
+Text HLabel 9700 1500 2    50   Input ~ 10
 SFP_1_RX_P
-Text HLabel 9700 1600 2    50   BiDi ~ 10
+Text HLabel 9700 1600 2    50   Input ~ 10
 SFP_1_RX_N
-Text HLabel 9700 1700 2    50   BiDi ~ 10
+Text HLabel 9700 1700 2    50   Output ~ 10
 SFP_1_TX_P
-Text HLabel 9700 1800 2    50   BiDi ~ 10
+Text HLabel 9700 1800 2    50   Output ~ 10
 SFP_1_TX_N
 Wire Wire Line
 	8850 1500 9700 1500
@@ -78,13 +78,13 @@ Text Label 8850 2200 0    50   ~ 10
 SFP_2_TX_P
 Text Label 8850 2300 0    50   ~ 10
 SFP_2_TX_N
-Text HLabel 9700 2000 2    50   BiDi ~ 10
+Text HLabel 9700 2000 2    50   Input ~ 10
 SFP_2_RX_P
-Text HLabel 9700 2100 2    50   BiDi ~ 10
+Text HLabel 9700 2100 2    50   Input ~ 10
 SFP_2_RX_N
-Text HLabel 9700 2200 2    50   BiDi ~ 10
+Text HLabel 9700 2200 2    50   Output ~ 10
 SFP_2_TX_P
-Text HLabel 9700 2300 2    50   BiDi ~ 10
+Text HLabel 9700 2300 2    50   Output ~ 10
 SFP_2_TX_N
 Wire Wire Line
 	8850 2000 9700 2000
@@ -102,13 +102,13 @@ Text Label 8850 2700 0    50   ~ 10
 SFP_3_TX_P
 Text Label 8850 2800 0    50   ~ 10
 SFP_3_TX_N
-Text HLabel 9700 2500 2    50   BiDi ~ 10
+Text HLabel 9700 2500 2    50   Input ~ 10
 SFP_3_RX_P
-Text HLabel 9700 2600 2    50   BiDi ~ 10
+Text HLabel 9700 2600 2    50   Input ~ 10
 SFP_3_RX_N
-Text HLabel 9700 2700 2    50   BiDi ~ 10
+Text HLabel 9700 2700 2    50   Output ~ 10
 SFP_3_TX_P
-Text HLabel 9700 2800 2    50   BiDi ~ 10
+Text HLabel 9700 2800 2    50   Output ~ 10
 SFP_3_TX_N
 Wire Wire Line
 	8850 2500 9700 2500
@@ -126,13 +126,13 @@ Text Label 8850 3200 0    50   ~ 10
 SFP_4_TX_P
 Text Label 8850 3300 0    50   ~ 10
 SFP_4_TX_N
-Text HLabel 9700 3000 2    50   BiDi ~ 10
+Text HLabel 9700 3000 2    50   Input ~ 10
 SFP_4_RX_P
-Text HLabel 9700 3100 2    50   BiDi ~ 10
+Text HLabel 9700 3100 2    50   Input ~ 10
 SFP_4_RX_N
-Text HLabel 9700 3200 2    50   BiDi ~ 10
+Text HLabel 9700 3200 2    50   Output ~ 10
 SFP_4_TX_P
-Text HLabel 9700 3300 2    50   BiDi ~ 10
+Text HLabel 9700 3300 2    50   Output ~ 10
 SFP_4_TX_N
 Wire Wire Line
 	8850 3000 9700 3000

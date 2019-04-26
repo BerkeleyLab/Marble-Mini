@@ -2272,6 +2272,14 @@ Wire Wire Line
 	5600 5950 6200 5950
 Wire Wire Line
 	5600 6850 6200 6850
+NoConn ~ 10200 2350
+NoConn ~ 10200 2750
+NoConn ~ 10200 3050
+NoConn ~ 10200 3550
+NoConn ~ 10200 6250
+NoConn ~ 6200 2950
+NoConn ~ 6200 4750
+NoConn ~ 6200 5850
 Wire Bus Line
 	14050 7300 14050 7600
 Wire Bus Line

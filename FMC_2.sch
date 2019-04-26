@@ -305,14 +305,6 @@ Wire Wire Line
 Connection ~ 11400 5450
 Wire Wire Line
 	11400 5450 11400 5750
-Text Label 2950 2050 0    50   ~ 10
-FMC2_DP0_C2M_P
-Text Label 2950 2150 0    50   ~ 10
-FMC2_DP0_C2M_N
-Text Label 2950 2450 0    50   ~ 10
-FMC2_DP0_M2C_P
-Text Label 2950 2550 0    50   ~ 10
-FMC2_DP0_M2C_N
 Text Label 3150 4050 0    50   ~ 10
 FMC2_P_LA_18
 Text Label 3150 4150 0    50   ~ 10
@@ -343,14 +335,6 @@ Wire Wire Line
 	3150 4850 3850 4850
 Wire Wire Line
 	3150 4950 3850 4950
-Wire Wire Line
-	2950 2050 3850 2050
-Wire Wire Line
-	2950 2150 3850 2150
-Wire Wire Line
-	2950 2450 3850 2450
-Wire Wire Line
-	2950 2550 3850 2550
 Text Notes 2700 4150 0    50   ~ 10
 LA18_CC_P\nLA18_CC_N
 Text Notes 5050 2750 0    50   ~ 10
@@ -371,8 +355,6 @@ Text Label 5400 5050 0    50   ~ 10
 FMC2_3P3VAUX
 Text Label 5450 5150 0    50   ~ 10
 FMC2_TMS
-Text Label 5450 5250 0    50   ~ 10
-FMC2_TRST
 Text Label 5450 5350 0    50   ~ 10
 GA1_2
 Wire Wire Line
@@ -392,15 +374,11 @@ Wire Wire Line
 Wire Wire Line
 	5450 5150 6150 5150
 Wire Wire Line
-	5450 5250 6150 5250
-Wire Wire Line
 	5450 5350 6150 5350
 Text Label 8000 2050 0    50   ~ 10
 FMC2_CLK1_M2C_P
 Text Label 8000 2150 0    50   ~ 10
 FMC2_CLK1_M2C_N
-Text Label 10750 1950 0    50   ~ 10
-FMC2_VREF_A_M2C
 Text Label 10750 2050 0    50   ~ 10
 FMC2_PRSNT_M2C_L
 Text Label 10650 2250 0    50   ~ 10
@@ -413,8 +391,6 @@ Wire Wire Line
 	8000 2050 8900 2050
 Wire Wire Line
 	8000 2150 8900 2150
-Wire Wire Line
-	10750 1950 11550 1950
 Wire Wire Line
 	10650 2250 11550 2250
 Wire Wire Line
@@ -1945,4 +1921,23 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    5800 6900
 	-1   0    0    1   
 $EndComp
+Text Notes 2950 2050 0    50   ~ 10
+FMC2_DP0_C2M_P
+Text Notes 2950 2150 0    50   ~ 10
+FMC2_DP0_C2M_N
+Text Notes 2950 2450 0    50   ~ 10
+FMC2_DP0_M2C_P
+Text Notes 2950 2550 0    50   ~ 10
+FMC2_DP0_M2C_N
+NoConn ~ 3850 2050
+NoConn ~ 3850 2150
+NoConn ~ 3850 2450
+NoConn ~ 3850 2550
+NoConn ~ 11550 1950
+Text Notes 10750 1950 0    50   ~ 10
+FMC2_VREF_A_M2C
+Text Label 5450 5250 0    50   ~ 10
+FMC2_TRST
+Wire Wire Line
+	5450 5250 6150 5250
 $EndSCHEMATC

@@ -251,7 +251,7 @@ Connection ~ 4450 2700
 $Comp
 L power:GND #PWR?
 U 1 1 5C2ECB8E
-P 4100 3450
+P 4100 3550
 AR Path="/5BD32060/5C2ECB8E" Ref="#PWR?"  Part="1" 
 AR Path="/5BABAC65/5C2ECB8E" Ref="#PWR?"  Part="1" 
 AR Path="/5CC24E97/5C2ECB8E" Ref="#PWR?"  Part="1" 
@@ -259,11 +259,11 @@ AR Path="/5CC393D3/5C2ECB8E" Ref="#PWR?"  Part="1"
 AR Path="/5CC6DBF7/5C2ECB8E" Ref="#PWR?"  Part="1" 
 AR Path="/5CC8AFE1/5C2ECB8E" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA3D/5C2ECB8E" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 4100 3200 50  0001 C CNN
-F 1 "GND" H 4105 3277 50  0000 C CNN
-F 2 "" H 4100 3450 50  0001 C CNN
-F 3 "" H 4100 3450 50  0001 C CNN
-	1    4100 3450
+F 0 "#PWR063" H 4100 3300 50  0001 C CNN
+F 1 "GND" H 4105 3377 50  0000 C CNN
+F 2 "" H 4100 3550 50  0001 C CNN
+F 3 "" H 4100 3550 50  0001 C CNN
+	1    4100 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -278,8 +278,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 3400 4100 3400
 Connection ~ 4100 3400
-Wire Wire Line
-	4100 3400 4100 3450
 Text HLabel 3550 2300 0    50   BiDi ~ 10
 I2C_FPGA_SDA
 Text HLabel 3550 2200 0    50   Input ~ 10
@@ -1571,13 +1569,6 @@ Connection ~ 6000 2800
 Connection ~ 6000 2900
 Connection ~ 6000 3200
 Connection ~ 6000 3300
-Wire Wire Line
-	4850 3500 4750 3500
-Wire Wire Line
-	4750 3500 4750 3900
-Wire Wire Line
-	4750 3900 5150 3900
-Connection ~ 5150 3900
 $Bitmap
 Pos 3850 5900
 Scale 2.000000
@@ -2427,4 +2418,11 @@ Wire Wire Line
 Connection ~ 4650 3200
 Wire Wire Line
 	4650 3200 4750 3200
+Wire Wire Line
+	4100 3500 4100 3550
+Wire Wire Line
+	4100 3500 4850 3500
+Wire Wire Line
+	4100 3400 4100 3500
+Connection ~ 4100 3500
 $EndSCHEMATC

@@ -3881,10 +3881,10 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Optocouplers:FOD817DSD IC1
+L Optocouplers:FOD817DSD U41
 U 1 1 5D59283C
 P 5850 9850
-F 0 "IC1" H 6050 10015 50  0000 C CNN
+F 0 "U41" H 6050 10015 50  0000 C CNN
 F 1 "FOD817DSD" H 6050 9924 50  0000 C CNN
 F 2 "FAIRCHILD_FOD817DSD" H 5850 8360 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\FOD817DSD.pdf" H 5850 9080 60  0001 L CNN
@@ -4533,6 +4533,7 @@ F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    4350 4050
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1450 1950
 Wire Bus Line
 	2100 8250 2100 9850
 $EndSCHEMATC

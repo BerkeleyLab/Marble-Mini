@@ -30,20 +30,6 @@ F 4 "LPC1776FET180,551" H 8600 7800 50  0001 C CNN "PN"
 $EndComp
 $Comp
 L AMC_FMC_Carrier-PcbDoc-rescue:LPC1776FET180,551-lpc1776fet180,551 U?
-U 3 1 5BE04771
-P 13050 650
-AR Path="/5BE04771" Ref="U?"  Part="2" 
-AR Path="/5BCEDA39/5BE04771" Ref="U2"  Part="3" 
-F 0 "U2" H 13050 800 50  0000 L CNN
-F 1 "LPC1776FET180,551" H 13050 700 50  0000 L CNN
-F 2 "ICs And Semiconductors SMD_BGA:BGA180C80P14X14_1200X1200X120" H 13750 1950 50  0001 C CNN
-F 3 "" H 13750 1950 50  0001 C CNN
-F 4 "LPC1776FET180,551" H 13050 650 50  0001 C CNN "PN"
-	3    13050 650 
-	1    0    0    -1  
-$EndComp
-$Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:LPC1776FET180,551-lpc1776fet180,551 U?
 U 1 1 5BE07B67
 P 4550 850
 AR Path="/5BE07B67" Ref="U?"  Part="3" 
@@ -100,18 +86,12 @@ Text Label 3500 3650 0    50   ~ 10
 I2C_IPMB_SDA
 Text Label 3500 3750 0    50   ~ 10
 I2C_IPMB_SCL
-Text Label 3500 4050 0    50   ~ 10
-P12V0_OK
 Text Label 3450 6150 0    50   ~ 10
 EN_FMC2_P12V
 Text Label 3450 6950 0    50   ~ 10
 EN_FMC1_P12V
 Text Label 3450 7350 0    50   ~ 10
 EN_PSU_CH
-Text Label 12300 4800 0    50   ~ 10
-UART1_TxD
-Text Label 12300 4900 0    50   ~ 10
-UART1_RxD
 Text Label 12200 5200 0    50   ~ 10
 SDRAM_PGOOD
 Text Label 12250 5800 0    50   ~ 10
@@ -315,10 +295,6 @@ Text HLabel 11900 6100 0    50   Input ~ 10
 BOOT_MODE[0..2]
 Text HLabel 12000 5200 0    50   Input ~ 10
 SDRAM_PGOOD
-Text HLabel 12000 4900 0    50   Input ~ 10
-UART1_RxD
-Text HLabel 12000 4800 0    50   Input ~ 10
-UART1_TxD
 Entry Wire Line
 	11600 7200 11700 7300
 Entry Wire Line
@@ -329,10 +305,6 @@ Text HLabel 11300 7200 0    50   Input ~ 10
 AMC_GA[0..2]
 Wire Bus Line
 	11600 7200 11300 7200
-Wire Wire Line
-	12000 4800 12850 4800
-Wire Wire Line
-	12000 4900 12850 4900
 Wire Wire Line
 	12000 5200 12850 5200
 Text HLabel 11400 8000 0    50   Input ~ 10
@@ -582,10 +554,6 @@ Wire Wire Line
 	2500 1150 4350 1150
 Wire Wire Line
 	2500 1250 4350 1250
-Text HLabel 2500 4050 0    50   Input ~ 10
-P12V0_OK
-Wire Wire Line
-	2500 4050 4350 4050
 Text HLabel 2750 6950 0    50   Input ~ 10
 EN_FMC1_P12V
 Text HLabel 2750 7350 0    50   Input ~ 10
@@ -3793,14 +3761,8 @@ NoConn ~ 4350 5650
 NoConn ~ 4350 5750
 NoConn ~ 4350 6050
 NoConn ~ 4350 6250
-NoConn ~ 4350 6350
 NoConn ~ 4350 6450
 NoConn ~ 4350 6550
-NoConn ~ 4350 6650
-NoConn ~ 4350 6750
-NoConn ~ 4350 6850
-NoConn ~ 4350 7050
-NoConn ~ 4350 7150
 NoConn ~ 4350 7250
 NoConn ~ 12850 7000
 NoConn ~ 12850 7100
@@ -3825,33 +3787,140 @@ NoConn ~ 12850 5700
 NoConn ~ 12850 3850
 NoConn ~ 12850 3750
 NoConn ~ 12850 3650
-NoConn ~ 12850 3450
-NoConn ~ 12850 3350
-NoConn ~ 12850 3250
-NoConn ~ 12850 3150
-NoConn ~ 12850 3050
-NoConn ~ 12850 2950
 NoConn ~ 12850 2850
 NoConn ~ 12850 2750
-NoConn ~ 12850 2650
-NoConn ~ 12850 2550
-NoConn ~ 12850 2450
 NoConn ~ 12850 2350
 NoConn ~ 12850 2250
 NoConn ~ 12850 2150
 NoConn ~ 12850 2050
 NoConn ~ 12850 1950
 NoConn ~ 12850 1750
-NoConn ~ 12850 1450
 NoConn ~ 12850 1350
 NoConn ~ 12850 1250
-NoConn ~ 12850 1150
 NoConn ~ 12850 1050
 NoConn ~ 12850 950 
 NoConn ~ 12850 850 
 NoConn ~ 12850 750 
 NoConn ~ 4350 3450
 NoConn ~ 4350 3550
+NoConn ~ 12850 4800
+NoConn ~ 12850 4900
+NoConn ~ 4350 4050
+Text Label 6450 9950 2    50   ~ 10
+FMC1_TCK
+Text Label 6450 10050 2    50   ~ 10
+FMC1_TDI
+Text Label 6450 10150 2    50   ~ 10
+FMC1_TDO
+Text Label 6450 10250 2    50   ~ 10
+FMC1_TMS
+Text Label 6450 10350 2    50   ~ 10
+FMC1_TRST
+Wire Wire Line
+	6450 9950 6000 9950
+Wire Wire Line
+	6450 10050 6000 10050
+Wire Wire Line
+	6450 10150 6000 10150
+Wire Wire Line
+	6450 10250 6000 10250
+Wire Wire Line
+	6450 10350 6000 10350
+Text Label 6450 10550 2    50   ~ 10
+FMC2_TCK
+Text Label 6450 10650 2    50   ~ 10
+FMC2_TDI
+Text Label 6450 10750 2    50   ~ 10
+FMC2_TDO
+Text Label 6450 10850 2    50   ~ 10
+FMC2_TMS
+Text Label 6450 10950 2    50   ~ 10
+FMC2_TRST
+Wire Wire Line
+	6450 10550 6000 10550
+Wire Wire Line
+	6450 10650 6000 10650
+Wire Wire Line
+	6450 10750 6000 10750
+Wire Wire Line
+	6450 10850 6000 10850
+Wire Wire Line
+	6450 10950 6000 10950
+Text HLabel 6000 10550 0    50   Output ~ 10
+FMC2_TCK
+Text HLabel 6000 10650 0    50   Output ~ 10
+FMC2_TDI
+Text HLabel 6000 10750 0    50   Input ~ 10
+FMC2_TDO
+Text HLabel 6000 10850 0    50   Output ~ 10
+FMC2_TMS
+Text HLabel 6000 10950 0    50   Output ~ 10
+FMC2_TRST
+Text HLabel 6000 9950 0    50   Output ~ 10
+FMC1_TCK
+Text HLabel 6000 10050 0    50   Output ~ 10
+FMC1_TDI
+Text HLabel 6000 10150 0    50   Input ~ 10
+FMC1_TDO
+Text HLabel 6000 10250 0    50   Output ~ 10
+FMC1_TMS
+Text HLabel 6000 10350 0    50   Output ~ 10
+FMC1_TRST
+Text Label 12400 3050 0    50   ~ 10
+FMC1_TCK
+Text Label 12400 2650 0    50   ~ 10
+FMC1_TDI
+Text Label 12400 2450 0    50   ~ 10
+FMC1_TDO
+Text Label 12400 2550 0    50   ~ 10
+FMC1_TMS
+Text Label 12400 1450 0    50   ~ 10
+FMC1_TRST
+Wire Wire Line
+	12400 3050 12850 3050
+Wire Wire Line
+	12400 1450 12850 1450
+Wire Wire Line
+	12400 2450 12850 2450
+Wire Wire Line
+	12400 2550 12850 2550
+Wire Wire Line
+	12400 2650 12850 2650
+Text Label 3900 6650 0    50   ~ 10
+FMC2_TCK
+Text Label 3900 6350 0    50   ~ 10
+FMC2_TDI
+Text Label 3900 6850 0    50   ~ 10
+FMC2_TDO
+Text Label 3900 7050 0    50   ~ 10
+FMC2_TMS
+Text Label 3900 7150 0    50   ~ 10
+FMC2_TRST
+Wire Wire Line
+	3900 6650 4350 6650
+Wire Wire Line
+	3900 6350 4350 6350
+Wire Wire Line
+	3900 6850 4350 6850
+Wire Wire Line
+	3900 7050 4350 7050
+Wire Wire Line
+	3900 7150 4350 7150
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:LPC1776FET180,551-lpc1776fet180,551 U?
+U 3 1 5BE04771
+P 13050 650
+AR Path="/5BE04771" Ref="U?"  Part="2" 
+AR Path="/5BCEDA39/5BE04771" Ref="U2"  Part="3" 
+F 0 "U2" H 13050 800 50  0000 L CNN
+F 1 "LPC1776FET180,551" H 13050 700 50  0000 L CNN
+F 2 "ICs And Semiconductors SMD_BGA:BGA180C80P14X14_1200X1200X120" H 13750 1950 50  0001 C CNN
+F 3 "" H 13750 1950 50  0001 C CNN
+F 4 "LPC1776FET180,551" H 13050 650 50  0001 C CNN "PN"
+	3    13050 650 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12850 1150
 Wire Bus Line
 	11600 7200 11600 7400
 Wire Bus Line

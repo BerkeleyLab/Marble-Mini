@@ -79,66 +79,6 @@ Text Label 9050 7500 1    60   ~ 12
 TCLKA_N
 Text Label 9850 7493 1    60   ~ 12
 PS0#
-Text Label 1750 9143 1    60   ~ 12
-Rx8_N
-Text Label 1850 9143 1    60   ~ 12
-Rx8_P
-Text Label 2050 9143 1    60   ~ 12
-Tx8_N
-Text Label 2150 9143 1    60   ~ 12
-Tx8_P
-Text Label 2350 9143 1    60   ~ 12
-Rx9_N
-Text Label 2450 9143 1    60   ~ 12
-Rx9_P
-Text Label 2650 9143 1    60   ~ 12
-Tx9_N
-Text Label 2750 9143 1    60   ~ 12
-Tx9_P
-Text Label 2950 9143 1    60   ~ 12
-Rx10_N
-Text Label 3050 9143 1    60   ~ 12
-Rx10_P
-Text Label 3250 9143 1    60   ~ 12
-Tx10_N
-Text Label 3350 9143 1    60   ~ 12
-Tx10_P
-Text Label 3550 9143 1    60   ~ 12
-Rx11_N
-Text Label 3650 9143 1    60   ~ 12
-Rx11_P
-Text Label 3850 9143 1    60   ~ 12
-Tx11_N
-Text Label 3950 9243 1    60   ~ 12
-Tx11_P
-Text Label 7150 9143 1    60   ~ 12
-Rx17_N
-Text Label 7250 9143 1    60   ~ 12
-Rx17_P
-Text Label 7450 9143 1    60   ~ 12
-Tx17_N
-Text Label 7550 9143 1    60   ~ 12
-Tx17_P
-Text Label 7750 9143 1    60   ~ 12
-Rx18_N
-Text Label 7850 9143 1    60   ~ 12
-Rx18_P
-Text Label 8050 9143 1    60   ~ 12
-Tx18_N
-Text Label 8150 9143 1    60   ~ 12
-Tx18_P
-Text Label 8350 9143 1    60   ~ 12
-Rx19_N
-Text Label 8450 9143 1    60   ~ 12
-Rx19_P
-Text Label 8650 9143 1    60   ~ 12
-Tx19_N
-Text Label 8750 9143 1    60   ~ 12
-Tx19_P
-Text Label 8950 9143 1    60   ~ 12
-Rx20_N
-Text Label 9050 9143 1    60   ~ 12
-Rx20_P
 Text Label 9250 9143 1    60   ~ 12
 Tx20_N
 Text Label 9350 9143 1    60   ~ 12
@@ -797,38 +737,6 @@ F 3 "" H 10050 9343 70  0000 C CNN
 	1    10050 9343
 	1    0    0    -1  
 $EndComp
-Text Label 6050 9043 1    48   ~ 10
-Rx15_P
-Text Label 6350 9043 1    48   ~ 10
-Tx15_P
-Text Label 5350 9043 1    48   ~ 10
-Rx14_N
-Text Label 6250 9043 1    48   ~ 10
-Tx15_N
-Text Label 5450 9043 1    48   ~ 10
-Rx14_P
-Text Label 5950 9043 1    48   ~ 10
-Rx15_N
-Text Label 5750 9043 1    48   ~ 10
-Tx14_P
-Text Label 5650 9043 1    48   ~ 10
-Tx14_N
-Text Label 4250 9043 1    48   ~ 10
-Rx12_P
-Text Label 4150 9043 1    48   ~ 10
-Rx12_N
-Text Label 5050 9043 1    48   ~ 10
-Tx13_N
-Text Label 4850 9043 1    48   ~ 10
-Rx13_P
-Text Label 4550 9043 1    48   ~ 10
-Tx12_P
-Text Label 4450 9043 1    48   ~ 10
-Tx12_N
-Text Label 4750 9043 1    48   ~ 10
-Rx13_N
-Text Label 5150 9043 1    48   ~ 10
-Tx13_P
 Wire Wire Line
 	1650 6893 1650 7700
 Wire Wire Line
@@ -929,15 +837,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 6893 3450 7700
 Wire Wire Line
-	3550 6893 3550 7700
-Wire Wire Line
-	3650 6893 3650 7700
-Wire Wire Line
 	3750 6893 3750 7700
-Wire Wire Line
-	3850 6893 3850 7700
-Wire Wire Line
-	3950 6893 3950 7700
 Wire Wire Line
 	4050 6893 4050 7700
 Wire Wire Line
@@ -945,23 +845,9 @@ Wire Wire Line
 Wire Wire Line
 	4350 6893 4350 7700
 Wire Wire Line
-	4450 6893 4450 7700
-Wire Wire Line
-	4550 6893 4550 7700
-Wire Wire Line
 	4650 6893 4650 7700
 Wire Wire Line
-	4750 6893 4750 7700
-Wire Wire Line
-	4850 6893 4850 7700
-Wire Wire Line
 	4950 6893 4950 7700
-Wire Wire Line
-	5050 6893 5050 7700
-Wire Wire Line
-	5350 6893 5350 7700
-Wire Wire Line
-	5450 6893 5450 7700
 Wire Wire Line
 	5550 6893 5550 7700
 Wire Wire Line
@@ -978,8 +864,6 @@ Wire Wire Line
 	6250 6893 6250 7700
 Wire Wire Line
 	5250 6893 5250 7700
-Wire Wire Line
-	5150 6893 5150 7700
 Wire Wire Line
 	6350 6893 6350 7700
 Wire Wire Line
@@ -1026,10 +910,6 @@ Wire Wire Line
 	8650 6893 8650 7700
 Wire Wire Line
 	8850 6893 8850 7700
-Wire Wire Line
-	8950 6893 8950 7700
-Wire Wire Line
-	9050 6893 9050 7700
 Wire Wire Line
 	9150 6893 9150 7700
 Wire Wire Line
@@ -1243,19 +1123,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 8500 10050 9343
 Wire Wire Line
-	9950 8500 9950 9343
-Wire Wire Line
-	9850 8500 9850 9343
-Wire Wire Line
-	9750 8500 9750 9343
-Wire Wire Line
-	9650 8500 9650 9343
-Wire Wire Line
-	9550 8500 9550 9343
-Wire Wire Line
 	9450 8500 9450 9343
-Wire Wire Line
-	9350 8500 9350 9343
 Wire Wire Line
 	10150 8500 10150 9343
 Wire Wire Line
@@ -1265,49 +1133,19 @@ Wire Wire Line
 Wire Wire Line
 	10450 8500 10450 9343
 Wire Wire Line
-	9250 8500 9250 9343
-Wire Wire Line
 	9150 8500 9150 9343
-Wire Wire Line
-	9050 8500 9050 9343
-Wire Wire Line
-	8950 8500 8950 9343
 Wire Wire Line
 	8850 8500 8850 9343
 Wire Wire Line
-	8750 8500 8750 9343
-Wire Wire Line
-	8650 8500 8650 9343
-Wire Wire Line
 	8550 8500 8550 9343
-Wire Wire Line
-	8450 8500 8450 9343
-Wire Wire Line
-	8350 8500 8350 9343
 Wire Wire Line
 	8250 8500 8250 9343
 Wire Wire Line
-	8150 8500 8150 9343
-Wire Wire Line
-	8050 8500 8050 9343
-Wire Wire Line
 	7950 8500 7950 9343
-Wire Wire Line
-	7850 8500 7850 9343
-Wire Wire Line
-	7750 8500 7750 9343
 Wire Wire Line
 	7650 8500 7650 9343
 Wire Wire Line
-	7550 8500 7550 9343
-Wire Wire Line
-	7450 8500 7450 9343
-Wire Wire Line
 	7350 8500 7350 9343
-Wire Wire Line
-	7250 8500 7250 9343
-Wire Wire Line
-	7150 8500 7150 9343
 Wire Wire Line
 	7050 8500 7050 9343
 Wire Wire Line
@@ -1315,101 +1153,35 @@ Wire Wire Line
 Wire Wire Line
 	6450 8500 6450 9343
 Wire Wire Line
-	6350 8500 6350 9343
-Wire Wire Line
-	6250 8500 6250 9343
-Wire Wire Line
 	6150 8500 6150 9343
-Wire Wire Line
-	6050 8500 6050 9343
-Wire Wire Line
-	5950 8500 5950 9343
 Wire Wire Line
 	5850 8500 5850 9343
 Wire Wire Line
-	5650 8500 5650 9343
-Wire Wire Line
 	5550 8500 5550 9343
-Wire Wire Line
-	5450 8500 5450 9343
-Wire Wire Line
-	5350 8500 5350 9343
 Wire Wire Line
 	5250 8500 5250 9343
 Wire Wire Line
-	5150 8500 5150 9343
-Wire Wire Line
-	5050 8500 5050 9343
-Wire Wire Line
 	4950 8500 4950 9343
-Wire Wire Line
-	4850 8500 4850 9343
-Wire Wire Line
-	4750 8500 4750 9343
 Wire Wire Line
 	4650 8500 4650 9343
 Wire Wire Line
-	5750 8500 5750 9343
-Wire Wire Line
-	4550 8500 4550 9343
-Wire Wire Line
-	4450 8500 4450 9343
-Wire Wire Line
 	4350 8500 4350 9343
-Wire Wire Line
-	4250 8500 4250 9343
-Wire Wire Line
-	4150 8500 4150 9343
 Wire Wire Line
 	4050 8500 4050 9343
 Wire Wire Line
-	2750 8500 2750 9343
-Wire Wire Line
-	2650 8500 2650 9343
-Wire Wire Line
 	2550 8500 2550 9343
-Wire Wire Line
-	2450 8500 2450 9343
-Wire Wire Line
-	2350 8500 2350 9343
 Wire Wire Line
 	2250 8500 2250 9343
 Wire Wire Line
-	1850 8500 1850 9343
-Wire Wire Line
-	1750 8500 1750 9343
-Wire Wire Line
 	1650 8500 1650 9343
-Wire Wire Line
-	2150 8500 2150 9343
-Wire Wire Line
-	2050 8500 2050 9343
-Wire Wire Line
-	3350 8500 3350 9343
-Wire Wire Line
-	3250 8500 3250 9343
 Wire Wire Line
 	3150 8500 3150 9343
 Wire Wire Line
-	3050 8500 3050 9343
-Wire Wire Line
-	2950 8500 2950 9343
-Wire Wire Line
 	2850 8500 2850 9343
-Wire Wire Line
-	3950 8500 3950 9443
-Wire Wire Line
-	3850 8500 3850 9343
 Wire Wire Line
 	3750 8500 3750 9343
 Wire Wire Line
-	3650 8500 3650 9343
-Wire Wire Line
-	3550 8500 3550 9343
-Wire Wire Line
 	3450 8500 3450 9343
-Connection ~ 2050 8500
-Connection ~ 2150 8500
 Wire Wire Line
 	1950 8500 1950 9343
 Connection ~ 1950 8500
@@ -1482,42 +1254,34 @@ Wire Wire Line
 	12400 5050 12000 5050
 Wire Wire Line
 	12000 5050 12000 5100
-Text Label 2364 1683 0    60   ~ 12
-Tx1_P
-Text Label 2364 1583 0    60   ~ 12
-Tx1_N
-Text Label 2364 1483 0    60   ~ 12
-Rx1_N
-Text Label 2364 1383 0    60   ~ 12
-Rx1_P
 Wire Wire Line
 	12400 5500 12000 5500
 Wire Wire Line
 	12000 5500 12000 5400
-Text Label 2350 700  0    50   ~ 10
+Text Label 3850 2050 0    50   ~ 10
 Rx0_P
-Text Label 2350 800  0    50   ~ 10
+Text Label 3850 2150 0    50   ~ 10
 Rx0_N
-Text Label 2350 900  0    50   ~ 10
+Text Label 3850 2250 0    50   ~ 10
 Tx0_P
-Text Label 2350 1000 0    50   ~ 10
+Text Label 3850 2350 0    50   ~ 10
 Tx0_N
-Text HLabel 2750 700  2    50   Input ~ 10
+Text HLabel 4250 2050 2    50   Input ~ 10
 Rx0_P
-Text HLabel 2750 800  2    50   Input ~ 10
+Text HLabel 4250 2150 2    50   Input ~ 10
 Rx0_N
-Text HLabel 2750 900  2    50   Input ~ 10
+Text HLabel 4250 2250 2    50   Input ~ 10
 Tx0_P
-Text HLabel 2750 1000 2    50   Input ~ 10
+Text HLabel 4250 2350 2    50   Input ~ 10
 Tx0_N
 Wire Wire Line
-	2350 700  2750 700 
+	3850 2050 4250 2050
 Wire Wire Line
-	2350 800  2750 800 
+	3850 2150 4250 2150
 Wire Wire Line
-	2350 900  2750 900 
+	3850 2250 4250 2250
 Wire Wire Line
-	2350 1000 2750 1000
+	3850 2350 4250 2350
 Text Label 9550 9150 1    50   ~ 10
 AMC_TCK
 Text Label 9950 9150 1    50   ~ 10
@@ -1528,52 +1292,6 @@ Text Label 9650 9150 1    50   ~ 10
 AMC_TMS
 Text Label 9750 9150 1    50   ~ 10
 AMC_TRST
-Text HLabel 3300 1700 2    50   Input ~ 10
-Rx_P_[4..7]
-Text HLabel 3300 1800 2    50   Input ~ 10
-Rx_N_[4..7]
-Text HLabel 3300 2000 2    50   Input ~ 10
-Tx_P_[4..7]
-Text HLabel 3300 1900 2    50   Input ~ 10
-Tx_N_[4..7]
-Entry Wire Line
-	2850 2050 2750 2150
-Entry Wire Line
-	2850 2500 2750 2600
-Entry Wire Line
-	2850 2950 2750 3050
-Entry Wire Line
-	2850 3400 2750 3500
-Wire Bus Line
-	3300 1700 2850 1700
-Entry Wire Line
-	3000 2150 2900 2250
-Entry Wire Line
-	3000 2600 2900 2700
-Entry Wire Line
-	3000 3050 2900 3150
-Entry Wire Line
-	3000 3500 2900 3600
-Wire Bus Line
-	3300 1800 3000 1800
-Entry Wire Line
-	3150 2250 3050 2350
-Entry Wire Line
-	3150 2700 3050 2800
-Entry Wire Line
-	3150 3150 3050 3250
-Entry Wire Line
-	3150 3600 3050 3700
-Wire Bus Line
-	3300 1900 3150 1900
-Entry Wire Line
-	3300 2350 3200 2450
-Entry Wire Line
-	3300 2800 3200 2900
-Entry Wire Line
-	3300 3250 3200 3350
-Entry Wire Line
-	3300 3750 3200 3850
 Text Label 9214 2633 0    60   ~ 12
 FCLKA_P
 Text HLabel 10014 2533 2    60   Input ~ 12
@@ -1767,70 +1485,6 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    12000 5400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2350 3350 3200 3350
-Wire Wire Line
-	2350 2900 3200 2900
-Wire Wire Line
-	2350 2450 3200 2450
-Wire Wire Line
-	2350 3850 3200 3850
-Wire Wire Line
-	2350 3700 3050 3700
-Wire Wire Line
-	2350 3250 3050 3250
-Wire Wire Line
-	2350 2800 3050 2800
-Wire Wire Line
-	2350 2350 3050 2350
-Wire Wire Line
-	2350 3600 2900 3600
-Wire Wire Line
-	2350 3150 2900 3150
-Wire Wire Line
-	2350 2700 2900 2700
-Wire Wire Line
-	2350 2250 2900 2250
-Wire Wire Line
-	2350 3500 2750 3500
-Wire Wire Line
-	2350 3050 2750 3050
-Wire Wire Line
-	2350 2600 2750 2600
-Wire Wire Line
-	2350 2150 2750 2150
-Text Label 2350 3850 0    50   ~ 10
-Tx_P_7
-Text Label 2350 3700 0    50   ~ 10
-Tx_N_7
-Text Label 2350 3600 0    50   ~ 10
-Rx_N_7
-Text Label 2350 3500 0    50   ~ 10
-Rx_P_7
-Text Label 2350 3350 0    50   ~ 10
-Tx_P_6
-Text Label 2350 3250 0    50   ~ 10
-Tx_N_6
-Text Label 2350 3150 0    50   ~ 10
-Rx_N_6
-Text Label 2350 3050 0    50   ~ 10
-Rx_P_6
-Text Label 2350 2900 0    50   ~ 10
-Tx_P_5
-Text Label 2350 2800 0    50   ~ 10
-Tx_N_5
-Text Label 2350 2700 0    50   ~ 10
-Rx_N_5
-Text Label 2350 2600 0    50   ~ 10
-Rx_P_5
-Text Label 2350 2450 0    50   ~ 10
-Tx_P_4
-Text Label 2350 2350 0    50   ~ 10
-Tx_N_4
-Text Label 2350 2250 0    50   ~ 10
-Rx_N_4
-Text Label 2350 2150 0    50   ~ 10
-Rx_P_4
 Text Label 3800 4450 0    50   ~ 10
 Tx_7_P
 Text Label 3800 4350 0    50   ~ 10
@@ -1948,38 +1602,331 @@ Text Label 9650 7500 1    60   ~ 12
 FCLKA_N
 Text Label 9550 7500 1    60   ~ 12
 FCLKA_P
-Wire Wire Line
-	9350 6893 9350 7700
-Wire Wire Line
-	9250 6893 9250 7700
 Text Label 9350 7500 1    60   ~ 12
 TCLKB_N
 Text Label 9250 7500 1    60   ~ 12
 TCLKB_P
-Wire Wire Line
-	6850 8500 6850 9343
-Wire Wire Line
-	6950 8500 6950 9343
-Wire Wire Line
-	6550 8500 6550 9343
-Wire Wire Line
-	6650 8500 6650 9343
-Text Label 6650 9100 1    60   ~ 12
-TCLKC_P
-Text Label 6550 9100 1    60   ~ 12
-TCLKC_N
-Text Label 6850 9150 1    60   ~ 12
-TCLKD_N
+Text Label 9050 9143 1    60   ~ 12
+Rx20_P
+Text Label 8950 9143 1    60   ~ 12
+Rx20_N
+Text Label 8750 9143 1    60   ~ 12
+Tx19_P
+Text Label 8650 9143 1    60   ~ 12
+Tx19_N
+Text Label 8450 9143 1    60   ~ 12
+Rx19_P
+Text Label 8350 9143 1    60   ~ 12
+Rx19_N
+Text Label 8150 9143 1    60   ~ 12
+Tx18_P
+Text Label 8050 9143 1    60   ~ 12
+Tx18_N
+Text Label 7850 9143 1    60   ~ 12
+Rx18_P
+Text Label 7750 9143 1    60   ~ 12
+Rx18_N
+Text Label 7550 9143 1    60   ~ 12
+Tx17_P
+Text Label 7450 9143 1    60   ~ 12
+Tx17_N
+Text Label 7250 9143 1    60   ~ 12
+Rx17_P
+Text Label 7150 9143 1    60   ~ 12
+Rx17_N
 Text Label 6950 9150 1    60   ~ 12
 TCLKD_P
+Text Label 6850 9150 1    60   ~ 12
+TCLKD_N
+Text Label 6550 9100 1    60   ~ 12
+TCLKC_N
+Text Label 6650 9100 1    60   ~ 12
+TCLKC_P
+Text Label 6250 9043 1    48   ~ 10
+Tx15_N
+Text Label 6350 9043 1    48   ~ 10
+Tx15_P
+Text Label 5950 9043 1    48   ~ 10
+Rx15_N
+Text Label 6050 9043 1    48   ~ 10
+Rx15_P
+Text Label 5650 9043 1    48   ~ 10
+Tx14_N
+Text Label 5750 9043 1    48   ~ 10
+Tx14_P
+Text Label 5450 9043 1    48   ~ 10
+Rx14_P
+Text Label 5350 9043 1    48   ~ 10
+Rx14_N
+Text Label 5150 9043 1    48   ~ 10
+Tx13_P
+Text Label 5050 9043 1    48   ~ 10
+Tx13_N
+Text Label 4750 9043 1    48   ~ 10
+Rx13_N
+Text Label 4850 9043 1    48   ~ 10
+Rx13_P
+Text Label 4450 9043 1    48   ~ 10
+Tx12_N
+Text Label 4550 9043 1    48   ~ 10
+Tx12_P
+Text Label 4150 9043 1    48   ~ 10
+Rx12_N
+Text Label 4250 9043 1    48   ~ 10
+Rx12_P
+Text Label 3950 9143 1    60   ~ 12
+Tx11_P
+Text Label 3850 9143 1    60   ~ 12
+Tx11_N
+Text Label 3650 9143 1    60   ~ 12
+Rx11_P
+Text Label 3550 9143 1    60   ~ 12
+Rx11_N
+Text Label 3350 9143 1    60   ~ 12
+Tx10_P
+Text Label 3250 9143 1    60   ~ 12
+Tx10_N
+Text Label 3050 9143 1    60   ~ 12
+Rx10_P
+Text Label 2950 9143 1    60   ~ 12
+Rx10_N
+Text Label 2750 9143 1    60   ~ 12
+Tx9_P
+Text Label 2650 9143 1    60   ~ 12
+Tx9_N
+Text Label 2450 9143 1    60   ~ 12
+Rx9_P
+Text Label 2350 9143 1    60   ~ 12
+Rx9_N
+Connection ~ 2050 8500
+Connection ~ 2150 8500
+Text Label 2150 9143 1    60   ~ 12
+Tx8_P
+Text Label 2050 9143 1    60   ~ 12
+Tx8_N
+Text Label 1850 9143 1    60   ~ 12
+Rx8_P
+Text Label 1750 9143 1    60   ~ 12
+Rx8_N
+Wire Wire Line
+	1750 8500 1750 9350
+Wire Wire Line
+	1850 8500 1850 9350
+Wire Wire Line
+	2050 8500 2050 9350
+Wire Wire Line
+	2150 8500 2150 9350
+Wire Wire Line
+	2350 8500 2350 9350
+Wire Wire Line
+	2450 8500 2450 9350
+Wire Wire Line
+	2650 8500 2650 9350
+Wire Wire Line
+	2750 8500 2750 9350
+Wire Wire Line
+	2950 8500 2950 9350
+Wire Wire Line
+	3050 8500 3050 9350
+Wire Wire Line
+	3250 8500 3250 9350
+Wire Wire Line
+	3350 8500 3350 9350
+Wire Wire Line
+	3550 8500 3550 9350
+Wire Wire Line
+	3650 8500 3650 9350
+Wire Wire Line
+	3850 8500 3850 9350
+Wire Wire Line
+	4150 8500 4150 9350
+Wire Wire Line
+	4250 8500 4250 9350
+Wire Wire Line
+	4450 8500 4450 9350
+Wire Wire Line
+	4550 8500 4550 9350
+Wire Wire Line
+	4750 8500 4750 9350
+Wire Wire Line
+	4850 8500 4850 9350
+Wire Wire Line
+	5050 8500 5050 9350
+Wire Wire Line
+	5150 8500 5150 9350
+Wire Wire Line
+	5350 8500 5350 9350
+Wire Wire Line
+	5450 8500 5450 9350
+Wire Wire Line
+	5650 8500 5650 9350
+Wire Wire Line
+	5750 8500 5750 9350
+Wire Wire Line
+	5950 8500 5950 9350
+Wire Wire Line
+	6050 8500 6050 9350
+Wire Wire Line
+	6250 8500 6250 9350
+Wire Wire Line
+	6350 8500 6350 9350
+Wire Wire Line
+	6550 8500 6550 9350
+Wire Wire Line
+	6650 8500 6650 9350
+Wire Wire Line
+	6850 8500 6850 9350
+Wire Wire Line
+	6950 8500 6950 9350
+Wire Wire Line
+	7150 8500 7150 9350
+Wire Wire Line
+	7250 8500 7250 9350
+Wire Wire Line
+	7450 8500 7450 9350
+Wire Wire Line
+	7550 8500 7550 9350
+Wire Wire Line
+	7750 8500 7750 9350
+Wire Wire Line
+	7850 8500 7850 9350
+Wire Wire Line
+	8050 8500 8050 9350
+Wire Wire Line
+	8150 8500 8150 9350
+Wire Wire Line
+	8350 8500 8350 9350
+Wire Wire Line
+	8450 8500 8450 9350
+Wire Wire Line
+	8650 8500 8650 9350
+Wire Wire Line
+	8750 8500 8750 9350
+Wire Wire Line
+	8950 8500 8950 9350
+Wire Wire Line
+	9050 8500 9050 9350
+Wire Wire Line
+	9250 8500 9250 9350
+Wire Wire Line
+	9350 8500 9350 9350
+Wire Wire Line
+	9550 8500 9550 9350
+Wire Wire Line
+	9650 8500 9650 9350
+Wire Wire Line
+	9750 8500 9750 9350
+Wire Wire Line
+	9850 8500 9850 9350
+Wire Wire Line
+	9950 8500 9950 9350
+NoConn ~ 9950 9350
+NoConn ~ 9850 9350
+NoConn ~ 9750 9350
+NoConn ~ 9650 9350
+NoConn ~ 9550 9350
+NoConn ~ 9350 9350
+NoConn ~ 9250 9350
+NoConn ~ 9050 9350
+NoConn ~ 8950 9350
+NoConn ~ 8750 9350
+NoConn ~ 8650 9350
+NoConn ~ 8450 9350
+NoConn ~ 8350 9350
+NoConn ~ 8150 9350
+NoConn ~ 8050 9350
+NoConn ~ 7850 9350
+NoConn ~ 7750 9350
+NoConn ~ 7550 9350
+NoConn ~ 7450 9350
+NoConn ~ 7250 9350
+NoConn ~ 7150 9350
+NoConn ~ 6950 9350
+NoConn ~ 6850 9350
+NoConn ~ 6650 9350
+NoConn ~ 6550 9350
+NoConn ~ 6350 9350
+NoConn ~ 6250 9350
+NoConn ~ 6050 9350
+NoConn ~ 5950 9350
+NoConn ~ 5750 9350
+NoConn ~ 5650 9350
+NoConn ~ 5450 9350
+NoConn ~ 5350 9350
+NoConn ~ 5150 9350
+NoConn ~ 5050 9350
+NoConn ~ 4850 9350
+NoConn ~ 4750 9350
+NoConn ~ 4550 9350
+NoConn ~ 4450 9350
+NoConn ~ 4250 9350
+NoConn ~ 4150 9350
+NoConn ~ 3850 9350
+Wire Wire Line
+	3950 9350 3950 8500
+NoConn ~ 3950 9350
+NoConn ~ 3650 9350
+NoConn ~ 3550 9350
+NoConn ~ 3350 9350
+NoConn ~ 3250 9350
+NoConn ~ 3050 9350
+NoConn ~ 2950 9350
+NoConn ~ 2750 9350
+NoConn ~ 2650 9350
+NoConn ~ 2450 9350
+NoConn ~ 2350 9350
+NoConn ~ 2150 9350
+NoConn ~ 2050 9350
+NoConn ~ 1850 9350
+NoConn ~ 1750 9350
+Wire Wire Line
+	8950 6900 8950 7700
+Wire Wire Line
+	9050 6900 9050 7700
+Wire Wire Line
+	9250 6900 9250 7700
+Wire Wire Line
+	9350 6900 9350 7700
+Wire Wire Line
+	5350 6900 5350 7700
+Wire Wire Line
+	5450 6900 5450 7700
+Wire Wire Line
+	5050 6900 5050 7700
+Wire Wire Line
+	5150 6900 5150 7700
+Wire Wire Line
+	4750 6900 4750 7700
+Wire Wire Line
+	4850 6900 4850 7700
+Wire Wire Line
+	4450 6900 4450 7700
+Wire Wire Line
+	4550 6900 4550 7700
+Wire Wire Line
+	3850 6900 3850 7700
+Wire Wire Line
+	3950 6900 3950 7700
+Wire Wire Line
+	3550 6900 3550 7700
+Wire Wire Line
+	3650 6900 3650 7700
+NoConn ~ 3550 6900
+NoConn ~ 3650 6900
+NoConn ~ 3850 6900
+NoConn ~ 3950 6900
+NoConn ~ 4450 6900
+NoConn ~ 4550 6900
+NoConn ~ 4750 6900
+NoConn ~ 4850 6900
+NoConn ~ 5050 6900
+NoConn ~ 5150 6900
+NoConn ~ 5350 6900
+NoConn ~ 5450 6900
+NoConn ~ 8950 6900
+NoConn ~ 9050 6900
+NoConn ~ 9250 6900
+NoConn ~ 9350 6900
 Wire Bus Line
 	10026 4346 10026 4546
-Wire Bus Line
-	3300 2000 3300 3750
-Wire Bus Line
-	3150 1900 3150 3600
-Wire Bus Line
-	3000 1800 3000 3500
-Wire Bus Line
-	2850 1700 2850 3400
 $EndSCHEMATC
