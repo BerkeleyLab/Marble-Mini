@@ -11,7 +11,7 @@ Rev "9"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "DDR3 1GB"
 Comment4 ""
 $EndDescr
 Text Label 4200 3850 0    50   ~ 10

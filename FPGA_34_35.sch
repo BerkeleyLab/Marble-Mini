@@ -11,7 +11,7 @@ Rev "9"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "BANK 34 & 35"
 Comment4 ""
 $EndDescr
 $Comp

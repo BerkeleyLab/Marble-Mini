@@ -11,7 +11,7 @@ Rev "9"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "GTP transceivers"
 Comment4 ""
 $EndDescr
 Text HLabel 9700 1200 2    50   Input ~ 10

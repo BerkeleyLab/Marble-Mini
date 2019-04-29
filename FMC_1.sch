@@ -11,7 +11,7 @@ Rev "9"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "FMC 1 connector"
 Comment4 ""
 $EndDescr
 Wire Wire Line
@@ -309,8 +309,6 @@ Text Label 2850 4550 0    50   ~ 10
 I2C_FMC1_SCL
 Text Label 2850 4650 0    50   ~ 10
 I2C_FMC1_SDA
-Text Label 2850 4950 0    50   ~ 10
-GA0_1
 Wire Wire Line
 	3550 5050 3250 5050
 Wire Wire Line
@@ -353,8 +351,6 @@ Text Label 5100 4750 0    50   ~ 10
 FMC1_3P3VAUX
 Text Label 5150 4850 0    50   ~ 10
 FMC1_TMS
-Text Label 5150 5050 0    50   ~ 10
-GA1_1
 Wire Wire Line
 	5150 1650 5850 1650
 Wire Wire Line
@@ -499,14 +495,6 @@ Wire Wire Line
 	13600 3700 14500 3700
 Wire Wire Line
 	13600 3800 14500 3800
-Text Label 13650 4250 0    50   ~ 10
-GA0_1
-Wire Wire Line
-	13650 4250 14350 4250
-Text Label 13650 4350 0    50   ~ 10
-GA1_1
-Wire Wire Line
-	13650 4350 14350 4350
 Text HLabel 14500 3200 2    50   Output ~ 10
 FMC1_GBTCLK0_M2C_P
 Text HLabel 14500 3300 2    50   Output ~ 10
@@ -709,10 +697,6 @@ F 3 "" H 2200 5050 50  0001 C CNN
 	1    2200 5050
 	1    0    0    -1  
 $EndComp
-Text HLabel 14350 4250 2    50   Input ~ 10
-GA0_1
-Text HLabel 14350 4350 2    50   Input ~ 10
-GA1_1
 $Comp
 L power:+3.3VP #PWR?
 U 1 1 5DD348B7
@@ -1927,4 +1911,38 @@ Text Label 5150 4950 0    50   ~ 10
 FMC1_TRST
 Wire Wire Line
 	5150 4950 5850 4950
+$Comp
+L power:GND #PWR?
+U 1 1 5D17E89A
+P 2850 4950
+AR Path="/5BD32060/5D17E89A" Ref="#PWR?"  Part="1" 
+AR Path="/5BD31F9A/5D17E89A" Ref="#PWR?"  Part="1" 
+AR Path="/5BD31F9F/5D17E89A" Ref="#PWR?"  Part="1" 
+AR Path="/5D17E89A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 4700 50  0001 C CNN
+F 1 "GND" V 2855 4777 50  0000 C CNN
+F 2 "" H 2850 4950 50  0001 C CNN
+F 3 "" H 2850 4950 50  0001 C CNN
+	1    2850 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D19449D
+P 5150 5050
+AR Path="/5BD32060/5D19449D" Ref="#PWR?"  Part="1" 
+AR Path="/5BD31F9A/5D19449D" Ref="#PWR?"  Part="1" 
+AR Path="/5BD31F9F/5D19449D" Ref="#PWR?"  Part="1" 
+AR Path="/5D19449D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 4800 50  0001 C CNN
+F 1 "GND" V 5155 4877 50  0000 C CNN
+F 2 "" H 5150 5050 50  0001 C CNN
+F 3 "" H 5150 5050 50  0001 C CNN
+	1    5150 5050
+	0    1    1    0   
+$EndComp
+Text Notes 3000 4950 0    50   ~ 10
+GA0_1
+Text Notes 5300 5050 0    50   ~ 10
+GA1_1
 $EndSCHEMATC

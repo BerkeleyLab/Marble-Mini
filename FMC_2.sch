@@ -10,8 +10,8 @@ Date "2019-01-16"
 Rev "9"
 Comp "Michał Gąska / WUT"
 Comment1 ""
-Comment2 "FMC 2 connector"
-Comment3 ""
+Comment2 ""
+Comment3 "FMC 2 connector"
 Comment4 ""
 $EndDescr
 Wire Wire Line
@@ -355,8 +355,6 @@ Text Label 5400 5050 0    50   ~ 10
 FMC2_3P3VAUX
 Text Label 5450 5150 0    50   ~ 10
 FMC2_TMS
-Text Label 5450 5350 0    50   ~ 10
-GA1_2
 Wire Wire Line
 	5450 1950 6150 1950
 Wire Wire Line
@@ -467,14 +465,6 @@ Wire Wire Line
 	13900 4000 14800 4000
 Wire Wire Line
 	13900 4100 14800 4100
-Text Label 13950 4550 0    50   ~ 10
-GA0_2
-Wire Wire Line
-	13950 4550 14650 4550
-Text Label 13950 4650 0    50   ~ 10
-GA1_2
-Wire Wire Line
-	13950 4650 14650 4650
 Text HLabel 14800 3500 2    50   Output ~ 10
 FMC2_GBTCLK0_M2C_P
 Text HLabel 14800 3600 2    50   Output ~ 10
@@ -686,10 +676,6 @@ F 3 "" H 2500 5350 50  0001 C CNN
 	1    2500 5350
 	1    0    0    -1  
 $EndComp
-Text HLabel 14650 4550 2    50   Output ~ 10
-GA0_2
-Text HLabel 14650 4650 2    50   Output ~ 10
-GA1_2
 Wire Wire Line
 	7150 6900 7300 6900
 $Comp
@@ -1788,10 +1774,6 @@ F 3 "" H 7300 6900 50  0001 C CNN
 	1    7300 6900
 	0    1    1    0   
 $EndComp
-Text Notes 2900 5250 0    50   ~ 10
-GA0_2
-Text Label 3150 5250 0    50   ~ 10
-FMC2_3P3VAUX
 Text HLabel 4800 6900 0    50   Output ~ 0
 FMC2_FUSE
 Wire Wire Line
@@ -1940,4 +1922,25 @@ Text Label 5450 5250 0    50   ~ 10
 FMC2_TRST
 Wire Wire Line
 	5450 5250 6150 5250
+Text Label 3150 5250 0    50   ~ 10
+FMC2_3P3VAUX
+Text Notes 2900 5250 0    50   ~ 10
+GA0_2
+$Comp
+L power:GND #PWR?
+U 1 1 5D1DC9A3
+P 5450 5350
+AR Path="/5BD32060/5D1DC9A3" Ref="#PWR?"  Part="1" 
+AR Path="/5BD31F9A/5D1DC9A3" Ref="#PWR?"  Part="1" 
+AR Path="/5BD31F9F/5D1DC9A3" Ref="#PWR?"  Part="1" 
+AR Path="/5D1DC9A3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5450 5100 50  0001 C CNN
+F 1 "GND" V 5455 5177 50  0000 C CNN
+F 2 "" H 5450 5350 50  0001 C CNN
+F 3 "" H 5450 5350 50  0001 C CNN
+	1    5450 5350
+	0    1    1    0   
+$EndComp
+Text Notes 5600 5350 0    50   ~ 10
+GA1_2
 $EndSCHEMATC

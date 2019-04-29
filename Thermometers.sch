@@ -11,7 +11,7 @@ Rev "9"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "Thermometer & Fans controller"
 Comment4 ""
 $EndDescr
 $Comp
@@ -990,7 +990,7 @@ Wire Wire Line
 	2400 5000 2750 5000
 Connection ~ 2400 5300
 Wire Wire Line
-	2400 5300 2850 5300
+	2400 5300 2750 5300
 $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5D05A2DF
@@ -1582,5 +1582,11 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    1400 5300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2850 5400
+Wire Wire Line
+	2850 5400 2750 5400
+Wire Wire Line
+	2750 5400 2750 5300
+Connection ~ 2750 5300
+Wire Wire Line
+	2750 5300 2850 5300
 $EndSCHEMATC

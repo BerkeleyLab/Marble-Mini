@@ -11,7 +11,7 @@ Rev "9"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "MMC"
 Comment4 ""
 $EndDescr
 $Comp
@@ -3886,15 +3886,15 @@ Wire Wire Line
 	12400 2550 12850 2550
 Wire Wire Line
 	12400 2650 12850 2650
-Text Label 3900 6650 0    50   ~ 10
+Text Label 3900 7050 0    50   ~ 10
 FMC2_TCK
 Text Label 3900 6350 0    50   ~ 10
 FMC2_TDI
 Text Label 3900 6850 0    50   ~ 10
 FMC2_TDO
-Text Label 3900 7050 0    50   ~ 10
-FMC2_TMS
 Text Label 3900 7150 0    50   ~ 10
+FMC2_TMS
+Text Label 3900 6650 0    50   ~ 10
 FMC2_TRST
 Wire Wire Line
 	3900 6650 4350 6650
