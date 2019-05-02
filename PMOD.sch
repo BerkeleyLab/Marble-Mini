@@ -384,9 +384,11 @@ Pmod3_6
 Text Label 7100 4500 0    50   ~ 10
 Pmod3_7
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J12
+L AMC_FMC_Carrier-PcbDoc-rescue:Conn_02x06_Odd_Even-Connector_Generic J12
 U 1 1 5C9E764A
 P 3750 2900
+AR Path="/5C9E764A" Ref="J12"  Part="1" 
+AR Path="/5BCEDA2C/5C9E764A" Ref="J12"  Part="1" 
 F 0 "J12" H 3800 3317 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 3800 3226 50  0000 C CNN
 F 2 "Connectors_Samtec:SDL-112-X-XX_2x06" H 3750 2900 50  0001 C CNN
@@ -395,9 +397,11 @@ F 3 "~" H 3750 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J13
+L AMC_FMC_Carrier-PcbDoc-rescue:Conn_02x06_Odd_Even-Connector_Generic J13
 U 1 1 5C9EA39D
 P 6750 2900
+AR Path="/5C9EA39D" Ref="J13"  Part="1" 
+AR Path="/5BCEDA2C/5C9EA39D" Ref="J13"  Part="1" 
 F 0 "J13" H 6800 3317 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 6800 3226 50  0000 C CNN
 F 2 "Connectors_Samtec:SDL-112-X-XX_2x06" H 6750 2900 50  0001 C CNN
@@ -406,9 +410,11 @@ F 3 "~" H 6750 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J16
+L AMC_FMC_Carrier-PcbDoc-rescue:Conn_02x06_Odd_Even-Connector_Generic J16
 U 1 1 5C9EB059
 P 6750 4400
+AR Path="/5C9EB059" Ref="J16"  Part="1" 
+AR Path="/5BCEDA2C/5C9EB059" Ref="J16"  Part="1" 
 F 0 "J16" H 6800 4817 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 6800 4726 50  0000 C CNN
 F 2 "Connectors_Samtec:SDL-112-X-XX_2x06" H 6750 4400 50  0001 C CNN

@@ -2630,7 +2630,7 @@ $EndComp
 Wire Wire Line
 	3050 1500 3250 1500
 $Comp
-L Miscellaneous:BELFUSE_0826-1X1T-HS-F J4
+L AMC_FMC_Carrier-PcbDoc-rescue:BELFUSE_0826-1X1T-HS-F-Miscellaneous J4
 U 1 1 5DB81DF6
 P 12500 1900
 F 0 "J4" H 13400 2067 50  0000 C CNN

@@ -3275,7 +3275,7 @@ FMC1_FUSE
 Text Label 3850 3350 0    50   ~ 0
 FMC2_FUSE
 $Comp
-L Switch:SW_Push SW2
+L AMC_FMC_Carrier-PcbDoc-rescue:SW_Push-Switch SW2
 U 1 1 5DC8E1FA
 P 10050 4750
 F 0 "SW2" H 10050 5035 50  0000 C CNN

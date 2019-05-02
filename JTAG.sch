@@ -690,7 +690,7 @@ $EndComp
 Text Label 4600 6000 0    50   ~ 10
 EN_CON_JTAG
 $Comp
-L Standard_Logic:NC7SZ66P5X U7
+L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic U7
 U 1 1 5E17EE5A
 P 7600 2100
 F 0 "U7" H 7900 2265 50  0000 C CNN
@@ -736,7 +736,7 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Standard_Logic:NC7SZ66P5X U10
+L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic U10
 U 1 1 5E17F12A
 P 5200 2100
 F 0 "U10" H 5500 2265 50  0000 C CNN
