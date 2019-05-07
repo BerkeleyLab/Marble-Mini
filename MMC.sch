@@ -3288,14 +3288,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DC932CE
-P 9850 4850
+P 9850 5250
 AR Path="/5BD32060/5DC932CE" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA39/5DC932CE" Ref="#PWR0633"  Part="1" 
-F 0 "#PWR0633" H 9850 4600 50  0001 C CNN
-F 1 "GND" H 9855 4677 50  0000 C CNN
-F 2 "" H 9850 4850 50  0001 C CNN
-F 3 "" H 9850 4850 50  0001 C CNN
-	1    9850 4850
+F 0 "#PWR0633" H 9850 5000 50  0001 C CNN
+F 1 "GND" H 9855 5077 50  0000 C CNN
+F 2 "" H 9850 5250 50  0001 C CNN
+F 3 "" H 9850 5250 50  0001 C CNN
+	1    9850 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3347,8 +3347,6 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    10450 4450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9850 4750 9850 4850
 Wire Wire Line
 	10250 4750 10450 4750
 Wire Wire Line
@@ -3921,6 +3919,32 @@ F 4 "LPC1776FET180,551" H 13050 650 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 12850 1150
+NoConn ~ 12850 2950
+NoConn ~ 12850 3150
+NoConn ~ 12850 3250
+NoConn ~ 12850 3350
+NoConn ~ 12850 3450
+NoConn ~ 4350 6750
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5CF2A4CC
+P 10050 5150
+F 0 "SW?" H 10050 5435 50  0000 C CNN
+F 1 "SW_Push" H 10050 5344 50  0000 C CNN
+F 2 "AG5300_2:KSS241GLFS" H 10050 5350 50  0001 C CNN
+F 3 "~" H 10050 5350 50  0001 C CNN
+	1    10050 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 4750 9850 5150
+Connection ~ 9850 5150
+Wire Wire Line
+	9850 5150 9850 5250
+Wire Wire Line
+	10250 5150 10450 5150
+Wire Wire Line
+	10450 5150 10450 4750
 Wire Bus Line
 	11600 7200 11600 7400
 Wire Bus Line
