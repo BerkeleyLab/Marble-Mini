@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 29 0
 EELAYER END
@@ -14,6 +14,7 @@ Comment2 ""
 Comment3 "BANK 13 & 14"
 Comment4 ""
 $EndDescr
+BusAlias rgt rg g r
 $Comp
 L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7 U?
 U 1 1 5CC902F4
