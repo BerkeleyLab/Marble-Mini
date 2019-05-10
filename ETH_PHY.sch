@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 29 0
 EELAYER END
@@ -334,6 +334,7 @@ F 1 "25MHz" H 4900 3476 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:OSC_MICREL_2520" H 4600 3400 50  0001 C CNN
 F 3 "" H 4600 3400 50  0001 C CNN
 F 4 "ECS-2520MV-250-BN-TR" H 4600 3400 50  0001 C CNN "PN"
+F 5 "dnf" H 4900 2950 50  0000 C CNN "config"
 	1    4600 3400
 	1    0    0    -1  
 $EndComp
@@ -2216,6 +2217,7 @@ F 37 "12/03/07 00:00:00" H 4050 50  60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 4050 -40 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 4050 -130 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4050 -220 60  0001 L CNN "License"
+F 41 "dnf" V 4350 3750 50  0000 C CNN "config"
 	1    4050 3550
 	0    1    1    0   
 $EndComp

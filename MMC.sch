@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 29 0
 EELAYER END
@@ -946,54 +946,6 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_22PF_50V_5%_C0G C92
-U 1 1 5CAC322E
-P 1100 9550
-F 0 "C92" V 1204 9660 50  0000 L CNN
-F 1 "CC0402_22PF_50V_5%_C0G" H 1100 9290 60  0001 L CNN
-F 2 "CAPC1005X55N" H 1100 8480 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 1100 9110 60  0001 L CNN
-F 4 "22pF" V 1295 9660 50  0000 L CNN "~"
-F 5 "CC0402_22PF_50V_5%_C0G" H 1100 9020 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 1100 8930 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 1100 8840 60  0001 L CNN "Library Path"
-F 8 "=Value" H 1100 8750 60  0001 L CNN "Comment"
-F 9 "Standard" H 1100 8660 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 1100 8570 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 1100 8390 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 1100 8300 60  0001 L CNN "Footprint Path"
-F 13 "CAPC1005X55N" H 1100 8210 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 1100 8120 60  0001 L CNN "PackageDescription"
-F 15 "22pF" H 1100 8030 60  0001 L CNN "Val"
-F 16 "Preferred" H 1100 7940 60  0001 L CNN "Status"
-F 17 "~~" H 1100 7850 60  0001 L CNN "Status Comment"
-F 18 "50V" H 1100 7760 60  0001 L CNN "Voltage"
-F 19 "C0G/NP0" H 1100 7670 60  0001 L CNN "TC"
-F 20 "±5%" H 1100 7580 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 1100 7490 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 1100 7400 60  0001 L CNN "Manufacturer"
-F 23 "CC0402_22PF_50V_5%_C0G" H 1100 7310 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 1100 7220 60  0001 L CNN "Case"
-F 25 "Yes" H 1100 7130 60  0001 L CNN "Mounted"
-F 26 "No" H 1100 7040 60  0001 L CNN "Socket"
-F 27 "Yes" H 1100 6950 60  0001 L CNN "SMD"
-F 28 "~~" H 1100 6860 60  0001 L CNN "PressFit"
-F 29 "No" H 1100 6770 60  0001 L CNN "Sense"
-F 30 "~~" H 1100 6680 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 1100 6590 60  0001 L CNN "ComponentHeight"
-F 32 "KEMET" H 1100 6500 60  0001 L CNN "Manufacturer1 Example"
-F 33 "C0402C220J5GACTU" H 1100 6410 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.55mm" H 1100 6320 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 1100 6230 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 1100 6140 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 1100 6050 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 1100 5960 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 1100 5870 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1100 5780 60  0001 L CNN "License"
-	1    1100 9550
-	0    1    1    0   
-$EndComp
-$Comp
 L Capacitors_SMD:CC0402_22PF_50V_5%_C0G C93
 U 1 1 5CAD39BC
 P 1600 9550
@@ -1038,6 +990,7 @@ F 37 "12/03/07 00:00:00" H 1600 6050 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 1600 5960 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 1600 5870 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1600 5780 60  0001 L CNN "License"
+F 41 "dnf" V 1900 9750 50  0000 C CNN "config"
 	1    1600 9550
 	0    1    1    0   
 $EndComp
@@ -3093,55 +3046,6 @@ F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    7450 8100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Crystals_&_Oscillators:XTAL_8MHZ_TXC_7A-8.000MAAE-T Y5
-U 1 1 5CEAFF33
-P 1200 9400
-F 0 "Y5" H 1350 9657 50  0000 C CNN
-F 1 "XTAL_8MHZ_TXC_7A-8.000MAAE-T" H 1200 9110 60  0001 L CNN
-F 2 "XTAL_TXC_7A" H 1200 8210 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XTAL_TXC_7A.pdf" H 1200 8930 60  0001 L CNN
-F 4 "8MHz" H 1350 9566 50  0000 C CNN "~"
-F 5 "XTAL_8MHZ_TXC_7A-8.000MAAE-T" H 1200 8840 60  0001 L CNN "Part Number"
-F 6 "Quartz Crystal" H 1200 8750 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Crystals & Oscillators.SchLib" H 1200 8660 60  0001 L CNN "Library Path"
-F 8 "=Value" H 1200 8570 60  0001 L CNN "Comment"
-F 9 "Standard" H 1200 8480 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 1200 8390 60  0001 L CNN "Component Type"
-F 11 "~~" H 1200 8300 60  0001 L CNN "Device"
-F 12 "2 Pins, 3.2x5mm, SMD Glass Seam Sealing Crystal, 7A Serie" H 1200 8120 60  0001 L CNN "PackageDescription"
-F 13 "8MHz" H 1200 8030 60  0001 L CNN "Val"
-F 14 "~~" H 1200 7940 60  0001 L CNN "Status"
-F 15 "Tolerance: ±30ppm, Stability: ±30ppm, -20°C to +70°C, 12pF, SMD Glass Seam Sealing Crystal, 7A Series" H 1200 7850 60  0001 L CNN "Part Description"
-F 16 "TXC CORPORATION" H 1200 7760 60  0001 L CNN "Manufacturer"
-F 17 "7A-8.000MAAE-T" H 1200 7670 60  0001 L CNN "Manufacturer Part Number"
-F 18 "2" H 1200 7580 60  0001 L CNN "Pin Count"
-F 19 "~~" H 1200 7490 60  0001 L CNN "Case"
-F 20 "Yes" H 1200 7400 60  0001 L CNN "Mounted"
-F 21 "No" H 1200 7310 60  0001 L CNN "Socket"
-F 22 "Yes" H 1200 7220 60  0001 L CNN "SMD"
-F 23 "No" H 1200 7130 60  0001 L CNN "PressFit"
-F 24 "No" H 1200 7040 60  0001 L CNN "Sense"
-F 25 "No" H 1200 6950 60  0001 L CNN "Bonding"
-F 26 "~~" H 1200 6860 60  0001 L CNN "Sense Comment"
-F 27 "~~" H 1200 6770 60  0001 L CNN "Status Comment"
-F 28 "~~" H 1200 6680 60  0001 L CNN "Field1"
-F 29 "1.2mm" H 1200 6590 60  0001 L CNN "ComponentHeight"
-F 30 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 1200 6500 60  0001 L CNN "Footprint Path"
-F 31 "XTAL_TXC_7A" H 1200 6410 60  0001 L CNN "Footprint Ref"
-F 32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XTAL_TXC_7A.pdf" H 1200 6320 60  0001 L CNN "HelpURL"
-F 33 "~~" H 1200 6230 60  0001 L CNN "ComponentLink1URL"
-F 34 "~~" H 1200 6140 60  0001 L CNN "ComponentLink1Description"
-F 35 "~~" H 1200 6050 60  0001 L CNN "ComponentLink2URL"
-F 36 "~~" H 1200 5960 60  0001 L CNN "ComponentLink2Description"
-F 37 "CERN DEM JLC" H 1200 5870 60  0001 L CNN "Author"
-F 38 "10/09/14 00:00:00" H 1200 5780 60  0001 L CNN "CreateDate"
-F 39 "11/12/14 00:00:00" H 1200 5690 60  0001 L CNN "LatestRevisionDate"
-F 40 "ICs And Semiconductors SMD" H 1200 5600 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1200 5510 60  0001 L CNN "License"
-	1    1200 9400
-	1    0    0    -1  
-$EndComp
 Connection ~ 2600 3150
 Wire Wire Line
 	2600 3150 2600 3100
@@ -3947,6 +3851,105 @@ Wire Wire Line
 	10250 5150 10450 5150
 Wire Wire Line
 	10450 5150 10450 4750
+$Comp
+L Crystals_&_Oscillators:XTAL_8MHZ_TXC_7A-8.000MAAE-T Y5
+U 1 1 5CEAFF33
+P 1200 9400
+F 0 "Y5" H 1350 9657 50  0000 C CNN
+F 1 "XTAL_8MHZ_TXC_7A-8.000MAAE-T" H 1200 9110 60  0001 L CNN
+F 2 "XTAL_TXC_7A" H 1200 8210 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XTAL_TXC_7A.pdf" H 1200 8930 60  0001 L CNN
+F 4 "8MHz" H 1350 9566 50  0000 C CNN "~"
+F 5 "XTAL_8MHZ_TXC_7A-8.000MAAE-T" H 1200 8840 60  0001 L CNN "Part Number"
+F 6 "Quartz Crystal" H 1200 8750 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Crystals & Oscillators.SchLib" H 1200 8660 60  0001 L CNN "Library Path"
+F 8 "=Value" H 1200 8570 60  0001 L CNN "Comment"
+F 9 "Standard" H 1200 8480 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 1200 8390 60  0001 L CNN "Component Type"
+F 11 "~~" H 1200 8300 60  0001 L CNN "Device"
+F 12 "2 Pins, 3.2x5mm, SMD Glass Seam Sealing Crystal, 7A Serie" H 1200 8120 60  0001 L CNN "PackageDescription"
+F 13 "8MHz" H 1200 8030 60  0001 L CNN "Val"
+F 14 "~~" H 1200 7940 60  0001 L CNN "Status"
+F 15 "Tolerance: ±30ppm, Stability: ±30ppm, -20°C to +70°C, 12pF, SMD Glass Seam Sealing Crystal, 7A Series" H 1200 7850 60  0001 L CNN "Part Description"
+F 16 "TXC CORPORATION" H 1200 7760 60  0001 L CNN "Manufacturer"
+F 17 "7A-8.000MAAE-T" H 1200 7670 60  0001 L CNN "Manufacturer Part Number"
+F 18 "2" H 1200 7580 60  0001 L CNN "Pin Count"
+F 19 "~~" H 1200 7490 60  0001 L CNN "Case"
+F 20 "Yes" H 1200 7400 60  0001 L CNN "Mounted"
+F 21 "No" H 1200 7310 60  0001 L CNN "Socket"
+F 22 "Yes" H 1200 7220 60  0001 L CNN "SMD"
+F 23 "No" H 1200 7130 60  0001 L CNN "PressFit"
+F 24 "No" H 1200 7040 60  0001 L CNN "Sense"
+F 25 "No" H 1200 6950 60  0001 L CNN "Bonding"
+F 26 "~~" H 1200 6860 60  0001 L CNN "Sense Comment"
+F 27 "~~" H 1200 6770 60  0001 L CNN "Status Comment"
+F 28 "~~" H 1200 6680 60  0001 L CNN "Field1"
+F 29 "1.2mm" H 1200 6590 60  0001 L CNN "ComponentHeight"
+F 30 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 1200 6500 60  0001 L CNN "Footprint Path"
+F 31 "XTAL_TXC_7A" H 1200 6410 60  0001 L CNN "Footprint Ref"
+F 32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XTAL_TXC_7A.pdf" H 1200 6320 60  0001 L CNN "HelpURL"
+F 33 "~~" H 1200 6230 60  0001 L CNN "ComponentLink1URL"
+F 34 "~~" H 1200 6140 60  0001 L CNN "ComponentLink1Description"
+F 35 "~~" H 1200 6050 60  0001 L CNN "ComponentLink2URL"
+F 36 "~~" H 1200 5960 60  0001 L CNN "ComponentLink2Description"
+F 37 "CERN DEM JLC" H 1200 5870 60  0001 L CNN "Author"
+F 38 "10/09/14 00:00:00" H 1200 5780 60  0001 L CNN "CreateDate"
+F 39 "11/12/14 00:00:00" H 1200 5690 60  0001 L CNN "LatestRevisionDate"
+F 40 "ICs And Semiconductors SMD" H 1200 5600 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1200 5510 60  0001 L CNN "License"
+F 42 "dnf" H 1350 9250 50  0000 C CNN "config"
+	1    1200 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_SMD:CC0402_22PF_50V_5%_C0G C92
+U 1 1 5CAC322E
+P 1100 9550
+F 0 "C92" V 1204 9660 50  0000 L CNN
+F 1 "CC0402_22PF_50V_5%_C0G" H 1100 9290 60  0001 L CNN
+F 2 "CAPC1005X55N" H 1100 8480 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 1100 9110 60  0001 L CNN
+F 4 "22pF" V 1295 9660 50  0000 L CNN "~"
+F 5 "CC0402_22PF_50V_5%_C0G" H 1100 9020 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 1100 8930 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 1100 8840 60  0001 L CNN "Library Path"
+F 8 "=Value" H 1100 8750 60  0001 L CNN "Comment"
+F 9 "Standard" H 1100 8660 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 1100 8570 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 1100 8390 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 1100 8300 60  0001 L CNN "Footprint Path"
+F 13 "CAPC1005X55N" H 1100 8210 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 1100 8120 60  0001 L CNN "PackageDescription"
+F 15 "22pF" H 1100 8030 60  0001 L CNN "Val"
+F 16 "Preferred" H 1100 7940 60  0001 L CNN "Status"
+F 17 "~~" H 1100 7850 60  0001 L CNN "Status Comment"
+F 18 "50V" H 1100 7760 60  0001 L CNN "Voltage"
+F 19 "C0G/NP0" H 1100 7670 60  0001 L CNN "TC"
+F 20 "±5%" H 1100 7580 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 1100 7490 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 1100 7400 60  0001 L CNN "Manufacturer"
+F 23 "CC0402_22PF_50V_5%_C0G" H 1100 7310 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 1100 7220 60  0001 L CNN "Case"
+F 25 "Yes" H 1100 7130 60  0001 L CNN "Mounted"
+F 26 "No" H 1100 7040 60  0001 L CNN "Socket"
+F 27 "Yes" H 1100 6950 60  0001 L CNN "SMD"
+F 28 "~~" H 1100 6860 60  0001 L CNN "PressFit"
+F 29 "No" H 1100 6770 60  0001 L CNN "Sense"
+F 30 "~~" H 1100 6680 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 1100 6590 60  0001 L CNN "ComponentHeight"
+F 32 "KEMET" H 1100 6500 60  0001 L CNN "Manufacturer1 Example"
+F 33 "C0402C220J5GACTU" H 1100 6410 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.55mm" H 1100 6320 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 1100 6230 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 1100 6140 60  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 1100 6050 60  0001 L CNN "CreateDate"
+F 38 "12/03/07 00:00:00" H 1100 5960 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 1100 5870 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1100 5780 60  0001 L CNN "License"
+F 41 "dnf" V 1400 9700 50  0000 C CNN "config"
+	1    1100 9550
+	0    1    1    0   
+$EndComp
 Wire Bus Line
 	11600 7200 11600 7400
 Wire Bus Line

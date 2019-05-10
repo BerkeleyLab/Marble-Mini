@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 29 0
 EELAYER END
@@ -844,6 +844,7 @@ F 37 "12/03/07 00:00:00" H 3500 950 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 3500 860 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 3500 770 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3500 680 60  0001 L CNN "License"
+F 41 "-standalone" H 3500 4450 50  0001 C CNN "config"
 	1    3500 4450
 	-1   0    0    1   
 $EndComp
@@ -997,6 +998,7 @@ F 37 "12/03/07 00:00:00" H 3500 1450 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 3500 1360 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 3500 1270 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3500 1180 60  0001 L CNN "License"
+F 41 "-standalone" H 3500 4950 50  0001 C CNN "config"
 	1    3500 4950
 	-1   0    0    1   
 $EndComp
@@ -1303,6 +1305,7 @@ F 37 "12/03/07 00:00:00" H 6400 -2650 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 -2740 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 -2830 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 -2920 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 850 50  0001 C CNN "config"
 	1    6400 850 
 	-1   0    0    1   
 $EndComp
@@ -1405,6 +1408,7 @@ F 37 "12/03/07 00:00:00" H 6400 -2400 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 -2490 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 -2580 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 -2670 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 1100 50  0001 C CNN "config"
 	1    6400 1100
 	-1   0    0    1   
 $EndComp
@@ -1507,6 +1511,7 @@ F 37 "12/03/07 00:00:00" H 6400 -2100 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 -2190 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 -2280 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 -2370 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 1400 50  0001 C CNN "config"
 	1    6400 1400
 	-1   0    0    1   
 $EndComp
@@ -1609,6 +1614,7 @@ F 37 "12/03/07 00:00:00" H 6400 -1850 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 -1940 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 -2030 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 -2120 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 1650 50  0001 C CNN "config"
 	1    6400 1650
 	-1   0    0    1   
 $EndComp
@@ -1711,6 +1717,7 @@ F 37 "12/03/07 00:00:00" H 6400 -1550 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 -1640 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 -1730 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 -1820 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 1950 50  0001 C CNN "config"
 	1    6400 1950
 	-1   0    0    1   
 $EndComp
@@ -1813,6 +1820,7 @@ F 37 "12/03/07 00:00:00" H 6400 -1300 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 -1390 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 -1480 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 -1570 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 2200 50  0001 C CNN "config"
 	1    6400 2200
 	-1   0    0    1   
 $EndComp
@@ -1915,6 +1923,7 @@ F 37 "12/03/07 00:00:00" H 6400 -1000 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 -1090 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 -1180 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 -1270 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 2500 50  0001 C CNN "config"
 	1    6400 2500
 	-1   0    0    1   
 $EndComp
@@ -2017,6 +2026,7 @@ F 37 "12/03/07 00:00:00" H 6400 -750 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 -840 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 -930 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 -1020 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 2750 50  0001 C CNN "config"
 	1    6400 2750
 	-1   0    0    1   
 $EndComp
@@ -2119,6 +2129,7 @@ F 37 "12/03/07 00:00:00" H 6400 -300 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 -390 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 -480 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 -570 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 3200 50  0001 C CNN "config"
 	1    6400 3200
 	-1   0    0    1   
 $EndComp
@@ -2221,6 +2232,7 @@ F 37 "12/03/07 00:00:00" H 6400 -50 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 -140 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 -230 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 -320 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 3450 50  0001 C CNN "config"
 	1    6400 3450
 	-1   0    0    1   
 $EndComp
@@ -2323,6 +2335,7 @@ F 37 "12/03/07 00:00:00" H 6400 250 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 160 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 70  60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 -20 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 3750 50  0001 C CNN "config"
 	1    6400 3750
 	-1   0    0    1   
 $EndComp
@@ -2425,6 +2438,7 @@ F 37 "12/03/07 00:00:00" H 6400 500 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 410 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 320 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 230 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 4000 50  0001 C CNN "config"
 	1    6400 4000
 	-1   0    0    1   
 $EndComp
@@ -2527,6 +2541,7 @@ F 37 "12/03/07 00:00:00" H 6400 800 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 710 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 620 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 530 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 4300 50  0001 C CNN "config"
 	1    6400 4300
 	-1   0    0    1   
 $EndComp
@@ -2629,6 +2644,7 @@ F 37 "12/03/07 00:00:00" H 6400 1050 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 960 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 870 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 780 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 4550 50  0001 C CNN "config"
 	1    6400 4550
 	-1   0    0    1   
 $EndComp
@@ -2731,6 +2747,7 @@ F 37 "12/03/07 00:00:00" H 6400 1350 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 1260 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 1170 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 1080 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 4850 50  0001 C CNN "config"
 	1    6400 4850
 	-1   0    0    1   
 $EndComp
@@ -2833,6 +2850,7 @@ F 37 "12/03/07 00:00:00" H 6400 1600 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 6400 1510 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 6400 1420 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 1330 60  0001 L CNN "License"
+F 41 "-standalone" H 6400 5100 50  0001 C CNN "config"
 	1    6400 5100
 	-1   0    0    1   
 $EndComp

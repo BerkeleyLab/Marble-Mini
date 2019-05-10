@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 29 0
 EELAYER END
@@ -639,35 +639,6 @@ F 3 "" H 5300 3000 50  0001 C CNN
 	1    5300 3000
 	-1   0    0    -1  
 $EndComp
-$Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:C-Device C?
-U 1 1 5DE6964D
-P 5650 2500
-AR Path="/5BD32060/5DE6964D" Ref="C?"  Part="1" 
-AR Path="/5BABAC65/5DE6964D" Ref="C?"  Part="1" 
-AR Path="/5CC24E97/5DE6964D" Ref="C?"  Part="1" 
-AR Path="/5CC393D3/5DE6964D" Ref="C?"  Part="1" 
-AR Path="/5CC6DBF7/5DE6964D" Ref="C?"  Part="1" 
-AR Path="/5CC8AFE1/5DE6964D" Ref="C?"  Part="1" 
-AR Path="/5BD31F9A/5DE6964D" Ref="C?"  Part="1" 
-AR Path="/5BD31F9F/5DE6964D" Ref="C?"  Part="1" 
-AR Path="/5DE6964D" Ref="C?"  Part="1" 
-AR Path="/5C16C03C/5DE6964D" Ref="C?"  Part="1" 
-AR Path="/5BCEDA59/5DE6964D" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5DE6964D" Ref="C357"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DE6964D" Ref="C?"  Part="1" 
-F 0 "C357" H 5700 2400 50  0000 L CNN
-F 1 "100nF" H 5650 2600 50  0000 L CNN
-F 2 "Capacitors SMD:CAPC1005X55N" H 5688 2350 50  0001 C CNN
-F 3 "~" H 5650 2500 50  0001 C CNN
-F 4 "CC0402_100NF_16V_10%_X5R" H 5765 2409 50  0001 L CNN "PN"
-	1    5650 2500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5650 2650 5650 2700
-Wire Wire Line
-	5650 2650 5300 2650
 Wire Wire Line
 	5300 2700 5300 2650
 Connection ~ 4000 1850
@@ -1336,6 +1307,7 @@ F 38 "12/03/07 00:00:00" H 7450 4910 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 7450 4820 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 7450 4730 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7450 4640 60  0001 L CNN "License"
+F 42 "dnf" V 7450 8450 50  0001 C CNN "config"
 	1    7450 8450
 	0    1    1    0   
 $EndComp
@@ -1387,6 +1359,7 @@ F 38 "12/03/07 00:00:00" H 7450 5210 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 7450 5120 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 7450 5030 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7450 4940 60  0001 L CNN "License"
+F 42 "dnf" V 7450 8750 50  0001 C CNN "config"
 	1    7450 8750
 	0    1    1    0   
 $EndComp
@@ -1961,8 +1934,6 @@ Wire Wire Line
 Connection ~ 9700 8750
 Wire Wire Line
 	9700 8750 9700 8650
-Connection ~ 5650 2650
-Connection ~ 5300 2650
 Wire Wire Line
 	5550 2150 5650 2150
 Connection ~ 5650 2150
@@ -1970,12 +1941,6 @@ Wire Wire Line
 	5650 2150 5650 2250
 Wire Wire Line
 	5550 2250 5650 2250
-Connection ~ 5650 2250
-Wire Wire Line
-	5650 2250 5650 2350
-Wire Wire Line
-	5550 2350 5650 2350
-Connection ~ 5650 2350
 Wire Wire Line
 	5200 1650 4650 1650
 Wire Wire Line
@@ -4534,6 +4499,68 @@ F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1450 1950
+$Comp
+L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
+U 1 1 5CDE0828
+P 5650 2350
+AR Path="/5C16BF8E/5DB9B7E6/5CDE0828" Ref="C?"  Part="1" 
+AR Path="/5C16BF8E/5CDE0828" Ref="C357"  Part="1" 
+F 0 "C357" V 5700 2350 50  0000 L CNN
+F 1 "CC0402_100NF_16V_10%_X5R" H 5650 2090 60  0001 L CNN
+F 2 "CAPC1005X55N" H 5650 1280 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_MURATA_GRM.pdf" H 5650 1910 60  0001 L CNN
+F 4 "100nF" V 5900 2350 50  0000 L CNN "~"
+F 5 "CC0402_100NF_16V_10%_X5R" H 5650 1820 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 5650 1730 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 5650 1640 60  0001 L CNN "Library Path"
+F 8 "=Value" H 5650 1550 60  0001 L CNN "Comment"
+F 9 "Standard" H 5650 1460 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 5650 1370 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 5650 1190 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 5650 1100 60  0001 L CNN "Footprint Path"
+F 13 "CAPC1005X55N" H 5650 1010 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 5650 920 60  0001 L CNN "PackageDescription"
+F 15 "100nF" H 5650 830 60  0001 L CNN "Val"
+F 16 "None" H 5650 740 60  0001 L CNN "Status"
+F 17 "~~" H 5650 650 60  0001 L CNN "Status Comment"
+F 18 "16V" H 5650 560 60  0001 L CNN "Voltage"
+F 19 "X5R" H 5650 470 60  0001 L CNN "TC"
+F 20 "±10%" H 5650 380 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 5650 290 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 5650 200 60  0001 L CNN "Manufacturer"
+F 23 "CC0402_100NF_16V_10%_X5R" H 5650 110 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 5650 20  60  0001 L CNN "Case"
+F 25 "Yes" H 5650 -70 60  0001 L CNN "Mounted"
+F 26 "No" H 5650 -160 60  0001 L CNN "Socket"
+F 27 "Yes" H 5650 -250 60  0001 L CNN "SMD"
+F 28 "~~" H 5650 -340 60  0001 L CNN "PressFit"
+F 29 "No" H 5650 -430 60  0001 L CNN "Sense"
+F 30 "~~" H 5650 -520 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 5650 -610 60  0001 L CNN "ComponentHeight"
+F 32 "MURATA" H 5650 -700 60  0001 L CNN "Manufacturer1 Example"
+F 33 "GRM155R61C104KA88D" H 5650 -790 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.55mm" H 5650 -880 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_MURATA_GRM.pdf" H 5650 -970 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 5650 -1060 60  0001 L CNN "Author"
+F 37 "12/10/13 00:00:00" H 5650 -1150 60  0001 L CNN "CreateDate"
+F 38 "12/10/13 00:00:00" H 5650 -1240 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 5650 -1330 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5650 -1420 60  0001 L CNN "License"
+	1    5650 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 2350 5650 2350
+Wire Wire Line
+	5650 2350 5650 2250
+Connection ~ 5650 2350
+Connection ~ 5650 2250
+Wire Wire Line
+	5300 2650 5650 2650
+Connection ~ 5300 2650
+Wire Wire Line
+	5650 2700 5650 2650
+Connection ~ 5650 2650
 Wire Bus Line
 	2100 8250 2100 9850
 $EndSCHEMATC
