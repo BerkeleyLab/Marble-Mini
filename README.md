@@ -6,3 +6,5 @@ some BPM and LLRF applications
 Original concept:
 
 ![block diagram](block_3.png)
+
+(Specifications)[specs.md]
