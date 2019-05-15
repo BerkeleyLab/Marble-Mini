@@ -1,6 +1,19 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# AMC_FMC_Carrier-PcbDoc-cache_power_PWR_FLAG
+#
+DEF AMC_FMC_Carrier-PcbDoc-cache_power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-cache_power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
 # AMC_FMC_Carrier-PcbDoc-rescue_+12V_AMC-powerMG
 #
 DEF AMC_FMC_Carrier-PcbDoc-rescue_+12V_AMC-powerMG #PWR 0 0 Y Y 1 F P
@@ -4992,59 +5005,6 @@ X COM_2 4 1200 -100 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# Inductors_SMD_IND0603_MURATA_BLM18PG121SN1D
-#
-DEF Inductors_SMD_IND0603_MURATA_BLM18PG121SN1D L 0 60 Y Y 1 L N
-F0 "L" 150 100 50 H V C CNN
-F1 "Inductors_SMD_IND0603_MURATA_BLM18PG121SN1D" 0 -190 60 H I L CNN
-F2 "Inductors SMD:INDC1608X95N" 0 -280 60 H I L CNN
-F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18P.pdf" 0 -370 60 H I L CNN
-F4 "120R@100MHz" 150 -50 50 H V C CNN "~"
-F5 "IND0603_MURATA_BLM18PG121SN1D" 0 -460 60 H I L CNN "Part Number"
-F6 "Inductor" 0 -550 60 H I L CNN "Library Ref"
-F7 "SchLib\\Inductors & Transformers.SchLib" 0 -640 60 H I L CNN "Library Path"
-F8 "=Value" 0 -730 60 H I L CNN "Comment"
-F9 "Standard" 0 -820 60 H I L CNN "Component Kind"
-F10 "Standard" 0 -910 60 H I L CNN "Component Type"
-F11 "INDC1608X95N" 0 -1000 60 H I L CNN "Footprint"
-F12 "~~" 0 -1090 60 H I L CNN "PackageDescription"
-F13 "2.0000000000000000e+00" 0 -1180 60 H I L CNN "Pin Count"
-F14 "PcbLib\\Inductors SMD.PcbLib" 0 -1270 60 H I L CNN "Footprint Path"
-F15 "INDC1608X95N" 0 -1360 60 H I L CNN "Footprint Ref"
-F16 "120R@100MHz" 0 -1450 60 H I L CNN "Val"
-F17 "None" 0 -1540 60 H I L CNN "Status"
-F18 "2A" 0 -1630 60 H I L CNN "Power"
-F19 "0.05R" 0 -1720 60 H I L CNN "Resistance"
-F20 "~~" 0 -1810 60 H I L CNN "Tolerance"
-F21 "SMD EMIFIL Chip Ferrite Bead" 0 -1900 60 H I L CNN "Part Description"
-F22 "MURATA" 0 -1990 60 H I L CNN "Manufacturer"
-F23 "BLM18PG121SN1D" 0 -2080 60 H I L CNN "Manufacturer Part Number"
-F24 "0603" 0 -2170 60 H I L CNN "Case"
-F25 "Yes" 0 -2260 60 H I L CNN "Mounted"
-F26 "No" 0 -2350 60 H I L CNN "Socket"
-F27 "Yes" 0 -2440 60 H I L CNN "SMD"
-F28 "~~" 0 -2530 60 H I L CNN "Sense Comment"
-F29 "No" 0 -2620 60 H I L CNN "Sense"
-F30 "~~" 0 -2710 60 H I L CNN "Status Comment"
-F31 "0.95mm" 0 -2800 60 H I L CNN "ComponentHeight"
-F32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18P.pdf" 0 -2890 60 H I L CNN "HelpURL"
-F33 "CERN DEM BC" 0 -2980 60 H I L CNN "Author"
-F34 "07/27/15 00:00:00" 0 -3070 60 H I L CNN "CreateDate"
-F35 "07/27/15 00:00:00" 0 -3160 60 H I L CNN "LatestRevisionDate"
-F36 "Inductors SMD" 0 -3250 60 H I L CNN "Library Name"
-F37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3340 60 H I L CNN "License"
-DRAW
-B 4 0 1 10 100 50 86 50 75 27 75 0 N
-B 4 0 1 10 125 0 125 27 114 50 100 50 N
-B 4 0 1 10 150 50 136 50 125 27 125 0 N
-B 4 0 1 10 175 0 175 27 164 50 150 50 N
-B 4 0 1 10 200 50 186 50 175 27 175 0 N
-B 4 0 1 10 225 0 225 27 214 50 200 50 N
-X 1 1 0 0 75 R 0 0 0 1 P
-X 2 2 300 0 75 L 0 0 0 1 P
-ENDDRAW
-ENDDEF
-#
 # Inductors_SMD_IND0603_MURATA_BLM18SG121TN1D
 #
 DEF Inductors_SMD_IND0603_MURATA_BLM18SG121TN1D L 0 60 Y Y 1 L N
@@ -5093,8 +5053,8 @@ B 4 0 1 10 150 50 136 50 125 27 125 0 N
 B 4 0 1 10 175 0 175 27 164 50 150 50 N
 B 4 0 1 10 200 50 186 50 175 27 175 0 N
 B 4 0 1 10 225 0 225 27 214 50 200 50 N
-X 1 1 0 0 75 R 0 0 0 1 O
-X 2 2 300 0 75 L 0 0 0 1 O
+X 1 1 0 0 75 R 0 0 0 1 P
+X 2 2 300 0 75 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -7356,6 +7316,63 @@ X 2 2 300 0 60 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistors_SMD_R0402_4K7_1%_0.0625W_100PPM
+#
+DEF Resistors_SMD_R0402_4K7_1%_0.0625W_100PPM R 0 60 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "Resistors_SMD_R0402_4K7_1%_0.0625W_100PPM" 0 -210 60 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -300 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" 0 -390 60 H I L CNN
+F4 "4k7" 150 -70 50 H V C CNN "~"
+F5 "R0402_4K7_1%_0.0625W_100PPM" 0 -480 60 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -570 60 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -660 60 H I L CNN "Library Path"
+F8 "=Value" 0 -750 60 H I L CNN "Comment"
+F9 "Standard" 0 -840 60 H I L CNN "Component Kind"
+F10 "Standard" 0 -930 60 H I L CNN "Component Type"
+F11 "RESC1005X40N" 0 -1020 60 H I L CNN "Footprint"
+F12 "~~" 0 -1110 60 H I L CNN "PackageDescription"
+F13 "2" 0 -1200 60 H I L CNN "Pin Count"
+F14 "PcbLib\\Resistors SMD.PcbLib" 0 -1290 60 H I L CNN "Footprint Path"
+F15 "RESC1005X40N" 0 -1380 60 H I L CNN "Footprint Ref"
+F16 "4k7" 0 -1470 60 H I L CNN "Val"
+F17 "Not Recommended" 0 -1560 60 H I L CNN "Status"
+F18 "0.0625W" 0 -1650 60 H I L CNN "Power"
+F19 "±100ppm/°C" 0 -1740 60 H I L CNN "TC"
+F20 "~~" 0 -1830 60 H I L CNN "Voltage"
+F21 "±1%" 0 -1920 60 H I L CNN "Tolerance"
+F22 "General Purpose Thick Film Chip Resistor" 0 -2010 60 H I L CNN "Part Description"
+F23 "GENERIC" 0 -2100 60 H I L CNN "Manufacturer"
+F24 "R0402_4K7_1%_0.0625W_100PPM" 0 -2190 60 H I L CNN "Manufacturer Part Number"
+F25 "0402" 0 -2280 60 H I L CNN "Case"
+F26 "No" 0 -2370 60 H I L CNN "PressFit"
+F27 "Yes" 0 -2460 60 H I L CNN "Mounted"
+F28 "~~" 0 -2550 60 H I L CNN "Sense Comment"
+F29 "No" 0 -2640 60 H I L CNN "Sense"
+F30 "~~" 0 -2730 60 H I L CNN "Status Comment"
+F31 "No" 0 -2820 60 H I L CNN "Socket"
+F32 "Yes" 0 -2910 60 H I L CNN "SMD"
+F33 "~~" 0 -3000 60 H I L CNN "ComponentHeight"
+F34 "YAGEO PHYCOMP" 0 -3090 60 H I L CNN "Manufacturer1 Example"
+F35 "232270674702L" 0 -3180 60 H I L CNN "Manufacturer1 Part Number"
+F36 "0.4mm" 0 -3270 60 H I L CNN "Manufacturer1 ComponentHeight"
+F37 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" 0 -3360 60 H I L CNN "HelpURL"
+F38 "CERN DEM JLC" 0 -3450 60 H I L CNN "Author"
+F39 "12/03/07 00:00:00" 0 -3540 60 H I L CNN "CreateDate"
+F40 "10/17/12 00:00:00" 0 -3630 60 H I L CNN "LatestRevisionDate"
+F41 "Resistors SMD" 0 -3720 60 H I L CNN "Library Name"
+F42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3810 60 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistors_SMD_R0402_51R_1%_0.0625W_100PPM
 #
 DEF Resistors_SMD_R0402_51R_1%_0.0625W_100PPM R 0 60 Y Y 1 L N
@@ -9446,6 +9463,19 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #

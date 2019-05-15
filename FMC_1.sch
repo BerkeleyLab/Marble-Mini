@@ -1287,8 +1287,6 @@ Connection ~ 4850 5700
 Wire Wire Line
 	4850 5700 5450 5700
 Connection ~ 4850 6000
-Wire Wire Line
-	2200 5050 2700 5050
 Connection ~ 2200 5050
 Connection ~ 2200 5350
 Connection ~ 2700 5050
@@ -1945,4 +1943,6 @@ Text Notes 3000 4950 0    50   ~ 10
 GA0_1
 Text Notes 5300 5050 0    50   ~ 10
 GA1_1
+Wire Wire Line
+	2200 5050 2700 5050
 $EndSCHEMATC

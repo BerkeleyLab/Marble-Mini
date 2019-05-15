@@ -66,8 +66,6 @@ F 3 "" H 5700 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 7600 4150 7600
-Wire Wire Line
 	4150 7600 4150 7550
 $Comp
 L power:+3V3 #PWR?
@@ -257,12 +255,12 @@ Wire Wire Line
 $Comp
 L power:+2V5 #PWR075
 U 1 1 5C73A283
-P 6000 1850
-F 0 "#PWR075" H 6000 1700 50  0001 C CNN
-F 1 "+2V5" H 6015 2023 50  0000 C CNN
-F 2 "" H 6000 1850 50  0001 C CNN
-F 3 "" H 6000 1850 50  0001 C CNN
-	1    6000 1850
+P 6000 1750
+F 0 "#PWR075" H 6000 1600 50  0001 C CNN
+F 1 "+2V5" H 6015 1923 50  0000 C CNN
+F 2 "" H 6000 1750 50  0001 C CNN
+F 3 "" H 6000 1750 50  0001 C CNN
+	1    6000 1750
 	1    0    0    -1  
 $EndComp
 Text HLabel 5850 4200 0    50   Input ~ 10
@@ -748,50 +746,6 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Inductors_SMD:IND0603_MURATA_BLM18PG121SN1D L3
-U 1 1 5DAA28EE
-P 3550 6650
-F 0 "L3" H 3700 6867 50  0000 C CNN
-F 1 "IND0603_MURATA_BLM18PG121SN1D" H 3550 6460 60  0001 L CNN
-F 2 "INDC1608X95N" H 3550 5650 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18P.pdf" H 3550 6280 60  0001 L CNN
-F 4 "120R@100MHz" H 3700 6776 50  0000 C CNN "~"
-F 5 "IND0603_MURATA_BLM18PG121SN1D" H 3550 6190 60  0001 L CNN "Part Number"
-F 6 "Inductor" H 3550 6100 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Inductors & Transformers.SchLib" H 3550 6010 60  0001 L CNN "Library Path"
-F 8 "=Value" H 3550 5920 60  0001 L CNN "Comment"
-F 9 "Standard" H 3550 5830 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 3550 5740 60  0001 L CNN "Component Type"
-F 11 "~~" H 3550 5560 60  0001 L CNN "PackageDescription"
-F 12 "2.0000000000000000e+00" H 3550 5470 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Inductors SMD.PcbLib" H 3550 5380 60  0001 L CNN "Footprint Path"
-F 14 "INDC1608X95N" H 3550 5290 60  0001 L CNN "Footprint Ref"
-F 15 "120R@100MHz" H 3550 5200 60  0001 L CNN "Val"
-F 16 "None" H 3550 5110 60  0001 L CNN "Status"
-F 17 "2A" H 3550 5020 60  0001 L CNN "Power"
-F 18 "0.05R" H 3550 4930 60  0001 L CNN "Resistance"
-F 19 "~~" H 3550 4840 60  0001 L CNN "Tolerance"
-F 20 "SMD EMIFIL Chip Ferrite Bead" H 3550 4750 60  0001 L CNN "Part Description"
-F 21 "MURATA" H 3550 4660 60  0001 L CNN "Manufacturer"
-F 22 "BLM18PG121SN1D" H 3550 4570 60  0001 L CNN "Manufacturer Part Number"
-F 23 "0603" H 3550 4480 60  0001 L CNN "Case"
-F 24 "Yes" H 3550 4390 60  0001 L CNN "Mounted"
-F 25 "No" H 3550 4300 60  0001 L CNN "Socket"
-F 26 "Yes" H 3550 4210 60  0001 L CNN "SMD"
-F 27 "~~" H 3550 4120 60  0001 L CNN "Sense Comment"
-F 28 "No" H 3550 4030 60  0001 L CNN "Sense"
-F 29 "~~" H 3550 3940 60  0001 L CNN "Status Comment"
-F 30 "0.95mm" H 3550 3850 60  0001 L CNN "ComponentHeight"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18P.pdf" H 3550 3760 60  0001 L CNN "HelpURL"
-F 32 "CERN DEM BC" H 3550 3670 60  0001 L CNN "Author"
-F 33 "07/27/15 00:00:00" H 3550 3580 60  0001 L CNN "CreateDate"
-F 34 "07/27/15 00:00:00" H 3550 3490 60  0001 L CNN "LatestRevisionDate"
-F 35 "Inductors SMD" H 3550 3400 60  0001 L CNN "Library Name"
-F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3550 3310 60  0001 L CNN "License"
-	1    3550 6650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Resistors_SMD:R0603_4K99_1%_0.063W_50PPM R66
 U 1 1 5DAA9D8C
 P 6050 4700
@@ -1186,50 +1140,6 @@ F 40 "Resistors SMD" H 14500 1230 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14500 1140 60  0001 L CNN "License"
 	1    14500 4950
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Inductors_SMD:IND0603_MURATA_BLM18PG121SN1D L4
-U 1 1 5DB64297
-P 4450 7600
-F 0 "L4" H 4600 7817 50  0000 C CNN
-F 1 "IND0603_MURATA_BLM18PG121SN1D" H 4450 7410 60  0001 L CNN
-F 2 "INDC1608X95N" H 4450 6600 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18P.pdf" H 4450 7230 60  0001 L CNN
-F 4 "120R@100MHz" H 4600 7726 50  0000 C CNN "~"
-F 5 "IND0603_MURATA_BLM18PG121SN1D" H 4450 7140 60  0001 L CNN "Part Number"
-F 6 "Inductor" H 4450 7050 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Inductors & Transformers.SchLib" H 4450 6960 60  0001 L CNN "Library Path"
-F 8 "=Value" H 4450 6870 60  0001 L CNN "Comment"
-F 9 "Standard" H 4450 6780 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 4450 6690 60  0001 L CNN "Component Type"
-F 11 "~~" H 4450 6510 60  0001 L CNN "PackageDescription"
-F 12 "2.0000000000000000e+00" H 4450 6420 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Inductors SMD.PcbLib" H 4450 6330 60  0001 L CNN "Footprint Path"
-F 14 "INDC1608X95N" H 4450 6240 60  0001 L CNN "Footprint Ref"
-F 15 "120R@100MHz" H 4450 6150 60  0001 L CNN "Val"
-F 16 "None" H 4450 6060 60  0001 L CNN "Status"
-F 17 "2A" H 4450 5970 60  0001 L CNN "Power"
-F 18 "0.05R" H 4450 5880 60  0001 L CNN "Resistance"
-F 19 "~~" H 4450 5790 60  0001 L CNN "Tolerance"
-F 20 "SMD EMIFIL Chip Ferrite Bead" H 4450 5700 60  0001 L CNN "Part Description"
-F 21 "MURATA" H 4450 5610 60  0001 L CNN "Manufacturer"
-F 22 "BLM18PG121SN1D" H 4450 5520 60  0001 L CNN "Manufacturer Part Number"
-F 23 "0603" H 4450 5430 60  0001 L CNN "Case"
-F 24 "Yes" H 4450 5340 60  0001 L CNN "Mounted"
-F 25 "No" H 4450 5250 60  0001 L CNN "Socket"
-F 26 "Yes" H 4450 5160 60  0001 L CNN "SMD"
-F 27 "~~" H 4450 5070 60  0001 L CNN "Sense Comment"
-F 28 "No" H 4450 4980 60  0001 L CNN "Sense"
-F 29 "~~" H 4450 4890 60  0001 L CNN "Status Comment"
-F 30 "0.95mm" H 4450 4800 60  0001 L CNN "ComponentHeight"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18P.pdf" H 4450 4710 60  0001 L CNN "HelpURL"
-F 32 "CERN DEM BC" H 4450 4620 60  0001 L CNN "Author"
-F 33 "07/27/15 00:00:00" H 4450 4530 60  0001 L CNN "CreateDate"
-F 34 "07/27/15 00:00:00" H 4450 4440 60  0001 L CNN "LatestRevisionDate"
-F 35 "Inductors SMD" H 4450 4350 60  0001 L CNN "Library Name"
-F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4450 4260 60  0001 L CNN "License"
-	1    4450 7600
-	1    0    0    -1  
 $EndComp
 $Comp
 L Analog_&_Interface:88E1512-XX-NNP2I000 U4
@@ -2683,10 +2593,144 @@ Wire Wire Line
 Wire Wire Line
 	14500 4500 14500 4650
 Connection ~ 14500 4500
+$Comp
+L AMC_FMC_Carrier-PcbDoc-cache:power_PWR_FLAG #FLG0103
+U 1 1 5D15ABC3
+P 5250 6650
+F 0 "#FLG0103" H 5250 6725 50  0001 C CNN
+F 1 "power_PWR_FLAG" H 5250 6823 50  0000 C CNN
+F 2 "" H 5250 6650 50  0001 C CNN
+F 3 "" H 5250 6650 50  0001 C CNN
+	1    5250 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-cache:power_PWR_FLAG #FLG0104
+U 1 1 5D15B1F6
+P 5250 7600
+F 0 "#FLG0104" H 5250 7675 50  0001 C CNN
+F 1 "power_PWR_FLAG" H 5250 7773 50  0000 C CNN
+F 2 "" H 5250 7600 50  0001 C CNN
+F 3 "" H 5250 7600 50  0001 C CNN
+	1    5250 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-cache:power_PWR_FLAG #FLG0105
+U 1 1 5D15B45E
+P 14500 2000
+F 0 "#FLG0105" H 14500 2075 50  0001 C CNN
+F 1 "power_PWR_FLAG" H 14500 2173 50  0000 C CNN
+F 2 "" H 14500 2000 50  0001 C CNN
+F 3 "" H 14500 2000 50  0001 C CNN
+	1    14500 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 14500 2000
+Wire Wire Line
+	6000 1750 6000 1850
 Wire Bus Line
 	8900 3800 8900 4100
 Wire Bus Line
 	8900 4500 8900 4800
 Wire Bus Line
 	11850 3800 11850 4100
+Wire Wire Line
+	4450 7600 4150 7600
+$Comp
+L Inductors_SMD:IND0603_MURATA_BLM18SG121TN1D L?
+U 1 1 5D7296D0
+P 4450 7600
+AR Path="/5C16BF8E/5DB9B7E6/5D7296D0" Ref="L?"  Part="1" 
+AR Path="/5CC393D3/5D7296D0" Ref="L?"  Part="1" 
+AR Path="/5BABAC65/5D7296D0" Ref="L?"  Part="1" 
+AR Path="/5BCEDA59/5D7296D0" Ref="L4"  Part="1" 
+F 0 "L4" H 4600 7817 50  0000 C CNN
+F 1 "IND0603_MURATA_BLM18SG121TN1D" H 4450 7410 60  0001 L CNN
+F 2 "INDC1608X65N" H 4450 6600 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18S.pdf" H 4450 7230 60  0001 L CNN
+F 4 "120R@100MHz" H 4600 7726 50  0000 C CNN "~"
+F 5 "IND0603_MURATA_BLM18SG121TN1D" H 4450 7140 60  0001 L CNN "Part Number"
+F 6 "Inductor" H 4450 7050 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Inductors & Transformers.SchLib" H 4450 6960 60  0001 L CNN "Library Path"
+F 8 "=Value" H 4450 6870 60  0001 L CNN "Comment"
+F 9 "Standard" H 4450 6780 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 4450 6690 60  0001 L CNN "Component Type"
+F 11 "~~" H 4450 6510 60  0001 L CNN "PackageDescription"
+F 12 "2.0000000000000000e+00" H 4450 6420 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Inductors SMD.PcbLib" H 4450 6330 60  0001 L CNN "Footprint Path"
+F 14 "INDC1608X65N" H 4450 6240 60  0001 L CNN "Footprint Ref"
+F 15 "120R@100MHz" H 4450 6150 60  0001 L CNN "Val"
+F 16 "None" H 4450 6060 60  0001 L CNN "Status"
+F 17 "3A" H 4450 5970 60  0001 L CNN "Power"
+F 18 "0.025R" H 4450 5880 60  0001 L CNN "Resistance"
+F 19 "±25%" H 4450 5790 60  0001 L CNN "Tolerance"
+F 20 "SMD EMIFIL Suppression Chip Ferrite Bead" H 4450 5700 60  0001 L CNN "Part Description"
+F 21 "MURATA" H 4450 5610 60  0001 L CNN "Manufacturer"
+F 22 "BLM18SG121TN1D" H 4450 5520 60  0001 L CNN "Manufacturer Part Number"
+F 23 "0603" H 4450 5430 60  0001 L CNN "Case"
+F 24 "Yes" H 4450 5340 60  0001 L CNN "Mounted"
+F 25 "No" H 4450 5250 60  0001 L CNN "Socket"
+F 26 "Yes" H 4450 5160 60  0001 L CNN "SMD"
+F 27 "~~" H 4450 5070 60  0001 L CNN "Sense Comment"
+F 28 "No" H 4450 4980 60  0001 L CNN "Sense"
+F 29 "~~" H 4450 4890 60  0001 L CNN "Status Comment"
+F 30 "0.65mm" H 4450 4800 60  0001 L CNN "ComponentHeight"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18S.pdf" H 4450 4710 60  0001 L CNN "HelpURL"
+F 32 "CERN DEM JLC" H 4450 4620 60  0001 L CNN "Author"
+F 33 "07/23/14 00:00:00" H 4450 4530 60  0001 L CNN "CreateDate"
+F 34 "07/23/14 00:00:00" H 4450 4440 60  0001 L CNN "LatestRevisionDate"
+F 35 "Inductors SMD" H 4450 4350 60  0001 L CNN "Library Name"
+F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4450 4260 60  0001 L CNN "License"
+	1    4450 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Inductors_SMD:IND0603_MURATA_BLM18SG121TN1D L?
+U 1 1 5D720FFA
+P 3550 6650
+AR Path="/5C16BF8E/5DB9B7E6/5D720FFA" Ref="L?"  Part="1" 
+AR Path="/5CC393D3/5D720FFA" Ref="L?"  Part="1" 
+AR Path="/5BABAC65/5D720FFA" Ref="L?"  Part="1" 
+AR Path="/5BCEDA59/5D720FFA" Ref="L3"  Part="1" 
+F 0 "L3" H 3700 6867 50  0000 C CNN
+F 1 "IND0603_MURATA_BLM18SG121TN1D" H 3550 6460 60  0001 L CNN
+F 2 "INDC1608X65N" H 3550 5650 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18S.pdf" H 3550 6280 60  0001 L CNN
+F 4 "120R@100MHz" H 3700 6776 50  0000 C CNN "~"
+F 5 "IND0603_MURATA_BLM18SG121TN1D" H 3550 6190 60  0001 L CNN "Part Number"
+F 6 "Inductor" H 3550 6100 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Inductors & Transformers.SchLib" H 3550 6010 60  0001 L CNN "Library Path"
+F 8 "=Value" H 3550 5920 60  0001 L CNN "Comment"
+F 9 "Standard" H 3550 5830 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 3550 5740 60  0001 L CNN "Component Type"
+F 11 "~~" H 3550 5560 60  0001 L CNN "PackageDescription"
+F 12 "2.0000000000000000e+00" H 3550 5470 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Inductors SMD.PcbLib" H 3550 5380 60  0001 L CNN "Footprint Path"
+F 14 "INDC1608X65N" H 3550 5290 60  0001 L CNN "Footprint Ref"
+F 15 "120R@100MHz" H 3550 5200 60  0001 L CNN "Val"
+F 16 "None" H 3550 5110 60  0001 L CNN "Status"
+F 17 "3A" H 3550 5020 60  0001 L CNN "Power"
+F 18 "0.025R" H 3550 4930 60  0001 L CNN "Resistance"
+F 19 "±25%" H 3550 4840 60  0001 L CNN "Tolerance"
+F 20 "SMD EMIFIL Suppression Chip Ferrite Bead" H 3550 4750 60  0001 L CNN "Part Description"
+F 21 "MURATA" H 3550 4660 60  0001 L CNN "Manufacturer"
+F 22 "BLM18SG121TN1D" H 3550 4570 60  0001 L CNN "Manufacturer Part Number"
+F 23 "0603" H 3550 4480 60  0001 L CNN "Case"
+F 24 "Yes" H 3550 4390 60  0001 L CNN "Mounted"
+F 25 "No" H 3550 4300 60  0001 L CNN "Socket"
+F 26 "Yes" H 3550 4210 60  0001 L CNN "SMD"
+F 27 "~~" H 3550 4120 60  0001 L CNN "Sense Comment"
+F 28 "No" H 3550 4030 60  0001 L CNN "Sense"
+F 29 "~~" H 3550 3940 60  0001 L CNN "Status Comment"
+F 30 "0.65mm" H 3550 3850 60  0001 L CNN "ComponentHeight"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18S.pdf" H 3550 3760 60  0001 L CNN "HelpURL"
+F 32 "CERN DEM JLC" H 3550 3670 60  0001 L CNN "Author"
+F 33 "07/23/14 00:00:00" H 3550 3580 60  0001 L CNN "CreateDate"
+F 34 "07/23/14 00:00:00" H 3550 3490 60  0001 L CNN "LatestRevisionDate"
+F 35 "Inductors SMD" H 3550 3400 60  0001 L CNN "Library Name"
+F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3550 3310 60  0001 L CNN "License"
+	1    3550 6650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

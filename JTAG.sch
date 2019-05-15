@@ -530,102 +530,6 @@ Wire Wire Line
 	9900 1150 10500 1150
 Wire Wire Line
 	9900 1250 10500 1250
-$Comp
-L Standard_Logic:SN74AVC2T245RSWR U?
-U 1 1 5E09B9C7
-P 2300 1050
-AR Path="/5C16C03C/5E09B9C7" Ref="U?"  Part="1" 
-AR Path="/5CA40231/5E09B9C7" Ref="U8"  Part="1" 
-F 0 "U8" H 2600 1215 50  0000 C CNN
-F 1 "SN74AVC2T245RSWR" H 2600 1124 50  0000 C CNN
-F 2 "QFN40P140X180X55-10N" H 2300 -1040 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74AVC2T245RSWR.pdf" H 2300 -320 60  0001 L CNN
-F 4 "SN74AVC2T245RSWR" H 2300 -410 60  0001 L CNN "Part Number"
-F 5 "742T245" H 2300 -500 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Standard Logic.SchLib" H 2300 -590 60  0001 L CNN "Library Path"
-F 7 "=Device" H 2300 -680 60  0001 L CNN "Comment"
-F 8 "Standard" H 2300 -770 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 2300 -860 60  0001 L CNN "Component Type"
-F 10 "SN74AVC2T245RSWR" H 2300 -950 60  0001 L CNN "Device"
-F 11 "QFN, 0.40mm Pitch, Rect.;10 Pin, 1.80mm L X 1.40mm W X 0.55mm H Body, IPC Medium Density" H 2300 -1130 60  0001 L CNN "PackageDescription"
-F 12 "Not Recommended" H 2300 -1220 60  0001 L CNN "Status"
-F 13 "Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs" H 2300 -1310 60  0001 L CNN "Part Description"
-F 14 "TEXAS INSTRUMENTS" H 2300 -1400 60  0001 L CNN "Manufacturer"
-F 15 "SN74AVC2T245RSWR" H 2300 -1490 60  0001 L CNN "Manufacturer Part Number"
-F 16 "10" H 2300 -1580 60  0001 L CNN "Pin Count"
-F 17 "QFN10" H 2300 -1670 60  0001 L CNN "Case"
-F 18 "Yes" H 2300 -1760 60  0001 L CNN "Mounted"
-F 19 "No" H 2300 -1850 60  0001 L CNN "Socket"
-F 20 "Yes" H 2300 -1940 60  0001 L CNN "SMD"
-F 21 "No" H 2300 -2030 60  0001 L CNN "PressFit"
-F 22 "No" H 2300 -2120 60  0001 L CNN "Sense"
-F 23 "~~" H 2300 -2210 60  0001 L CNN "Sense Comment"
-F 24 "No" H 2300 -2300 60  0001 L CNN "Bonding"
-F 25 "~~" H 2300 -2390 60  0001 L CNN "Status Comment"
-F 26 "0.55mm" H 2300 -2480 60  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2300 -2570 60  0001 L CNN "Footprint Path"
-F 28 "QFN40P140X180X55-10N" H 2300 -2660 60  0001 L CNN "Footprint Ref"
-F 29 "CERN DEM JLC" H 2300 -2750 60  0001 L CNN "Author"
-F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74AVC2T245RSWR.pdf" H 2300 -2840 60  0001 L CNN "HelpURL"
-F 31 "~~" H 2300 -2930 60  0001 L CNN "ComponentLink1URL"
-F 32 "~~" H 2300 -3020 60  0001 L CNN "ComponentLink1Description"
-F 33 "~~" H 2300 -3110 60  0001 L CNN "ComponentLink2URL"
-F 34 "~~" H 2300 -3200 60  0001 L CNN "ComponentLink2Description"
-F 35 "07/07/14 00:00:00" H 2300 -3290 60  0001 L CNN "CreateDate"
-F 36 "03/30/17 00:00:00" H 2300 -3380 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 2300 -3470 60  0001 L CNN "Library Name"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2300 -3560 60  0001 L CNN "License"
-	1    2300 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Standard_Logic:SN74AVC2T245RSWR U?
-U 1 1 5E09D910
-P 2300 3000
-AR Path="/5C16C03C/5E09D910" Ref="U?"  Part="1" 
-AR Path="/5CA40231/5E09D910" Ref="U9"  Part="1" 
-F 0 "U9" H 2600 3165 50  0000 C CNN
-F 1 "SN74AVC2T245RSWR" H 2600 3074 50  0000 C CNN
-F 2 "QFN40P140X180X55-10N" H 2300 910 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74AVC2T245RSWR.pdf" H 2300 1630 60  0001 L CNN
-F 4 "SN74AVC2T245RSWR" H 2300 1540 60  0001 L CNN "Part Number"
-F 5 "742T245" H 2300 1450 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Standard Logic.SchLib" H 2300 1360 60  0001 L CNN "Library Path"
-F 7 "=Device" H 2300 1270 60  0001 L CNN "Comment"
-F 8 "Standard" H 2300 1180 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 2300 1090 60  0001 L CNN "Component Type"
-F 10 "SN74AVC2T245RSWR" H 2300 1000 60  0001 L CNN "Device"
-F 11 "QFN, 0.40mm Pitch, Rect.;10 Pin, 1.80mm L X 1.40mm W X 0.55mm H Body, IPC Medium Density" H 2300 820 60  0001 L CNN "PackageDescription"
-F 12 "Not Recommended" H 2300 730 60  0001 L CNN "Status"
-F 13 "Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs" H 2300 640 60  0001 L CNN "Part Description"
-F 14 "TEXAS INSTRUMENTS" H 2300 550 60  0001 L CNN "Manufacturer"
-F 15 "SN74AVC2T245RSWR" H 2300 460 60  0001 L CNN "Manufacturer Part Number"
-F 16 "10" H 2300 370 60  0001 L CNN "Pin Count"
-F 17 "QFN10" H 2300 280 60  0001 L CNN "Case"
-F 18 "Yes" H 2300 190 60  0001 L CNN "Mounted"
-F 19 "No" H 2300 100 60  0001 L CNN "Socket"
-F 20 "Yes" H 2300 10  60  0001 L CNN "SMD"
-F 21 "No" H 2300 -80 60  0001 L CNN "PressFit"
-F 22 "No" H 2300 -170 60  0001 L CNN "Sense"
-F 23 "~~" H 2300 -260 60  0001 L CNN "Sense Comment"
-F 24 "No" H 2300 -350 60  0001 L CNN "Bonding"
-F 25 "~~" H 2300 -440 60  0001 L CNN "Status Comment"
-F 26 "0.55mm" H 2300 -530 60  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2300 -620 60  0001 L CNN "Footprint Path"
-F 28 "QFN40P140X180X55-10N" H 2300 -710 60  0001 L CNN "Footprint Ref"
-F 29 "CERN DEM JLC" H 2300 -800 60  0001 L CNN "Author"
-F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74AVC2T245RSWR.pdf" H 2300 -890 60  0001 L CNN "HelpURL"
-F 31 "~~" H 2300 -980 60  0001 L CNN "ComponentLink1URL"
-F 32 "~~" H 2300 -1070 60  0001 L CNN "ComponentLink1Description"
-F 33 "~~" H 2300 -1160 60  0001 L CNN "ComponentLink2URL"
-F 34 "~~" H 2300 -1250 60  0001 L CNN "ComponentLink2Description"
-F 35 "07/07/14 00:00:00" H 2300 -1340 60  0001 L CNN "CreateDate"
-F 36 "03/30/17 00:00:00" H 2300 -1430 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 2300 -1520 60  0001 L CNN "Library Name"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2300 -1610 60  0001 L CNN "License"
-	1    2300 3000
-	1    0    0    -1  
-$EndComp
 Text Notes 3100 1650 0    50   ~ 10
 output\n
 Text Notes 3100 3600 0    50   ~ 10
@@ -3000,4 +2904,100 @@ Connection ~ 5100 6000
 Connection ~ 5450 6000
 Wire Wire Line
 	5800 6000 5450 6000
+$Comp
+L Standard_Logic:SN74AVC2T245RSWR U?
+U 1 1 5D76517A
+P 2300 1050
+AR Path="/5C16C03C/5D76517A" Ref="U?"  Part="1" 
+AR Path="/5CA40231/5D76517A" Ref="U8"  Part="1" 
+F 0 "U8" H 2600 1215 50  0000 C CNN
+F 1 "SN74AVC2T245RSWR" H 2600 1124 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:QFN40P140X180X55-10N" H 2300 -1040 60  0001 L CNN
+F 3 "" H 2300 -320 60  0001 L CNN
+F 4 "SN74AVC2T245RSWR" H 2300 -410 60  0001 L CNN "Part Number"
+F 5 "742T245" H 2300 -500 60  0001 L CNN "Library Ref"
+F 6 "SchLib\\Standard Logic.SchLib" H 2300 -590 60  0001 L CNN "Library Path"
+F 7 "=Device" H 2300 -680 60  0001 L CNN "Comment"
+F 8 "Standard" H 2300 -770 60  0001 L CNN "Component Kind"
+F 9 "Standard" H 2300 -860 60  0001 L CNN "Component Type"
+F 10 "SN74AVC2T245RSWR" H 2300 -950 60  0001 L CNN "Device"
+F 11 "QFN, 0.40mm Pitch, Rect.;10 Pin, 1.80mm L X 1.40mm W X 0.55mm H Body, IPC Medium Density" H 2300 -1130 60  0001 L CNN "PackageDescription"
+F 12 "Not Recommended" H 2300 -1220 60  0001 L CNN "Status"
+F 13 "Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs" H 2300 -1310 60  0001 L CNN "Part Description"
+F 14 "TEXAS INSTRUMENTS" H 2300 -1400 60  0001 L CNN "Manufacturer"
+F 15 "SN74AVC2T245RSWR" H 2300 -1490 60  0001 L CNN "Manufacturer Part Number"
+F 16 "10" H 2300 -1580 60  0001 L CNN "Pin Count"
+F 17 "QFN10" H 2300 -1670 60  0001 L CNN "Case"
+F 18 "Yes" H 2300 -1760 60  0001 L CNN "Mounted"
+F 19 "No" H 2300 -1850 60  0001 L CNN "Socket"
+F 20 "Yes" H 2300 -1940 60  0001 L CNN "SMD"
+F 21 "No" H 2300 -2030 60  0001 L CNN "PressFit"
+F 22 "No" H 2300 -2120 60  0001 L CNN "Sense"
+F 23 "~~" H 2300 -2210 60  0001 L CNN "Sense Comment"
+F 24 "No" H 2300 -2300 60  0001 L CNN "Bonding"
+F 25 "~~" H 2300 -2390 60  0001 L CNN "Status Comment"
+F 26 "0.55mm" H 2300 -2480 60  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2300 -2570 60  0001 L CNN "Footprint Path"
+F 28 "QFN40P140X180X55-10N" H 2300 -2660 60  0001 L CNN "Footprint Ref"
+F 29 "CERN DEM JLC" H 2300 -2750 60  0001 L CNN "Author"
+F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74AVC2T245RSWR.pdf" H 2300 -2840 60  0001 L CNN "HelpURL"
+F 31 "~~" H 2300 -2930 60  0001 L CNN "ComponentLink1URL"
+F 32 "~~" H 2300 -3020 60  0001 L CNN "ComponentLink1Description"
+F 33 "~~" H 2300 -3110 60  0001 L CNN "ComponentLink2URL"
+F 34 "~~" H 2300 -3200 60  0001 L CNN "ComponentLink2Description"
+F 35 "07/07/14 00:00:00" H 2300 -3290 60  0001 L CNN "CreateDate"
+F 36 "03/30/17 00:00:00" H 2300 -3380 60  0001 L CNN "LatestRevisionDate"
+F 37 "ICs And Semiconductors SMD" H 2300 -3470 60  0001 L CNN "Library Name"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2300 -3560 60  0001 L CNN "License"
+	1    2300 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Standard_Logic:SN74AVC2T245RSWR U?
+U 1 1 5D76C9B3
+P 2300 3000
+AR Path="/5C16C03C/5D76C9B3" Ref="U?"  Part="1" 
+AR Path="/5CA40231/5D76C9B3" Ref="U9"  Part="1" 
+F 0 "U9" H 2600 3165 50  0000 C CNN
+F 1 "SN74AVC2T245RSWR" H 2600 3074 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:QFN40P140X180X55-10N" H 2300 910 60  0001 L CNN
+F 3 "" H 2300 1630 60  0001 L CNN
+F 4 "SN74AVC2T245RSWR" H 2300 1540 60  0001 L CNN "Part Number"
+F 5 "742T245" H 2300 1450 60  0001 L CNN "Library Ref"
+F 6 "SchLib\\Standard Logic.SchLib" H 2300 1360 60  0001 L CNN "Library Path"
+F 7 "=Device" H 2300 1270 60  0001 L CNN "Comment"
+F 8 "Standard" H 2300 1180 60  0001 L CNN "Component Kind"
+F 9 "Standard" H 2300 1090 60  0001 L CNN "Component Type"
+F 10 "SN74AVC2T245RSWR" H 2300 1000 60  0001 L CNN "Device"
+F 11 "QFN, 0.40mm Pitch, Rect.;10 Pin, 1.80mm L X 1.40mm W X 0.55mm H Body, IPC Medium Density" H 2300 820 60  0001 L CNN "PackageDescription"
+F 12 "Not Recommended" H 2300 730 60  0001 L CNN "Status"
+F 13 "Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs" H 2300 640 60  0001 L CNN "Part Description"
+F 14 "TEXAS INSTRUMENTS" H 2300 550 60  0001 L CNN "Manufacturer"
+F 15 "SN74AVC2T245RSWR" H 2300 460 60  0001 L CNN "Manufacturer Part Number"
+F 16 "10" H 2300 370 60  0001 L CNN "Pin Count"
+F 17 "QFN10" H 2300 280 60  0001 L CNN "Case"
+F 18 "Yes" H 2300 190 60  0001 L CNN "Mounted"
+F 19 "No" H 2300 100 60  0001 L CNN "Socket"
+F 20 "Yes" H 2300 10  60  0001 L CNN "SMD"
+F 21 "No" H 2300 -80 60  0001 L CNN "PressFit"
+F 22 "No" H 2300 -170 60  0001 L CNN "Sense"
+F 23 "~~" H 2300 -260 60  0001 L CNN "Sense Comment"
+F 24 "No" H 2300 -350 60  0001 L CNN "Bonding"
+F 25 "~~" H 2300 -440 60  0001 L CNN "Status Comment"
+F 26 "0.55mm" H 2300 -530 60  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2300 -620 60  0001 L CNN "Footprint Path"
+F 28 "QFN40P140X180X55-10N" H 2300 -710 60  0001 L CNN "Footprint Ref"
+F 29 "CERN DEM JLC" H 2300 -800 60  0001 L CNN "Author"
+F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74AVC2T245RSWR.pdf" H 2300 -890 60  0001 L CNN "HelpURL"
+F 31 "~~" H 2300 -980 60  0001 L CNN "ComponentLink1URL"
+F 32 "~~" H 2300 -1070 60  0001 L CNN "ComponentLink1Description"
+F 33 "~~" H 2300 -1160 60  0001 L CNN "ComponentLink2URL"
+F 34 "~~" H 2300 -1250 60  0001 L CNN "ComponentLink2Description"
+F 35 "07/07/14 00:00:00" H 2300 -1340 60  0001 L CNN "CreateDate"
+F 36 "03/30/17 00:00:00" H 2300 -1430 60  0001 L CNN "LatestRevisionDate"
+F 37 "ICs And Semiconductors SMD" H 2300 -1520 60  0001 L CNN "Library Name"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2300 -1610 60  0001 L CNN "License"
+	1    2300 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

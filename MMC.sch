@@ -213,7 +213,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 9600 8150 9600
 Wire Wire Line
-	8150 9600 8150 8100
+	8150 9600 8150 8800
 Wire Wire Line
 	8150 8100 8400 8100
 Wire Wire Line
@@ -3949,6 +3949,35 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 F 41 "dnf" V 1400 9700 50  0000 C CNN "config"
 	1    1100 9550
 	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D5D63E5
+P 8150 8800
+AR Path="/5BABAC65/5D5D63E5" Ref="#FLG?"  Part="1" 
+AR Path="/5BCEDA39/5D5D63E5" Ref="#FLG0138"  Part="1" 
+F 0 "#FLG0138" H 8150 8875 50  0001 C CNN
+F 1 "PWR_FLAG" H 8150 8973 50  0000 C CNN
+F 2 "" H 8150 8800 50  0001 C CNN
+F 3 "~" H 8150 8800 50  0001 C CNN
+	1    8150 8800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8150 8800
+Wire Wire Line
+	8150 8800 8150 8100
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D666D50
+P 8250 7900
+AR Path="/5BABAC65/5D666D50" Ref="#FLG?"  Part="1" 
+AR Path="/5BCEDA39/5D666D50" Ref="#FLG0141"  Part="1" 
+F 0 "#FLG0141" H 8250 7975 50  0001 C CNN
+F 1 "PWR_FLAG" H 8250 8073 50  0000 C CNN
+F 2 "" H 8250 7900 50  0001 C CNN
+F 3 "~" H 8250 7900 50  0001 C CNN
+	1    8250 7900
+	0    -1   -1   0   
 $EndComp
 Wire Bus Line
 	11600 7200 11600 7400

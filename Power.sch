@@ -936,24 +936,8 @@ Wire Wire Line
 	5500 10150 5500 8850
 Wire Wire Line
 	5500 8850 5600 8850
-$Comp
-L power:GND #PWR?
-U 1 1 5C8F4FC5
-P 6500 10250
-AR Path="/5C16C03C/5C8F4FC5" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5C8F4FC5" Ref="#PWR0562"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5C8F4FC5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0562" H 6500 10000 50  0001 C CNN
-F 1 "GND" H 6505 10077 50  0000 C CNN
-F 2 "" H 6500 10250 50  0001 C CNN
-F 3 "" H 6500 10250 50  0001 C CNN
-	1    6500 10250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6450 10150 6500 10150
-Wire Wire Line
-	6500 10150 6500 10250
 Text Label 7050 9950 0    50   ~ 10
 AT_DET
 Wire Wire Line
@@ -1159,56 +1143,6 @@ F 38 "08/23/10 00:00:00" H 7900 4790 60  0001 L CNN "LatestRevisionDate"
 F 39 "ICs And Semiconductors SMD" H 7900 4700 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7900 4610 60  0001 L CNN "License"
 	1    7900 8450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diodes:BAT165 D?
-U 1 1 5CEEBFEA
-P 5300 3000
-AR Path="/5BCEDA39/5CEEBFEA" Ref="D?"  Part="1" 
-AR Path="/5C16BF8E/5CEEBFEA" Ref="D9"  Part="1" 
-F 0 "D9" V 5550 3150 50  0000 R CNN
-F 1 "BAT165" H 5600 2900 50  0000 R CNN
-F 2 "SOD2512X110N" H 5300 1860 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BAT165.pdf" H 5300 2580 60  0001 L CNN
-F 4 "BAT165" H 5300 2490 60  0001 L CNN "Part Number"
-F 5 "Diode Schottky" H 5300 2400 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Diodes.SchLib" H 5300 2310 60  0001 L CNN "Library Path"
-F 7 "=Device" H 5300 2220 60  0001 L CNN "Comment"
-F 8 "Standard" H 5300 2130 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 5300 2040 60  0001 L CNN "Component Type"
-F 10 "BAT165" H 5300 1950 60  0001 L CNN "Device"
-F 11 "Small Outline Diode Flat Lead (SOD-323), 1.70mm W X 1.25mm L X 1.10mm H body,  IPC Medium Density" H 5300 1770 60  0001 L CNN "PackageDescription"
-F 12 "40V" H 5300 1680 60  0001 L CNN "Voltage"
-F 13 "750mA" H 5300 1590 60  0001 L CNN "Power"
-F 14 "~~" H 5300 1500 60  0001 L CNN "Status"
-F 15 "Medium Power AF Schottky Diode" H 5300 1410 60  0001 L CNN "Part Description"
-F 16 "INFINEON" H 5300 1320 60  0001 L CNN "Manufacturer"
-F 17 "BAT165" H 5300 1230 60  0001 L CNN "Manufacturer Part Number"
-F 18 "2" H 5300 1140 60  0001 L CNN "Pin Count"
-F 19 "SOD323" H 5300 1050 60  0001 L CNN "Case"
-F 20 "Yes" H 5300 960 60  0001 L CNN "Mounted"
-F 21 "No" H 5300 870 60  0001 L CNN "Socket"
-F 22 "Yes" H 5300 780 60  0001 L CNN "SMD"
-F 23 "No" H 5300 690 60  0001 L CNN "PressFit"
-F 24 "No" H 5300 600 60  0001 L CNN "Sense"
-F 25 "~~" H 5300 510 60  0001 L CNN "Sense Comment"
-F 26 "No" H 5300 420 60  0001 L CNN "Bonding"
-F 27 "~~" H 5300 330 60  0001 L CNN "Status Comment"
-F 28 "1.1mm" H 5300 240 60  0001 L CNN "ComponentHeight"
-F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 5300 150 60  0001 L CNN "Footprint Path"
-F 30 "SOD2512X110N" H 5300 60  60  0001 L CNN "Footprint Ref"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BAT165.pdf" H 5300 -30 60  0001 L CNN "HelpURL"
-F 32 "~~" H 5300 -120 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 5300 -210 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 5300 -300 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 5300 -390 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 5300 -480 60  0001 L CNN "Author"
-F 37 "11/12/14 00:00:00" H 5300 -570 60  0001 L CNN "CreateDate"
-F 38 "11/12/14 00:00:00" H 5300 -660 60  0001 L CNN "LatestRevisionDate"
-F 39 "ICs And Semiconductors SMD" H 5300 -750 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5300 -840 60  0001 L CNN "License"
-	1    5300 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1618,52 +1552,6 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 Wire Wire Line
 	11600 1900 11600 2600
-$Comp
-L Analog_&_Interface:INA219BIDCNT U32
-U 1 1 5D09D790
-P 10750 5700
-F 0 "U32" H 11100 5865 50  0000 C CNN
-F 1 "INA219BIDCNT" H 11100 5774 50  0000 C CNN
-F 2 "SOT65P280X145-8N" H 10750 3810 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\INA219BIDCNT.pdf" H 10750 4530 60  0001 L CNN
-F 4 "INA219BIDCNT" H 10750 4440 60  0001 L CNN "Part Number"
-F 5 "INA219BIDCNT" H 10750 4350 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Analog & Interface.SchLib" H 10750 4260 60  0001 L CNN "Library Path"
-F 7 "=Device" H 10750 4170 60  0001 L CNN "Comment"
-F 8 "Standard" H 10750 4080 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 10750 3990 60  0001 L CNN "Component Type"
-F 10 "INA219BIDCNT" H 10750 3900 60  0001 L CNN "Device"
-F 11 "SOT, 0.65mm pitch; 8 pin, 1.625mm W X 2.90mm L X 1.45mm H body, IPC Medium Density" H 10750 3720 60  0001 L CNN "PackageDescription"
-F 12 "~~" H 10750 3630 60  0001 L CNN "Status"
-F 13 "Zero-Drift, Bi-Directional CURRENT/POWER MONITOR with I2C™ Interface" H 10750 3540 60  0001 L CNN "Part Description"
-F 14 "TEXAS INSTRUMENTS" H 10750 3450 60  0001 L CNN "Manufacturer"
-F 15 "INA219BIDCNT" H 10750 3360 60  0001 L CNN "Manufacturer Part Number"
-F 16 "8" H 10750 3270 60  0001 L CNN "Pin Count"
-F 17 "SOT23-8" H 10750 3180 60  0001 L CNN "Case"
-F 18 "Yes" H 10750 3090 60  0001 L CNN "Mounted"
-F 19 "No" H 10750 3000 60  0001 L CNN "Socket"
-F 20 "Yes" H 10750 2910 60  0001 L CNN "SMD"
-F 21 "No" H 10750 2820 60  0001 L CNN "PressFit"
-F 22 "No" H 10750 2730 60  0001 L CNN "Sense"
-F 23 "~~" H 10750 2640 60  0001 L CNN "Sense Comment"
-F 24 "No" H 10750 2550 60  0001 L CNN "Bonding"
-F 25 "~~" H 10750 2460 60  0001 L CNN "Status Comment"
-F 26 "1.45mm" H 10750 2370 60  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 10750 2280 60  0001 L CNN "Footprint Path"
-F 28 "SOT65P280X145-8N" H 10750 2190 60  0001 L CNN "Footprint Ref"
-F 29 "CERN DEM JLC" H 10750 2100 60  0001 L CNN "Author"
-F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\INA219BIDCNT.pdf" H 10750 2010 60  0001 L CNN "HelpURL"
-F 31 "~~" H 10750 1920 60  0001 L CNN "ComponentLink1URL"
-F 32 "~~" H 10750 1830 60  0001 L CNN "ComponentLink2URL"
-F 33 "~~" H 10750 1740 60  0001 L CNN "ComponentLink2Description"
-F 34 "~~" H 10750 1650 60  0001 L CNN "ComponentLink1Description"
-F 35 "09/24/13 00:00:00" H 10750 1560 60  0001 L CNN "CreateDate"
-F 36 "09/24/13 00:00:00" H 10750 1470 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 10750 1380 60  0001 L CNN "Library Name"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10750 1290 60  0001 L CNN "License"
-	1    10750 5700
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	11600 5300 11600 6000
 $Comp
@@ -4561,6 +4449,206 @@ Connection ~ 5300 2650
 Wire Wire Line
 	5650 2700 5650 2650
 Connection ~ 5650 2650
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D2029CE
+P 11600 1900
+AR Path="/5BABAC65/5D2029CE" Ref="#FLG?"  Part="1" 
+AR Path="/5C16BF8E/5D2029CE" Ref="#FLG0116"  Part="1" 
+F 0 "#FLG0116" H 11600 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 11600 2073 50  0000 C CNN
+F 2 "" H 11600 1900 50  0001 C CNN
+F 3 "~" H 11600 1900 50  0001 C CNN
+	1    11600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D212D18
+P 11600 5300
+AR Path="/5BABAC65/5D212D18" Ref="#FLG?"  Part="1" 
+AR Path="/5C16BF8E/5D212D18" Ref="#FLG0117"  Part="1" 
+F 0 "#FLG0117" H 11600 5375 50  0001 C CNN
+F 1 "PWR_FLAG" H 11600 5473 50  0000 C CNN
+F 2 "" H 11600 5300 50  0001 C CNN
+F 3 "~" H 11600 5300 50  0001 C CNN
+	1    11600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D62DACA
+P 5650 1650
+AR Path="/5BABAC65/5D62DACA" Ref="#FLG?"  Part="1" 
+AR Path="/5C16BF8E/5D62DACA" Ref="#FLG0139"  Part="1" 
+F 0 "#FLG0139" H 5650 1725 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 1823 50  0000 C CNN
+F 2 "" H 5650 1650 50  0001 C CNN
+F 3 "~" H 5650 1650 50  0001 C CNN
+	1    5650 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8F4FC5
+P 6500 10450
+AR Path="/5C16C03C/5C8F4FC5" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5C8F4FC5" Ref="#PWR0562"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5C8F4FC5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0562" H 6500 10200 50  0001 C CNN
+F 1 "GND" H 6505 10277 50  0000 C CNN
+F 2 "" H 6500 10450 50  0001 C CNN
+F 3 "" H 6500 10450 50  0001 C CNN
+	1    6500 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0402_0R_JUMPER R?
+U 1 1 5D933441
+P 6500 10150
+AR Path="/5C16BF8E/5DB9B7E6/5D933441" Ref="R?"  Part="1" 
+AR Path="/5C16BF8E/5D933441" Ref="R281"  Part="1" 
+F 0 "R281" V 6604 10210 50  0000 L CNN
+F 1 "R0402_0R_JUMPER" H 6500 9940 60  0001 L CNN
+F 2 "RESC1005X40N" H 6500 9130 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6500 9760 60  0001 L CNN
+F 4 "0" V 6695 10210 50  0000 L CNN "~"
+F 5 "R0402_0R_JUMPER" H 6500 9670 60  0001 L CNN "Part Number"
+F 6 "Resistor" H 6500 9580 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6500 9490 60  0001 L CNN "Library Path"
+F 8 "=Value" H 6500 9400 60  0001 L CNN "Comment"
+F 9 "Standard" H 6500 9310 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 6500 9220 60  0001 L CNN "Component Type"
+F 11 "~~" H 6500 9040 60  0001 L CNN "PackageDescription"
+F 12 "2" H 6500 8950 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 6500 8860 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 6500 8770 60  0001 L CNN "Footprint Ref"
+F 15 "0" H 6500 8680 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 6500 8590 60  0001 L CNN "Status"
+F 17 "~~" H 6500 8500 60  0001 L CNN "Power"
+F 18 "~~" H 6500 8410 60  0001 L CNN "TC"
+F 19 "~~" H 6500 8320 60  0001 L CNN "Voltage"
+F 20 "~~" H 6500 8230 60  0001 L CNN "Tolerance"
+F 21 "1A (0.05R Max DC Resistance) Zero Ohm Jumper" H 6500 8140 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 6500 8050 60  0001 L CNN "Manufacturer"
+F 23 "R0402_0R_JUMPER" H 6500 7960 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 6500 7870 60  0001 L CNN "Case"
+F 25 "No" H 6500 7780 60  0001 L CNN "PressFit"
+F 26 "Yes" H 6500 7690 60  0001 L CNN "Mounted"
+F 27 "~~" H 6500 7600 60  0001 L CNN "Sense Comment"
+F 28 "No" H 6500 7510 60  0001 L CNN "Sense"
+F 29 "~~" H 6500 7420 60  0001 L CNN "Status Comment"
+F 30 "No" H 6500 7330 60  0001 L CNN "Socket"
+F 31 "Yes" H 6500 7240 60  0001 L CNN "SMD"
+F 32 "~~" H 6500 7150 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 6500 7060 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270591001L" H 6500 6970 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 6500 6880 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6500 6790 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 6500 6700 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 6500 6610 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 6500 6520 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 6500 6430 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6500 6340 60  0001 L CNN "License"
+	1    6500 10150
+	0    1    1    0   
+$EndComp
+$Comp
+L Diodes:BAT165 D?
+U 1 1 5D6FF8E5
+P 5300 3000
+AR Path="/5BCEDA39/5D6FF8E5" Ref="D?"  Part="1" 
+AR Path="/5C16BF8E/5D6FF8E5" Ref="D9"  Part="1" 
+F 0 "D9" H 5450 2773 50  0000 C CNN
+F 1 "BAT165" H 5450 2864 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:SOD2512X110N" H 5300 1860 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BAT165.pdf" H 5300 2580 60  0001 L CNN
+F 4 "BAT165" H 5300 2490 60  0001 L CNN "Part Number"
+F 5 "Diode Schottky" H 5300 2400 60  0001 L CNN "Library Ref"
+F 6 "SchLib\\Diodes.SchLib" H 5300 2310 60  0001 L CNN "Library Path"
+F 7 "=Device" H 5300 2220 60  0001 L CNN "Comment"
+F 8 "Standard" H 5300 2130 60  0001 L CNN "Component Kind"
+F 9 "Standard" H 5300 2040 60  0001 L CNN "Component Type"
+F 10 "BAT165" H 5300 1950 60  0001 L CNN "Device"
+F 11 "Small Outline Diode Flat Lead (SOD-323), 1.70mm W X 1.25mm L X 1.10mm H body,  IPC Medium Density" H 5300 1770 60  0001 L CNN "PackageDescription"
+F 12 "40V" H 5300 1680 60  0001 L CNN "Voltage"
+F 13 "750mA" H 5300 1590 60  0001 L CNN "Power"
+F 14 "~~" H 5300 1500 60  0001 L CNN "Status"
+F 15 "Medium Power AF Schottky Diode" H 5300 1410 60  0001 L CNN "Part Description"
+F 16 "INFINEON" H 5300 1320 60  0001 L CNN "Manufacturer"
+F 17 "BAT165" H 5300 1230 60  0001 L CNN "Manufacturer Part Number"
+F 18 "2" H 5300 1140 60  0001 L CNN "Pin Count"
+F 19 "SOD323" H 5300 1050 60  0001 L CNN "Case"
+F 20 "Yes" H 5300 960 60  0001 L CNN "Mounted"
+F 21 "No" H 5300 870 60  0001 L CNN "Socket"
+F 22 "Yes" H 5300 780 60  0001 L CNN "SMD"
+F 23 "No" H 5300 690 60  0001 L CNN "PressFit"
+F 24 "No" H 5300 600 60  0001 L CNN "Sense"
+F 25 "~~" H 5300 510 60  0001 L CNN "Sense Comment"
+F 26 "No" H 5300 420 60  0001 L CNN "Bonding"
+F 27 "~~" H 5300 330 60  0001 L CNN "Status Comment"
+F 28 "1.1mm" H 5300 240 60  0001 L CNN "ComponentHeight"
+F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 5300 150 60  0001 L CNN "Footprint Path"
+F 30 "SOD2512X110N" H 5300 60  60  0001 L CNN "Footprint Ref"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BAT165.pdf" H 5300 -30 60  0001 L CNN "HelpURL"
+F 32 "~~" H 5300 -120 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 5300 -210 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 5300 -300 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 5300 -390 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 5300 -480 60  0001 L CNN "Author"
+F 37 "11/12/14 00:00:00" H 5300 -570 60  0001 L CNN "CreateDate"
+F 38 "11/12/14 00:00:00" H 5300 -660 60  0001 L CNN "LatestRevisionDate"
+F 39 "ICs And Semiconductors SMD" H 5300 -750 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5300 -840 60  0001 L CNN "License"
+	1    5300 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Analog_&_Interface:INA219BIDCNT U32
+U 1 1 5D74C702
+P 10750 5700
+F 0 "U32" H 11100 5865 50  0000 C CNN
+F 1 "INA219BIDCNT" H 11100 5774 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:SOT65P280X145-8N" H 10750 3810 60  0001 L CNN
+F 3 "" H 10750 4530 60  0001 L CNN
+F 4 "INA219BIDCNT" H 10750 4440 60  0001 L CNN "Part Number"
+F 5 "INA219BIDCNT" H 10750 4350 60  0001 L CNN "Library Ref"
+F 6 "SchLib\\Analog & Interface.SchLib" H 10750 4260 60  0001 L CNN "Library Path"
+F 7 "=Device" H 10750 4170 60  0001 L CNN "Comment"
+F 8 "Standard" H 10750 4080 60  0001 L CNN "Component Kind"
+F 9 "Standard" H 10750 3990 60  0001 L CNN "Component Type"
+F 10 "INA219BIDCNT" H 10750 3900 60  0001 L CNN "Device"
+F 11 "SOT, 0.65mm pitch; 8 pin, 1.625mm W X 2.90mm L X 1.45mm H body, IPC Medium Density" H 10750 3720 60  0001 L CNN "PackageDescription"
+F 12 "~~" H 10750 3630 60  0001 L CNN "Status"
+F 13 "Zero-Drift, Bi-Directional CURRENT/POWER MONITOR with I2C™ Interface" H 10750 3540 60  0001 L CNN "Part Description"
+F 14 "TEXAS INSTRUMENTS" H 10750 3450 60  0001 L CNN "Manufacturer"
+F 15 "INA219BIDCNT" H 10750 3360 60  0001 L CNN "Manufacturer Part Number"
+F 16 "8" H 10750 3270 60  0001 L CNN "Pin Count"
+F 17 "SOT23-8" H 10750 3180 60  0001 L CNN "Case"
+F 18 "Yes" H 10750 3090 60  0001 L CNN "Mounted"
+F 19 "No" H 10750 3000 60  0001 L CNN "Socket"
+F 20 "Yes" H 10750 2910 60  0001 L CNN "SMD"
+F 21 "No" H 10750 2820 60  0001 L CNN "PressFit"
+F 22 "No" H 10750 2730 60  0001 L CNN "Sense"
+F 23 "~~" H 10750 2640 60  0001 L CNN "Sense Comment"
+F 24 "No" H 10750 2550 60  0001 L CNN "Bonding"
+F 25 "~~" H 10750 2460 60  0001 L CNN "Status Comment"
+F 26 "1.45mm" H 10750 2370 60  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 10750 2280 60  0001 L CNN "Footprint Path"
+F 28 "SOT65P280X145-8N" H 10750 2190 60  0001 L CNN "Footprint Ref"
+F 29 "CERN DEM JLC" H 10750 2100 60  0001 L CNN "Author"
+F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\INA219BIDCNT.pdf" H 10750 2010 60  0001 L CNN "HelpURL"
+F 31 "~~" H 10750 1920 60  0001 L CNN "ComponentLink1URL"
+F 32 "~~" H 10750 1830 60  0001 L CNN "ComponentLink2URL"
+F 33 "~~" H 10750 1740 60  0001 L CNN "ComponentLink2Description"
+F 34 "~~" H 10750 1650 60  0001 L CNN "ComponentLink1Description"
+F 35 "09/24/13 00:00:00" H 10750 1560 60  0001 L CNN "CreateDate"
+F 36 "09/24/13 00:00:00" H 10750 1470 60  0001 L CNN "LatestRevisionDate"
+F 37 "ICs And Semiconductors SMD" H 10750 1380 60  0001 L CNN "Library Name"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10750 1290 60  0001 L CNN "License"
+	1    10750 5700
+	-1   0    0    -1  
+$EndComp
 Wire Bus Line
 	2100 8250 2100 9850
 $EndSCHEMATC

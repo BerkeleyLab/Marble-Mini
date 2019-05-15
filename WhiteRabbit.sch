@@ -1177,52 +1177,6 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Analog_&_Interface:AD5662BRMZ-1 U19
-U 1 1 5C5A41A5
-P 2550 5150
-F 0 "U19" H 2900 5315 50  0000 C CNN
-F 1 "AD5662BRMZ-1" H 2900 5224 50  0000 C CNN
-F 2 "SOP65P490X110-8N" H 2550 3460 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\AD5662BRMZ-1.pdf" H 2550 4180 60  0001 L CNN
-F 4 "AD5662BRMZ-1" H 2550 4090 60  0001 L CNN "Part Number"
-F 5 "AD5662" H 2550 4000 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Analog & Interface.SchLib" H 2550 3910 60  0001 L CNN "Library Path"
-F 7 "=Device" H 2550 3820 60  0001 L CNN "Comment"
-F 8 "Standard" H 2550 3730 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 2550 3640 60  0001 L CNN "Component Type"
-F 10 "AD5662BRMZ-1" H 2550 3550 60  0001 L CNN "Device"
-F 11 "SOP, 0.65mm, Pitch; 8 Pin, 3.0mm W X 3.0mm L X 1.10mm H Body, IPC Medium Density" H 2550 3370 60  0001 L CNN "PackageDescription"
-F 12 "~~" H 2550 3280 60  0001 L CNN "Status"
-F 13 "2.7V to 5.5V, 250uA, Rail-to-Rail Output 16-Bit nanoDAC" H 2550 3190 60  0001 L CNN "Part Description"
-F 14 "ANALOG DEVICES" H 2550 3100 60  0001 L CNN "Manufacturer"
-F 15 "AD5662BRMZ-1" H 2550 3010 60  0001 L CNN "Manufacturer Part Number"
-F 16 "8" H 2550 2920 60  0001 L CNN "Pin Count"
-F 17 "MSOP8" H 2550 2830 60  0001 L CNN "Case"
-F 18 "Yes" H 2550 2740 60  0001 L CNN "Mounted"
-F 19 "No" H 2550 2650 60  0001 L CNN "Socket"
-F 20 "Yes" H 2550 2560 60  0001 L CNN "SMD"
-F 21 "No" H 2550 2470 60  0001 L CNN "PressFit"
-F 22 "No" H 2550 2380 60  0001 L CNN "Sense"
-F 23 "~~" H 2550 2290 60  0001 L CNN "Sense Comment"
-F 24 "No" H 2550 2200 60  0001 L CNN "Bonding"
-F 25 "~~" H 2550 2110 60  0001 L CNN "Status Comment"
-F 26 "1.1mm" H 2550 2020 60  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2550 1930 60  0001 L CNN "Footprint Path"
-F 28 "SOP65P490X110-8N" H 2550 1840 60  0001 L CNN "Footprint Ref"
-F 29 "CERN DEM JLC" H 2550 1750 60  0001 L CNN "Author"
-F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\AD5662BRMZ-1.pdf" H 2550 1660 60  0001 L CNN "HelpURL"
-F 31 "~~" H 2550 1570 60  0001 L CNN "ComponentLink1URL"
-F 32 "~~" H 2550 1480 60  0001 L CNN "ComponentLink2URL"
-F 33 "~~" H 2550 1390 60  0001 L CNN "ComponentLink2Description"
-F 34 "~~" H 2550 1300 60  0001 L CNN "ComponentLink1Description"
-F 35 "01/10/11 00:00:00" H 2550 1210 60  0001 L CNN "CreateDate"
-F 36 "01/10/11 00:00:00" H 2550 1120 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 2550 1030 60  0001 L CNN "Library Name"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 940 60  0001 L CNN "License"
-	1    2550 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Logic:CDCM61004RHBT U20
 U 1 1 5C5B8FC6
 P 7650 1150
@@ -3641,6 +3595,91 @@ F 40 "ICs And Semiconductors SMD" H 4050 -2950 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4050 -3040 60  0001 L CNN "License"
 F 42 "dnf" H 4350 700 50  0000 C CNN "config"
 	1    4050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D1ECBBF
+P 3150 2600
+AR Path="/5BABAC65/5D1ECBBF" Ref="#FLG?"  Part="1" 
+AR Path="/5C16BF13/5D1ECBBF" Ref="#FLG0113"  Part="1" 
+F 0 "#FLG0113" H 3150 2675 50  0001 C CNN
+F 1 "PWR_FLAG" H 3150 2773 50  0000 C CNN
+F 2 "" H 3150 2600 50  0001 C CNN
+F 3 "~" H 3150 2600 50  0001 C CNN
+	1    3150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D1F3792
+P 9300 2750
+AR Path="/5BABAC65/5D1F3792" Ref="#FLG?"  Part="1" 
+AR Path="/5C16BF13/5D1F3792" Ref="#FLG0114"  Part="1" 
+F 0 "#FLG0114" H 9300 2825 50  0001 C CNN
+F 1 "PWR_FLAG" H 9300 2923 50  0000 C CNN
+F 2 "" H 9300 2750 50  0001 C CNN
+F 3 "~" H 9300 2750 50  0001 C CNN
+	1    9300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D1FA4F7
+P 3050 6500
+AR Path="/5BABAC65/5D1FA4F7" Ref="#FLG?"  Part="1" 
+AR Path="/5C16BF13/5D1FA4F7" Ref="#FLG0115"  Part="1" 
+F 0 "#FLG0115" H 3050 6575 50  0001 C CNN
+F 1 "PWR_FLAG" H 3050 6673 50  0000 C CNN
+F 2 "" H 3050 6500 50  0001 C CNN
+F 3 "~" H 3050 6500 50  0001 C CNN
+	1    3050 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Analog_&_Interface:AD5662BRMZ-1 U19
+U 1 1 5D741523
+P 2550 5150
+F 0 "U19" H 2900 5315 50  0000 C CNN
+F 1 "AD5662BRMZ-1" H 2900 5224 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:SOP65P490X110-8N" H 2550 3460 60  0001 L CNN
+F 3 "" H 2550 4180 60  0001 L CNN
+F 4 "AD5662BRMZ-1" H 2550 4090 60  0001 L CNN "Part Number"
+F 5 "AD5662" H 2550 4000 60  0001 L CNN "Library Ref"
+F 6 "SchLib\\Analog & Interface.SchLib" H 2550 3910 60  0001 L CNN "Library Path"
+F 7 "=Device" H 2550 3820 60  0001 L CNN "Comment"
+F 8 "Standard" H 2550 3730 60  0001 L CNN "Component Kind"
+F 9 "Standard" H 2550 3640 60  0001 L CNN "Component Type"
+F 10 "AD5662BRMZ-1" H 2550 3550 60  0001 L CNN "Device"
+F 11 "SOP, 0.65mm, Pitch; 8 Pin, 3.0mm W X 3.0mm L X 1.10mm H Body, IPC Medium Density" H 2550 3370 60  0001 L CNN "PackageDescription"
+F 12 "~~" H 2550 3280 60  0001 L CNN "Status"
+F 13 "2.7V to 5.5V, 250uA, Rail-to-Rail Output 16-Bit nanoDAC" H 2550 3190 60  0001 L CNN "Part Description"
+F 14 "ANALOG DEVICES" H 2550 3100 60  0001 L CNN "Manufacturer"
+F 15 "AD5662BRMZ-1" H 2550 3010 60  0001 L CNN "Manufacturer Part Number"
+F 16 "8" H 2550 2920 60  0001 L CNN "Pin Count"
+F 17 "MSOP8" H 2550 2830 60  0001 L CNN "Case"
+F 18 "Yes" H 2550 2740 60  0001 L CNN "Mounted"
+F 19 "No" H 2550 2650 60  0001 L CNN "Socket"
+F 20 "Yes" H 2550 2560 60  0001 L CNN "SMD"
+F 21 "No" H 2550 2470 60  0001 L CNN "PressFit"
+F 22 "No" H 2550 2380 60  0001 L CNN "Sense"
+F 23 "~~" H 2550 2290 60  0001 L CNN "Sense Comment"
+F 24 "No" H 2550 2200 60  0001 L CNN "Bonding"
+F 25 "~~" H 2550 2110 60  0001 L CNN "Status Comment"
+F 26 "1.1mm" H 2550 2020 60  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2550 1930 60  0001 L CNN "Footprint Path"
+F 28 "SOP65P490X110-8N" H 2550 1840 60  0001 L CNN "Footprint Ref"
+F 29 "CERN DEM JLC" H 2550 1750 60  0001 L CNN "Author"
+F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\AD5662BRMZ-1.pdf" H 2550 1660 60  0001 L CNN "HelpURL"
+F 31 "~~" H 2550 1570 60  0001 L CNN "ComponentLink1URL"
+F 32 "~~" H 2550 1480 60  0001 L CNN "ComponentLink2URL"
+F 33 "~~" H 2550 1390 60  0001 L CNN "ComponentLink2Description"
+F 34 "~~" H 2550 1300 60  0001 L CNN "ComponentLink1Description"
+F 35 "01/10/11 00:00:00" H 2550 1210 60  0001 L CNN "CreateDate"
+F 36 "01/10/11 00:00:00" H 2550 1120 60  0001 L CNN "LatestRevisionDate"
+F 37 "ICs And Semiconductors SMD" H 2550 1030 60  0001 L CNN "Library Name"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 940 60  0001 L CNN "License"
+	1    2550 5150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
