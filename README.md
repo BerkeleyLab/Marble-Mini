@@ -7,4 +7,4 @@ Original concept:
 
 ![block diagram](block_3.png)
 
-(Specifications)[specs.md]
+[Specifications](specs.md)
