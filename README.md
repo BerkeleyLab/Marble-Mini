@@ -3,6 +3,12 @@
 Sized to satisfy needs of at least
 some BPM and LLRF applications
 
-Original concept:
+## Original concept:
 
 ![block diagram](block_3.png)
+
+## [Specifications](specs.md)
+
+## (Almost) Reality:
+
+![layout](marble_top.png)
