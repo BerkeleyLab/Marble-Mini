@@ -532,7 +532,7 @@ $EndComp
 Wire Wire Line
 	9700 6000 9850 6000
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC1-powerMG #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5DC9381D
 P 12350 1900
 AR Path="/5BD31F9A/5DC9381D" Ref="#PWR?"  Part="1" 
@@ -545,7 +545,7 @@ F 3 "" H 12350 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC2-powerMG #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5DCAD1CB
 P 12350 5300
 AR Path="/5BD31F9F/5DCAD1CB" Ref="#PWR?"  Part="1" 
@@ -660,9 +660,11 @@ $EndComp
 Wire Wire Line
 	4400 2150 4400 2200
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG #PWR0560
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0560
 U 1 1 5E2C52BD
 P 5650 1550
+AR Path="/5E2C52BD" Ref="#PWR0560"  Part="1" 
+AR Path="/5C16BF8E/5E2C52BD" Ref="#PWR0560"  Part="1" 
 F 0 "#PWR0560" H 5650 1400 50  0001 C CNN
 F 1 "+12V_AMC" H 5665 1723 50  0000 C CNN
 F 2 "" H 5650 1550 50  0001 C CNN
@@ -671,7 +673,7 @@ F 3 "" H 5650 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:AG5300-AG5300 U40
+L AMC_FMC_Carrier-PcbDoc-rescue:AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue U40
 U 1 1 5C359ECB
 P 5550 8300
 AR Path="/5C359ECB" Ref="U40"  Part="1" 
@@ -688,7 +690,7 @@ F 7 "AG5300" H 6700 7800 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MB6S-Diode_Bridge D6
+L AMC_FMC_Carrier-PcbDoc-rescue:MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue D6
 U 1 1 5C35B2DE
 P 3250 8650
 F 0 "D6" H 3450 8800 50  0000 L CNN
@@ -700,7 +702,7 @@ F 4 "MB210S-TP" H 3250 8650 50  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MB6S-Diode_Bridge D7
+L AMC_FMC_Carrier-PcbDoc-rescue:MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue D7
 U 1 1 5C35B47B
 P 3250 9650
 F 0 "D7" H 3500 9750 50  0000 L CNN
@@ -718,7 +720,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 9050 7050 9050
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:L-Device L?
+L AMC_FMC_Carrier-PcbDoc-rescue:L-Device-AMC_FMC_Carrier-PcbDoc-rescue L?
 U 1 1 5C42D98A
 P 4250 8650
 AR Path="/5BABAC65/5C42D98A" Ref="L?"  Part="1" 
@@ -738,7 +740,7 @@ F 4 "MPZ2012S102A" V 4250 8650 50  0001 C CNN "Manufacturer Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:L-Device L?
+L AMC_FMC_Carrier-PcbDoc-rescue:L-Device-AMC_FMC_Carrier-PcbDoc-rescue L?
 U 1 1 5C4333E3
 P 4750 8650
 AR Path="/5BABAC65/5C4333E3" Ref="L?"  Part="1" 
@@ -758,7 +760,7 @@ F 4 "MPZ2012S102A" V 4750 8650 50  0001 C CNN "Manufacturer Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:L-Device L?
+L AMC_FMC_Carrier-PcbDoc-rescue:L-Device-AMC_FMC_Carrier-PcbDoc-rescue L?
 U 1 1 5C438CB6
 P 5250 8650
 AR Path="/5BABAC65/5C438CB6" Ref="L?"  Part="1" 
@@ -778,7 +780,7 @@ F 4 "MPZ2012S102A" V 5250 8650 50  0001 C CNN "Manufacturer Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:L-Device L?
+L AMC_FMC_Carrier-PcbDoc-rescue:L-Device-AMC_FMC_Carrier-PcbDoc-rescue L?
 U 1 1 5C43E5E7
 P 4250 9050
 AR Path="/5BABAC65/5C43E5E7" Ref="L?"  Part="1" 
@@ -798,7 +800,7 @@ F 4 "MPZ2012S102A" V 4250 9050 50  0001 C CNN "Manufacturer Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:L-Device L?
+L AMC_FMC_Carrier-PcbDoc-rescue:L-Device-AMC_FMC_Carrier-PcbDoc-rescue L?
 U 1 1 5C43E5EF
 P 4750 9050
 AR Path="/5BABAC65/5C43E5EF" Ref="L?"  Part="1" 
@@ -818,7 +820,7 @@ F 4 "MPZ2012S102A" V 4750 9050 50  0001 C CNN "Manufacturer Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:L-Device L?
+L AMC_FMC_Carrier-PcbDoc-rescue:L-Device-AMC_FMC_Carrier-PcbDoc-rescue L?
 U 1 1 5C43E5F7
 P 5250 9050
 AR Path="/5BABAC65/5C43E5F7" Ref="L?"  Part="1" 
@@ -850,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 9050 3600 9050
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:1.5KExxA-Diode D8
+L AMC_FMC_Carrier-PcbDoc-rescue:1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue D8
 U 1 1 5C4A1633
 P 3600 8850
 F 0 "D8" V 3554 8929 50  0000 L CNN

@@ -15,7 +15,7 @@ Comment3 "BANK 15 & 16"
 Comment4 ""
 $EndDescr
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7 U?
+L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7-AMC_FMC_Carrier-PcbDoc-rescue U?
 U 2 1 5CB009EE
 P 8200 4050
 AR Path="/5C907554/5CB009EE" Ref="U?"  Part="2" 
@@ -370,7 +370,7 @@ F 3 "" H 9400 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC J15
+L AMC_FMC_Carrier-PcbDoc-rescue:SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC-AMC_FMC_Carrier-PcbDoc-rescue J15
 U 1 1 5CBF72F4
 P 9750 7650
 F 0 "J15" H 10180 6500 50  0000 L CNN
@@ -588,7 +588,7 @@ Connection ~ 8800 9550
 Text Label 9000 10200 0    50   ~ 10
 HDMI_HPD
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:HDMIULC6-4SC6-Diodes D10
+L AMC_FMC_Carrier-PcbDoc-rescue:HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue D10
 U 1 1 5C7A684D
 P 5550 8400
 AR Path="/5C7A684D" Ref="D10"  Part="1" 
@@ -638,7 +638,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	-1   0    0    1   
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:HDMIULC6-4SC6-Diodes D11
+L AMC_FMC_Carrier-PcbDoc-rescue:HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue D11
 U 1 1 5C854FB3
 P 5150 8750
 AR Path="/5C854FB3" Ref="D11"  Part="1" 

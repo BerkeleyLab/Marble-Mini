@@ -107,7 +107,7 @@ USB_TDO_DI
 Wire Wire Line
 	10050 4150 10500 4150
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MOLEX_87831-1420-MOLEX J11
+L AMC_FMC_Carrier-PcbDoc-rescue:MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue J11
 U 1 1 5CB763C1
 P 4200 4700
 F 0 "J11" H 4244 4773 50  0000 C CNN
@@ -1378,7 +1378,7 @@ MMC_TDO
 Text HLabel 10500 4950 2    50   Output ~ 10
 MMC_TDI
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Conn_ARM_JTAG_SWD_10-Connector J?
+L AMC_FMC_Carrier-PcbDoc-rescue:Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue J?
 U 1 1 5E9BF6F9
 P 5500 3450
 AR Path="/5BCEDA39/5E9BF6F9" Ref="J?"  Part="1" 

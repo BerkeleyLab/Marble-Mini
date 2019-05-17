@@ -324,7 +324,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 3600 9350 3600
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Oscillator-powerMG OSC1
+L AMC_FMC_Carrier-PcbDoc-rescue:Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue OSC1
 U 1 1 5C76AE78
 P 4600 3400
 F 0 "OSC1" H 4900 3567 50  0000 C CNN
@@ -1041,55 +1041,6 @@ F 39 "10/17/12 00:00:00" H 6050 770 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 6050 680 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 590 60  0001 L CNN "License"
 	1    6050 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistors_SMD:R0402_0R_JUMPER R63
-U 1 1 5DB14064
-P 3300 3250
-F 0 "R63" H 3450 3350 50  0000 C CNN
-F 1 "R0402_0R_JUMPER" H 3300 3040 60  0001 L CNN
-F 2 "RESC1005X40N" H 3300 2230 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 3300 2860 60  0001 L CNN
-F 4 "0" H 3450 3150 50  0000 C CNN "~"
-F 5 "R0402_0R_JUMPER" H 3300 2770 60  0001 L CNN "Part Number"
-F 6 "Resistor" H 3300 2680 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 3300 2590 60  0001 L CNN "Library Path"
-F 8 "=Value" H 3300 2500 60  0001 L CNN "Comment"
-F 9 "Standard" H 3300 2410 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 3300 2320 60  0001 L CNN "Component Type"
-F 11 "~~" H 3300 2140 60  0001 L CNN "PackageDescription"
-F 12 "2" H 3300 2050 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 3300 1960 60  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 3300 1870 60  0001 L CNN "Footprint Ref"
-F 15 "0" H 3300 1780 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 3300 1690 60  0001 L CNN "Status"
-F 17 "~~" H 3300 1600 60  0001 L CNN "Power"
-F 18 "~~" H 3300 1510 60  0001 L CNN "TC"
-F 19 "~~" H 3300 1420 60  0001 L CNN "Voltage"
-F 20 "~~" H 3300 1330 60  0001 L CNN "Tolerance"
-F 21 "1A (0.05R Max DC Resistance) Zero Ohm Jumper" H 3300 1240 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 3300 1150 60  0001 L CNN "Manufacturer"
-F 23 "R0402_0R_JUMPER" H 3300 1060 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 3300 970 60  0001 L CNN "Case"
-F 25 "No" H 3300 880 60  0001 L CNN "PressFit"
-F 26 "Yes" H 3300 790 60  0001 L CNN "Mounted"
-F 27 "~~" H 3300 700 60  0001 L CNN "Sense Comment"
-F 28 "No" H 3300 610 60  0001 L CNN "Sense"
-F 29 "~~" H 3300 520 60  0001 L CNN "Status Comment"
-F 30 "No" H 3300 430 60  0001 L CNN "Socket"
-F 31 "Yes" H 3300 340 60  0001 L CNN "SMD"
-F 32 "~~" H 3300 250 60  0001 L CNN "ComponentHeight"
-F 33 "YAGEO PHYCOMP" H 3300 160 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270591001L" H 3300 70  60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 3300 -20 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 3300 -110 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 3300 -200 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 3300 -290 60  0001 L CNN "CreateDate"
-F 39 "10/17/12 00:00:00" H 3300 -380 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 3300 -470 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3300 -560 60  0001 L CNN "License"
-	1    3300 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2629,12 +2580,6 @@ $EndComp
 Connection ~ 14500 2000
 Wire Wire Line
 	6000 1750 6000 1850
-Wire Bus Line
-	8900 3800 8900 4100
-Wire Bus Line
-	8900 4500 8900 4800
-Wire Bus Line
-	11850 3800 11850 4100
 Wire Wire Line
 	4450 7600 4150 7600
 $Comp
@@ -2733,4 +2678,128 @@ F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    3550 6650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Capacitors_SMD:CC0402_100PF_50V_5%_C0G C?
+U 1 1 5CF58B53
+P 3600 3350
+AR Path="/5BCEDA39/5CF58B53" Ref="C?"  Part="1" 
+AR Path="/5BCEDA59/5CF58B53" Ref="C375"  Part="1" 
+F 0 "C375" V 3704 3460 50  0000 L CNN
+F 1 "CC0402_100PF_50V_5%_C0G" H 3600 3090 60  0001 L CNN
+F 2 "CAPC1005X55N" H 3600 2280 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 3600 2910 60  0001 L CNN
+F 4 "100pF" V 3795 3460 50  0000 L CNN "~"
+F 5 "CC0402_100PF_50V_5%_C0G" H 3600 2820 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 3600 2730 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 3600 2640 60  0001 L CNN "Library Path"
+F 8 "=Value" H 3600 2550 60  0001 L CNN "Comment"
+F 9 "Standard" H 3600 2460 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 3600 2370 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 3600 2190 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 3600 2100 60  0001 L CNN "Footprint Path"
+F 13 "CAPC1005X55N" H 3600 2010 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 3600 1920 60  0001 L CNN "PackageDescription"
+F 15 "100pF" H 3600 1830 60  0001 L CNN "Val"
+F 16 "Preferred" H 3600 1740 60  0001 L CNN "Status"
+F 17 "~~" H 3600 1650 60  0001 L CNN "Status Comment"
+F 18 "50V" H 3600 1560 60  0001 L CNN "Voltage"
+F 19 "C0G/NP0" H 3600 1470 60  0001 L CNN "TC"
+F 20 "±5%" H 3600 1380 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 3600 1290 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 3600 1200 60  0001 L CNN "Manufacturer"
+F 23 "CC0402_100PF_50V_5%_C0G" H 3600 1110 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 3600 1020 60  0001 L CNN "Case"
+F 25 "Yes" H 3600 930 60  0001 L CNN "Mounted"
+F 26 "No" H 3600 840 60  0001 L CNN "Socket"
+F 27 "Yes" H 3600 750 60  0001 L CNN "SMD"
+F 28 "~~" H 3600 660 60  0001 L CNN "PressFit"
+F 29 "No" H 3600 570 60  0001 L CNN "Sense"
+F 30 "~~" H 3600 480 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 3600 390 60  0001 L CNN "ComponentHeight"
+F 32 "KEMET" H 3600 300 60  0001 L CNN "Manufacturer1 Example"
+F 33 "C0402C101J5GACTU" H 3600 210 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.55mm" H 3600 120 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 3600 30  60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 3600 -60 60  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 3600 -150 60  0001 L CNN "CreateDate"
+F 38 "04/22/15 00:00:00" H 3600 -240 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 3600 -330 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3600 -420 60  0001 L CNN "License"
+	1    3600 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Capacitors_SMD:CC0402_100PF_50V_5%_C0G C?
+U 1 1 5CF72214
+P 3600 3250
+AR Path="/5BCEDA39/5CF72214" Ref="C?"  Part="1" 
+AR Path="/5BCEDA59/5CF72214" Ref="C374"  Part="1" 
+F 0 "C374" H 3700 3100 50  0000 L CNN
+F 1 "CC0402_100PF_50V_5%_C0G" H 3600 2990 60  0001 L CNN
+F 2 "CAPC1005X55N" H 3600 2180 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 3600 2810 60  0001 L CNN
+F 4 "100pF" H 3650 3400 50  0000 L CNN "~"
+F 5 "CC0402_100PF_50V_5%_C0G" H 3600 2720 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 3600 2630 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 3600 2540 60  0001 L CNN "Library Path"
+F 8 "=Value" H 3600 2450 60  0001 L CNN "Comment"
+F 9 "Standard" H 3600 2360 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 3600 2270 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 3600 2090 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 3600 2000 60  0001 L CNN "Footprint Path"
+F 13 "CAPC1005X55N" H 3600 1910 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 3600 1820 60  0001 L CNN "PackageDescription"
+F 15 "100pF" H 3600 1730 60  0001 L CNN "Val"
+F 16 "Preferred" H 3600 1640 60  0001 L CNN "Status"
+F 17 "~~" H 3600 1550 60  0001 L CNN "Status Comment"
+F 18 "50V" H 3600 1460 60  0001 L CNN "Voltage"
+F 19 "C0G/NP0" H 3600 1370 60  0001 L CNN "TC"
+F 20 "±5%" H 3600 1280 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 3600 1190 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 3600 1100 60  0001 L CNN "Manufacturer"
+F 23 "CC0402_100PF_50V_5%_C0G" H 3600 1010 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 3600 920 60  0001 L CNN "Case"
+F 25 "Yes" H 3600 830 60  0001 L CNN "Mounted"
+F 26 "No" H 3600 740 60  0001 L CNN "Socket"
+F 27 "Yes" H 3600 650 60  0001 L CNN "SMD"
+F 28 "~~" H 3600 560 60  0001 L CNN "PressFit"
+F 29 "No" H 3600 470 60  0001 L CNN "Sense"
+F 30 "~~" H 3600 380 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 3600 290 60  0001 L CNN "ComponentHeight"
+F 32 "KEMET" H 3600 200 60  0001 L CNN "Manufacturer1 Example"
+F 33 "C0402C101J5GACTU" H 3600 110 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.55mm" H 3600 20  60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 3600 -70 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 3600 -160 60  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 3600 -250 60  0001 L CNN "CreateDate"
+F 38 "04/22/15 00:00:00" H 3600 -340 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 3600 -430 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3600 -520 60  0001 L CNN "License"
+	1    3600 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 3250 3600 3350
+Connection ~ 3600 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5CF95C1A
+P 3600 3850
+AR Path="/5C16C03C/5CF95C1A" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA59/5CF95C1A" Ref="#PWR0661"  Part="1" 
+F 0 "#PWR0661" H 3600 3600 50  0001 C CNN
+F 1 "GND" H 3605 3677 50  0000 C CNN
+F 2 "" H 3600 3850 50  0001 C CNN
+F 3 "" H 3600 3850 50  0001 C CNN
+	1    3600 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3650 3600 3850
+Wire Bus Line
+	8900 3800 8900 4100
+Wire Bus Line
+	8900 4500 8900 4800
+Wire Bus Line
+	11850 3800 11850 4100
 $EndSCHEMATC

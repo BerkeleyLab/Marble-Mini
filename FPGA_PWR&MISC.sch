@@ -15,7 +15,7 @@ Comment3 "POWER & MISC"
 Comment4 ""
 $EndDescr
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7 U?
+L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7-AMC_FMC_Carrier-PcbDoc-rescue U?
 U 5 1 5C5BFA2D
 P 11000 2150
 AR Path="/5C907554/5C5BFA2D" Ref="U?"  Part="5" 
@@ -28,7 +28,7 @@ F 3 "" H 11000 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7 U?
+L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7-AMC_FMC_Carrier-PcbDoc-rescue U?
 U 6 1 5C5BFA33
 P 8450 5750
 AR Path="/5C907554/5C5BFA33" Ref="U?"  Part="6" 
@@ -41,7 +41,7 @@ F 3 "" H 8450 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7 U?
+L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7-AMC_FMC_Carrier-PcbDoc-rescue U?
 U 7 1 5C5BFA39
 P 3650 4450
 AR Path="/5C907554/5C5BFA39" Ref="U?"  Part="7" 
@@ -168,7 +168,7 @@ Connection ~ 4700 2750
 Wire Wire Line
 	4700 2750 4700 2650
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG #PWR0440
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0440
 U 1 1 5C5F4F86
 P 9450 1700
 F 0 "#PWR0440" H 9450 1550 50  0001 C CNN
@@ -179,7 +179,7 @@ F 3 "" H 9450 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG #PWR0426
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0426
 U 1 1 5C5F55FB
 P 3250 9400
 F 0 "#PWR0426" H 3250 9250 50  0001 C CNN
@@ -228,7 +228,7 @@ Wire Wire Line
 Wire Wire Line
 	12500 2150 12550 2150
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUX-powerMG #PWR0420
+L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0420
 U 1 1 5C5FF42B
 P 2600 1450
 F 0 "#PWR0420" H 2600 1300 50  0001 C CNN
@@ -239,7 +239,7 @@ F 3 "" H 2600 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCBRAM-powerMG #PWR0419
+L AMC_FMC_Carrier-PcbDoc-rescue:VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0419
 U 1 1 5C5FFC63
 P 2300 2450
 F 0 "#PWR0419" H 2300 2300 50  0001 C CNN
@@ -303,7 +303,7 @@ Wire Wire Line
 Wire Wire Line
 	12550 1950 12550 1850
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG #PWR0453
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0453
 U 1 1 5C618BA3
 P 13450 2450
 F 0 "#PWR0453" H 13450 2300 50  0001 C CNN
@@ -746,7 +746,7 @@ F 3 "" H 5550 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUX-powerMG #PWR0421
+L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0421
 U 1 1 5C6DE6AD
 P 2600 10350
 F 0 "#PWR0421" H 2600 10200 50  0001 C CNN
@@ -770,7 +770,7 @@ F 3 "" H 10000 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCBRAM-powerMG #PWR0412
+L AMC_FMC_Carrier-PcbDoc-rescue:VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0412
 U 1 1 5C6F2B54
 P 950 10300
 F 0 "#PWR0412" H 950 10150 50  0001 C CNN
@@ -781,7 +781,7 @@ F 3 "" H 950 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG #PWR0414
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0414
 U 1 1 5C71121E
 P 1350 9400
 F 0 "#PWR0414" H 1350 9250 50  0001 C CNN
@@ -880,7 +880,7 @@ $EndComp
 Wire Wire Line
 	3250 9800 3250 9750
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG #PWR0424
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0424
 U 1 1 5C961E72
 P 2800 9400
 F 0 "#PWR0424" H 2800 9250 50  0001 C CNN
@@ -913,7 +913,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 9750 2800 9800
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG #PWR0452
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0452
 U 1 1 5C999EFD
 P 12550 1700
 F 0 "#PWR0452" H 12550 1550 50  0001 C CNN
@@ -946,7 +946,7 @@ Wire Wire Line
 Wire Wire Line
 	900  9750 900  9800
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG #PWR0410
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0410
 U 1 1 5C9F2FA3
 P 900 9400
 F 0 "#PWR0410" H 900 9250 50  0001 C CNN
@@ -1413,7 +1413,7 @@ PROG_B
 Text HLabel 12250 6150 2    50   Input ~ 10
 PROG_B
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:PB_TYCO_FSM2JSMA-Switches PB1
+L AMC_FMC_Carrier-PcbDoc-rescue:PB_TYCO_FSM2JSMA-Switches-AMC_FMC_Carrier-PcbDoc-rescue PB1
 U 1 1 5C6A56F0
 P 11350 6550
 F 0 "PB1" H 11650 6765 50  0000 C CNN
