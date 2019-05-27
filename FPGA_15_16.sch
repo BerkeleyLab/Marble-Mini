@@ -14,133 +14,86 @@ Comment2 ""
 Comment3 "BANK 15 & 16"
 Comment4 ""
 $EndDescr
-$Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7-AMC_FMC_Carrier-PcbDoc-rescue U?
-U 2 1 5CB009EE
-P 8200 4050
-AR Path="/5C907554/5CB009EE" Ref="U?"  Part="2" 
-AR Path="/5C907554/5CAAC367/5CB009EE" Ref="U1"  Part="2" 
-F 0 "U1" H 8200 1076 50  0000 C CNN
-F 1 "XC7A200T-FBG484" H 8200 985 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD_BGA:BGA484C100P22X22_2300X2300X240" H 8200 4050 50  0001 C CNN
-F 3 "" H 8200 4050 50  0000 C CNN
-	2    8200 4050
-	1    0    0    -1  
-$EndComp
-Text Label 10650 3950 0    50   ~ 10
+Text Label 9400 3800 0    50   ~ 10
 I2C_FPGA_SCL
-Text Label 10650 3850 0    50   ~ 10
+Text Label 9400 3700 0    50   ~ 10
 I2C_FPGA_SDA
-Text Label 10650 3150 0    50   ~ 10
+Text Label 9400 3000 0    50   ~ 10
 WR_DAC2_SYNC
-Text Label 10650 3250 0    50   ~ 10
+Text Label 9400 3100 0    50   ~ 10
 WR_DAC_SCLK
-Text Label 10650 3350 0    50   ~ 10
+Text Label 9400 3200 0    50   ~ 10
 WR_DAC_DIN
-Text Label 10650 3450 0    50   ~ 10
+Text Label 9400 3300 0    50   ~ 10
 WR_DAC1_SYNC
-Text Label 10350 6050 0    50   ~ 10
+Text Label 9400 5800 0    50   ~ 10
 FPGA_XR_GPIO_0
-Text Label 10300 5950 0    50   ~ 10
+Text Label 9400 5700 0    50   ~ 10
 I2C_FPGA_SW_RST
 Wire Wire Line
-	10200 6050 10750 6050
+	9250 6300 9800 6300
 Wire Wire Line
-	10200 6350 10750 6350
+	9250 6100 9800 6100
 Wire Wire Line
-	10200 6450 10750 6450
+	9250 6500 9800 6500
 Wire Wire Line
-	10200 6650 10750 6650
+	9250 6600 9800 6600
 Wire Wire Line
-	10200 6750 10750 6750
+	9250 6700 9800 6700
 Wire Wire Line
-	10200 6850 10750 6850
+	9250 1900 9800 1900
 Wire Wire Line
-	10200 2050 10750 2050
+	9250 2300 9800 2300
 Wire Wire Line
-	10200 2450 10750 2450
+	9250 2800 9800 2800
 Wire Wire Line
-	10200 2950 10750 2950
+	9250 2000 9800 2000
 Wire Wire Line
-	10200 2150 10750 2150
+	9250 1800 9800 1800
 Wire Wire Line
-	10200 1950 10750 1950
+	9250 2100 9800 2100
 Wire Wire Line
-	10200 2250 10750 2250
-Wire Wire Line
-	10200 2850 10750 2850
+	9250 2700 9800 2700
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5CB00A89
-P 6600 1050
+P 5650 900
 AR Path="/5C16BF8E/5CB00A89" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5C417BCB/5CB00A89" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5CB00A89" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5CAAC367/5CB00A89" Ref="#PWR0499"  Part="1" 
-F 0 "#PWR0499" H 6600 900 50  0001 C CNN
-F 1 "+2V5" H 6615 1223 50  0000 C CNN
-F 2 "" H 6600 1050 50  0001 C CNN
-F 3 "" H 6600 1050 50  0001 C CNN
-	1    6600 1050
+F 0 "#PWR0499" H 5650 750 50  0001 C CNN
+F 1 "+2V5" H 5665 1073 50  0000 C CNN
+F 2 "" H 5650 900 50  0001 C CNN
+F 3 "" H 5650 900 50  0001 C CNN
+	1    5650 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 1150 6600 1050
-Connection ~ 6600 1150
-Connection ~ 6700 1150
-Wire Wire Line
-	6700 1150 6600 1150
-Connection ~ 6800 1150
-Wire Wire Line
-	6800 1150 6700 1150
-Connection ~ 6900 1150
-Wire Wire Line
-	6900 1150 6800 1150
-Connection ~ 7000 1150
-Wire Wire Line
-	7000 1150 6900 1150
-Wire Wire Line
-	7000 1150 7100 1150
+	5650 1000 5650 900 
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5CB00A9A
-P 9300 1050
+P 8350 900
 AR Path="/5BD32060/5CB00A9A" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5C417BCB/5CB00A9A" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5CB00A9A" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5CAAC367/5CB00A9A" Ref="#PWR0500"  Part="1" 
-F 0 "#PWR0500" H 9300 900 50  0001 C CNN
-F 1 "+3V3" H 9315 1223 50  0000 C CNN
-F 2 "" H 9300 1050 50  0001 C CNN
-F 3 "" H 9300 1050 50  0001 C CNN
-	1    9300 1050
+F 0 "#PWR0500" H 8350 750 50  0001 C CNN
+F 1 "+3V3" H 8365 1073 50  0000 C CNN
+F 2 "" H 8350 900 50  0001 C CNN
+F 3 "" H 8350 900 50  0001 C CNN
+	1    8350 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 1150 9300 1050
-Connection ~ 9300 1150
-Connection ~ 9400 1150
-Wire Wire Line
-	9400 1150 9300 1150
-Connection ~ 9500 1150
-Wire Wire Line
-	9500 1150 9400 1150
-Connection ~ 9600 1150
-Wire Wire Line
-	9600 1150 9500 1150
-Connection ~ 9700 1150
-Wire Wire Line
-	9700 1150 9600 1150
-Wire Wire Line
-	9700 1150 9800 1150
-Text Label 10350 2650 0    50   ~ 10
+	8350 1000 8350 900 
+Text Label 9400 2500 0    50   ~ 10
 VCXO_EN
-Text Label 10350 4250 0    50   ~ 10
+Text Label 9400 4100 0    50   ~ 10
 CLK20_VCXO
 Wire Wire Line
-	10850 4250 10200 4250
-Wire Wire Line
-	10750 2650 10200 2650
+	9800 2500 9250 2500
 Text HLabel 13650 3600 2    50   Input ~ 10
 I2C_FPGA_SDA
 Text HLabel 13650 3500 2    50   Input ~ 10
@@ -269,7 +222,6 @@ Text Label 13000 6250 0    50   ~ 10
 FPGA_XR_GPIO_0
 Wire Wire Line
 	13000 6250 13850 6250
-NoConn ~ 10200 4350
 Text Label 13550 2800 2    50   ~ 10
 FPGA_MOSI
 Text Label 13550 2900 2    50   ~ 10
@@ -294,26 +246,18 @@ Wire Wire Line
 	12950 3000 13650 3000
 Wire Wire Line
 	12950 3100 13650 3100
-Text Label 10400 5450 0    50   ~ 10
+Text Label 9400 5300 0    50   ~ 10
 FPGA_MOSI
-Text Label 10400 5550 0    50   ~ 10
+Text Label 9400 5400 0    50   ~ 10
 FPGA_MISO
-Text Label 10400 5650 0    50   ~ 10
+Text Label 9400 5500 0    50   ~ 10
 FPGA_SSEL
-Text Label 10400 5750 0    50   ~ 10
+Text Label 9400 5600 0    50   ~ 10
 FPGA_SCK
-Wire Wire Line
-	10200 5450 10900 5450
-Wire Wire Line
-	10200 5550 10900 5550
-Wire Wire Line
-	10200 5650 10900 5650
-Wire Wire Line
-	10200 5750 10900 5750
-Text Label 10350 6150 0    50   ~ 10
+Text Label 9400 6000 0    50   ~ 10
 EXP_INT
 Wire Wire Line
-	10750 6150 10200 6150
+	9800 6000 9250 6000
 Text HLabel 13650 3300 2    50   Input ~ 10
 EXP_INT
 Text Label 13000 3300 0    50   ~ 10
@@ -444,38 +388,22 @@ Wire Wire Line
 Connection ~ 9400 9450
 Wire Wire Line
 	9400 9450 9400 9850
-Text Label 10750 3650 0    50   ~ 10
+Text Label 9400 3500 0    50   ~ 10
 TMDS2_P
-Text Label 10750 3750 0    50   ~ 10
+Text Label 9400 3600 0    50   ~ 10
 TMDS2_N
-Text Label 10750 5250 0    50   ~ 10
+Text Label 9400 5100 0    50   ~ 10
 TMDS1_P
-Text Label 10750 5350 0    50   ~ 10
+Text Label 9400 5200 0    50   ~ 10
 TMDS1_N
-Text Label 10750 5050 0    50   ~ 10
+Text Label 9400 4900 0    50   ~ 10
 TMDS0_P
-Text Label 10750 5150 0    50   ~ 10
+Text Label 9400 5000 0    50   ~ 10
 TMDS0_N
-Text Label 10750 4050 0    50   ~ 10
+Text Label 9400 3900 0    50   ~ 10
 TMDS_CLK_P
-Text Label 10750 4150 0    50   ~ 10
+Text Label 9400 4000 0    50   ~ 10
 TMDS_CLK_N
-Wire Wire Line
-	11100 3650 10200 3650
-Wire Wire Line
-	11100 3750 10200 3750
-Wire Wire Line
-	11100 5250 10200 5250
-Wire Wire Line
-	11100 5350 10200 5350
-Wire Wire Line
-	11100 5050 10200 5050
-Wire Wire Line
-	11100 5150 10200 5150
-Wire Wire Line
-	11200 4050 10200 4050
-Wire Wire Line
-	11200 4150 10200 4150
 Wire Wire Line
 	8200 7850 9550 7850
 Wire Wire Line
@@ -784,39 +712,23 @@ F 3 "" H 4950 8950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10200 4450 10850 4450
-Wire Wire Line
-	11250 3950 10200 3950
-Wire Wire Line
-	11250 3850 10200 3850
-Wire Wire Line
-	11250 3150 10200 3150
-Wire Wire Line
-	11250 3250 10200 3250
-Wire Wire Line
-	11250 3350 10200 3350
-Wire Wire Line
-	11250 3450 10200 3450
-Wire Wire Line
-	11000 5850 10200 5850
-Wire Wire Line
-	11000 5950 10200 5950
-Text Label 10400 4550 0    50   ~ 10
+	10050 5700 9250 5700
+Text Label 9400 4400 0    50   ~ 10
 Self_FPGA_TMS
-Text Label 10400 4650 0    50   ~ 10
+Text Label 9400 4500 0    50   ~ 10
 Self_FPGA_TDO
-Text Label 10400 4750 0    50   ~ 10
+Text Label 9400 4600 0    50   ~ 10
 Self_FPGA_TDI
-Text Label 10400 4950 0    50   ~ 10
+Text Label 9400 4800 0    50   ~ 10
 Self_FPGA_TCK
 Wire Wire Line
-	10950 4550 10200 4550
+	10000 4400 9250 4400
 Wire Wire Line
-	10950 4650 10200 4650
+	10000 4500 9250 4500
 Wire Wire Line
-	10950 4750 10200 4750
+	10000 4600 9250 4600
 Wire Wire Line
-	10950 4950 10200 4950
+	10000 4800 9250 4800
 Text Label 12950 1950 0    50   ~ 10
 Self_FPGA_TMS
 Text Label 12950 2050 0    50   ~ 10
@@ -859,21 +771,21 @@ Text Label 13050 5850 0    50   ~ 10
 Pmod2_7
 Wire Wire Line
 	13500 5250 13000 5250
-Text Label 10350 2050 0    50   ~ 10
+Text Label 9400 1900 0    50   ~ 10
 Pmod2_0
-Text Label 10350 2450 0    50   ~ 10
+Text Label 9400 2300 0    50   ~ 10
 Pmod2_1
-Text Label 10350 2550 0    50   ~ 10
+Text Label 9400 2400 0    50   ~ 10
 Pmod2_2
-Text Label 10350 2950 0    50   ~ 10
+Text Label 9400 2800 0    50   ~ 10
 Pmod2_3
-Text Label 10350 2150 0    50   ~ 10
+Text Label 9400 2000 0    50   ~ 10
 Pmod2_4
-Text Label 10350 1950 0    50   ~ 10
+Text Label 9400 1800 0    50   ~ 10
 Pmod2_5
-Text Label 10350 2250 0    50   ~ 10
+Text Label 9400 2100 0    50   ~ 10
 Pmod2_6
-Text Label 10350 2850 0    50   ~ 10
+Text Label 9400 2700 0    50   ~ 10
 Pmod2_7
 Text Label 14100 5150 0    50   ~ 10
 Pmod1_0
@@ -891,26 +803,26 @@ Text Label 14100 5750 0    50   ~ 10
 Pmod1_6
 Text Label 14100 5850 0    50   ~ 10
 Pmod1_7
-Text Label 10350 4450 0    50   ~ 10
+Text Label 9400 4300 0    50   ~ 10
 Pmod1_0
-Text Label 10350 6550 0    50   ~ 10
+Text Label 9400 6200 0    50   ~ 10
 Pmod1_1
-Text Label 10350 6450 0    50   ~ 10
+Text Label 9400 6100 0    50   ~ 10
 Pmod1_2
-Text Label 10350 6650 0    50   ~ 10
+Text Label 9400 6500 0    50   ~ 10
 Pmod1_3
-Text Label 10400 5850 0    50   ~ 10
+Text Label 9400 6400 0    50   ~ 10
 Pmod1_4
-Text Label 10350 6350 0    50   ~ 10
+Text Label 9400 6300 0    50   ~ 10
 Pmod1_5
-Text Label 10350 6850 0    50   ~ 10
+Text Label 9400 6700 0    50   ~ 10
 Pmod1_6
-Text Label 10350 6750 0    50   ~ 10
+Text Label 9400 6600 0    50   ~ 10
 Pmod1_7
 Wire Wire Line
-	10200 6550 10750 6550
+	9250 6200 9800 6200
 Wire Wire Line
-	10200 2550 10750 2550
+	9250 2400 9800 2400
 $Comp
 L Regulators:MC78L05ACDG U12
 U 1 1 5CB8EA95
@@ -1902,74 +1814,74 @@ $EndComp
 Connection ~ 9150 9550
 Wire Wire Line
 	9150 9550 9550 9550
-Text Label 5600 4250 0    50   ~ 10
+Text Label 4650 4100 0    50   ~ 10
 FMC1_LA_18_P
-Text Label 5600 5450 0    50   ~ 10
+Text Label 4650 5300 0    50   ~ 10
 FMC1_LA_23_P
-Text Label 5600 3050 0    50   ~ 10
+Text Label 4650 5900 0    50   ~ 10
 FMC1_LA_24_P
-Text Label 5600 5050 0    50   ~ 10
+Text Label 4650 4900 0    50   ~ 10
 FMC1_LA_25_P
-Text Label 5600 4850 0    50   ~ 10
+Text Label 4650 4700 0    50   ~ 10
 FMC1_LA_27_P
-Text Label 5600 3650 0    50   ~ 10
+Text Label 4650 3500 0    50   ~ 10
 FMC1_LA_29_P
-Text Label 5600 6450 0    50   ~ 10
+Text Label 4650 6300 0    50   ~ 10
 FMC1_LA_30_P
-Text Label 5600 4050 0    50   ~ 10
+Text Label 4650 2900 0    50   ~ 10
 FMC1_LA_33_P
-Text Label 5600 4350 0    50   ~ 10
+Text Label 4650 4200 0    50   ~ 10
 FMC1_LA_18_N
-Text Label 5600 5550 0    50   ~ 10
+Text Label 4650 5400 0    50   ~ 10
 FMC1_LA_23_N
-Text Label 5600 3150 0    50   ~ 10
+Text Label 4650 6000 0    50   ~ 10
 FMC1_LA_24_N
-Text Label 5600 3550 0    50   ~ 10
+Text Label 4650 3400 0    50   ~ 10
 FMC1_LA_26_N
-Text Label 5600 4950 0    50   ~ 10
+Text Label 4650 4800 0    50   ~ 10
 FMC1_LA_27_N
-Text Label 5600 3750 0    50   ~ 10
+Text Label 4650 3600 0    50   ~ 10
 FMC1_LA_29_N
-Text Label 5600 6550 0    50   ~ 10
+Text Label 4650 6400 0    50   ~ 10
 FMC1_LA_30_N
-Text Label 5600 2750 0    50   ~ 10
+Text Label 4650 2600 0    50   ~ 10
 FMC1_LA_32_N
-Text Label 5600 4150 0    50   ~ 10
+Text Label 4650 3000 0    50   ~ 10
 FMC1_LA_33_N
 Wire Wire Line
-	5550 5450 6200 5450
+	4600 5300 5250 5300
 Wire Wire Line
-	5550 5550 6200 5550
+	4600 5400 5250 5400
 Wire Wire Line
-	5550 3050 6200 3050
+	4600 5900 5250 5900
 Wire Wire Line
-	5550 3150 6200 3150
+	4600 6000 5250 6000
 Wire Wire Line
-	5550 5050 6200 5050
+	4600 4900 5250 4900
 Wire Wire Line
-	5550 3550 6200 3550
+	4600 3400 5250 3400
 Wire Wire Line
-	5550 4850 6200 4850
+	4600 4700 5250 4700
 Wire Wire Line
-	5550 4950 6200 4950
+	4600 4800 5250 4800
 Wire Wire Line
-	5550 3650 6200 3650
+	4600 3500 5250 3500
 Wire Wire Line
-	5550 3750 6200 3750
+	4600 3600 5250 3600
 Wire Wire Line
-	5550 4250 6200 4250
+	4600 4100 5250 4100
 Wire Wire Line
-	5550 4350 6200 4350
+	4600 4200 5250 4200
 Wire Wire Line
-	5550 6450 6200 6450
+	4600 6300 5250 6300
 Wire Wire Line
-	5550 6550 6200 6550
+	4600 6400 5250 6400
 Wire Wire Line
-	5550 2750 6200 2750
+	4600 2600 5250 2600
 Wire Wire Line
-	5550 4050 6200 4050
+	4600 2900 5250 2900
 Wire Wire Line
-	5550 4150 6200 4150
+	4600 3000 5250 3000
 Entry Wire Line
 	13950 7200 14050 7300
 Entry Wire Line
@@ -2056,183 +1968,157 @@ Wire Wire Line
 	13900 6850 14500 6850
 Wire Wire Line
 	13400 7200 13950 7200
-Text Label 5600 4650 0    50   ~ 10
+Text Label 4650 4500 0    50   ~ 10
 MII_RX_CLK
-Text Label 5600 2850 0    50   ~ 10
+Text Label 4650 2700 0    50   ~ 10
 MII_TX_CLK
-Text Label 5600 2250 0    50   ~ 10
+Text Label 4650 2100 0    50   ~ 10
 MII_TXD0
-Text Label 5600 2350 0    50   ~ 10
+Text Label 4650 2200 0    50   ~ 10
 MII_TXD1
-Text Label 5600 2150 0    50   ~ 10
+Text Label 4650 2000 0    50   ~ 10
 MII_TXD2
-Text Label 5600 2050 0    50   ~ 10
+Text Label 4650 1900 0    50   ~ 10
 MII_TXD3
-Text Label 5600 2550 0    50   ~ 10
+Text Label 4650 2400 0    50   ~ 10
 MII_RXD1
-Text Label 5600 2450 0    50   ~ 10
+Text Label 4650 2300 0    50   ~ 10
 MII_RXD2
-Text Label 5600 5750 0    50   ~ 10
+Text Label 4650 5600 0    50   ~ 10
 MII_RXD3
 Wire Wire Line
-	5600 5650 6200 5650
+	4650 5500 5250 5500
 Wire Wire Line
-	5600 5750 6200 5750
+	4650 5600 5250 5600
 Wire Wire Line
-	5600 1950 6200 1950
-Text Label 5600 6850 0    50   ~ 10
+	4650 1800 5250 1800
+Text Label 4650 6700 0    50   ~ 10
 PHY_RSTn
-Text Label 5600 5950 0    50   ~ 10
+Text Label 4650 2800 0    50   ~ 10
 MII_RX_DV
-Text GLabel 5550 5450 0    50   BiDi ~ 10
+Text GLabel 4600 5300 0    50   BiDi ~ 10
 FMC1_LA_23_P
-Text GLabel 5550 5550 0    50   BiDi ~ 10
+Text GLabel 4600 5400 0    50   BiDi ~ 10
 FMC1_LA_23_N
-Text GLabel 5550 3050 0    50   BiDi ~ 10
+Text GLabel 4600 5900 0    50   BiDi ~ 10
 FMC1_LA_24_P
-Text GLabel 5550 3150 0    50   BiDi ~ 10
+Text GLabel 4600 6000 0    50   BiDi ~ 10
 FMC1_LA_24_N
-Text GLabel 5550 5050 0    50   BiDi ~ 10
+Text GLabel 4600 4900 0    50   BiDi ~ 10
 FMC1_LA_25_P
-Text GLabel 5550 3550 0    50   BiDi ~ 10
+Text GLabel 4600 3400 0    50   BiDi ~ 10
 FMC1_LA_26_N
-Text GLabel 5550 4850 0    50   BiDi ~ 10
+Text GLabel 4600 4700 0    50   BiDi ~ 10
 FMC1_LA_27_P
-Text GLabel 5550 4950 0    50   BiDi ~ 10
+Text GLabel 4600 4800 0    50   BiDi ~ 10
 FMC1_LA_27_N
-Text GLabel 5550 4250 0    50   BiDi ~ 10
+Text GLabel 4600 4100 0    50   BiDi ~ 10
 FMC1_LA_18_P
-Text GLabel 5550 4350 0    50   BiDi ~ 10
+Text GLabel 4600 4200 0    50   BiDi ~ 10
 FMC1_LA_18_N
-Text GLabel 5550 6450 0    50   BiDi ~ 10
+Text GLabel 4600 6300 0    50   BiDi ~ 10
 FMC1_LA_30_P
-Text GLabel 5550 6550 0    50   BiDi ~ 10
+Text GLabel 4600 6400 0    50   BiDi ~ 10
 FMC1_LA_30_N
-Text GLabel 5550 2750 0    50   BiDi ~ 10
+Text GLabel 4600 2600 0    50   BiDi ~ 10
 FMC1_LA_32_N
-Text GLabel 5550 4050 0    50   BiDi ~ 10
+Text GLabel 4600 2900 0    50   BiDi ~ 10
 FMC1_LA_33_P
-Text GLabel 5550 4150 0    50   BiDi ~ 10
+Text GLabel 4600 3000 0    50   BiDi ~ 10
 FMC1_LA_33_N
-Text GLabel 5550 3650 0    50   BiDi ~ 10
+Text GLabel 4600 3500 0    50   BiDi ~ 10
 FMC1_LA_29_P
-Text GLabel 5550 3750 0    50   BiDi ~ 10
+Text GLabel 4600 3600 0    50   BiDi ~ 10
 FMC1_LA_29_N
 Wire Wire Line
-	5600 2350 6200 2350
-Text Label 5600 1950 0    50   ~ 10
+	4650 2200 5250 2200
+Text Label 4650 1800 0    50   ~ 10
 MII_TX_EN
-Text Label 5600 5650 0    50   ~ 10
+Text Label 4650 5500 0    50   ~ 10
 MII_RXD0
 Wire Wire Line
-	5600 2050 6200 2050
+	4650 1900 5250 1900
 Wire Wire Line
-	5600 2150 6200 2150
-Text GLabel 5550 4550 0    50   BiDi ~ 10
+	4650 2000 5250 2000
+Text GLabel 4600 4400 0    50   BiDi ~ 10
 FMC1_LA_17_N
-Text GLabel 5550 4450 0    50   BiDi ~ 10
+Text GLabel 4600 4300 0    50   BiDi ~ 10
 FMC1_LA_17_P
 Wire Wire Line
-	5550 4550 6200 4550
+	4600 4400 5250 4400
 Wire Wire Line
-	5550 4450 6200 4450
-Text Label 5600 4550 0    50   ~ 10
+	4600 4300 5250 4300
+Text Label 4650 4400 0    50   ~ 10
 FMC1_LA_17_N
-Text Label 5600 4450 0    50   ~ 10
+Text Label 4650 4300 0    50   ~ 10
 FMC1_LA_17_P
-Text GLabel 5550 3450 0    50   BiDi ~ 10
+Text GLabel 4600 3300 0    50   BiDi ~ 10
 FMC1_LA_26_P
-Text GLabel 5550 5150 0    50   BiDi ~ 10
+Text GLabel 4600 5000 0    50   BiDi ~ 10
 FMC1_LA_25_N
 Wire Wire Line
-	5550 3450 6200 3450
+	4600 3300 5250 3300
 Wire Wire Line
-	5550 5150 6200 5150
-Text Label 5600 5150 0    50   ~ 10
+	4600 5000 5250 5000
+Text Label 4650 5000 0    50   ~ 10
 FMC1_LA_25_N
-Text Label 5600 3450 0    50   ~ 10
+Text Label 4650 3300 0    50   ~ 10
 FMC1_LA_26_P
-Text GLabel 5550 3950 0    50   BiDi ~ 10
+Text GLabel 4600 3800 0    50   BiDi ~ 10
 FMC1_LA_22_N
-Text GLabel 5550 3850 0    50   BiDi ~ 10
+Text GLabel 4600 3700 0    50   BiDi ~ 10
 FMC1_LA_22_P
 Wire Wire Line
-	5550 3950 6200 3950
+	4600 3800 5250 3800
 Wire Wire Line
-	5550 3850 6200 3850
-Text Label 5600 3950 0    50   ~ 10
+	4600 3700 5250 3700
+Text Label 4650 3800 0    50   ~ 10
 FMC1_LA_22_N
-Text Label 5600 3850 0    50   ~ 10
+Text Label 4650 3700 0    50   ~ 10
 FMC1_LA_22_P
-Text GLabel 5550 6750 0    50   BiDi ~ 10
+Text GLabel 4600 6600 0    50   BiDi ~ 10
 FMC1_LA_28_N
-Text GLabel 5550 6650 0    50   BiDi ~ 10
+Text GLabel 4600 6500 0    50   BiDi ~ 10
 FMC1_LA_28_P
 Wire Wire Line
-	5550 6750 6200 6750
+	4600 6600 5250 6600
 Wire Wire Line
-	5550 6650 6200 6650
-Text Label 5600 6750 0    50   ~ 10
+	4600 6500 5250 6500
+Text Label 4650 6600 0    50   ~ 10
 FMC1_LA_28_N
-Text Label 5600 6650 0    50   ~ 10
+Text Label 4650 6500 0    50   ~ 10
 FMC1_LA_28_P
-Text Label 5600 6050 0    50   ~ 10
-FMC1_LA_19_P
-Text Label 5600 6150 0    50   ~ 10
-FMC1_LA_19_N
-Wire Wire Line
-	5550 6050 6200 6050
-Wire Wire Line
-	5550 6150 6200 6150
-Text GLabel 5550 6050 0    50   BiDi ~ 10
-FMC1_LA_19_P
-Text GLabel 5550 6150 0    50   BiDi ~ 10
-FMC1_LA_19_N
-Text Label 5600 6250 0    50   ~ 10
-FMC1_LA_20_P
-Text Label 5600 6350 0    50   ~ 10
-FMC1_LA_20_N
-Wire Wire Line
-	5550 6250 6200 6250
-Wire Wire Line
-	5550 6350 6200 6350
-Text GLabel 5550 6250 0    50   BiDi ~ 10
-FMC1_LA_20_P
-Text GLabel 5550 6350 0    50   BiDi ~ 10
-FMC1_LA_20_N
-Text GLabel 5550 2650 0    50   BiDi ~ 10
+Text GLabel 4600 2500 0    50   BiDi ~ 10
 FMC1_LA_32_P
 Wire Wire Line
-	5550 2650 6200 2650
-Text Label 5600 2650 0    50   ~ 10
+	4600 2500 5250 2500
+Text Label 4650 2500 0    50   ~ 10
 FMC1_LA_32_P
-Text GLabel 5550 5350 0    50   BiDi ~ 10
+Text GLabel 4600 5200 0    50   BiDi ~ 10
 FMC1_LA_21_N
-Text GLabel 5550 5250 0    50   BiDi ~ 10
+Text GLabel 4600 5100 0    50   BiDi ~ 10
 FMC1_LA_21_P
 Wire Wire Line
-	5550 5350 6200 5350
+	4600 5200 5250 5200
 Wire Wire Line
-	5550 5250 6200 5250
-Text Label 5600 5350 0    50   ~ 10
+	4600 5100 5250 5100
+Text Label 4650 5200 0    50   ~ 10
 FMC1_LA_21_N
-Text Label 5600 5250 0    50   ~ 10
+Text Label 4650 5100 0    50   ~ 10
 FMC1_LA_21_P
-Text GLabel 5550 3250 0    50   BiDi ~ 10
+Text GLabel 4600 3100 0    50   BiDi ~ 10
 FMC1_LA_31_P
 Wire Wire Line
-	5550 3250 6200 3250
-Text Label 5600 3250 0    50   ~ 10
+	4600 3100 5250 3100
+Text Label 4650 3100 0    50   ~ 10
 FMC1_LA_31_P
-Text GLabel 5550 3350 0    50   BiDi ~ 10
+Text GLabel 4600 3200 0    50   BiDi ~ 10
 FMC1_LA_31_N
 Wire Wire Line
-	5550 3350 6200 3350
-Text Label 5600 3350 0    50   ~ 10
+	4600 3200 5250 3200
+Text Label 4650 3200 0    50   ~ 10
 FMC1_LA_31_N
-Wire Wire Line
-	10200 4850 10900 4850
-Text Label 10400 4850 0    50   ~ 10
+Text Label 9400 4700 0    50   ~ 10
 FPGA_INT
 Wire Wire Line
 	5850 8100 5850 7850
@@ -2259,27 +2145,372 @@ Wire Wire Line
 Wire Wire Line
 	5750 8100 5850 8100
 Wire Wire Line
-	5600 2250 6200 2250
+	4650 2100 5250 2100
 Wire Wire Line
-	5600 2450 6200 2450
+	4650 2300 5250 2300
 Wire Wire Line
-	5600 2550 6200 2550
+	4650 2400 5250 2400
 Wire Wire Line
-	5600 2850 6200 2850
+	4650 2700 5250 2700
 Wire Wire Line
-	5600 4650 6200 4650
+	4650 4500 5250 4500
 Wire Wire Line
-	5600 5950 6200 5950
+	4650 2800 5250 2800
 Wire Wire Line
-	5600 6850 6200 6850
-NoConn ~ 10200 2350
-NoConn ~ 10200 2750
-NoConn ~ 10200 3050
-NoConn ~ 10200 3550
-NoConn ~ 10200 6250
-NoConn ~ 6200 2950
-NoConn ~ 6200 4750
-NoConn ~ 6200 5850
+	4650 6700 5250 6700
+NoConn ~ 9250 2200
+NoConn ~ 9250 2600
+NoConn ~ 9250 2900
+NoConn ~ 9250 3400
+NoConn ~ 5250 4600
+Wire Wire Line
+	10000 3000 9250 3000
+Wire Wire Line
+	10000 3100 9250 3100
+Wire Wire Line
+	10000 3200 9250 3200
+Wire Wire Line
+	10000 3300 9250 3300
+Wire Wire Line
+	10000 3500 9250 3500
+Wire Wire Line
+	10000 3600 9250 3600
+Wire Wire Line
+	10000 3700 9250 3700
+Wire Wire Line
+	10000 3800 9250 3800
+Wire Wire Line
+	10000 3900 9250 3900
+Wire Wire Line
+	10000 4000 9250 4000
+Wire Wire Line
+	9250 4100 10000 4100
+Wire Wire Line
+	9250 4300 10000 4300
+Wire Wire Line
+	9250 4700 10000 4700
+Wire Wire Line
+	10000 4900 9250 4900
+Wire Wire Line
+	10000 5000 9250 5000
+Wire Wire Line
+	10000 5100 9250 5100
+Wire Wire Line
+	10000 5200 9250 5200
+Wire Wire Line
+	9250 5300 10000 5300
+Wire Wire Line
+	9250 5400 10000 5400
+Wire Wire Line
+	9250 5500 10000 5500
+Wire Wire Line
+	9250 5600 10000 5600
+Wire Wire Line
+	9250 5800 10050 5800
+$Comp
+L powerMG:SN65MLVD2DRBT U42
+U 1 1 5D20E21A
+P 10800 4600
+F 0 "U42" H 11250 4750 50  0000 C CNN
+F 1 "SN65MLVD2DRBT" H 11250 4674 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:SON50P300X300X80-9N-R175X248" H 11000 4500 50  0001 C CNN
+F 3 "" H 11000 4500 50  0001 C CNN
+F 4 "SN65MLVD2DRBT" H 11250 4673 50  0001 C CNN "PN"
+F 5 "-standalone" H 11250 4050 50  0001 C CNN "config"
+	1    10800 4600
+	1    0    0    -1  
+$EndComp
+Text Label 4650 6100 0    50   ~ 10
+FMC1_LA_19_P
+Text Label 4650 6200 0    50   ~ 10
+FMC1_LA_19_N
+Wire Wire Line
+	4600 6100 5250 6100
+Wire Wire Line
+	4600 6200 5250 6200
+Text GLabel 4600 6100 0    50   BiDi ~ 10
+FMC1_LA_19_P
+Text GLabel 4600 6200 0    50   BiDi ~ 10
+FMC1_LA_19_N
+Text GLabel 4600 5800 0    50   BiDi ~ 10
+FMC1_LA_20_N
+Text GLabel 4600 5700 0    50   BiDi ~ 10
+FMC1_LA_20_P
+Wire Wire Line
+	4600 5800 5250 5800
+Wire Wire Line
+	4600 5700 5250 5700
+Text Label 4650 5800 0    50   ~ 10
+FMC1_LA_20_N
+Text Label 4650 5700 0    50   ~ 10
+FMC1_LA_20_P
+Text Label 5050 3900 2    60   ~ 12
+TCLKA_P
+Text Label 5050 4000 2    60   ~ 12
+TCLKA_N
+Wire Wire Line
+	4450 3900 5250 3900
+Wire Wire Line
+	4450 4000 5250 4000
+Text HLabel 4450 3900 0    60   Input ~ 12
+TCLKA_P
+Text HLabel 4450 4000 0    60   Input ~ 12
+TCLKA_N
+Wire Wire Line
+	6050 1000 6150 1000
+Connection ~ 6050 1000
+Wire Wire Line
+	6050 1000 5950 1000
+Connection ~ 5950 1000
+Wire Wire Line
+	5950 1000 5850 1000
+Connection ~ 5850 1000
+Wire Wire Line
+	5850 1000 5750 1000
+Wire Wire Line
+	5750 1000 5650 1000
+Connection ~ 5750 1000
+Connection ~ 5650 1000
+Wire Wire Line
+	8750 1000 8850 1000
+Connection ~ 8750 1000
+Wire Wire Line
+	8750 1000 8650 1000
+Connection ~ 8650 1000
+Wire Wire Line
+	8650 1000 8550 1000
+Connection ~ 8550 1000
+Wire Wire Line
+	8550 1000 8450 1000
+Wire Wire Line
+	8450 1000 8350 1000
+Connection ~ 8450 1000
+Connection ~ 8350 1000
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7-AMC_FMC_Carrier-PcbDoc-rescue U?
+U 2 1 5CB009EE
+P 7250 3900
+AR Path="/5C907554/5CB009EE" Ref="U?"  Part="2" 
+AR Path="/5C907554/5CAAC367/5CB009EE" Ref="U1"  Part="2" 
+F 0 "U1" H 7250 926 50  0000 C CNN
+F 1 "XC7A200T-FBG484" H 7250 835 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD_BGA:BGA484C100P22X22_2300X2300X240" H 7250 3900 50  0001 C CNN
+F 3 "" H 7250 3900 50  0000 C CNN
+	2    7250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 6400 9250 6400
+Wire Wire Line
+	9250 4200 10400 4200
+Wire Wire Line
+	10400 4200 10400 4700
+Wire Wire Line
+	10400 4700 10800 4700
+Wire Wire Line
+	9250 5900 10400 5900
+Wire Wire Line
+	10400 5900 10400 4800
+Wire Wire Line
+	10400 4800 10800 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5DAA0539
+P 10800 5150
+AR Path="/5BD32060/5DAA0539" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/5DAA0539" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/5DAA0539" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/5DAA0539" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/5DAA0539" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8AFE1/5DAA0539" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5C417BCB/5DAA0539" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5DAA0539" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5CC8CB69/5DAA0539" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5CAAC367/5DAA0539" Ref="#PWR0662"  Part="1" 
+F 0 "#PWR0662" H 10800 4900 50  0001 C CNN
+F 1 "GND" H 10805 4977 50  0000 C CNN
+F 2 "" H 10800 5150 50  0001 C CNN
+F 3 "" H 10800 5150 50  0001 C CNN
+	1    10800 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 4950 10800 5050
+Connection ~ 10800 5050
+Wire Wire Line
+	10800 5050 10800 5150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DAD917D
+P 12250 5050
+AR Path="/5BD32060/5DAD917D" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5C417BCB/5DAD917D" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5DAD917D" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5CAAC367/5DAD917D" Ref="#PWR0663"  Part="1" 
+F 0 "#PWR0663" H 12250 4900 50  0001 C CNN
+F 1 "+3V3" H 12250 5200 50  0000 C CNN
+F 2 "" H 12250 5050 50  0001 C CNN
+F 3 "" H 12250 5050 50  0001 C CNN
+	1    12250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DAF9091
+P 11800 5400
+AR Path="/5BD32060/5DAF9091" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF13/5DAF9091" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5DAF9091" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5CAAC367/5DAF9091" Ref="#PWR0664"  Part="1" 
+F 0 "#PWR0664" H 11800 5150 50  0001 C CNN
+F 1 "GND" H 11805 5227 50  0000 C CNN
+F 2 "" H 11800 5400 50  0001 C CNN
+F 3 "" H 11800 5400 50  0001 C CNN
+	1    11800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 5350 11800 5400
+$Comp
+L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
+U 1 1 5DAF90BD
+P 11800 5050
+AR Path="/5BCEDA59/5DAF90BD" Ref="C?"  Part="1" 
+AR Path="/5C907554/5DAF90BD" Ref="C?"  Part="1" 
+AR Path="/5C907554/5CAAC367/5DAF90BD" Ref="C376"  Part="1" 
+F 0 "C376" V 11904 5160 50  0000 L CNN
+F 1 "CC0201_100NF_6.3V_10%_X5R" H 11800 4790 60  0001 L CNN
+F 2 "CAPC0603X33N" H 11800 3980 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 11800 4610 60  0001 L CNN
+F 4 "100nF" V 11995 5160 50  0000 L CNN "~"
+F 5 "CC0201_100NF_6.3V_10%_X5R" H 11800 4520 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 11800 4430 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 11800 4340 60  0001 L CNN "Library Path"
+F 8 "=Value" H 11800 4250 60  0001 L CNN "Comment"
+F 9 "Standard" H 11800 4160 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 11800 4070 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 11800 3890 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 11800 3800 60  0001 L CNN "Footprint Path"
+F 13 "CAPC0603X33N" H 11800 3710 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 11800 3620 60  0001 L CNN "PackageDescription"
+F 15 "100nF" H 11800 3530 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 11800 3440 60  0001 L CNN "Status"
+F 17 "~~" H 11800 3350 60  0001 L CNN "Status Comment"
+F 18 "6.3V" H 11800 3260 60  0001 L CNN "Voltage"
+F 19 "X5R" H 11800 3170 60  0001 L CNN "TC"
+F 20 "±10%" H 11800 3080 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 11800 2990 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 11800 2900 60  0001 L CNN "Manufacturer"
+F 23 "CC0201_100NF_6.3V_10%_X5R" H 11800 2810 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0201" H 11800 2720 60  0001 L CNN "Case"
+F 25 "Yes" H 11800 2630 60  0001 L CNN "Mounted"
+F 26 "No" H 11800 2540 60  0001 L CNN "Socket"
+F 27 "Yes" H 11800 2450 60  0001 L CNN "SMD"
+F 28 "~~" H 11800 2360 60  0001 L CNN "PressFit"
+F 29 "No" H 11800 2270 60  0001 L CNN "Sense"
+F 30 "~~" H 11800 2180 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 11800 2090 60  0001 L CNN "ComponentHeight"
+F 32 "AVX" H 11800 2000 60  0001 L CNN "Manufacturer1 Example"
+F 33 "02016D104KAT2A" H 11800 1910 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.33mm" H 11800 1820 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 11800 1730 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 11800 1640 60  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 11800 1550 60  0001 L CNN "CreateDate"
+F 38 "12/03/07 00:00:00" H 11800 1460 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 11800 1370 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11800 1280 60  0001 L CNN "License"
+F 41 "-standalone" V 12100 5200 50  0001 C CNN "config"
+	1    11800 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11800 5050 11700 5050
+Wire Wire Line
+	11700 4950 11700 5050
+Connection ~ 11700 5050
+Text HLabel 12100 4800 2    60   Input ~ 12
+Rx18_P
+Text HLabel 12100 4700 2    60   Input ~ 12
+Rx18_N
+Wire Wire Line
+	11700 4700 12100 4700
+Wire Wire Line
+	11700 4800 12100 4800
+Text Label 12050 4800 2    60   ~ 12
+Rx18_P
+Text Label 12050 4700 2    60   ~ 12
+Rx18_N
+$Comp
+L power:GND #PWR?
+U 1 1 5E2584E4
+P 12250 5400
+AR Path="/5BD32060/5E2584E4" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF13/5E2584E4" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5E2584E4" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5CAAC367/5E2584E4" Ref="#PWR0665"  Part="1" 
+F 0 "#PWR0665" H 12250 5150 50  0001 C CNN
+F 1 "GND" H 12255 5227 50  0000 C CNN
+F 2 "" H 12250 5400 50  0001 C CNN
+F 3 "" H 12250 5400 50  0001 C CNN
+	1    12250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12250 5350 12250 5400
+$Comp
+L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
+U 1 1 5E258510
+P 12250 5050
+AR Path="/5BCEDA59/5E258510" Ref="C?"  Part="1" 
+AR Path="/5C907554/5E258510" Ref="C?"  Part="1" 
+AR Path="/5C907554/5CAAC367/5E258510" Ref="C377"  Part="1" 
+F 0 "C377" V 12354 5160 50  0000 L CNN
+F 1 "CC0201_100NF_6.3V_10%_X5R" H 12250 4790 60  0001 L CNN
+F 2 "CAPC0603X33N" H 12250 3980 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 12250 4610 60  0001 L CNN
+F 4 "100nF" V 12445 5160 50  0000 L CNN "~"
+F 5 "CC0201_100NF_6.3V_10%_X5R" H 12250 4520 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 12250 4430 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 12250 4340 60  0001 L CNN "Library Path"
+F 8 "=Value" H 12250 4250 60  0001 L CNN "Comment"
+F 9 "Standard" H 12250 4160 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 12250 4070 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 12250 3890 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 12250 3800 60  0001 L CNN "Footprint Path"
+F 13 "CAPC0603X33N" H 12250 3710 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 12250 3620 60  0001 L CNN "PackageDescription"
+F 15 "100nF" H 12250 3530 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 12250 3440 60  0001 L CNN "Status"
+F 17 "~~" H 12250 3350 60  0001 L CNN "Status Comment"
+F 18 "6.3V" H 12250 3260 60  0001 L CNN "Voltage"
+F 19 "X5R" H 12250 3170 60  0001 L CNN "TC"
+F 20 "±10%" H 12250 3080 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 12250 2990 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 12250 2900 60  0001 L CNN "Manufacturer"
+F 23 "CC0201_100NF_6.3V_10%_X5R" H 12250 2810 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0201" H 12250 2720 60  0001 L CNN "Case"
+F 25 "Yes" H 12250 2630 60  0001 L CNN "Mounted"
+F 26 "No" H 12250 2540 60  0001 L CNN "Socket"
+F 27 "Yes" H 12250 2450 60  0001 L CNN "SMD"
+F 28 "~~" H 12250 2360 60  0001 L CNN "PressFit"
+F 29 "No" H 12250 2270 60  0001 L CNN "Sense"
+F 30 "~~" H 12250 2180 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 12250 2090 60  0001 L CNN "ComponentHeight"
+F 32 "AVX" H 12250 2000 60  0001 L CNN "Manufacturer1 Example"
+F 33 "02016D104KAT2A" H 12250 1910 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.33mm" H 12250 1820 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 12250 1730 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 12250 1640 60  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 12250 1550 60  0001 L CNN "CreateDate"
+F 38 "12/03/07 00:00:00" H 12250 1460 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 12250 1370 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12250 1280 60  0001 L CNN "License"
+F 41 "-standalone" V 12550 5200 50  0001 C CNN "config"
+	1    12250 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12250 5050 11800 5050
 Wire Bus Line
 	14050 7300 14050 7600
 Wire Bus Line
@@ -2288,4 +2519,6 @@ Wire Bus Line
 	14600 5000 14600 5750
 Wire Bus Line
 	13600 4850 13600 5750
+Connection ~ 12250 5050
+Connection ~ 11800 5050
 $EndSCHEMATC

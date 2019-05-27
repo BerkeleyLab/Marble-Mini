@@ -1294,9 +1294,9 @@ Text Label 9750 9150 1    50   ~ 10
 AMC_TRST
 Text Label 9214 2633 0    60   ~ 12
 FCLKA_P
-Text HLabel 10014 2533 2    60   Input ~ 12
+Text HLabel 10014 2533 2    60   Output ~ 12
 FCLKA_N
-Text HLabel 10014 2633 2    60   Input ~ 12
+Text HLabel 10014 2633 2    60   Output ~ 12
 FCLKA_P
 Text Label 6250 7500 1    50   ~ 10
 Rx_4_P
@@ -1835,8 +1835,6 @@ NoConn ~ 8450 9350
 NoConn ~ 8350 9350
 NoConn ~ 8150 9350
 NoConn ~ 8050 9350
-NoConn ~ 7850 9350
-NoConn ~ 7750 9350
 NoConn ~ 7550 9350
 NoConn ~ 7450 9350
 NoConn ~ 7250 9350
@@ -1923,10 +1921,32 @@ NoConn ~ 5050 6900
 NoConn ~ 5150 6900
 NoConn ~ 5350 6900
 NoConn ~ 5450 6900
-NoConn ~ 8950 6900
-NoConn ~ 9050 6900
 NoConn ~ 9250 6900
 NoConn ~ 9350 6900
+Text Label 9200 2850 0    60   ~ 12
+TCLKA_P
+Text Label 9200 2950 0    60   ~ 12
+TCLKA_N
+Wire Wire Line
+	10000 2850 9200 2850
+Wire Wire Line
+	10000 2950 9200 2950
+Text HLabel 10000 2850 2    60   Output ~ 12
+TCLKA_P
+Text HLabel 10000 2950 2    60   Output ~ 12
+TCLKA_N
+Text Label 9200 3250 0    60   ~ 12
+Rx18_N
+Text Label 9200 3150 0    60   ~ 12
+Rx18_P
+Text HLabel 10000 3150 2    60   Output ~ 12
+Rx18_P
+Text HLabel 10000 3250 2    60   Output ~ 12
+Rx18_N
+Wire Wire Line
+	9200 3150 10000 3150
+Wire Wire Line
+	9200 3250 10000 3250
 Wire Bus Line
 	10026 4346 10026 4546
 $EndSCHEMATC

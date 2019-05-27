@@ -268,14 +268,6 @@ PHY_RSTn
 Wire Wire Line
 	5850 4200 6500 4200
 Entry Wire Line
-	8800 3700 8900 3800
-Entry Wire Line
-	8800 3800 8900 3900
-Entry Wire Line
-	8800 3900 8900 4000
-Entry Wire Line
-	8800 4000 8900 4100
-Entry Wire Line
 	8800 4400 8900 4500
 Entry Wire Line
 	8800 4500 8900 4600
@@ -283,14 +275,6 @@ Entry Wire Line
 	8800 4600 8900 4700
 Entry Wire Line
 	8800 4700 8900 4800
-Wire Wire Line
-	8100 3700 8800 3700
-Wire Wire Line
-	8100 3800 8800 3800
-Wire Wire Line
-	8100 3900 8800 3900
-Wire Wire Line
-	8100 4000 8800 4000
 Wire Wire Line
 	8100 4400 8800 4400
 Wire Wire Line
@@ -2796,10 +2780,26 @@ F 3 "" H 3600 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 3650 3600 3850
-Wire Bus Line
-	8900 3800 8900 4100
+Wire Wire Line
+	8100 4000 8800 4000
+Wire Wire Line
+	8100 3900 8800 3900
+Wire Wire Line
+	8100 3800 8800 3800
+Wire Wire Line
+	8100 3700 8800 3700
+Entry Wire Line
+	8800 4000 8900 4100
+Entry Wire Line
+	8800 3900 8900 4000
+Entry Wire Line
+	8800 3800 8900 3900
+Entry Wire Line
+	8800 3700 8900 3800
 Wire Bus Line
 	8900 4500 8900 4800
 Wire Bus Line
 	11850 3800 11850 4100
+Wire Bus Line
+	8900 3800 8900 4100
 $EndSCHEMATC
