@@ -2210,14 +2210,14 @@ Wire Wire Line
 $Comp
 L powerMG:SN65MLVD2DRBT U42
 U 1 1 5D20E21A
-P 10800 4600
-F 0 "U42" H 11250 4750 50  0000 C CNN
-F 1 "SN65MLVD2DRBT" H 11250 4674 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:SON50P300X300X80-9N-R175X248" H 11000 4500 50  0001 C CNN
-F 3 "" H 11000 4500 50  0001 C CNN
-F 4 "SN65MLVD2DRBT" H 11250 4673 50  0001 C CNN "PN"
-F 5 "-standalone" H 11250 4050 50  0001 C CNN "config"
-	1    10800 4600
+P 10600 5700
+F 0 "U42" H 11050 5850 50  0000 C CNN
+F 1 "SN65MLVD2DRBT" H 11050 5774 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:SON50P300X300X80-9N-R175X248" H 10800 5600 50  0001 C CNN
+F 3 "" H 10800 5600 50  0001 C CNN
+F 4 "SN65MLVD2DRBT" H 11050 5773 50  0001 C CNN "PN"
+F 5 "-standalone" H 11050 5150 50  0001 C CNN "config"
+	1    10600 5700
 	1    0    0    -1  
 $EndComp
 Text Label 4650 6100 0    50   ~ 10
@@ -2301,22 +2301,10 @@ F 3 "" H 7250 3900 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	9800 6400 9250 6400
-Wire Wire Line
-	9250 4200 10400 4200
-Wire Wire Line
-	10400 4200 10400 4700
-Wire Wire Line
-	10400 4700 10800 4700
-Wire Wire Line
-	9250 5900 10400 5900
-Wire Wire Line
-	10400 5900 10400 4800
-Wire Wire Line
-	10400 4800 10800 4800
 $Comp
 L power:GND #PWR?
 U 1 1 5DAA0539
-P 10800 5150
+P 10600 6250
 AR Path="/5BD32060/5DAA0539" Ref="#PWR?"  Part="1" 
 AR Path="/5BABAC65/5DAA0539" Ref="#PWR?"  Part="1" 
 AR Path="/5CC24E97/5DAA0539" Ref="#PWR?"  Part="1" 
@@ -2327,190 +2315,217 @@ AR Path="/5C907554/5C417BCB/5DAA0539" Ref="#PWR?"  Part="1"
 AR Path="/5C907554/5DAA0539" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5CC8CB69/5DAA0539" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5CAAC367/5DAA0539" Ref="#PWR0662"  Part="1" 
-F 0 "#PWR0662" H 10800 4900 50  0001 C CNN
-F 1 "GND" H 10805 4977 50  0000 C CNN
-F 2 "" H 10800 5150 50  0001 C CNN
-F 3 "" H 10800 5150 50  0001 C CNN
-	1    10800 5150
+F 0 "#PWR0662" H 10600 6000 50  0001 C CNN
+F 1 "GND" H 10605 6077 50  0000 C CNN
+F 2 "" H 10600 6250 50  0001 C CNN
+F 3 "" H 10600 6250 50  0001 C CNN
+	1    10600 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10800 4950 10800 5050
-Connection ~ 10800 5050
+	10600 6050 10600 6150
+Connection ~ 10600 6150
 Wire Wire Line
-	10800 5050 10800 5150
+	10600 6150 10600 6250
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5DAD917D
-P 12250 5050
+P 12050 6150
 AR Path="/5BD32060/5DAD917D" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5C417BCB/5DAD917D" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5DAD917D" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5CAAC367/5DAD917D" Ref="#PWR0663"  Part="1" 
-F 0 "#PWR0663" H 12250 4900 50  0001 C CNN
-F 1 "+3V3" H 12250 5200 50  0000 C CNN
-F 2 "" H 12250 5050 50  0001 C CNN
-F 3 "" H 12250 5050 50  0001 C CNN
-	1    12250 5050
+F 0 "#PWR0663" H 12050 6000 50  0001 C CNN
+F 1 "+3V3" H 12050 6300 50  0000 C CNN
+F 2 "" H 12050 6150 50  0001 C CNN
+F 3 "" H 12050 6150 50  0001 C CNN
+	1    12050 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DAF9091
-P 11800 5400
+P 11600 6500
 AR Path="/5BD32060/5DAF9091" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF13/5DAF9091" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5DAF9091" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5CAAC367/5DAF9091" Ref="#PWR0664"  Part="1" 
-F 0 "#PWR0664" H 11800 5150 50  0001 C CNN
-F 1 "GND" H 11805 5227 50  0000 C CNN
-F 2 "" H 11800 5400 50  0001 C CNN
-F 3 "" H 11800 5400 50  0001 C CNN
-	1    11800 5400
+F 0 "#PWR0664" H 11600 6250 50  0001 C CNN
+F 1 "GND" H 11605 6327 50  0000 C CNN
+F 2 "" H 11600 6500 50  0001 C CNN
+F 3 "" H 11600 6500 50  0001 C CNN
+	1    11600 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11800 5350 11800 5400
+	11600 6450 11600 6500
 $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5DAF90BD
-P 11800 5050
+P 11600 6150
 AR Path="/5BCEDA59/5DAF90BD" Ref="C?"  Part="1" 
 AR Path="/5C907554/5DAF90BD" Ref="C?"  Part="1" 
 AR Path="/5C907554/5CAAC367/5DAF90BD" Ref="C376"  Part="1" 
-F 0 "C376" V 11904 5160 50  0000 L CNN
-F 1 "CC0201_100NF_6.3V_10%_X5R" H 11800 4790 60  0001 L CNN
-F 2 "CAPC0603X33N" H 11800 3980 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 11800 4610 60  0001 L CNN
-F 4 "100nF" V 11995 5160 50  0000 L CNN "~"
-F 5 "CC0201_100NF_6.3V_10%_X5R" H 11800 4520 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 11800 4430 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 11800 4340 60  0001 L CNN "Library Path"
-F 8 "=Value" H 11800 4250 60  0001 L CNN "Comment"
-F 9 "Standard" H 11800 4160 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 11800 4070 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 11800 3890 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 11800 3800 60  0001 L CNN "Footprint Path"
-F 13 "CAPC0603X33N" H 11800 3710 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 11800 3620 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 11800 3530 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 11800 3440 60  0001 L CNN "Status"
-F 17 "~~" H 11800 3350 60  0001 L CNN "Status Comment"
-F 18 "6.3V" H 11800 3260 60  0001 L CNN "Voltage"
-F 19 "X5R" H 11800 3170 60  0001 L CNN "TC"
-F 20 "±10%" H 11800 3080 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 11800 2990 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 11800 2900 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_100NF_6.3V_10%_X5R" H 11800 2810 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 11800 2720 60  0001 L CNN "Case"
-F 25 "Yes" H 11800 2630 60  0001 L CNN "Mounted"
-F 26 "No" H 11800 2540 60  0001 L CNN "Socket"
-F 27 "Yes" H 11800 2450 60  0001 L CNN "SMD"
-F 28 "~~" H 11800 2360 60  0001 L CNN "PressFit"
-F 29 "No" H 11800 2270 60  0001 L CNN "Sense"
-F 30 "~~" H 11800 2180 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 11800 2090 60  0001 L CNN "ComponentHeight"
-F 32 "AVX" H 11800 2000 60  0001 L CNN "Manufacturer1 Example"
-F 33 "02016D104KAT2A" H 11800 1910 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 11800 1820 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 11800 1730 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 11800 1640 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 11800 1550 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 11800 1460 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 11800 1370 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11800 1280 60  0001 L CNN "License"
-F 41 "-standalone" V 12100 5200 50  0001 C CNN "config"
-	1    11800 5050
+F 0 "C376" V 11704 6260 50  0000 L CNN
+F 1 "CC0201_100NF_6.3V_10%_X5R" H 11600 5890 60  0001 L CNN
+F 2 "CAPC0603X33N" H 11600 5080 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 11600 5710 60  0001 L CNN
+F 4 "100nF" V 11795 6260 50  0000 L CNN "~"
+F 5 "CC0201_100NF_6.3V_10%_X5R" H 11600 5620 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 11600 5530 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 11600 5440 60  0001 L CNN "Library Path"
+F 8 "=Value" H 11600 5350 60  0001 L CNN "Comment"
+F 9 "Standard" H 11600 5260 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 11600 5170 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 11600 4990 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 11600 4900 60  0001 L CNN "Footprint Path"
+F 13 "CAPC0603X33N" H 11600 4810 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 11600 4720 60  0001 L CNN "PackageDescription"
+F 15 "100nF" H 11600 4630 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 11600 4540 60  0001 L CNN "Status"
+F 17 "~~" H 11600 4450 60  0001 L CNN "Status Comment"
+F 18 "6.3V" H 11600 4360 60  0001 L CNN "Voltage"
+F 19 "X5R" H 11600 4270 60  0001 L CNN "TC"
+F 20 "±10%" H 11600 4180 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 11600 4090 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 11600 4000 60  0001 L CNN "Manufacturer"
+F 23 "CC0201_100NF_6.3V_10%_X5R" H 11600 3910 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0201" H 11600 3820 60  0001 L CNN "Case"
+F 25 "Yes" H 11600 3730 60  0001 L CNN "Mounted"
+F 26 "No" H 11600 3640 60  0001 L CNN "Socket"
+F 27 "Yes" H 11600 3550 60  0001 L CNN "SMD"
+F 28 "~~" H 11600 3460 60  0001 L CNN "PressFit"
+F 29 "No" H 11600 3370 60  0001 L CNN "Sense"
+F 30 "~~" H 11600 3280 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 11600 3190 60  0001 L CNN "ComponentHeight"
+F 32 "AVX" H 11600 3100 60  0001 L CNN "Manufacturer1 Example"
+F 33 "02016D104KAT2A" H 11600 3010 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.33mm" H 11600 2920 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 11600 2830 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 11600 2740 60  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 11600 2650 60  0001 L CNN "CreateDate"
+F 38 "12/03/07 00:00:00" H 11600 2560 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 11600 2470 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11600 2380 60  0001 L CNN "License"
+F 41 "-standalone" V 11900 6300 50  0001 C CNN "config"
+	1    11600 6150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	11800 5050 11700 5050
+	11600 6150 11500 6150
 Wire Wire Line
-	11700 4950 11700 5050
-Connection ~ 11700 5050
-Text HLabel 12100 4800 2    60   Input ~ 12
+	11500 6050 11500 6150
+Connection ~ 11500 6150
+Text HLabel 11900 5900 2    60   Input ~ 12
 Rx18_P
-Text HLabel 12100 4700 2    60   Input ~ 12
+Text HLabel 11900 5800 2    60   Input ~ 12
 Rx18_N
 Wire Wire Line
-	11700 4700 12100 4700
+	11500 5800 11900 5800
 Wire Wire Line
-	11700 4800 12100 4800
-Text Label 12050 4800 2    60   ~ 12
+	11500 5900 11900 5900
+Text Label 11850 5900 2    60   ~ 12
 Rx18_P
-Text Label 12050 4700 2    60   ~ 12
+Text Label 11850 5800 2    60   ~ 12
 Rx18_N
 $Comp
 L power:GND #PWR?
 U 1 1 5E2584E4
-P 12250 5400
+P 12050 6500
 AR Path="/5BD32060/5E2584E4" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF13/5E2584E4" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5E2584E4" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5CAAC367/5E2584E4" Ref="#PWR0665"  Part="1" 
-F 0 "#PWR0665" H 12250 5150 50  0001 C CNN
-F 1 "GND" H 12255 5227 50  0000 C CNN
-F 2 "" H 12250 5400 50  0001 C CNN
-F 3 "" H 12250 5400 50  0001 C CNN
-	1    12250 5400
+F 0 "#PWR0665" H 12050 6250 50  0001 C CNN
+F 1 "GND" H 12055 6327 50  0000 C CNN
+F 2 "" H 12050 6500 50  0001 C CNN
+F 3 "" H 12050 6500 50  0001 C CNN
+	1    12050 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12250 5350 12250 5400
+	12050 6450 12050 6500
 $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5E258510
-P 12250 5050
+P 12050 6150
 AR Path="/5BCEDA59/5E258510" Ref="C?"  Part="1" 
 AR Path="/5C907554/5E258510" Ref="C?"  Part="1" 
 AR Path="/5C907554/5CAAC367/5E258510" Ref="C377"  Part="1" 
-F 0 "C377" V 12354 5160 50  0000 L CNN
-F 1 "CC0201_100NF_6.3V_10%_X5R" H 12250 4790 60  0001 L CNN
-F 2 "CAPC0603X33N" H 12250 3980 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 12250 4610 60  0001 L CNN
-F 4 "100nF" V 12445 5160 50  0000 L CNN "~"
-F 5 "CC0201_100NF_6.3V_10%_X5R" H 12250 4520 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 12250 4430 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 12250 4340 60  0001 L CNN "Library Path"
-F 8 "=Value" H 12250 4250 60  0001 L CNN "Comment"
-F 9 "Standard" H 12250 4160 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 12250 4070 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 12250 3890 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 12250 3800 60  0001 L CNN "Footprint Path"
-F 13 "CAPC0603X33N" H 12250 3710 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 12250 3620 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 12250 3530 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 12250 3440 60  0001 L CNN "Status"
-F 17 "~~" H 12250 3350 60  0001 L CNN "Status Comment"
-F 18 "6.3V" H 12250 3260 60  0001 L CNN "Voltage"
-F 19 "X5R" H 12250 3170 60  0001 L CNN "TC"
-F 20 "±10%" H 12250 3080 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 12250 2990 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 12250 2900 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_100NF_6.3V_10%_X5R" H 12250 2810 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 12250 2720 60  0001 L CNN "Case"
-F 25 "Yes" H 12250 2630 60  0001 L CNN "Mounted"
-F 26 "No" H 12250 2540 60  0001 L CNN "Socket"
-F 27 "Yes" H 12250 2450 60  0001 L CNN "SMD"
-F 28 "~~" H 12250 2360 60  0001 L CNN "PressFit"
-F 29 "No" H 12250 2270 60  0001 L CNN "Sense"
-F 30 "~~" H 12250 2180 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 12250 2090 60  0001 L CNN "ComponentHeight"
-F 32 "AVX" H 12250 2000 60  0001 L CNN "Manufacturer1 Example"
-F 33 "02016D104KAT2A" H 12250 1910 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 12250 1820 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 12250 1730 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 12250 1640 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 12250 1550 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 12250 1460 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 12250 1370 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12250 1280 60  0001 L CNN "License"
-F 41 "-standalone" V 12550 5200 50  0001 C CNN "config"
-	1    12250 5050
+F 0 "C377" V 12154 6260 50  0000 L CNN
+F 1 "CC0201_100NF_6.3V_10%_X5R" H 12050 5890 60  0001 L CNN
+F 2 "CAPC0603X33N" H 12050 5080 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 12050 5710 60  0001 L CNN
+F 4 "100nF" V 12245 6260 50  0000 L CNN "~"
+F 5 "CC0201_100NF_6.3V_10%_X5R" H 12050 5620 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 12050 5530 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 12050 5440 60  0001 L CNN "Library Path"
+F 8 "=Value" H 12050 5350 60  0001 L CNN "Comment"
+F 9 "Standard" H 12050 5260 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 12050 5170 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 12050 4990 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 12050 4900 60  0001 L CNN "Footprint Path"
+F 13 "CAPC0603X33N" H 12050 4810 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 12050 4720 60  0001 L CNN "PackageDescription"
+F 15 "100nF" H 12050 4630 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 12050 4540 60  0001 L CNN "Status"
+F 17 "~~" H 12050 4450 60  0001 L CNN "Status Comment"
+F 18 "6.3V" H 12050 4360 60  0001 L CNN "Voltage"
+F 19 "X5R" H 12050 4270 60  0001 L CNN "TC"
+F 20 "±10%" H 12050 4180 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 12050 4090 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 12050 4000 60  0001 L CNN "Manufacturer"
+F 23 "CC0201_100NF_6.3V_10%_X5R" H 12050 3910 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0201" H 12050 3820 60  0001 L CNN "Case"
+F 25 "Yes" H 12050 3730 60  0001 L CNN "Mounted"
+F 26 "No" H 12050 3640 60  0001 L CNN "Socket"
+F 27 "Yes" H 12050 3550 60  0001 L CNN "SMD"
+F 28 "~~" H 12050 3460 60  0001 L CNN "PressFit"
+F 29 "No" H 12050 3370 60  0001 L CNN "Sense"
+F 30 "~~" H 12050 3280 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 12050 3190 60  0001 L CNN "ComponentHeight"
+F 32 "AVX" H 12050 3100 60  0001 L CNN "Manufacturer1 Example"
+F 33 "02016D104KAT2A" H 12050 3010 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.33mm" H 12050 2920 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 12050 2830 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 12050 2740 60  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 12050 2650 60  0001 L CNN "CreateDate"
+F 38 "12/03/07 00:00:00" H 12050 2560 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 12050 2470 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12050 2380 60  0001 L CNN "License"
+F 41 "-standalone" V 12350 6300 50  0001 C CNN "config"
+	1    12050 6150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12250 5050 11800 5050
+	12050 6150 11600 6150
+Connection ~ 12050 6150
+Connection ~ 11600 6150
+$Comp
+L power:GND #PWR?
+U 1 1 5E35480A
+P 10600 5800
+AR Path="/5BD32060/5E35480A" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/5E35480A" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/5E35480A" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/5E35480A" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/5E35480A" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8AFE1/5E35480A" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5C417BCB/5E35480A" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5E35480A" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5CC8CB69/5E35480A" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5CAAC367/5E35480A" Ref="#PWR0666"  Part="1" 
+F 0 "#PWR0666" H 10600 5550 50  0001 C CNN
+F 1 "GND" H 10600 5650 50  0000 C CNN
+F 2 "" H 10600 5800 50  0001 C CNN
+F 3 "" H 10600 5800 50  0001 C CNN
+	1    10600 5800
+	0    1    1    0   
+$EndComp
+Text Label 9400 5900 0    50   ~ 10
+Rx18_SE
+Wire Wire Line
+	9250 5900 10600 5900
 Wire Bus Line
 	14050 7300 14050 7600
 Wire Bus Line
@@ -2519,6 +2534,4 @@ Wire Bus Line
 	14600 5000 14600 5750
 Wire Bus Line
 	13600 4850 13600 5750
-Connection ~ 12250 5050
-Connection ~ 11800 5050
 $EndSCHEMATC
