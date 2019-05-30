@@ -552,7 +552,7 @@ Text HLabel 1400 4450 0    50   Input ~ 10
 WR_DAC_DIN
 Text HLabel 1400 5250 0    50   Input ~ 10
 WR_DAC1_SYNC
-Text HLabel 9750 4900 2    50   Input ~ 10
+Text HLabel 9750 4900 2    50   Output ~ 10
 CLK20_VCXO
 Wire Wire Line
 	1500 2800 1500 2900
@@ -862,13 +862,13 @@ Text Label 8950 1550 0    50   ~ 10
 FPGA_REF_CLK1_P
 Text Label 8950 1650 0    50   ~ 10
 FPGA_REF_CLK1_N
-Text HLabel 9700 1250 2    50   Input ~ 10
+Text HLabel 9700 1250 2    50   Output ~ 10
 FPGA_REF_CLK0_P
-Text HLabel 9700 1350 2    50   Input ~ 10
+Text HLabel 9700 1350 2    50   Output ~ 10
 FPGA_REF_CLK0_N
-Text HLabel 9700 1550 2    50   Input ~ 10
+Text HLabel 9700 1550 2    50   Output ~ 10
 FPGA_REF_CLK1_P
-Text HLabel 9700 1650 2    50   Input ~ 10
+Text HLabel 9700 1650 2    50   Output ~ 10
 FPGA_REF_CLK1_N
 Wire Wire Line
 	5800 1250 7450 1250
@@ -1059,7 +1059,7 @@ Wire Wire Line
 	6500 1450 6850 1450
 Wire Wire Line
 	9700 2450 8850 2450
-Text HLabel 9700 2450 2    50   Input ~ 10
+Text HLabel 9700 2450 2    50   Output ~ 10
 CLK_25MHZ
 Text Label 9100 2450 0    50   ~ 10
 CLK_25MHZ

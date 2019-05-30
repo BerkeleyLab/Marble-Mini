@@ -119,10 +119,6 @@ HW_ID2
 Text Label 12400 9200 0    50   ~ 10
 HW_ID3
 Wire Wire Line
-	12700 7900 12850 7900
-Wire Wire Line
-	12700 8000 12850 8000
-Wire Wire Line
 	12700 8400 12850 8400
 Wire Wire Line
 	12700 8300 12850 8300
@@ -307,20 +303,12 @@ Wire Bus Line
 	11600 7200 11300 7200
 Wire Wire Line
 	12000 5200 12850 5200
-Text HLabel 11400 8000 0    50   Input ~ 10
-FMC2_PRSNT_M2C_L
 Text HLabel 11400 8400 0    50   Input ~ 10
 FMC2_PG_C2M
 Text HLabel 11400 8300 0    50   Input ~ 10
 FMC1_PG_C2M
 Text Label 11600 8400 0    50   ~ 10
 FMC2_PG_C2M
-Text Label 11450 8000 0    50   ~ 10
-FMC2_PRSNT_M2C_L
-Text Label 11450 7900 0    50   ~ 10
-FMC21_PRSNT_M2C_L
-Text HLabel 11400 7900 0    50   Input ~ 10
-FMC1_PRSNT_M2C_L
 Text HLabel 12000 5800 0    50   Input ~ 10
 LPC_ISPn
 Wire Wire Line
@@ -731,8 +719,6 @@ $EndComp
 Wire Wire Line
 	11750 1000 11750 1050
 Wire Wire Line
-	11400 7900 12400 7900
-Wire Wire Line
 	4300 2050 4350 2050
 Wire Wire Line
 	4300 1950 4350 1950
@@ -740,8 +726,6 @@ Wire Wire Line
 	2500 2050 4000 2050
 Wire Wire Line
 	2500 1950 4000 1950
-Wire Wire Line
-	11400 8000 12400 8000
 Wire Wire Line
 	11400 8300 12400 8300
 Wire Wire Line
@@ -1495,104 +1479,6 @@ F 39 "03/03/15 00:00:00" H 12400 3870 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 12400 3780 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12400 3690 60  0001 L CNN "License"
 	1    12400 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistors_SMD:R0402_100R_1%_0.1W_100PPM R151
-U 1 1 5CC6F891
-P 12400 7900
-F 0 "R151" H 12350 7950 50  0000 C CNN
-F 1 "R0402_100R_1%_0.1W_100PPM" H 12400 7690 60  0001 L CNN
-F 2 "RESC1005X40N" H 12400 6880 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 7510 60  0001 L CNN
-F 4 "100" H 12700 7950 50  0000 C CNN "~"
-F 5 "R0402_100R_1%_0.1W_100PPM" H 12400 7420 60  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 12400 7330 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 12400 7240 60  0001 L CNN "Library Path"
-F 8 "=Value" H 12400 7150 60  0001 L CNN "Comment"
-F 9 "Standard" H 12400 7060 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 12400 6970 60  0001 L CNN "Component Type"
-F 11 "~~" H 12400 6790 60  0001 L CNN "PackageDescription"
-F 12 "2" H 12400 6700 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 12400 6610 60  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 12400 6520 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 12400 6430 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 12400 6340 60  0001 L CNN "Status"
-F 17 "0.1W" H 12400 6250 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 12400 6160 60  0001 L CNN "TC"
-F 19 "50V" H 12400 6070 60  0001 L CNN "Voltage"
-F 20 "±1%" H 12400 5980 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 12400 5890 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 12400 5800 60  0001 L CNN "Manufacturer"
-F 23 "R0402_100R_1%_0.1W_100PPM_50V" H 12400 5710 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 12400 5620 60  0001 L CNN "Case"
-F 25 "No" H 12400 5530 60  0001 L CNN "PressFit"
-F 26 "Yes" H 12400 5440 60  0001 L CNN "Mounted"
-F 27 "~~" H 12400 5350 60  0001 L CNN "Sense Comment"
-F 28 "No" H 12400 5260 60  0001 L CNN "Sense"
-F 29 "~~" H 12400 5170 60  0001 L CNN "Status Comment"
-F 30 "No" H 12400 5080 60  0001 L CNN "Socket"
-F 31 "Yes" H 12400 4990 60  0001 L CNN "SMD"
-F 32 "~~" H 12400 4900 60  0001 L CNN "ComponentHeight"
-F 33 "PANASONIC" H 12400 4810 60  0001 L CNN "Manufacturer1 Example"
-F 34 "ERJ2RKF1000X" H 12400 4720 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 12400 4630 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 4540 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 12400 4450 60  0001 L CNN "Author"
-F 38 "12/12/13 00:00:00" H 12400 4360 60  0001 L CNN "CreateDate"
-F 39 "03/03/15 00:00:00" H 12400 4270 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 12400 4180 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12400 4090 60  0001 L CNN "License"
-	1    12400 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistors_SMD:R0402_100R_1%_0.1W_100PPM R152
-U 1 1 5CC8E445
-P 12400 8000
-F 0 "R152" H 12350 8050 50  0000 C CNN
-F 1 "R0402_100R_1%_0.1W_100PPM" H 12400 7790 60  0001 L CNN
-F 2 "RESC1005X40N" H 12400 6980 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 7610 60  0001 L CNN
-F 4 "100" H 12700 8050 50  0000 C CNN "~"
-F 5 "R0402_100R_1%_0.1W_100PPM" H 12400 7520 60  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 12400 7430 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 12400 7340 60  0001 L CNN "Library Path"
-F 8 "=Value" H 12400 7250 60  0001 L CNN "Comment"
-F 9 "Standard" H 12400 7160 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 12400 7070 60  0001 L CNN "Component Type"
-F 11 "~~" H 12400 6890 60  0001 L CNN "PackageDescription"
-F 12 "2" H 12400 6800 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 12400 6710 60  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 12400 6620 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 12400 6530 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 12400 6440 60  0001 L CNN "Status"
-F 17 "0.1W" H 12400 6350 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 12400 6260 60  0001 L CNN "TC"
-F 19 "50V" H 12400 6170 60  0001 L CNN "Voltage"
-F 20 "±1%" H 12400 6080 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 12400 5990 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 12400 5900 60  0001 L CNN "Manufacturer"
-F 23 "R0402_100R_1%_0.1W_100PPM_50V" H 12400 5810 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 12400 5720 60  0001 L CNN "Case"
-F 25 "No" H 12400 5630 60  0001 L CNN "PressFit"
-F 26 "Yes" H 12400 5540 60  0001 L CNN "Mounted"
-F 27 "~~" H 12400 5450 60  0001 L CNN "Sense Comment"
-F 28 "No" H 12400 5360 60  0001 L CNN "Sense"
-F 29 "~~" H 12400 5270 60  0001 L CNN "Status Comment"
-F 30 "No" H 12400 5180 60  0001 L CNN "Socket"
-F 31 "Yes" H 12400 5090 60  0001 L CNN "SMD"
-F 32 "~~" H 12400 5000 60  0001 L CNN "ComponentHeight"
-F 33 "PANASONIC" H 12400 4910 60  0001 L CNN "Manufacturer1 Example"
-F 34 "ERJ2RKF1000X" H 12400 4820 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 12400 4730 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 4640 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 12400 4550 60  0001 L CNN "Author"
-F 38 "12/12/13 00:00:00" H 12400 4460 60  0001 L CNN "CreateDate"
-F 39 "03/03/15 00:00:00" H 12400 4370 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 12400 4280 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12400 4190 60  0001 L CNN "License"
-	1    12400 8000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3710,15 +3596,15 @@ NoConn ~ 12850 4800
 NoConn ~ 12850 4900
 NoConn ~ 4350 4050
 Text Label 6450 9950 2    50   ~ 10
-FMC1_TCK
+FMC_TCK
 Text Label 6450 10050 2    50   ~ 10
-FMC1_TDI
+FMC_TDI
 Text Label 6450 10150 2    50   ~ 10
-FMC1_TDO
+FMC_TDO
 Text Label 6450 10250 2    50   ~ 10
-FMC1_TMS
+FMC_TMS
 Text Label 6450 10350 2    50   ~ 10
-FMC1_TRST
+FMC_TRST
 Wire Wire Line
 	6450 9950 6000 9950
 Wire Wire Line
@@ -3729,56 +3615,26 @@ Wire Wire Line
 	6450 10250 6000 10250
 Wire Wire Line
 	6450 10350 6000 10350
-Text Label 6450 10550 2    50   ~ 10
-FMC2_TCK
-Text Label 6450 10650 2    50   ~ 10
-FMC2_TDI
-Text Label 6450 10750 2    50   ~ 10
-FMC2_TDO
-Text Label 6450 10850 2    50   ~ 10
-FMC2_TMS
-Text Label 6450 10950 2    50   ~ 10
-FMC2_TRST
-Wire Wire Line
-	6450 10550 6000 10550
-Wire Wire Line
-	6450 10650 6000 10650
-Wire Wire Line
-	6450 10750 6000 10750
-Wire Wire Line
-	6450 10850 6000 10850
-Wire Wire Line
-	6450 10950 6000 10950
-Text HLabel 6000 10550 0    50   Output ~ 10
-FMC2_TCK
-Text HLabel 6000 10650 0    50   Output ~ 10
-FMC2_TDI
-Text HLabel 6000 10750 0    50   Input ~ 10
-FMC2_TDO
-Text HLabel 6000 10850 0    50   Output ~ 10
-FMC2_TMS
-Text HLabel 6000 10950 0    50   Output ~ 10
-FMC2_TRST
 Text HLabel 6000 9950 0    50   Output ~ 10
-FMC1_TCK
+FMC_TCK
 Text HLabel 6000 10050 0    50   Output ~ 10
-FMC1_TDI
+FMC_TDI
 Text HLabel 6000 10150 0    50   Input ~ 10
-FMC1_TDO
+FMC_TDO
 Text HLabel 6000 10250 0    50   Output ~ 10
-FMC1_TMS
+FMC_TMS
 Text HLabel 6000 10350 0    50   Output ~ 10
-FMC1_TRST
+FMC_TRST
 Text Label 12400 3050 0    50   ~ 10
-FMC1_TCK
+FMC_TCK
 Text Label 12400 2650 0    50   ~ 10
-FMC1_TDI
+FMC_TDI
 Text Label 12400 2450 0    50   ~ 10
-FMC1_TDO
+FMC_TDO
 Text Label 12400 2550 0    50   ~ 10
-FMC1_TMS
+FMC_TMS
 Text Label 12400 1450 0    50   ~ 10
-FMC1_TRST
+FMC_TRST
 Wire Wire Line
 	12400 3050 12850 3050
 Wire Wire Line
@@ -3789,26 +3645,6 @@ Wire Wire Line
 	12400 2550 12850 2550
 Wire Wire Line
 	12400 2650 12850 2650
-Text Label 3900 7050 0    50   ~ 10
-FMC2_TCK
-Text Label 3900 6350 0    50   ~ 10
-FMC2_TDI
-Text Label 3900 6850 0    50   ~ 10
-FMC2_TDO
-Text Label 3900 7150 0    50   ~ 10
-FMC2_TMS
-Text Label 3900 6650 0    50   ~ 10
-FMC2_TRST
-Wire Wire Line
-	3900 6650 4350 6650
-Wire Wire Line
-	3900 6350 4350 6350
-Wire Wire Line
-	3900 6850 4350 6850
-Wire Wire Line
-	3900 7050 4350 7050
-Wire Wire Line
-	3900 7150 4350 7150
 $Comp
 L AMC_FMC_Carrier-PcbDoc-rescue:LPC1776FET180,551-lpc1776fet180,551-AMC_FMC_Carrier-PcbDoc-rescue U?
 U 3 1 5BE04771
@@ -3979,6 +3815,120 @@ F 3 "KSS241GLFS" H 10050 5350 50  0001 C CNN
 	1    10050 5150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	12700 8000 12850 8000
+Wire Wire Line
+	12700 7900 12850 7900
+$Comp
+L Resistors_SMD:R0402_100R_1%_0.1W_100PPM R152
+U 1 1 5CC8E445
+P 12400 8000
+F 0 "R152" H 12350 8050 50  0000 C CNN
+F 1 "R0402_100R_1%_0.1W_100PPM" H 12400 7790 60  0001 L CNN
+F 2 "RESC1005X40N" H 12400 6980 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 7610 60  0001 L CNN
+F 4 "100" H 12700 8050 50  0000 C CNN "~"
+F 5 "R0402_100R_1%_0.1W_100PPM" H 12400 7520 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 12400 7430 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 12400 7340 60  0001 L CNN "Library Path"
+F 8 "=Value" H 12400 7250 60  0001 L CNN "Comment"
+F 9 "Standard" H 12400 7160 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 12400 7070 60  0001 L CNN "Component Type"
+F 11 "~~" H 12400 6890 60  0001 L CNN "PackageDescription"
+F 12 "2" H 12400 6800 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 12400 6710 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 12400 6620 60  0001 L CNN "Footprint Ref"
+F 15 "100" H 12400 6530 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 12400 6440 60  0001 L CNN "Status"
+F 17 "0.1W" H 12400 6350 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 12400 6260 60  0001 L CNN "TC"
+F 19 "50V" H 12400 6170 60  0001 L CNN "Voltage"
+F 20 "±1%" H 12400 6080 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 12400 5990 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 12400 5900 60  0001 L CNN "Manufacturer"
+F 23 "R0402_100R_1%_0.1W_100PPM_50V" H 12400 5810 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 12400 5720 60  0001 L CNN "Case"
+F 25 "No" H 12400 5630 60  0001 L CNN "PressFit"
+F 26 "Yes" H 12400 5540 60  0001 L CNN "Mounted"
+F 27 "~~" H 12400 5450 60  0001 L CNN "Sense Comment"
+F 28 "No" H 12400 5360 60  0001 L CNN "Sense"
+F 29 "~~" H 12400 5270 60  0001 L CNN "Status Comment"
+F 30 "No" H 12400 5180 60  0001 L CNN "Socket"
+F 31 "Yes" H 12400 5090 60  0001 L CNN "SMD"
+F 32 "~~" H 12400 5000 60  0001 L CNN "ComponentHeight"
+F 33 "PANASONIC" H 12400 4910 60  0001 L CNN "Manufacturer1 Example"
+F 34 "ERJ2RKF1000X" H 12400 4820 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 12400 4730 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 4640 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 12400 4550 60  0001 L CNN "Author"
+F 38 "12/12/13 00:00:00" H 12400 4460 60  0001 L CNN "CreateDate"
+F 39 "03/03/15 00:00:00" H 12400 4370 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 12400 4280 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12400 4190 60  0001 L CNN "License"
+	1    12400 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0402_100R_1%_0.1W_100PPM R151
+U 1 1 5CC6F891
+P 12400 7900
+F 0 "R151" H 12350 7950 50  0000 C CNN
+F 1 "R0402_100R_1%_0.1W_100PPM" H 12400 7690 60  0001 L CNN
+F 2 "RESC1005X40N" H 12400 6880 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 7510 60  0001 L CNN
+F 4 "100" H 12700 7950 50  0000 C CNN "~"
+F 5 "R0402_100R_1%_0.1W_100PPM" H 12400 7420 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 12400 7330 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 12400 7240 60  0001 L CNN "Library Path"
+F 8 "=Value" H 12400 7150 60  0001 L CNN "Comment"
+F 9 "Standard" H 12400 7060 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 12400 6970 60  0001 L CNN "Component Type"
+F 11 "~~" H 12400 6790 60  0001 L CNN "PackageDescription"
+F 12 "2" H 12400 6700 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 12400 6610 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 12400 6520 60  0001 L CNN "Footprint Ref"
+F 15 "100" H 12400 6430 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 12400 6340 60  0001 L CNN "Status"
+F 17 "0.1W" H 12400 6250 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 12400 6160 60  0001 L CNN "TC"
+F 19 "50V" H 12400 6070 60  0001 L CNN "Voltage"
+F 20 "±1%" H 12400 5980 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 12400 5890 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 12400 5800 60  0001 L CNN "Manufacturer"
+F 23 "R0402_100R_1%_0.1W_100PPM_50V" H 12400 5710 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 12400 5620 60  0001 L CNN "Case"
+F 25 "No" H 12400 5530 60  0001 L CNN "PressFit"
+F 26 "Yes" H 12400 5440 60  0001 L CNN "Mounted"
+F 27 "~~" H 12400 5350 60  0001 L CNN "Sense Comment"
+F 28 "No" H 12400 5260 60  0001 L CNN "Sense"
+F 29 "~~" H 12400 5170 60  0001 L CNN "Status Comment"
+F 30 "No" H 12400 5080 60  0001 L CNN "Socket"
+F 31 "Yes" H 12400 4990 60  0001 L CNN "SMD"
+F 32 "~~" H 12400 4900 60  0001 L CNN "ComponentHeight"
+F 33 "PANASONIC" H 12400 4810 60  0001 L CNN "Manufacturer1 Example"
+F 34 "ERJ2RKF1000X" H 12400 4720 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 12400 4630 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 4540 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 12400 4450 60  0001 L CNN "Author"
+F 38 "12/12/13 00:00:00" H 12400 4360 60  0001 L CNN "CreateDate"
+F 39 "03/03/15 00:00:00" H 12400 4270 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 12400 4180 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12400 4090 60  0001 L CNN "License"
+	1    12400 7900
+	1    0    0    -1  
+$EndComp
+Text HLabel 11350 7900 0    50   Output ~ 10
+FMC1_PRSNT_Override
+Text Label 12250 7900 2    50   ~ 10
+FMC1_PRSNT_Override
+Text Label 12250 8000 2    50   ~ 10
+FMC2_PRSNT_Override
+Text HLabel 11350 8000 0    50   Output ~ 10
+FMC2_PRSNT_Override
+Wire Wire Line
+	11350 7900 12400 7900
+Wire Wire Line
+	11350 8000 12400 8000
 Wire Bus Line
 	11600 7200 11600 7400
 Wire Bus Line
