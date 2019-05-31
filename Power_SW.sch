@@ -388,14 +388,14 @@ $EndComp
 $Comp
 L power:+1V0 #PWR?
 U 1 1 5DBB7E73
-P 14450 7650
+P 14450 7450
 AR Path="/5C16BF8E/5DBB7E73" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5DB9B7E6/5DBB7E73" Ref="#PWR0542"  Part="1" 
-F 0 "#PWR0542" H 14450 7500 50  0001 C CNN
-F 1 "+1V0" H 14465 7823 50  0000 C CNN
-F 2 "" H 14450 7650 50  0001 C CNN
-F 3 "" H 14450 7650 50  0001 C CNN
-	1    14450 7650
+F 0 "#PWR0542" H 14450 7300 50  0001 C CNN
+F 1 "+1V0" H 14465 7623 50  0000 C CNN
+F 2 "" H 14450 7450 50  0001 C CNN
+F 3 "" H 14450 7450 50  0001 C CNN
+	1    14450 7450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1328,8 +1328,6 @@ Wire Wire Line
 	14650 7750 14850 7750
 Text Notes 8050 9650 0    89   ~ 18
 1V2
-Wire Wire Line
-	14450 7750 14450 7650
 Wire Wire Line
 	14650 8000 14850 8000
 Connection ~ 14450 7750
@@ -2676,7 +2674,7 @@ $EndComp
 Connection ~ 5450 4500
 Connection ~ 13550 7750
 Wire Wire Line
-	13550 7750 13900 7750
+	13550 7750 13750 7750
 Connection ~ 13550 5950
 Wire Wire Line
 	13550 5950 13900 5950
@@ -6914,4 +6912,62 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    4450 2600
 	1    0    0    1   
 $EndComp
+$Comp
+L Inductors_SMD:IND1806_MURATA_BLM41PG600SN1L L14
+U 1 1 5CF9305C
+P 13900 7500
+F 0 "L14" H 14050 7600 50  0000 C CNN
+F 1 "IND1806_MURATA_BLM41PG600SN1L" H 13900 7310 60  0001 L CNN
+F 2 "INDC4516X180N" H 13900 6500 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND1806_MURATA_BLM41P.pdf" H 13900 7130 60  0001 L CNN
+F 4 "60R@100MHz" H 14050 7450 50  0000 C CNN "~"
+F 5 "IND1806_MURATA_BLM41PG600SN1L" H 13900 7040 60  0001 L CNN "Part Number"
+F 6 "Inductor" H 13900 6950 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Inductors & Transformers.SchLib" H 13900 6860 60  0001 L CNN "Library Path"
+F 8 "=Value" H 13900 6770 60  0001 L CNN "Comment"
+F 9 "Standard" H 13900 6680 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 13900 6590 60  0001 L CNN "Component Type"
+F 11 "~~" H 13900 6410 60  0001 L CNN "PackageDescription"
+F 12 "2.0000000000000000e+00" H 13900 6320 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Inductors SMD.PcbLib" H 13900 6230 60  0001 L CNN "Footprint Path"
+F 14 "INDC4516X180N" H 13900 6140 60  0001 L CNN "Footprint Ref"
+F 15 "60R@100MHz" H 13900 6050 60  0001 L CNN "Val"
+F 16 "None" H 13900 5960 60  0001 L CNN "Status"
+F 17 "6A" H 13900 5870 60  0001 L CNN "Power"
+F 18 "0.01R" H 13900 5780 60  0001 L CNN "Resistance"
+F 19 "~~" H 13900 5690 60  0001 L CNN "Tolerance"
+F 20 "SMD EMI Suppression Chip Ferrite Bead (BLM41P Series)" H 13900 5600 60  0001 L CNN "Part Description"
+F 21 "MURATA" H 13900 5510 60  0001 L CNN "Manufacturer"
+F 22 "BLM41PG600SN1L" H 13900 5420 60  0001 L CNN "Manufacturer Part Number"
+F 23 "1806" H 13900 5330 60  0001 L CNN "Case"
+F 24 "Yes" H 13900 5240 60  0001 L CNN "Mounted"
+F 25 "No" H 13900 5150 60  0001 L CNN "Socket"
+F 26 "Yes" H 13900 5060 60  0001 L CNN "SMD"
+F 27 "~~" H 13900 4970 60  0001 L CNN "Sense Comment"
+F 28 "No" H 13900 4880 60  0001 L CNN "Sense"
+F 29 "~~" H 13900 4790 60  0001 L CNN "Status Comment"
+F 30 "1.8mm" H 13900 4700 60  0001 L CNN "ComponentHeight"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND1806_MURATA_BLM41P.pdf" H 13900 4610 60  0001 L CNN "HelpURL"
+F 32 "CERN DEM JLC" H 13900 4520 60  0001 L CNN "Author"
+F 33 "12/02/09 00:00:00" H 13900 4430 60  0001 L CNN "CreateDate"
+F 34 "12/02/09 00:00:00" H 13900 4340 60  0001 L CNN "LatestRevisionDate"
+F 35 "Inductors SMD" H 13900 4250 60  0001 L CNN "Library Name"
+F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13900 4160 60  0001 L CNN "License"
+	1    13900 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 7450 14450 7500
+Wire Wire Line
+	14200 7500 14450 7500
+Connection ~ 14450 7500
+Wire Wire Line
+	14450 7500 14450 7750
+Wire Wire Line
+	13900 7500 13750 7500
+Wire Wire Line
+	13750 7500 13750 7750
+Connection ~ 13750 7750
+Wire Wire Line
+	13750 7750 13900 7750
 $EndSCHEMATC
