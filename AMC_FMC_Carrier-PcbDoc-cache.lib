@@ -6133,6 +6133,60 @@ X 3 3 -200 -300 200 R 60 0 0 1 B
 ENDDRAW
 ENDDEF
 #
+# Miscellaneous_HIROSE_U.FL-R-SMT-1(10)
+#
+DEF Miscellaneous_HIROSE_U.FL-R-SMT-1(10) J 0 60 Y Y 1 L N
+F0 "J" -270 0 50 H V R CNN
+F1 "Miscellaneous_HIROSE_U.FL-R-SMT-1(10)" 0 -290 60 H I L CNN
+F2 "Miscellaneous SMD:HIROSE_U.FL-R-SMT-1(10)" 0 -380 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\HIROSE_U.FL-R-SMT-1(10).pdf" 0 -470 60 H I L CNN
+F4 "=Family" -120 -150 50 H V C CNN "~"
+F5 "HIROSE_U.FL-R-SMT-1(10)" 0 -560 60 H I L CNN "Part Number"
+F6 "Coax_1Male_1Shield" 0 -650 60 H I L CNN "Library Ref"
+F7 "SchLib\\Connectors.SchLib" 0 -740 60 H I L CNN "Library Path"
+F8 "=Family" 0 -830 60 H I L CNN "Comment"
+F9 "Standard" 0 -920 60 H I L CNN "Component Kind"
+F10 "Standard" 0 -1010 60 H I L CNN "Component Type"
+F11 "~~" 0 -1100 60 H I L CNN "Device"
+F12 "HIROSE_U.FL-R-SMT-1(10)" 0 -1190 60 H I L CNN "Footprint"
+F13 "~~" 0 -1280 60 H I L CNN "PackageDescription"
+F14 "2" 0 -1370 60 H I L CNN "Pin Count"
+F15 "~~" 0 -1460 60 H I L CNN "Case"
+F16 "PcbLib\\Miscellaneous SMD.PcbLib" 0 -1550 60 H I L CNN "Footprint Path"
+F17 "HIROSE_U.FL-R-SMT-1(10)" 0 -1640 60 H I L CNN "Footprint Ref"
+F18 "U.FL" 0 -1730 60 H I L CNN "Family"
+F19 "Yes" 0 -1820 60 H I L CNN "Mounted"
+F20 "No" 0 -1910 60 H I L CNN "Socket"
+F21 "No" 0 -2000 60 H I L CNN "PressFit"
+F22 "Yes" 0 -2090 60 H I L CNN "SMD"
+F23 "No" 0 -2180 60 H I L CNN "Sense"
+F24 "~~" 0 -2270 60 H I L CNN "Sense Comment"
+F25 "~~" 0 -2360 60 H I L CNN "Status Comment"
+F26 "None" 0 -2450 60 H I L CNN "Status"
+F27 "~~" 0 -2540 60 H I L CNN "SCEM"
+F28 "Up to 6GHz Ultra Small Surface Mount Male Coaxial Connectors U.FL Series" 0 -2630 60 H I L CNN "Part Description"
+F29 "HIROSE (HRS)" 0 -2720 60 H I L CNN "Manufacturer"
+F30 "U.FL-R-SMT-1(10)" 0 -2810 60 H I L CNN "Manufacturer Part Number"
+F31 "1.25mm" 0 -2900 60 H I L CNN "ComponentHeight"
+F32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\HIROSE_U.FL-R-SMT-1(10).pdf" 0 -2990 60 H I L CNN "HelpURL"
+F33 "~~" 0 -3080 60 H I L CNN "ComponentLink1URL"
+F34 "~~" 0 -3170 60 H I L CNN "ComponentLink1Description"
+F35 "~~" 0 -3260 60 H I L CNN "ComponentLink2URL"
+F36 "~~" 0 -3350 60 H I L CNN "ComponentLink2Description"
+F37 "CERN DEM JLC" 0 -3440 60 H I L CNN "Author"
+F38 "03/24/10 00:00:00" 0 -3530 60 H I L CNN "CreateDate"
+F39 "03/24/10 00:00:00" 0 -3620 60 H I L CNN "LatestRevisionDate"
+F40 "Miscellaneous SMD" 0 -3710 60 H I L CNN "Library Name"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3800 60 H I L CNN "License"
+DRAW
+A -250 0 102 787 -787 0 1 10 N -230 100 -230 -100
+P 2 0 1 20 -190 0 -240 0 N
+P 2 0 1 10 -120 -100 -162 -58 N
+X 1 1 0 0 200 L 0 0 0 1 B
+X 2 2 0 -100 120 L 0 0 0 1 B
+ENDDRAW
+ENDDEF
+#
 # Optocouplers_FOD817DSD
 #
 DEF Optocouplers_FOD817DSD IC 0 60 Y Y 1 L N

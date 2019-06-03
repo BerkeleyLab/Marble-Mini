@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 22 25
+Sheet 21 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -1903,45 +1903,45 @@ Wire Bus Line
 Wire Bus Line
 	14050 8350 14500 8350
 Text HLabel 14500 7600 2    50   Input ~ 10
-MII_RXD[0..3]
+RGMII_RXD[0..3]
 Text HLabel 14500 8350 2    50   Input ~ 10
-MII_TXD[0..3]
+RGMII_TXD[0..3]
 Text HLabel 14500 7750 2    50   Input ~ 10
-MII_TX_EN
+RGMII_TX_EN
 Text HLabel 14500 7850 2    50   Input ~ 10
-MII_TX_CLK
+RGMII_TX_CLK
 Text HLabel 14500 7000 2    50   Input ~ 10
-MII_RX_DV
+RGMII_RX_DV
 Text HLabel 14500 7100 2    50   Input ~ 10
-MII_RX_CLK
+RGMII_RX_CLK
 Text Label 14300 6850 2    50   ~ 10
 PHY_RSTn
 Text HLabel 14500 6850 2    50   Input ~ 10
 PHY_RSTn
-Text Label 13500 7950 0    50   ~ 10
-MII_TXD0
-Text Label 13500 8050 0    50   ~ 10
-MII_TXD1
-Text Label 13500 8150 0    50   ~ 10
-MII_TXD2
-Text Label 13500 8250 0    50   ~ 10
-MII_TXD3
+Text Label 13400 7950 0    50   ~ 10
+RGMII_TXD0
+Text Label 13400 8050 0    50   ~ 10
+RGMII_TXD1
+Text Label 13400 8150 0    50   ~ 10
+RGMII_TXD2
+Text Label 13400 8250 0    50   ~ 10
+RGMII_TXD3
 Text Label 13900 7750 0    50   ~ 10
-MII_TX_EN
+RGMII_TX_EN
 Text Label 13900 7850 0    50   ~ 10
-MII_TX_CLK
-Text Label 13500 7200 0    50   ~ 10
-MII_RXD0
-Text Label 13500 7300 0    50   ~ 10
-MII_RXD1
-Text Label 13500 7400 0    50   ~ 10
-MII_RXD2
-Text Label 13500 7500 0    50   ~ 10
-MII_RXD3
+RGMII_TX_CLK
+Text Label 13400 7200 0    50   ~ 10
+RGMII_RXD0
+Text Label 13400 7300 0    50   ~ 10
+RGMII_RXD1
+Text Label 13400 7400 0    50   ~ 10
+RGMII_RXD2
+Text Label 13400 7500 0    50   ~ 10
+RGMII_RXD3
 Text Label 13900 7000 0    50   ~ 10
-MII_RX_DV
+RGMII_RX_DV
 Text Label 13900 7100 0    50   ~ 10
-MII_RX_CLK
+RGMII_RX_CLK
 Wire Wire Line
 	13400 7300 13950 7300
 Wire Wire Line
@@ -1969,23 +1969,23 @@ Wire Wire Line
 Wire Wire Line
 	13400 7200 13950 7200
 Text Label 4650 4500 0    50   ~ 10
-MII_RX_CLK
+RGMII_RX_CLK
 Text Label 4650 2700 0    50   ~ 10
-MII_TX_CLK
+RGMII_TX_CLK
 Text Label 4650 2100 0    50   ~ 10
-MII_TXD0
+RGMII_TXD0
 Text Label 4650 2200 0    50   ~ 10
-MII_TXD1
+RGMII_TXD1
 Text Label 4650 2000 0    50   ~ 10
-MII_TXD2
+RGMII_TXD2
 Text Label 4650 1900 0    50   ~ 10
-MII_TXD3
+RGMII_TXD3
 Text Label 4650 2400 0    50   ~ 10
-MII_RXD1
+RGMII_RXD1
 Text Label 4650 2300 0    50   ~ 10
-MII_RXD2
+RGMII_RXD2
 Text Label 4650 5600 0    50   ~ 10
-MII_RXD3
+RGMII_RXD3
 Wire Wire Line
 	4650 5500 5250 5500
 Wire Wire Line
@@ -1995,7 +1995,7 @@ Wire Wire Line
 Text Label 4650 6700 0    50   ~ 10
 PHY_RSTn
 Text Label 4650 2800 0    50   ~ 10
-MII_RX_DV
+RGMII_RX_DV
 Text GLabel 4600 5300 0    50   BiDi ~ 10
 FMC1_LA_23_P
 Text GLabel 4600 5400 0    50   BiDi ~ 10
@@ -2033,9 +2033,9 @@ FMC1_LA_29_N
 Wire Wire Line
 	4650 2200 5250 2200
 Text Label 4650 1800 0    50   ~ 10
-MII_TX_EN
+RGMII_TX_EN
 Text Label 4650 5500 0    50   ~ 10
-MII_RXD0
+RGMII_RXD0
 Wire Wire Line
 	4650 1900 5250 1900
 Wire Wire Line

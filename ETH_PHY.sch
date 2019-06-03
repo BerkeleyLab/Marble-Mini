@@ -160,29 +160,29 @@ F 3 "" H 9550 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8200 4400 0    50   ~ 10
-MII_TXD0
+RGMII_TXD0
 Text Label 8200 4500 0    50   ~ 10
-MII_TXD1
+RGMII_TXD1
 Text Label 8200 4600 0    50   ~ 10
-MII_TXD2
+RGMII_TXD2
 Text Label 8200 4700 0    50   ~ 10
-MII_TXD3
+RGMII_TXD3
 Text Label 8200 4200 0    50   ~ 10
-MII_TX_EN
+RGMII_TX_EN
 Text Label 8200 4300 0    50   ~ 10
-MII_TX_CLK
+RGMII_TX_CLK
 Text Label 8200 3700 0    50   ~ 10
-MII_RXD0
+RGMII_RXD0
 Text Label 8200 3800 0    50   ~ 10
-MII_RXD1
+RGMII_RXD1
 Text Label 8200 3900 0    50   ~ 10
-MII_RXD2
+RGMII_RXD2
 Text Label 8200 4000 0    50   ~ 10
-MII_RXD3
+RGMII_RXD3
 Text Label 8200 3500 0    50   ~ 10
-MII_RX_DV
+RGMII_RX_DV
 Text Label 8200 3600 0    50   ~ 10
-MII_RX_CLK
+RGMII_RX_CLK
 Wire Wire Line
 	6350 4700 6500 4700
 Wire Wire Line
@@ -288,21 +288,21 @@ Wire Bus Line
 Wire Bus Line
 	8900 4800 9350 4800
 Text HLabel 9350 4100 2    50   Input ~ 10
-MII_RXD[0..3]
+RGMII_RXD[0..3]
 Text HLabel 9350 4800 2    50   Input ~ 10
-MII_TXD[0..3]
+RGMII_TXD[0..3]
 Text HLabel 9350 4200 2    50   Input ~ 10
-MII_TX_EN
+RGMII_TX_EN
 Text HLabel 9350 4300 2    50   Input ~ 10
-MII_TX_CLK
+RGMII_TX_CLK
 Wire Wire Line
 	8100 4200 9350 4200
 Wire Wire Line
 	8100 4300 9350 4300
 Text HLabel 9350 3500 2    50   Input ~ 10
-MII_RX_DV
+RGMII_RX_DV
 Text HLabel 9350 3600 2    50   Input ~ 10
-MII_RX_CLK
+RGMII_RX_CLK
 Wire Wire Line
 	8100 3500 9350 3500
 Wire Wire Line
@@ -467,11 +467,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 4800 12300 4800
 Wire Wire Line
-	8650 4900 10000 4900
-Wire Wire Line
-	10000 4900 10000 2000
-Wire Wire Line
-	10000 2000 12300 2000
+	10050 4900 10050 2000
 Wire Wire Line
 	12300 2400 11150 2400
 Wire Wire Line
@@ -2796,6 +2792,10 @@ Entry Wire Line
 	8800 3800 8900 3900
 Entry Wire Line
 	8800 3700 8900 3800
+Wire Wire Line
+	10050 2000 12300 2000
+Wire Wire Line
+	8650 4900 10050 4900
 Wire Bus Line
 	8900 4500 8900 4800
 Wire Bus Line
