@@ -1,7 +1,8 @@
-# "MARBLE" LBNL/Creotech Dual LPC FMC NAD/AMC Carrier
+# Marble board
 
-Sized to satisfy needs of at least
-some BPM and LLRF applications
+LBNL-Creotech collaboration: Dual FMC (LPC) NAD/AMC Carrier
+
+A general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications
 
 ## Original concept:
 
