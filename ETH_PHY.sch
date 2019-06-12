@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 25
+Sheet 25 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -171,17 +171,9 @@ Text Label 8200 4200 0    50   ~ 10
 RGMII_TX_EN
 Text Label 8200 4300 0    50   ~ 10
 RGMII_TX_CLK
-Text Label 8200 3700 0    50   ~ 10
-RGMII_RXD0
-Text Label 8200 3800 0    50   ~ 10
-RGMII_RXD1
-Text Label 8200 3900 0    50   ~ 10
-RGMII_RXD2
-Text Label 8200 4000 0    50   ~ 10
-RGMII_RXD3
-Text Label 8200 3500 0    50   ~ 10
+Text Label 8600 3500 0    50   ~ 10
 RGMII_RX_DV
-Text Label 8200 3600 0    50   ~ 10
+Text Label 8600 3600 0    50   ~ 10
 RGMII_RX_CLK
 Wire Wire Line
 	6350 4700 6500 4700
@@ -284,8 +276,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 4700 8800 4700
 Wire Bus Line
-	8900 4100 9350 4100
-Wire Bus Line
 	8900 4800 9350 4800
 Text HLabel 9350 4100 2    50   Input ~ 10
 RGMII_RXD[0..3]
@@ -303,10 +293,6 @@ Text HLabel 9350 3500 2    50   Input ~ 10
 RGMII_RX_DV
 Text HLabel 9350 3600 2    50   Input ~ 10
 RGMII_RX_CLK
-Wire Wire Line
-	8100 3500 9350 3500
-Wire Wire Line
-	8100 3600 9350 3600
 $Comp
 L AMC_FMC_Carrier-PcbDoc-rescue:Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue OSC1
 U 1 1 5C76AE78
@@ -2473,9 +2459,11 @@ $EndComp
 Wire Wire Line
 	3050 1500 3250 1500
 $Comp
-L Miscellaneous:BELFUSE_0826-1X1T-HS-F J4
+L AMC_FMC_Carrier-PcbDoc-rescue:BELFUSE_0826-1X1T-HS-F-Miscellaneous J4
 U 1 1 5DB81DF6
 P 12500 1900
+AR Path="/5DB81DF6" Ref="J4"  Part="1" 
+AR Path="/5BCEDA59/5DB81DF6" Ref="J4"  Part="1" 
 F 0 "J4" H 13400 2067 50  0000 C CNN
 F 1 "BELFUSE_0826-1X1T-HS-F" H 13400 1976 50  0000 C CNN
 F 2 "BELFUSE_0826-1X1T-80-F" H 12500 -2040 60  0001 L CNN
@@ -2777,29 +2765,349 @@ $EndComp
 Wire Wire Line
 	3600 3650 3600 3850
 Wire Wire Line
-	8100 4000 8800 4000
-Wire Wire Line
-	8100 3900 8800 3900
-Wire Wire Line
-	8100 3800 8800 3800
-Wire Wire Line
-	8100 3700 8800 3700
-Entry Wire Line
-	8800 4000 8900 4100
-Entry Wire Line
-	8800 3900 8900 4000
-Entry Wire Line
-	8800 3800 8900 3900
-Entry Wire Line
-	8800 3700 8900 3800
-Wire Wire Line
 	10050 2000 12300 2000
 Wire Wire Line
 	8650 4900 10050 4900
+Text Label 8600 3700 0    50   ~ 10
+RGMII_RXD0
+Text Label 8600 4000 0    50   ~ 10
+RGMII_RXD3
+Text Label 8600 3800 0    50   ~ 10
+RGMII_RXD1
+Text Label 8600 3900 0    50   ~ 10
+RGMII_RXD2
+Entry Wire Line
+	9200 3900 9300 4000
+Entry Wire Line
+	9200 3700 9300 3800
+Entry Wire Line
+	9200 3800 9300 3900
+Entry Wire Line
+	9200 4000 9300 4100
+$Comp
+L Resistors_SMD:R0402_22R_1%_0.0625W_100PPM R291
+U 1 1 5D001AE1
+P 8150 3500
+F 0 "R291" H 8500 3550 50  0000 C CNN
+F 1 "R0402_22R_1%_0.0625W_100PPM" H 8150 3290 60  0001 L CNN
+F 2 "RESC1005X40N" H 8150 2480 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 3110 60  0001 L CNN
+F 4 "22" H 8150 3550 50  0000 C CNN "~"
+F 5 "R0402_22R_1%_0.0625W_100PPM" H 8150 3020 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 8150 2930 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 8150 2840 60  0001 L CNN "Library Path"
+F 8 "=Value" H 8150 2750 60  0001 L CNN "Comment"
+F 9 "Standard" H 8150 2660 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 8150 2570 60  0001 L CNN "Component Type"
+F 11 "~~" H 8150 2390 60  0001 L CNN "PackageDescription"
+F 12 "2" H 8150 2300 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 8150 2210 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 8150 2120 60  0001 L CNN "Footprint Ref"
+F 15 "22" H 8150 2030 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 8150 1940 60  0001 L CNN "Status"
+F 17 "0.0625W" H 8150 1850 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 8150 1760 60  0001 L CNN "TC"
+F 19 "~~" H 8150 1670 60  0001 L CNN "Voltage"
+F 20 "±1%" H 8150 1580 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 8150 1490 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 8150 1400 60  0001 L CNN "Manufacturer"
+F 23 "R0402_22R_1%_0.0625W_100PPM" H 8150 1310 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 8150 1220 60  0001 L CNN "Case"
+F 25 "No" H 8150 1130 60  0001 L CNN "PressFit"
+F 26 "Yes" H 8150 1040 60  0001 L CNN "Mounted"
+F 27 "~~" H 8150 950 60  0001 L CNN "Sense Comment"
+F 28 "No" H 8150 860 60  0001 L CNN "Sense"
+F 29 "~~" H 8150 770 60  0001 L CNN "Status Comment"
+F 30 "No" H 8150 680 60  0001 L CNN "Socket"
+F 31 "Yes" H 8150 590 60  0001 L CNN "SMD"
+F 32 "~~" H 8150 500 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 8150 410 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270672209L" H 8150 320 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 8150 230 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 140 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 8150 50  60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 8150 -40 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 8150 -130 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 8150 -220 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8150 -310 60  0001 L CNN "License"
+	1    8150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0402_22R_1%_0.0625W_100PPM R292
+U 1 1 5D0054DB
+P 8150 3600
+F 0 "R292" H 8500 3650 50  0000 C CNN
+F 1 "R0402_22R_1%_0.0625W_100PPM" H 8150 3390 60  0001 L CNN
+F 2 "RESC1005X40N" H 8150 2580 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 3210 60  0001 L CNN
+F 4 "22" H 8150 3650 50  0000 C CNN "~"
+F 5 "R0402_22R_1%_0.0625W_100PPM" H 8150 3120 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 8150 3030 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 8150 2940 60  0001 L CNN "Library Path"
+F 8 "=Value" H 8150 2850 60  0001 L CNN "Comment"
+F 9 "Standard" H 8150 2760 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 8150 2670 60  0001 L CNN "Component Type"
+F 11 "~~" H 8150 2490 60  0001 L CNN "PackageDescription"
+F 12 "2" H 8150 2400 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 8150 2310 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 8150 2220 60  0001 L CNN "Footprint Ref"
+F 15 "22" H 8150 2130 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 8150 2040 60  0001 L CNN "Status"
+F 17 "0.0625W" H 8150 1950 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 8150 1860 60  0001 L CNN "TC"
+F 19 "~~" H 8150 1770 60  0001 L CNN "Voltage"
+F 20 "±1%" H 8150 1680 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 8150 1590 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 8150 1500 60  0001 L CNN "Manufacturer"
+F 23 "R0402_22R_1%_0.0625W_100PPM" H 8150 1410 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 8150 1320 60  0001 L CNN "Case"
+F 25 "No" H 8150 1230 60  0001 L CNN "PressFit"
+F 26 "Yes" H 8150 1140 60  0001 L CNN "Mounted"
+F 27 "~~" H 8150 1050 60  0001 L CNN "Sense Comment"
+F 28 "No" H 8150 960 60  0001 L CNN "Sense"
+F 29 "~~" H 8150 870 60  0001 L CNN "Status Comment"
+F 30 "No" H 8150 780 60  0001 L CNN "Socket"
+F 31 "Yes" H 8150 690 60  0001 L CNN "SMD"
+F 32 "~~" H 8150 600 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 8150 510 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270672209L" H 8150 420 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 8150 330 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 240 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 8150 150 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 8150 60  60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 8150 -30 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 8150 -120 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8150 -210 60  0001 L CNN "License"
+	1    8150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0402_22R_1%_0.0625W_100PPM R293
+U 1 1 5D005C96
+P 8150 3700
+F 0 "R293" H 8500 3750 50  0000 C CNN
+F 1 "R0402_22R_1%_0.0625W_100PPM" H 8150 3490 60  0001 L CNN
+F 2 "RESC1005X40N" H 8150 2680 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 3310 60  0001 L CNN
+F 4 "22" H 8150 3750 50  0000 C CNN "~"
+F 5 "R0402_22R_1%_0.0625W_100PPM" H 8150 3220 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 8150 3130 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 8150 3040 60  0001 L CNN "Library Path"
+F 8 "=Value" H 8150 2950 60  0001 L CNN "Comment"
+F 9 "Standard" H 8150 2860 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 8150 2770 60  0001 L CNN "Component Type"
+F 11 "~~" H 8150 2590 60  0001 L CNN "PackageDescription"
+F 12 "2" H 8150 2500 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 8150 2410 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 8150 2320 60  0001 L CNN "Footprint Ref"
+F 15 "22" H 8150 2230 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 8150 2140 60  0001 L CNN "Status"
+F 17 "0.0625W" H 8150 2050 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 8150 1960 60  0001 L CNN "TC"
+F 19 "~~" H 8150 1870 60  0001 L CNN "Voltage"
+F 20 "±1%" H 8150 1780 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 8150 1690 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 8150 1600 60  0001 L CNN "Manufacturer"
+F 23 "R0402_22R_1%_0.0625W_100PPM" H 8150 1510 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 8150 1420 60  0001 L CNN "Case"
+F 25 "No" H 8150 1330 60  0001 L CNN "PressFit"
+F 26 "Yes" H 8150 1240 60  0001 L CNN "Mounted"
+F 27 "~~" H 8150 1150 60  0001 L CNN "Sense Comment"
+F 28 "No" H 8150 1060 60  0001 L CNN "Sense"
+F 29 "~~" H 8150 970 60  0001 L CNN "Status Comment"
+F 30 "No" H 8150 880 60  0001 L CNN "Socket"
+F 31 "Yes" H 8150 790 60  0001 L CNN "SMD"
+F 32 "~~" H 8150 700 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 8150 610 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270672209L" H 8150 520 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 8150 430 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 340 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 8150 250 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 8150 160 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 8150 70  60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 8150 -20 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8150 -110 60  0001 L CNN "License"
+	1    8150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0402_22R_1%_0.0625W_100PPM R294
+U 1 1 5D005EFD
+P 8150 3800
+F 0 "R294" H 8500 3850 50  0000 C CNN
+F 1 "R0402_22R_1%_0.0625W_100PPM" H 8150 3590 60  0001 L CNN
+F 2 "RESC1005X40N" H 8150 2780 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 3410 60  0001 L CNN
+F 4 "22" H 8150 3850 50  0000 C CNN "~"
+F 5 "R0402_22R_1%_0.0625W_100PPM" H 8150 3320 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 8150 3230 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 8150 3140 60  0001 L CNN "Library Path"
+F 8 "=Value" H 8150 3050 60  0001 L CNN "Comment"
+F 9 "Standard" H 8150 2960 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 8150 2870 60  0001 L CNN "Component Type"
+F 11 "~~" H 8150 2690 60  0001 L CNN "PackageDescription"
+F 12 "2" H 8150 2600 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 8150 2510 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 8150 2420 60  0001 L CNN "Footprint Ref"
+F 15 "22" H 8150 2330 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 8150 2240 60  0001 L CNN "Status"
+F 17 "0.0625W" H 8150 2150 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 8150 2060 60  0001 L CNN "TC"
+F 19 "~~" H 8150 1970 60  0001 L CNN "Voltage"
+F 20 "±1%" H 8150 1880 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 8150 1790 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 8150 1700 60  0001 L CNN "Manufacturer"
+F 23 "R0402_22R_1%_0.0625W_100PPM" H 8150 1610 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 8150 1520 60  0001 L CNN "Case"
+F 25 "No" H 8150 1430 60  0001 L CNN "PressFit"
+F 26 "Yes" H 8150 1340 60  0001 L CNN "Mounted"
+F 27 "~~" H 8150 1250 60  0001 L CNN "Sense Comment"
+F 28 "No" H 8150 1160 60  0001 L CNN "Sense"
+F 29 "~~" H 8150 1070 60  0001 L CNN "Status Comment"
+F 30 "No" H 8150 980 60  0001 L CNN "Socket"
+F 31 "Yes" H 8150 890 60  0001 L CNN "SMD"
+F 32 "~~" H 8150 800 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 8150 710 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270672209L" H 8150 620 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 8150 530 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 440 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 8150 350 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 8150 260 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 8150 170 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 8150 80  60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8150 -10 60  0001 L CNN "License"
+	1    8150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0402_22R_1%_0.0625W_100PPM R295
+U 1 1 5D006104
+P 8150 3900
+F 0 "R295" H 8500 3950 50  0000 C CNN
+F 1 "R0402_22R_1%_0.0625W_100PPM" H 8150 3690 60  0001 L CNN
+F 2 "RESC1005X40N" H 8150 2880 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 3510 60  0001 L CNN
+F 4 "22" H 8150 3950 50  0000 C CNN "~"
+F 5 "R0402_22R_1%_0.0625W_100PPM" H 8150 3420 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 8150 3330 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 8150 3240 60  0001 L CNN "Library Path"
+F 8 "=Value" H 8150 3150 60  0001 L CNN "Comment"
+F 9 "Standard" H 8150 3060 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 8150 2970 60  0001 L CNN "Component Type"
+F 11 "~~" H 8150 2790 60  0001 L CNN "PackageDescription"
+F 12 "2" H 8150 2700 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 8150 2610 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 8150 2520 60  0001 L CNN "Footprint Ref"
+F 15 "22" H 8150 2430 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 8150 2340 60  0001 L CNN "Status"
+F 17 "0.0625W" H 8150 2250 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 8150 2160 60  0001 L CNN "TC"
+F 19 "~~" H 8150 2070 60  0001 L CNN "Voltage"
+F 20 "±1%" H 8150 1980 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 8150 1890 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 8150 1800 60  0001 L CNN "Manufacturer"
+F 23 "R0402_22R_1%_0.0625W_100PPM" H 8150 1710 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 8150 1620 60  0001 L CNN "Case"
+F 25 "No" H 8150 1530 60  0001 L CNN "PressFit"
+F 26 "Yes" H 8150 1440 60  0001 L CNN "Mounted"
+F 27 "~~" H 8150 1350 60  0001 L CNN "Sense Comment"
+F 28 "No" H 8150 1260 60  0001 L CNN "Sense"
+F 29 "~~" H 8150 1170 60  0001 L CNN "Status Comment"
+F 30 "No" H 8150 1080 60  0001 L CNN "Socket"
+F 31 "Yes" H 8150 990 60  0001 L CNN "SMD"
+F 32 "~~" H 8150 900 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 8150 810 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270672209L" H 8150 720 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 8150 630 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 540 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 8150 450 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 8150 360 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 8150 270 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 8150 180 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8150 90  60  0001 L CNN "License"
+	1    8150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0402_22R_1%_0.0625W_100PPM R296
+U 1 1 5D0062E3
+P 8150 4000
+F 0 "R296" H 8500 4050 50  0000 C CNN
+F 1 "R0402_22R_1%_0.0625W_100PPM" H 8150 3790 60  0001 L CNN
+F 2 "RESC1005X40N" H 8150 2980 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 3610 60  0001 L CNN
+F 4 "22" H 8150 4050 50  0000 C CNN "~"
+F 5 "R0402_22R_1%_0.0625W_100PPM" H 8150 3520 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 8150 3430 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 8150 3340 60  0001 L CNN "Library Path"
+F 8 "=Value" H 8150 3250 60  0001 L CNN "Comment"
+F 9 "Standard" H 8150 3160 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 8150 3070 60  0001 L CNN "Component Type"
+F 11 "~~" H 8150 2890 60  0001 L CNN "PackageDescription"
+F 12 "2" H 8150 2800 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 8150 2710 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 8150 2620 60  0001 L CNN "Footprint Ref"
+F 15 "22" H 8150 2530 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 8150 2440 60  0001 L CNN "Status"
+F 17 "0.0625W" H 8150 2350 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 8150 2260 60  0001 L CNN "TC"
+F 19 "~~" H 8150 2170 60  0001 L CNN "Voltage"
+F 20 "±1%" H 8150 2080 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 8150 1990 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 8150 1900 60  0001 L CNN "Manufacturer"
+F 23 "R0402_22R_1%_0.0625W_100PPM" H 8150 1810 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 8150 1720 60  0001 L CNN "Case"
+F 25 "No" H 8150 1630 60  0001 L CNN "PressFit"
+F 26 "Yes" H 8150 1540 60  0001 L CNN "Mounted"
+F 27 "~~" H 8150 1450 60  0001 L CNN "Sense Comment"
+F 28 "No" H 8150 1360 60  0001 L CNN "Sense"
+F 29 "~~" H 8150 1270 60  0001 L CNN "Status Comment"
+F 30 "No" H 8150 1180 60  0001 L CNN "Socket"
+F 31 "Yes" H 8150 1090 60  0001 L CNN "SMD"
+F 32 "~~" H 8150 1000 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 8150 910 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270672209L" H 8150 820 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 8150 730 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8150 640 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 8150 550 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 8150 460 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 8150 370 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 8150 280 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8150 190 60  0001 L CNN "License"
+	1    8150 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3500 8150 3500
+Wire Wire Line
+	8100 3600 8150 3600
+Wire Wire Line
+	8100 3700 8150 3700
+Wire Wire Line
+	8100 3800 8150 3800
+Wire Wire Line
+	8100 3900 8150 3900
+Wire Wire Line
+	8100 4000 8150 4000
+Wire Bus Line
+	9350 4100 9300 4100
+Wire Wire Line
+	8450 3500 9350 3500
+Wire Wire Line
+	8450 3600 9350 3600
+Wire Wire Line
+	8450 3700 9200 3700
+Wire Wire Line
+	8450 3800 9200 3800
+Wire Wire Line
+	8450 3900 9200 3900
+Wire Wire Line
+	8450 4000 9200 4000
 Wire Bus Line
 	8900 4500 8900 4800
 Wire Bus Line
 	11850 3800 11850 4100
 Wire Bus Line
-	8900 3800 8900 4100
+	9300 3800 9300 4100
 $EndSCHEMATC

@@ -4028,12 +4028,12 @@ Connection ~ 950  5850
 Connection ~ 1400 5850
 Wire Wire Line
 	1400 5850 1850 5850
+Text Notes 1300 3800 0    50   ~ 0
+No need to control CS pin, 
 Wire Bus Line
 	10150 700  10150 1000
 Wire Bus Line
 	6800 950  6800 2450
 Wire Bus Line
 	10150 1150 10150 2750
-Text Notes 1300 3800 0    50   ~ 0
-No need to control CS pin, 
 $EndSCHEMATC
