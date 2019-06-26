@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 25
+Sheet 18 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -1104,6 +1104,7 @@ F 37 "12/03/07 00:00:00" H 3500 1350 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 3500 1260 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 3500 1170 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3500 1080 60  0001 L CNN "License"
+F 41 "dnf" H 3500 4850 50  0001 C CNN "config"
 	1    3500 4850
 	-1   0    0    1   
 $EndComp
