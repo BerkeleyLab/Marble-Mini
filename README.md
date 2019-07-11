@@ -14,6 +14,14 @@ A general purpose carrier board, sized to satisfy needs of some BPM and LLRF app
 
 ![layout](marble_top.png)
 
+## Tools
+
+The schematic/layout tool used is [KiCad EDA](http://www.kicad-pcb.org/)
+version 5.1.2.  Other versions will very likely either not read the files
+in this repo, or will save files that are not compatible with
+collaborators' reference installations.
+We also make use of [KiBoM](https://github.com/SchrodingersGat/KiBoM).
+
 ## Major Parts
 
 * U1: Xilinx [XC7A100T-2FGG484](https://www.xilinx.com/products/silicon-devices/fpga/artix-7.html) FPGA (see note)
