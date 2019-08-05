@@ -1187,7 +1187,7 @@ FMC1_PRSNT_M2C_L
 Text Label 13400 11800 0    50   ~ 10
 FMC2_PRSNT_M2C_L
 $Comp
-L HDT0001:HDT0001 S1
+L AMC_FMC_Carrier-PcbDoc-rescue:HDT0001-HDT0001 S1
 U 1 1 5DAB8DC7
 P 2950 9200
 F 0 "S1" H 3550 9465 50  0000 C CNN
@@ -1197,7 +1197,7 @@ F 3 "https://www.ckswitches.com/media/1307/hdt.pdf" H 4000 9200 50  0001 L CNN
 F 4 "HDT0001 (Detector Switches)" H 4000 9100 50  0001 L CNN "Description"
 F 5 "3" H 4000 9000 50  0001 L CNN "Height"
 F 6 "C & K COMPONENTS" H 4000 8900 50  0001 L CNN "Manufacturer_Name"
-F 7 "HDT0001" H 4000 8800 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "HDT0001" H 4000 8800 50  0001 L CNN "Manufacturer Part Number"
 F 8 "7931598" H 4000 8700 50  0001 L CNN "RS Part Number"
 F 9 "http://uk.rs-online.com/web/p/products/7931598" H 4000 8600 50  0001 L CNN "RS Price/Stock"
 F 10 "70417475" H 4000 8500 50  0001 L CNN "Allied_Number"

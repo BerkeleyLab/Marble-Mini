@@ -685,7 +685,7 @@ F 3 "https://www.silvertel.com/images/datasheets/Ag5300-datasheet-smallest-30W-P
 F 4 "Power-over-Ethernet Plus Module" H 6700 8200 50  0001 L CNN "Description"
 F 5 "14" H 6700 8100 50  0001 L CNN "Height"
 F 6 "Silvertel" H 6700 7900 50  0001 L CNN "Manufacturer_Name"
-F 7 "AG5300" H 6700 7800 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "AG5300" H 6700 7800 50  0001 L CNN "Manufacturer Part Number"
 	1    5550 8300
 	1    0    0    -1  
 $EndComp
@@ -697,7 +697,7 @@ F 0 "D6" H 3450 8800 50  0000 L CNN
 F 1 "MB210S-TP" H 2650 8800 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOIC254P665X290-4N" H 3400 8775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 3250 8650 50  0001 C CNN
-F 4 "MB210S-TP" H 3250 8650 50  0001 C CNN "PN"
+F 4 "MB210S-TP" H 3250 8650 50  0001 C CNN "Manufacturer Part Number"
 	1    3250 8650
 	1    0    0    -1  
 $EndComp
@@ -709,7 +709,7 @@ F 0 "D7" H 3500 9750 50  0000 L CNN
 F 1 "MB210S-TP" H 2700 9850 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOIC254P665X290-4N" H 3400 9775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 3250 9650 50  0001 C CNN
-F 4 "MB210S-TP" H 3250 9650 50  0001 C CNN "PN"
+F 4 "MB210S-TP" H 3250 9650 50  0001 C CNN "Manufacturer Part Number"
 	1    3250 9650
 	1    0    0    -1  
 $EndComp
@@ -859,7 +859,7 @@ F 0 "D8" V 3554 8929 50  0000 L CNN
 F 1 "SMAJ58A" V 3645 8929 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:DIOM5226X262N" H 3600 8650 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 3550 8850 50  0001 C CNN
-F 4 "SMAJ58A" H 3600 8850 50  0001 C CNN "PN"
+F 4 "SMAJ58A" H 3600 8850 50  0001 C CNN "Manufacturer Part Number"
 	1    3600 8850
 	0    1    1    0   
 $EndComp
@@ -1052,7 +1052,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 7150 7900 8150
 $Comp
-L Diodes:SS16 D4
+L AMC_FMC_Carrier-PcbDoc-rescue:SS16-Diodes D4
 U 1 1 5CE9B513
 P 1900 2900
 F 0 "D4" V 2004 2990 50  0000 L CNN
@@ -1100,7 +1100,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Diodes:SS16 D12
+L AMC_FMC_Carrier-PcbDoc-rescue:SS16-Diodes D12
 U 1 1 5CEB9676
 P 7900 8450
 F 0 "D12" V 8096 8360 50  0000 R CNN
@@ -1337,7 +1337,7 @@ F 19 "~~" H 11150 70  60  0001 L CNN "Voltage"
 F 20 "±1%" H 11150 -20 60  0001 L CNN "Tolerance"
 F 21 "Low Value Flat Chip Resistor" H 11150 -110 60  0001 L CNN "Part Description"
 F 22 "TT Electronics" H 11150 -200 60  0001 L CNN "Manufacturer"
-F 23 "LRF1206-R020FI" H 11150 -290 60  0001 L CNN "Manufacturer Part Number"
+F 23 "CSR1206FK20L0" H 11150 -290 60  0001 L CNN "Manufacturer Part Number"
 F 24 "1206" H 11150 -380 60  0001 L CNN "Case"
 F 25 "No" H 11150 -470 60  0001 L CNN "PressFit"
 F 26 "Yes" H 11150 -560 60  0001 L CNN "Mounted"
@@ -1386,7 +1386,7 @@ F 19 "~~" H 11150 3470 60  0001 L CNN "Voltage"
 F 20 "±1%" H 11150 3380 60  0001 L CNN "Tolerance"
 F 21 "Low Value Flat Chip Resistor" H 11150 3290 60  0001 L CNN "Part Description"
 F 22 "TT Electronics" H 11150 3200 60  0001 L CNN "Manufacturer"
-F 23 "LRF1206-R020FI" H 11150 3110 60  0001 L CNN "Manufacturer Part Number"
+F 23 "CSR1206FK20L0" H 11150 3110 60  0001 L CNN "Manufacturer Part Number"
 F 24 "1206" H 11150 3020 60  0001 L CNN "Case"
 F 25 "No" H 11150 2930 60  0001 L CNN "PressFit"
 F 26 "Yes" H 11150 2840 60  0001 L CNN "Mounted"
@@ -3901,7 +3901,7 @@ F 11 "SOTFL (SOT666), 0.50mm, Pitch; 6 Pin, 1.20mm W X 1.60mm L X 0.60mm H Body,
 F 12 "~~" H 6550 3360 60  0001 L CNN "Status"
 F 13 "-45V -100mA PNP General Purpose Double Transistor" H 6550 3270 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 6550 3180 60  0001 L CNN "Manufacturer"
-F 15 "BC857BV" H 6550 3090 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BC857BV,115" H 6550 3090 60  0001 L CNN "Manufacturer Part Number"
 F 16 "6" H 6550 3000 60  0001 L CNN "Pin Count"
 F 17 "SOT666" H 6550 2910 60  0001 L CNN "Case"
 F 18 "Yes" H 6550 2820 60  0001 L CNN "Mounted"
@@ -3947,7 +3947,7 @@ F 11 "SOTFL (SOT666), 0.50mm, Pitch; 6 Pin, 1.20mm W X 1.60mm L X 0.60mm H Body,
 F 12 "~~" H 7100 3360 60  0001 L CNN "Status"
 F 13 "-45V -100mA PNP General Purpose Double Transistor" H 7100 3270 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 7100 3180 60  0001 L CNN "Manufacturer"
-F 15 "BC857BV" H 7100 3090 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BC857BV,115" H 7100 3090 60  0001 L CNN "Manufacturer Part Number"
 F 16 "6" H 7100 3000 60  0001 L CNN "Pin Count"
 F 17 "SOT666" H 7100 2910 60  0001 L CNN "Case"
 F 18 "Yes" H 7100 2820 60  0001 L CNN "Mounted"
@@ -3993,7 +3993,7 @@ F 11 "SOTFL (SOT666), 0.50mm, Pitch; 6 Pin, 1.20mm W X 1.60mm L X 0.60mm H Body,
 F 12 "~~" H 2800 1160 60  0001 L CNN "Status"
 F 13 "-45V -100mA PNP General Purpose Double Transistor" H 2800 1070 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 2800 980 60  0001 L CNN "Manufacturer"
-F 15 "BC857BV" H 2800 890 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BC857BV,115" H 2800 890 60  0001 L CNN "Manufacturer Part Number"
 F 16 "6" H 2800 800 60  0001 L CNN "Pin Count"
 F 17 "SOT666" H 2800 710 60  0001 L CNN "Case"
 F 18 "Yes" H 2800 620 60  0001 L CNN "Mounted"
@@ -4039,7 +4039,7 @@ F 11 "SOTFL (SOT666), 0.50mm, Pitch; 6 Pin, 1.20mm W X 1.60mm L X 0.60mm H Body,
 F 12 "~~" H 3350 1160 60  0001 L CNN "Status"
 F 13 "-45V -100mA PNP General Purpose Double Transistor" H 3350 1070 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 3350 980 60  0001 L CNN "Manufacturer"
-F 15 "BC857BV" H 3350 890 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BC857BV,115" H 3350 890 60  0001 L CNN "Manufacturer Part Number"
 F 16 "6" H 3350 800 60  0001 L CNN "Pin Count"
 F 17 "SOT666" H 3350 710 60  0001 L CNN "Case"
 F 18 "Yes" H 3350 620 60  0001 L CNN "Mounted"
@@ -4578,7 +4578,7 @@ F 13 "750mA" H 5300 1590 60  0001 L CNN "Power"
 F 14 "~~" H 5300 1500 60  0001 L CNN "Status"
 F 15 "Medium Power AF Schottky Diode" H 5300 1410 60  0001 L CNN "Part Description"
 F 16 "INFINEON" H 5300 1320 60  0001 L CNN "Manufacturer"
-F 17 "BAT165" H 5300 1230 60  0001 L CNN "Manufacturer Part Number"
+F 17 "BAT165AX" H 5300 1230 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 5300 1140 60  0001 L CNN "Pin Count"
 F 19 "SOD323" H 5300 1050 60  0001 L CNN "Case"
 F 20 "Yes" H 5300 960 60  0001 L CNN "Mounted"

@@ -22,7 +22,7 @@ F 0 "U28" H 6650 2300 50  0000 C CNN
 F 1 "LM75AIMM/NOPB" H 7250 1400 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOP65P490X109-8N" H 6900 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 6900 1850 50  0001 C CNN
-F 4 "LM75AIMM/NOPB" H 6900 1850 50  0001 C CNN "PN"
+F 4 "LM75AIMM/NOPB" H 6900 1850 50  0001 C CNN "Manufacturer Part Number"
 	1    6900 1850
 	1    0    0    -1  
 $EndComp
@@ -141,7 +141,7 @@ F 0 "U29" H 6650 4200 50  0000 C CNN
 F 1 "LM75AIMM/NOPB" H 7250 3300 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOP65P490X109-8N" H 6900 3750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 6900 3750 50  0001 C CNN
-F 4 "LM75AIMM/NOPB" H 6900 3750 50  0001 C CNN "PN"
+F 4 "LM75AIMM/NOPB" H 6900 3750 50  0001 C CNN "Manufacturer Part Number"
 	1    6900 3750
 	1    0    0    -1  
 $EndComp
@@ -341,17 +341,6 @@ Text HLabel 1200 5000 0    50   Input ~ 10
 DXP_0
 Text HLabel 1200 5100 0    50   Input ~ 10
 DXN_0
-$Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Fan_3pin-Motor-AMC_FMC_Carrier-PcbDoc-rescue M1
-U 1 1 5D543B40
-P 6800 5150
-F 0 "M1" H 6958 5146 50  0000 L CNN
-F 1 "Fan_3pin" H 6958 5055 50  0000 L CNN
-F 2 "Connect:Fan_Pin_Header_Straight_1x03" H 6800 5060 50  0001 C CNN
-F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 6800 5060 50  0001 C CNN
-	1    6800 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2400 6000 2850 6000
 $Comp
@@ -386,7 +375,7 @@ F 0 "Q7" H 6906 5796 50  0000 L CNN
 F 1 "STS8DN6LF6AG" H 6906 5705 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" H 6900 5675 50  0001 L CIN
 F 3 "www.st.com/resource/en/datasheet/CD00001537.pdf" H 6700 5750 50  0001 L CNN
-F 4 "STS8DN6LF6AG" H 6700 5750 50  0001 C CNN "PN"
+F 4 "STS8DN6LF6AG" H 6700 5750 50  0001 C CNN "Manufacturer Part Number"
 	1    6700 5750
 	1    0    0    -1  
 $EndComp
@@ -398,7 +387,7 @@ F 0 "Q7" H 8506 5796 50  0000 L CNN
 F 1 "STS8DN6LF6AG" H 8506 5705 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" H 8500 5675 50  0001 L CIN
 F 3 "www.st.com/resource/en/datasheet/CD00001537.pdf" H 8300 5750 50  0001 L CNN
-F 4 "STS8DN6LF6AG" H 8300 5750 50  0001 C CNN "PN"
+F 4 "STS8DN6LF6AG" H 8300 5750 50  0001 C CNN "Manufacturer Part Number"
 	2    8300 5750
 	1    0    0    -1  
 $EndComp
@@ -644,6 +633,7 @@ F 0 "M2" H 8558 5146 50  0000 L CNN
 F 1 "Fan_3pin" H 8558 5055 50  0000 L CNN
 F 2 "Connect:Fan_Pin_Header_Straight_1x03" H 8400 5060 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 8400 5060 50  0001 C CNN
+F 4 "SWR25X-NRTC-S03-ST-BA" H 8400 5150 50  0001 C CNN "Manufacturer Part Number"
 	1    8400 5150
 	1    0    0    -1  
 $EndComp
@@ -1589,4 +1579,16 @@ Wire Wire Line
 Connection ~ 2750 5300
 Wire Wire Line
 	2750 5300 2850 5300
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:Fan_3pin-Motor-AMC_FMC_Carrier-PcbDoc-rescue M1
+U 1 1 5D543B40
+P 6800 5150
+F 0 "M1" H 6958 5146 50  0000 L CNN
+F 1 "Fan_3pin" H 6958 5055 50  0000 L CNN
+F 2 "Connect:Fan_Pin_Header_Straight_1x03" H 6800 5060 50  0001 C CNN
+F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 6800 5060 50  0001 C CNN
+F 4 "SWR25X-NRTC-S03-ST-BA" H 6800 5150 50  0001 C CNN "Manufacturer Part Number"
+	1    6800 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

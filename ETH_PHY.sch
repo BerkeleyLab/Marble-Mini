@@ -2513,9 +2513,11 @@ Wire Wire Line
 	14500 4500 14500 4650
 Connection ~ 14500 4500
 $Comp
-L AMC_FMC_Carrier-PcbDoc-cache:power_PWR_FLAG #FLG0103
+L AMC_FMC_Carrier-PcbDoc-rescue:power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache #FLG0103
 U 1 1 5D15ABC3
 P 5250 6650
+AR Path="/5D15ABC3" Ref="#FLG0103"  Part="1" 
+AR Path="/5BCEDA59/5D15ABC3" Ref="#FLG0103"  Part="1" 
 F 0 "#FLG0103" H 5250 6725 50  0001 C CNN
 F 1 "power_PWR_FLAG" H 5250 6823 50  0000 C CNN
 F 2 "" H 5250 6650 50  0001 C CNN
@@ -2524,9 +2526,11 @@ F 3 "" H 5250 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-cache:power_PWR_FLAG #FLG0104
+L AMC_FMC_Carrier-PcbDoc-rescue:power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache #FLG0104
 U 1 1 5D15B1F6
 P 5250 7600
+AR Path="/5D15B1F6" Ref="#FLG0104"  Part="1" 
+AR Path="/5BCEDA59/5D15B1F6" Ref="#FLG0104"  Part="1" 
 F 0 "#FLG0104" H 5250 7675 50  0001 C CNN
 F 1 "power_PWR_FLAG" H 5250 7773 50  0000 C CNN
 F 2 "" H 5250 7600 50  0001 C CNN
@@ -2535,9 +2539,11 @@ F 3 "" H 5250 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-cache:power_PWR_FLAG #FLG0105
+L AMC_FMC_Carrier-PcbDoc-rescue:power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache #FLG0105
 U 1 1 5D15B45E
 P 14500 2000
+AR Path="/5D15B45E" Ref="#FLG0105"  Part="1" 
+AR Path="/5BCEDA59/5D15B45E" Ref="#FLG0105"  Part="1" 
 F 0 "#FLG0105" H 14500 2075 50  0001 C CNN
 F 1 "power_PWR_FLAG" H 14500 2173 50  0000 C CNN
 F 2 "" H 14500 2000 50  0001 C CNN

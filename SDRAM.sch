@@ -634,7 +634,7 @@ Wire Wire Line
 	3650 2850 3650 2950
 Connection ~ 3650 2850
 $Comp
-L Logic:MT41K512M16HA-125_E U3
+L AMC_FMC_Carrier-PcbDoc-rescue:MT41K512M16HA-125_E-Logic U3
 U 1 1 5C4F8488
 P 5000 950
 F 0 "U3" H 5500 1115 50  0000 C CNN
@@ -652,7 +652,7 @@ F 11 "BGA 0.8mm, Pitch, Square 96 Pin, 9 Columns x 16 Rows, Body 14mm X 9mm X 1.
 F 12 "~~" H 5000 -6120 60  0001 L CNN "Status"
 F 13 "+1.35V, 8Gb (64 Meg x 16 x 8 banks) DDR3L SDRAM" H 5000 -6210 60  0001 L CNN "Part Description"
 F 14 "MICRON TECHNOLOGY" H 5000 -6300 60  0001 L CNN "Manufacturer"
-F 15 "MT41K512M16HA-125:E" H 5000 -6390 60  0001 L CNN "Manufacturer Part Number"
+F 15 "MT41K512M16HA-125:E (AS4C512M16D3L-12BCN)" H 5000 -6390 60  0001 L CNN "Manufacturer Part Number"
 F 16 "96" H 5000 -6480 60  0001 L CNN "Pin Count"
 F 17 "BGA96" H 5000 -6570 60  0001 L CNN "Case"
 F 18 "Yes" H 5000 -6660 60  0001 L CNN "Mounted"
@@ -1719,6 +1719,7 @@ F 0 "U31" H 8150 6078 50  0000 C CNN
 F 1 "TPS51200DRC" H 8150 5987 50  0000 C CNN
 F 2 "ICs_And_Semiconductors_SMD:TEXAS_DRC (S-PVSON-N10)" H 8150 6250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps51200.pdf" H 8150 6250 50  0001 C CNN
+F 4 "TPS51200DRC" H 8150 5400 50  0001 C CNN "Manufacturer Part Number"
 	1    8150 5400
 	1    0    0    -1  
 $EndComp

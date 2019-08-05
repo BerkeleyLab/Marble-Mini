@@ -318,11 +318,11 @@ L AMC_FMC_Carrier-PcbDoc-rescue:SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC-AMC_FMC_Carr
 U 1 1 5CBF72F4
 P 9750 7650
 F 0 "J15" H 10180 6500 50  0000 L CNN
-F 1 "SAMTEC_MHDMR-19-02-H-TH-L-TR" H 9750 5250 60  0001 L CNN
+F 1 "10029449-111RLF" H 9750 5250 60  0001 L CNN
 F 2 "hdmi2usb:HDMI_TH" H 9750 4350 60  0001 L CNN
 F 3 "" H 9750 5070 60  0001 L CNN
 F 4 "HDMI" H 9750 4980 60  0001 L CNN "Pole4"
-F 5 "SAMTEC_MHDMR-19-02-H-TH-L-TR" H 9750 4980 60  0001 L CNN "Part Number"
+F 5 "10029449-111RLF" H 9750 4980 60  0001 L CNN "Part Number"
 F 6 "Connector HDMI 19 Male + 1 Shield" H 9750 4890 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Connectors.SchLib" H 9750 4800 60  0001 L CNN "Library Path"
 F 8 "~~" H 9750 4710 60  0001 L CNN "Comment"
@@ -346,7 +346,7 @@ F 25 "None" H 9750 3090 60  0001 L CNN "Status"
 F 26 "~~" H 9750 3000 60  0001 L CNN "SCEM"
 F 27 "19 Contacts, Pitch 0.4mm, Right Angle, Mini  HDMI High Speed I/O Receptacle" H 9750 2910 60  0001 L CNN "Part Description"
 F 28 "SAMTEC" H 9750 2820 60  0001 L CNN "Manufacturer"
-F 29 "MHDMR-19-02-H-TH-L-TR" H 9750 2730 60  0001 L CNN "Manufacturer Part Number"
+F 29 "10029449-111RLF" H 9750 2730 60  0001 L CNN "Manufacturer Part Number"
 F 30 "3.2mm" H 9750 2640 60  0001 L CNN "ComponentHeight"
 F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_MHDMR-19-02-H-TH-L-TR.pdf" H 9750 2550 60  0001 L CNN "HelpURL"
 F 32 "~~" H 9750 2460 60  0001 L CNN "ComponentLink1URL"
@@ -1009,7 +1009,7 @@ F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 7250 795
 F 12 "~~" H 7250 7860 60  0001 L CNN "Status"
 F 13 "250V 30mA N-Channel  SIPMOS® Small-Signal-Transistor" H 7250 7770 60  0001 L CNN "Part Description"
 F 14 "INFINEON" H 7250 7680 60  0001 L CNN "Manufacturer"
-F 15 "BSS139" H 7250 7590 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BSS139H6327XTSA1" H 7250 7590 60  0001 L CNN "Manufacturer Part Number"
 F 16 "3" H 7250 7500 60  0001 L CNN "Pin Count"
 F 17 "SOT23-3" H 7250 7410 60  0001 L CNN "Case"
 F 18 "Yes" H 7250 7320 60  0001 L CNN "Mounted"
@@ -1057,7 +1057,7 @@ F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 7250 875
 F 12 "~~" H 7250 8660 60  0001 L CNN "Status"
 F 13 "250V 30mA N-Channel  SIPMOS® Small-Signal-Transistor" H 7250 8570 60  0001 L CNN "Part Description"
 F 14 "INFINEON" H 7250 8480 60  0001 L CNN "Manufacturer"
-F 15 "BSS139" H 7250 8390 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BSS139H6327XTSA1" H 7250 8390 60  0001 L CNN "Manufacturer Part Number"
 F 16 "3" H 7250 8300 60  0001 L CNN "Pin Count"
 F 17 "SOT23-3" H 7250 8210 60  0001 L CNN "Case"
 F 18 "Yes" H 7250 8120 60  0001 L CNN "Mounted"
@@ -2295,9 +2295,10 @@ P 7250 3900
 AR Path="/5C907554/5CB009EE" Ref="U?"  Part="2" 
 AR Path="/5C907554/5CAAC367/5CB009EE" Ref="U1"  Part="2" 
 F 0 "U1" H 7250 926 50  0000 C CNN
-F 1 "XC7A200T-FBG484" H 7250 835 50  0000 C CNN
+F 1 "XC7A100T-2FGG484C" H 7250 835 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD_BGA:BGA484C100P22X22_2300X2300X240" H 7250 3900 50  0001 C CNN
 F 3 "" H 7250 3900 50  0000 C CNN
+F 4 "XC7A100T-2FGG484C" H 7250 3900 50  0001 C CNN "Manufacturer Part Number"
 	2    7250 3900
 	1    0    0    -1  
 $EndComp

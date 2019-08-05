@@ -1076,7 +1076,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 7150 4350 7150
 $Comp
-L Diodes:PRTR5V0U2X D13
+L AMC_FMC_Carrier-PcbDoc-rescue:PRTR5V0U2X-Diodes D13
 U 1 1 5E04F663
 P 2400 5400
 F 0 "D13" V 2750 5600 50  0000 R CNN
@@ -1556,7 +1556,7 @@ Wire Wire Line
 	4350 4500 4350 4700
 Connection ~ 4350 4700
 $Comp
-L Logic:M93C46-WMN6TP U21
+L AMC_FMC_Carrier-PcbDoc-rescue:M93C46-WMN6TP-Logic U21
 U 1 1 5C74B2C9
 P 3250 6850
 F 0 "U21" H 3600 7015 50  0000 C CNN
@@ -3994,7 +3994,7 @@ F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 11050 43
 F 12 "~~" H 11050 4210 60  0001 L CNN "Status"
 F 13 "250V 30mA N-Channel  SIPMOS® Small-Signal-Transistor" H 11050 4120 60  0001 L CNN "Part Description"
 F 14 "INFINEON" H 11050 4030 60  0001 L CNN "Manufacturer"
-F 15 "BSS139" H 11050 3940 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BSS139H6327XTSA1" H 11050 3940 60  0001 L CNN "Manufacturer Part Number"
 F 16 "3" H 11050 3850 60  0001 L CNN "Pin Count"
 F 17 "SOT23-3" H 11050 3760 60  0001 L CNN "Case"
 F 18 "Yes" H 11050 3670 60  0001 L CNN "Mounted"
@@ -4867,7 +4867,7 @@ F 13 "750mA" H 5150 9140 60  0001 L CNN "Power"
 F 14 "~~" H 5150 9050 60  0001 L CNN "Status"
 F 15 "Medium Power AF Schottky Diode" H 5150 8960 60  0001 L CNN "Part Description"
 F 16 "INFINEON" H 5150 8870 60  0001 L CNN "Manufacturer"
-F 17 "BAT165" H 5150 8780 60  0001 L CNN "Manufacturer Part Number"
+F 17 "BAT165AX" H 5150 8780 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 5150 8690 60  0001 L CNN "Pin Count"
 F 19 "SOD323" H 5150 8600 60  0001 L CNN "Case"
 F 20 "Yes" H 5150 8510 60  0001 L CNN "Mounted"
@@ -4916,7 +4916,7 @@ F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 5850 860
 F 12 "~~" H 5850 8510 60  0001 L CNN "Status"
 F 13 "250V 30mA N-Channel  SIPMOS® Small-Signal-Transistor" H 5850 8420 60  0001 L CNN "Part Description"
 F 14 "INFINEON" H 5850 8330 60  0001 L CNN "Manufacturer"
-F 15 "BSS139" H 5850 8240 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BSS139H6327XTSA1" H 5850 8240 60  0001 L CNN "Manufacturer Part Number"
 F 16 "3" H 5850 8150 60  0001 L CNN "Pin Count"
 F 17 "SOT23-3" H 5850 8060 60  0001 L CNN "Case"
 F 18 "Yes" H 5850 7970 60  0001 L CNN "Mounted"
@@ -4996,7 +4996,7 @@ F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 4700 885
 F 12 "~~" H 4700 8760 60  0001 L CNN "Status"
 F 13 "250V 30mA N-Channel  SIPMOS® Small-Signal-Transistor" H 4700 8670 60  0001 L CNN "Part Description"
 F 14 "INFINEON" H 4700 8580 60  0001 L CNN "Manufacturer"
-F 15 "BSS139" H 4700 8490 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BSS139H6327XTSA1" H 4700 8490 60  0001 L CNN "Manufacturer Part Number"
 F 16 "3" H 4700 8400 60  0001 L CNN "Pin Count"
 F 17 "SOT23-3" H 4700 8310 60  0001 L CNN "Case"
 F 18 "Yes" H 4700 8220 60  0001 L CNN "Mounted"
@@ -5045,7 +5045,7 @@ F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 4700 925
 F 12 "~~" H 4700 9160 60  0001 L CNN "Status"
 F 13 "250V 30mA N-Channel  SIPMOS® Small-Signal-Transistor" H 4700 9070 60  0001 L CNN "Part Description"
 F 14 "INFINEON" H 4700 8980 60  0001 L CNN "Manufacturer"
-F 15 "BSS139" H 4700 8890 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BSS139H6327XTSA1" H 4700 8890 60  0001 L CNN "Manufacturer Part Number"
 F 16 "3" H 4700 8800 60  0001 L CNN "Pin Count"
 F 17 "SOT23-3" H 4700 8710 60  0001 L CNN "Case"
 F 18 "Yes" H 4700 8620 60  0001 L CNN "Mounted"

@@ -281,10 +281,10 @@ AR Path="/5DBB4777" Ref="J?"  Part="1"
 AR Path="/5C16BF8E/5DBB4777" Ref="J?"  Part="1" 
 AR Path="/5C16BF8E/5DB9B7E6/5DBB4777" Ref="J9"  Part="1" 
 F 0 "J9" H 3900 2900 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 3800 2400 50  0000 C CNN
+F 1 "2057-PH1-04-UA-ND" H 3700 2400 50  0000 C CNN
 F 2 "Connectors THD:SAMTEC_MTLW-104-07-L-S-250" H 3900 2700 50  0001 C CNN
 F 3 "~" H 3900 2700 50  0001 C CNN
-F 4 "MTLW-104-07-L-S-250" H 3900 2700 50  0001 C CNN "PN"
+F 4 "2057-PH1-04-UA-ND" H 3900 2700 50  0001 C CNN "Manufacturer Part Number"
 	1    3900 2700
 	1    0    0    -1  
 $EndComp
@@ -3205,8 +3205,8 @@ F 28 "~~" H 12350 -1090 60  0001 L CNN "PressFit"
 F 29 "No" H 12350 -1180 60  0001 L CNN "Sense"
 F 30 "~~" H 12350 -1270 60  0001 L CNN "Sense Comment"
 F 31 "~~" H 12350 -1360 60  0001 L CNN "ComponentHeight"
-F 32 "TDK" H 12350 -1450 60  0001 L CNN "Manufacturer1 Example"
-F 33 "C2012X5R1C226KT" H 12350 -1540 60  0001 L CNN "Manufacturer1 Part Number"
+F 32 "Murata" H 12350 -1450 60  0001 L CNN "Manufacturer1 Example"
+F 33 "GRM21BR61C226ME44L" H 12350 -1540 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "1.35mm" H 12350 -1630 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_TDK_C.pdf" H 12350 -1720 60  0001 L CNN "HelpURL"
 F 36 "CERN DEM JLC" H 12350 -1810 60  0001 L CNN "Author"
@@ -3254,8 +3254,8 @@ F 28 "~~" H 12350 710 60  0001 L CNN "PressFit"
 F 29 "No" H 12350 620 60  0001 L CNN "Sense"
 F 30 "~~" H 12350 530 60  0001 L CNN "Sense Comment"
 F 31 "~~" H 12350 440 60  0001 L CNN "ComponentHeight"
-F 32 "TDK" H 12350 350 60  0001 L CNN "Manufacturer1 Example"
-F 33 "C2012X5R1C226KT" H 12350 260 60  0001 L CNN "Manufacturer1 Part Number"
+F 32 "Murata" H 12350 350 60  0001 L CNN "Manufacturer1 Example"
+F 33 "GRM21BR61C226ME44L" H 12350 260 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "1.35mm" H 12350 170 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_TDK_C.pdf" H 12350 80  60  0001 L CNN "HelpURL"
 F 36 "CERN DEM JLC" H 12350 -10 60  0001 L CNN "Author"
@@ -3303,8 +3303,8 @@ F 28 "~~" H 12350 2510 60  0001 L CNN "PressFit"
 F 29 "No" H 12350 2420 60  0001 L CNN "Sense"
 F 30 "~~" H 12350 2330 60  0001 L CNN "Sense Comment"
 F 31 "~~" H 12350 2240 60  0001 L CNN "ComponentHeight"
-F 32 "TDK" H 12350 2150 60  0001 L CNN "Manufacturer1 Example"
-F 33 "C2012X5R1C226KT" H 12350 2060 60  0001 L CNN "Manufacturer1 Part Number"
+F 32 "Murata" H 12350 2150 60  0001 L CNN "Manufacturer1 Example"
+F 33 "GRM21BR61C226ME44L" H 12350 2060 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "1.35mm" H 12350 1970 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_TDK_C.pdf" H 12350 1880 60  0001 L CNN "HelpURL"
 F 36 "CERN DEM JLC" H 12350 1790 60  0001 L CNN "Author"
@@ -3354,8 +3354,8 @@ F 28 "~~" H 12350 4310 60  0001 L CNN "PressFit"
 F 29 "No" H 12350 4220 60  0001 L CNN "Sense"
 F 30 "~~" H 12350 4130 60  0001 L CNN "Sense Comment"
 F 31 "~~" H 12350 4040 60  0001 L CNN "ComponentHeight"
-F 32 "TDK" H 12350 3950 60  0001 L CNN "Manufacturer1 Example"
-F 33 "C2012X5R1C226KT" H 12350 3860 60  0001 L CNN "Manufacturer1 Part Number"
+F 32 "Murata" H 12350 3950 60  0001 L CNN "Manufacturer1 Example"
+F 33 "GRM21BR61C226ME44L" H 12350 3860 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "1.35mm" H 12350 3770 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_TDK_C.pdf" H 12350 3680 60  0001 L CNN "HelpURL"
 F 36 "CERN DEM JLC" H 12350 3590 60  0001 L CNN "Author"
@@ -5803,7 +5803,7 @@ F 0 "U36" H 7025 7665 50  0000 C CNN
 F 1 "NCP186AMX180TAG" H 7025 7574 50  0000 C CNN
 F 2 "AG5300_2:SOIC-8" H 6650 7700 50  0001 C CNN
 F 3 "" H 6650 7700 50  0001 C CNN
-F 4 "NCP186AMX180TAG" H 6650 7700 50  0001 C CNN "PN"
+F 4 "NCP186AMX180TAG" H 6650 7700 50  0001 C CNN "Manufacturer Part Number"
 	1    6650 7700
 	1    0    0    -1  
 $EndComp
@@ -6063,7 +6063,7 @@ F 0 "U37" H 7025 9365 50  0000 C CNN
 F 1 "NCP186AMX120TAG" H 7025 9274 50  0000 C CNN
 F 2 "AG5300_2:SOIC-8" H 6650 9400 50  0001 C CNN
 F 3 "" H 6650 9400 50  0001 C CNN
-F 4 "NCP186AMX120TAG" H 6650 9400 50  0001 C CNN "PN"
+F 4 "NCP186AMX120TAG" H 6650 9400 50  0001 C CNN "Manufacturer Part Number"
 	1    6650 9400
 	1    0    0    -1  
 $EndComp
@@ -6835,7 +6835,7 @@ F 13 "750mA" H 4350 490 60  0001 L CNN "Power"
 F 14 "~~" H 4350 400 60  0001 L CNN "Status"
 F 15 "Medium Power AF Schottky Diode" H 4350 310 60  0001 L CNN "Part Description"
 F 16 "INFINEON" H 4350 220 60  0001 L CNN "Manufacturer"
-F 17 "BAT165" H 4350 130 60  0001 L CNN "Manufacturer Part Number"
+F 17 "BAT165AX" H 4350 130 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 4350 40  60  0001 L CNN "Pin Count"
 F 19 "SOD323" H 4350 -50 60  0001 L CNN "Case"
 F 20 "Yes" H 4350 -140 60  0001 L CNN "Mounted"
@@ -6885,7 +6885,7 @@ F 13 "750mA" H 4450 1190 60  0001 L CNN "Power"
 F 14 "~~" H 4450 1100 60  0001 L CNN "Status"
 F 15 "Medium Power AF Schottky Diode" H 4450 1010 60  0001 L CNN "Part Description"
 F 16 "INFINEON" H 4450 920 60  0001 L CNN "Manufacturer"
-F 17 "BAT165" H 4450 830 60  0001 L CNN "Manufacturer Part Number"
+F 17 "BAT165AX" H 4450 830 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 4450 740 60  0001 L CNN "Pin Count"
 F 19 "SOD323" H 4450 650 60  0001 L CNN "Case"
 F 20 "Yes" H 4450 560 60  0001 L CNN "Mounted"

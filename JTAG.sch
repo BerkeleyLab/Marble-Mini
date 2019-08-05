@@ -570,7 +570,7 @@ $EndComp
 Text Label 4600 6000 0    50   ~ 10
 EN_CON_JTAG
 $Comp
-L Standard_Logic:NC7SZ66P5X U7
+L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic U7
 U 1 1 5E17EE5A
 P 7600 1850
 F 0 "U7" H 7900 2015 50  0000 C CNN
@@ -616,7 +616,7 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Standard_Logic:NC7SZ66P5X U10
+L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic U10
 U 1 1 5E17F12A
 P 5200 1850
 F 0 "U10" H 5500 2015 50  0000 C CNN
@@ -1333,10 +1333,10 @@ P 5550 4050
 AR Path="/5BCEDA39/5E9BF6F9" Ref="J?"  Part="1" 
 AR Path="/5CA40231/5E9BF6F9" Ref="J14"  Part="1" 
 F 0 "J14" H 5400 4700 50  0000 R CNN
-F 1 "Conn_ARM_JTAG_SWD_10" H 5400 4600 50  0000 R CNN
+F 1 "GRPB052VWQP-RC" H 5400 4600 50  0000 R CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 5600 3500 50  0001 L TNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" V 5200 2800 50  0001 C CNN
-F 4 "WURTH_62101021021" H 5550 4050 50  0001 C CNN "PN"
+F 4 "GRPB052VWQP-RC" H 5550 4050 50  0001 C CNN "Manufacturer Part Number"
 	1    5550 4050
 	1    0    0    -1  
 $EndComp
@@ -1666,7 +1666,7 @@ F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 2000 435
 F 12 "~~" H 2000 4260 60  0001 L CNN "Status"
 F 13 "250V 30mA N-Channel  SIPMOS® Small-Signal-Transistor" H 2000 4170 60  0001 L CNN "Part Description"
 F 14 "INFINEON" H 2000 4080 60  0001 L CNN "Manufacturer"
-F 15 "BSS139" H 2000 3990 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BSS139H6327XTSA1" H 2000 3990 60  0001 L CNN "Manufacturer Part Number"
 F 16 "3" H 2000 3900 60  0001 L CNN "Pin Count"
 F 17 "SOT23-3" H 2000 3810 60  0001 L CNN "Case"
 F 18 "Yes" H 2000 3720 60  0001 L CNN "Mounted"
@@ -1716,7 +1716,7 @@ F 13 "750mA" H 5100 4990 60  0001 L CNN "Power"
 F 14 "~~" H 5100 4900 60  0001 L CNN "Status"
 F 15 "Medium Power AF Schottky Diode" H 5100 4810 60  0001 L CNN "Part Description"
 F 16 "INFINEON" H 5100 4720 60  0001 L CNN "Manufacturer"
-F 17 "BAT165" H 5100 4630 60  0001 L CNN "Manufacturer Part Number"
+F 17 "BAT165AX" H 5100 4630 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 5100 4540 60  0001 L CNN "Pin Count"
 F 19 "SOD323" H 5100 4450 60  0001 L CNN "Case"
 F 20 "Yes" H 5100 4360 60  0001 L CNN "Mounted"
@@ -1846,7 +1846,7 @@ F 13 "750mA" H 3000 4240 60  0001 L CNN "Power"
 F 14 "~~" H 3000 4150 60  0001 L CNN "Status"
 F 15 "Medium Power AF Schottky Diode" H 3000 4060 60  0001 L CNN "Part Description"
 F 16 "INFINEON" H 3000 3970 60  0001 L CNN "Manufacturer"
-F 17 "BAT165" H 3000 3880 60  0001 L CNN "Manufacturer Part Number"
+F 17 "BAT165AX" H 3000 3880 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 3000 3790 60  0001 L CNN "Pin Count"
 F 19 "SOD323" H 3000 3700 60  0001 L CNN "Case"
 F 20 "Yes" H 3000 3610 60  0001 L CNN "Mounted"
@@ -1902,7 +1902,7 @@ F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 2450 515
 F 12 "~~" H 2450 5060 60  0001 L CNN "Status"
 F 13 "250V 30mA N-Channel  SIPMOS® Small-Signal-Transistor" H 2450 4970 60  0001 L CNN "Part Description"
 F 14 "INFINEON" H 2450 4880 60  0001 L CNN "Manufacturer"
-F 15 "BSS139" H 2450 4790 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BSS139H6327XTSA1" H 2450 4790 60  0001 L CNN "Manufacturer Part Number"
 F 16 "3" H 2450 4700 60  0001 L CNN "Pin Count"
 F 17 "SOT23-3" H 2450 4610 60  0001 L CNN "Case"
 F 18 "Yes" H 2450 4520 60  0001 L CNN "Mounted"
@@ -2908,7 +2908,7 @@ F 13 "750mA" H 7950 1240 60  0001 L CNN "Power"
 F 14 "~~" H 7950 1150 60  0001 L CNN "Status"
 F 15 "Medium Power AF Schottky Diode" H 7950 1060 60  0001 L CNN "Part Description"
 F 16 "INFINEON" H 7950 970 60  0001 L CNN "Manufacturer"
-F 17 "BAT165" H 7950 880 60  0001 L CNN "Manufacturer Part Number"
+F 17 "BAT165AX" H 7950 880 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 7950 790 60  0001 L CNN "Pin Count"
 F 19 "SOD323" H 7950 700 60  0001 L CNN "Case"
 F 20 "Yes" H 7950 610 60  0001 L CNN "Mounted"
@@ -2958,7 +2958,7 @@ F 13 "750mA" H 7950 1540 60  0001 L CNN "Power"
 F 14 "~~" H 7950 1450 60  0001 L CNN "Status"
 F 15 "Medium Power AF Schottky Diode" H 7950 1360 60  0001 L CNN "Part Description"
 F 16 "INFINEON" H 7950 1270 60  0001 L CNN "Manufacturer"
-F 17 "BAT165" H 7950 1180 60  0001 L CNN "Manufacturer Part Number"
+F 17 "BAT165AX" H 7950 1180 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 7950 1090 60  0001 L CNN "Pin Count"
 F 19 "SOD323" H 7950 1000 60  0001 L CNN "Case"
 F 20 "Yes" H 7950 910 60  0001 L CNN "Mounted"
