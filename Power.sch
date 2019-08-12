@@ -77,8 +77,6 @@ $EndComp
 Wire Wire Line
 	3600 2400 3600 2150
 Wire Wire Line
-	3600 1850 4000 1850
-Wire Wire Line
 	1450 1850 1900 1850
 Wire Wire Line
 	2850 2600 2950 2600
@@ -4651,6 +4649,24 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    10750 5700
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	3600 1850 3750 1850
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D69DB0F
+P 3750 1850
+AR Path="/5BABAC65/5D69DB0F" Ref="#FLG?"  Part="1" 
+AR Path="/5C16BF8E/5D69DB0F" Ref="#FLG0110"  Part="1" 
+F 0 "#FLG0110" H 3750 1925 50  0001 C CNN
+F 1 "PWR_FLAG" H 3750 2023 50  0000 C CNN
+F 2 "" H 3750 1850 50  0001 C CNN
+F 3 "~" H 3750 1850 50  0001 C CNN
+	1    3750 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 1850
+Wire Wire Line
+	3750 1850 4000 1850
 Wire Bus Line
 	2100 8250 2100 9850
 $EndSCHEMATC

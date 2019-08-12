@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 25
+Sheet 10 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -1431,19 +1431,6 @@ $EndComp
 Wire Wire Line
 	4300 3250 4300 3350
 Connection ~ 4300 3350
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5D1E6ECD
-P 1600 1950
-AR Path="/5BABAC65/5D1E6ECD" Ref="#FLG?"  Part="1" 
-AR Path="/5CC8AFE1/5D1E6ECD" Ref="#FLG0110"  Part="1" 
-F 0 "#FLG0110" H 1600 2025 50  0001 C CNN
-F 1 "PWR_FLAG" H 1600 2123 50  0000 C CNN
-F 2 "" H 1600 1950 50  0001 C CNN
-F 3 "~" H 1600 1950 50  0001 C CNN
-	1    1600 1950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5D1E8B75

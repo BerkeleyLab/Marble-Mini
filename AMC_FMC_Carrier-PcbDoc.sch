@@ -2108,12 +2108,6 @@ Text Notes 11600 9650 0    50   ~ 10
 MISC
 Text Notes 12600 8600 0    50   ~ 10
 MISC
-Wire Notes Line
-	12950 9600 12350 9600
-Wire Notes Line
-	12350 8450 12950 8450
-Wire Notes Line
-	12350 8450 12350 9600
 Text Notes 11500 5350 0    50   ~ 10
 CLK
 Wire Notes Line
@@ -2361,4 +2355,12 @@ Wire Notes Line
 	11350 4950 12050 4950
 Wire Notes Line
 	11350 3950 12050 3950
+Wire Notes Line
+	12350 8550 12350 9550
+Wire Notes Line
+	12450 8450 12450 9600
+Wire Notes Line
+	12450 9600 12950 9600
+Wire Notes Line
+	12450 8450 12950 8450
 $EndSCHEMATC
