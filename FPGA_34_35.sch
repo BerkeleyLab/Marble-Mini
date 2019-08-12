@@ -262,7 +262,7 @@ Text Label 10400 6550 0    50   ~ 10
 DDR3_A8
 Text Label 10400 6850 0    50   ~ 10
 DDR3_A9
-Text Label 10400 5350 0    50   ~ 10
+Text Label 10400 6150 0    50   ~ 10
 DDR3_A10
 Text Label 10400 7350 0    50   ~ 10
 DDR3_A11
@@ -275,7 +275,7 @@ DDR3_A14
 Wire Wire Line
 	10800 5250 10350 5250
 Wire Wire Line
-	10800 5350 10350 5350
+	10800 6150 10350 6150
 Wire Wire Line
 	10800 5450 10350 5450
 Wire Wire Line
@@ -283,7 +283,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 5850 10350 5850
 Wire Wire Line
-	10800 6150 10350 6150
+	10800 3750 10350 3750
 Wire Wire Line
 	10800 6350 10350 6350
 Wire Wire Line
@@ -380,7 +380,7 @@ Text Label 10400 5750 0    50   ~ 10
 DDR3_BA1
 Text Label 10400 5550 0    50   ~ 10
 DDR3_CKE
-Text Label 10400 4050 0    50   ~ 10
+Text Label 10400 5350 0    50   ~ 10
 DDR3_WE
 Text Label 10400 5150 0    50   ~ 10
 DDR3_RAS
@@ -437,7 +437,7 @@ Text Label 10400 4850 0    50   ~ 10
 DDR3_DQ2
 Text Label 10400 4550 0    50   ~ 10
 DDR3_DQ3
-Text Label 10400 3750 0    50   ~ 10
+Text Label 10400 4050 0    50   ~ 10
 DDR3_DQ4
 Text Label 10400 3850 0    50   ~ 10
 DDR3_DQ5
@@ -506,7 +506,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 4450 10350 4450
 Wire Wire Line
-	10800 4050 10350 4050
+	10800 5350 10350 5350
 Wire Wire Line
 	10800 3950 10350 3950
 Wire Wire Line
@@ -598,8 +598,8 @@ Wire Wire Line
 Text Label 11450 3850 0    50   ~ 10
 DDR3_A15
 Wire Wire Line
-	10350 3750 10800 3750
-Text Label 10400 6150 0    50   ~ 10
+	10350 4050 10800 4050
+Text Label 10400 3750 0    50   ~ 10
 DDR3_A15
 Text Label 6200 5250 2    50   ~ 10
 FMC2_LA_0_P
