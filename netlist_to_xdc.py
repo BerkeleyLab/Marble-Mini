@@ -7,7 +7,7 @@ import sys
 #   result shows up as AMC_FMC_Carrier-PcbDoc.net
 # Finally from the command line run
 #   "python3 netlist_to_xdc AMC_FMC_Carrier_PcbDoc.net"
-#   result shows up as myfile.xdc
+#   result shows up as Marble.xdc
 
 io_type = {
     '/SDRAM/': 'SSTL135',
@@ -58,7 +58,7 @@ def main(filename):
             res = i
     fpga_index = data.index(res)
 
-    out_file = "myfile.xdc"
+    out_file = "Marble.xdc"
     f = open(out_file, "w")
     cnt = 0
     for row in data[fpga_index+1:fpga_index+485]:

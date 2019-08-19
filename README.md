@@ -38,4 +38,14 @@ Note: Electrical Rules Checker reports 10 errors and 11  warnings. All of them a
 Note: U1 is compatible with XC7A35T through XC7A200T; need XC7A75T or larger
 to get all User I/O of dual-LPC-FMC
 
+## Xilinx constrain file
+
+Somewhat specialized tool for creating an xdc file for the Marble board, based on a netlist file exported from KiCad.
+In the KiCad (version 5.1.x) schematic GUI (eeschema): 
+* use menu picks Tools / Generate Netlist File
+* OrcadPCB2 tab / Generate Netlist / Save
+* result shows up as AMC_FMC_Carrier-PcbDoc.net
+* Finally from the command line run "python3 netlist_to_xdc AMC_FMC-Carrier_PcbDoc.net"
+* result shows up as Marble.xdc
+
 
