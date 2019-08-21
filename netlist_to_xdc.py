@@ -11,17 +11,17 @@ import sys
 
 io_type = {
     '/SDRAM/': 'SSTL135',
-    '/ETH_PHY/': 'HSTL_I_18',
+    '/ETH_PHY/': 'LVCMOS25',
     '/FPGA/FPGA_MGT/': 'DIFF_SSTL15',
     '/FPGA/FPGA_15_16/': 'LVCMOS33',
     '/PMOD/': 'LVCMOS33',
-    '/AMC_connector/': 'DIFF_HSTL_II_18',
+    '/AMC_connector/': 'LVCMOS25',
     '/FPGA/FPGA_13_14/': 'LVCMOS25',
     '/FMC_2/': 'DIFF_HSTL_II_25',
     '/FMC_1/': 'DIFF_HSTL_II_25',
     '/FPGA/': 'LVCMOS33',
     '/FPGA/FPGA_PWR&MISC/': 'LVCMOS33',
-    '/': 'LVCMOS33'
+    '/': 'LVCMOS25'
 }
 
 
