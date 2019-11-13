@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:AMC_FMC_Carrier-PcbDoc-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1487,25 +1487,25 @@ F 3 "" H 11950 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistors:BSS139 Q19
+L Transistors:BSS138LT1G Q19
 U 1 1 5D220E28
 P 15150 5200
 F 0 "Q19" H 15469 5296 50  0000 L CNN
-F 1 "BSS139" H 15469 5205 50  0000 L CNN
-F 2 "SOT95P240X110-3N" H 15150 3990 60  0001 L CNN
+F 1 "BSS138LT1G" H 15469 5205 50  0000 L CNN
+F 2 "ICs And Semiconductors SMD:SOT95P240X110-3N" H 15150 3990 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS139.pdf" H 15150 4710 60  0001 L CNN
-F 4 "BSS139" H 15150 4620 60  0001 L CNN "Part Number"
+F 4 "BSS138LT1G" H 15150 4620 60  0001 L CNN "Part Number"
 F 5 "N-MOSFET-D 1G 2S 3D" H 15150 4530 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Transistors.SchLib" H 15150 4440 60  0001 L CNN "Library Path"
-F 7 "=Device" H 15150 4350 60  0001 L CNN "Comment"
+F 7 "BSS138LT1G" H 15150 4350 60  0001 L CNN "Comment"
 F 8 "Standard" H 15150 4260 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 15150 4170 60  0001 L CNN "Component Type"
-F 10 "BSS139" H 15150 4080 60  0001 L CNN "Device"
+F 10 "BSS138LT1G" H 15150 4080 60  0001 L CNN "Device"
 F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 15150 3900 60  0001 L CNN "PackageDescription"
-F 12 "~~" H 15150 3810 60  0001 L CNN "Status"
-F 13 "250V 30mA N-Channel  SIPMOS® Small-Signal-Transistor" H 15150 3720 60  0001 L CNN "Part Description"
-F 14 "INFINEON" H 15150 3630 60  0001 L CNN "Manufacturer"
-F 15 "BSS139H6327XTSA1" H 15150 3540 60  0001 L CNN "Manufacturer Part Number"
+F 12 " " H 15150 3810 60  0001 L CNN "Status"
+F 13 "50V 200mA N-Channel Enhancement Mode Field-Effect Transistor" H 15150 3720 60  0001 L CNN "Part Description"
+F 14 "ON SEMICONDUCTOR" H 15150 3630 60  0001 L CNN "Manufacturer"
+F 15 "BSS138LT1G" H 15150 3540 60  0001 L CNN "Manufacturer Part Number"
 F 16 "3" H 15150 3450 60  0001 L CNN "Pin Count"
 F 17 "SOT23-3" H 15150 3360 60  0001 L CNN "Case"
 F 18 "Yes" H 15150 3270 60  0001 L CNN "Mounted"
@@ -1513,22 +1513,25 @@ F 19 "No" H 15150 3180 60  0001 L CNN "Socket"
 F 20 "No" H 15150 3090 60  0001 L CNN "PressFit"
 F 21 "Yes" H 15150 3000 60  0001 L CNN "SMD"
 F 22 "No" H 15150 2910 60  0001 L CNN "Sense"
-F 23 "~~" H 15150 2820 60  0001 L CNN "Sense Comment"
+F 23 " " H 15150 2820 60  0001 L CNN "Sense Comment"
 F 24 "No" H 15150 2730 60  0001 L CNN "Bonding"
-F 25 "~~" H 15150 2640 60  0001 L CNN "Status Comment"
-F 26 "1.1mm" H 15150 2550 60  0001 L CNN "ComponentHeight"
+F 25 " " H 15150 2640 60  0001 L CNN "Status Comment"
+F 26 "1.11mm" H 15150 2550 60  0001 L CNN "ComponentHeight"
 F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 15150 2460 60  0001 L CNN "Footprint Path"
 F 28 "SOT95P240X110-3N" H 15150 2370 60  0001 L CNN "Footprint Ref"
 F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS139.pdf" H 15150 2280 60  0001 L CNN "HelpURL"
 F 30 "~~" H 15150 2190 60  0001 L CNN "ComponentLink1URL"
-F 31 "~~" H 15150 2100 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 15150 2100 60  0001 L CNN "ComponentLink1Description"
 F 32 "~~" H 15150 2010 60  0001 L CNN "ComponentLink2URL"
-F 33 "~~" H 15150 1920 60  0001 L CNN "ComponentLink2Description"
+F 33 " " H 15150 1920 60  0001 L CNN "ComponentLink2Description"
 F 34 "CERN DEM JLC" H 15150 1830 60  0001 L CNN "Author"
-F 35 "09/23/14 00:00:00" H 15150 1740 60  0001 L CNN "CreateDate"
-F 36 "09/23/14 00:00:00" H 15150 1650 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 15150 1560 60  0001 L CNN "Library Name"
+F 35 "03/23/09 00:00:00" H 15150 1740 60  0001 L CNN "CreateDate"
+F 36 "03/23/09 00:00:00" H 15150 1650 60  0001 L CNN "LatestRevisionDate"
+F 37 "ICs And Semiconductors.DbLib" H 15150 1560 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 15150 1470 60  0001 L CNN "License"
+F 39 "Transistors" H 15150 5200 50  0001 C CNN "Database Table Name"
+F 40 "ICs And Semiconductors SMD" H 15150 5200 50  0001 C CNN "Footprint Library"
+F 41 " " H 15150 5200 50  0001 C CNN "SCEM"
 	1    15150 5200
 	1    0    0    -1  
 $EndComp

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:AMC_FMC_Carrier-PcbDoc-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1363,6 +1363,7 @@ F 40 "02/01/17 00:00:00" H 6550 2870 60  0001 L CNN "CreateDate"
 F 41 "02/01/17 00:00:00" H 6550 2780 60  0001 L CNN "LatestRevisionDate"
 F 42 "Fuses" H 6550 2690 60  0001 L CNN "Library Name"
 F 43 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6550 2600 60  0001 L CNN "License"
+F 44 "dnf" H 6700 6500 50  0000 C CNN "config"
 	1    6550 6600
 	1    0    0    -1  
 $EndComp

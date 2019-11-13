@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:AMC_FMC_Carrier-PcbDoc-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -695,7 +695,7 @@ U 1 1 5F9465E2
 P 12200 3300
 AR Path="/5C907554/5CAAC367/5F9465E2" Ref="R?"  Part="1" 
 AR Path="/5C907554/5CC8CB69/5F9465E2" Ref="R221"  Part="1" 
-F 0 "R221" V 12304 3360 50  0000 L CNN
+F 0 "R221" V 12300 3350 50  0000 L CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 12200 3090 60  0001 L CNN
 F 2 "RESC1005X40N" H 12200 2280 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 12200 2910 60  0001 L CNN
@@ -737,7 +737,7 @@ F 38 "12/03/07 00:00:00" H 12200 -240 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 12200 -330 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 12200 -420 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12200 -510 60  0001 L CNN "License"
-F 42 "dnf" V 12200 3400 50  0000 C CNN "config"
+F 42 "dnf" V 12200 3350 50  0000 L CNN "config"
 	1    12200 3300
 	0    1    1    0   
 $EndComp
@@ -942,6 +942,7 @@ F 38 "12/03/07 00:00:00" H 12150 -1540 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 12150 -1630 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 12150 -1720 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12150 -1810 60  0001 L CNN "License"
+F 42 "dnf" H 12500 2000 50  0000 C CNN "config"
 	1    12150 2000
 	1    0    0    -1  
 $EndComp
