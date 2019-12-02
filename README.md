@@ -1,8 +1,9 @@
-# Marble board
+# Marble-Mini board
 
 LBNL-Creotech collaboration: Dual FMC (LPC) NAD/AMC Carrier
 
-A general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications
+A general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications,
+with features relevant for deployment to unattended sites (e.g., accelerator service galleries).
 
 ## Original concept:
 
@@ -17,12 +18,13 @@ A general purpose carrier board, sized to satisfy needs of some BPM and LLRF app
 ## Tools
 
 The schematic/layout tool used is [KiCad EDA](http://www.kicad-pcb.org/)
-version 5.1.2.  Other versions will very likely either not read the files
+version 5.1.2 or later in the 5.1.x series.
+Other versions will very likely either not read the files
 in this repo, or will save files that are not compatible with
 collaborators' reference installations.
 We also make use of [KiBoM](https://github.com/SchrodingersGat/KiBoM).
 
-Note: Electrical Rules Checker reports 10 errors and 11  warnings. All of them are caused by errors in the library models. In order to remove them, the corresponding ERC settings should be deactivated (for errors: Output pin <-> Output pin, Power output pin <-> Power output pin, Power output pin <-> Output pin, Open collector <-> Output pin, and for warnings: Power output pin <-> Bidirectional pin).  
+Note: Electrical Rules Checker reports 10 errors and 11 warnings. All of them are caused by errors in the library models. In order to remove them, the corresponding ERC settings should be deactivated (for errors: Output pin <-> Output pin, Power output pin <-> Power output pin, Power output pin <-> Output pin, Open collector <-> Output pin, and for warnings: Power output pin <-> Bidirectional pin).
 
 ## Major Parts
 
@@ -38,14 +40,13 @@ Note: Electrical Rules Checker reports 10 errors and 11  warnings. All of them a
 Note: U1 is compatible with XC7A35T through XC7A200T; need XC7A75T or larger
 to get all User I/O of dual-LPC-FMC
 
-## Xilinx constrain file
+## Xilinx constraint file
 
-Somewhat specialized tool for creating an xdc file for the Marble board, based on a netlist file exported from KiCad.
-In the KiCad (version 5.1.x) schematic GUI (eeschema): 
+We have a somewhat specialized tool for creating an xdc file for this board,
+based on a netlist file exported from KiCad.
+In the KiCad (version 5.1.x) schematic GUI (eeschema):
 * use menu picks Tools / Generate Netlist File
 * OrcadPCB2 tab / Generate Netlist / Save
 * result shows up as AMC_FMC_Carrier-PcbDoc.net
-* Finally from the command line run "python3 netlist_to_xdc AMC_FMC_Carrier-PcbDoc.net"
+* Finally from the command line run "python3 netlist_to_xdc.py AMC_FMC_Carrier-PcbDoc.net"
 * result shows up as Marble.xdc
-
-
