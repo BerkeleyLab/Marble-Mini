@@ -1,9 +1,8 @@
 # Marble-Mini board
 
-LBNL-Creotech collaboration: Dual FMC (LPC) NAD/AMC Carrier
+Marble-mini is a Dual FMC (LPC) AMC FPGA carrier with a Xilinx Artix-7 FPGA. It's a general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications, with features relevant for deployment to unattended sites (e.g., accelerator service galleries).
 
-A general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications,
-with features relevant for deployment to unattended sites (e.g., accelerator service galleries).
+This design is the result of a collaboration between [LBNL](https://www.lbl.gov/) and [CreoTECH](http://creotech.pl/en/home/).
 
 ## Original concept:
 
