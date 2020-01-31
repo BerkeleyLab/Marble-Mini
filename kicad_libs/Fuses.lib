@@ -1,0 +1,57 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# FUS0603_BOURNS-SF-0603F050-2
+#
+DEF FUS0603_BOURNS-SF-0603F050-2 F 0 50 Y Y 1 L N
+F0 "F" 150 70 50 H V C CNN
+F1 "Fuses_FUS0603_BOURNS-SF-0603F050-2" 0 -205 50 H I L CNN
+F2 "Fuses:FUSC_BOURNS_SF-0603S" 0 -280 50 H I L CNN
+F3 " " 0 -355 50 H I L CNN
+F4 "500mA-50V" 150 -80 50 H V C CNN "Val"
+F5 "FUS0603_BOURNS-SF-0603F050-2" 0 -430 50 H I L CNN "Part Number"
+F6 "Fuse" 0 -505 50 H I L CNN "Library Ref"
+F7 "SchLib\\Fuses.SchLib" 0 -580 50 H I L CNN "Library Path"
+F8 "500mA-50V" 0 -655 50 H I L CNN "Comment"
+F9 "Standard" 0 -730 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -805 50 H I L CNN "Component Type"
+F11 "2" 0 -880 50 H I L CNN "Pin Count"
+F12 "0603" 0 -955 50 H I L CNN "Case"
+F13 "PcbLib\\Fuses.PcbLib" 0 -1030 50 H I L CNN "Footprint Path"
+F14 "FUSC_BOURNS_SF-0603S" 0 -1105 50 H I L CNN "Footprint Ref"
+F15 "Chip Fuse, 2-Leads, Body 1.6mm x 0.8mm, IPC Medium Density" 0 -1180 50 H I L CNN "PackageDescription"
+F16 "Fuse" 0 -1255 50 H I L CNN "Family"
+F17 "Yes" 0 -1330 50 H I L CNN "Mounted"
+F18 "No" 0 -1405 50 H I L CNN "Socket"
+F19 "Yes" 0 -1480 50 H I L CNN "SMD"
+F20 "No" 0 -1555 50 H I L CNN "PressFit"
+F21 "No" 0 -1630 50 H I L CNN "Sense"
+F22 " " 0 -1705 50 H I L CNN "Sense Comment"
+F23 " " 0 -1780 50 H I L CNN "Status"
+F24 " " 0 -1855 50 H I L CNN "Status Comment"
+F25 " " 0 -1930 50 H I L CNN "SCEM"
+F26 "Fast Acting Thin Film Chip Fuse for Overcurrent Protection, SinglFuse™ SF-0603F  Series" 0 -2005 50 H I L CNN "Part Description"
+F27 "BOURNS" 0 -2080 50 H I L CNN "Manufacturer"
+F28 "SF-0603F050-2" 0 -2155 50 H I L CNN "Manufacturer Part Number"
+F29 "0.55mm" 0 -2230 50 H I L CNN "ComponentHeight"
+F30 " " 0 -2305 50 H I L CNN "Manufacturer1 Example"
+F31 " " 0 -2380 50 H I L CNN "Manufacturer1 Part Number"
+F32 " " 0 -2455 50 H I L CNN "Manufacturer1 ComponentHeight"
+F33 " " 0 -2530 50 H I L CNN "ComponentLink1Description"
+F34 " " 0 -2605 50 H I L CNN "ComponentLink2Description"
+F35 "CERN DEM JLC" 0 -2680 50 H I L CNN "Author"
+F36 "02/01/17 00:00:00" 0 -2755 50 H I L CNN "CreateDate"
+F37 "02/01/17 00:00:00" 0 -2830 50 H I L CNN "LatestRevisionDate"
+F38 "Fuses" 0 -2905 50 H I L CNN "Database Table Name"
+F39 "Eletro-mechanical.DbLib" 0 -2980 50 H I L CNN "Library Name"
+F40 "Fuses" 0 -3055 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3130 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 60 0 240 0 N
+P 3 0 1 10 60 -30 60 30 240 30 N
+P 3 0 1 10 60 -30 240 -30 240 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
