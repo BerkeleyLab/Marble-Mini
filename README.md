@@ -1,6 +1,7 @@
 # Marble-Mini board
 
-Marble-mini is a Dual FMC (LPC) AMC FPGA carrier with a Xilinx Artix-7 FPGA. It's a general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications, with features relevant for deployment to unattended sites (e.g., accelerator service galleries).
+Marble-mini is a Dual FMC (LPC) AMC FPGA carrier with a Xilinx Artix-7 FPGA. It's a general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications.
+It includes features relevant for deployment to unattended sites (e.g., accelerator service galleries), as well as for general development and testing.
 
 This design is the result of a collaboration between [LBNL](https://www.lbl.gov/) and [CreoTECH](http://creotech.pl/en/home/).
 
@@ -13,6 +14,17 @@ This design is the result of a collaboration between [LBNL](https://www.lbl.gov/
 ## (Almost) Reality:
 
 ![layout](marble_top.png)
+
+## Configuration
+
+At assembly time this design can be configured either as a Network Attached Device (NAD, sometimes called Pizza Box) or as an AMC (mTCA) card.  Skilled rework could convert one to the other.
+
+In NAD configuration, the four GTP ports of the FPGA are connected to
+SFP slots, and Ethernet is brought out on a usual 8P8C "RJ45" connector.
+In AMC configuration, the four GTP ports of the FPGA are connected to PCIe
+lanes of the AMC backplane, and Ethernet is also connected to the backplane.
+Configuration of the GTP port routing is accomplished with placement of
+0201 (0603 Metric) coupling capacitors.
 
 ## Tools
 
