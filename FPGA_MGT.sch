@@ -143,7 +143,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 3300 9700 3300
 $Comp
-L marble_misc:XC7A200T-FBG484-FPGA_Xilinx_Artix7-AMC_FMC_Carrier-PcbDoc-rescue U?
+L marble_misc:XC7A200T-FBG484-FPGA_Xilinx_Artix7 U?
 U 4 1 5E1BB549
 P 2100 2150
 AR Path="/5C907554/5E1BB549" Ref="U?"  Part="4" 

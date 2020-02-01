@@ -15,7 +15,7 @@ Comment3 "AMC connector"
 Comment4 ""
 $EndDescr
 $Comp
-L marble_misc:CMP-0001-00058-2-AMC-AMC_FMC_Carrier-PcbDoc-rescue P?
+L marble_misc:CMP-0001-00058-2-AMC P?
 U 1 1 5BD3210B
 P 1550 7900
 AR Path="/5BD3210B" Ref="P?"  Part="1" 
@@ -1332,7 +1332,7 @@ Tx_7_N
 Text Label 8050 7500 1    50   ~ 10
 Tx_7_P
 $Comp
-L marble_misc:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR029
+L marble_misc:+12V_AMC #PWR029
 U 1 1 5DEC6F0B
 P 1750 6500
 F 0 "#PWR029" H 1750 6350 50  0001 C CNN
@@ -1348,7 +1348,7 @@ Connection ~ 1750 6500
 Wire Wire Line
 	1750 6500 1750 7700
 $Comp
-L marble_misc:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR031
+L marble_misc:+12V_AMC #PWR031
 U 1 1 5DF1FECB
 P 2450 6500
 F 0 "#PWR031" H 2450 6350 50  0001 C CNN
@@ -1359,7 +1359,7 @@ F 3 "" H 2450 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR032
+L marble_misc:+12V_AMC #PWR032
 U 1 1 5DF4CACF
 P 3350 6500
 F 0 "#PWR032" H 3350 6350 50  0001 C CNN
@@ -1370,7 +1370,7 @@ F 3 "" H 3350 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR033
+L marble_misc:+12V_AMC #PWR033
 U 1 1 5DFD25BA
 P 4250 6500
 F 0 "#PWR033" H 4250 6350 50  0001 C CNN
@@ -1381,7 +1381,7 @@ F 3 "" H 4250 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR034
+L marble_misc:+12V_AMC #PWR034
 U 1 1 5DFFEFC3
 P 5750 6500
 F 0 "#PWR034" H 5750 6350 50  0001 C CNN
@@ -1392,7 +1392,7 @@ F 3 "" H 5750 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR035
+L marble_misc:+12V_AMC #PWR035
 U 1 1 5E02B9CC
 P 7250 6500
 F 0 "#PWR035" H 7250 6350 50  0001 C CNN
@@ -1403,7 +1403,7 @@ F 3 "" H 7250 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR036
+L marble_misc:+12V_AMC #PWR036
 U 1 1 5E0583D5
 P 8750 6500
 F 0 "#PWR036" H 8750 6350 50  0001 C CNN
@@ -1414,7 +1414,7 @@ F 3 "" H 8750 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR037
+L marble_misc:+12V_AMC #PWR037
 U 1 1 5E084DDE
 P 9950 6500
 F 0 "#PWR037" H 9950 6350 50  0001 C CNN

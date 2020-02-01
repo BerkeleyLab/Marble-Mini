@@ -15,7 +15,7 @@ Comment3 "USB"
 Comment4 ""
 $EndDescr
 $Comp
-L marble_misc:HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue J10
+L marble_misc:HIROSE_ZX62RD-AB-5P8-Miscellaneous J10
 U 1 1 5BEB92E1
 P 1700 3500
 F 0 "J10" H 2329 3146 50  0000 L CNN
@@ -63,7 +63,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0296
+L marble_misc:+1V8_USB #PWR0296
 U 1 1 5BEBDA76
 P 5900 3250
 F 0 "#PWR0296" H 5900 3100 50  0001 C CNN
@@ -4370,7 +4370,7 @@ F 3 "" H 10000 8950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0275
+L marble_misc:+3V3_USB #PWR0275
 U 1 1 5E0639EB
 P 5900 1850
 F 0 "#PWR0275" H 5900 1700 50  0001 C CNN
@@ -4381,7 +4381,7 @@ F 3 "" H 5900 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0277
+L marble_misc:+3V3_USB #PWR0277
 U 1 1 5E0910B1
 P 6350 3300
 F 0 "#PWR0277" H 6350 3150 50  0001 C CNN
@@ -4392,7 +4392,7 @@ F 3 "" H 6350 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0279
+L marble_misc:+3V3_USB #PWR0279
 U 1 1 5E0AE015
 P 8300 2950
 F 0 "#PWR0279" H 8300 2800 50  0001 C CNN
@@ -4403,7 +4403,7 @@ F 3 "" H 8300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0281
+L marble_misc:+3V3_USB #PWR0281
 U 1 1 5E0CAFF4
 P 11300 1500
 F 0 "#PWR0281" H 11300 1350 50  0001 C CNN
@@ -4414,7 +4414,7 @@ F 3 "" H 11300 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0282
+L marble_misc:+3V3_USB #PWR0282
 U 1 1 5E0E7F6F
 P 11550 2700
 F 0 "#PWR0282" H 11550 2550 50  0001 C CNN
@@ -4471,7 +4471,7 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0284
+L marble_misc:+3V3_USB #PWR0284
 U 1 1 5E1142BD
 P 11300 3450
 F 0 "#PWR0284" H 11300 3300 50  0001 C CNN
@@ -4482,7 +4482,7 @@ F 3 "" H 11300 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0285
+L marble_misc:+3V3_USB #PWR0285
 U 1 1 5E131666
 P 11300 2250
 F 0 "#PWR0285" H 11300 2100 50  0001 C CNN
@@ -4493,7 +4493,7 @@ F 3 "" H 11300 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0294
+L marble_misc:+3V3_USB #PWR0294
 U 1 1 5E14E7E2
 P 11300 4200
 F 0 "#PWR0294" H 11300 4050 50  0001 C CNN
@@ -4504,7 +4504,7 @@ F 3 "" H 11300 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0304
+L marble_misc:+3V3_USB #PWR0304
 U 1 1 5E16BA3D
 P 11550 4650
 F 0 "#PWR0304" H 11550 4500 50  0001 C CNN
@@ -4515,7 +4515,7 @@ F 3 "" H 11550 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0306
+L marble_misc:+3V3_USB #PWR0306
 U 1 1 5E1A590C
 P 13600 7250
 F 0 "#PWR0306" H 13600 7100 50  0001 C CNN
@@ -4526,7 +4526,7 @@ F 3 "" H 13600 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0307
+L marble_misc:+3V3_USB #PWR0307
 U 1 1 5E1B4270
 P 13250 6100
 F 0 "#PWR0307" H 13250 5950 50  0001 C CNN
@@ -4537,7 +4537,7 @@ F 3 "" H 13250 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0309
+L marble_misc:+3V3_USB #PWR0309
 U 1 1 5E1C2F5B
 P 13350 6800
 F 0 "#PWR0309" H 13350 6650 50  0001 C CNN
@@ -4550,7 +4550,7 @@ $EndComp
 Wire Wire Line
 	13250 6100 13400 6100
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0311
+L marble_misc:+3V3_USB #PWR0311
 U 1 1 5E1E0E93
 P 11300 7050
 F 0 "#PWR0311" H 11300 6900 50  0001 C CNN
@@ -4561,7 +4561,7 @@ F 3 "" H 11300 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0316
+L marble_misc:+3V3_USB #PWR0316
 U 1 1 5E20CA7E
 P 11300 7650
 F 0 "#PWR0316" H 11300 7500 50  0001 C CNN
@@ -4572,7 +4572,7 @@ F 3 "" H 11300 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0319
+L marble_misc:+3V3_USB #PWR0319
 U 1 1 5E24786F
 P 10050 8150
 F 0 "#PWR0319" H 10050 8000 50  0001 C CNN
@@ -4583,7 +4583,7 @@ F 3 "" H 10050 8150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0325
+L marble_misc:+3V3_USB #PWR0325
 U 1 1 5E28111D
 P 10000 8850
 F 0 "#PWR0325" H 10000 8700 50  0001 C CNN
@@ -4594,7 +4594,7 @@ F 3 "" H 10000 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0327
+L marble_misc:+3V3_USB #PWR0327
 U 1 1 5E29D842
 P 7200 8950
 F 0 "#PWR0327" H 7200 8800 50  0001 C CNN
@@ -4605,7 +4605,7 @@ F 3 "" H 7200 8950 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0328
+L marble_misc:+3V3_USB #PWR0328
 U 1 1 5E2AB899
 P 7200 9050
 F 0 "#PWR0328" H 7200 8900 50  0001 C CNN
@@ -4616,7 +4616,7 @@ F 3 "" H 7200 9050 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0330
+L marble_misc:+3V3_USB #PWR0330
 U 1 1 5E2C78AB
 P 7250 9650
 F 0 "#PWR0330" H 7250 9500 50  0001 C CNN
@@ -4627,7 +4627,7 @@ F 3 "" H 7250 9650 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0332
+L marble_misc:+3V3_USB #PWR0332
 U 1 1 5E2E3981
 P 11550 8100
 F 0 "#PWR0332" H 11550 7950 50  0001 C CNN
@@ -4638,7 +4638,7 @@ F 3 "" H 11550 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0335
+L marble_misc:+3V3_USB #PWR0335
 U 1 1 5E30DBBE
 P 10250 9300
 F 0 "#PWR0335" H 10250 9150 50  0001 C CNN
@@ -4649,7 +4649,7 @@ F 3 "" H 10250 9300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0337
+L marble_misc:+3V3_USB #PWR0337
 U 1 1 5E329CA2
 P 7000 10100
 F 0 "#PWR0337" H 7000 9950 50  0001 C CNN
@@ -4660,7 +4660,7 @@ F 3 "" H 7000 10100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0339
+L marble_misc:+3V3_USB #PWR0339
 U 1 1 5E345D17
 P 5200 8000
 F 0 "#PWR0339" H 5200 7850 50  0001 C CNN
@@ -4672,7 +4672,7 @@ F 3 "" H 5200 8000 50  0001 C CNN
 $EndComp
 Connection ~ 5200 8000
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0341
+L marble_misc:+3V3_USB #PWR0341
 U 1 1 5E37DE16
 P 5200 7200
 F 0 "#PWR0341" H 5200 7050 50  0001 C CNN
@@ -4683,7 +4683,7 @@ F 3 "" H 5200 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0343
+L marble_misc:+3V3_USB #PWR0343
 U 1 1 5E399F01
 P 4900 6500
 F 0 "#PWR0343" H 4900 6350 50  0001 C CNN
@@ -4694,7 +4694,7 @@ F 3 "" H 4900 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0478
+L marble_misc:+3V3_USB #PWR0478
 U 1 1 5E3B5F64
 P 4900 5800
 F 0 "#PWR0478" H 4900 5650 50  0001 C CNN
@@ -4705,7 +4705,7 @@ F 3 "" H 4900 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0479
+L marble_misc:+3V3_USB #PWR0479
 U 1 1 5E3DFF47
 P 4050 6550
 F 0 "#PWR0479" H 4050 6400 50  0001 C CNN
@@ -4716,7 +4716,7 @@ F 3 "" H 4050 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0480
+L marble_misc:+3V3_USB #PWR0480
 U 1 1 5E3EE00F
 P 3450 6200
 F 0 "#PWR0480" H 3450 6050 50  0001 C CNN
@@ -4727,7 +4727,7 @@ F 3 "" H 3450 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0599
+L marble_misc:+3V3_USB #PWR0599
 U 1 1 5E40A0AB
 P 3650 7250
 F 0 "#PWR0599" H 3650 7100 50  0001 C CNN
@@ -4738,7 +4738,7 @@ F 3 "" H 3650 7250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0601
+L marble_misc:+3V3_USB #PWR0601
 U 1 1 5E4346A3
 P 8000 8800
 F 0 "#PWR0601" H 8000 8650 50  0001 C CNN
@@ -4945,7 +4945,7 @@ Wire Wire Line
 	6000 9900 5850 9900
 Connection ~ 6000 9450
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0643
+L marble_misc:+3V3_USB #PWR0643
 U 1 1 5CE79DFD
 P 5150 9500
 F 0 "#PWR0643" H 5150 9350 50  0001 C CNN
@@ -5293,7 +5293,7 @@ Wire Wire Line
 	4700 10550 4800 10550
 Connection ~ 5150 10550
 $Comp
-L marble_misc:+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR0645
+L marble_misc:+3V3_USB #PWR0645
 U 1 1 5D07178D
 P 5700 10550
 F 0 "#PWR0645" H 5700 10400 50  0001 C CNN

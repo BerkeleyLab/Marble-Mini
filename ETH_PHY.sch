@@ -294,7 +294,7 @@ RGMII_RX_DV
 Text HLabel 9350 3600 2    50   Input ~ 10
 RGMII_RX_CLK
 $Comp
-L marble_misc:Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue OSC1
+L marble_misc:Oscillator OSC1
 U 1 1 5C76AE78
 P 4600 3400
 F 0 "OSC1" H 4900 3567 50  0000 C CNN

@@ -15,7 +15,7 @@ Comment3 "MMC"
 Comment4 ""
 $EndDescr
 $Comp
-L marble_misc:LPC1776FET180,551-lpc1776fet180,551-AMC_FMC_Carrier-PcbDoc-rescue U?
+L marble_misc:LPC1776FET180,551-lpc1776fet180,551 U?
 U 5 1 5BDFEB43
 P 8600 7800
 AR Path="/5BDFEB43" Ref="U?"  Part="1" 
@@ -29,7 +29,7 @@ F 4 "LPC1776FET180,551" H 8600 7800 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:LPC1776FET180,551-lpc1776fet180,551-AMC_FMC_Carrier-PcbDoc-rescue U?
+L marble_misc:LPC1776FET180,551-lpc1776fet180,551 U?
 U 1 1 5BE07B67
 P 4550 850
 AR Path="/5BE07B67" Ref="U?"  Part="3" 
@@ -43,7 +43,7 @@ F 4 "LPC1776FET180,551" H 4550 850 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:LPC1776FET180,551-lpc1776fet180,551-AMC_FMC_Carrier-PcbDoc-rescue U?
+L marble_misc:LPC1776FET180,551-lpc1776fet180,551 U?
 U 2 1 5BE0A46F
 P 13050 4700
 AR Path="/5BE0A46F" Ref="U?"  Part="4" 
@@ -57,7 +57,7 @@ F 4 "LPC1776FET180,551" H 13050 4700 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:LPC1776FET180,551-lpc1776fet180,551-AMC_FMC_Carrier-PcbDoc-rescue U?
+L marble_misc:LPC1776FET180,551-lpc1776fet180,551 U?
 U 4 1 5BE0D06F
 P 2750 8300
 AR Path="/5BE0D06F" Ref="U?"  Part="5" 
@@ -3643,7 +3643,7 @@ Wire Wire Line
 Wire Wire Line
 	12400 2650 12850 2650
 $Comp
-L marble_misc:LPC1776FET180,551-lpc1776fet180,551-AMC_FMC_Carrier-PcbDoc-rescue U?
+L marble_misc:LPC1776FET180,551-lpc1776fet180,551 U?
 U 3 1 5BE04771
 P 13050 650
 AR Path="/5BE04771" Ref="U?"  Part="2" 

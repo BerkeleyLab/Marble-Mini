@@ -666,7 +666,7 @@ FMC2_PG_C2M
 Wire Wire Line
 	13900 1000 14800 1000
 $Comp
-L marble_misc:+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR01
+L marble_misc:+12V_FMC2 #PWR01
 U 1 1 5BFC3656
 P 2500 5350
 F 0 "#PWR01" H 2500 5200 50  0001 C CNN
