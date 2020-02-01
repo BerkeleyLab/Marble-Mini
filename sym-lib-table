@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name AMC_FMC_Carrier-PcbDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/AMC_FMC_Carrier-PcbDoc-rescue.lib)(options "")(descr ""))
+  (lib (name marble_misc)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/marble_misc.lib)(options "")(descr ""))
   (lib (name Analog_&_Interface)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Analog_&_Interface.lib)(options "")(descr ""))
   (lib (name Capacitors_SMD)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Capacitors_SMD.lib)(options "")(descr ""))
   (lib (name Capacitors_THD)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Capacitors_THD.lib)(options "")(descr ""))

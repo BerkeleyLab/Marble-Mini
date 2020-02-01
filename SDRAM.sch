@@ -634,7 +634,7 @@ Wire Wire Line
 	3650 2850 3650 2950
 Connection ~ 3650 2850
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MT41K512M16HA-125_E-Logic U3
+L marble_misc:MT41K512M16HA-125_E-Logic U3
 U 1 1 5C4F8488
 P 5000 950
 F 0 "U3" H 5500 1115 50  0000 C CNN
@@ -1482,7 +1482,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 3250 4800 3250
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0225
+L marble_misc:VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0225
 U 1 1 5D9E969E
 P 3300 2750
 F 0 "#PWR0225" H 3300 2600 50  0001 C CNN
@@ -1493,7 +1493,7 @@ F 3 "" H 3300 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0224
+L marble_misc:VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0224
 U 1 1 5DA46618
 P 2550 1050
 F 0 "#PWR0224" H 2550 900 50  0001 C CNN
@@ -1505,7 +1505,7 @@ F 3 "" H 2550 1050 50  0001 C CNN
 $EndComp
 Connection ~ 2550 1050
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0457
+L marble_misc:VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0457
 U 1 1 5DA7582E
 P 10800 5200
 F 0 "#PWR0457" H 10800 5050 50  0001 C CNN
@@ -1712,7 +1712,7 @@ Connection ~ 10400 5200
 Wire Wire Line
 	10400 5200 10800 5200
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue U31
+L marble_misc:TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue U31
 U 1 1 5BDAE091
 P 8150 5400
 F 0 "U31" H 8150 6078 50  0000 C CNN
@@ -2581,7 +2581,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0653
+L marble_misc:VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR0653
 U 1 1 5CDF4563
 P 950 7250
 F 0 "#PWR0653" H 950 7100 50  0001 C CNN
