@@ -274,7 +274,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 1050 6150 1700
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue J?
+L marble_misc:Conn_01x04_Male-Connector J?
 U 1 1 5DBB4777
 P 3900 2700
 AR Path="/5DBB4777" Ref="J?"  Part="1" 
@@ -1272,7 +1272,7 @@ F 3 "" H 14700 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L marble_misc:VCCAUX #PWR?
 U 1 1 5DBB8165
 P 9050 7950
 AR Path="/5C907554/5C417BCB/5DBB8165" Ref="#PWR?"  Part="1" 
@@ -1286,7 +1286,7 @@ F 3 "" H 9050 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L marble_misc:VCCBRAM #PWR?
 U 1 1 5DBB816B
 P 15300 7600
 AR Path="/5C907554/5C417BCB/5DBB816B" Ref="#PWR?"  Part="1" 
@@ -1300,7 +1300,7 @@ F 3 "" H 15300 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L marble_misc:MGTAVCC #PWR?
 U 1 1 5DBB8171
 P 15650 7600
 AR Path="/5C907554/5C417BCB/5DBB8171" Ref="#PWR?"  Part="1" 
@@ -5794,7 +5794,7 @@ Wire Wire Line
 Wire Wire Line
 	12650 2350 13550 2350
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:NCP186AMX120TAG-powerMG-AMC_FMC_Carrier-PcbDoc-rescue U?
+L marble_misc:NCP186AMX120TAG U?
 U 1 1 5DBB8221
 P 6650 7700
 AR Path="/5C16BF8E/5DBB8221" Ref="U?"  Part="1" 
@@ -6054,7 +6054,7 @@ F 42 "dnf" V 7950 10000 50  0001 C CNN "config"
 $EndComp
 Connection ~ 7950 10000
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:NCP186AMX120TAG-powerMG-AMC_FMC_Carrier-PcbDoc-rescue U?
+L marble_misc:NCP186AMX120TAG U?
 U 1 1 5D300F70
 P 6650 9400
 AR Path="/5C16BF8E/5D300F70" Ref="U?"  Part="1" 
@@ -6245,7 +6245,7 @@ F 3 "" H 8300 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L marble_misc:MGTAVTT #PWR?
 U 1 1 5DBB815F
 P 9050 9650
 AR Path="/5C907554/5C417BCB/5DBB815F" Ref="#PWR?"  Part="1" 
@@ -6266,7 +6266,7 @@ NoConn ~ 6150 2600
 NoConn ~ 6150 2200
 NoConn ~ 7550 5100
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L marble_misc:MGTAVTT #PWR?
 U 1 1 5CF3EE50
 P 3100 6450
 AR Path="/5C907554/5C417BCB/5CF3EE50" Ref="#PWR?"  Part="1" 

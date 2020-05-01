@@ -15,7 +15,7 @@ Comment3 "BANK 13 & 14"
 Comment4 ""
 $EndDescr
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7-AMC_FMC_Carrier-PcbDoc-rescue U?
+L marble_misc:XC7A200T-FBG484-FPGA_Xilinx_Artix7 U?
 U 1 1 5CC902F4
 P 8500 5200
 AR Path="/5C907554/5CC902F4" Ref="U?"  Part="1" 
@@ -90,7 +90,7 @@ Connection ~ 7200 2300
 Wire Wire Line
 	7200 2300 7100 2300
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue U30
+L marble_misc:S25FL128SAGMFIR01 U30
 U 1 1 5C40DA57
 P 13400 850
 F 0 "U30" H 13700 1017 50  0000 C CNN
@@ -102,7 +102,7 @@ F 4 "S25FL128SAGMFIR01" H 13400 850 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue U30
+L marble_misc:S25FL128SAGMFIR01 U30
 U 2 1 5C40DA9C
 P 14700 850
 F 0 "U30" H 15000 1017 50  0000 C CNN
@@ -250,7 +250,7 @@ Wire Wire Line
 Wire Wire Line
 	12650 1650 13200 1650
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue SW1
+L marble_misc:SW_DIP_x01-Switch SW1
 U 1 1 5C881CE2
 P 13300 3000
 F 0 "SW1" H 13300 3267 50  0000 C CNN
@@ -312,7 +312,7 @@ F 3 "" H 13000 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue U11
+L marble_misc:SN74LVC1G125DCKT-Standard_Logic U11
 U 1 1 5C4235B4
 P 14150 2800
 F 0 "U11" H 14300 2211 50  0000 C CNN

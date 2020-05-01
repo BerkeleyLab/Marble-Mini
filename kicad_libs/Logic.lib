@@ -1,0 +1,84 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CDCM61004RHBT
+#
+DEF CDCM61004RHBT IC 0 50 Y Y 1 L N
+F0 "IC" 500 50 50 H V C CNN
+F1 "Logic_CDCM61004RHBT" 0 -2575 50 H I L CNN
+F2 "ICs And Semiconductors SMD:QFN50P500X500X100-33N-S355" 0 -2650 50 H I L CNN
+F3 " " 0 -2725 50 H I L CNN
+F4 "CDCM61004RHBT" 0 -2800 50 H I L CNN "Part Number"
+F5 "CDCM61004RHB" 0 -2875 50 H I L CNN "Library Ref"
+F6 "SchLib\\Logic.SchLib" 0 -2950 50 H I L CNN "Library Path"
+F7 "CDCM61004RHBT" 0 -3025 50 H I L CNN "Comment"
+F8 "Standard" 0 -3100 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -3175 50 H I L CNN "Component Type"
+F10 "CDCM61004RHBT" 0 -3250 50 H I L CNN "Device"
+F11 "QFN, (MO-220-VHHD-4) 0.50mm pitch,square; 8 pin X 8 pin, 5mm X 5mm X 1.00mm H body (w/thermal tab 3.5 X 3.5mm),  IPC Medium Density" 0 -3325 50 H I L CNN "PackageDescription"
+F12 " " 0 -3400 50 H I L CNN "Status"
+F13 "Four Output, Integrated VCO, Low-Jitter Clock Generator" 0 -3475 50 H I L CNN "Part Description"
+F14 "TEXAS INSTRUMENTS" 0 -3550 50 H I L CNN "Manufacturer"
+F15 "CDCM61004RHBT" 0 -3625 50 H I L CNN "Manufacturer Part Number"
+F16 "33" 0 -3700 50 H I L CNN "Pin Count"
+F17 "QFN32" 0 -3775 50 H I L CNN "Case"
+F18 "Yes" 0 -3850 50 H I L CNN "Mounted"
+F19 "No" 0 -3925 50 H I L CNN "Socket"
+F20 "Yes" 0 -4000 50 H I L CNN "SMD"
+F21 "No" 0 -4075 50 H I L CNN "PressFit"
+F22 "No" 0 -4150 50 H I L CNN "Sense"
+F23 "No" 0 -4225 50 H I L CNN "Bonding"
+F24 " " 0 -4300 50 H I L CNN "Sense Comment"
+F25 " " 0 -4375 50 H I L CNN "Status Comment"
+F26 "1mm" 0 -4450 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -4525 50 H I L CNN "Footprint Path"
+F28 "QFN50P500X500X100-33N-S355" 0 -4600 50 H I L CNN "Footprint Ref"
+F29 " " 0 -4675 50 H I L CNN "ComponentLink1Description"
+F30 " " 0 -4750 50 H I L CNN "ComponentLink2Description"
+F31 "CERN DEM JLC" 0 -4825 50 H I L CNN "Author"
+F32 "08/25/10 00:00:00" 0 -4900 50 H I L CNN "CreateDate"
+F33 "11/21/11 00:00:00" 0 -4975 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -5050 50 H I L CNN "SCEM"
+F35 "Logic" 0 -5125 50 H I L CNN "Database Table Name"
+F36 "ICs And Semiconductors.DbLib" 0 -5200 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -5275 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -5350 50 H I L CNN "License"
+DRAW
+S 0 -2400 1000 0 0 1 0 f
+S 0 -2350 20 -2260 0 1 0 F
+X VCCOUT 1 1200 -2000 200 L 60 60 0 1 w
+X OS1 10 -200 -1300 200 R 60 60 0 1 I
+X OS0 11 -200 -1400 200 R 60 60 0 1 I
+X ~RSTN 12 -200 -400 200 R 60 60 0 1 I
+X OD0 13 -200 -900 200 R 60 60 0 1 I
+X OD1 14 -200 -1000 200 R 60 60 0 1 I
+X OD2 15 -200 -1100 200 R 60 60 0 1 I
+X VCCPLL2 16 1200 -1700 200 L 60 60 0 1 W
+X REGCAP2 17 -200 -1700 200 R 60 60 0 1 O
+X VCCPLL1 18 1200 -1600 200 L 60 60 0 1 W
+X REGCAP1 19 -200 -1600 200 R 60 60 0 1 O
+X OUTN1 2 1200 -500 200 L 60 60 0 1 O
+X VCCIN 20 1200 -1900 200 L 60 60 0 1 W
+X XIN 21 -200 -100 200 R 60 60 0 1 I
+X GND1 22 -200 -2200 200 R 60 60 0 1 W
+X OSCOUT 23 1200 -1300 200 L 60 60 0 1 O
+X NC 24 -200 -2000 200 R 60 60 0 1 P
+X PR0 25 -200 -600 200 R 60 60 0 1 I
+X PR1 26 -200 -700 200 R 60 60 0 1 I
+X VCCOUT 27 1200 -2200 200 L 60 60 0 1 w
+X OUTN3 28 1200 -1100 200 L 60 60 0 1 O
+X OUTP3 29 1200 -1000 200 L 60 60 0 1 O
+X OUTP1 3 1200 -400 200 L 60 60 0 1 O
+X VCCOUT 30 1200 -2300 200 L 60 60 0 1 w
+X OUTN2 31 1200 -800 200 L 60 60 0 1 O
+X OUTP2 32 1200 -700 200 L 60 60 0 1 O
+X EP 33 -200 -2300 200 R 60 60 0 1 W
+X VCCOUT 4 1200 -2100 200 L 60 60 0 1 w
+X OUTN0 5 1200 -200 200 L 60 60 0 1 O
+X OUTP0 6 1200 -100 200 L 60 60 0 1 O
+X CE 7 -200 -300 200 R 60 60 0 1 I
+X NC 8 -200 -1900 200 R 60 60 0 1 P
+X VCCVCO 9 1200 -1800 200 L 60 60 0 1 W
+ENDDRAW
+ENDDEF
+#

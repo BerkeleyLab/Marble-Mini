@@ -15,7 +15,7 @@ Comment3 "BANK 34 & 35"
 Comment4 ""
 $EndDescr
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:XC7A200T-FBG484-FPGA_Xilinx_Artix7-AMC_FMC_Carrier-PcbDoc-rescue U?
+L marble_misc:XC7A200T-FBG484-FPGA_Xilinx_Artix7 U?
 U 3 1 5C8DFB5E
 P 8350 4650
 AR Path="/5C907554/5C8DFB5E" Ref="U?"  Part="3" 
