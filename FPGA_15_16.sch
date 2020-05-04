@@ -318,10 +318,10 @@ U 1 1 5CBF72F4
 P 9750 7650
 F 0 "J15" H 10180 6500 50  0000 L CNN
 F 1 "10029449-111RLF" H 9750 5250 60  0001 L CNN
-F 2 "hdmi2usb:HDMI_TH" H 9750 4350 60  0001 L CNN
-F 3 "" H 9750 5070 60  0001 L CNN
+F 2 "Marble:10029449-111RLF" H 9750 4350 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_MHDMR-19-02-H-TH-L-TR.pdf" H 9750 5070 60  0001 L CNN
 F 4 "HDMI" H 9750 4980 60  0001 L CNN "Pole4"
-F 5 "10029449-111RLF" H 9750 4980 60  0001 L CNN "Part Number"
+F 5 "SAMTEC_MHDMR-19-02-H-TH-L-TR" H 9750 4980 60  0001 L CNN "Part Number"
 F 6 "Connector HDMI 19 Male + 1 Shield" H 9750 4890 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Connectors.SchLib" H 9750 4800 60  0001 L CNN "Library Path"
 F 8 "~~" H 9750 4710 60  0001 L CNN "Comment"
@@ -345,7 +345,7 @@ F 25 "None" H 9750 3090 60  0001 L CNN "Status"
 F 26 "~~" H 9750 3000 60  0001 L CNN "SCEM"
 F 27 "19 Contacts, Pitch 0.4mm, Right Angle, Mini  HDMI High Speed I/O Receptacle" H 9750 2910 60  0001 L CNN "Part Description"
 F 28 "SAMTEC" H 9750 2820 60  0001 L CNN "Manufacturer"
-F 29 "10029449-111RLF" H 9750 2730 60  0001 L CNN "Manufacturer Part Number"
+F 29 "MHDMR-19-02-H-TH-L-TR" H 9750 2730 60  0001 L CNN "Manufacturer Part Number"
 F 30 "3.2mm" H 9750 2640 60  0001 L CNN "ComponentHeight"
 F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_MHDMR-19-02-H-TH-L-TR.pdf" H 9750 2550 60  0001 L CNN "HelpURL"
 F 32 "~~" H 9750 2460 60  0001 L CNN "ComponentLink1URL"
@@ -357,6 +357,7 @@ F 37 "10/19/10 00:00:00" H 9750 2010 60  0001 L CNN "CreateDate"
 F 38 "10/19/10 00:00:00" H 9750 1920 60  0001 L CNN "LatestRevisionDate"
 F 39 "SAMTEC SMD" H 9750 1830 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9750 1740 60  0001 L CNN "License"
+F 41 "HDMI" H 9750 7650 50  0001 C CNN "Field4"
 	1    9750 7650
 	1    0    0    -1  
 $EndComp
