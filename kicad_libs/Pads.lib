@@ -5,7 +5,7 @@ EESchema-LIBRARY Version 2.4
 #
 DEF FIDUCIAL_TARGET_C100-200 FTG 0 50 Y Y 1 L N
 F0 "FTG" 10 80 50 H V C CNN
-F1 "Pads_FIDUCIAL_TARGET_C100-200" 0 -135 50 H I L CNN
+F1 "FIDUCIAL_TARGET_C100-200" 0 -135 50 H I L CNN
 F2 "Pads:FIDUCIAL_TOP_C100-200" 0 -210 50 H I L CNN
 F3 " " 0 -285 50 H I L CNN
 F4 " " 10 -70 40 H I C CNN "Comment"
@@ -56,12 +56,12 @@ ENDDEF
 #
 # PLATED_HOLE2.7_PAD5.0
 #
-DEF PLATED_HOLE2.7_PAD5.0 B 0 50 Y Y 1 L N
-F0 "B" -50 0 50 H V R CNN
-F1 "Pads_PLATED_HOLE2.7_PAD5.0" 0 -155 50 H I L CNN
-F2 "Pads:MTG270_500" 0 -230 50 H I L CNN
-F3 " " 0 -305 50 H I L CNN
-F4 "Plated Hole" 0 0 50 H I C CNN "Family"
+DEF PLATED_HOLE2.7_PAD5.0 B 0 50 Y Y 1 F N
+F0 "B" -50 25 50 H V R CNN
+F1 "PLATED_HOLE2.7_PAD5.0" 0 -155 50 H I L CNN
+F2 "Marble:HOLE2.7_PAD5.0" 0 -230 50 H I L CNN
+F3 "" 0 -305 50 H I L CNN
+F4 "Plated Hole" 0 25 50 H I C CNN "Family"
 F5 "PLATED_HOLE2.7_PAD5.0" 0 -380 50 H I L CNN "Part Number"
 F6 "Single Terminal Socket" 0 -455 50 H I L CNN "Library Ref"
 F7 "SchLib\\Pads.SchLib" 0 -530 50 H I L CNN "Library Path"
@@ -104,3 +104,35 @@ X 1 1 0 0 0 L 0 0 0 1 B
 ENDDRAW
 ENDDEF
 #
+# PLATED_HOLE2.8_PAD0
+#
+DEF PLATED_HOLE2.8_PAD0 B 0 50 Y Y 1 F N
+F0 "B" 0 75 50 H V R CNN
+F1 "PLATED_HOLE2.8_PAD0" 0 -155 50 H I L CNN
+F2 "Marble:HOLE2.8_PAD0" 0 -230 50 H I L CNN
+F3 "" 0 -305 50 H I L CNN
+F4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3005 50 H I L CNN "License"
+DRAW
+C 0 0 30 1 1 10 N
+X 1 1 0 0 0 L 0 0 0 1 B
+ENDDRAW
+ENDDEF
+#
+# SLOT_2_11
+#
+DEF SLOT_2_11 B 0 50 Y Y 1 F N
+F0 "B" 0 75 50 H V R CNN
+F1 "SLOT_2_11" 0 -155 50 H I L CNN
+F2 "Marble:HOLE2_SLOT11" 0 -230 50 H I L CNN
+F3 "" 0 -305 50 H I L CNN
+F4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3005 50 H I L CNN "License"
+DRAW
+A 25 0 25 -899 899 0 1 10 N 25 -25 25 25
+A -25 0 25 901 -901 1 1 10 N -25 25 -25 -25
+P 2 0 1 10 -25 -25 25 -25 N
+P 2 0 1 10 -25 25 25 25 N
+X 1 1 0 0 0 L 0 0 0 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
