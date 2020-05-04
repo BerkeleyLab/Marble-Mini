@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -2363,4 +2362,6 @@ Wire Notes Line
 	12450 9600 12950 9600
 Wire Notes Line
 	12450 8450 12950 8450
+Text Notes 18700 15200 0    50   ~ 0
+branch: fab2
 $EndSCHEMATC

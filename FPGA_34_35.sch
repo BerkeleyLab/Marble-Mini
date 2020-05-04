@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
