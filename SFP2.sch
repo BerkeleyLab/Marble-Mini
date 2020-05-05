@@ -1321,46 +1321,48 @@ P 4500 1850
 AR Path="/5BABAC65/5C86C12C" Ref="J?"  Part="1" 
 AR Path="/5CC393D3/5C86C12C" Ref="J6"  Part="1" 
 F 0 "J6" H 5000 2015 50  0000 C CNN
-F 1 "1888247-1:TE_1888247-1" H 4500 -140 60  0001 L CNN
-F 2 "1888247-1:TE_1888247-1" H 4500 -950 60  0001 L CNN
-F 3 "" H 4500 -320 60  0001 L CNN
+F 1 "1888247-1" H 4500 -140 60  0000 L CNN
+F 2 "Marble:TE_1888247-1" H 4500 -200 50  0001 L CNN
+F 3 "" H 4500 -275 50  0001 L CNN
 F 4 "SFP+" H 5000 1924 50  0000 C CNN "~"
-F 5 "TYCO_1888247-1" H 4500 -410 60  0001 L CNN "Part Number"
-F 6 "SFP+x1" H 4500 -500 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Connectors.SchLib" H 4500 -590 60  0001 L CNN "Library Path"
-F 8 "~~" H 4500 -680 60  0001 L CNN "Comment"
-F 9 "Standard" H 4500 -770 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 4500 -860 60  0001 L CNN "Component Type"
-F 11 "~~" H 4500 -1040 60  0001 L CNN "PackageDescription"
-F 12 "20" H 4500 -1130 60  0001 L CNN "Pin Count"
-F 13 "~~" H 4500 -1220 60  0001 L CNN "Case"
-F 14 "PcbLib\\TYCO SMD.PcbLib" H 4500 -1310 60  0001 L CNN "Footprint Path"
-F 15 "TYCO_1888247-1" H 4500 -1400 60  0001 L CNN "Footprint Ref"
-F 16 "SFP+" H 4500 -1490 60  0001 L CNN "Family"
-F 17 "Yes" H 4500 -1580 60  0001 L CNN "Mounted"
-F 18 "No" H 4500 -1670 60  0001 L CNN "Socket"
-F 19 "Yes" H 4500 -1760 60  0001 L CNN "SMD"
-F 20 "No" H 4500 -1850 60  0001 L CNN "PressFit"
-F 21 "No" H 4500 -1940 60  0001 L CNN "Sense"
-F 22 "~~" H 4500 -2030 60  0001 L CNN "Sense Comment"
-F 23 "None" H 4500 -2120 60  0001 L CNN "Status"
-F 24 "~~" H 4500 -2210 60  0001 L CNN "Status Comment"
-F 25 "~~" H 4500 -2300 60  0001 L CNN "SCEM"
-F 26 "~~" H 4500 -2390 60  0001 L CNN "Device"
-F 27 "20 Position, Pitch 0.8mm SFP+ Receptacle (Small Form-factor Pluggable)" H 4500 -2480 60  0001 L CNN "Part Description"
-F 28 "TYCO ELECTRONICS" H 4500 -2570 60  0001 L CNN "Manufacturer"
-F 29 "1888247-1" H 4500 -2660 60  0001 L CNN "Manufacturer Part Number"
-F 30 "5.4mm" H 4500 -2750 60  0001 L CNN "ComponentHeight"
+F 5 "TYCO_1888247-1" H 4500 -350 50  0001 L CNN "Part Number"
+F 6 "SFP+x1" H 4500 -425 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Connectors.SchLib" H 4500 -500 50  0001 L CNN "Library Path"
+F 8 " " H 4500 -575 50  0001 L CNN "Comment"
+F 9 "Standard" H 4500 -650 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 4500 -725 50  0001 L CNN "Component Type"
+F 11 " " H 4500 -800 50  0001 L CNN "PackageDescription"
+F 12 "20" H 4500 -875 50  0001 L CNN "Pin Count"
+F 13 " " H 4500 -950 50  0001 L CNN "Case"
+F 14 "PcbLib\\TYCO SMD.PcbLib" H 4500 -1025 50  0001 L CNN "Footprint Path"
+F 15 "TYCO_1888247-1" H 4500 -1100 50  0001 L CNN "Footprint Ref"
+F 16 "SFP+" H 5000 1050 50  0000 C CNN "Family"
+F 17 "Yes" H 4500 -1250 50  0001 L CNN "Mounted"
+F 18 "No" H 4500 -1325 50  0001 L CNN "Socket"
+F 19 "Yes" H 4500 -1400 50  0001 L CNN "SMD"
+F 20 "No" H 4500 -1475 50  0001 L CNN "PressFit"
+F 21 "No" H 4500 -1550 50  0001 L CNN "Sense"
+F 22 " " H 4500 -1625 50  0001 L CNN "Sense Comment"
+F 23 "None" H 4500 -1700 50  0001 L CNN "Status"
+F 24 " " H 4500 -1775 50  0001 L CNN "Status Comment"
+F 25 " " H 4500 -1850 50  0001 L CNN "SCEM"
+F 26 " " H 4500 -1925 50  0001 L CNN "Device"
+F 27 "20 Position, Pitch 0.8mm SFP+ Receptacle (Small Form-factor Pluggable)" H 4500 -2000 50  0001 L CNN "Part Description"
+F 28 "TYCO ELECTRONICS" H 4500 -2075 50  0001 L CNN "Manufacturer"
+F 29 "1888247-1" H 4500 -2150 50  0001 L CNN "Manufacturer Part Number"
+F 30 "5.4mm" H 4500 -2225 50  0001 L CNN "ComponentHeight"
 F 31 "~~" H 4500 -2840 60  0001 L CNN "ComponentLink1URL"
-F 32 "~~" H 4500 -2930 60  0001 L CNN "ComponentLink1Description"
+F 32 " " H 4500 -2300 50  0001 L CNN "ComponentLink1Description"
 F 33 "~~" H 4500 -3020 60  0001 L CNN "ComponentLink2URL"
-F 34 "~~" H 4500 -3110 60  0001 L CNN "ComponentLink2Description"
+F 34 " " H 4500 -2375 50  0001 L CNN "ComponentLink2Description"
 F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\TYCO_1888247-1.pdf" H 4500 -3200 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 4500 -3290 60  0001 L CNN "Author"
-F 37 "02/27/12 00:00:00" H 4500 -3380 60  0001 L CNN "CreateDate"
-F 38 "02/27/12 00:00:00" H 4500 -3470 60  0001 L CNN "LatestRevisionDate"
-F 39 "TYCO SMD" H 4500 -3560 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4500 -3650 60  0001 L CNN "License"
+F 36 "CERN DEM JLC" H 4500 -2450 50  0001 L CNN "Author"
+F 37 "02/27/12 00:00:00" H 4500 -2525 50  0001 L CNN "CreateDate"
+F 38 "02/27/12 00:00:00" H 4500 -2600 50  0001 L CNN "LatestRevisionDate"
+F 39 "Connectors.DbLib" H 4500 -2750 50  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4500 -2900 50  0001 L CNN "License"
+F 41 "TYCO" H 4500 -2675 50  0001 L CNN "Database Table Name"
+F 42 "TYCO SMD" H 4500 -2825 50  0001 L CNN "Footprint Library"
 	1    4500 1850
 	1    0    0    -1  
 $EndComp
@@ -1412,18 +1414,5 @@ F 2 "" H 3500 1950 50  0001 C CNN
 F 3 "~" H 3500 1950 50  0001 C CNN
 	1    3500 1950
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5D966080
-P 4300 2350
-AR Path="/5BABAC65/5D966080" Ref="#FLG?"  Part="1" 
-AR Path="/5CC393D3/5D966080" Ref="#FLG0155"  Part="1" 
-F 0 "#FLG0155" H 4300 2425 50  0001 C CNN
-F 1 "PWR_FLAG" H 4300 2523 50  0000 C CNN
-F 2 "" H 4300 2350 50  0001 C CNN
-F 3 "~" H 4300 2350 50  0001 C CNN
-	1    4300 2350
-	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

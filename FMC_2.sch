@@ -676,7 +676,7 @@ F 3 "" H 2500 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 6900 7300 6900
+	7150 6900 7200 6900
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5C506817
@@ -1874,7 +1874,7 @@ Wire Wire Line
 	5950 6900 6400 6900
 Connection ~ 6400 6900
 Wire Wire Line
-	6400 6900 6850 6900
+	6400 6900 6600 6900
 Connection ~ 6400 7200
 Wire Wire Line
 	4700 6000 5150 6000
@@ -1943,4 +1943,21 @@ Wire Wire Line
 Connection ~ 7900 5800
 Wire Wire Line
 	7900 5800 8300 5800
+$Comp
+L power:PWR_FLAG #FLG0118
+U 1 1 5EC3D861
+P 6600 6900
+F 0 "#FLG0118" H 6600 6975 50  0001 C CNN
+F 1 "PWR_FLAG" H 6600 7073 50  0000 C CNN
+F 2 "" H 6600 6900 50  0001 C CNN
+F 3 "" H 6600 6900 50  0001 C CNN
+	1    6600 6900
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 6900
+Wire Wire Line
+	6600 6900 6850 6900
+Connection ~ 7200 6900
+Wire Wire Line
+	7200 6900 7300 6900
 $EndSCHEMATC

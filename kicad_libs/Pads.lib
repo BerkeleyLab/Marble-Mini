@@ -100,7 +100,7 @@ F39 "Pads" 0 -2930 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3005 50 H I L CNN "License"
 DRAW
 C 0 0 30 0 1 10 f
-X 1 1 0 0 0 L 0 0 0 1 B
+X 1 1 0 0 0 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -114,7 +114,7 @@ F3 "" 0 -305 50 H I L CNN
 F4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3005 50 H I L CNN "License"
 DRAW
 C 0 0 30 1 1 10 N
-X 1 1 0 0 0 L 0 0 0 1 B
+X 1 1 0 0 0 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -131,7 +131,7 @@ A 25 0 25 -899 899 0 1 10 N 25 -25 25 25
 A -25 0 25 901 -901 1 1 10 N -25 25 -25 -25
 P 2 0 1 10 -25 -25 25 -25 N
 P 2 0 1 10 -25 25 25 25 N
-X 1 1 0 0 0 L 0 0 0 1 B
+X 1 1 0 0 0 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
