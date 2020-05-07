@@ -1,6 +1,7 @@
-(module HDT0001:HDT0001 (layer F.Cu) (tedit 5C507D18)
+(module HDT0001 (layer F.Cu) (tedit 5EB38691)
   (descr HDT0001)
   (tags Switch)
+  (attr smd)
   (fp_text reference S1 (at 3.5687 -0.3048) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
