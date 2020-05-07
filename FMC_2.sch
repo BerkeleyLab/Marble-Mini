@@ -329,8 +329,6 @@ Wire Wire Line
 	5750 5850 5750 6000
 Connection ~ 5750 5850
 Wire Wire Line
-	3150 5250 3850 5250
-Wire Wire Line
 	3150 4850 3850 4850
 Wire Wire Line
 	3150 4950 3850 4950
@@ -370,8 +368,6 @@ Wire Wire Line
 	5400 5050 6150 5050
 Wire Wire Line
 	5450 5150 6150 5150
-Wire Wire Line
-	5450 5350 6150 5350
 Text Label 8000 2050 0    50   ~ 10
 FMC2_CLK1_M2C_P
 Text Label 8000 2150 0    50   ~ 10
@@ -1685,23 +1681,23 @@ Text Label 5450 5250 0    50   ~ 10
 FMC2_TRST
 Wire Wire Line
 	5450 5250 6150 5250
-Text Label 3150 5250 0    50   ~ 10
+Text Label 2200 5050 0    50   ~ 10
 FMC2_3P3VAUX
-Text Notes 2900 5250 0    50   ~ 10
+Text Notes 3400 5250 0    50   ~ 10
 GA0_2
 $Comp
 L power:GND #PWR?
 U 1 1 5D1DC9A3
-P 5450 5350
+P 5050 5350
 AR Path="/5BD32060/5D1DC9A3" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/5D1DC9A3" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9F/5D1DC9A3" Ref="#PWR0101"  Part="1" 
 AR Path="/5D1DC9A3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 5450 5100 50  0001 C CNN
-F 1 "GND" V 5455 5177 50  0000 C CNN
-F 2 "" H 5450 5350 50  0001 C CNN
-F 3 "" H 5450 5350 50  0001 C CNN
-	1    5450 5350
+F 0 "#PWR0101" H 5050 5100 50  0001 C CNN
+F 1 "GND" V 5055 5177 50  0000 C CNN
+F 2 "" H 5050 5350 50  0001 C CNN
+F 3 "" H 5050 5350 50  0001 C CNN
+	1    5050 5350
 	0    1    1    0   
 $EndComp
 Text Notes 5600 5350 0    50   ~ 10
@@ -1866,7 +1862,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5800 6900 5950 6900
+	5800 6900 5850 6900
 Connection ~ 5950 6900
 Wire Wire Line
 	5950 6900 6400 6900
@@ -1957,4 +1953,123 @@ Wire Wire Line
 	6600 6900 6850 6900
 Wire Wire Line
 	7150 6900 7300 6900
+$Comp
+L Resistors_SMD:R0402_300R_1%_0.0625W_100PPM R299
+U 1 1 5ED979B2
+P 3100 5250
+F 0 "R299" H 3250 5447 50  0000 C CNN
+F 1 "R0402_300R_1%_0.0625W_100PPM" H 3100 5055 50  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 3100 4980 50  0001 L CNN
+F 3 " " H 3100 4905 50  0001 L CNN
+F 4 "300" H 3250 5356 50  0000 C CNN "Val"
+F 5 "R0402_300R_1%_0.0625W_100PPM" H 3100 4830 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 3100 4755 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 3100 4680 50  0001 L CNN "Library Path"
+F 8 "300" H 3100 4605 50  0001 L CNN "Comment"
+F 9 "Standard" H 3100 4530 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 3100 4455 50  0001 L CNN "Component Type"
+F 11 " " H 3100 4380 50  0001 L CNN "PackageDescription"
+F 12 "2" H 3100 4305 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 3100 4230 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 3100 4155 50  0001 L CNN "Footprint Ref"
+F 15 "Not Recommended" H 3100 4080 50  0001 L CNN "Status"
+F 16 "0.0625W" H 3100 4005 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 3100 3930 50  0001 L CNN "TC"
+F 18 " " H 3100 3855 50  0001 L CNN "Voltage"
+F 19 "±1%" H 3100 3780 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 3100 3705 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 3100 3630 50  0001 L CNN "Manufacturer"
+F 22 "R0402_300R_1%_0.0625W_100PPM" H 3100 3555 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 3100 3480 50  0001 L CNN "Case"
+F 24 "No" H 3100 3405 50  0001 L CNN "PressFit"
+F 25 "Yes" H 3100 3330 50  0001 L CNN "Mounted"
+F 26 " " H 3100 3255 50  0001 L CNN "Sense Comment"
+F 27 "No" H 3100 3180 50  0001 L CNN "Sense"
+F 28 " " H 3100 3105 50  0001 L CNN "Status Comment"
+F 29 "No" H 3100 3030 50  0001 L CNN "Socket"
+F 30 "Yes" H 3100 2955 50  0001 L CNN "SMD"
+F 31 " " H 3100 2880 50  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 3100 2805 50  0001 L CNN "Manufacturer1 Example"
+F 33 "232270673001L" H 3100 2730 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 3100 2655 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 3100 2580 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 3100 2505 50  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 3100 2430 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 3100 2355 50  0001 L CNN "Database Table Name"
+F 39 "Resistors.DbLib" H 3100 2280 50  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 3100 2205 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3100 2130 50  0001 L CNN "License"
+	1    3100 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5250 3400 5250
+$Comp
+L Resistors_SMD:R0402_300R_1%_0.0625W_100PPM R300
+U 1 1 5EDF3EEE
+P 5150 5350
+F 0 "R300" H 5300 5547 50  0000 C CNN
+F 1 "R0402_300R_1%_0.0625W_100PPM" H 5150 5155 50  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 5150 5080 50  0001 L CNN
+F 3 " " H 5150 5005 50  0001 L CNN
+F 4 "300" H 5300 5456 50  0000 C CNN "Val"
+F 5 "R0402_300R_1%_0.0625W_100PPM" H 5150 4930 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 5150 4855 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 5150 4780 50  0001 L CNN "Library Path"
+F 8 "300" H 5150 4705 50  0001 L CNN "Comment"
+F 9 "Standard" H 5150 4630 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 5150 4555 50  0001 L CNN "Component Type"
+F 11 " " H 5150 4480 50  0001 L CNN "PackageDescription"
+F 12 "2" H 5150 4405 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 5150 4330 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 5150 4255 50  0001 L CNN "Footprint Ref"
+F 15 "Not Recommended" H 5150 4180 50  0001 L CNN "Status"
+F 16 "0.0625W" H 5150 4105 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 5150 4030 50  0001 L CNN "TC"
+F 18 " " H 5150 3955 50  0001 L CNN "Voltage"
+F 19 "±1%" H 5150 3880 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 5150 3805 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 5150 3730 50  0001 L CNN "Manufacturer"
+F 22 "R0402_300R_1%_0.0625W_100PPM" H 5150 3655 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 5150 3580 50  0001 L CNN "Case"
+F 24 "No" H 5150 3505 50  0001 L CNN "PressFit"
+F 25 "Yes" H 5150 3430 50  0001 L CNN "Mounted"
+F 26 " " H 5150 3355 50  0001 L CNN "Sense Comment"
+F 27 "No" H 5150 3280 50  0001 L CNN "Sense"
+F 28 " " H 5150 3205 50  0001 L CNN "Status Comment"
+F 29 "No" H 5150 3130 50  0001 L CNN "Socket"
+F 30 "Yes" H 5150 3055 50  0001 L CNN "SMD"
+F 31 " " H 5150 2980 50  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 5150 2905 50  0001 L CNN "Manufacturer1 Example"
+F 33 "232270673001L" H 5150 2830 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 5150 2755 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 5150 2680 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 5150 2605 50  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 5150 2530 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 5150 2455 50  0001 L CNN "Database Table Name"
+F 39 "Resistors.DbLib" H 5150 2380 50  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 5150 2305 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5150 2230 50  0001 L CNN "License"
+	1    5150 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5350 5050 5350
+Wire Wire Line
+	5450 5350 6150 5350
+Wire Wire Line
+	3100 5250 2900 5250
+Wire Wire Line
+	2900 5250 2900 5050
+Wire Wire Line
+	2900 5050 2200 5050
+Wire Wire Line
+	5850 6900 5850 6600
+Wire Wire Line
+	5850 6600 2200 6600
+Wire Wire Line
+	2200 6600 2200 5050
+Connection ~ 5850 6900
+Wire Wire Line
+	5850 6900 5950 6900
 $EndSCHEMATC
