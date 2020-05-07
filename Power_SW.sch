@@ -369,7 +369,7 @@ Wire Wire Line
 	4450 2600 4350 2600
 Connection ~ 4350 2600
 $Comp
-L power:+3.3VP #PWR?
+L power:+3V3P #PWR?
 U 1 1 5DBB47C4
 P 4750 2600
 AR Path="/5C16C03C/5DBB47C4" Ref="#PWR?"  Part="1" 
@@ -378,7 +378,7 @@ AR Path="/5C16BF8E/5DBB47C4" Ref="#PWR?"  Part="1"
 AR Path="/5C16BF8E/5DB9B7E6/5DBB47C4" Ref="#PWR0254"  Part="1" 
 AR Path="/5DBB47C4" Ref="#PWR0254"  Part="1" 
 F 0 "#PWR0254" H 4750 2450 50  0001 C CNN
-F 1 "+3V3MP" V 4750 2850 50  0000 C CNN
+F 1 "+3V3P" V 4750 2850 50  0000 C CNN
 F 2 "" H 4750 2600 50  0001 C CNN
 F 3 "" H 4750 2600 50  0001 C CNN
 	1    4750 2600
@@ -4317,7 +4317,7 @@ $EndComp
 Wire Wire Line
 	2700 1600 4350 1600
 Text Notes 2050 2650 0    50   ~ 10
-D5 for programming supply path\nI2C_PM is forced to ground without +3V3MP 
+D5 for programming supply path\nI2C_PM is forced to ground without +3V3P
 Connection ~ 4350 1900
 $Comp
 L Resistors_SMD:R0402_1K_1%_0.0625W_100PPM R?
