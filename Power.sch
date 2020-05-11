@@ -60,19 +60,6 @@ F4 "I2C_PM_SCL" B L 12400 8000 50
 F5 "FPGA_XR_GPIO_0" I L 12400 8200 50 
 F6 "OVER_TEMP" I L 12400 8350 50 
 $EndSheet
-$Comp
-L power:+12V #PWR0227
-U 1 1 5DBE0048
-P 4000 1650
-AR Path="/5C16BF8E/5DBE0048" Ref="#PWR0227"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DBE0048" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0227" H 4000 1500 50  0001 C CNN
-F 1 "+12V" H 4015 1823 50  0000 C CNN
-F 2 "" H 4000 1650 50  0001 C CNN
-F 3 "" H 4000 1650 50  0001 C CNN
-	1    4000 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3600 2400 3600 2150
 Wire Wire Line
@@ -946,19 +933,6 @@ Wire Wire Line
 	6500 9350 7050 9350
 Wire Wire Line
 	7050 9350 7050 9050
-$Comp
-L power:+12V #PWR0564
-U 1 1 5C9604C4
-P 10100 8450
-AR Path="/5C16BF8E/5C9604C4" Ref="#PWR0564"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5C9604C4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0564" H 10100 8300 50  0001 C CNN
-F 1 "+12V" H 10115 8623 50  0000 C CNN
-F 2 "" H 10100 8450 50  0001 C CNN
-F 3 "" H 10100 8450 50  0001 C CNN
-	1    10100 8450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7900 8450 7900 8650
 Wire Wire Line
@@ -4667,6 +4641,109 @@ $EndComp
 Connection ~ 3750 1850
 Wire Wire Line
 	3750 1850 4000 1850
+$Comp
+L power:+12VS #PWR?
+U 1 1 5EBF5647
+P 10100 8450
+F 0 "#PWR?" H 10100 8300 50  0001 C CNN
+F 1 "+12VS" H 10115 8623 50  0000 C CNN
+F 2 "" H 10100 8450 50  0001 C CNN
+F 3 "" H 10100 8450 50  0001 C CNN
+	1    10100 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12VS #PWR?
+U 1 1 5EC08411
+P 4000 1650
+F 0 "#PWR?" H 4000 1500 50  0001 C CNN
+F 1 "+12VS" H 4015 1823 50  0000 C CNN
+F 2 "" H 4000 1650 50  0001 C CNN
+F 3 "" H 4000 1650 50  0001 C CNN
+	1    4000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12VS #PWR?
+U 1 1 5EC19E55
+P 6700 2400
+F 0 "#PWR?" H 6700 2250 50  0001 C CNN
+F 1 "+12VS" H 6715 2573 50  0000 C CNN
+F 2 "" H 6700 2400 50  0001 C CNN
+F 3 "" H 6700 2400 50  0001 C CNN
+	1    6700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5EC1A876
+P 7200 2400
+AR Path="/5C16BF8E/5EC1A876" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5EC1A876" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7200 2250 50  0001 C CNN
+F 1 "+12V" H 7215 2573 50  0000 C CNN
+F 2 "" H 7200 2400 50  0001 C CNN
+F 3 "" H 7200 2400 50  0001 C CNN
+	1    7200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R1206_0R02_1%_0.5W_100PPM R301
+U 1 1 5EC1B35B
+P 6800 2500
+F 0 "R301" H 6950 2600 50  0000 C CNN
+F 1 "R1206_0R02_1%_0.5W_100PPM" H 6800 2290 60  0001 L CNN
+F 2 "RESC3216X80N" H 6800 1480 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_WELWYN_LRF.pdf" H 6800 2110 60  0001 L CNN
+F 4 "0R02" H 6950 2400 50  0000 C CNN "~"
+F 5 "R1206_0R02_1%_0.5W_100PPM" H 6800 2020 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 6800 1930 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6800 1840 60  0001 L CNN "Library Path"
+F 8 "=Value" H 6800 1750 60  0001 L CNN "Comment"
+F 9 "Standard" H 6800 1660 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 6800 1570 60  0001 L CNN "Component Type"
+F 11 "~~" H 6800 1390 60  0001 L CNN "PackageDescription"
+F 12 "2" H 6800 1300 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 6800 1210 60  0001 L CNN "Footprint Path"
+F 14 "RESC3216X80N" H 6800 1120 60  0001 L CNN "Footprint Ref"
+F 15 "0R02" H 6800 1030 60  0001 L CNN "Val"
+F 16 "None" H 6800 940 60  0001 L CNN "Status"
+F 17 "0.5W" H 6800 850 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 6800 760 60  0001 L CNN "TC"
+F 19 "~~" H 6800 670 60  0001 L CNN "Voltage"
+F 20 "±1%" H 6800 580 60  0001 L CNN "Tolerance"
+F 21 "Low Value Flat Chip Resistor" H 6800 490 60  0001 L CNN "Part Description"
+F 22 "TT Electronics" H 6800 400 60  0001 L CNN "Manufacturer"
+F 23 "CSR1206FK20L0" H 6800 310 60  0001 L CNN "Manufacturer Part Number"
+F 24 "1206" H 6800 220 60  0001 L CNN "Case"
+F 25 "No" H 6800 130 60  0001 L CNN "PressFit"
+F 26 "Yes" H 6800 40  60  0001 L CNN "Mounted"
+F 27 "~~" H 6800 -50 60  0001 L CNN "Sense Comment"
+F 28 "No" H 6800 -140 60  0001 L CNN "Sense"
+F 29 "~~" H 6800 -230 60  0001 L CNN "Status Comment"
+F 30 "No" H 6800 -320 60  0001 L CNN "Socket"
+F 31 "Yes" H 6800 -410 60  0001 L CNN "SMD"
+F 32 "0.8mm" H 6800 -500 60  0001 L CNN "ComponentHeight"
+F 33 "~~" H 6800 -590 60  0001 L CNN "Manufacturer1 Example"
+F 34 "~~" H 6800 -680 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "~~" H 6800 -770 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_WELWYN_LRF.pdf" H 6800 -860 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 6800 -950 60  0001 L CNN "Author"
+F 38 "05/11/10 00:00:00" H 6800 -1040 60  0001 L CNN "CreateDate"
+F 39 "09/03/12 00:00:00" H 6800 -1130 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 6800 -1220 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 -1310 60  0001 L CNN "License"
+	1    6800 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2400 6700 2500
+Wire Wire Line
+	6700 2500 6800 2500
+Wire Wire Line
+	7100 2500 7200 2500
+Wire Wire Line
+	7200 2500 7200 2400
 Wire Bus Line
 	2100 8250 2100 9850
 $EndSCHEMATC
