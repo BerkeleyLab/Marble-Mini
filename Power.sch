@@ -596,7 +596,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 8200 12400 8200
 Wire Wire Line
-	4000 1650 4000 1850
+	4000 1500 4000 1850
 $Comp
 L power:GND #PWR?
 U 1 1 5DE5D37A
@@ -4655,12 +4655,12 @@ $EndComp
 $Comp
 L power:+12VS #PWR?
 U 1 1 5EC08411
-P 4000 1650
-F 0 "#PWR?" H 4000 1500 50  0001 C CNN
-F 1 "+12VS" H 4015 1823 50  0000 C CNN
-F 2 "" H 4000 1650 50  0001 C CNN
-F 3 "" H 4000 1650 50  0001 C CNN
-	1    4000 1650
+P 4000 1500
+F 0 "#PWR?" H 4000 1350 50  0001 C CNN
+F 1 "+12VS" H 4015 1673 50  0000 C CNN
+F 2 "" H 4000 1500 50  0001 C CNN
+F 3 "" H 4000 1500 50  0001 C CNN
+	1    4000 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4744,6 +4744,12 @@ Wire Wire Line
 	7100 2500 7200 2500
 Wire Wire Line
 	7200 2500 7200 2400
+Text Notes 3150 1400 0    100  ~ 20
+--->
+Text Notes 4350 1400 0    100  ~ 20
+<---
 Wire Bus Line
 	2100 8250 2100 9850
+Text Notes 3500 1100 0    50   ~ 0
++12V can be supplied by:\n  * barrel jack\n  * AMC connector\n  * POE module\n
 $EndSCHEMATC
