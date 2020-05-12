@@ -1281,15 +1281,15 @@ Wire Wire Line
 	7450 8450 7900 8450
 Connection ~ 7450 8750
 $Comp
-L Resistors_SMD:R1206_0R02_1%_0.5W_100PPM R182
+L Resistors_SMD:R1206_0R082_1%_0.5W_100PPM R182
 U 1 1 5E1246EE
 P 14100 1900
 F 0 "R182" H 14250 2000 50  0000 C CNN
-F 1 "R1206_0R02_1%_0.5W_100PPM" H 14100 1690 60  0001 L CNN
+F 1 "R1206_0R082_1%_0.5W_100PPM" H 14100 1690 60  0001 L CNN
 F 2 "RESC3216X80N" H 14100 880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_WELWYN_LRF.pdf" H 14100 1510 60  0001 L CNN
-F 4 "0R02" H 14250 1800 50  0000 C CNN "~"
-F 5 "R1206_0R02_1%_0.5W_100PPM" H 14100 1420 60  0001 L CNN "Part Number"
+F 4 "0R082" H 14250 1800 50  0000 C CNN "~"
+F 5 "R1206_0R082_1%_0.5W_100PPM" H 14100 1420 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 14100 1330 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 14100 1240 60  0001 L CNN "Library Path"
 F 8 "=Value" H 14100 1150 60  0001 L CNN "Comment"
@@ -1299,15 +1299,15 @@ F 11 "~~" H 14100 790 60  0001 L CNN "PackageDescription"
 F 12 "2" H 14100 700 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 14100 610 60  0001 L CNN "Footprint Path"
 F 14 "RESC3216X80N" H 14100 520 60  0001 L CNN "Footprint Ref"
-F 15 "0R02" H 14100 430 60  0001 L CNN "Val"
+F 15 "0R082" H 14100 430 60  0001 L CNN "Val"
 F 16 "None" H 14100 340 60  0001 L CNN "Status"
 F 17 "0.5W" H 14100 250 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 14100 160 60  0001 L CNN "TC"
 F 19 "~~" H 14100 70  60  0001 L CNN "Voltage"
 F 20 "±1%" H 14100 -20 60  0001 L CNN "Tolerance"
 F 21 "Low Value Flat Chip Resistor" H 14100 -110 60  0001 L CNN "Part Description"
-F 22 "TT Electronics" H 14100 -200 60  0001 L CNN "Manufacturer"
-F 23 "CSR1206FK20L0" H 14100 -290 60  0001 L CNN "Manufacturer Part Number"
+F 22 "Ohmite" H 14100 -200 60  0001 L CNN "Manufacturer"
+F 23 "KDV12DR082ET" H 14100 -290 60  0001 L CNN "Manufacturer Part Number"
 F 24 "1206" H 14100 -380 60  0001 L CNN "Case"
 F 25 "No" H 14100 -470 60  0001 L CNN "PressFit"
 F 26 "Yes" H 14100 -560 60  0001 L CNN "Mounted"
@@ -1323,22 +1323,22 @@ F 35 "~~" H 14100 -1370 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_WELWYN_LRF.pdf" H 14100 -1460 60  0001 L CNN "HelpURL"
 F 37 "CERN DEM JLC" H 14100 -1550 60  0001 L CNN "Author"
 F 38 "05/11/10 00:00:00" H 14100 -1640 60  0001 L CNN "CreateDate"
-F 39 "09/03/12 00:00:00" H 14100 -1730 60  0001 L CNN "LatestRevisionDate"
+F 39 "05/12/20 00:00:00" H 14100 -1730 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 14100 -1820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14100 -1910 60  0001 L CNN "License"
 	1    14100 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R1206_0R02_1%_0.5W_100PPM R183
+L Resistors_SMD:R1206_0R082_1%_0.5W_100PPM R183
 U 1 1 5E156EFB
 P 14100 5300
 F 0 "R183" H 14250 5400 50  0000 C CNN
-F 1 "R1206_0R02_1%_0.5W_100PPM" H 14100 5090 60  0001 L CNN
+F 1 "R1206_0R082_1%_0.5W_100PPM" H 14100 5090 60  0001 L CNN
 F 2 "RESC3216X80N" H 14100 4280 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_WELWYN_LRF.pdf" H 14100 4910 60  0001 L CNN
-F 4 "0R02" H 14250 5200 50  0000 C CNN "~"
-F 5 "R1206_0R02_1%_0.5W_100PPM" H 14100 4820 60  0001 L CNN "Part Number"
+F 4 "0R082" H 14250 5200 50  0000 C CNN "~"
+F 5 "R1206_0R082_1%_0.5W_100PPM" H 14100 4820 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 14100 4730 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 14100 4640 60  0001 L CNN "Library Path"
 F 8 "=Value" H 14100 4550 60  0001 L CNN "Comment"
@@ -1348,15 +1348,15 @@ F 11 "~~" H 14100 4190 60  0001 L CNN "PackageDescription"
 F 12 "2" H 14100 4100 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 14100 4010 60  0001 L CNN "Footprint Path"
 F 14 "RESC3216X80N" H 14100 3920 60  0001 L CNN "Footprint Ref"
-F 15 "0R02" H 14100 3830 60  0001 L CNN "Val"
+F 15 "0R082" H 14100 3830 60  0001 L CNN "Val"
 F 16 "None" H 14100 3740 60  0001 L CNN "Status"
 F 17 "0.5W" H 14100 3650 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 14100 3560 60  0001 L CNN "TC"
 F 19 "~~" H 14100 3470 60  0001 L CNN "Voltage"
 F 20 "±1%" H 14100 3380 60  0001 L CNN "Tolerance"
 F 21 "Low Value Flat Chip Resistor" H 14100 3290 60  0001 L CNN "Part Description"
-F 22 "TT Electronics" H 14100 3200 60  0001 L CNN "Manufacturer"
-F 23 "CSR1206FK20L0" H 14100 3110 60  0001 L CNN "Manufacturer Part Number"
+F 22 "Ohmite" H 14100 3200 60  0001 L CNN "Manufacturer"
+F 23 "KDV12DR082ET" H 14100 3110 60  0001 L CNN "Manufacturer Part Number"
 F 24 "1206" H 14100 3020 60  0001 L CNN "Case"
 F 25 "No" H 14100 2930 60  0001 L CNN "PressFit"
 F 26 "Yes" H 14100 2840 60  0001 L CNN "Mounted"
@@ -1372,7 +1372,7 @@ F 35 "~~" H 14100 2030 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_WELWYN_LRF.pdf" H 14100 1940 60  0001 L CNN "HelpURL"
 F 37 "CERN DEM JLC" H 14100 1850 60  0001 L CNN "Author"
 F 38 "05/11/10 00:00:00" H 14100 1760 60  0001 L CNN "CreateDate"
-F 39 "09/03/12 00:00:00" H 14100 1670 60  0001 L CNN "LatestRevisionDate"
+F 39 "05/12/20 00:00:00" H 14100 1670 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 14100 1580 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14100 1490 60  0001 L CNN "License"
 	1    14100 5300
@@ -4622,15 +4622,15 @@ F 3 "" H 7800 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R1206_0R02_1%_0.5W_100PPM R301
+L Resistors_SMD:R1206_0R082_1%_0.5W_100PPM R301
 U 1 1 5EC1B35B
 P 6950 1150
 F 0 "R301" H 7100 1250 50  0000 C CNN
-F 1 "R1206_0R02_1%_0.5W_100PPM" H 6950 940 60  0001 L CNN
+F 1 "R1206_0R082_1%_0.5W_100PPM" H 6950 940 60  0001 L CNN
 F 2 "RESC3216X80N" H 6950 130 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_WELWYN_LRF.pdf" H 6950 760 60  0001 L CNN
-F 4 "0R02" H 7100 1050 50  0000 C CNN "~"
-F 5 "R1206_0R02_1%_0.5W_100PPM" H 6950 670 60  0001 L CNN "Part Number"
+F 4 "0R082" H 7100 1050 50  0000 C CNN "~"
+F 5 "R1206_0R082_1%_0.5W_100PPM" H 6950 670 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6950 580 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6950 490 60  0001 L CNN "Library Path"
 F 8 "=Value" H 6950 400 60  0001 L CNN "Comment"
@@ -4640,15 +4640,15 @@ F 11 "~~" H 6950 40  60  0001 L CNN "PackageDescription"
 F 12 "2" H 6950 -50 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6950 -140 60  0001 L CNN "Footprint Path"
 F 14 "RESC3216X80N" H 6950 -230 60  0001 L CNN "Footprint Ref"
-F 15 "0R02" H 6950 -320 60  0001 L CNN "Val"
+F 15 "0R082" H 6950 -320 60  0001 L CNN "Val"
 F 16 "None" H 6950 -410 60  0001 L CNN "Status"
 F 17 "0.5W" H 6950 -500 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6950 -590 60  0001 L CNN "TC"
 F 19 "~~" H 6950 -680 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6950 -770 60  0001 L CNN "Tolerance"
 F 21 "Low Value Flat Chip Resistor" H 6950 -860 60  0001 L CNN "Part Description"
-F 22 "TT Electronics" H 6950 -950 60  0001 L CNN "Manufacturer"
-F 23 "CSR1206FK20L0" H 6950 -1040 60  0001 L CNN "Manufacturer Part Number"
+F 22 "Ohmite" H 6950 -950 60  0001 L CNN "Manufacturer"
+F 23 "KDV12DR082ET" H 6950 -1040 60  0001 L CNN "Manufacturer Part Number"
 F 24 "1206" H 6950 -1130 60  0001 L CNN "Case"
 F 25 "No" H 6950 -1220 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6950 -1310 60  0001 L CNN "Mounted"
@@ -4664,7 +4664,7 @@ F 35 "~~" H 6950 -2120 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_WELWYN_LRF.pdf" H 6950 -2210 60  0001 L CNN "HelpURL"
 F 37 "CERN DEM JLC" H 6950 -2300 60  0001 L CNN "Author"
 F 38 "05/11/10 00:00:00" H 6950 -2390 60  0001 L CNN "CreateDate"
-F 39 "09/03/12 00:00:00" H 6950 -2480 60  0001 L CNN "LatestRevisionDate"
+F 39 "05/12/20 00:00:00" H 6950 -2480 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 6950 -2570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6950 -2660 60  0001 L CNN "License"
 	1    6950 1150
