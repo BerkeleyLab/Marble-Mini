@@ -1532,4 +1532,8 @@ Wire Wire Line
 	8700 1800 8550 1800
 Wire Wire Line
 	8700 1900 8550 1900
+Text Notes 7800 8850 1    50   ~ 10
+0x42
+Text Notes 2750 8850 1    50   ~ 10
+0x44
 $EndSCHEMATC

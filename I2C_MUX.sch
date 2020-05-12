@@ -7120,6 +7120,8 @@ E3 38 8E E3 E8 BA EE 38 0E AA B7 73 33 B8 08 21 84 90 49 86 B2 83 08 19 5F 3C CF
 60 82 
 EndData
 $EndBitmap
-Text Notes 2600 7300 0    79   ~ 16
-8 bit I2C addresses ( R/W bit = 0)
+Text Notes 1950 7450 0    79   ~ 16
+8 bit I2C addresses (R/W bit = 0)
+Text Notes 4550 7200 0    50   ~ 0
+Uxx, p. 14\nINA219\n0x84
 $EndSCHEMATC
