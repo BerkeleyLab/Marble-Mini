@@ -4837,17 +4837,17 @@ U 1 1 5EEFD270
 P 7600 1550
 F 0 "U43" H 7950 1715 50  0000 C CNN
 F 1 "INA219BIDCNT" H 7950 1624 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:SOT65P280X145-8N" H 7600 -340 60  0001 L CNN
-F 3 "" H 7600 380 60  0001 L CNN
+F 2 "Marble:SOT65P280X145-8N" H 7600 -340 60  0001 L CNN
+F 3 " " H 7600 380 60  0001 L CNN
 F 4 "INA219BIDCNT" H 7600 290 60  0001 L CNN "Part Number"
 F 5 "INA219BIDCNT" H 7600 200 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Analog & Interface.SchLib" H 7600 110 60  0001 L CNN "Library Path"
-F 7 "=Device" H 7600 20  60  0001 L CNN "Comment"
+F 7 "INA219BIDCNT" H 7600 20  60  0001 L CNN "Comment"
 F 8 "Standard" H 7600 -70 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 7600 -160 60  0001 L CNN "Component Type"
 F 10 "INA219BIDCNT" H 7600 -250 60  0001 L CNN "Device"
 F 11 "SOT, 0.65mm pitch; 8 pin, 1.625mm W X 2.90mm L X 1.45mm H body, IPC Medium Density" H 7600 -430 60  0001 L CNN "PackageDescription"
-F 12 "~~" H 7600 -520 60  0001 L CNN "Status"
+F 12 " " H 7600 -520 60  0001 L CNN "Status"
 F 13 "Zero-Drift, Bi-Directional CURRENT/POWER MONITOR with I2C™ Interface" H 7600 -610 60  0001 L CNN "Part Description"
 F 14 "TEXAS INSTRUMENTS" H 7600 -700 60  0001 L CNN "Manufacturer"
 F 15 "INA219BIDCNT" H 7600 -790 60  0001 L CNN "Manufacturer Part Number"
@@ -4858,9 +4858,9 @@ F 19 "No" H 7600 -1150 60  0001 L CNN "Socket"
 F 20 "Yes" H 7600 -1240 60  0001 L CNN "SMD"
 F 21 "No" H 7600 -1330 60  0001 L CNN "PressFit"
 F 22 "No" H 7600 -1420 60  0001 L CNN "Sense"
-F 23 "~~" H 7600 -1510 60  0001 L CNN "Sense Comment"
+F 23 " " H 7600 -1510 60  0001 L CNN "Sense Comment"
 F 24 "No" H 7600 -1600 60  0001 L CNN "Bonding"
-F 25 "~~" H 7600 -1690 60  0001 L CNN "Status Comment"
+F 25 " " H 7600 -1690 60  0001 L CNN "Status Comment"
 F 26 "1.45mm" H 7600 -1780 60  0001 L CNN "ComponentHeight"
 F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 7600 -1870 60  0001 L CNN "Footprint Path"
 F 28 "SOT65P280X145-8N" H 7600 -1960 60  0001 L CNN "Footprint Ref"
@@ -4868,12 +4868,15 @@ F 29 "CERN DEM JLC" H 7600 -2050 60  0001 L CNN "Author"
 F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\INA219BIDCNT.pdf" H 7600 -2140 60  0001 L CNN "HelpURL"
 F 31 "~~" H 7600 -2230 60  0001 L CNN "ComponentLink1URL"
 F 32 "~~" H 7600 -2320 60  0001 L CNN "ComponentLink2URL"
-F 33 "~~" H 7600 -2410 60  0001 L CNN "ComponentLink2Description"
-F 34 "~~" H 7600 -2500 60  0001 L CNN "ComponentLink1Description"
+F 33 " " H 7600 -2410 60  0001 L CNN "ComponentLink2Description"
+F 34 " " H 7600 -2500 60  0001 L CNN "ComponentLink1Description"
 F 35 "09/24/13 00:00:00" H 7600 -2590 60  0001 L CNN "CreateDate"
 F 36 "09/24/13 00:00:00" H 7600 -2680 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 7600 -2770 60  0001 L CNN "Library Name"
+F 37 "ICs And Semiconductors.DbLib" H 7600 -2770 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7600 -2860 60  0001 L CNN "License"
+F 39 "Analog & Interface" H 7600 1550 50  0001 C CNN "Database Table Name"
+F 40 "ICs And Semiconductors SMD" H 7600 1550 50  0001 C CNN "Footprint Library"
+F 41 " " H 7600 1550 50  0001 C CNN "SCEM"
 	1    7600 1550
 	1    0    0    -1  
 $EndComp
