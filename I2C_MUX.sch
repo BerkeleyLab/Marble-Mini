@@ -7123,5 +7123,5 @@ $EndBitmap
 Text Notes 1950 7450 0    79   ~ 16
 8 bit I2C addresses (R/W bit = 0)
 Text Notes 4550 7200 0    50   ~ 0
-Uxx, p. 14\nINA219\n0x84
+U43, p. 14\nINA219\n0x84
 $EndSCHEMATC
