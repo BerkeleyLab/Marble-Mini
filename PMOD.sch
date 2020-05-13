@@ -391,6 +391,7 @@ F 1 "PPTC062LJBN-RC" H 3800 3226 50  0000 C CNN
 F 2 "Connectors_Samtec:SDL-112-X-XX_2x06" H 3750 2900 50  0001 C CNN
 F 3 "~" H 3750 2900 50  0001 C CNN
 F 4 "PPTC062LJBN-RC" H 3750 2900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "+standalone" H 3750 2900 50  0001 C CNN "config"
 	1    3750 2900
 	1    0    0    -1  
 $EndComp
@@ -403,6 +404,7 @@ F 1 "PPTC062LJBN-RC" H 6800 3226 50  0000 C CNN
 F 2 "Connectors_Samtec:SDL-112-X-XX_2x06" H 6750 2900 50  0001 C CNN
 F 3 "~" H 6750 2900 50  0001 C CNN
 F 4 "PPTC062LJBN-RC" H 6750 2900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "+standalone" H 6750 2900 50  0001 C CNN "config"
 	1    6750 2900
 	1    0    0    -1  
 $EndComp
@@ -415,6 +417,7 @@ F 1 "PPTC062LJBN-RC" H 6800 4726 50  0000 C CNN
 F 2 "Connectors_Samtec:SDL-112-X-XX_2x06" H 6750 4400 50  0001 C CNN
 F 3 "~" H 6750 4400 50  0001 C CNN
 F 4 "PPTC062LJBN-RC" H 6750 4400 50  0001 C CNN "Manufacturer Part Number"
+F 5 "+standalone" H 6750 4400 50  0001 C CNN "config"
 	1    6750 4400
 	1    0    0    -1  
 $EndComp
