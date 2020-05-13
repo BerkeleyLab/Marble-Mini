@@ -108,7 +108,7 @@ cp stackup.csv.txt fab/marble-stack.txt
 rm -f marble-fab.zip
 zip marble-fab.zip fab/*
 
-if true; then  # clean-up step, disable when debugging
+if false; then  # clean-up step, disable when debugging
   rm -f marble*.dat $A.d356 $A.xml ${A}_bom_9.csv ${A}_bom_9.csv.tmp
   rm -rf PCB_layers fab
 fi
