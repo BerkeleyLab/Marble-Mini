@@ -1364,7 +1364,7 @@ Wire Wire Line
 	7700 8100 7700 8000
 Connection ~ 7700 8000
 Wire Wire Line
-	8750 8000 9050 8000
+	8750 8000 8900 8000
 Wire Wire Line
 	9050 8000 9050 7950
 Wire Wire Line
@@ -6995,4 +6995,35 @@ Wire Wire Line
 Connection ~ 14500 2350
 Wire Wire Line
 	14500 2350 14700 2350
+$Comp
+L Connector_Generic:TestPoint TP7
+U 1 1 5EC72B65
+P 8900 8150
+F 0 "TP7" H 8842 8176 50  0000 R CNN
+F 1 "TestPoint" H 8842 8267 50  0000 R CNN
+F 2 "Marble:TestPoint_Pad_D1.0mm" H 9100 8150 50  0001 C CNN
+F 3 "" H 9100 8150 50  0001 C CNN
+	1    8900 8150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:TestPoint TP8
+U 1 1 5EC8839F
+P 9500 9800
+F 0 "TP8" H 9442 9826 50  0000 R CNN
+F 1 "TestPoint" H 9442 9917 50  0000 R CNN
+F 2 "Marble:TestPoint_Pad_D1.0mm" H 9700 9800 50  0001 C CNN
+F 3 "" H 9700 9800 50  0001 C CNN
+	1    9500 9800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8900 8150 8900 8000
+Connection ~ 8900 8000
+Wire Wire Line
+	8900 8000 9050 8000
+Wire Wire Line
+	9050 9700 9500 9700
+Wire Wire Line
+	9500 9700 9500 9800
 $EndSCHEMATC

@@ -1381,7 +1381,7 @@ $EndComp
 Wire Wire Line
 	7000 4050 7350 4050
 Wire Wire Line
-	7350 4600 7350 4050
+	7350 4600 7350 4250
 Wire Wire Line
 	6600 4050 6300 4050
 Wire Wire Line
@@ -5061,9 +5061,25 @@ F 3 "" H 6200 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 950  6000 1150
-Wire Bus Line
-	2100 8250 2100 9850
 Connection ~ 6000 1150
 Wire Wire Line
 	6000 1150 6400 1150
+$Comp
+L Connector_Generic:TestPoint TP10
+U 1 1 5ED1928E
+P 7600 4250
+F 0 "TP10" H 7658 4368 50  0000 L CNN
+F 1 "TestPoint" H 7658 4277 50  0000 L CNN
+F 2 "Marble:TestPoint_Pad_D1.0mm" H 7800 4250 50  0001 C CNN
+F 3 "" H 7800 4250 50  0001 C CNN
+	1    7600 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4250 7350 4250
+Wire Bus Line
+	2100 8250 2100 9850
+Connection ~ 7350 4250
+Wire Wire Line
+	7350 4250 7350 4050
 $EndSCHEMATC

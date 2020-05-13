@@ -1704,7 +1704,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9050 5200 10400 5200
+	9050 5200 10300 5200
 Connection ~ 9050 5200
 Connection ~ 10800 5200
 Connection ~ 10400 5200
@@ -4017,10 +4017,26 @@ Wire Wire Line
 	1400 5850 1850 5850
 Text Notes 1300 3800 0    50   ~ 0
 No need to control CS pin, 
+$Comp
+L Connector_Generic:TestPoint TP9
+U 1 1 5ECF58E8
+P 10300 5050
+F 0 "TP9" H 10358 5168 50  0000 L CNN
+F 1 "TestPoint" H 10358 5077 50  0000 L CNN
+F 2 "Marble:TestPoint_Pad_D1.0mm" H 10500 5050 50  0001 C CNN
+F 3 "" H 10500 5050 50  0001 C CNN
+	1    10300 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 5050 10300 5200
 Wire Bus Line
 	10150 700  10150 1000
 Wire Bus Line
 	6800 950  6800 2450
 Wire Bus Line
 	10150 1150 10150 2750
+Connection ~ 10300 5200
+Wire Wire Line
+	10300 5200 10400 5200
 $EndSCHEMATC
