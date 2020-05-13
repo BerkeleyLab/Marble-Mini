@@ -2,12 +2,17 @@
 # It is supposedly possible to script some of the export steps,
 # e.g., see https://electronics.stackexchange.com/questions/390135/command-line-interface-for-kicad
 # For now I'll do those export steps by hand, as documented here.
-# Versions tested (in-progress) on Debian Buster 2020-05-12:
+# Versions tested on Debian Buster 2020-05-12:
 #  KiCad 5.1.5
-#  KiBoM 1.7.1
+#  KiBoM commit 38525f3  XXX port to 1.7.1
+#    (commit 38525f3 is not python3-compatible)
 #
 # Start the GUI with:
 #  kicad AMC_FMC_Carrier-PcbDoc.pro
+#
+# click schematic
+#  Tools / Generate Bill of Materials
+#    Generate, Close
 #
 # click layout
 #    press "B" to refill the zones
@@ -35,9 +40,9 @@
 #      Plot
 #
 set -e
-# The following setup unfortunately depends on where things are installed
+# Assume kicad is in our $PATH
+# The following setup unfortunately depends on where KiBoM is installed
 A=AMC_FMC_Carrier-PcbDoc
-K=$HOME/hack/kicad/builder
 KB=$HOME/git/KiBoM/KiBOM_CLI.py
 # KiBoM is cloned from
 # https://github.com/SchrodingersGat/KiBoM
@@ -58,7 +63,7 @@ echo OK
 
 # Run KiBoM from the command line
 echo running KiBoM
-PATH=$PATH:$K/bin LD_LIBRARY_PATH=$K/lib python $KB $A.xml $A
+python $KB $A.xml $A
 echo KiBoM complete
 
 # One more cross-check
@@ -104,7 +109,7 @@ rm -f marble-fab.zip
 zip marble-fab.zip fab/*
 
 if true; then  # clean-up step, disable when debugging
-  rm -f marble*.dat $A.d356 ${A}_bom_9.csv
+  rm -f marble*.dat $A.d356 $A.xml ${A}_bom_9.csv ${A}_bom_9.csv.tmp
   rm -rf PCB_layers fab
 fi
 # marble-fab.zip is the only generated file that should remain
