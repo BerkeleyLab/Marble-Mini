@@ -52,6 +52,10 @@ Note: Electrical Rules Checker reports 10 errors and 11 warnings. All of them ar
 Note: U1 is compatible with XC7A35T through XC7A200T; need XC7A75T or larger
 to get all User I/O of dual-LPC-FMC
 
+## Generating artifacts for manufacturing
+
+This includes Gerbers and BoM files.  See manufacturing.sh.
+
 ## Xilinx constraint file
 
 We have a somewhat specialized tool for creating an xdc file for this board,

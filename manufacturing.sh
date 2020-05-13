@@ -2,11 +2,16 @@
 # It is supposedly possible to script some of the export steps,
 # e.g., see https://electronics.stackexchange.com/questions/390135/command-line-interface-for-kicad
 # For now I'll do those export steps by hand, as documented here.
+# Versions tested (in-progress) on Debian Buster 2020-05-12:
+#  KiCad 5.1.5
+#  KiBoM 1.7.1
 #
 # Start the GUI with:
 #  kicad AMC_FMC_Carrier-PcbDoc.pro
 #
 # click layout
+#    press "B" to refill the zones
+#    highly recommended to run DRC
 #
 #  File / Fabrication Outputs / Footprint Position (.pos) File ...
 #    [X] ASCII
@@ -20,6 +25,7 @@
 #
 #  File / Plot
 #    Gerber
+#      (all the default layers, plus ..)
 #      [X] F.Paste
 #      [X] B.Paste
 #      [X] F.Mask
@@ -64,6 +70,8 @@ echo generated files are OK
 echo starting post-procesing
 
 # Create list of components exported by KiBOM
+# XXX awk -F, doesn't work for components that have "," in name;
+# rewrite using python import csv.
 sed -e 's/180,551/180/g' -e 's/, generic,/ generic/' -e 's/connector, double row, 02x06, odd.even pin numbering scheme (row 1 odd numbers, row 2 even numbers),/connector/' ${A}_bom_9.csv | awk -F, 'int($1)>0{print $4}' | tr ' ' '\n' | sort > marble_bom_keep.dat
 
 # Strip off non-physical entries in .pos file
