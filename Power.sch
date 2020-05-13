@@ -1003,7 +1003,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 9400 9700 9400
 Wire Wire Line
-	7900 8450 8650 8450
+	7900 8450 8350 8450
 Connection ~ 7900 8450
 Text HLabel 11500 8350 0    50   Input ~ 10
 OVER_TEMP
@@ -4675,7 +4675,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 1450 7800 1350
 Text Notes 3000 1100 0    50   ~ 0
-+12V can be supplied by:\n  * barrel jack\n  * AMC connector\n  * POE module\n
++12V can be supplied by any one of:\n  * barrel jack\n  * AMC connector\n  * POE module\n
 Wire Wire Line
 	3600 1850 4000 1850
 Text Notes 4600 1500 0    100  ~ 20
@@ -4683,7 +4683,7 @@ Text Notes 4600 1500 0    100  ~ 20
 Text Notes 2900 1500 0    100  ~ 20
 --->
 Wire Wire Line
-	4000 1150 6400 1150
+	4000 1150 6000 1150
 Wire Wire Line
 	6400 1150 6400 1450
 Wire Wire Line
@@ -5031,7 +5031,39 @@ Wire Wire Line
 	6900 1150 6900 850 
 Wire Wire Line
 	6400 1450 6400 1750
+Connection ~ 6400 1450
+$Comp
+L Connector_Generic:TestPoint TP1
+U 1 1 5ECE8EDE
+P 8350 7850
+F 0 "TP1" H 8408 7968 50  0000 L CNN
+F 1 "TestPoint" H 8408 7877 50  0000 L CNN
+F 2 "Marble:TestPoint_Pad_D1.0mm" H 8550 7850 50  0001 C CNN
+F 3 "" H 8550 7850 50  0001 C CNN
+	1    8350 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 7850 8350 8450
+Connection ~ 8350 8450
+Wire Wire Line
+	8350 8450 8650 8450
+$Comp
+L Connector_Generic:TestPoint TP2
+U 1 1 5ED180B0
+P 6000 950
+F 0 "TP2" H 6058 1068 50  0000 L CNN
+F 1 "TestPoint" H 6058 977 50  0000 L CNN
+F 2 "Marble:TestPoint_Pad_D1.0mm" H 6200 950 50  0001 C CNN
+F 3 "" H 6200 950 50  0001 C CNN
+	1    6000 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 950  6000 1150
 Wire Bus Line
 	2100 8250 2100 9850
-Connection ~ 6400 1450
+Connection ~ 6000 1150
+Wire Wire Line
+	6000 1150 6400 1150
 $EndSCHEMATC

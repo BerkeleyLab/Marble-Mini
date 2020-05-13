@@ -6726,7 +6726,7 @@ F 3 "~" H 14400 5950 50  0001 C CNN
 $EndComp
 Connection ~ 14400 5950
 Wire Wire Line
-	14400 5950 14700 5950
+	14400 5950 14550 5950
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5D8BEC35
@@ -6742,7 +6742,7 @@ F 3 "~" H 14400 4150 50  0001 C CNN
 $EndComp
 Connection ~ 14400 4150
 Wire Wire Line
-	14400 4150 14700 4150
+	14400 4150 14550 4150
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5D8D9728
@@ -6758,7 +6758,7 @@ F 3 "~" H 14400 2350 50  0001 C CNN
 $EndComp
 Connection ~ 14400 2350
 Wire Wire Line
-	14400 2350 14700 2350
+	14400 2350 14500 2350
 $Comp
 L Diodes:BAT165 D?
 U 1 1 5D698D73
@@ -6933,4 +6933,66 @@ Text Notes 10750 6450 0    50   ~ 0
 RDSon 7.2 mOhms
 Text Notes 10750 8250 0    50   ~ 0
 RDSon 7.2 mOhms
+$Comp
+L Connector_Generic:TestPoint TP3
+U 1 1 5ED7CF0D
+P 14500 2550
+F 0 "TP3" H 14442 2576 50  0000 R CNN
+F 1 "TestPoint" H 14442 2667 50  0000 R CNN
+F 2 "Marble:TestPoint_Pad_D1.0mm" H 14700 2550 50  0001 C CNN
+F 3 "" H 14700 2550 50  0001 C CNN
+	1    14500 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:TestPoint TP4
+U 1 1 5ED7EA90
+P 14550 4300
+F 0 "TP4" H 14492 4326 50  0000 R CNN
+F 1 "TestPoint" H 14492 4417 50  0000 R CNN
+F 2 "Marble:TestPoint_Pad_D1.0mm" H 14750 4300 50  0001 C CNN
+F 3 "" H 14750 4300 50  0001 C CNN
+	1    14550 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:TestPoint TP5
+U 1 1 5ED86CAA
+P 14550 6200
+F 0 "TP5" H 14492 6226 50  0000 R CNN
+F 1 "TestPoint" H 14492 6317 50  0000 R CNN
+F 2 "Marble:TestPoint_Pad_D1.0mm" H 14750 6200 50  0001 C CNN
+F 3 "" H 14750 6200 50  0001 C CNN
+	1    14550 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:TestPoint TP6
+U 1 1 5ED8D8B0
+P 14650 8250
+F 0 "TP6" H 14592 8276 50  0000 R CNN
+F 1 "TestPoint" H 14592 8367 50  0000 R CNN
+F 2 "Marble:TestPoint_Pad_D1.0mm" H 14850 8250 50  0001 C CNN
+F 3 "" H 14850 8250 50  0001 C CNN
+	1    14650 8250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14650 8000 14650 8250
+Connection ~ 14650 8000
+Wire Wire Line
+	14550 6200 14550 5950
+Connection ~ 14550 5950
+Wire Wire Line
+	14550 5950 14700 5950
+Wire Wire Line
+	14550 4300 14550 4150
+Connection ~ 14550 4150
+Wire Wire Line
+	14550 4150 14700 4150
+Wire Wire Line
+	14500 2550 14500 2350
+Connection ~ 14500 2350
+Wire Wire Line
+	14500 2350 14700 2350
 $EndSCHEMATC
