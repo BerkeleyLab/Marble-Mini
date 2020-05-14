@@ -3458,7 +3458,7 @@ Wire Wire Line
 	4750 1900 5000 1900
 Connection ~ 5000 1900
 Wire Wire Line
-	5000 1900 5450 1900
+	5000 1900 5250 1900
 Connection ~ 5000 2200
 Wire Wire Line
 	3650 4300 3800 4300
@@ -5594,4 +5594,20 @@ Wire Wire Line
 Connection ~ 2500 4300
 Wire Wire Line
 	2500 4300 2500 3700
+$Comp
+L Connector_Generic:TestPoint TP11
+U 1 1 5EC72E04
+P 5250 1800
+F 0 "TP11" H 5308 1918 50  0000 L CNN
+F 1 "TestPoint" H 5308 1827 50  0000 L CNN
+F 2 "Marble:TestPoint_Pad_D1.0mm" H 5450 1800 50  0001 C CNN
+F 3 "" H 5450 1800 50  0001 C CNN
+	1    5250 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1800 5250 1900
+Connection ~ 5250 1900
+Wire Wire Line
+	5250 1900 5450 1900
 $EndSCHEMATC
