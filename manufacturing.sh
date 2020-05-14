@@ -74,17 +74,10 @@ test "$f" = `find "$f" -newer $A.xml`
 echo generated files are OK
 echo starting post-procesing
 
-# Create list of components exported by KiBOM
-# XXX awk -F, doesn't work for components that have "," in name;
-# rewrite using python import csv.
-sed -e 's/180,551/180/g' -e 's/, generic,/ generic/' -e 's/connector, double row, 02x06, odd.even pin numbering scheme (row 1 odd numbers, row 2 even numbers),/connector/' ${A}_bom_9.csv | awk -F, 'int($1)>0{print $4}' | tr ' ' '\n' | sort > marble_bom_keep.dat
-
-# Strip off non-physical entries in .pos file
-grep -vE "^#| LOGO | FIDUCIAL_" < PCB_layers/$A-all.pos > marble_xy_phys.dat
-
-# Only keep .pos file entries if they exist in list of populated components
-awk 'FILENAME=="marble_bom_keep.dat"{a[$1]=1}FILENAME=="marble_xy_phys.dat"{if (a[$1]==1) print $0}' marble_bom_keep.dat marble_xy_phys.dat | sort > marble_xy_keep.dat
-echo COMPLETE
+# Additional postprocessing
+# input ${A}_bom_9.csv $A-all.pos
+# output marble-xy.pos
+python3 xy_post.py ${A} marble
 
 # Assemble files into fab directory
 rm -rf fab
@@ -94,7 +87,7 @@ for f in *.gbr *.drl; do
   cp $f ../fab/marble${f#$A}
 done
 cd ..
-(echo "## Unit = mm, Angle = deg."; cat marble_xy_keep.dat; echo "## End") > fab/marble-xy.pos
+cp marble-xy.pos fab/marble-xy.pos
 cp ${A}_bom_9.csv fab/marble-bom.csv
 cp $A.d356 fab/marble-ipc-d-356.txt
 cp stackup.csv.txt fab/marble-stack.txt
