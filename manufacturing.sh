@@ -30,13 +30,6 @@
 #
 #  File / Plot
 #    Gerber
-#      (all the default layers, plus ..)
-#      [X] F.Paste
-#      [X] B.Paste
-#      [X] F.Mask
-#      [X] B.Mask
-#      [X] Edge.Cuts
-#      [ ] Use Protel filename extensions
 #      Plot
 #
 set -e
