@@ -953,7 +953,7 @@ F 0 "R185" V 7854 3910 50  0000 L CNN
 F 1 "R0402_0R_JUMPER" H 7750 3640 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 7750 2830 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 7750 3460 60  0001 L CNN
-F 4 "DNP" V 7945 3910 50  0000 L CNN "~"
+F 4 "0" V 7945 3910 50  0000 L CNN "~"
 F 5 "R0402_0R_JUMPER" H 7750 3370 60  0001 L CNN "Part Number"
 F 6 "Resistor" H 7750 3280 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 7750 3190 60  0001 L CNN "Library Path"
@@ -993,6 +993,7 @@ F 40 "Resistors.DbLib" H 7750 130 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7750 40  60  0001 L CNN "License"
 F 42 "Resistors SMD" H 7750 3850 50  0001 C CNN "Database Table Name"
 F 43 "Resistors SMD" H 7750 3850 50  0001 C CNN "Footprint Library"
+F 44 "dnf" V 7950 4100 50  0000 C CNN "config"
 	1    7750 3850
 	0    1    1    0   
 $EndComp
