@@ -188,7 +188,7 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 7750 400 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 7750 310 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 7750 220 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors.DbLib" H 7750 130 60  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 7750 130 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7750 40  60  0001 L CNN "License"
 F 42 "Resistors SMD" H 7750 3850 50  0001 C CNN "Database Table Name"
 F 43 "Resistors SMD" H 7750 3850 50  0001 C CNN "Footprint Library"
