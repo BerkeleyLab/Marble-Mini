@@ -143,53 +143,55 @@ Wire Wire Line
 Text HLabel 10050 3450 2    50   Output ~ 10
 SFP4_RS
 $Comp
-L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
+L Resistors_SMD:R0402_0R_JUMPER R?
 U 1 1 5C65B435
 P 7750 3850
 AR Path="/5CC393D3/5C65B435" Ref="R?"  Part="1" 
 AR Path="/5CC8AFE1/5C65B435" Ref="R187"  Part="1" 
 F 0 "R187" V 7854 3910 50  0000 L CNN
-F 1 "R0402_10K_1%_0.0625W_100PPM" H 7750 3640 60  0001 L CNN
+F 1 "R0402_0R_JUMPER" H 7750 3640 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 7750 2830 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 7750 3460 60  0001 L CNN
-F 4 "10k" V 7945 3910 50  0000 L CNN "~"
-F 5 "R0402_10K_1%_0.0625W_100PPM" H 7750 3370 60  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 7750 3280 60  0001 L CNN "Library Ref"
+F 4 "DNP" V 7945 3910 50  0000 L CNN "~"
+F 5 "R0402_0R_JUMPER" H 7750 3370 60  0001 L CNN "Part Number"
+F 6 "Resistor" H 7750 3280 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 7750 3190 60  0001 L CNN "Library Path"
-F 8 "=Value" H 7750 3100 60  0001 L CNN "Comment"
+F 8 "0" H 7750 3100 60  0001 L CNN "Comment"
 F 9 "Standard" H 7750 3010 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 7750 2920 60  0001 L CNN "Component Type"
-F 11 "~~" H 7750 2740 60  0001 L CNN "PackageDescription"
+F 11 " " H 7750 2740 60  0001 L CNN "PackageDescription"
 F 12 "2" H 7750 2650 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 7750 2560 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 7750 2470 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 7750 2380 60  0001 L CNN "Val"
+F 15 "0" H 7750 2380 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 7750 2290 60  0001 L CNN "Status"
-F 17 "0.0625W" H 7750 2200 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 7750 2110 60  0001 L CNN "TC"
-F 19 "~~" H 7750 2020 60  0001 L CNN "Voltage"
-F 20 "±1%" H 7750 1930 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 7750 1840 60  0001 L CNN "Part Description"
+F 17 " " H 7750 2200 60  0001 L CNN "Power"
+F 18 " " H 7750 2110 60  0001 L CNN "TC"
+F 19 " " H 7750 2020 60  0001 L CNN "Voltage"
+F 20 " " H 7750 1930 60  0001 L CNN "Tolerance"
+F 21 "1A (0.05R Max DC Resistance) Zero Ohm Jumper" H 7750 1840 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 7750 1750 60  0001 L CNN "Manufacturer"
-F 23 "R0402_10K_1%_0.0625W_100PPM" H 7750 1660 60  0001 L CNN "Manufacturer Part Number"
+F 23 "R0402_0R_JUMPER" H 7750 1660 60  0001 L CNN "Manufacturer Part Number"
 F 24 "0402" H 7750 1570 60  0001 L CNN "Case"
 F 25 "No" H 7750 1480 60  0001 L CNN "PressFit"
 F 26 "Yes" H 7750 1390 60  0001 L CNN "Mounted"
-F 27 "~~" H 7750 1300 60  0001 L CNN "Sense Comment"
+F 27 " " H 7750 1300 60  0001 L CNN "Sense Comment"
 F 28 "No" H 7750 1210 60  0001 L CNN "Sense"
-F 29 "~~" H 7750 1120 60  0001 L CNN "Status Comment"
+F 29 " " H 7750 1120 60  0001 L CNN "Status Comment"
 F 30 "No" H 7750 1030 60  0001 L CNN "Socket"
 F 31 "Yes" H 7750 940 60  0001 L CNN "SMD"
-F 32 "~~" H 7750 850 60  0001 L CNN "ComponentHeight"
+F 32 " " H 7750 850 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 7750 760 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270671003L" H 7750 670 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270591001L" H 7750 670 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 7750 580 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 7750 490 60  0001 L CNN "HelpURL"
 F 37 "CERN DEM JLC" H 7750 400 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 7750 310 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 7750 220 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 7750 130 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 7750 130 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7750 40  60  0001 L CNN "License"
+F 42 "Resistors SMD" H 7750 3850 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 7750 3850 50  0001 C CNN "Footprint Library"
 	1    7750 3850
 	0    1    1    0   
 $EndComp
