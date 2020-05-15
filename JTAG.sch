@@ -3251,7 +3251,7 @@ AR Path="/5CA40231/5D50F1E9" Ref="Q17"  Part="1"
 F 0 "Q17" H 2319 5746 50  0000 L CNN
 F 1 "BSS138LT1G" H 2319 5655 50  0000 L CNN
 F 2 "Marble:SOT95P240X110-3N" H 2000 4440 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS139.pdf" H 2000 5160 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 2000 5160 60  0001 L CNN
 F 4 "BSS138LT1G" H 2000 5070 60  0001 L CNN "Part Number"
 F 5 "N-MOSFET-D 1G 2S 3D" H 2000 4980 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Transistors.SchLib" H 2000 4890 60  0001 L CNN "Library Path"
@@ -3277,7 +3277,7 @@ F 25 " " H 2000 3090 60  0001 L CNN "Status Comment"
 F 26 "1.11mm" H 2000 3000 60  0001 L CNN "ComponentHeight"
 F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2000 2910 60  0001 L CNN "Footprint Path"
 F 28 "SOT95P240X110-3N" H 2000 2820 60  0001 L CNN "Footprint Ref"
-F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS139.pdf" H 2000 2730 60  0001 L CNN "HelpURL"
+F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 2000 2730 60  0001 L CNN "HelpURL"
 F 30 "~~" H 2000 2640 60  0001 L CNN "ComponentLink1URL"
 F 31 " " H 2000 2550 60  0001 L CNN "ComponentLink1Description"
 F 32 "~~" H 2000 2460 60  0001 L CNN "ComponentLink2URL"
@@ -3302,7 +3302,7 @@ AR Path="/5CA40231/5D1CAAEE" Ref="Q5"  Part="1"
 F 0 "Q5" H 2769 6546 50  0000 L CNN
 F 1 "BSS138LT1G" H 2769 6455 50  0000 L CNN
 F 2 "Marble:SOT95P240X110-3N" H 2450 5240 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS139.pdf" H 2450 5960 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 2450 5960 60  0001 L CNN
 F 4 "BSS138LT1G" H 2450 5870 60  0001 L CNN "Part Number"
 F 5 "N-MOSFET-D 1G 2S 3D" H 2450 5780 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Transistors.SchLib" H 2450 5690 60  0001 L CNN "Library Path"
@@ -3328,7 +3328,7 @@ F 25 " " H 2450 3890 60  0001 L CNN "Status Comment"
 F 26 "1.11mm" H 2450 3800 60  0001 L CNN "ComponentHeight"
 F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2450 3710 60  0001 L CNN "Footprint Path"
 F 28 "SOT95P240X110-3N" H 2450 3620 60  0001 L CNN "Footprint Ref"
-F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS139.pdf" H 2450 3530 60  0001 L CNN "HelpURL"
+F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 2450 3530 60  0001 L CNN "HelpURL"
 F 30 "~~" H 2450 3440 60  0001 L CNN "ComponentLink1URL"
 F 31 " " H 2450 3350 60  0001 L CNN "ComponentLink1Description"
 F 32 "~~" H 2450 3260 60  0001 L CNN "ComponentLink2URL"

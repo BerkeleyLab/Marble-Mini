@@ -3526,12 +3526,12 @@ F 3 "" H 12150 4560 60  0001 L CNN
 F 4 "BSS138LT1G" H 12150 4470 60  0001 L CNN "Part Number"
 F 5 "N-MOSFET-D 1G 2S 3D" H 12150 4380 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Transistors.SchLib" H 12150 4290 60  0001 L CNN "Library Path"
-F 7 "=Device" H 12150 4200 60  0001 L CNN "Comment"
+F 7 "BSS138LT1G" H 12150 4200 60  0001 L CNN "Comment"
 F 8 "Standard" H 12150 4110 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 12150 4020 60  0001 L CNN "Component Type"
 F 10 "BSS138LT1G" H 12150 3930 60  0001 L CNN "Device"
 F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 12150 3750 60  0001 L CNN "PackageDescription"
-F 12 "~~" H 12150 3660 60  0001 L CNN "Status"
+F 12 " " H 12150 3660 60  0001 L CNN "Status"
 F 13 "50V 200mA N-Channel Enhancement Mode Field-Effect Transistor" H 12150 3570 60  0001 L CNN "Part Description"
 F 14 "ON SEMICONDUCTOR" H 12150 3480 60  0001 L CNN "Manufacturer"
 F 15 "BSS138LT1G" H 12150 3390 60  0001 L CNN "Manufacturer Part Number"
@@ -3542,22 +3542,25 @@ F 19 "No" H 12150 3030 60  0001 L CNN "Socket"
 F 20 "No" H 12150 2940 60  0001 L CNN "PressFit"
 F 21 "Yes" H 12150 2850 60  0001 L CNN "SMD"
 F 22 "No" H 12150 2760 60  0001 L CNN "Sense"
-F 23 "~~" H 12150 2670 60  0001 L CNN "Sense Comment"
+F 23 " " H 12150 2670 60  0001 L CNN "Sense Comment"
 F 24 "No" H 12150 2580 60  0001 L CNN "Bonding"
-F 25 "~~" H 12150 2490 60  0001 L CNN "Status Comment"
+F 25 " " H 12150 2490 60  0001 L CNN "Status Comment"
 F 26 "1.11mm" H 12150 2400 60  0001 L CNN "ComponentHeight"
 F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 12150 2310 60  0001 L CNN "Footprint Path"
 F 28 "SOT95P240X110-3N" H 12150 2220 60  0001 L CNN "Footprint Ref"
 F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 12150 2130 60  0001 L CNN "HelpURL"
 F 30 "~~" H 12150 2040 60  0001 L CNN "ComponentLink1URL"
-F 31 "~~" H 12150 1950 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 12150 1950 60  0001 L CNN "ComponentLink1Description"
 F 32 "~~" H 12150 1860 60  0001 L CNN "ComponentLink2URL"
-F 33 "~~" H 12150 1770 60  0001 L CNN "ComponentLink2Description"
+F 33 " " H 12150 1770 60  0001 L CNN "ComponentLink2Description"
 F 34 "CERN DEM JLC" H 12150 1680 60  0001 L CNN "Author"
 F 35 "03/23/09 00:00:00" H 12150 1590 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 12150 1500 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 12150 1410 60  0001 L CNN "Library Name"
+F 37 "ICs And Semiconductors.DbLib" H 12150 1410 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12150 1320 60  0001 L CNN "License"
+F 39 "Transistors" H 12150 5050 50  0001 C CNN "Database Table Name"
+F 40 "ICs And Semiconductors SMD" H 12150 5050 50  0001 C CNN "Footprint Library"
+F 41 " " H 12150 5050 50  0001 C CNN "SCEM"
 	1    12150 5050
 	1    0    0    -1  
 $EndComp
@@ -3573,12 +3576,12 @@ F 3 "" H 12150 1160 60  0001 L CNN
 F 4 "BSS138LT1G" H 12150 1070 60  0001 L CNN "Part Number"
 F 5 "N-MOSFET-D 1G 2S 3D" H 12150 980 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Transistors.SchLib" H 12150 890 60  0001 L CNN "Library Path"
-F 7 "=Device" H 12150 800 60  0001 L CNN "Comment"
+F 7 "BSS138LT1G" H 12150 800 60  0001 L CNN "Comment"
 F 8 "Standard" H 12150 710 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 12150 620 60  0001 L CNN "Component Type"
 F 10 "BSS138LT1G" H 12150 530 60  0001 L CNN "Device"
 F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 12150 350 60  0001 L CNN "PackageDescription"
-F 12 "~~" H 12150 260 60  0001 L CNN "Status"
+F 12 " " H 12150 260 60  0001 L CNN "Status"
 F 13 "50V 200mA N-Channel Enhancement Mode Field-Effect Transistor" H 12150 170 60  0001 L CNN "Part Description"
 F 14 "ON SEMICONDUCTOR" H 12150 80  60  0001 L CNN "Manufacturer"
 F 15 "BSS138LT1G" H 12150 -10 60  0001 L CNN "Manufacturer Part Number"
@@ -3589,22 +3592,25 @@ F 19 "No" H 12150 -370 60  0001 L CNN "Socket"
 F 20 "No" H 12150 -460 60  0001 L CNN "PressFit"
 F 21 "Yes" H 12150 -550 60  0001 L CNN "SMD"
 F 22 "No" H 12150 -640 60  0001 L CNN "Sense"
-F 23 "~~" H 12150 -730 60  0001 L CNN "Sense Comment"
+F 23 " " H 12150 -730 60  0001 L CNN "Sense Comment"
 F 24 "No" H 12150 -820 60  0001 L CNN "Bonding"
-F 25 "~~" H 12150 -910 60  0001 L CNN "Status Comment"
+F 25 " " H 12150 -910 60  0001 L CNN "Status Comment"
 F 26 "1.11mm" H 12150 -1000 60  0001 L CNN "ComponentHeight"
 F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 12150 -1090 60  0001 L CNN "Footprint Path"
 F 28 "SOT95P240X110-3N" H 12150 -1180 60  0001 L CNN "Footprint Ref"
 F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 12150 -1270 60  0001 L CNN "HelpURL"
 F 30 "~~" H 12150 -1360 60  0001 L CNN "ComponentLink1URL"
-F 31 "~~" H 12150 -1450 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 12150 -1450 60  0001 L CNN "ComponentLink1Description"
 F 32 "~~" H 12150 -1540 60  0001 L CNN "ComponentLink2URL"
-F 33 "~~" H 12150 -1630 60  0001 L CNN "ComponentLink2Description"
+F 33 " " H 12150 -1630 60  0001 L CNN "ComponentLink2Description"
 F 34 "CERN DEM JLC" H 12150 -1720 60  0001 L CNN "Author"
 F 35 "03/23/09 00:00:00" H 12150 -1810 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 12150 -1900 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 12150 -1990 60  0001 L CNN "Library Name"
+F 37 "ICs And Semiconductors.DbLib" H 12150 -1990 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12150 -2080 60  0001 L CNN "License"
+F 39 "Transistors" H 12150 1650 50  0001 C CNN "Database Table Name"
+F 40 "ICs And Semiconductors SMD" H 12150 1650 50  0001 C CNN "Footprint Library"
+F 41 " " H 12150 1650 50  0001 C CNN "SCEM"
 	1    12150 1650
 	1    0    0    -1  
 $EndComp
@@ -5077,9 +5083,9 @@ F 3 "" H 7800 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7600 4250 7350 4250
-Wire Bus Line
-	2100 8250 2100 9850
 Connection ~ 7350 4250
 Wire Wire Line
 	7350 4250 7350 4050
+Wire Bus Line
+	2100 8250 2100 9850
 $EndSCHEMATC
