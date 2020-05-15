@@ -465,17 +465,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R45
 U 1 1 5C5ABFCC
 P 6000 2150
 F 0 "R45" H 5900 2150 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 1940 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 1940 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 1130 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 1760 60  0001 L CNN
 F 4 "22k" H 6400 2150 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 1670 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 1580 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 1490 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 1400 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 1400 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 1310 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 1220 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 1040 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 1040 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 950 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 860 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 770 60  0001 L CNN "Footprint Ref"
@@ -483,7 +483,7 @@ F 15 "22k" H 6000 680 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 590 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 500 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 410 60  0001 L CNN "TC"
-F 19 "~~" H 6000 320 60  0001 L CNN "Voltage"
+F 19 " " H 6000 320 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 230 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 140 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 50  60  0001 L CNN "Manufacturer"
@@ -491,12 +491,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 -40 60  0001 L CNN "Manufacturer Part 
 F 24 "0402" H 6000 -130 60  0001 L CNN "Case"
 F 25 "No" H 6000 -220 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 -310 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 -400 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 -400 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 -490 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 -580 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 -580 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 -670 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 -760 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 -850 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 -850 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -940 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 -1030 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -1120 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -504,8 +504,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -1300 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -1390 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -1480 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -1570 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -1570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1660 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 2150 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 2150 50  0001 C CNN "Footprint Library"
 	1    6000 2150
 	1    0    0    -1  
 $EndComp
@@ -514,17 +516,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R46
 U 1 1 5C5B01D9
 P 6000 2250
 F 0 "R46" H 5900 2250 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2040 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 2040 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 1230 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 1860 60  0001 L CNN
 F 4 "22k" H 6400 2250 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 1770 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 1680 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 1590 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 1500 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 1500 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 1410 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 1320 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 1140 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 1140 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 1050 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 960 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 870 60  0001 L CNN "Footprint Ref"
@@ -532,7 +534,7 @@ F 15 "22k" H 6000 780 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 690 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 600 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 510 60  0001 L CNN "TC"
-F 19 "~~" H 6000 420 60  0001 L CNN "Voltage"
+F 19 " " H 6000 420 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 330 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 240 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 150 60  0001 L CNN "Manufacturer"
@@ -540,12 +542,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 60  60  0001 L CNN "Manufacturer Part 
 F 24 "0402" H 6000 -30 60  0001 L CNN "Case"
 F 25 "No" H 6000 -120 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 -210 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 -300 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 -300 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 -390 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 -480 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 -480 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 -570 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 -660 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 -750 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 -750 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -840 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 -930 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -1020 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -553,8 +555,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -1200 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -1290 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -1380 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -1470 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -1470 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1560 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 2250 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 2250 50  0001 C CNN "Footprint Library"
 	1    6000 2250
 	1    0    0    -1  
 $EndComp
@@ -563,17 +567,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R47
 U 1 1 5C5B20E3
 P 6000 2350
 F 0 "R47" H 5900 2350 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2140 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 2140 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 1330 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 1960 60  0001 L CNN
 F 4 "22k" H 6400 2350 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 1870 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 1780 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 1690 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 1600 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 1600 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 1510 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 1420 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 1240 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 1240 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 1150 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 1060 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 970 60  0001 L CNN "Footprint Ref"
@@ -581,7 +585,7 @@ F 15 "22k" H 6000 880 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 790 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 700 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 610 60  0001 L CNN "TC"
-F 19 "~~" H 6000 520 60  0001 L CNN "Voltage"
+F 19 " " H 6000 520 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 430 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 340 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 250 60  0001 L CNN "Manufacturer"
@@ -589,12 +593,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 160 60  0001 L CNN "Manufacturer Part 
 F 24 "0402" H 6000 70  60  0001 L CNN "Case"
 F 25 "No" H 6000 -20 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 -110 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 -200 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 -200 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 -290 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 -380 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 -380 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 -470 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 -560 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 -650 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 -650 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -740 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 -830 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -920 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -602,8 +606,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -1100 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -1190 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -1280 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -1370 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -1370 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1460 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 2350 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 2350 50  0001 C CNN "Footprint Library"
 	1    6000 2350
 	1    0    0    -1  
 $EndComp
@@ -612,17 +618,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R48
 U 1 1 5C5B3FEA
 P 6000 2450
 F 0 "R48" H 5900 2450 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2240 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 2240 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 1430 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2060 60  0001 L CNN
 F 4 "22k" H 6400 2450 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 1970 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 1880 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 1790 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 1700 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 1700 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 1610 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 1520 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 1340 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 1340 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 1250 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 1160 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 1070 60  0001 L CNN "Footprint Ref"
@@ -630,7 +636,7 @@ F 15 "22k" H 6000 980 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 890 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 800 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 710 60  0001 L CNN "TC"
-F 19 "~~" H 6000 620 60  0001 L CNN "Voltage"
+F 19 " " H 6000 620 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 530 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 440 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 350 60  0001 L CNN "Manufacturer"
@@ -638,12 +644,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 260 60  0001 L CNN "Manufacturer Part 
 F 24 "0402" H 6000 170 60  0001 L CNN "Case"
 F 25 "No" H 6000 80  60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 -10 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 -100 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 -100 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 -190 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 -280 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 -280 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 -370 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 -460 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 -550 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 -550 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -640 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 -730 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -820 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -651,8 +657,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -1000 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -1090 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -1180 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -1270 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -1270 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1360 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 2450 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 2450 50  0001 C CNN "Footprint Library"
 	1    6000 2450
 	1    0    0    -1  
 $EndComp
@@ -661,17 +669,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R49
 U 1 1 5C5B5EF0
 P 6000 2550
 F 0 "R49" H 5900 2550 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2340 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 2340 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 1530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2160 60  0001 L CNN
 F 4 "22k" H 6400 2550 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 2070 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 1980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 1890 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 1800 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 1800 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 1710 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 1620 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 1440 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 1440 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 1350 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 1260 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 1170 60  0001 L CNN "Footprint Ref"
@@ -679,7 +687,7 @@ F 15 "22k" H 6000 1080 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 990 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 900 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 810 60  0001 L CNN "TC"
-F 19 "~~" H 6000 720 60  0001 L CNN "Voltage"
+F 19 " " H 6000 720 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 630 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 540 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 450 60  0001 L CNN "Manufacturer"
@@ -687,12 +695,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 360 60  0001 L CNN "Manufacturer Part 
 F 24 "0402" H 6000 270 60  0001 L CNN "Case"
 F 25 "No" H 6000 180 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 90  60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 0   60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 0   60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 -90 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 -180 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 -180 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 -270 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 -360 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 -450 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 -450 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -540 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 -630 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -720 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -700,8 +708,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -900 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -990 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -1080 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -1170 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -1170 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1260 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 2550 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 2550 50  0001 C CNN "Footprint Library"
 	1    6000 2550
 	1    0    0    -1  
 $EndComp
@@ -710,17 +720,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R50
 U 1 1 5C5B7DF9
 P 6000 2650
 F 0 "R50" H 5900 2650 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2440 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 2440 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 1630 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2260 60  0001 L CNN
 F 4 "22k" H 6400 2650 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 2170 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 2080 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 1990 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 1900 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 1900 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 1810 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 1720 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 1540 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 1540 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 1450 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 1360 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 1270 60  0001 L CNN "Footprint Ref"
@@ -728,7 +738,7 @@ F 15 "22k" H 6000 1180 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 1090 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 1000 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 910 60  0001 L CNN "TC"
-F 19 "~~" H 6000 820 60  0001 L CNN "Voltage"
+F 19 " " H 6000 820 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 730 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 640 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 550 60  0001 L CNN "Manufacturer"
@@ -736,12 +746,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 460 60  0001 L CNN "Manufacturer Part 
 F 24 "0402" H 6000 370 60  0001 L CNN "Case"
 F 25 "No" H 6000 280 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 190 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 100 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 100 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 10  60  0001 L CNN "Sense"
-F 29 "~~" H 6000 -80 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 -80 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 -170 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 -260 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 -350 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 -350 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -440 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 -530 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -620 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -749,8 +759,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -800 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -890 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -980 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -1070 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -1070 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1160 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 2650 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 2650 50  0001 C CNN "Footprint Library"
 	1    6000 2650
 	1    0    0    -1  
 $EndComp
@@ -759,17 +771,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R51
 U 1 1 5C5B9D07
 P 6000 2750
 F 0 "R51" H 5900 2750 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2540 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 2540 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 1730 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2360 60  0001 L CNN
 F 4 "22k" H 6400 2750 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 2270 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 2180 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 2090 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 2000 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 2000 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 1910 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 1820 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 1640 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 1640 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 1550 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 1460 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 1370 60  0001 L CNN "Footprint Ref"
@@ -777,7 +789,7 @@ F 15 "22k" H 6000 1280 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 1190 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 1100 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 1010 60  0001 L CNN "TC"
-F 19 "~~" H 6000 920 60  0001 L CNN "Voltage"
+F 19 " " H 6000 920 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 830 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 740 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 650 60  0001 L CNN "Manufacturer"
@@ -785,12 +797,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 560 60  0001 L CNN "Manufacturer Part 
 F 24 "0402" H 6000 470 60  0001 L CNN "Case"
 F 25 "No" H 6000 380 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 290 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 200 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 200 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 110 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 20  60  0001 L CNN "Status Comment"
+F 29 " " H 6000 20  60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 -70 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 -160 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 -250 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 -250 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -340 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 -430 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -520 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -798,8 +810,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -700 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -790 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -880 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -970 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -970 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1060 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 2750 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 2750 50  0001 C CNN "Footprint Library"
 	1    6000 2750
 	1    0    0    -1  
 $EndComp
@@ -808,17 +822,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R52
 U 1 1 5C5BBC14
 P 6000 2850
 F 0 "R52" H 5900 2850 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2640 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 2640 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 1830 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2460 60  0001 L CNN
 F 4 "22k" H 6400 2850 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 2370 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 2280 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 2190 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 2100 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 2100 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 2010 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 1920 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 1740 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 1740 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 1650 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 1560 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 1470 60  0001 L CNN "Footprint Ref"
@@ -826,7 +840,7 @@ F 15 "22k" H 6000 1380 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 1290 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 1200 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 1110 60  0001 L CNN "TC"
-F 19 "~~" H 6000 1020 60  0001 L CNN "Voltage"
+F 19 " " H 6000 1020 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 930 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 840 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 750 60  0001 L CNN "Manufacturer"
@@ -834,12 +848,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 660 60  0001 L CNN "Manufacturer Part 
 F 24 "0402" H 6000 570 60  0001 L CNN "Case"
 F 25 "No" H 6000 480 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 390 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 300 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 300 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 210 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 120 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 120 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 30  60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 -60 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 -150 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 -150 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -240 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 -330 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -420 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -847,8 +861,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -600 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -690 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -780 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -870 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -870 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -960 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 2850 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 2850 50  0001 C CNN "Footprint Library"
 	1    6000 2850
 	1    0    0    -1  
 $EndComp
@@ -857,17 +873,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R53
 U 1 1 5C5BDB24
 P 6000 2950
 F 0 "R53" H 5900 2950 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2740 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 2740 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 1930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2560 60  0001 L CNN
 F 4 "22k" H 6400 2950 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 2470 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 2380 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 2290 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 2200 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 2200 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 2110 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 2020 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 1840 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 1840 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 1750 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 1660 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 1570 60  0001 L CNN "Footprint Ref"
@@ -875,7 +891,7 @@ F 15 "22k" H 6000 1480 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 1390 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 1300 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 1210 60  0001 L CNN "TC"
-F 19 "~~" H 6000 1120 60  0001 L CNN "Voltage"
+F 19 " " H 6000 1120 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 1030 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 940 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 850 60  0001 L CNN "Manufacturer"
@@ -883,12 +899,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 760 60  0001 L CNN "Manufacturer Part 
 F 24 "0402" H 6000 670 60  0001 L CNN "Case"
 F 25 "No" H 6000 580 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 490 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 400 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 400 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 310 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 220 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 220 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 130 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 40  60  0001 L CNN "SMD"
-F 32 "~~" H 6000 -50 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 -50 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -140 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 -230 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -320 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -896,8 +912,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -500 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -590 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -680 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -770 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -770 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -860 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 2950 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 2950 50  0001 C CNN "Footprint Library"
 	1    6000 2950
 	1    0    0    -1  
 $EndComp
@@ -906,17 +924,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R54
 U 1 1 5C5BFA31
 P 6000 3050
 F 0 "R54" H 5900 3050 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2840 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 2840 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 2030 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2660 60  0001 L CNN
 F 4 "22k" H 6400 3050 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 2570 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 2480 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 2390 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 2300 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 2300 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 2210 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 2120 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 1940 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 1940 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 1850 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 1760 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 1670 60  0001 L CNN "Footprint Ref"
@@ -924,7 +942,7 @@ F 15 "22k" H 6000 1580 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 1490 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 1400 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 1310 60  0001 L CNN "TC"
-F 19 "~~" H 6000 1220 60  0001 L CNN "Voltage"
+F 19 " " H 6000 1220 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 1130 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 1040 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 950 60  0001 L CNN "Manufacturer"
@@ -932,12 +950,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 860 60  0001 L CNN "Manufacturer Part 
 F 24 "0402" H 6000 770 60  0001 L CNN "Case"
 F 25 "No" H 6000 680 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 590 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 500 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 500 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 410 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 320 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 320 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 230 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 140 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 50  60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 50  60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -40 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 -130 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -220 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -945,8 +963,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -400 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -490 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -580 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -670 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -670 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -760 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 3050 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 3050 50  0001 C CNN "Footprint Library"
 	1    6000 3050
 	1    0    0    -1  
 $EndComp
@@ -955,17 +975,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R55
 U 1 1 5C5C193D
 P 6000 3150
 F 0 "R55" H 5900 3150 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2940 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 2940 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 2130 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2760 60  0001 L CNN
 F 4 "22k" H 6400 3150 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 2670 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 2580 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 2490 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 2400 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 2400 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 2310 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 2220 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 2040 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 2040 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 1950 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 1860 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 1770 60  0001 L CNN "Footprint Ref"
@@ -973,7 +993,7 @@ F 15 "22k" H 6000 1680 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 1590 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 1500 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 1410 60  0001 L CNN "TC"
-F 19 "~~" H 6000 1320 60  0001 L CNN "Voltage"
+F 19 " " H 6000 1320 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 1230 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 1140 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 1050 60  0001 L CNN "Manufacturer"
@@ -981,12 +1001,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 960 60  0001 L CNN "Manufacturer Part 
 F 24 "0402" H 6000 870 60  0001 L CNN "Case"
 F 25 "No" H 6000 780 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 690 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 600 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 600 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 510 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 420 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 420 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 330 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 240 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 150 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 150 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 60  60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 -30 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -120 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -994,8 +1014,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -300 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -390 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -480 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -570 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -660 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 3150 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 3150 50  0001 C CNN "Footprint Library"
 	1    6000 3150
 	1    0    0    -1  
 $EndComp
@@ -1004,17 +1026,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R56
 U 1 1 5C5C384C
 P 6000 3250
 F 0 "R56" H 5900 3250 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 3040 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 3040 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 2230 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2860 60  0001 L CNN
 F 4 "22k" H 6400 3250 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 2770 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 2680 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 2590 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 2500 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 2500 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 2410 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 2320 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 2140 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 2140 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 2050 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 1960 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 1870 60  0001 L CNN "Footprint Ref"
@@ -1022,7 +1044,7 @@ F 15 "22k" H 6000 1780 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 1690 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 1600 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 1510 60  0001 L CNN "TC"
-F 19 "~~" H 6000 1420 60  0001 L CNN "Voltage"
+F 19 " " H 6000 1420 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 1330 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 1240 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 1150 60  0001 L CNN "Manufacturer"
@@ -1030,12 +1052,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 1060 60  0001 L CNN "Manufacturer Part
 F 24 "0402" H 6000 970 60  0001 L CNN "Case"
 F 25 "No" H 6000 880 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 790 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 700 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 700 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 610 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 520 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 520 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 430 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 340 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 250 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 250 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 160 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 70  60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -20 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -1043,8 +1065,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -200 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -290 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -380 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -470 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -470 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -560 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 3250 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 3250 50  0001 C CNN "Footprint Library"
 	1    6000 3250
 	1    0    0    -1  
 $EndComp
@@ -1053,17 +1077,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R57
 U 1 1 5C5C575C
 P 6000 3350
 F 0 "R57" H 5900 3350 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 3140 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 3140 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 2330 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2960 60  0001 L CNN
 F 4 "22k" H 6400 3350 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 2870 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 2780 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 2690 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 2600 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 2600 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 2510 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 2420 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 2240 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 2240 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 2150 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 2060 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 1970 60  0001 L CNN "Footprint Ref"
@@ -1071,7 +1095,7 @@ F 15 "22k" H 6000 1880 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 1790 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 1700 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 1610 60  0001 L CNN "TC"
-F 19 "~~" H 6000 1520 60  0001 L CNN "Voltage"
+F 19 " " H 6000 1520 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 1430 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 1340 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 1250 60  0001 L CNN "Manufacturer"
@@ -1079,12 +1103,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 1160 60  0001 L CNN "Manufacturer Part
 F 24 "0402" H 6000 1070 60  0001 L CNN "Case"
 F 25 "No" H 6000 980 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 890 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 800 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 800 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 710 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 620 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 620 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 530 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 440 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 350 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 350 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 260 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 170 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 80  60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -1092,8 +1116,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 -100 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -190 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -280 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -370 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -370 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -460 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 3350 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 3350 50  0001 C CNN "Footprint Library"
 	1    6000 3350
 	1    0    0    -1  
 $EndComp
@@ -1102,17 +1128,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R75
 U 1 1 5C5C766B
 P 6000 3450
 F 0 "R75" H 5900 3450 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 3240 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 3240 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 2430 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 3060 60  0001 L CNN
 F 4 "22k" H 6400 3450 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 2970 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 2880 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 2790 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 2700 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 2700 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 2610 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 2520 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 2340 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 2340 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 2250 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 2160 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 2070 60  0001 L CNN "Footprint Ref"
@@ -1120,7 +1146,7 @@ F 15 "22k" H 6000 1980 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 1890 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 1800 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 1710 60  0001 L CNN "TC"
-F 19 "~~" H 6000 1620 60  0001 L CNN "Voltage"
+F 19 " " H 6000 1620 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 1530 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 1440 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 1350 60  0001 L CNN "Manufacturer"
@@ -1128,12 +1154,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 1260 60  0001 L CNN "Manufacturer Part
 F 24 "0402" H 6000 1170 60  0001 L CNN "Case"
 F 25 "No" H 6000 1080 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 990 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 900 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 900 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 810 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 720 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 720 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 630 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 540 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 450 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 450 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 360 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 270 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 180 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -1141,8 +1167,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 0   60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 -90 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -180 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -270 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -270 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -360 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 3450 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 3450 50  0001 C CNN "Footprint Library"
 	1    6000 3450
 	1    0    0    -1  
 $EndComp
@@ -1151,17 +1179,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R83
 U 1 1 5C5C957B
 P 6000 3550
 F 0 "R83" H 5900 3550 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 3340 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 3340 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 2530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 3160 60  0001 L CNN
 F 4 "22k" H 6400 3550 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 3070 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 2980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 2890 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 2800 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 2800 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 2710 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 2620 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 2440 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 2440 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 2350 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 2260 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 2170 60  0001 L CNN "Footprint Ref"
@@ -1169,7 +1197,7 @@ F 15 "22k" H 6000 2080 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 1990 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 1900 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 1810 60  0001 L CNN "TC"
-F 19 "~~" H 6000 1720 60  0001 L CNN "Voltage"
+F 19 " " H 6000 1720 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 1630 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 1540 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 1450 60  0001 L CNN "Manufacturer"
@@ -1177,12 +1205,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 1360 60  0001 L CNN "Manufacturer Part
 F 24 "0402" H 6000 1270 60  0001 L CNN "Case"
 F 25 "No" H 6000 1180 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 1090 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 1000 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 1000 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 910 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 820 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 820 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 730 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 640 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 550 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 550 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 460 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 370 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 280 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -1190,8 +1218,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 100 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 10  60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 -80 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -170 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -170 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -260 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 3550 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 3550 50  0001 C CNN "Footprint Library"
 	1    6000 3550
 	1    0    0    -1  
 $EndComp
@@ -1200,17 +1230,17 @@ L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R91
 U 1 1 5C5CB48E
 P 6000 3650
 F 0 "R91" H 5900 3650 50  0000 C CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 3440 60  0001 L CNN
+F 1 "R0402_22K_1%_0.0625W_100PPM" H 6000 3440 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6000 2630 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 3260 60  0001 L CNN
 F 4 "22k" H 6400 3650 50  0000 C CNN "~"
 F 5 "R0402_22K_1%_0.0625W_100PPM" H 6000 3170 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 3080 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 2990 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6000 2900 60  0001 L CNN "Comment"
+F 8 "22k" H 6000 2900 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 2810 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 2720 60  0001 L CNN "Component Type"
-F 11 "~~" H 6000 2540 60  0001 L CNN "PackageDescription"
+F 11 " " H 6000 2540 60  0001 L CNN "PackageDescription"
 F 12 "2" H 6000 2450 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 6000 2360 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 6000 2270 60  0001 L CNN "Footprint Ref"
@@ -1218,7 +1248,7 @@ F 15 "22k" H 6000 2180 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 6000 2090 60  0001 L CNN "Status"
 F 17 "0.0625W" H 6000 2000 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 6000 1910 60  0001 L CNN "TC"
-F 19 "~~" H 6000 1820 60  0001 L CNN "Voltage"
+F 19 " " H 6000 1820 60  0001 L CNN "Voltage"
 F 20 "±1%" H 6000 1730 60  0001 L CNN "Tolerance"
 F 21 "General Purpose Thick Film Chip Resistor" H 6000 1640 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 6000 1550 60  0001 L CNN "Manufacturer"
@@ -1226,12 +1256,12 @@ F 23 "R0402_22K_1%_0.0625W_100PPM" H 6000 1460 60  0001 L CNN "Manufacturer Part
 F 24 "0402" H 6000 1370 60  0001 L CNN "Case"
 F 25 "No" H 6000 1280 60  0001 L CNN "PressFit"
 F 26 "Yes" H 6000 1190 60  0001 L CNN "Mounted"
-F 27 "~~" H 6000 1100 60  0001 L CNN "Sense Comment"
+F 27 " " H 6000 1100 60  0001 L CNN "Sense Comment"
 F 28 "No" H 6000 1010 60  0001 L CNN "Sense"
-F 29 "~~" H 6000 920 60  0001 L CNN "Status Comment"
+F 29 " " H 6000 920 60  0001 L CNN "Status Comment"
 F 30 "No" H 6000 830 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 740 60  0001 L CNN "SMD"
-F 32 "~~" H 6000 650 60  0001 L CNN "ComponentHeight"
+F 32 " " H 6000 650 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 560 60  0001 L CNN "Manufacturer1 Example"
 F 34 "232270672203L" H 6000 470 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 380 60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -1239,8 +1269,10 @@ F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.p
 F 37 "CERN DEM JLC" H 6000 200 60  0001 L CNN "Author"
 F 38 "12/03/07 00:00:00" H 6000 110 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 6000 20  60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6000 -70 60  0001 L CNN "Library Name"
+F 40 "Resistors.DbLib" H 6000 -70 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -160 60  0001 L CNN "License"
+F 42 "Resistors SMD" H 6000 3650 50  0001 C CNN "Database Table Name"
+F 43 "Resistors SMD" H 6000 3650 50  0001 C CNN "Footprint Library"
 	1    6000 3650
 	1    0    0    -1  
 $EndComp
