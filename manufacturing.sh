@@ -11,7 +11,7 @@
 #  kicad AMC_FMC_Carrier-PcbDoc.pro
 #
 # click schematic
-#  Tools / Generate Bill of Materials
+#  Tools / Generate Netlist
 #    Generate, Close
 #
 # click layout
@@ -20,7 +20,7 @@
 #
 #  File / Fabrication Outputs / Footprint Position (.pos) File ...
 #    [X] ASCII
-#    [X] Milimeters
+#    [X] Millimeters
 #    [X] Single file for board
 #    Generate Position File
 #
@@ -54,11 +54,13 @@ KB=$HOME/git/KiBoM/KiBOM_CLI.py
 rm -f marble*.dat ${A}_bom_9.csv
 
 # Check that all the right files are made
-for f in $A.d356 PCB_layers/$A-all.pos PCB_layers/$A-{B_Cu,B_Mask,B_Paste,B_SilkS,Edge_Cuts,F_Cu,F_Mask,F_Paste,F_SilkS,In1_Cu,In2_Cu,In3_Cu,In4_Cu,In5_Cu,In6_Cu}.gbr PCB_layers/$A-{,N}PTH.drl; do
-  echo "$f"
-  test -r "$f"
-  test "$f" = "`find \"$f\" -newer $A.kicad_pcb`"
+die=0
+for f in $A.{d356,xml} PCB_layers/$A-all.pos PCB_layers/$A-{B_Cu,B_Mask,B_Paste,B_SilkS,Edge_Cuts,F_Cu,F_Mask,F_Paste,F_SilkS,In1_Cu,In2_Cu,In3_Cu,In4_Cu,In5_Cu,In6_Cu}.gbr PCB_layers/$A-{,N}PTH.drl; do
+  if ! test -r "$f"; then echo "missing: $f"; die=1;
+  elif ! test "$f" = "`find \"$f\" -newer $A.kicad_pcb`"; then echo "stale:   $f"; die=1; else
+  echo "OK:      $f"; fi
 done
+if test $die = 1; then echo Aborting; exit 1; fi
 echo OK
 
 # Run KiBoM from the command line
