@@ -4847,7 +4847,7 @@ F 3 " " H 7600 680 60  0001 L CNN
 F 4 "INA219BIDCNT" H 7600 590 60  0001 L CNN "Part Number"
 F 5 "INA219BIDCNT" H 7600 500 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Analog & Interface.SchLib" H 7600 410 60  0001 L CNN "Library Path"
-F 7 "INA219BIDCNT" H 7600 320 60  0001 L CNN "Comment"
+F 7 "=Device" H 7600 320 60  0001 L CNN "Comment"
 F 8 "Standard" H 7600 230 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 7600 140 60  0001 L CNN "Component Type"
 F 10 "INA219BIDCNT" H 7600 50  60  0001 L CNN "Device"
