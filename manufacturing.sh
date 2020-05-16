@@ -11,7 +11,7 @@
 #  kicad AMC_FMC_Carrier-PcbDoc.pro
 #
 # click schematic
-#  Tools / Generate Netlist
+#  Tools / Generate Bill of Materials
 #    Generate, Close
 #
 # click layout
