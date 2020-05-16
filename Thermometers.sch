@@ -1590,4 +1590,8 @@ F 4 "SWR25X-NRTC-S03-ST-BA" H 6800 5150 50  0001 C CNN "Manufacturer Part Number
 	1    6800 5150
 	1    0    0    -1  
 $EndComp
+Text Notes 7600 3450 0    50   ~ 0
+Nestled in with XRP7724 and\nits power transistors
+Text Notes 7600 1550 0    50   ~ 0
+Near front panel under FMC1
 $EndSCHEMATC
