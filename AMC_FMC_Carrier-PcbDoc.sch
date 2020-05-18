@@ -1463,6 +1463,7 @@ F 40 "Eletro-mechanical.DbLib" H 2800 11820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2800 11730 60  0001 L CNN "License"
 F 42 "Pads" H 2800 15500 50  0001 C CNN "Database Table Name"
 F 43 "Pads" H 2800 15500 50  0001 C CNN "Footprint Library"
+F 44 "dnf" H 2800 15500 50  0001 C CNN "config"
 	1    2800 15500
 	1    0    0    -1  
 $EndComp
@@ -1514,6 +1515,7 @@ F 40 "Eletro-mechanical.DbLib" H 2950 11820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 11730 60  0001 L CNN "License"
 F 42 "Pads" H 2950 15500 50  0001 C CNN "Database Table Name"
 F 43 "Pads" H 2950 15500 50  0001 C CNN "Footprint Library"
+F 44 "dnf" H 2950 15500 50  0001 C CNN "config"
 	1    2950 15500
 	1    0    0    -1  
 $EndComp
@@ -1565,6 +1567,7 @@ F 40 "Eletro-mechanical.DbLib" H 3100 11820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3100 11730 60  0001 L CNN "License"
 F 42 "Pads" H 3100 15500 50  0001 C CNN "Database Table Name"
 F 43 "Pads" H 3100 15500 50  0001 C CNN "Footprint Library"
+F 44 "dnf" H 3100 15500 50  0001 C CNN "config"
 	1    3100 15500
 	1    0    0    -1  
 $EndComp
@@ -1616,6 +1619,7 @@ F 40 "Eletro-mechanical.DbLib" H 3250 11820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3250 11730 60  0001 L CNN "License"
 F 42 "Pads" H 3250 15500 50  0001 C CNN "Database Table Name"
 F 43 "Pads" H 3250 15500 50  0001 C CNN "Footprint Library"
+F 44 "dnf" H 3250 15500 50  0001 C CNN "config"
 	1    3250 15500
 	1    0    0    -1  
 $EndComp
@@ -1667,6 +1671,7 @@ F 40 "Eletro-mechanical.DbLib" H 2800 11570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2800 11480 60  0001 L CNN "License"
 F 42 "Pads" H 2800 15250 50  0001 C CNN "Database Table Name"
 F 43 "Pads" H 2800 15250 50  0001 C CNN "Footprint Library"
+F 44 "dnf" H 2800 15250 50  0001 C CNN "config"
 	1    2800 15250
 	1    0    0    -1  
 $EndComp
@@ -1718,6 +1723,7 @@ F 40 "Eletro-mechanical.DbLib" H 2950 11570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 11480 60  0001 L CNN "License"
 F 42 "Pads" H 2950 15250 50  0001 C CNN "Database Table Name"
 F 43 "Pads" H 2950 15250 50  0001 C CNN "Footprint Library"
+F 44 "dnf" H 2950 15250 50  0001 C CNN "config"
 	1    2950 15250
 	1    0    0    -1  
 $EndComp
@@ -1769,6 +1775,7 @@ F 40 "Eletro-mechanical.DbLib" H 3100 11570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3100 11480 60  0001 L CNN "License"
 F 42 "Pads" H 3100 15250 50  0001 C CNN "Database Table Name"
 F 43 "Pads" H 3100 15250 50  0001 C CNN "Footprint Library"
+F 44 "dnf" H 3100 15250 50  0001 C CNN "config"
 	1    3100 15250
 	1    0    0    -1  
 $EndComp
@@ -1820,6 +1827,7 @@ F 40 "Eletro-mechanical.DbLib" H 3250 11570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3250 11480 60  0001 L CNN "License"
 F 42 "Pads" H 3250 15250 50  0001 C CNN "Database Table Name"
 F 43 "Pads" H 3250 15250 50  0001 C CNN "Footprint Library"
+F 44 "dnf" H 3250 15250 50  0001 C CNN "config"
 	1    3250 15250
 	1    0    0    -1  
 $EndComp
@@ -2384,6 +2392,7 @@ F 1 "PLATED_HOLE2.8_PAD0" H 3400 15345 50  0001 L CNN
 F 2 "Marble:HOLE2.8_PAD0" H 3400 15270 50  0001 L CNN
 F 3 "" H 3400 15195 50  0001 L CNN
 F 4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3400 12495 50  0001 L CNN "License"
+F 5 "dnf" H 3400 15500 50  0001 C CNN "config"
 	1    3400 15500
 	1    0    0    -1  
 $EndComp
@@ -2396,6 +2405,7 @@ F 1 "SLOT_2_11" H 3400 15095 50  0001 L CNN
 F 2 "Marble:HOLE2_SLOT11" H 3400 15020 50  0001 L CNN
 F 3 "" H 3400 14945 50  0001 L CNN
 F 4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3400 12245 50  0001 L CNN "License"
+F 5 "dnf" H 3400 15250 50  0001 C CNN "config"
 	1    3400 15250
 	1    0    0    -1  
 $EndComp
