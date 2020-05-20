@@ -884,7 +884,7 @@ F 0 "C102" V 2254 9610 50  0000 L CNN
 F 1 "CC0402_100PF_50V_5%_C0G" H 2150 9240 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 2150 8430 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 2150 9060 60  0001 L CNN
-F 4 "100pF" V 2345 9610 50  0000 L CNN "~"
+F 4 "100pF" V 2345 9610 50  0000 L CNN "Val"
 F 5 "CC0402_100PF_50V_5%_C0G" H 2150 8970 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 2150 8880 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 2150 8790 60  0001 L CNN "Library Path"
@@ -895,7 +895,6 @@ F 11 "2.0000000000000000e+00" H 2150 8340 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 2150 8250 60  0001 L CNN "Footprint Path"
 F 13 "CAPC1005X55N" H 2150 8160 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 2150 8070 60  0001 L CNN "PackageDescription"
-F 15 "100pF" H 2150 7980 60  0001 L CNN "Val"
 F 16 "Preferred" H 2150 7890 60  0001 L CNN "Status"
 F 17 "~~" H 2150 7800 60  0001 L CNN "Status Comment"
 F 18 "50V" H 2150 7710 60  0001 L CNN "Voltage"
@@ -932,7 +931,7 @@ F 0 "C93" V 1704 9660 50  0000 L CNN
 F 1 "CC0402_22PF_50V_5%_C0G" H 1600 9290 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 1600 8480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 1600 9110 60  0001 L CNN
-F 4 "22pF" V 1795 9660 50  0000 L CNN "~"
+F 4 "22pF" V 1795 9660 50  0000 L CNN "Val"
 F 5 "CC0402_22PF_50V_5%_C0G" H 1600 9020 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 1600 8930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 1600 8840 60  0001 L CNN "Library Path"
@@ -943,7 +942,6 @@ F 11 "2.0000000000000000e+00" H 1600 8390 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 1600 8300 60  0001 L CNN "Footprint Path"
 F 13 "CAPC1005X55N" H 1600 8210 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 1600 8120 60  0001 L CNN "PackageDescription"
-F 15 "22pF" H 1600 8030 60  0001 L CNN "Val"
 F 16 "Preferred" H 1600 7940 60  0001 L CNN "Status"
 F 17 "~~" H 1600 7850 60  0001 L CNN "Status Comment"
 F 18 "50V" H 1600 7760 60  0001 L CNN "Voltage"
@@ -1042,7 +1040,7 @@ F 0 "R133" H 2650 3300 50  0000 L CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 2600 2990 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 2600 2180 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 2600 2810 60  0001 L CNN
-F 4 "2k2" V 2900 3200 50  0000 L CNN "~"
+F 4 "2k2" V 2900 3200 50  0000 L CNN "Val"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 2600 2720 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 2600 2630 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 2600 2540 60  0001 L CNN "Library Path"
@@ -1053,7 +1051,6 @@ F 11 "~~" H 2600 2090 60  0001 L CNN "PackageDescription"
 F 12 "2" H 2600 2000 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 2600 1910 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 2600 1820 60  0001 L CNN "Footprint Ref"
-F 15 "2k2" H 2600 1730 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 2600 1640 60  0001 L CNN "Status"
 F 17 "0.0625W" H 2600 1550 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 2600 1460 60  0001 L CNN "TC"
@@ -1091,7 +1088,7 @@ F 0 "R134" H 2900 3300 50  0000 L CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 2850 2990 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 2850 2180 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 2850 2810 60  0001 L CNN
-F 4 "2k2" V 3150 3200 50  0000 L CNN "~"
+F 4 "2k2" V 3150 3200 50  0000 L CNN "Val"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 2850 2720 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 2850 2630 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 2850 2540 60  0001 L CNN "Library Path"
@@ -1102,7 +1099,6 @@ F 11 "~~" H 2850 2090 60  0001 L CNN "PackageDescription"
 F 12 "2" H 2850 2000 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 2850 1910 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 2850 1820 60  0001 L CNN "Footprint Ref"
-F 15 "2k2" H 2850 1730 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 2850 1640 60  0001 L CNN "Status"
 F 17 "0.0625W" H 2850 1550 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 2850 1460 60  0001 L CNN "TC"
@@ -1140,7 +1136,7 @@ F 0 "R135" H 3950 2000 50  0000 C CNN
 F 1 "R0402_0R_JUMPER" H 4000 1740 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 4000 930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 4000 1560 60  0001 L CNN
-F 4 "0" H 4300 2000 50  0000 C CNN "~"
+F 4 "0" H 4300 2000 50  0000 C CNN "Val"
 F 5 "R0402_0R_JUMPER" H 4000 1470 60  0001 L CNN "Part Number"
 F 6 "Resistor" H 4000 1380 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 4000 1290 60  0001 L CNN "Library Path"
@@ -1151,7 +1147,6 @@ F 11 "~~" H 4000 840 60  0001 L CNN "PackageDescription"
 F 12 "2" H 4000 750 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 4000 660 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 4000 570 60  0001 L CNN "Footprint Ref"
-F 15 "0" H 4000 480 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 4000 390 60  0001 L CNN "Status"
 F 17 "~~" H 4000 300 60  0001 L CNN "Power"
 F 18 "~~" H 4000 210 60  0001 L CNN "TC"
@@ -1189,7 +1184,7 @@ F 0 "R136" H 3950 2100 50  0000 C CNN
 F 1 "R0402_0R_JUMPER" H 4000 1840 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 4000 1030 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 4000 1660 60  0001 L CNN
-F 4 "0" H 4300 2100 50  0000 C CNN "~"
+F 4 "0" H 4300 2100 50  0000 C CNN "Val"
 F 5 "R0402_0R_JUMPER" H 4000 1570 60  0001 L CNN "Part Number"
 F 6 "Resistor" H 4000 1480 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 4000 1390 60  0001 L CNN "Library Path"
@@ -1200,7 +1195,6 @@ F 11 "~~" H 4000 940 60  0001 L CNN "PackageDescription"
 F 12 "2" H 4000 850 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 4000 760 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 4000 670 60  0001 L CNN "Footprint Ref"
-F 15 "0" H 4000 580 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 4000 490 60  0001 L CNN "Status"
 F 17 "~~" H 4000 400 60  0001 L CNN "Power"
 F 18 "~~" H 4000 310 60  0001 L CNN "TC"
@@ -1238,7 +1232,7 @@ F 0 "R132" V 2654 9560 50  0000 L CNN
 F 1 "R0402_0R_JUMPER" H 2550 9290 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 2550 8480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 2550 9110 60  0001 L CNN
-F 4 "0" V 2745 9560 50  0000 L CNN "~"
+F 4 "0" V 2745 9560 50  0000 L CNN "Val"
 F 5 "R0402_0R_JUMPER" H 2550 9020 60  0001 L CNN "Part Number"
 F 6 "Resistor" H 2550 8930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 2550 8840 60  0001 L CNN "Library Path"
@@ -1249,7 +1243,6 @@ F 11 "~~" H 2550 8390 60  0001 L CNN "PackageDescription"
 F 12 "2" H 2550 8300 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 2550 8210 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 2550 8120 60  0001 L CNN "Footprint Ref"
-F 15 "0" H 2550 8030 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 2550 7940 60  0001 L CNN "Status"
 F 17 "~~" H 2550 7850 60  0001 L CNN "Power"
 F 18 "~~" H 2550 7760 60  0001 L CNN "TC"
@@ -1288,7 +1281,7 @@ F 0 "R155" H 12400 1600 50  0000 C CNN
 F 1 "R0402_100R_1%_0.1W_100PPM" H 12450 1340 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12450 530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12450 1160 60  0001 L CNN
-F 4 "100" H 12750 1600 50  0000 C CNN "~"
+F 4 "100" H 12750 1600 50  0000 C CNN "Val"
 F 5 "R0402_100R_1%_0.1W_100PPM" H 12450 1070 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12450 980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12450 890 60  0001 L CNN "Library Path"
@@ -1299,7 +1292,6 @@ F 11 "~~" H 12450 440 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12450 350 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12450 260 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 12450 170 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 12450 80  60  0001 L CNN "Val"
 F 16 "Not Recommended" H 12450 -10 60  0001 L CNN "Status"
 F 17 "0.1W" H 12450 -100 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12450 -190 60  0001 L CNN "TC"
@@ -1337,7 +1329,7 @@ F 0 "R148" H 12350 7350 50  0000 C CNN
 F 1 "R0402_100R_1%_0.1W_100PPM" H 12400 7090 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12400 6280 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 6910 60  0001 L CNN
-F 4 "100" H 12700 7350 50  0000 C CNN "~"
+F 4 "100" H 12700 7350 50  0000 C CNN "Val"
 F 5 "R0402_100R_1%_0.1W_100PPM" H 12400 6820 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12400 6730 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12400 6640 60  0001 L CNN "Library Path"
@@ -1348,7 +1340,6 @@ F 11 "~~" H 12400 6190 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12400 6100 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12400 6010 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 12400 5920 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 12400 5830 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 12400 5740 60  0001 L CNN "Status"
 F 17 "0.1W" H 12400 5650 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12400 5560 60  0001 L CNN "TC"
@@ -1386,7 +1377,7 @@ F 0 "R149" H 12350 7450 50  0000 C CNN
 F 1 "R0402_100R_1%_0.1W_100PPM" H 12400 7190 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12400 6380 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 7010 60  0001 L CNN
-F 4 "100" H 12700 7450 50  0000 C CNN "~"
+F 4 "100" H 12700 7450 50  0000 C CNN "Val"
 F 5 "R0402_100R_1%_0.1W_100PPM" H 12400 6920 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12400 6830 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12400 6740 60  0001 L CNN "Library Path"
@@ -1397,7 +1388,6 @@ F 11 "~~" H 12400 6290 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12400 6200 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12400 6110 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 12400 6020 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 12400 5930 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 12400 5840 60  0001 L CNN "Status"
 F 17 "0.1W" H 12400 5750 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12400 5660 60  0001 L CNN "TC"
@@ -1435,7 +1425,7 @@ F 0 "R150" H 12350 7550 50  0000 C CNN
 F 1 "R0402_100R_1%_0.1W_100PPM" H 12400 7290 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12400 6480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 7110 60  0001 L CNN
-F 4 "100" H 12700 7550 50  0000 C CNN "~"
+F 4 "100" H 12700 7550 50  0000 C CNN "Val"
 F 5 "R0402_100R_1%_0.1W_100PPM" H 12400 7020 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12400 6930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12400 6840 60  0001 L CNN "Library Path"
@@ -1446,7 +1436,6 @@ F 11 "~~" H 12400 6390 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12400 6300 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12400 6210 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 12400 6120 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 12400 6030 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 12400 5940 60  0001 L CNN "Status"
 F 17 "0.1W" H 12400 5850 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12400 5760 60  0001 L CNN "TC"
@@ -1484,7 +1473,7 @@ F 0 "R153" H 12350 8350 50  0000 C CNN
 F 1 "R0402_100R_1%_0.1W_100PPM" H 12400 8090 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12400 7280 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 7910 60  0001 L CNN
-F 4 "100" H 12700 8350 50  0000 C CNN "~"
+F 4 "100" H 12700 8350 50  0000 C CNN "Val"
 F 5 "R0402_100R_1%_0.1W_100PPM" H 12400 7820 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12400 7730 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12400 7640 60  0001 L CNN "Library Path"
@@ -1495,7 +1484,6 @@ F 11 "~~" H 12400 7190 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12400 7100 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12400 7010 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 12400 6920 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 12400 6830 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 12400 6740 60  0001 L CNN "Status"
 F 17 "0.1W" H 12400 6650 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12400 6560 60  0001 L CNN "TC"
@@ -1533,7 +1521,7 @@ F 0 "R154" H 12350 8450 50  0000 C CNN
 F 1 "R0402_100R_1%_0.1W_100PPM" H 12400 8190 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12400 7380 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 8010 60  0001 L CNN
-F 4 "100" H 12700 8450 50  0000 C CNN "~"
+F 4 "100" H 12700 8450 50  0000 C CNN "Val"
 F 5 "R0402_100R_1%_0.1W_100PPM" H 12400 7920 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12400 7830 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12400 7740 60  0001 L CNN "Library Path"
@@ -1544,7 +1532,6 @@ F 11 "~~" H 12400 7290 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12400 7200 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12400 7110 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 12400 7020 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 12400 6930 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 12400 6840 60  0001 L CNN "Status"
 F 17 "0.1W" H 12400 6750 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12400 6660 60  0001 L CNN "TC"
@@ -1582,7 +1569,7 @@ F 0 "R143" V 11750 1150 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 11750 940 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 11750 130 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 11750 760 60  0001 L CNN
-F 4 "10k" V 12050 1150 50  0000 L CNN "~"
+F 4 "10k" V 12050 1150 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 11750 670 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 11750 580 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 11750 490 60  0001 L CNN "Library Path"
@@ -1593,7 +1580,6 @@ F 11 "~~" H 11750 40  60  0001 L CNN "PackageDescription"
 F 12 "2" H 11750 -50 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 11750 -140 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 11750 -230 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 11750 -320 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 11750 -410 60  0001 L CNN "Status"
 F 17 "0.0625W" H 11750 -500 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 11750 -590 60  0001 L CNN "TC"
@@ -1631,7 +1617,7 @@ F 0 "R145" V 11950 1150 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 11950 940 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 11950 130 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 11950 760 60  0001 L CNN
-F 4 "10k" V 12250 1150 50  0000 L CNN "~"
+F 4 "10k" V 12250 1150 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 11950 670 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 11950 580 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 11950 490 60  0001 L CNN "Library Path"
@@ -1642,7 +1628,6 @@ F 11 "~~" H 11950 40  60  0001 L CNN "PackageDescription"
 F 12 "2" H 11950 -50 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 11950 -140 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 11950 -230 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 11950 -320 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 11950 -410 60  0001 L CNN "Status"
 F 17 "0.0625W" H 11950 -500 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 11950 -590 60  0001 L CNN "TC"
@@ -1680,7 +1665,7 @@ F 0 "R142" V 11650 2000 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 11650 1790 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 11650 980 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 11650 1610 60  0001 L CNN
-F 4 "10k" V 11950 2000 50  0000 L CNN "~"
+F 4 "10k" V 11950 2000 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 11650 1520 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 11650 1430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 11650 1340 60  0001 L CNN "Library Path"
@@ -1691,7 +1676,6 @@ F 11 "~~" H 11650 890 60  0001 L CNN "PackageDescription"
 F 12 "2" H 11650 800 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 11650 710 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 11650 620 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 11650 530 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 11650 440 60  0001 L CNN "Status"
 F 17 "0.0625W" H 11650 350 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 11650 260 60  0001 L CNN "TC"
@@ -1729,7 +1713,7 @@ F 0 "R144" V 11750 9350 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 11750 9140 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 11750 8330 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 11750 8960 60  0001 L CNN
-F 4 "10k" V 12050 9350 50  0000 L CNN "~"
+F 4 "10k" V 12050 9350 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 11750 8870 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 11750 8780 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 11750 8690 60  0001 L CNN "Library Path"
@@ -1740,7 +1724,6 @@ F 11 "~~" H 11750 8240 60  0001 L CNN "PackageDescription"
 F 12 "2" H 11750 8150 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 11750 8060 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 11750 7970 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 11750 7880 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 11750 7790 60  0001 L CNN "Status"
 F 17 "0.0625W" H 11750 7700 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 11750 7610 60  0001 L CNN "TC"
@@ -1778,7 +1761,7 @@ F 0 "R146" V 12000 9350 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 12000 9140 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12000 8330 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 12000 8960 60  0001 L CNN
-F 4 "10k" V 12300 9350 50  0000 L CNN "~"
+F 4 "10k" V 12300 9350 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 12000 8870 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12000 8780 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12000 8690 60  0001 L CNN "Library Path"
@@ -1789,7 +1772,6 @@ F 11 "~~" H 12000 8240 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12000 8150 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12000 8060 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 12000 7970 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 12000 7880 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 12000 7790 60  0001 L CNN "Status"
 F 17 "0.0625W" H 12000 7700 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12000 7610 60  0001 L CNN "TC"
@@ -1827,7 +1809,7 @@ F 0 "R147" V 12250 9350 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 12250 9140 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12250 8330 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 12250 8960 60  0001 L CNN
-F 4 "10k" V 12550 9350 50  0000 L CNN "~"
+F 4 "10k" V 12550 9350 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 12250 8870 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12250 8780 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12250 8690 60  0001 L CNN "Library Path"
@@ -1838,7 +1820,6 @@ F 11 "~~" H 12250 8240 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12250 8150 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12250 8060 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 12250 7970 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 12250 7880 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 12250 7790 60  0001 L CNN "Status"
 F 17 "0.0625W" H 12250 7700 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12250 7610 60  0001 L CNN "TC"
@@ -1876,7 +1857,7 @@ F 0 "R158" V 12550 9350 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 12550 9140 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12550 8330 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 12550 8960 60  0001 L CNN
-F 4 "10k" V 12850 9350 50  0000 L CNN "~"
+F 4 "10k" V 12850 9350 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 12550 8870 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12550 8780 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12550 8690 60  0001 L CNN "Library Path"
@@ -1887,7 +1868,6 @@ F 11 "~~" H 12550 8240 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12550 8150 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12550 8060 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 12550 7970 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 12550 7880 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 12550 7790 60  0001 L CNN "Status"
 F 17 "0.0625W" H 12550 7700 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12550 7610 60  0001 L CNN "TC"
@@ -1925,7 +1905,7 @@ F 0 "R137" V 5100 9000 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 5100 8790 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 5100 7980 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5100 8610 60  0001 L CNN
-F 4 "10k" V 5400 9000 50  0000 L CNN "~"
+F 4 "10k" V 5400 9000 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 5100 8520 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 5100 8430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 5100 8340 60  0001 L CNN "Library Path"
@@ -1936,7 +1916,6 @@ F 11 "~~" H 5100 7890 60  0001 L CNN "PackageDescription"
 F 12 "2" H 5100 7800 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 5100 7710 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 5100 7620 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 5100 7530 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 5100 7440 60  0001 L CNN "Status"
 F 17 "0.0625W" H 5100 7350 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 5100 7260 60  0001 L CNN "TC"
@@ -1974,7 +1953,7 @@ F 0 "R138" V 5300 9000 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 5300 8790 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 5300 7980 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5300 8610 60  0001 L CNN
-F 4 "10k" V 5600 9000 50  0000 L CNN "~"
+F 4 "10k" V 5600 9000 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 5300 8520 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 5300 8430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 5300 8340 60  0001 L CNN "Library Path"
@@ -1985,7 +1964,6 @@ F 11 "~~" H 5300 7890 60  0001 L CNN "PackageDescription"
 F 12 "2" H 5300 7800 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 5300 7710 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 5300 7620 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 5300 7530 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 5300 7440 60  0001 L CNN "Status"
 F 17 "0.0625W" H 5300 7350 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 5300 7260 60  0001 L CNN "TC"
@@ -2023,7 +2001,7 @@ F 0 "R139" V 5500 9000 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 5500 8790 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 5500 7980 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5500 8610 60  0001 L CNN
-F 4 "10k" V 5800 9000 50  0000 L CNN "~"
+F 4 "10k" V 5800 9000 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 5500 8520 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 5500 8430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 5500 8340 60  0001 L CNN "Library Path"
@@ -2034,7 +2012,6 @@ F 11 "~~" H 5500 7890 60  0001 L CNN "PackageDescription"
 F 12 "2" H 5500 7800 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 5500 7710 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 5500 7620 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 5500 7530 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 5500 7440 60  0001 L CNN "Status"
 F 17 "0.0625W" H 5500 7350 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 5500 7260 60  0001 L CNN "TC"
@@ -2072,7 +2049,7 @@ F 0 "R140" V 5700 9000 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 5700 8790 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 5700 7980 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5700 8610 60  0001 L CNN
-F 4 "10k" V 6000 9000 50  0000 L CNN "~"
+F 4 "10k" V 6000 9000 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 5700 8520 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 5700 8430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 5700 8340 60  0001 L CNN "Library Path"
@@ -2083,7 +2060,6 @@ F 11 "~~" H 5700 7890 60  0001 L CNN "PackageDescription"
 F 12 "2" H 5700 7800 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 5700 7710 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 5700 7620 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 5700 7530 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 5700 7440 60  0001 L CNN "Status"
 F 17 "0.0625W" H 5700 7350 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 5700 7260 60  0001 L CNN "TC"
@@ -2127,7 +2103,7 @@ F 0 "C197" V 7854 10060 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 7750 9690 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 7750 8880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 7750 9510 60  0001 L CNN
-F 4 "100nF" V 7945 10060 50  0000 L CNN "~"
+F 4 "100nF" V 7945 10060 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 7750 9420 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 7750 9330 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 7750 9240 60  0001 L CNN "Library Path"
@@ -2138,7 +2114,6 @@ F 11 "2.0000000000000000e+00" H 7750 8790 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 7750 8700 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 7750 8610 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 7750 8520 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 7750 8430 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 7750 8340 60  0001 L CNN "Status"
 F 17 "~~" H 7750 8250 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 7750 8160 60  0001 L CNN "Voltage"
@@ -2181,7 +2156,7 @@ F 0 "C200" V 8304 10060 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 8200 9690 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 8200 8880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 8200 9510 60  0001 L CNN
-F 4 "100nF" V 8395 10060 50  0000 L CNN "~"
+F 4 "100nF" V 8395 10060 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 8200 9420 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 8200 9330 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 8200 9240 60  0001 L CNN "Library Path"
@@ -2192,7 +2167,6 @@ F 11 "2.0000000000000000e+00" H 8200 8790 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 8200 8700 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 8200 8610 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 8200 8520 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 8200 8430 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 8200 8340 60  0001 L CNN "Status"
 F 17 "~~" H 8200 8250 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 8200 8160 60  0001 L CNN "Voltage"
@@ -2235,7 +2209,7 @@ F 0 "C202" V 8754 10060 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 8650 9690 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 8650 8880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 8650 9510 60  0001 L CNN
-F 4 "100nF" V 8845 10060 50  0000 L CNN "~"
+F 4 "100nF" V 8845 10060 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 8650 9420 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 8650 9330 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 8650 9240 60  0001 L CNN "Library Path"
@@ -2246,7 +2220,6 @@ F 11 "2.0000000000000000e+00" H 8650 8790 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 8650 8700 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 8650 8610 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 8650 8520 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 8650 8430 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 8650 8340 60  0001 L CNN "Status"
 F 17 "~~" H 8650 8250 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 8650 8160 60  0001 L CNN "Voltage"
@@ -2289,7 +2262,7 @@ F 0 "C204" V 9204 10060 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 9100 9690 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 9100 8880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 9100 9510 60  0001 L CNN
-F 4 "100nF" V 9295 10060 50  0000 L CNN "~"
+F 4 "100nF" V 9295 10060 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 9100 9420 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 9100 9330 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 9100 9240 60  0001 L CNN "Library Path"
@@ -2300,7 +2273,6 @@ F 11 "2.0000000000000000e+00" H 9100 8790 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 9100 8700 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 9100 8610 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 9100 8520 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 9100 8430 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 9100 8340 60  0001 L CNN "Status"
 F 17 "~~" H 9100 8250 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 9100 8160 60  0001 L CNN "Voltage"
@@ -2343,7 +2315,7 @@ F 0 "C206" V 9654 10060 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 9550 9690 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 9550 8880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 9550 9510 60  0001 L CNN
-F 4 "100nF" V 9745 10060 50  0000 L CNN "~"
+F 4 "100nF" V 9745 10060 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 9550 9420 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 9550 9330 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 9550 9240 60  0001 L CNN "Library Path"
@@ -2354,7 +2326,6 @@ F 11 "2.0000000000000000e+00" H 9550 8790 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 9550 8700 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 9550 8610 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 9550 8520 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 9550 8430 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 9550 8340 60  0001 L CNN "Status"
 F 17 "~~" H 9550 8250 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 9550 8160 60  0001 L CNN "Voltage"
@@ -2397,7 +2368,7 @@ F 0 "C208" V 10104 10060 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 10000 9690 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 10000 8880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 10000 9510 60  0001 L CNN
-F 4 "100nF" V 10195 10060 50  0000 L CNN "~"
+F 4 "100nF" V 10195 10060 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 10000 9420 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 10000 9330 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 10000 9240 60  0001 L CNN "Library Path"
@@ -2408,7 +2379,6 @@ F 11 "2.0000000000000000e+00" H 10000 8790 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 10000 8700 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 10000 8610 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 10000 8520 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 10000 8430 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 10000 8340 60  0001 L CNN "Status"
 F 17 "~~" H 10000 8250 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 10000 8160 60  0001 L CNN "Voltage"
@@ -2451,7 +2421,7 @@ F 0 "C198" V 7854 10710 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 7750 10340 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 7750 9530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 7750 10160 60  0001 L CNN
-F 4 "100nF" V 7945 10710 50  0000 L CNN "~"
+F 4 "100nF" V 7945 10710 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 7750 10070 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 7750 9980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 7750 9890 60  0001 L CNN "Library Path"
@@ -2462,7 +2432,6 @@ F 11 "2.0000000000000000e+00" H 7750 9440 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 7750 9350 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 7750 9260 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 7750 9170 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 7750 9080 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 7750 8990 60  0001 L CNN "Status"
 F 17 "~~" H 7750 8900 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 7750 8810 60  0001 L CNN "Voltage"
@@ -2505,7 +2474,7 @@ F 0 "C201" V 8304 10710 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 8200 10340 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 8200 9530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 8200 10160 60  0001 L CNN
-F 4 "100nF" V 8395 10710 50  0000 L CNN "~"
+F 4 "100nF" V 8395 10710 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 8200 10070 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 8200 9980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 8200 9890 60  0001 L CNN "Library Path"
@@ -2516,7 +2485,6 @@ F 11 "2.0000000000000000e+00" H 8200 9440 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 8200 9350 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 8200 9260 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 8200 9170 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 8200 9080 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 8200 8990 60  0001 L CNN "Status"
 F 17 "~~" H 8200 8900 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 8200 8810 60  0001 L CNN "Voltage"
@@ -2559,7 +2527,7 @@ F 0 "C203" V 8754 10710 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 8650 10340 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 8650 9530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 8650 10160 60  0001 L CNN
-F 4 "100nF" V 8845 10710 50  0000 L CNN "~"
+F 4 "100nF" V 8845 10710 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 8650 10070 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 8650 9980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 8650 9890 60  0001 L CNN "Library Path"
@@ -2570,7 +2538,6 @@ F 11 "2.0000000000000000e+00" H 8650 9440 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 8650 9350 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 8650 9260 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 8650 9170 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 8650 9080 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 8650 8990 60  0001 L CNN "Status"
 F 17 "~~" H 8650 8900 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 8650 8810 60  0001 L CNN "Voltage"
@@ -2613,7 +2580,7 @@ F 0 "C205" V 9204 10710 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 9100 10340 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 9100 9530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 9100 10160 60  0001 L CNN
-F 4 "100nF" V 9295 10710 50  0000 L CNN "~"
+F 4 "100nF" V 9295 10710 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 9100 10070 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 9100 9980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 9100 9890 60  0001 L CNN "Library Path"
@@ -2624,7 +2591,6 @@ F 11 "2.0000000000000000e+00" H 9100 9440 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 9100 9350 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 9100 9260 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 9100 9170 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 9100 9080 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 9100 8990 60  0001 L CNN "Status"
 F 17 "~~" H 9100 8900 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 9100 8810 60  0001 L CNN "Voltage"
@@ -2667,7 +2633,7 @@ F 0 "C207" V 9654 10710 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 9550 10340 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 9550 9530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 9550 10160 60  0001 L CNN
-F 4 "100nF" V 9745 10710 50  0000 L CNN "~"
+F 4 "100nF" V 9745 10710 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 9550 10070 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 9550 9980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 9550 9890 60  0001 L CNN "Library Path"
@@ -2678,7 +2644,6 @@ F 11 "2.0000000000000000e+00" H 9550 9440 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 9550 9350 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 9550 9260 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 9550 9170 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 9550 9080 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 9550 8990 60  0001 L CNN "Status"
 F 17 "~~" H 9550 8900 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 9550 8810 60  0001 L CNN "Voltage"
@@ -2721,7 +2686,7 @@ F 0 "C209" V 10104 10710 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 10000 10340 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 10000 9530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 10000 10160 60  0001 L CNN
-F 4 "100nF" V 10195 10710 50  0000 L CNN "~"
+F 4 "100nF" V 10195 10710 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 10000 10070 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 10000 9980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 10000 9890 60  0001 L CNN "Library Path"
@@ -2732,7 +2697,6 @@ F 11 "2.0000000000000000e+00" H 10000 9440 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 10000 9350 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 10000 9260 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 10000 9170 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 10000 9080 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 10000 8990 60  0001 L CNN "Status"
 F 17 "~~" H 10000 8900 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 10000 8810 60  0001 L CNN "Voltage"
@@ -2837,7 +2801,7 @@ F 0 "C199" V 7904 8210 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 7800 7840 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 7800 7030 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 7800 7660 60  0001 L CNN
-F 4 "100nF" V 7995 8210 50  0000 L CNN "~"
+F 4 "100nF" V 7995 8210 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 7800 7570 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 7800 7480 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 7800 7390 60  0001 L CNN "Library Path"
@@ -2848,7 +2812,6 @@ F 11 "2.0000000000000000e+00" H 7800 6940 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 7800 6850 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 7800 6760 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 7800 6670 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 7800 6580 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 7800 6490 60  0001 L CNN "Status"
 F 17 "~~" H 7800 6400 60  0001 L CNN "Status Comment"
 F 18 "6.3V" H 7800 6310 60  0001 L CNN "Voltage"
@@ -2892,7 +2855,7 @@ F 0 "L9" H 7600 8317 50  0000 C CNN
 F 1 "IND0603_MURATA_BLM18SG121TN1D" H 7450 7910 60  0001 L CNN
 F 2 "Marble:INDC1608X65N" H 7450 7100 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18S.pdf" H 7450 7730 60  0001 L CNN
-F 4 "120R@100MHz" H 7600 8226 50  0000 C CNN "~"
+F 4 "120R@100MHz" H 7600 8226 50  0000 C CNN "Val"
 F 5 "IND0603_MURATA_BLM18SG121TN1D" H 7450 7640 60  0001 L CNN "Part Number"
 F 6 "Inductor" H 7450 7550 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Inductors & Transformers.SchLib" H 7450 7460 60  0001 L CNN "Library Path"
@@ -2903,7 +2866,6 @@ F 11 "~~" H 7450 7010 60  0001 L CNN "PackageDescription"
 F 12 "2.0000000000000000e+00" H 7450 6920 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Inductors SMD.PcbLib" H 7450 6830 60  0001 L CNN "Footprint Path"
 F 14 "INDC1608X65N" H 7450 6740 60  0001 L CNN "Footprint Ref"
-F 15 "120R@100MHz" H 7450 6650 60  0001 L CNN "Val"
 F 16 "None" H 7450 6560 60  0001 L CNN "Status"
 F 17 "3A" H 7450 6470 60  0001 L CNN "Power"
 F 18 "0.025R" H 7450 6380 60  0001 L CNN "Resistance"
@@ -3093,7 +3055,7 @@ F 0 "R263" V 10550 4500 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 10450 4240 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 10450 3430 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 10450 4060 60  0001 L CNN
-F 4 "10k" V 10650 4500 50  0000 L CNN "~"
+F 4 "10k" V 10650 4500 50  0000 L CNN "Val"
 F 5 "R0402_10K_1%_0.0625W_100PPM" H 10450 3970 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 10450 3880 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 10450 3790 60  0001 L CNN "Library Path"
@@ -3104,7 +3066,6 @@ F 11 "~~" H 10450 3340 60  0001 L CNN "PackageDescription"
 F 12 "2" H 10450 3250 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 10450 3160 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 10450 3070 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 10450 2980 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 10450 2890 60  0001 L CNN "Status"
 F 17 "0.0625W" H 10450 2800 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 10450 2710 60  0001 L CNN "TC"
@@ -3219,7 +3180,7 @@ F 0 "R268" V 10404 6110 50  0000 L CNN
 F 1 "R0402_1K_1%_0.0625W_100PPM" H 10300 5840 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 10300 5030 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 10300 5660 60  0001 L CNN
-F 4 "1k" V 10495 6110 50  0000 L CNN "~"
+F 4 "1k" V 10495 6110 50  0000 L CNN "Val"
 F 5 "R0402_1K_1%_0.0625W_100PPM" H 10300 5570 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 10300 5480 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 10300 5390 60  0001 L CNN "Library Path"
@@ -3230,7 +3191,6 @@ F 11 "~~" H 10300 4940 60  0001 L CNN "PackageDescription"
 F 12 "2" H 10300 4850 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 10300 4760 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 10300 4670 60  0001 L CNN "Footprint Ref"
-F 15 "1k" H 10300 4580 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 10300 4490 60  0001 L CNN "Status"
 F 17 "0.0625W" H 10300 4400 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 10300 4310 60  0001 L CNN "TC"
@@ -3271,7 +3231,7 @@ F 0 "R267" V 10054 6110 50  0000 L CNN
 F 1 "R0402_1K_1%_0.0625W_100PPM" H 9950 5840 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 9950 5030 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 9950 5660 60  0001 L CNN
-F 4 "1k" V 10145 6110 50  0000 L CNN "~"
+F 4 "1k" V 10145 6110 50  0000 L CNN "Val"
 F 5 "R0402_1K_1%_0.0625W_100PPM" H 9950 5570 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 9950 5480 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 9950 5390 60  0001 L CNN "Library Path"
@@ -3282,7 +3242,6 @@ F 11 "~~" H 9950 4940 60  0001 L CNN "PackageDescription"
 F 12 "2" H 9950 4850 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 9950 4760 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 9950 4670 60  0001 L CNN "Footprint Ref"
-F 15 "1k" H 9950 4580 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 9950 4490 60  0001 L CNN "Status"
 F 17 "0.0625W" H 9950 4400 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 9950 4310 60  0001 L CNN "TC"
@@ -3373,7 +3332,7 @@ F 0 "R266" V 9704 6110 50  0000 L CNN
 F 1 "R0402_1K_1%_0.0625W_100PPM" H 9600 5840 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 9600 5030 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 9600 5660 60  0001 L CNN
-F 4 "1k" V 9795 6110 50  0000 L CNN "~"
+F 4 "1k" V 9795 6110 50  0000 L CNN "Val"
 F 5 "R0402_1K_1%_0.0625W_100PPM" H 9600 5570 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 9600 5480 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 9600 5390 60  0001 L CNN "Library Path"
@@ -3384,7 +3343,6 @@ F 11 "~~" H 9600 4940 60  0001 L CNN "PackageDescription"
 F 12 "2" H 9600 4850 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 9600 4760 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 9600 4670 60  0001 L CNN "Footprint Ref"
-F 15 "1k" H 9600 4580 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 9600 4490 60  0001 L CNN "Status"
 F 17 "0.0625W" H 9600 4400 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 9600 4310 60  0001 L CNN "TC"
@@ -3679,7 +3637,7 @@ F 0 "Y5" H 1350 9657 50  0000 C CNN
 F 1 "XTAL_8MHZ_TXC_7A-8.000MAAE-T" H 1200 9110 60  0001 L CNN
 F 2 "Marble:XTAL_TXC_7A" H 1200 8210 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XTAL_TXC_7A.pdf" H 1200 8930 60  0001 L CNN
-F 4 "8MHz" H 1350 9566 50  0000 C CNN "~"
+F 4 "8MHz" H 1350 9566 50  0000 C CNN "Val"
 F 5 "XTAL_8MHZ_TXC_7A-8.000MAAE-T" H 1200 8840 60  0001 L CNN "Part Number"
 F 6 "Quartz Crystal" H 1200 8750 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Crystals & Oscillators.SchLib" H 1200 8660 60  0001 L CNN "Library Path"
@@ -3688,7 +3646,6 @@ F 9 "Standard" H 1200 8480 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 1200 8390 60  0001 L CNN "Component Type"
 F 11 "~~" H 1200 8300 60  0001 L CNN "Device"
 F 12 "2 Pins, 3.2x5mm, SMD Glass Seam Sealing Crystal, 7A Serie" H 1200 8120 60  0001 L CNN "PackageDescription"
-F 13 "8MHz" H 1200 8030 60  0001 L CNN "Val"
 F 14 "~~" H 1200 7940 60  0001 L CNN "Status"
 F 15 "Tolerance: ±30ppm, Stability: ±30ppm, -20°C to +70°C, 12pF, SMD Glass Seam Sealing Crystal, 7A Series" H 1200 7850 60  0001 L CNN "Part Description"
 F 16 "TXC CORPORATION" H 1200 7760 60  0001 L CNN "Manufacturer"
@@ -3758,7 +3715,7 @@ F 0 "C92" V 1204 9660 50  0000 L CNN
 F 1 "CC0402_150PF_50V_5%_C0G" H 1100 9290 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 1100 8480 60  0001 L CNN
 F 3 "" H 1100 9110 60  0001 L CNN
-F 4 "150pF" V 1295 9660 50  0000 L CNN "~"
+F 4 "150pF" V 1295 9660 50  0000 L CNN "Val"
 F 5 "CC0402_150PF_50V_5%_C0G" H 1100 9020 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 1100 8930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 1100 8840 60  0001 L CNN "Library Path"
@@ -3769,7 +3726,6 @@ F 11 "2.0000000000000000e+00" H 1100 8390 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 1100 8300 60  0001 L CNN "Footprint Path"
 F 13 "CAPC1005X55N" H 1100 8210 60  0001 L CNN "Footprint Ref"
 F 14 "~~" H 1100 8120 60  0001 L CNN "PackageDescription"
-F 15 "150pF" H 1100 8030 60  0001 L CNN "Val"
 F 16 "Preferred" H 1100 7940 60  0001 L CNN "Status"
 F 17 "~~" H 1100 7850 60  0001 L CNN "Status Comment"
 F 18 "50V" H 1100 7760 60  0001 L CNN "Voltage"
@@ -3824,7 +3780,7 @@ F 0 "R152" H 12350 8050 50  0000 C CNN
 F 1 "R0402_100R_1%_0.1W_100PPM" H 12400 7790 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12400 6980 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 7610 60  0001 L CNN
-F 4 "100" H 12700 8050 50  0000 C CNN "~"
+F 4 "100" H 12700 8050 50  0000 C CNN "Val"
 F 5 "R0402_100R_1%_0.1W_100PPM" H 12400 7520 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12400 7430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12400 7340 60  0001 L CNN "Library Path"
@@ -3835,7 +3791,6 @@ F 11 "~~" H 12400 6890 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12400 6800 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12400 6710 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 12400 6620 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 12400 6530 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 12400 6440 60  0001 L CNN "Status"
 F 17 "0.1W" H 12400 6350 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12400 6260 60  0001 L CNN "TC"
@@ -3873,7 +3828,7 @@ F 0 "R151" H 12350 7950 50  0000 C CNN
 F 1 "R0402_100R_1%_0.1W_100PPM" H 12400 7690 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12400 6880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf" H 12400 7510 60  0001 L CNN
-F 4 "100" H 12700 7950 50  0000 C CNN "~"
+F 4 "100" H 12700 7950 50  0000 C CNN "Val"
 F 5 "R0402_100R_1%_0.1W_100PPM" H 12400 7420 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12400 7330 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12400 7240 60  0001 L CNN "Library Path"
@@ -3884,7 +3839,6 @@ F 11 "~~" H 12400 6790 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12400 6700 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12400 6610 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 12400 6520 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 12400 6430 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 12400 6340 60  0001 L CNN "Status"
 F 17 "0.1W" H 12400 6250 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12400 6160 60  0001 L CNN "TC"
