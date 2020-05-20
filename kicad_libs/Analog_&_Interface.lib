@@ -479,6 +479,61 @@ X VSS 9 -200 -1600 200 R 60 60 0 1 W
 ENDDRAW
 ENDDEF
 #
+# TCA9517DGKR
+#
+DEF TCA9517DGKR IC 0 50 Y Y 1 L N
+F0 "IC" 400 50 50 H V C CNN
+F1 "TCA9517DGKR" 0 -875 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOP65P490X110-8N" 0 -950 50 H I L CNN
+F3 " " 0 -1025 50 H I L CNN
+F4 "TCA9517DGKR" 0 -1100 50 H I L CNN "Part Number"
+F5 "TCA9517" 0 -1175 50 H I L CNN "Library Ref"
+F6 "SchLib\\Analog & Interface.SchLib" 0 -1250 50 H I L CNN "Library Path"
+F7 "TCA9517DGKR" 0 -1325 50 H I L CNN "Comment"
+F8 "Standard" 0 -1400 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -1475 50 H I L CNN "Component Type"
+F10 "TCA9517DGKR" 0 -1550 50 H I L CNN "Device"
+F11 "SOP, 0.65mm Pitch; 8 Pin, 3.0mm W X 3.0mm L X 1.10mm H Body, IPC Medium Density" 0 -1625 50 H I L CNN "PackageDescription"
+F12 " " 0 -1700 50 H I L CNN "Status"
+F13 "Level-Translating I2C Bus Repeater" 0 -1775 50 H I L CNN "Part Description"
+F14 "TEXAS INSTRUMENTS" 0 -1850 50 H I L CNN "Manufacturer"
+F15 "TCA9517DGKR" 0 -1925 50 H I L CNN "Manufacturer Part Number"
+F16 "8" 0 -2000 50 H I L CNN "Pin Count"
+F17 "TSSOP8" 0 -2075 50 H I L CNN "Case"
+F18 "Yes" 0 -2150 50 H I L CNN "Mounted"
+F19 "No" 0 -2225 50 H I L CNN "Socket"
+F20 "Yes" 0 -2300 50 H I L CNN "SMD"
+F21 "No" 0 -2375 50 H I L CNN "PressFit"
+F22 "No" 0 -2450 50 H I L CNN "Sense"
+F23 " " 0 -2525 50 H I L CNN "Sense Comment"
+F24 "No" 0 -2600 50 H I L CNN "Bonding"
+F25 " " 0 -2675 50 H I L CNN "Status Comment"
+F26 "1.1mm" 0 -2750 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2825 50 H I L CNN "Footprint Path"
+F28 "SOP65P490X110-8N" 0 -2900 50 H I L CNN "Footprint Ref"
+F29 "CERN DEM JLC" 0 -2975 50 H I L CNN "Author"
+F30 " " 0 -3050 50 H I L CNN "ComponentLink2Description"
+F31 " " 0 -3125 50 H I L CNN "ComponentLink1Description"
+F32 "07/07/14 00:00:00" 0 -3200 50 H I L CNN "CreateDate"
+F33 "07/07/14 00:00:00" 0 -3275 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -3350 50 H I L CNN "SCEM"
+F35 "Analog & Interface" 0 -3425 50 H I L CNN "Database Table Name"
+F36 "ICs And Semiconductors.DbLib" 0 -3500 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -3575 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3650 50 H I L CNN "License"
+DRAW
+S 0 -700 800 0 0 1 0 f
+X VCCA 1 -200 -600 200 R 60 60 0 1 W
+X SCLA 2 -200 -200 200 R 60 60 0 1 B
+X SDAA 3 -200 -100 200 R 60 60 0 1 B
+X GND 4 1000 -600 200 L 60 60 0 1 W
+X EN 5 -200 -400 200 R 60 60 0 1 I
+X SDAB 6 1000 -100 200 L 60 60 0 1 B
+X SCLB 7 1000 -200 200 L 60 60 0 1 B
+X VCCB 8 1000 -500 200 L 60 60 0 1 W
+ENDDRAW
+ENDDEF
+#
 # TXS0102DCUR
 #
 DEF TXS0102DCUR IC 0 50 Y Y 1 L N

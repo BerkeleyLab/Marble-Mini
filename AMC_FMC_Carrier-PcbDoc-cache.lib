@@ -479,6 +479,61 @@ X VSS 9 -200 -1600 200 R 60 60 0 1 W
 ENDDRAW
 ENDDEF
 #
+# Analog_&_Interface_TCA9517DGKR
+#
+DEF Analog_&_Interface_TCA9517DGKR IC 0 50 Y Y 1 L N
+F0 "IC" 400 50 50 H V C CNN
+F1 "Analog_&_Interface_TCA9517DGKR" 0 -875 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOP65P490X110-8N" 0 -950 50 H I L CNN
+F3 " " 0 -1025 50 H I L CNN
+F4 "TCA9517DGKR" 0 -1100 50 H I L CNN "Part Number"
+F5 "TCA9517" 0 -1175 50 H I L CNN "Library Ref"
+F6 "SchLib\\Analog & Interface.SchLib" 0 -1250 50 H I L CNN "Library Path"
+F7 "TCA9517DGKR" 0 -1325 50 H I L CNN "Comment"
+F8 "Standard" 0 -1400 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -1475 50 H I L CNN "Component Type"
+F10 "TCA9517DGKR" 0 -1550 50 H I L CNN "Device"
+F11 "SOP, 0.65mm Pitch; 8 Pin, 3.0mm W X 3.0mm L X 1.10mm H Body, IPC Medium Density" 0 -1625 50 H I L CNN "PackageDescription"
+F12 " " 0 -1700 50 H I L CNN "Status"
+F13 "Level-Translating I2C Bus Repeater" 0 -1775 50 H I L CNN "Part Description"
+F14 "TEXAS INSTRUMENTS" 0 -1850 50 H I L CNN "Manufacturer"
+F15 "TCA9517DGKR" 0 -1925 50 H I L CNN "Manufacturer Part Number"
+F16 "8" 0 -2000 50 H I L CNN "Pin Count"
+F17 "TSSOP8" 0 -2075 50 H I L CNN "Case"
+F18 "Yes" 0 -2150 50 H I L CNN "Mounted"
+F19 "No" 0 -2225 50 H I L CNN "Socket"
+F20 "Yes" 0 -2300 50 H I L CNN "SMD"
+F21 "No" 0 -2375 50 H I L CNN "PressFit"
+F22 "No" 0 -2450 50 H I L CNN "Sense"
+F23 " " 0 -2525 50 H I L CNN "Sense Comment"
+F24 "No" 0 -2600 50 H I L CNN "Bonding"
+F25 " " 0 -2675 50 H I L CNN "Status Comment"
+F26 "1.1mm" 0 -2750 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2825 50 H I L CNN "Footprint Path"
+F28 "SOP65P490X110-8N" 0 -2900 50 H I L CNN "Footprint Ref"
+F29 "CERN DEM JLC" 0 -2975 50 H I L CNN "Author"
+F30 " " 0 -3050 50 H I L CNN "ComponentLink2Description"
+F31 " " 0 -3125 50 H I L CNN "ComponentLink1Description"
+F32 "07/07/14 00:00:00" 0 -3200 50 H I L CNN "CreateDate"
+F33 "07/07/14 00:00:00" 0 -3275 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -3350 50 H I L CNN "SCEM"
+F35 "Analog & Interface" 0 -3425 50 H I L CNN "Database Table Name"
+F36 "ICs And Semiconductors.DbLib" 0 -3500 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -3575 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3650 50 H I L CNN "License"
+DRAW
+S 0 -700 800 0 0 1 0 f
+X VCCA 1 -200 -600 200 R 60 60 0 1 W
+X SCLA 2 -200 -200 200 R 60 60 0 1 B
+X SDAA 3 -200 -100 200 R 60 60 0 1 B
+X GND 4 1000 -600 200 L 60 60 0 1 W
+X EN 5 -200 -400 200 R 60 60 0 1 I
+X SDAB 6 1000 -100 200 L 60 60 0 1 B
+X SCLB 7 1000 -200 200 L 60 60 0 1 B
+X VCCB 8 1000 -500 200 L 60 60 0 1 W
+ENDDRAW
+ENDDEF
+#
 # Analog_&_Interface_TXS0102DCUR
 #
 DEF Analog_&_Interface_TXS0102DCUR IC 0 50 Y Y 1 L N
@@ -2667,11 +2722,11 @@ ENDDEF
 #
 # Pads_FIDUCIAL_TARGET_C100-200
 #
-DEF Pads_FIDUCIAL_TARGET_C100-200 FTG 0 50 Y Y 1 L N
+DEF Pads_FIDUCIAL_TARGET_C100-200 FTG 0 50 Y Y 1 F N
 F0 "FTG" 10 80 50 H V C CNN
 F1 "Pads_FIDUCIAL_TARGET_C100-200" 0 -135 50 H I L CNN
 F2 "Marble:FIDUCIAL_TOP_C100-200" 0 -210 50 H I L CNN
-F3 " " 0 -285 50 H I L CNN
+F3 "" 0 -285 50 H I L CNN
 F4 " " 10 -70 40 H I C CNN "Comment"
 F5 "FIDUCIAL_TARGET_C100-200" 0 -360 50 H I L CNN "Part Number"
 F6 "Fiducial Target" 0 -435 50 H I L CNN "Library Ref"
@@ -2709,6 +2764,7 @@ F37 "Pads" 0 -2760 50 H I L CNN "Database Table Name"
 F38 "Eletro-mechanical.DbLib" 0 -2835 50 H I L CNN "Library Name"
 F39 "Pads" 0 -2910 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2985 50 H I L CNN "License"
+F41 "dnf" 0 -3100 50 H I L CNN "config"
 DRAW
 C 0 0 20 0 1 0 f
 C 0 0 30 0 1 0 f
@@ -2762,6 +2818,7 @@ F37 "Pads" 0 -2780 50 H I L CNN "Database Table Name"
 F38 "Eletro-mechanical.DbLib" 0 -2855 50 H I L CNN "Library Name"
 F39 "Pads" 0 -2930 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3005 50 H I L CNN "License"
+F41 "dnf" 0 -3100 50 H I L CNN "config"
 DRAW
 C 0 0 30 0 1 10 f
 X 1 1 0 0 0 L 0 0 0 1 P
@@ -2776,8 +2833,9 @@ F1 "Pads_PLATED_HOLE2.8_PAD0" 0 -155 50 H I L CNN
 F2 "Marble:HOLE2.8_PAD0" 0 -230 50 H I L CNN
 F3 "" 0 -305 50 H I L CNN
 F4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3005 50 H I L CNN "License"
+F5 "dnf" 0 -300 50 H I L CNN "config"
 DRAW
-C 0 0 30 1 1 10 N
+C 0 0 30 1 1 10 f
 X 1 1 0 0 0 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
@@ -2790,6 +2848,7 @@ F1 "Pads_SLOT_2_11" 0 -155 50 H I L CNN
 F2 "Marble:HOLE2_SLOT11" 0 -230 50 H I L CNN
 F3 "" 0 -305 50 H I L CNN
 F4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3005 50 H I L CNN "License"
+F5 "dnf" 0 -300 50 H I L CNN "config"
 DRAW
 A 25 0 25 -899 899 0 1 10 N 25 -25 25 25
 A -25 0 25 901 -901 1 1 10 N -25 25 -25 -25
@@ -3058,18 +3117,18 @@ X GPIO0 9 -200 -500 200 R 60 60 0 1 B
 ENDDRAW
 ENDDEF
 #
-# Resistors_SMD_R0201_100R_1%_0.05W_200PPM
+# Resistors_SMD_R0201_200R_1%_0.05W_200PPM
 #
-DEF Resistors_SMD_R0201_100R_1%_0.05W_200PPM R 0 50 Y Y 1 L N
+DEF Resistors_SMD_R0201_200R_1%_0.05W_200PPM R 0 50 Y Y 1 L N
 F0 "R" 150 70 50 H V C CNN
-F1 "Resistors_SMD_R0201_100R_1%_0.05W_200PPM" 0 -195 50 H I L CNN
+F1 "Resistors_SMD_R0201_200R_1%_0.05W_200PPM" 0 -195 50 H I L CNN
 F2 "Marble:RESC0603X28N" 0 -270 50 H I L CNN
 F3 " " 0 -345 50 H I L CNN
-F4 "100" 150 -70 50 H V C CNN "Val"
-F5 "R0201_100R_1%_0.05W_200PPM" 0 -420 50 H I L CNN "Part Number"
+F4 "200" 150 -70 50 H V C CNN "Val"
+F5 "R0201_200R_1%_0.05W_200PPM" 0 -420 50 H I L CNN "Part Number"
 F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
 F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
-F8 "100" 0 -645 50 H I L CNN "Comment"
+F8 "200" 0 -645 50 H I L CNN "Comment"
 F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
 F10 "Standard" 0 -795 50 H I L CNN "Component Type"
 F11 " " 0 -870 50 H I L CNN "PackageDescription"
@@ -3083,7 +3142,7 @@ F18 " " 0 -1395 50 H I L CNN "Voltage"
 F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
 F20 "Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
 F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
-F22 "R0201_100R_1%_0.05W_200PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F22 "R0201_200R_1%_0.05W_200PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
 F23 "0201" 0 -1770 50 H I L CNN "Case"
 F24 "No" 0 -1845 50 H I L CNN "PressFit"
 F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
@@ -3094,7 +3153,7 @@ F29 "No" 0 -2220 50 H I L CNN "Socket"
 F30 "Yes" 0 -2295 50 H I L CNN "SMD"
 F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
 F32 "VISHAY" 0 -2445 50 H I L CNN "Manufacturer1 Example"
-F33 "CRCW0201100RFNED" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F33 "CRCW0201200RFNED" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
 F34 "0.27mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "11/13/14 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
