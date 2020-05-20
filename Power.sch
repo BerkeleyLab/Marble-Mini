@@ -37,15 +37,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DAECF35
 P 1450 2150
-AR Path="/5C16C03C/5DAECF35" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5DAECF35" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DAECF35" Ref="#PWR0214"  Part="1" 
+AR Path="/5C16C03C/5DAECF35" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5DAECF35" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DAECF35" Ref="#PWR0214"  Part="1"
 F 0 "#PWR0214" H 1450 1900 50  0001 C CNN
 F 1 "GND" H 1455 1977 50  0000 C CNN
 F 2 "" H 1450 2150 50  0001 C CNN
 F 3 "" H 1450 2150 50  0001 C CNN
 	1    1450 2150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1450 2050 1450 2150
@@ -54,11 +54,11 @@ S 12400 7650 1350 1000
 U 5DB9B7E6
 F0 "Power_SW" 50
 F1 "Power_SW.sch" 50
-F2 "EN_PSU_CH" I L 12400 7750 50 
-F3 "I2C_PM_SDA" I L 12400 7900 50 
-F4 "I2C_PM_SCL" B L 12400 8000 50 
-F5 "FPGA_XR_GPIO_0" I L 12400 8200 50 
-F6 "OVER_TEMP" I L 12400 8350 50 
+F2 "EN_PSU_CH" I L 12400 7750 50
+F3 "I2C_PM_SDA" I L 12400 7900 50
+F4 "I2C_PM_SCL" B L 12400 8000 50
+F5 "FPGA_XR_GPIO_0" I L 12400 8200 50
+F6 "OVER_TEMP" I L 12400 8350 50
 $EndSheet
 Wire Wire Line
 	3600 2400 3600 2150
@@ -70,15 +70,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DBED764
 P 3400 3100
-AR Path="/5C16C03C/5DBED764" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5DBED764" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DBED764" Ref="#PWR0221"  Part="1" 
+AR Path="/5C16C03C/5DBED764" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5DBED764" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DBED764" Ref="#PWR0221"  Part="1"
 F 0 "#PWR0221" H 3400 2850 50  0001 C CNN
 F 1 "GND" H 3405 2927 50  0000 C CNN
 F 2 "" H 3400 3100 50  0001 C CNN
 F 3 "" H 3400 3100 50  0001 C CNN
 	1    3400 3100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2550 2800 2850 2800
@@ -88,15 +88,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DBEE3EE
 P 2850 3100
-AR Path="/5C16C03C/5DBEE3EE" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5DBEE3EE" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DBEE3EE" Ref="#PWR0220"  Part="1" 
+AR Path="/5C16C03C/5DBEE3EE" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5DBEE3EE" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DBEE3EE" Ref="#PWR0220"  Part="1"
 F 0 "#PWR0220" H 2850 2850 50  0001 C CNN
 F 1 "GND" H 2855 2927 50  0000 C CNN
 F 2 "" H 2850 3100 50  0001 C CNN
 F 3 "" H 2850 3100 50  0001 C CNN
 	1    2850 3100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3050 2450 3400 2450
@@ -111,29 +111,29 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DBFA6F5
 P 3150 4800
-AR Path="/5C16C03C/5DBFA6F5" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5DBFA6F5" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DBFA6F5" Ref="#PWR0223"  Part="1" 
+AR Path="/5C16C03C/5DBFA6F5" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5DBFA6F5" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DBFA6F5" Ref="#PWR0223"  Part="1"
 F 0 "#PWR0223" H 3150 4550 50  0001 C CNN
 F 1 "GND" H 3155 4627 50  0000 C CNN
 F 2 "" H 3150 4800 50  0001 C CNN
 F 3 "" H 3150 4800 50  0001 C CNN
 	1    3150 4800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DBFB059
 P 4850 4700
-AR Path="/5C16C03C/5DBFB059" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5DBFB059" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DBFB059" Ref="#PWR0228"  Part="1" 
+AR Path="/5C16C03C/5DBFB059" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5DBFB059" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DBFB059" Ref="#PWR0228"  Part="1"
 F 0 "#PWR0228" H 4850 4450 50  0001 C CNN
 F 1 "GND" H 4855 4527 50  0000 C CNN
 F 2 "" H 4850 4700 50  0001 C CNN
 F 3 "" H 4850 4700 50  0001 C CNN
 	1    4850 4700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4850 4350 4850 4400
@@ -147,45 +147,45 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC007C1
 P 5950 4350
-AR Path="/5C16C03C/5DC007C1" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC007C1" Ref="#PWR0231"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DC007C1" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5DC007C1" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC007C1" Ref="#PWR0231"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DC007C1" Ref="#PWR?"  Part="1"
 F 0 "#PWR0231" H 5950 4100 50  0001 C CNN
 F 1 "GND" H 5955 4177 50  0000 C CNN
 F 2 "" H 5950 4350 50  0001 C CNN
 F 3 "" H 5950 4350 50  0001 C CNN
 	1    5950 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DC007CF
 P 5450 4350
-AR Path="/5BD32060/5DC007CF" Ref="#PWR?"  Part="1" 
-AR Path="/5C16C03C/5DC007CF" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC007CF" Ref="#PWR0229"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DC007CF" Ref="#PWR?"  Part="1" 
+AR Path="/5BD32060/5DC007CF" Ref="#PWR?"  Part="1"
+AR Path="/5C16C03C/5DC007CF" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC007CF" Ref="#PWR0229"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DC007CF" Ref="#PWR?"  Part="1"
 F 0 "#PWR0229" H 5450 4100 50  0001 C CNN
 F 1 "GND" H 5455 4177 50  0000 C CNN
 F 2 "" H 5450 4350 50  0001 C CNN
 F 3 "" H 5450 4350 50  0001 C CNN
 	1    5450 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DC0475C
 P 2250 4400
-AR Path="/5C16C03C/5DC0475C" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5DC0475C" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC0475C" Ref="#PWR0218"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DC0475C" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5DC0475C" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5DC0475C" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC0475C" Ref="#PWR0218"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DC0475C" Ref="#PWR?"  Part="1"
 F 0 "#PWR0218" H 2250 4150 50  0001 C CNN
 F 1 "GND" H 2255 4227 50  0000 C CNN
 F 2 "" H 2250 4400 50  0001 C CNN
 F 3 "" H 2250 4400 50  0001 C CNN
 	1    2250 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2250 4350 2250 4400
@@ -193,16 +193,16 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC074E0
 P 2600 4400
-AR Path="/5C16C03C/5DC074E0" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5DC074E0" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC074E0" Ref="#PWR0219"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DC074E0" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5DC074E0" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5DC074E0" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC074E0" Ref="#PWR0219"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DC074E0" Ref="#PWR?"  Part="1"
 F 0 "#PWR0219" H 2600 4150 50  0001 C CNN
 F 1 "GND" H 2605 4227 50  0000 C CNN
 F 2 "" H 2600 4400 50  0001 C CNN
 F 3 "" H 2600 4400 50  0001 C CNN
 	1    2600 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2600 4350 2600 4400
@@ -210,16 +210,16 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC081D6
 P 2200 2200
-AR Path="/5C16C03C/5DC081D6" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5DC081D6" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC081D6" Ref="#PWR0216"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DC081D6" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5DC081D6" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5DC081D6" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC081D6" Ref="#PWR0216"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DC081D6" Ref="#PWR?"  Part="1"
 F 0 "#PWR0216" H 2200 1950 50  0001 C CNN
 F 1 "GND" H 2205 2027 50  0000 C CNN
 F 2 "" H 2200 2200 50  0001 C CNN
 F 3 "" H 2200 2200 50  0001 C CNN
 	1    2200 2200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2200 2150 2200 2200
@@ -227,14 +227,14 @@ $Comp
 L power:+12V #PWR0242
 U 1 1 5DC1583F
 P 13750 900
-AR Path="/5C16BF8E/5DC1583F" Ref="#PWR0242"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DC1583F" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5DC1583F" Ref="#PWR0242"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DC1583F" Ref="#PWR?"  Part="1"
 F 0 "#PWR0242" H 13750 750 50  0001 C CNN
 F 1 "+12V" H 13765 1073 50  0000 C CNN
 F 2 "" H 13750 900 50  0001 C CNN
 F 3 "" H 13750 900 50  0001 C CNN
-	1    13750 900 
-	1    0    0    -1  
+	1    13750 900
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	13750 900  13750 1000
@@ -242,14 +242,14 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC1757F
 P 12400 1800
-AR Path="/5C16C03C/5DC1757F" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC1757F" Ref="#PWR0234"  Part="1" 
+AR Path="/5C16C03C/5DC1757F" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC1757F" Ref="#PWR0234"  Part="1"
 F 0 "#PWR0234" H 12400 1550 50  0001 C CNN
 F 1 "GND" H 12405 1627 50  0000 C CNN
 F 2 "" H 12400 1800 50  0001 C CNN
 F 3 "" H 12400 1800 50  0001 C CNN
 	1    12400 1800
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	12550 1400 12400 1400
@@ -257,14 +257,14 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC22BA0
 P 12050 1950
-AR Path="/5C16C03C/5DC22BA0" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC22BA0" Ref="#PWR0232"  Part="1" 
+AR Path="/5C16C03C/5DC22BA0" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC22BA0" Ref="#PWR0232"  Part="1"
 F 0 "#PWR0232" H 12050 1700 50  0001 C CNN
 F 1 "GND" H 12055 1777 50  0000 C CNN
 F 2 "" H 12050 1950 50  0001 C CNN
 F 3 "" H 12050 1950 50  0001 C CNN
 	1    12050 1950
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	14100 1900 14000 1900
@@ -286,30 +286,30 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC4D697
 P 14050 3300
-AR Path="/5C16C03C/5DC4D697" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC4D697" Ref="#PWR0245"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DC4D697" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5DC4D697" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC4D697" Ref="#PWR0245"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DC4D697" Ref="#PWR?"  Part="1"
 F 0 "#PWR0245" H 14050 3050 50  0001 C CNN
 F 1 "GND" H 14055 3127 50  0000 C CNN
 F 2 "" H 14050 3300 50  0001 C CNN
 F 3 "" H 14050 3300 50  0001 C CNN
 	1    14050 3300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+3V3P #PWR?
 U 1 1 5DC4EB47
 P 14050 3000
-AR Path="/5C16C03C/5DC4EB47" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5DC4EB47" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC4EB47" Ref="#PWR0244"  Part="1" 
-AR Path="/5DC4EB47" Ref="#PWR0244"  Part="1" 
+AR Path="/5C16C03C/5DC4EB47" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA39/5DC4EB47" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC4EB47" Ref="#PWR0244"  Part="1"
+AR Path="/5DC4EB47" Ref="#PWR0244"  Part="1"
 F 0 "#PWR0244" H 14050 2850 50  0001 C CNN
 F 1 "+3V3P" H 14065 3173 50  0000 C CNN
 F 2 "" H 14050 3000 50  0001 C CNN
 F 3 "" H 14050 3000 50  0001 C CNN
 	1    14050 3000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	13900 3000 14050 3000
@@ -317,15 +317,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC5153E
 P 12800 3050
-AR Path="/5C16C03C/5DC5153E" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC5153E" Ref="#PWR0240"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DC5153E" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5DC5153E" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC5153E" Ref="#PWR0240"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DC5153E" Ref="#PWR?"  Part="1"
 F 0 "#PWR0240" H 12800 2800 50  0001 C CNN
 F 1 "GND" H 12805 2877 50  0000 C CNN
 F 2 "" H 12800 3050 50  0001 C CNN
 F 3 "" H 12800 3050 50  0001 C CNN
 	1    12800 3050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	12800 3000 12800 3050
@@ -337,16 +337,16 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC5CFE0
 P 12700 2700
-AR Path="/5BD32060/5DC5CFE0" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5DC5CFE0" Ref="#PWR?"  Part="1" 
-AR Path="/5D05A99E/5DC5CFE0" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC5CFE0" Ref="#PWR0238"  Part="1" 
+AR Path="/5BD32060/5DC5CFE0" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA39/5DC5CFE0" Ref="#PWR?"  Part="1"
+AR Path="/5D05A99E/5DC5CFE0" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC5CFE0" Ref="#PWR0238"  Part="1"
 F 0 "#PWR0238" H 12700 2450 50  0001 C CNN
 F 1 "GND" V 12705 2527 50  0000 C CNN
 F 2 "" H 12700 2700 50  0001 C CNN
 F 3 "" H 12700 2700 50  0001 C CNN
 	1    12700 2700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	12700 2700 12800 2700
@@ -354,14 +354,14 @@ $Comp
 L power:+12V #PWR0243
 U 1 1 5DC63261
 P 13750 4300
-AR Path="/5C16BF8E/5DC63261" Ref="#PWR0243"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DC63261" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5DC63261" Ref="#PWR0243"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DC63261" Ref="#PWR?"  Part="1"
 F 0 "#PWR0243" H 13750 4150 50  0001 C CNN
 F 1 "+12V" H 13765 4473 50  0000 C CNN
 F 2 "" H 13750 4300 50  0001 C CNN
 F 3 "" H 13750 4300 50  0001 C CNN
 	1    13750 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	13750 4300 13750 4400
@@ -369,14 +369,14 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC6326F
 P 12400 5200
-AR Path="/5C16C03C/5DC6326F" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC6326F" Ref="#PWR0235"  Part="1" 
+AR Path="/5C16C03C/5DC6326F" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC6326F" Ref="#PWR0235"  Part="1"
 F 0 "#PWR0235" H 12400 4950 50  0001 C CNN
 F 1 "GND" H 12405 5027 50  0000 C CNN
 F 2 "" H 12400 5200 50  0001 C CNN
 F 3 "" H 12400 5200 50  0001 C CNN
 	1    12400 5200
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	13750 4400 13650 4400
@@ -386,14 +386,14 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC6329E
 P 12050 5350
-AR Path="/5C16C03C/5DC6329E" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC6329E" Ref="#PWR0233"  Part="1" 
+AR Path="/5C16C03C/5DC6329E" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC6329E" Ref="#PWR0233"  Part="1"
 F 0 "#PWR0233" H 12050 5100 50  0001 C CNN
 F 1 "GND" H 12055 5177 50  0000 C CNN
 F 2 "" H 12050 5350 50  0001 C CNN
 F 3 "" H 12050 5350 50  0001 C CNN
 	1    12050 5350
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	14100 5300 14000 5300
@@ -413,30 +413,30 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC632C9
 P 14050 6700
-AR Path="/5C16C03C/5DC632C9" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC632C9" Ref="#PWR0247"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DC632C9" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5DC632C9" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC632C9" Ref="#PWR0247"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DC632C9" Ref="#PWR?"  Part="1"
 F 0 "#PWR0247" H 14050 6450 50  0001 C CNN
 F 1 "GND" H 14055 6527 50  0000 C CNN
 F 2 "" H 14050 6700 50  0001 C CNN
 F 3 "" H 14050 6700 50  0001 C CNN
 	1    14050 6700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+3V3P #PWR?
 U 1 1 5DC632CF
 P 14050 6400
-AR Path="/5C16C03C/5DC632CF" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5DC632CF" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC632CF" Ref="#PWR0246"  Part="1" 
-AR Path="/5DC632CF" Ref="#PWR0246"  Part="1" 
+AR Path="/5C16C03C/5DC632CF" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA39/5DC632CF" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC632CF" Ref="#PWR0246"  Part="1"
+AR Path="/5DC632CF" Ref="#PWR0246"  Part="1"
 F 0 "#PWR0246" H 14050 6250 50  0001 C CNN
 F 1 "+3V3P" H 14065 6573 50  0000 C CNN
 F 2 "" H 14050 6400 50  0001 C CNN
 F 3 "" H 14050 6400 50  0001 C CNN
 	1    14050 6400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	13900 6400 14050 6400
@@ -444,15 +444,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC632D7
 P 12800 6450
-AR Path="/5C16C03C/5DC632D7" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC632D7" Ref="#PWR0241"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DC632D7" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5DC632D7" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC632D7" Ref="#PWR0241"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DC632D7" Ref="#PWR?"  Part="1"
 F 0 "#PWR0241" H 12800 6200 50  0001 C CNN
 F 1 "GND" H 12805 6277 50  0000 C CNN
 F 2 "" H 12800 6450 50  0001 C CNN
 F 3 "" H 12800 6450 50  0001 C CNN
 	1    12800 6450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	12800 6400 12800 6450
@@ -468,16 +468,16 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC632E2
 P 12700 6100
-AR Path="/5BD32060/5DC632E2" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5DC632E2" Ref="#PWR?"  Part="1" 
-AR Path="/5D05A99E/5DC632E2" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC632E2" Ref="#PWR0239"  Part="1" 
+AR Path="/5BD32060/5DC632E2" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA39/5DC632E2" Ref="#PWR?"  Part="1"
+AR Path="/5D05A99E/5DC632E2" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC632E2" Ref="#PWR0239"  Part="1"
 F 0 "#PWR0239" H 12700 5850 50  0001 C CNN
 F 1 "GND" V 12705 5927 50  0000 C CNN
 F 2 "" H 12700 6100 50  0001 C CNN
 F 3 "" H 12700 6100 50  0001 C CNN
 	1    12700 6100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	12700 6100 12800 6100
@@ -485,16 +485,16 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DC65CBD
 P 12700 2600
-AR Path="/5BD32060/5DC65CBD" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5DC65CBD" Ref="#PWR?"  Part="1" 
-AR Path="/5D05A99E/5DC65CBD" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC65CBD" Ref="#PWR0237"  Part="1" 
+AR Path="/5BD32060/5DC65CBD" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA39/5DC65CBD" Ref="#PWR?"  Part="1"
+AR Path="/5D05A99E/5DC65CBD" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC65CBD" Ref="#PWR0237"  Part="1"
 F 0 "#PWR0237" H 12700 2350 50  0001 C CNN
 F 1 "GND" V 12705 2427 50  0000 C CNN
 F 2 "" H 12700 2600 50  0001 C CNN
 F 3 "" H 12700 2600 50  0001 C CNN
 	1    12700 2600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	12700 2600 12800 2600
@@ -502,16 +502,16 @@ $Comp
 L power:+3V3P #PWR?
 U 1 1 5DC68749
 P 12650 6000
-AR Path="/5C16C03C/5DC68749" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5DC68749" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC68749" Ref="#PWR0236"  Part="1" 
-AR Path="/5DC68749" Ref="#PWR0236"  Part="1" 
+AR Path="/5C16C03C/5DC68749" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA39/5DC68749" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC68749" Ref="#PWR0236"  Part="1"
+AR Path="/5DC68749" Ref="#PWR0236"  Part="1"
 F 0 "#PWR0236" H 12650 5850 50  0001 C CNN
 F 1 "+3V3P" V 12650 6250 50  0000 C CNN
 F 2 "" H 12650 6000 50  0001 C CNN
 F 3 "" H 12650 6000 50  0001 C CNN
 	1    12650 6000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	12650 6000 12800 6000
@@ -519,27 +519,27 @@ $Comp
 L marble_misc:+12V_FMC1 #PWR?
 U 1 1 5DC9381D
 P 15300 1900
-AR Path="/5BD31F9A/5DC9381D" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DC9381D" Ref="#PWR0250"  Part="1" 
+AR Path="/5BD31F9A/5DC9381D" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DC9381D" Ref="#PWR0250"  Part="1"
 F 0 "#PWR0250" H 15300 1750 50  0001 C CNN
 F 1 "+12V_FMC1" H 15315 2073 50  0000 C CNN
 F 2 "" H 15300 1900 50  0001 C CNN
 F 3 "" H 15300 1900 50  0001 C CNN
 	1    15300 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L marble_misc:+12V_FMC2 #PWR?
 U 1 1 5DCAD1CB
 P 15300 5300
-AR Path="/5BD31F9F/5DCAD1CB" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DCAD1CB" Ref="#PWR0251"  Part="1" 
+AR Path="/5BD31F9F/5DCAD1CB" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DCAD1CB" Ref="#PWR0251"  Part="1"
 F 0 "#PWR0251" H 15300 5150 50  0001 C CNN
 F 1 "+12V_FMC2" H 15315 5473 50  0000 C CNN
 F 2 "" H 15300 5300 50  0001 C CNN
 F 3 "" H 15300 5300 50  0001 C CNN
 	1    15300 5300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	15150 2500 15150 2600
@@ -547,15 +547,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DCC06C1
 P 15150 2600
-AR Path="/5C16C03C/5DCC06C1" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DCC06C1" Ref="#PWR0248"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DCC06C1" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5DCC06C1" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DCC06C1" Ref="#PWR0248"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DCC06C1" Ref="#PWR?"  Part="1"
 F 0 "#PWR0248" H 15150 2350 50  0001 C CNN
 F 1 "GND" H 15155 2427 50  0000 C CNN
 F 2 "" H 15150 2600 50  0001 C CNN
 F 3 "" H 15150 2600 50  0001 C CNN
 	1    15150 2600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	15150 5900 15150 6000
@@ -563,15 +563,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DCC33AD
 P 15150 6000
-AR Path="/5C16C03C/5DCC33AD" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DCC33AD" Ref="#PWR0249"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DCC33AD" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5DCC33AD" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DCC33AD" Ref="#PWR0249"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DCC33AD" Ref="#PWR?"  Part="1"
 F 0 "#PWR0249" H 15150 5750 50  0001 C CNN
 F 1 "GND" H 15155 5827 50  0000 C CNN
 F 2 "" H 15150 6000 50  0001 C CNN
 F 3 "" H 15150 6000 50  0001 C CNN
 	1    15150 6000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text HLabel 11850 5050 0    50   Input ~ 10
 EN_FMC2_P12V
@@ -599,27 +599,27 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DE5D37A
 P 5650 3000
-AR Path="/5C16C03C/5DE5D37A" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DE5D37A" Ref="#PWR0559"  Part="1" 
+AR Path="/5C16C03C/5DE5D37A" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DE5D37A" Ref="#PWR0559"  Part="1"
 F 0 "#PWR0559" H 5650 2750 50  0001 C CNN
 F 1 "GND" H 5655 2827 50  0000 C CNN
 F 2 "" H 5650 3000 50  0001 C CNN
 F 3 "" H 5650 3000 50  0001 C CNN
 	1    5650 3000
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DE633B4
 P 5300 3000
-AR Path="/5C16C03C/5DE633B4" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DE633B4" Ref="#PWR0558"  Part="1" 
+AR Path="/5C16C03C/5DE633B4" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DE633B4" Ref="#PWR0558"  Part="1"
 F 0 "#PWR0558" H 5300 2750 50  0001 C CNN
 F 1 "GND" H 5305 2827 50  0000 C CNN
 F 2 "" H 5300 3000 50  0001 C CNN
 F 3 "" H 5300 3000 50  0001 C CNN
 	1    5300 3000
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	5300 2700 5300 2650
@@ -628,16 +628,16 @@ $Comp
 L power:GND #PWR?
 U 1 1 5DE8CCE2
 P 4400 2200
-AR Path="/5C16C03C/5DE8CCE2" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5DE8CCE2" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DE8CCE2" Ref="#PWR0557"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5DE8CCE2" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5DE8CCE2" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5DE8CCE2" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5DE8CCE2" Ref="#PWR0557"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5DE8CCE2" Ref="#PWR?"  Part="1"
 F 0 "#PWR0557" H 4400 1950 50  0001 C CNN
 F 1 "GND" H 4405 2027 50  0000 C CNN
 F 2 "" H 4400 2200 50  0001 C CNN
 F 3 "" H 4400 2200 50  0001 C CNN
 	1    4400 2200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4400 2150 4400 2200
@@ -645,21 +645,21 @@ $Comp
 L marble_misc:+12V_AMC #PWR0560
 U 1 1 5E2C52BD
 P 5650 1550
-AR Path="/5E2C52BD" Ref="#PWR0560"  Part="1" 
-AR Path="/5C16BF8E/5E2C52BD" Ref="#PWR0560"  Part="1" 
+AR Path="/5E2C52BD" Ref="#PWR0560"  Part="1"
+AR Path="/5C16BF8E/5E2C52BD" Ref="#PWR0560"  Part="1"
 F 0 "#PWR0560" H 5650 1400 50  0001 C CNN
 F 1 "+12V_AMC" H 5665 1723 50  0000 C CNN
 F 2 "" H 5650 1550 50  0001 C CNN
 F 3 "" H 5650 1550 50  0001 C CNN
 	1    5650 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L marble_misc:AG5300-AG5300 U40
 U 1 1 5C359ECB
 P 5550 8300
-AR Path="/5C359ECB" Ref="U40"  Part="1" 
-AR Path="/5C16BF8E/5C359ECB" Ref="U40"  Part="1" 
+AR Path="/5C359ECB" Ref="U40"  Part="1"
+AR Path="/5C16BF8E/5C359ECB" Ref="U40"  Part="1"
 F 0 "U40" H 5900 8200 50  0000 C CNN
 F 1 "AG5300" H 5950 8100 50  0000 C CNN
 F 2 "Marble:AG5300" H 6700 8400 50  0001 L CNN
@@ -670,7 +670,7 @@ F 6 "Silvertel" H 6700 7900 50  0001 L CNN "Manufacturer_Name"
 F 7 "AG5300" H 6700 7800 50  0001 L CNN "Manufacturer Part Number"
 F 8 "AG5300" H 5550 8300 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5550 8300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L marble_misc:MB6S-Diode_Bridge D6
@@ -682,7 +682,7 @@ F 2 "Marble:SOIC254P665X290-4N" H 3400 8775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 3250 8650 50  0001 C CNN
 F 4 "MB210S-TP" H 3250 8650 50  0001 C CNN "Manufacturer Part Number"
 	1    3250 8650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L marble_misc:MB6S-Diode_Bridge D7
@@ -694,7 +694,7 @@ F 2 "Marble:SOIC254P665X290-4N" H 3400 9775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 3250 9650 50  0001 C CNN
 F 4 "MB210S-TP" H 3250 9650 50  0001 C CNN "Manufacturer Part Number"
 	1    3250 9650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2950 8650 2650 8650
@@ -706,121 +706,121 @@ $Comp
 L marble_misc:L-Device L?
 U 1 1 5C42D98A
 P 4250 8650
-AR Path="/5BABAC65/5C42D98A" Ref="L?"  Part="1" 
-AR Path="/5CC24E97/5C42D98A" Ref="L?"  Part="1" 
-AR Path="/5CC393D3/5C42D98A" Ref="L?"  Part="1" 
-AR Path="/5CC6DBF7/5C42D98A" Ref="L?"  Part="1" 
-AR Path="/5CC8AFE1/5C42D98A" Ref="L?"  Part="1" 
-AR Path="/5BCEDA39/5C42D98A" Ref="L?"  Part="1" 
-AR Path="/5C16BF8E/5C42D98A" Ref="L35"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5C42D98A" Ref="L?"  Part="1" 
+AR Path="/5BABAC65/5C42D98A" Ref="L?"  Part="1"
+AR Path="/5CC24E97/5C42D98A" Ref="L?"  Part="1"
+AR Path="/5CC393D3/5C42D98A" Ref="L?"  Part="1"
+AR Path="/5CC6DBF7/5C42D98A" Ref="L?"  Part="1"
+AR Path="/5CC8AFE1/5C42D98A" Ref="L?"  Part="1"
+AR Path="/5BCEDA39/5C42D98A" Ref="L?"  Part="1"
+AR Path="/5C16BF8E/5C42D98A" Ref="L35"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5C42D98A" Ref="L?"  Part="1"
 F 0 "L35" V 4440 8650 50  0000 C CNN
 F 1 "1k@100MHz" V 4349 8650 50  0000 C CNN
 F 2 "Marble:INDC2012X145N" H 4250 8650 50  0001 C CNN
 F 3 "~" H 4250 8650 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4250 8650 50  0001 C CNN "Manufacturer Part Number"
 	1    4250 8650
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L marble_misc:L-Device L?
 U 1 1 5C4333E3
 P 4750 8650
-AR Path="/5BABAC65/5C4333E3" Ref="L?"  Part="1" 
-AR Path="/5CC24E97/5C4333E3" Ref="L?"  Part="1" 
-AR Path="/5CC393D3/5C4333E3" Ref="L?"  Part="1" 
-AR Path="/5CC6DBF7/5C4333E3" Ref="L?"  Part="1" 
-AR Path="/5CC8AFE1/5C4333E3" Ref="L?"  Part="1" 
-AR Path="/5BCEDA39/5C4333E3" Ref="L?"  Part="1" 
-AR Path="/5C16BF8E/5C4333E3" Ref="L37"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5C4333E3" Ref="L?"  Part="1" 
+AR Path="/5BABAC65/5C4333E3" Ref="L?"  Part="1"
+AR Path="/5CC24E97/5C4333E3" Ref="L?"  Part="1"
+AR Path="/5CC393D3/5C4333E3" Ref="L?"  Part="1"
+AR Path="/5CC6DBF7/5C4333E3" Ref="L?"  Part="1"
+AR Path="/5CC8AFE1/5C4333E3" Ref="L?"  Part="1"
+AR Path="/5BCEDA39/5C4333E3" Ref="L?"  Part="1"
+AR Path="/5C16BF8E/5C4333E3" Ref="L37"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5C4333E3" Ref="L?"  Part="1"
 F 0 "L37" V 4940 8650 50  0000 C CNN
 F 1 "1k@100MHz" V 4849 8650 50  0000 C CNN
 F 2 "Marble:INDC2012X145N" H 4750 8650 50  0001 C CNN
 F 3 "~" H 4750 8650 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4750 8650 50  0001 C CNN "Manufacturer Part Number"
 	1    4750 8650
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L marble_misc:L-Device L?
 U 1 1 5C438CB6
 P 5250 8650
-AR Path="/5BABAC65/5C438CB6" Ref="L?"  Part="1" 
-AR Path="/5CC24E97/5C438CB6" Ref="L?"  Part="1" 
-AR Path="/5CC393D3/5C438CB6" Ref="L?"  Part="1" 
-AR Path="/5CC6DBF7/5C438CB6" Ref="L?"  Part="1" 
-AR Path="/5CC8AFE1/5C438CB6" Ref="L?"  Part="1" 
-AR Path="/5BCEDA39/5C438CB6" Ref="L?"  Part="1" 
-AR Path="/5C16BF8E/5C438CB6" Ref="L39"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5C438CB6" Ref="L?"  Part="1" 
+AR Path="/5BABAC65/5C438CB6" Ref="L?"  Part="1"
+AR Path="/5CC24E97/5C438CB6" Ref="L?"  Part="1"
+AR Path="/5CC393D3/5C438CB6" Ref="L?"  Part="1"
+AR Path="/5CC6DBF7/5C438CB6" Ref="L?"  Part="1"
+AR Path="/5CC8AFE1/5C438CB6" Ref="L?"  Part="1"
+AR Path="/5BCEDA39/5C438CB6" Ref="L?"  Part="1"
+AR Path="/5C16BF8E/5C438CB6" Ref="L39"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5C438CB6" Ref="L?"  Part="1"
 F 0 "L39" V 5440 8650 50  0000 C CNN
 F 1 "1k@100MHz" V 5349 8650 50  0000 C CNN
 F 2 "Marble:INDC2012X145N" H 5250 8650 50  0001 C CNN
 F 3 "~" H 5250 8650 50  0001 C CNN
 F 4 "MPZ2012S102A" V 5250 8650 50  0001 C CNN "Manufacturer Part Number"
 	1    5250 8650
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L marble_misc:L-Device L?
 U 1 1 5C43E5E7
 P 4250 9050
-AR Path="/5BABAC65/5C43E5E7" Ref="L?"  Part="1" 
-AR Path="/5CC24E97/5C43E5E7" Ref="L?"  Part="1" 
-AR Path="/5CC393D3/5C43E5E7" Ref="L?"  Part="1" 
-AR Path="/5CC6DBF7/5C43E5E7" Ref="L?"  Part="1" 
-AR Path="/5CC8AFE1/5C43E5E7" Ref="L?"  Part="1" 
-AR Path="/5BCEDA39/5C43E5E7" Ref="L?"  Part="1" 
-AR Path="/5C16BF8E/5C43E5E7" Ref="L36"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5C43E5E7" Ref="L?"  Part="1" 
+AR Path="/5BABAC65/5C43E5E7" Ref="L?"  Part="1"
+AR Path="/5CC24E97/5C43E5E7" Ref="L?"  Part="1"
+AR Path="/5CC393D3/5C43E5E7" Ref="L?"  Part="1"
+AR Path="/5CC6DBF7/5C43E5E7" Ref="L?"  Part="1"
+AR Path="/5CC8AFE1/5C43E5E7" Ref="L?"  Part="1"
+AR Path="/5BCEDA39/5C43E5E7" Ref="L?"  Part="1"
+AR Path="/5C16BF8E/5C43E5E7" Ref="L36"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5C43E5E7" Ref="L?"  Part="1"
 F 0 "L36" V 4440 9050 50  0000 C CNN
 F 1 "1k@100MHz" V 4349 9050 50  0000 C CNN
 F 2 "Marble:INDC2012X145N" H 4250 9050 50  0001 C CNN
 F 3 "~" H 4250 9050 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4250 9050 50  0001 C CNN "Manufacturer Part Number"
 	1    4250 9050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L marble_misc:L-Device L?
 U 1 1 5C43E5EF
 P 4750 9050
-AR Path="/5BABAC65/5C43E5EF" Ref="L?"  Part="1" 
-AR Path="/5CC24E97/5C43E5EF" Ref="L?"  Part="1" 
-AR Path="/5CC393D3/5C43E5EF" Ref="L?"  Part="1" 
-AR Path="/5CC6DBF7/5C43E5EF" Ref="L?"  Part="1" 
-AR Path="/5CC8AFE1/5C43E5EF" Ref="L?"  Part="1" 
-AR Path="/5BCEDA39/5C43E5EF" Ref="L?"  Part="1" 
-AR Path="/5C16BF8E/5C43E5EF" Ref="L38"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5C43E5EF" Ref="L?"  Part="1" 
+AR Path="/5BABAC65/5C43E5EF" Ref="L?"  Part="1"
+AR Path="/5CC24E97/5C43E5EF" Ref="L?"  Part="1"
+AR Path="/5CC393D3/5C43E5EF" Ref="L?"  Part="1"
+AR Path="/5CC6DBF7/5C43E5EF" Ref="L?"  Part="1"
+AR Path="/5CC8AFE1/5C43E5EF" Ref="L?"  Part="1"
+AR Path="/5BCEDA39/5C43E5EF" Ref="L?"  Part="1"
+AR Path="/5C16BF8E/5C43E5EF" Ref="L38"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5C43E5EF" Ref="L?"  Part="1"
 F 0 "L38" V 4940 9050 50  0000 C CNN
 F 1 "1k@100MHz" V 4849 9050 50  0000 C CNN
 F 2 "Marble:INDC2012X145N" H 4750 9050 50  0001 C CNN
 F 3 "~" H 4750 9050 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4750 9050 50  0001 C CNN "Manufacturer Part Number"
 	1    4750 9050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L marble_misc:L-Device L?
 U 1 1 5C43E5F7
 P 5250 9050
-AR Path="/5BABAC65/5C43E5F7" Ref="L?"  Part="1" 
-AR Path="/5CC24E97/5C43E5F7" Ref="L?"  Part="1" 
-AR Path="/5CC393D3/5C43E5F7" Ref="L?"  Part="1" 
-AR Path="/5CC6DBF7/5C43E5F7" Ref="L?"  Part="1" 
-AR Path="/5CC8AFE1/5C43E5F7" Ref="L?"  Part="1" 
-AR Path="/5BCEDA39/5C43E5F7" Ref="L?"  Part="1" 
-AR Path="/5C16BF8E/5C43E5F7" Ref="L40"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5C43E5F7" Ref="L?"  Part="1" 
+AR Path="/5BABAC65/5C43E5F7" Ref="L?"  Part="1"
+AR Path="/5CC24E97/5C43E5F7" Ref="L?"  Part="1"
+AR Path="/5CC393D3/5C43E5F7" Ref="L?"  Part="1"
+AR Path="/5CC6DBF7/5C43E5F7" Ref="L?"  Part="1"
+AR Path="/5CC8AFE1/5C43E5F7" Ref="L?"  Part="1"
+AR Path="/5BCEDA39/5C43E5F7" Ref="L?"  Part="1"
+AR Path="/5C16BF8E/5C43E5F7" Ref="L40"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5C43E5F7" Ref="L?"  Part="1"
 F 0 "L40" V 5440 9050 50  0000 C CNN
 F 1 "1k@100MHz" V 5349 9050 50  0000 C CNN
 F 2 "Marble:INDC2012X145N" H 5250 9050 50  0001 C CNN
 F 3 "~" H 5250 9050 50  0001 C CNN
 F 4 "MPZ2012S102A" V 5250 9050 50  0001 C CNN "Manufacturer Part Number"
 	1    5250 9050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	4400 8650 4600 8650
@@ -844,7 +844,7 @@ F 2 "Marble:DIOM5226X262N" H 3600 8650 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 3550 8850 50  0001 C CNN
 F 4 "SMAJ58A" H 3600 8850 50  0001 C CNN "Manufacturer Part Number"
 	1    3600 8850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 4000 8650
 Wire Wire Line
@@ -865,15 +865,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5C53C110
 P 7900 9100
-AR Path="/5C16C03C/5C53C110" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5C53C110" Ref="#PWR0561"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5C53C110" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5C53C110" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5C53C110" Ref="#PWR0561"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5C53C110" Ref="#PWR?"  Part="1"
 F 0 "#PWR0561" H 7900 8850 50  0001 C CNN
 F 1 "GND" H 7905 8927 50  0000 C CNN
 F 2 "" H 7900 9100 50  0001 C CNN
 F 3 "" H 7900 9100 50  0001 C CNN
 	1    7900 9100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7900 9050 7900 9100
@@ -941,16 +941,16 @@ $Comp
 L power:+3V3P #PWR?
 U 1 1 5C9960C0
 P 6800 9650
-AR Path="/5C16C03C/5C9960C0" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5C9960C0" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5C9960C0" Ref="#PWR0563"  Part="1" 
-AR Path="/5C9960C0" Ref="#PWR0563"  Part="1" 
+AR Path="/5C16C03C/5C9960C0" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA39/5C9960C0" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5C9960C0" Ref="#PWR0563"  Part="1"
+AR Path="/5C9960C0" Ref="#PWR0563"  Part="1"
 F 0 "#PWR0563" H 6800 9500 50  0001 C CNN
 F 1 "+3V3P" H 6815 9823 50  0000 C CNN
 F 2 "" H 6800 9650 50  0001 C CNN
 F 3 "" H 6800 9650 50  0001 C CNN
 	1    6800 9650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text HLabel 7350 9950 2    50   Output ~ 10
 AT_DET
@@ -968,15 +968,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5C3BFBDC
 P 9500 9700
-AR Path="/5C16C03C/5C3BFBDC" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5C3BFBDC" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5C3BFBDC" Ref="#PWR061"  Part="1" 
+AR Path="/5C16C03C/5C3BFBDC" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5C3BFBDC" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5C3BFBDC" Ref="#PWR061"  Part="1"
 F 0 "#PWR061" H 9500 9450 50  0001 C CNN
 F 1 "GND" H 9505 9527 50  0000 C CNN
 F 2 "" H 9500 9700 50  0001 C CNN
 F 3 "" H 9500 9700 50  0001 C CNN
 	1    9500 9700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8650 9400 8950 9400
@@ -986,15 +986,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5C3BFBED
 P 8950 9700
-AR Path="/5C16C03C/5C3BFBED" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5C3BFBED" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5C3BFBED" Ref="#PWR060"  Part="1" 
+AR Path="/5C16C03C/5C3BFBED" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5C3BFBED" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5C3BFBED" Ref="#PWR060"  Part="1"
 F 0 "#PWR060" H 8950 9450 50  0001 C CNN
 F 1 "GND" H 8955 9527 50  0000 C CNN
 F 2 "" H 8950 9700 50  0001 C CNN
 F 3 "" H 8950 9700 50  0001 C CNN
 	1    8950 9700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	9150 9050 9500 9050
@@ -1067,7 +1067,7 @@ F 38 "08/23/10 00:00:00" H 1900 -760 60  0001 L CNN "LatestRevisionDate"
 F 39 "ICs And Semiconductors SMD" H 1900 -850 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1900 -940 60  0001 L CNN "License"
 	1    1900 2900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L marble_misc:SS16-Diodes D12
@@ -1115,7 +1115,7 @@ F 38 "08/23/10 00:00:00" H 7900 4790 60  0001 L CNN "LatestRevisionDate"
 F 39 "ICs And Semiconductors SMD" H 7900 4700 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7900 4610 60  0001 L CNN "License"
 	1    7900 8450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Capacitors_SMD:CAE830-1020_470UF_16V_20% C350
@@ -1163,19 +1163,19 @@ F 38 "11/05/14 00:00:00" H 7900 5060 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 7900 4970 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7900 4880 60  0001 L CNN "License"
 	1    7900 8650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Resistors_SMD:R0402_0R_JUMPER R?
 U 1 1 5DFF3820
 P 7450 8450
-AR Path="/5C16BF8E/5DB9B7E6/5DFF3820" Ref="R?"  Part="1" 
-AR Path="/5C16BF8E/5DFF3820" Ref="R197"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5DFF3820" Ref="R?"  Part="1"
+AR Path="/5C16BF8E/5DFF3820" Ref="R197"  Part="1"
 F 0 "R197" V 7554 8510 50  0000 L CNN
 F 1 "R0402_0R_JUMPER" H 7450 8240 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 7450 7430 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 7450 8060 60  0001 L CNN
-F 4 "DNP" V 7645 8510 50  0000 L CNN "~"
+F 4 "0" V 7645 8510 50  0000 L CNN "Val"
 F 5 "R0402_0R_JUMPER" H 7450 7970 60  0001 L CNN "Part Number"
 F 6 "Resistor" H 7450 7880 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 7450 7790 60  0001 L CNN "Library Path"
@@ -1215,19 +1215,19 @@ F 40 "Resistors SMD" H 7450 4730 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7450 4640 60  0001 L CNN "License"
 F 42 "dnf" V 7450 8450 50  0001 C CNN "config"
 	1    7450 8450
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Resistors_SMD:R0402_0R_JUMPER R?
 U 1 1 5DFFD677
 P 7450 8750
-AR Path="/5C16BF8E/5DB9B7E6/5DFFD677" Ref="R?"  Part="1" 
-AR Path="/5C16BF8E/5DFFD677" Ref="R198"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5DFFD677" Ref="R?"  Part="1"
+AR Path="/5C16BF8E/5DFFD677" Ref="R198"  Part="1"
 F 0 "R198" V 7554 8810 50  0000 L CNN
 F 1 "R0402_0R_JUMPER" H 7450 8540 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 7450 7730 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 7450 8360 60  0001 L CNN
-F 4 "DNP" V 7645 8810 50  0000 L CNN "~"
+F 4 "0" V 7645 8810 50  0000 L CNN "Val"
 F 5 "R0402_0R_JUMPER" H 7450 8270 60  0001 L CNN "Part Number"
 F 6 "Resistor" H 7450 8180 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 7450 8090 60  0001 L CNN "Library Path"
@@ -1267,7 +1267,7 @@ F 40 "Resistors SMD" H 7450 5030 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7450 4940 60  0001 L CNN "License"
 F 42 "dnf" V 7450 8750 50  0001 C CNN "config"
 	1    7450 8750
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	6900 8450 7450 8450
@@ -1327,7 +1327,7 @@ F 39 "05/12/20 00:00:00" H 14100 -1730 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 14100 -1820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14100 -1910 60  0001 L CNN "License"
 	1    14100 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Resistors_SMD:R1206_0R082_1%_0.5W_100PPM R183
@@ -1376,7 +1376,7 @@ F 39 "05/12/20 00:00:00" H 14100 1670 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 14100 1580 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14100 1490 60  0001 L CNN "License"
 	1    14100 5300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7000 4050 7350 4050
@@ -1390,15 +1390,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5E3AF6FA
 P 7150 5300
-AR Path="/5C16C03C/5E3AF6FA" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5E3AF6FA" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5E3AF6FA" Ref="#PWR0587"  Part="1" 
+AR Path="/5C16C03C/5E3AF6FA" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5E3AF6FA" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5E3AF6FA" Ref="#PWR0587"  Part="1"
 F 0 "#PWR0587" H 7150 5050 50  0001 C CNN
 F 1 "GND" H 7155 5127 50  0000 C CNN
 F 2 "" H 7150 5300 50  0001 C CNN
 F 3 "" H 7150 5300 50  0001 C CNN
 	1    7150 5300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6300 5000 6600 5000
@@ -1408,15 +1408,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5E3AF70C
 P 6600 5300
-AR Path="/5C16C03C/5E3AF70C" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5E3AF70C" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5E3AF70C" Ref="#PWR0504"  Part="1" 
+AR Path="/5C16C03C/5E3AF70C" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA59/5E3AF70C" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5E3AF70C" Ref="#PWR0504"  Part="1"
 F 0 "#PWR0504" H 6600 5050 50  0001 C CNN
 F 1 "GND" H 6605 5127 50  0000 C CNN
 F 2 "" H 6600 5300 50  0001 C CNN
 F 3 "" H 6600 5300 50  0001 C CNN
 	1    6600 5300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7150 4650 7150 5000
@@ -1466,7 +1466,7 @@ F 36 "05/02/11 00:00:00" H 6850 750 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 6850 660 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6850 570 60  0001 L CNN "License"
 	1    6850 4300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	7150 4650 6850 4650
@@ -1520,7 +1520,7 @@ F 36 "09/24/13 00:00:00" H 13700 -1930 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 13700 -2020 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13700 -2110 60  0001 L CNN "License"
 	1    13700 2300
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	14550 1900 14550 2600
@@ -1570,7 +1570,7 @@ F 36 "10/05/16 00:00:00" H 13450 -2400 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 13450 -2490 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13450 -2580 60  0001 L CNN "License"
 	1    13450 1700
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 Wire Wire Line
 	13550 1900 13650 1900
@@ -1631,7 +1631,7 @@ F 36 "10/05/16 00:00:00" H 13450 1000 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 13450 910 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13450 820 60  0001 L CNN "License"
 	1    13450 5100
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 Connection ~ 13550 4400
 Connection ~ 13650 4400
@@ -1692,7 +1692,7 @@ F 36 "10/05/16 00:00:00" H 2750 -1850 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 2750 -1940 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2750 -2030 60  0001 L CNN "License"
 	1    2750 2250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Transistors:SI4425DDY-T1-GE3 Q4
@@ -1738,7 +1738,7 @@ F 36 "10/05/16 00:00:00" H 8850 4750 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 8850 4660 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8850 4570 60  0001 L CNN "License"
 	1    8850 8850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	2550 2150 2550 2400
@@ -1858,7 +1858,7 @@ F 39 "10/17/12 00:00:00" H 6800 6020 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 6800 5930 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6800 5840 60  0001 L CNN "License"
 	1    6800 9650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	6450 9950 6800 9950
@@ -1912,7 +1912,7 @@ F 39 "10/17/12 00:00:00" H 9050 5570 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 9050 5480 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9050 5390 60  0001 L CNN "License"
 	1    9050 9200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Resistors_SMD:R0402_47K_1%_0.0625W_100PPM R181
@@ -1961,7 +1961,7 @@ F 39 "10/17/12 00:00:00" H 8950 5770 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 8950 5680 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8950 5590 60  0001 L CNN "License"
 	1    8950 9400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Resistors_SMD:R0402_82K_1%_0.0625W_100PPM R212
@@ -2010,7 +2010,7 @@ F 39 "10/17/12 00:00:00" H 9500 5770 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 9500 5680 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9500 5590 60  0001 L CNN "License"
 	1    9500 9400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 9500 9400
 Connection ~ 8950 9400
@@ -2061,16 +2061,16 @@ F 39 "10/17/12 00:00:00" H 7150 1370 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 7150 1280 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7150 1190 60  0001 L CNN "License"
 	1    7150 5000
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 7150 5000
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
 U 1 1 5C5FA1D5
 P 6600 5000
-AR Path="/5CC393D3/5C5FA1D5" Ref="R?"  Part="1" 
-AR Path="/5BABAC65/5C5FA1D5" Ref="R?"  Part="1" 
-AR Path="/5C16BF8E/5C5FA1D5" Ref="R171"  Part="1" 
+AR Path="/5CC393D3/5C5FA1D5" Ref="R?"  Part="1"
+AR Path="/5BABAC65/5C5FA1D5" Ref="R?"  Part="1"
+AR Path="/5C16BF8E/5C5FA1D5" Ref="R171"  Part="1"
 F 0 "R171" V 6704 5060 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 6600 4790 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6600 3980 60  0001 L CNN
@@ -2114,15 +2114,15 @@ F 39 "10/17/12 00:00:00" H 6600 1370 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 6600 1280 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6600 1190 60  0001 L CNN "License"
 	1    6600 5000
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
 U 1 1 5C609031
 P 5650 2700
-AR Path="/5CC393D3/5C609031" Ref="R?"  Part="1" 
-AR Path="/5BABAC65/5C609031" Ref="R?"  Part="1" 
-AR Path="/5C16BF8E/5C609031" Ref="R170"  Part="1" 
+AR Path="/5CC393D3/5C609031" Ref="R?"  Part="1"
+AR Path="/5BABAC65/5C609031" Ref="R?"  Part="1"
+AR Path="/5C16BF8E/5C609031" Ref="R170"  Part="1"
 F 0 "R170" V 5754 2760 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 5650 2490 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 5650 1680 60  0001 L CNN
@@ -2166,15 +2166,15 @@ F 39 "10/17/12 00:00:00" H 5650 -930 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 5650 -1020 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5650 -1110 60  0001 L CNN "License"
 	1    5650 2700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 6600 5000
 $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5C654FBC
 P 5950 4050
-AR Path="/5C16BF8E/5DB9B7E6/5C654FBC" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5C654FBC" Ref="C133"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5C654FBC" Ref="C?"  Part="1"
+AR Path="/5C16BF8E/5C654FBC" Ref="C133"  Part="1"
 F 0 "C133" V 6054 4160 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 5950 3790 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 5950 2980 60  0001 L CNN
@@ -2217,7 +2217,7 @@ F 38 "12/03/07 00:00:00" H 5950 460 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 5950 370 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5950 280 60  0001 L CNN "License"
 	1    5950 4050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 5950 4050
 Wire Wire Line
@@ -2268,7 +2268,7 @@ F 38 "09/13/16 00:00:00" H 5450 460 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 5450 370 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5450 280 60  0001 L CNN "License"
 	1    5450 4050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	5200 4050 5450 4050
@@ -2322,7 +2322,7 @@ F 39 "10/17/12 00:00:00" H 4850 770 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 4850 680 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4850 590 60  0001 L CNN "License"
 	1    4850 4400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Resistors_SMD:R0402_82K_1%_0.0625W_100PPM R108
@@ -2371,7 +2371,7 @@ F 39 "10/17/12 00:00:00" H 3400 -830 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 3400 -920 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3400 -1010 60  0001 L CNN "License"
 	1    3400 2800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 3400 2800
 $Comp
@@ -2421,7 +2421,7 @@ F 39 "10/17/12 00:00:00" H 2850 -830 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 2850 -920 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2850 -1010 60  0001 L CNN "License"
 	1    2850 2800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 2850 2800
 $Comp
@@ -2471,14 +2471,14 @@ F 39 "10/17/12 00:00:00" H 2950 -1030 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 2950 -1120 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 -1210 60  0001 L CNN "License"
 	1    2950 2600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
 U 1 1 5C79494C
 P 2600 4050
-AR Path="/5C16BF8E/5DB9B7E6/5C79494C" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5C79494C" Ref="C130"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5C79494C" Ref="C?"  Part="1"
+AR Path="/5C16BF8E/5C79494C" Ref="C130"  Part="1"
 F 0 "C130" V 2650 4050 50  0000 L CNN
 F 1 "CC0402_100NF_16V_10%_X5R" H 2600 3790 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 2600 2980 60  0001 L CNN
@@ -2521,14 +2521,14 @@ F 38 "12/10/13 00:00:00" H 2600 460 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 2600 370 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2600 280 60  0001 L CNN "License"
 	1    2600 4050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C?
 U 1 1 5C7A3EEE
 P 2250 4050
-AR Path="/5C16BF8E/5DB9B7E6/5C7A3EEE" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5C7A3EEE" Ref="C129"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5C7A3EEE" Ref="C?"  Part="1"
+AR Path="/5C16BF8E/5C7A3EEE" Ref="C129"  Part="1"
 F 0 "C129" V 2300 4050 50  0000 L CNN
 F 1 "CC0603_4.7UF_16V_10%_X5R" H 2250 3790 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 2250 2980 60  0001 L CNN
@@ -2571,7 +2571,7 @@ F 38 "09/16/14 00:00:00" H 2250 460 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 2250 370 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2250 280 60  0001 L CNN "License"
 	1    2250 4050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 2250 4050
 Wire Wire Line
@@ -2623,7 +2623,7 @@ F 39 "10/17/12 00:00:00" H 4850 420 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 4850 330 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4850 240 60  0001 L CNN "License"
 	1    4850 4050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	4650 4050 4700 4050
@@ -2634,8 +2634,8 @@ $Comp
 L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
 U 1 1 5C80ED53
 P 4400 1850
-AR Path="/5C16BF8E/5DB9B7E6/5C80ED53" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5C80ED53" Ref="C131"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5C80ED53" Ref="C?"  Part="1"
+AR Path="/5C16BF8E/5C80ED53" Ref="C131"  Part="1"
 F 0 "C131" V 4450 1850 50  0000 L CNN
 F 1 "CC0402_100NF_16V_10%_X5R" H 4400 1590 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 4400 780 60  0001 L CNN
@@ -2678,14 +2678,14 @@ F 38 "12/10/13 00:00:00" H 4400 -1740 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 4400 -1830 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4400 -1920 60  0001 L CNN "License"
 	1    4400 1850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
 U 1 1 5C81E3E8
 P 2200 1850
-AR Path="/5C16BF8E/5DB9B7E6/5C81E3E8" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5C81E3E8" Ref="C128"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5C81E3E8" Ref="C?"  Part="1"
+AR Path="/5C16BF8E/5C81E3E8" Ref="C128"  Part="1"
 F 0 "C128" V 2250 1850 50  0000 L CNN
 F 1 "CC0402_100NF_16V_10%_X5R" H 2200 1590 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 2200 780 60  0001 L CNN
@@ -2728,7 +2728,7 @@ F 38 "12/10/13 00:00:00" H 2200 -1740 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 2200 -1830 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2200 -1920 60  0001 L CNN "License"
 	1    2200 1850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	4000 1850 4400 1850
@@ -2746,9 +2746,9 @@ $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
 U 1 1 5C88A4FD
 P 12050 1650
-AR Path="/5CC393D3/5C88A4FD" Ref="R?"  Part="1" 
-AR Path="/5BABAC65/5C88A4FD" Ref="R?"  Part="1" 
-AR Path="/5C16BF8E/5C88A4FD" Ref="R188"  Part="1" 
+AR Path="/5CC393D3/5C88A4FD" Ref="R?"  Part="1"
+AR Path="/5BABAC65/5C88A4FD" Ref="R?"  Part="1"
+AR Path="/5C16BF8E/5C88A4FD" Ref="R188"  Part="1"
 F 0 "R188" V 12154 1710 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 12050 1440 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12050 630 60  0001 L CNN
@@ -2792,15 +2792,15 @@ F 39 "10/17/12 00:00:00" H 12050 -1980 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 12050 -2070 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12050 -2160 60  0001 L CNN "License"
 	1    12050 1650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
 U 1 1 5C899B82
 P 12400 1050
-AR Path="/5CC393D3/5C899B82" Ref="R?"  Part="1" 
-AR Path="/5BABAC65/5C899B82" Ref="R?"  Part="1" 
-AR Path="/5C16BF8E/5C899B82" Ref="R202"  Part="1" 
+AR Path="/5CC393D3/5C899B82" Ref="R?"  Part="1"
+AR Path="/5BABAC65/5C899B82" Ref="R?"  Part="1"
+AR Path="/5C16BF8E/5C899B82" Ref="R202"  Part="1"
 F 0 "R202" V 12504 1110 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 12400 840 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12400 30  60  0001 L CNN
@@ -2844,7 +2844,7 @@ F 39 "10/17/12 00:00:00" H 12400 -2580 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 12400 -2670 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12400 -2760 60  0001 L CNN "License"
 	1    12400 1050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 12050 1650
 Wire Wire Line
@@ -2853,9 +2853,9 @@ $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
 U 1 1 5C8C845B
 P 12400 4450
-AR Path="/5CC393D3/5C8C845B" Ref="R?"  Part="1" 
-AR Path="/5BABAC65/5C8C845B" Ref="R?"  Part="1" 
-AR Path="/5C16BF8E/5C8C845B" Ref="R203"  Part="1" 
+AR Path="/5CC393D3/5C8C845B" Ref="R?"  Part="1"
+AR Path="/5BABAC65/5C8C845B" Ref="R?"  Part="1"
+AR Path="/5C16BF8E/5C8C845B" Ref="R203"  Part="1"
 F 0 "R203" V 12504 4510 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 12400 4240 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12400 3430 60  0001 L CNN
@@ -2899,15 +2899,15 @@ F 39 "10/17/12 00:00:00" H 12400 820 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 12400 730 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12400 640 60  0001 L CNN "License"
 	1    12400 4450
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
 U 1 1 5C8D7D39
 P 12050 5050
-AR Path="/5CC393D3/5C8D7D39" Ref="R?"  Part="1" 
-AR Path="/5BABAC65/5C8D7D39" Ref="R?"  Part="1" 
-AR Path="/5C16BF8E/5C8D7D39" Ref="R201"  Part="1" 
+AR Path="/5CC393D3/5C8D7D39" Ref="R?"  Part="1"
+AR Path="/5BABAC65/5C8D7D39" Ref="R?"  Part="1"
+AR Path="/5C16BF8E/5C8D7D39" Ref="R201"  Part="1"
 F 0 "R201" V 12154 5110 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 12050 4840 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12050 4030 60  0001 L CNN
@@ -2951,7 +2951,7 @@ F 39 "10/17/12 00:00:00" H 12050 1420 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 12050 1330 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12050 1240 60  0001 L CNN "License"
 	1    12050 5050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	11850 5050 12050 5050
@@ -3005,7 +3005,7 @@ F 39 "10/17/12 00:00:00" H 12550 1170 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 12550 1080 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12550 990 60  0001 L CNN "License"
 	1    12550 4800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R213
@@ -3054,14 +3054,14 @@ F 39 "10/17/12 00:00:00" H 12550 -2230 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 12550 -2320 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12550 -2410 60  0001 L CNN "License"
 	1    12550 1400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
 U 1 1 5C9C1496
 P 13100 1050
-AR Path="/5C16BF8E/5DB9B7E6/5C9C1496" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5C9C1496" Ref="C134"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5C9C1496" Ref="C?"  Part="1"
+AR Path="/5C16BF8E/5C9C1496" Ref="C134"  Part="1"
 F 0 "C134" V 13150 1050 50  0000 L CNN
 F 1 "CC0402_100NF_16V_10%_X5R" H 13100 790 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 13100 -20 60  0001 L CNN
@@ -3104,14 +3104,14 @@ F 38 "12/10/13 00:00:00" H 13100 -2540 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 13100 -2630 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13100 -2720 60  0001 L CNN "License"
 	1    13100 1050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
 U 1 1 5C9EFEB4
 P 13100 4450
-AR Path="/5C16BF8E/5DB9B7E6/5C9EFEB4" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5C9EFEB4" Ref="C135"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5C9EFEB4" Ref="C?"  Part="1"
+AR Path="/5C16BF8E/5C9EFEB4" Ref="C135"  Part="1"
 F 0 "C135" V 13150 4450 50  0000 L CNN
 F 1 "CC0402_100NF_16V_10%_X5R" H 13100 4190 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 13100 3380 60  0001 L CNN
@@ -3154,7 +3154,7 @@ F 38 "12/10/13 00:00:00" H 13100 860 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 13100 770 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13100 680 60  0001 L CNN "License"
 	1    13100 4450
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	12850 4800 13100 4800
@@ -3196,13 +3196,13 @@ $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5CB310B2
 P 14050 6400
-AR Path="/5C16BF8E/5DB9B7E6/5CB310B2" Ref="C?"  Part="1" 
-AR Path="/5BCEDA3D/5CB310B2" Ref="C?"  Part="1" 
-AR Path="/5CC393D3/5CB310B2" Ref="C?"  Part="1" 
-AR Path="/5BABAC65/5CB310B2" Ref="C?"  Part="1" 
-AR Path="/5BD31F9F/5CB310B2" Ref="C?"  Part="1" 
-AR Path="/5BCEDA39/5CB310B2" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5CB310B2" Ref="C351"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5CB310B2" Ref="C?"  Part="1"
+AR Path="/5BCEDA3D/5CB310B2" Ref="C?"  Part="1"
+AR Path="/5CC393D3/5CB310B2" Ref="C?"  Part="1"
+AR Path="/5BABAC65/5CB310B2" Ref="C?"  Part="1"
+AR Path="/5BD31F9F/5CB310B2" Ref="C?"  Part="1"
+AR Path="/5BCEDA39/5CB310B2" Ref="C?"  Part="1"
+AR Path="/5C16BF8E/5CB310B2" Ref="C351"  Part="1"
 F 0 "C351" V 14154 6510 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 14050 6140 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 14050 5330 60  0001 L CNN
@@ -3245,19 +3245,19 @@ F 38 "12/03/07 00:00:00" H 14050 2810 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 14050 2720 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14050 2630 60  0001 L CNN "License"
 	1    14050 6400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5CB408C0
 P 14050 3000
-AR Path="/5C16BF8E/5DB9B7E6/5CB408C0" Ref="C?"  Part="1" 
-AR Path="/5BCEDA3D/5CB408C0" Ref="C?"  Part="1" 
-AR Path="/5CC393D3/5CB408C0" Ref="C?"  Part="1" 
-AR Path="/5BABAC65/5CB408C0" Ref="C?"  Part="1" 
-AR Path="/5BD31F9F/5CB408C0" Ref="C?"  Part="1" 
-AR Path="/5BCEDA39/5CB408C0" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5CB408C0" Ref="C136"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5CB408C0" Ref="C?"  Part="1"
+AR Path="/5BCEDA3D/5CB408C0" Ref="C?"  Part="1"
+AR Path="/5CC393D3/5CB408C0" Ref="C?"  Part="1"
+AR Path="/5BABAC65/5CB408C0" Ref="C?"  Part="1"
+AR Path="/5BD31F9F/5CB408C0" Ref="C?"  Part="1"
+AR Path="/5BCEDA39/5CB408C0" Ref="C?"  Part="1"
+AR Path="/5C16BF8E/5CB408C0" Ref="C136"  Part="1"
 F 0 "C136" V 14154 3110 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 14050 2740 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 14050 1930 60  0001 L CNN
@@ -3300,7 +3300,7 @@ F 38 "12/03/07 00:00:00" H 14050 -590 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 14050 -680 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14050 -770 60  0001 L CNN "License"
 	1    14050 3000
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 14050 3000
 Connection ~ 14050 6400
@@ -3312,9 +3312,9 @@ $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
 U 1 1 5CBACABF
 P 15150 1900
-AR Path="/5CC393D3/5CBACABF" Ref="R?"  Part="1" 
-AR Path="/5BABAC65/5CBACABF" Ref="R?"  Part="1" 
-AR Path="/5C16BF8E/5CBACABF" Ref="R235"  Part="1" 
+AR Path="/5CC393D3/5CBACABF" Ref="R?"  Part="1"
+AR Path="/5BABAC65/5CBACABF" Ref="R?"  Part="1"
+AR Path="/5C16BF8E/5CBACABF" Ref="R235"  Part="1"
 F 0 "R235" V 15254 1960 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 15150 1690 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 15150 880 60  0001 L CNN
@@ -3358,15 +3358,15 @@ F 39 "10/17/12 00:00:00" H 15150 -1730 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 15150 -1820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 15150 -1910 60  0001 L CNN "License"
 	1    15150 1900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
 U 1 1 5CBBBAA1
 P 15150 5300
-AR Path="/5CC393D3/5CBBBAA1" Ref="R?"  Part="1" 
-AR Path="/5BABAC65/5CBBBAA1" Ref="R?"  Part="1" 
-AR Path="/5C16BF8E/5CBBBAA1" Ref="R236"  Part="1" 
+AR Path="/5CC393D3/5CBBBAA1" Ref="R?"  Part="1"
+AR Path="/5BABAC65/5CBBBAA1" Ref="R?"  Part="1"
+AR Path="/5C16BF8E/5CBBBAA1" Ref="R236"  Part="1"
 F 0 "R236" V 15254 5360 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 15150 5090 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 15150 4280 60  0001 L CNN
@@ -3410,7 +3410,7 @@ F 39 "10/17/12 00:00:00" H 15150 1670 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 15150 1580 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 15150 1490 60  0001 L CNN "License"
 	1    15150 5300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 15150 5300
 Wire Wire Line
@@ -3465,7 +3465,7 @@ F 39 "04/22/10 00:00:00" H 5200 -1980 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 5200 -2070 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5200 -2160 60  0001 L CNN "License"
 	1    5200 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Miscellaneous:CLIFF_FC68148(DC-10A) J1
@@ -3513,7 +3513,7 @@ F 38 "11/23/10 00:00:00" H 1250 -2070 60  0001 L CNN "LatestRevisionDate"
 F 39 "Miscellaneous THD" H 1250 -2160 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1250 -2250 60  0001 L CNN "License"
 	1    1250 1750
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L Transistors:BSS138LT1G Q9
@@ -3562,7 +3562,7 @@ F 39 "Transistors" H 12150 5050 50  0001 C CNN "Database Table Name"
 F 40 "ICs And Semiconductors SMD" H 12150 5050 50  0001 C CNN "Footprint Library"
 F 41 " " H 12150 5050 50  0001 C CNN "SCEM"
 	1    12150 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 12400 4800
 $Comp
@@ -3612,7 +3612,7 @@ F 39 "Transistors" H 12150 1650 50  0001 C CNN "Database Table Name"
 F 40 "ICs And Semiconductors SMD" H 12150 1650 50  0001 C CNN "Footprint Library"
 F 41 " " H 12150 1650 50  0001 C CNN "SCEM"
 	1    12150 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 12400 1400
 $Comp
@@ -3661,7 +3661,7 @@ F 38 "04/22/15 00:00:00" H 6200 4610 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors THD" H 6200 4520 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6200 4430 60  0001 L CNN "License"
 	1    6200 8200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Capacitors_THD:CPER_4.7NF_400V_5%_500-250X720X650 C354
@@ -3709,7 +3709,7 @@ F 38 "04/22/15 00:00:00" H 6200 5860 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors THD" H 6200 5770 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6200 5680 60  0001 L CNN "License"
 	1    6200 9450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Optocouplers:FOD817DSD U41
@@ -3755,7 +3755,7 @@ F 36 "07/21/14 00:00:00" H 5850 6020 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 5850 5930 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5850 5840 60  0001 L CNN "License"
 	1    5850 9850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5550 9950 5650 9950
@@ -3805,7 +3805,7 @@ F 36 "12/01/11 00:00:00" H 8900 5600 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 8900 5510 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8900 5420 60  0001 L CNN "License"
 	1    8900 9200
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L Transistors:BC857BV Q22
@@ -3851,7 +3851,7 @@ F 36 "12/01/11 00:00:00" H 9450 5600 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 9450 5510 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9450 5420 60  0001 L CNN "License"
 	2    9450 9200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8900 9200 8950 9200
@@ -3902,7 +3902,7 @@ F 36 "12/01/11 00:00:00" H 6550 1200 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 6550 1110 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6550 1020 60  0001 L CNN "License"
 	1    6550 4800
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L Transistors:BC857BV Q15
@@ -3948,7 +3948,7 @@ F 36 "12/01/11 00:00:00" H 7100 1200 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 7100 1110 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7100 1020 60  0001 L CNN "License"
 	2    7100 4800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Transistors:BC857BV Q1
@@ -3994,7 +3994,7 @@ F 36 "12/01/11 00:00:00" H 2800 -1000 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 2800 -1090 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2800 -1180 60  0001 L CNN "License"
 	1    2800 2600
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L Transistors:BC857BV Q1
@@ -4040,7 +4040,7 @@ F 36 "12/01/11 00:00:00" H 3350 -1000 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 3350 -1090 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3350 -1180 60  0001 L CNN "License"
 	2    3350 2600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6550 4800 6600 4800
@@ -4097,7 +4097,7 @@ F 37 "~~" H 3350 -470 60  0001 L CNN "SCEM"
 F 38 "ICs And Semiconductors SMD" H 3350 -560 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3350 -650 60  0001 L CNN "License"
 	1    3350 3950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4350 4550 4650 4550
@@ -4143,8 +4143,8 @@ $Comp
 L LEDs_&_Displays:LED_KINGBRIGHT_KPH-1608CGCK LD?
 U 1 1 5D97275B
 P 15150 2350
-AR Path="/5C907554/5C417BCB/5D97275B" Ref="LD?"  Part="1" 
-AR Path="/5C16BF8E/5D97275B" Ref="LD1"  Part="1" 
+AR Path="/5C907554/5C417BCB/5D97275B" Ref="LD?"  Part="1"
+AR Path="/5C16BF8E/5D97275B" Ref="LD1"  Part="1"
 F 0 "LD1" V 15150 2520 50  0000 L CNN
 F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 15150 2120 60  0001 L CNN
 F 2 "Marble:LED_KINGBRIGHT_KPH-1608CGCK" H 15150 1130 60  0001 L CNN
@@ -4187,14 +4187,14 @@ F 38 "07/03/17 00:00:00" H 15150 -1210 60  0001 L CNN "LatestRevisionDate"
 F 39 "ICs And Semiconductors SMD" H 15150 -1300 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 15150 -1390 60  0001 L CNN "License"
 	1    15150 2350
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L LEDs_&_Displays:LED_KINGBRIGHT_KPH-1608CGCK LD?
 U 1 1 5D982A9A
 P 15150 5750
-AR Path="/5C907554/5C417BCB/5D982A9A" Ref="LD?"  Part="1" 
-AR Path="/5C16BF8E/5D982A9A" Ref="LD2"  Part="1" 
+AR Path="/5C907554/5C417BCB/5D982A9A" Ref="LD?"  Part="1"
+AR Path="/5C16BF8E/5D982A9A" Ref="LD2"  Part="1"
 F 0 "LD2" V 15150 5920 50  0000 L CNN
 F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 15150 5520 60  0001 L CNN
 F 2 "Marble:LED_KINGBRIGHT_KPH-1608CGCK" H 15150 4530 60  0001 L CNN
@@ -4237,7 +4237,7 @@ F 38 "07/03/17 00:00:00" H 15150 2190 60  0001 L CNN "LatestRevisionDate"
 F 39 "ICs And Semiconductors SMD" H 15150 2100 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 15150 2010 60  0001 L CNN "License"
 	1    15150 5750
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	5600 9050 5600 9450
@@ -4247,17 +4247,17 @@ $Comp
 L power:+3V3P #PWR?
 U 1 1 5D48AAA3
 P 7350 3900
-AR Path="/5C16C03C/5D48AAA3" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5D48AAA3" Ref="#PWR?"  Part="1" 
-AR Path="/5D05A99E/5D48AAA3" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5D48AAA3" Ref="#PWR0129"  Part="1" 
-AR Path="/5D48AAA3" Ref="#PWR0129"  Part="1" 
+AR Path="/5C16C03C/5D48AAA3" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA39/5D48AAA3" Ref="#PWR?"  Part="1"
+AR Path="/5D05A99E/5D48AAA3" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5D48AAA3" Ref="#PWR0129"  Part="1"
+AR Path="/5D48AAA3" Ref="#PWR0129"  Part="1"
 F 0 "#PWR0129" H 7350 3750 50  0001 C CNN
 F 1 "+3V3P" H 7365 4073 50  0000 C CNN
 F 2 "" H 7350 3900 50  0001 C CNN
 F 3 "" H 7350 3900 50  0001 C CNN
 	1    7350 3900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5150 2650 5300 2650
@@ -4318,7 +4318,7 @@ F 36 "10/05/16 00:00:00" H 4850 -1650 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 4850 -1740 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4850 -1830 60  0001 L CNN "License"
 	1    4850 2450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Inductors_SMD:IND_10UH_20%_TDK_VLCF5020-1 L13
@@ -4362,15 +4362,15 @@ F 34 "07/10/14 00:00:00" H 4350 890 60  0001 L CNN "LatestRevisionDate"
 F 35 "Inductors SMD" H 4350 800 60  0001 L CNN "Library Name"
 F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4350 710 60  0001 L CNN "License"
 	1    4350 4050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 1450 1950
 $Comp
 L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
 U 1 1 5CDE0828
 P 5650 2350
-AR Path="/5C16BF8E/5DB9B7E6/5CDE0828" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5CDE0828" Ref="C357"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5CDE0828" Ref="C?"  Part="1"
+AR Path="/5C16BF8E/5CDE0828" Ref="C357"  Part="1"
 F 0 "C357" V 5700 2350 50  0000 L CNN
 F 1 "CC0402_100NF_16V_10%_X5R" H 5650 2090 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 5650 1280 60  0001 L CNN
@@ -4413,7 +4413,7 @@ F 38 "12/10/13 00:00:00" H 5650 -1240 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 5650 -1330 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5650 -1420 60  0001 L CNN "License"
 	1    5650 2350
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	5550 2350 5650 2350
@@ -4431,48 +4431,48 @@ $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5D2029CE
 P 14550 1900
-AR Path="/5BABAC65/5D2029CE" Ref="#FLG?"  Part="1" 
-AR Path="/5C16BF8E/5D2029CE" Ref="#FLG0116"  Part="1" 
+AR Path="/5BABAC65/5D2029CE" Ref="#FLG?"  Part="1"
+AR Path="/5C16BF8E/5D2029CE" Ref="#FLG0116"  Part="1"
 F 0 "#FLG0116" H 14550 1975 50  0001 C CNN
 F 1 "PWR_FLAG" H 14550 2073 50  0000 C CNN
 F 2 "" H 14550 1900 50  0001 C CNN
 F 3 "~" H 14550 1900 50  0001 C CNN
 	1    14550 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5D212D18
 P 14550 5300
-AR Path="/5BABAC65/5D212D18" Ref="#FLG?"  Part="1" 
-AR Path="/5C16BF8E/5D212D18" Ref="#FLG0117"  Part="1" 
+AR Path="/5BABAC65/5D212D18" Ref="#FLG?"  Part="1"
+AR Path="/5C16BF8E/5D212D18" Ref="#FLG0117"  Part="1"
 F 0 "#FLG0117" H 14550 5375 50  0001 C CNN
 F 1 "PWR_FLAG" H 14550 5473 50  0000 C CNN
 F 2 "" H 14550 5300 50  0001 C CNN
 F 3 "~" H 14550 5300 50  0001 C CNN
 	1    14550 5300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C8F4FC5
 P 6500 10450
-AR Path="/5C16C03C/5C8F4FC5" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5C8F4FC5" Ref="#PWR0562"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5C8F4FC5" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5C8F4FC5" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5C8F4FC5" Ref="#PWR0562"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5C8F4FC5" Ref="#PWR?"  Part="1"
 F 0 "#PWR0562" H 6500 10200 50  0001 C CNN
 F 1 "GND" H 6505 10277 50  0000 C CNN
 F 2 "" H 6500 10450 50  0001 C CNN
 F 3 "" H 6500 10450 50  0001 C CNN
 	1    6500 10450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Resistors_SMD:R0402_0R_JUMPER R?
 U 1 1 5D933441
 P 6500 10150
-AR Path="/5C16BF8E/5DB9B7E6/5D933441" Ref="R?"  Part="1" 
-AR Path="/5C16BF8E/5D933441" Ref="R281"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5D933441" Ref="R?"  Part="1"
+AR Path="/5C16BF8E/5D933441" Ref="R281"  Part="1"
 F 0 "R281" V 6604 10210 50  0000 L CNN
 F 1 "R0402_0R_JUMPER" H 6500 9940 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6500 9130 60  0001 L CNN
@@ -4516,14 +4516,14 @@ F 39 "10/17/12 00:00:00" H 6500 6520 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 6500 6430 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6500 6340 60  0001 L CNN "License"
 	1    6500 10150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Diodes:BAT165 D?
 U 1 1 5D6FF8E5
 P 5300 3000
-AR Path="/5BCEDA39/5D6FF8E5" Ref="D?"  Part="1" 
-AR Path="/5C16BF8E/5D6FF8E5" Ref="D9"  Part="1" 
+AR Path="/5BCEDA39/5D6FF8E5" Ref="D?"  Part="1"
+AR Path="/5C16BF8E/5D6FF8E5" Ref="D9"  Part="1"
 F 0 "D9" H 5450 2773 50  0000 C CNN
 F 1 "BAT165" H 5450 2864 50  0000 C CNN
 F 2 "Marble:SOD2512X110N" H 5300 1860 60  0001 L CNN
@@ -4566,7 +4566,7 @@ F 38 "11/12/14 00:00:00" H 5300 -660 60  0001 L CNN "LatestRevisionDate"
 F 39 "ICs And Semiconductors SMD" H 5300 -750 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5300 -840 60  0001 L CNN "License"
 	1    5300 3000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Analog_&_Interface:INA219BIDCNT U32
@@ -4612,20 +4612,20 @@ F 36 "09/24/13 00:00:00" H 13700 1470 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 13700 1380 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13700 1290 60  0001 L CNN "License"
 	1    13700 5700
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L power:+12V #PWR0670
 U 1 1 5EC1A876
 P 7800 1350
-AR Path="/5C16BF8E/5EC1A876" Ref="#PWR0670"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5EC1A876" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5EC1A876" Ref="#PWR0670"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5EC1A876" Ref="#PWR?"  Part="1"
 F 0 "#PWR0670" H 7800 1200 50  0001 C CNN
 F 1 "+12V" H 7815 1523 50  0000 C CNN
 F 2 "" H 7800 1350 50  0001 C CNN
 F 3 "" H 7800 1350 50  0001 C CNN
 	1    7800 1350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Resistors_SMD:R1206_0R082_1%_0.5W_100PPM R301
@@ -4674,7 +4674,7 @@ F 39 "05/12/20 00:00:00" H 6950 -2180 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 6950 -2270 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6950 -2360 60  0001 L CNN "License"
 	1    6950 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7250 1450 7300 1450
@@ -4712,30 +4712,30 @@ $Comp
 L power:GND #PWR?
 U 1 1 5EEFD1E2
 P 7250 2850
-AR Path="/5C16C03C/5EEFD1E2" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5EEFD1E2" Ref="#PWR0564"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5EEFD1E2" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5EEFD1E2" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5EEFD1E2" Ref="#PWR0564"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5EEFD1E2" Ref="#PWR?"  Part="1"
 F 0 "#PWR0564" H 7250 2600 50  0001 C CNN
 F 1 "GND" H 7255 2677 50  0000 C CNN
 F 2 "" H 7250 2850 50  0001 C CNN
 F 3 "" H 7250 2850 50  0001 C CNN
 	1    7250 2850
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L power:+3V3P #PWR?
 U 1 1 5EEFD1EC
 P 7250 2550
-AR Path="/5C16C03C/5EEFD1EC" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5EEFD1EC" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5EEFD1EC" Ref="#PWR0227"  Part="1" 
-AR Path="/5EEFD1EC" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5EEFD1EC" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA39/5EEFD1EC" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5EEFD1EC" Ref="#PWR0227"  Part="1"
+AR Path="/5EEFD1EC" Ref="#PWR?"  Part="1"
 F 0 "#PWR0227" H 7250 2400 50  0001 C CNN
 F 1 "+3V3P" H 7265 2723 50  0000 C CNN
 F 2 "" H 7250 2550 50  0001 C CNN
 F 3 "" H 7250 2550 50  0001 C CNN
 	1    7250 2550
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	7400 2550 7250 2550
@@ -4743,15 +4743,15 @@ $Comp
 L power:GND #PWR?
 U 1 1 5EEFD1F7
 P 8500 2600
-AR Path="/5C16C03C/5EEFD1F7" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5EEFD1F7" Ref="#PWR0671"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5EEFD1F7" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/5EEFD1F7" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5EEFD1F7" Ref="#PWR0671"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5EEFD1F7" Ref="#PWR?"  Part="1"
 F 0 "#PWR0671" H 8500 2350 50  0001 C CNN
 F 1 "GND" H 8505 2427 50  0000 C CNN
 F 2 "" H 8500 2600 50  0001 C CNN
 F 3 "" H 8500 2600 50  0001 C CNN
 	1    8500 2600
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	8500 2550 8500 2600
@@ -4765,16 +4765,16 @@ $Comp
 L power:GND #PWR?
 U 1 1 5EEFD206
 P 8600 2250
-AR Path="/5BD32060/5EEFD206" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5EEFD206" Ref="#PWR?"  Part="1" 
-AR Path="/5D05A99E/5EEFD206" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5EEFD206" Ref="#PWR0672"  Part="1" 
+AR Path="/5BD32060/5EEFD206" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA39/5EEFD206" Ref="#PWR?"  Part="1"
+AR Path="/5D05A99E/5EEFD206" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/5EEFD206" Ref="#PWR0672"  Part="1"
 F 0 "#PWR0672" H 8600 2000 50  0001 C CNN
 F 1 "GND" V 8605 2077 50  0000 C CNN
 F 2 "" H 8600 2250 50  0001 C CNN
 F 3 "" H 8600 2250 50  0001 C CNN
 	1    8600 2250
-	0    -1   1    0   
+	0    -1   1    0
 $EndComp
 Wire Wire Line
 	8600 2250 8500 2250
@@ -4784,13 +4784,13 @@ $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5EEFD242
 P 7250 2550
-AR Path="/5C16BF8E/5DB9B7E6/5EEFD242" Ref="C?"  Part="1" 
-AR Path="/5BCEDA3D/5EEFD242" Ref="C?"  Part="1" 
-AR Path="/5CC393D3/5EEFD242" Ref="C?"  Part="1" 
-AR Path="/5BABAC65/5EEFD242" Ref="C?"  Part="1" 
-AR Path="/5BD31F9F/5EEFD242" Ref="C?"  Part="1" 
-AR Path="/5BCEDA39/5EEFD242" Ref="C?"  Part="1" 
-AR Path="/5C16BF8E/5EEFD242" Ref="C380"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5EEFD242" Ref="C?"  Part="1"
+AR Path="/5BCEDA3D/5EEFD242" Ref="C?"  Part="1"
+AR Path="/5CC393D3/5EEFD242" Ref="C?"  Part="1"
+AR Path="/5BABAC65/5EEFD242" Ref="C?"  Part="1"
+AR Path="/5BD31F9F/5EEFD242" Ref="C?"  Part="1"
+AR Path="/5BCEDA39/5EEFD242" Ref="C?"  Part="1"
+AR Path="/5C16BF8E/5EEFD242" Ref="C380"  Part="1"
 F 0 "C380" V 7354 2660 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 7250 2290 60  0001 L CNN
 F 2 "Marble:CAPC0603X33N" H 7250 1480 60  0001 L CNN
@@ -4833,7 +4833,7 @@ F 38 "12/03/07 00:00:00" H 7250 -1040 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors SMD" H 7250 -1130 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7250 -1220 60  0001 L CNN "License"
 	1    7250 2550
-	0    -1   1    0   
+	0    -1   1    0
 $EndComp
 Connection ~ 7250 2550
 $Comp
@@ -4883,7 +4883,7 @@ F 39 "Analog & Interface" H 7600 1850 50  0001 C CNN "Database Table Name"
 F 40 "ICs And Semiconductors SMD" H 7600 1850 50  0001 C CNN "Footprint Library"
 F 41 " " H 7600 1850 50  0001 C CNN "SCEM"
 	1    7600 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 6900 1450
 Wire Wire Line
@@ -4909,14 +4909,14 @@ $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5ECA642C
 P 7800 1450
-AR Path="/5BABAC65/5ECA642C" Ref="#FLG?"  Part="1" 
-AR Path="/5C16BF8E/5ECA642C" Ref="#FLG0120"  Part="1" 
+AR Path="/5BABAC65/5ECA642C" Ref="#FLG?"  Part="1"
+AR Path="/5C16BF8E/5ECA642C" Ref="#FLG0120"  Part="1"
 F 0 "#FLG0120" H 7800 1525 50  0001 C CNN
 F 1 "PWR_FLAG" V 7800 1750 50  0000 C CNN
 F 2 "" H 7800 1450 50  0001 C CNN
 F 3 "~" H 7800 1450 50  0001 C CNN
 	1    7800 1450
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 7800 1450
 $Comp
@@ -4966,7 +4966,7 @@ F 39 "05/12/20 00:00:00" H 6950 -2480 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 6950 -2570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6950 -2660 60  0001 L CNN "License"
 	1    6950 1150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Resistors_SMD:R1206_0R082_1%_0.5W_100PPM R303
@@ -5014,27 +5014,27 @@ F 38 "05/11/10 00:00:00" H 6950 -2690 60  0001 L CNN "CreateDate"
 F 39 "05/12/20 00:00:00" H 6950 -2780 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 6950 -2870 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6950 -2960 60  0001 L CNN "License"
-	1    6950 850 
-	1    0    0    -1  
+	1    6950 850
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6900 1450 6900 1150
 Wire Wire Line
-	6900 850  6950 850 
+	6900 850  6950 850
 Wire Wire Line
 	7300 1450 7300 1150
 Wire Wire Line
-	7300 850  7250 850 
+	7300 850  7250 850
 Wire Wire Line
 	7250 1150 7300 1150
 Connection ~ 7300 1150
 Wire Wire Line
-	7300 1150 7300 850 
+	7300 1150 7300 850
 Wire Wire Line
 	6950 1150 6900 1150
 Connection ~ 6900 1150
 Wire Wire Line
-	6900 1150 6900 850 
+	6900 1150 6900 850
 Wire Wire Line
 	6400 1450 6400 1750
 Connection ~ 6400 1450
@@ -5047,7 +5047,7 @@ F 1 "TestPoint" H 8408 7877 50  0000 L CNN
 F 2 "Marble:TestPoint_Pad_D1.0mm" H 8550 7850 50  0001 C CNN
 F 3 "" H 8550 7850 50  0001 C CNN
 	1    8350 7850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8350 7850 8350 8450
@@ -5062,8 +5062,8 @@ F 0 "TP2" H 6058 1068 50  0000 L CNN
 F 1 "TestPoint" H 6058 977 50  0000 L CNN
 F 2 "Marble:TestPoint_Pad_D1.0mm" H 6200 950 50  0001 C CNN
 F 3 "" H 6200 950 50  0001 C CNN
-	1    6000 950 
-	1    0    0    -1  
+	1    6000 950
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6000 950  6000 1150
@@ -5079,7 +5079,7 @@ F 1 "TestPoint" H 7658 4277 50  0000 L CNN
 F 2 "Marble:TestPoint_Pad_D1.0mm" H 7800 4250 50  0001 C CNN
 F 3 "" H 7800 4250 50  0001 C CNN
 	1    7600 4250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7600 4250 7350 4250
