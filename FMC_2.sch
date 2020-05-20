@@ -1775,8 +1775,6 @@ Connection ~ 5950 6900
 Wire Wire Line
 	5950 6900 6400 6900
 Connection ~ 6400 6900
-Wire Wire Line
-	6400 6900 6600 6900
 Connection ~ 6400 7200
 Wire Wire Line
 	4700 6000 5150 6000
@@ -1845,17 +1843,6 @@ Wire Wire Line
 Connection ~ 7900 5800
 Wire Wire Line
 	7900 5800 8300 5800
-$Comp
-L power:PWR_FLAG #FLG0118
-U 1 1 5EC3D861
-P 6600 6900
-F 0 "#FLG0118" H 6600 6975 50  0001 C CNN
-F 1 "PWR_FLAG" H 6600 7073 50  0000 C CNN
-F 2 "" H 6600 6900 50  0001 C CNN
-F 3 "" H 6600 6900 50  0001 C CNN
-	1    6600 6900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Resistors_SMD:R0402_240R_1%_0.0625W_100PPM R299
 U 1 1 5ED979B2
@@ -1974,9 +1961,6 @@ Wire Wire Line
 	2200 6600 2200 5050
 Wire Wire Line
 	5850 6900 5950 6900
-Connection ~ 6600 6900
-Wire Wire Line
-	6600 6900 6850 6900
 $Comp
 L power:+3V3P #PWR?
 U 1 1 5DDA87F3
@@ -2040,4 +2024,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 7200 7950 7200
 Connection ~ 8400 7200
+Wire Wire Line
+	6400 6900 6850 6900
 $EndSCHEMATC
