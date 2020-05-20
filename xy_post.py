@@ -14,7 +14,7 @@ def xy_main(iname, oname, verbose=False):
         for row in reader:
             if len(row) > 3 and row[0][0] in "123456789":
                 # print(row)
-                partn = row[5]
+                partn = row[6]  # header in _bom_9.csv describes this as "Value"
                 if "SLOT" in partn or "HOLE" in partn:
                     continue
                 order_count += 1
@@ -55,15 +55,23 @@ def xy_main(iname, oname, verbose=False):
             n_bot = p_bot[k] if k in p_bot else 0
             flag = "XX" if n_top > 0 and n_bot > 0 else "  "
             print("%s %3d %3d  %s" % (flag, n_top, n_bot, k))
-        print("Through hole components?")
+        print("Through hole components? (BoM entries not in .pos)")
         for k in sorted(orders):
             if k not in both:
                 print(" %3d  %s" % (orders[k], k))
+        print("Mismatched (.pos not in BoM)")
+        mis = False
+        for k in sorted(both):
+            if k not in orders:
+                print("      %s" % k)
+                mis = True
+        if not mis:
+            print("      (none)")
     # Summary report
-    print("Top    reel count     %d" % len(p_top))
-    print("Bottom reel count     %d" % len(p_bot))
-    print("Total SMD orderables  %d" % len(p_tot))
-    print("Total     orderables  %d" % order_count)
+    print("Top    reel count     %4d" % len(p_top))
+    print("Bottom reel count     %4d" % len(p_bot))
+    print("Total SMD orderables  %4d" % len(p_tot))
+    print("Total     orderables  %4d" % order_count)
     return
 
 
