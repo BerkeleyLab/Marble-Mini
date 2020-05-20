@@ -2912,11 +2912,11 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	-1   0    0    1   
 $EndComp
 $Comp
-L Resistors_SMD:R0201_100R_1%_0.05W_200PPM R59
+L Resistors_SMD:R0201_200R_1%_0.05W_200PPM R59
 U 1 1 5DC80DBA
 P 8300 800
 F 0 "R59" H 8300 850 50  0000 C CNN
-F 1 "R0201_100R_1%_0.05W_200PPM" H 8300 590 60  0001 L CNN
+F 1 "R0201_200R_1%_0.05W_200PPM" H 8300 590 60  0001 L CNN
 F 2 "Marble:RESC0603X28N" H 8300 -220 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 410 60  0001 L CNN
 F 4 "200" H 8650 850 50  0000 C CNN "~"
@@ -2930,7 +2930,7 @@ F 11 "~~" H 8300 -310 60  0001 L CNN "PackageDescription"
 F 12 "2" H 8300 -400 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 8300 -490 60  0001 L CNN "Footprint Path"
 F 14 "RESC0603X28N" H 8300 -580 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 8300 -670 60  0001 L CNN "Val"
+F 15 "200" H 8300 -670 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 8300 -760 60  0001 L CNN "Status"
 F 17 "0.05W" H 8300 -850 60  0001 L CNN "Power"
 F 18 "±200ppm/°C" H 8300 -940 60  0001 L CNN "TC"
@@ -2961,11 +2961,11 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0201_100R_1%_0.05W_200PPM R60
+L Resistors_SMD:R0201_200R_1%_0.05W_200PPM R60
 U 1 1 5DCA56EB
 P 8300 900
 F 0 "R60" H 8300 950 50  0000 C CNN
-F 1 "R0201_100R_1%_0.05W_200PPM" H 8300 690 60  0001 L CNN
+F 1 "R0201_200R_1%_0.05W_200PPM" H 8300 690 60  0001 L CNN
 F 2 "Marble:RESC0603X28N" H 8300 -120 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 510 60  0001 L CNN
 F 4 "200" H 8650 950 50  0000 C CNN "~"
@@ -2979,7 +2979,7 @@ F 11 "~~" H 8300 -210 60  0001 L CNN "PackageDescription"
 F 12 "2" H 8300 -300 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 8300 -390 60  0001 L CNN "Footprint Path"
 F 14 "RESC0603X28N" H 8300 -480 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 8300 -570 60  0001 L CNN "Val"
+F 15 "200" H 8300 -570 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 8300 -660 60  0001 L CNN "Status"
 F 17 "0.05W" H 8300 -750 60  0001 L CNN "Power"
 F 18 "±200ppm/°C" H 8300 -840 60  0001 L CNN "TC"
@@ -3010,11 +3010,11 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0201_100R_1%_0.05W_200PPM R61
+L Resistors_SMD:R0201_200R_1%_0.05W_200PPM R61
 U 1 1 5DCB78D4
 P 8300 1100
 F 0 "R61" H 8300 1150 50  0000 C CNN
-F 1 "R0201_100R_1%_0.05W_200PPM" H 8300 890 60  0001 L CNN
+F 1 "R0201_200R_1%_0.05W_200PPM" H 8300 890 60  0001 L CNN
 F 2 "Marble:RESC0603X28N" H 8300 80  60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 710 60  0001 L CNN
 F 4 "200" H 8650 1150 50  0000 C CNN "~"
@@ -3028,7 +3028,7 @@ F 11 "~~" H 8300 -10 60  0001 L CNN "PackageDescription"
 F 12 "2" H 8300 -100 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 8300 -190 60  0001 L CNN "Footprint Path"
 F 14 "RESC0603X28N" H 8300 -280 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 8300 -370 60  0001 L CNN "Val"
+F 15 "200" H 8300 -370 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 8300 -460 60  0001 L CNN "Status"
 F 17 "0.05W" H 8300 -550 60  0001 L CNN "Power"
 F 18 "±200ppm/°C" H 8300 -640 60  0001 L CNN "TC"
@@ -3059,11 +3059,11 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0201_100R_1%_0.05W_200PPM R169
+L Resistors_SMD:R0201_200R_1%_0.05W_200PPM R169
 U 1 1 5DCC9ABA
 P 8300 1200
 F 0 "R169" H 8300 1250 50  0000 C CNN
-F 1 "R0201_100R_1%_0.05W_200PPM" H 8300 990 60  0001 L CNN
+F 1 "R0201_200R_1%_0.05W_200PPM" H 8300 990 60  0001 L CNN
 F 2 "Marble:RESC0603X28N" H 8300 180 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 810 60  0001 L CNN
 F 4 "200" H 8650 1250 50  0000 C CNN "~"
@@ -3077,7 +3077,7 @@ F 11 "~~" H 8300 90  60  0001 L CNN "PackageDescription"
 F 12 "2" H 8300 0   60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 8300 -90 60  0001 L CNN "Footprint Path"
 F 14 "RESC0603X28N" H 8300 -180 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 8300 -270 60  0001 L CNN "Val"
+F 15 "200" H 8300 -270 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 8300 -360 60  0001 L CNN "Status"
 F 17 "0.05W" H 8300 -450 60  0001 L CNN "Power"
 F 18 "±200ppm/°C" H 8300 -540 60  0001 L CNN "TC"
