@@ -342,7 +342,6 @@ F 22 " " H 9750 3360 60  0001 L CNN "Sense Comment"
 F 23 "Yes" H 9750 3270 60  0001 L CNN "SMD"
 F 24 " " H 9750 3180 60  0001 L CNN "Status Comment"
 F 25 "None" H 9750 3090 60  0001 L CNN "Status"
-F 26 " " H 9750 3000 60  0001 L CNN "SCEM"
 F 27 "19 Contacts, Pitch 0.4mm, Right Angle, Mini  HDMI High Speed I/O Receptacle" H 9750 2910 60  0001 L CNN "Part Description"
 F 28 "SAMTEC" H 9750 2820 60  0001 L CNN "Manufacturer"
 F 29 "MHDMR-19-02-H-TH-L-TR" H 9750 2730 60  0001 L CNN "Manufacturer Part Number"
@@ -852,7 +851,6 @@ F 33 " " H 11350 5440 60  0001 L CNN "ComponentLink2Description"
 F 34 "CERN DEM JLC" H 11350 5350 60  0001 L CNN "Author"
 F 35 "03/26/09 00:00:00" H 11350 5260 60  0001 L CNN "CreateDate"
 F 36 "03/26/09 00:00:00" H 11350 5170 60  0001 L CNN "LatestRevisionDate"
-F 37 " " H 11350 5080 60  0001 L CNN "SCEM"
 F 38 "ICs And Semiconductors SMD" H 11350 4990 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11350 4900 60  0001 L CNN "License"
 	1    11350 9100
@@ -1018,7 +1016,6 @@ F 35 "03/23/09 00:00:00" H 7250 5790 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 7250 5700 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 7250 5610 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7250 5520 60  0001 L CNN "License"
-F 41 " " H 7250 9250 50  0001 C CNN "SCEM"
 	1    7250 9250
 	0    1    1    0   
 $EndComp
@@ -1064,7 +1061,6 @@ F 35 "03/23/09 00:00:00" H 7250 6590 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 7250 6500 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 7250 6410 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7250 6320 60  0001 L CNN "License"
-F 41 " " H 7250 10050 50  0001 C CNN "SCEM"
 	1    7250 10050
 	0    1    1    0   
 $EndComp
@@ -2518,7 +2514,6 @@ F 30 " " H 10950 550 50  0001 L CNN "ComponentLink2Description"
 F 31 " " H 10950 475 50  0001 L CNN "ComponentLink1Description"
 F 32 "07/07/14 00:00:00" H 10950 400 50  0001 L CNN "CreateDate"
 F 33 "07/07/14 00:00:00" H 10950 325 50  0001 L CNN "LatestRevisionDate"
-F 34 " " H 10950 250 50  0001 L CNN "SCEM"
 F 36 "ICs And Semiconductors.DbLib" H 10950 100 50  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10950 -50 50  0001 L CNN "License"
 	1    10950 3600

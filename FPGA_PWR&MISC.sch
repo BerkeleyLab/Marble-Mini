@@ -1443,7 +1443,6 @@ F 21 "No" H 11350 4580 60  0001 L CNN "Sense"
 F 22 " " H 11350 4490 60  0001 L CNN "Sense Comment"
 F 23 "None" H 11350 4400 60  0001 L CNN "Status"
 F 24 " " H 11350 4310 60  0001 L CNN "Status Comment"
-F 25 " " H 11350 4220 60  0001 L CNN "SCEM"
 F 26 "12VDC 50mA SPST Tactile  Push-Button Switch" H 11350 4130 60  0001 L CNN "Part Description"
 F 27 "TYCO ELECTRONICS" H 11350 4040 60  0001 L CNN "Manufacturer"
 F 28 "FSM2JSMA or  2-1437565-7" H 11350 3950 60  0001 L CNN "Manufacturer Part Number"
@@ -1522,7 +1521,6 @@ F 35 "03/23/09 00:00:00" H 15150 1740 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 15150 1650 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 15150 1560 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 15150 1470 60  0001 L CNN "License"
-F 41 " " H 15150 5200 50  0001 C CNN "SCEM"
 	1    15150 5200
 	1    0    0    -1  
 $EndComp

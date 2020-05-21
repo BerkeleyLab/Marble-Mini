@@ -43,7 +43,6 @@ F 22 "No" H 1700 620 60  0001 L CNN "Sense"
 F 23 " " H 1700 530 60  0001 L CNN "Sense Comment"
 F 24 " " H 1700 440 60  0001 L CNN "Status Comment"
 F 25 "Obsolete" H 1700 350 60  0001 L CNN "Status"
-F 26 " " H 1700 260 60  0001 L CNN "SCEM"
 F 27 "Micro-USB 2.0 Right Angle, SMD Type AB - Reverse (Top mount), Shell Through Hole" H 1700 170 60  0001 L CNN "Part Description"
 F 28 "HIROSE (HRS)" H 1700 80  60  0001 L CNN "Manufacturer"
 F 29 "10103594-0001LF" H 1700 -10 60  0001 L CNN "Manufacturer Part Number"
@@ -1456,7 +1455,6 @@ F 33 " " H 3550 -1760 60  0001 L CNN "ComponentLink2Description"
 F 34 "CERN DEM JMW" H 3550 -1850 60  0001 L CNN "Author"
 F 35 "08/29/16 00:00:00" H 3550 -1940 60  0001 L CNN "CreateDate"
 F 36 "08/29/16 00:00:00" H 3550 -2030 60  0001 L CNN "LatestRevisionDate"
-F 37 " " H 3550 -2120 60  0001 L CNN "SCEM"
 F 38 "ICs And Semiconductors SMD" H 3550 -2210 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3550 -2300 60  0001 L CNN "License"
 	1    3550 1800
@@ -3879,7 +3877,6 @@ F 35 "03/23/09 00:00:00" H 11050 2140 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 11050 2050 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 11050 1960 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11050 1870 60  0001 L CNN "License"
-F 41 " " H 11050 5600 50  0001 C CNN "SCEM"
 	1    11050 5600
 	-1   0    0    -1  
 $EndComp
@@ -4784,7 +4781,6 @@ F 35 "03/23/09 00:00:00" H 5850 6440 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 5850 6350 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 5850 6260 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5850 6170 60  0001 L CNN "License"
-F 41 " " H 5850 9900 50  0001 C CNN "SCEM"
 	1    5850 9900
 	-1   0    0    -1  
 $EndComp
@@ -4862,7 +4858,6 @@ F 35 "03/23/09 00:00:00" H 4700 6690 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 4700 6600 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 4700 6510 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4700 6420 60  0001 L CNN "License"
-F 41 " " H 4700 10150 50  0001 C CNN "SCEM"
 	1    4700 10150
 	-1   0    0    -1  
 $EndComp
@@ -4909,7 +4904,6 @@ F 35 "03/23/09 00:00:00" H 4700 7090 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 4700 7000 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 4700 6910 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4700 6820 60  0001 L CNN "License"
-F 41 " " H 4700 10550 50  0001 C CNN "SCEM"
 	1    4700 10550
 	-1   0    0    -1  
 $EndComp

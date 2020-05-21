@@ -3401,7 +3401,6 @@ F 22 "No" H 1250 -630 60  0001 L CNN "Sense"
 F 23 " " H 1250 -720 60  0001 L CNN "Sense Comment"
 F 24 " " H 1250 -810 60  0001 L CNN "Status Comment"
 F 25 "None" H 1250 -900 60  0001 L CNN "Status"
-F 26 " " H 1250 -990 60  0001 L CNN "SCEM"
 F 27 "12V/5A, 2.1mm Diameter Pin, DC Power Socket With  Switch (DC10A Type)" H 1250 -1080 60  0001 L CNN "Part Description"
 F 28 "CLIFF ELECTRONIC COMPONENTS" H 1250 -1170 60  0001 L CNN "Manufacturer"
 F 29 "FC68148 (DC-10A)" H 1250 -1260 60  0001 L CNN "Manufacturer Part Number"
@@ -3456,7 +3455,6 @@ F 35 "03/23/09 00:00:00" H 12150 1590 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 12150 1500 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 12150 1410 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12150 1320 60  0001 L CNN "License"
-F 41 " " H 12150 5050 50  0001 C CNN "SCEM"
 	1    12150 5050
 	1    0    0    -1  
 $EndComp
@@ -3501,7 +3499,6 @@ F 35 "03/23/09 00:00:00" H 12150 -1810 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 12150 -1900 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 12150 -1990 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12150 -2080 60  0001 L CNN "License"
-F 41 " " H 12150 1650 50  0001 C CNN "SCEM"
 	1    12150 1650
 	1    0    0    -1  
 $EndComp
@@ -3956,7 +3953,6 @@ F 33 " " H 3350 -110 60  0001 L CNN "ComponentLink2Description"
 F 34 "CERN DEM JMW" H 3350 -200 60  0001 L CNN "Author"
 F 35 "08/11/15 00:00:00" H 3350 -290 60  0001 L CNN "CreateDate"
 F 36 "08/11/15 00:00:00" H 3350 -380 60  0001 L CNN "LatestRevisionDate"
-F 37 " " H 3350 -470 60  0001 L CNN "SCEM"
 F 38 "ICs And Semiconductors SMD" H 3350 -560 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3350 -650 60  0001 L CNN "License"
 	1    3350 3950
@@ -4714,7 +4710,6 @@ F 35 "09/24/13 00:00:00" H 7600 -2290 60  0001 L CNN "CreateDate"
 F 36 "09/24/13 00:00:00" H 7600 -2380 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 7600 -2470 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7600 -2560 60  0001 L CNN "License"
-F 41 " " H 7600 1850 50  0001 C CNN "SCEM"
 	1    7600 1850
 	1    0    0    -1  
 $EndComp

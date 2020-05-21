@@ -38,7 +38,6 @@ F30 " " 0 -3350 50 H I L CNN "ComponentLink1Description"
 F31 " " 0 -3425 50 H I L CNN "ComponentLink2Description"
 F32 "07/07/14 00:00:00" 0 -3500 50 H I L CNN "CreateDate"
 F33 "03/30/17 00:00:00" 0 -3575 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -3650 50 H I L CNN "SCEM"
 F36 "ICs And Semiconductors SMD" 0 -3800 50 H I L CNN "Library Name"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3950 50 H I L CNN "License"
 DRAW

@@ -5597,7 +5597,6 @@ F 33 " " H 6350 -5160 60  0001 L CNN "ComponentLink2Description"
 F 34 "CERN DEM JLC" H 6350 -5250 60  0001 L CNN "Author"
 F 35 "11/20/14 00:00:00" H 6350 -5340 60  0001 L CNN "CreateDate"
 F 36 "11/20/14 00:00:00" H 6350 -5430 60  0001 L CNN "LatestRevisionDate"
-F 37 " " H 6350 -5520 60  0001 L CNN "SCEM"
 F 38 "ICs And Semiconductors SMD" H 6350 -5610 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6350 -5700 60  0001 L CNN "License"
 	1    6350 1600

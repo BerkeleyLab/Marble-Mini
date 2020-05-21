@@ -134,7 +134,6 @@ F 21 "No" H 4200 1310 60  0001 L CNN "Sense"
 F 22 " " H 4200 1220 60  0001 L CNN "Sense Comment"
 F 23 "None" H 4200 1130 60  0001 L CNN "Status"
 F 24 " " H 4200 1040 60  0001 L CNN "Status Comment"
-F 25 " " H 4200 950 60  0001 L CNN "SCEM"
 F 26 " " H 4200 860 60  0001 L CNN "Device"
 F 27 "2.00mm (.079\") Pitch Milli-Grid™ Header, Vertical, Shrouded, Center Polarization Slot, Locking Window, 14 Circuits" H 4200 770 60  0001 L CNN "Part Description"
 F 28 "MOLEX" H 4200 680 60  0001 L CNN "Manufacturer"
@@ -3191,7 +3190,6 @@ F 35 "03/23/09 00:00:00" H 2000 2190 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 2000 2100 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 2000 2010 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2000 1920 60  0001 L CNN "License"
-F 41 " " H 2000 5650 50  0001 C CNN "SCEM"
 	1    2000 5650
 	-1   0    0    -1  
 $EndComp
@@ -3237,7 +3235,6 @@ F 35 "03/23/09 00:00:00" H 2450 2990 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 2450 2900 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 2450 2810 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2450 2720 60  0001 L CNN "License"
-F 41 " " H 2450 6450 50  0001 C CNN "SCEM"
 	1    2450 6450
 	1    0    0    -1  
 $EndComp
