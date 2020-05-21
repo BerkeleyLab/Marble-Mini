@@ -1454,8 +1454,6 @@ F 38 "09/27/11 00:00:00" H 2800 12000 60  0001 L CNN "LatestRevisionDate"
 F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2800 11910 60  0001 L CNN "PackageDescription"
 F 40 "Eletro-mechanical.DbLib" H 2800 11820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2800 11730 60  0001 L CNN "License"
-F 42 "Pads" H 2800 15500 50  0001 C CNN "Database Table Name"
-F 43 "Pads" H 2800 15500 50  0001 C CNN "Footprint Library"
 F 44 "dnf" H 2800 15500 50  0001 C CNN "config"
 	1    2800 15500
 	1    0    0    -1  
@@ -1503,8 +1501,6 @@ F 38 "09/27/11 00:00:00" H 2950 12000 60  0001 L CNN "LatestRevisionDate"
 F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2950 11910 60  0001 L CNN "PackageDescription"
 F 40 "Eletro-mechanical.DbLib" H 2950 11820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 11730 60  0001 L CNN "License"
-F 42 "Pads" H 2950 15500 50  0001 C CNN "Database Table Name"
-F 43 "Pads" H 2950 15500 50  0001 C CNN "Footprint Library"
 F 44 "dnf" H 2950 15500 50  0001 C CNN "config"
 	1    2950 15500
 	1    0    0    -1  
@@ -1552,8 +1548,6 @@ F 38 "09/27/11 00:00:00" H 3100 12000 60  0001 L CNN "LatestRevisionDate"
 F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3100 11910 60  0001 L CNN "PackageDescription"
 F 40 "Eletro-mechanical.DbLib" H 3100 11820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3100 11730 60  0001 L CNN "License"
-F 42 "Pads" H 3100 15500 50  0001 C CNN "Database Table Name"
-F 43 "Pads" H 3100 15500 50  0001 C CNN "Footprint Library"
 F 44 "dnf" H 3100 15500 50  0001 C CNN "config"
 	1    3100 15500
 	1    0    0    -1  
@@ -1601,8 +1595,6 @@ F 38 "09/27/11 00:00:00" H 3250 12000 60  0001 L CNN "LatestRevisionDate"
 F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3250 11910 60  0001 L CNN "PackageDescription"
 F 40 "Eletro-mechanical.DbLib" H 3250 11820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3250 11730 60  0001 L CNN "License"
-F 42 "Pads" H 3250 15500 50  0001 C CNN "Database Table Name"
-F 43 "Pads" H 3250 15500 50  0001 C CNN "Footprint Library"
 F 44 "dnf" H 3250 15500 50  0001 C CNN "config"
 	1    3250 15500
 	1    0    0    -1  
@@ -1650,8 +1642,6 @@ F 38 "09/27/11 00:00:00" H 2800 11750 60  0001 L CNN "LatestRevisionDate"
 F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2800 11660 60  0001 L CNN "PackageDescription"
 F 40 "Eletro-mechanical.DbLib" H 2800 11570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2800 11480 60  0001 L CNN "License"
-F 42 "Pads" H 2800 15250 50  0001 C CNN "Database Table Name"
-F 43 "Pads" H 2800 15250 50  0001 C CNN "Footprint Library"
 F 44 "dnf" H 2800 15250 50  0001 C CNN "config"
 	1    2800 15250
 	1    0    0    -1  
@@ -1699,8 +1689,6 @@ F 38 "09/27/11 00:00:00" H 2950 11750 60  0001 L CNN "LatestRevisionDate"
 F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2950 11660 60  0001 L CNN "PackageDescription"
 F 40 "Eletro-mechanical.DbLib" H 2950 11570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 11480 60  0001 L CNN "License"
-F 42 "Pads" H 2950 15250 50  0001 C CNN "Database Table Name"
-F 43 "Pads" H 2950 15250 50  0001 C CNN "Footprint Library"
 F 44 "dnf" H 2950 15250 50  0001 C CNN "config"
 	1    2950 15250
 	1    0    0    -1  
@@ -1748,8 +1736,6 @@ F 38 "09/27/11 00:00:00" H 3100 11750 60  0001 L CNN "LatestRevisionDate"
 F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3100 11660 60  0001 L CNN "PackageDescription"
 F 40 "Eletro-mechanical.DbLib" H 3100 11570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3100 11480 60  0001 L CNN "License"
-F 42 "Pads" H 3100 15250 50  0001 C CNN "Database Table Name"
-F 43 "Pads" H 3100 15250 50  0001 C CNN "Footprint Library"
 F 44 "dnf" H 3100 15250 50  0001 C CNN "config"
 	1    3100 15250
 	1    0    0    -1  
@@ -1797,8 +1783,6 @@ F 38 "09/27/11 00:00:00" H 3250 11750 60  0001 L CNN "LatestRevisionDate"
 F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3250 11660 60  0001 L CNN "PackageDescription"
 F 40 "Eletro-mechanical.DbLib" H 3250 11570 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3250 11480 60  0001 L CNN "License"
-F 42 "Pads" H 3250 15250 50  0001 C CNN "Database Table Name"
-F 43 "Pads" H 3250 15250 50  0001 C CNN "Footprint Library"
 F 44 "dnf" H 3250 15250 50  0001 C CNN "config"
 	1    3250 15250
 	1    0    0    -1  

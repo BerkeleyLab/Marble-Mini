@@ -1018,8 +1018,6 @@ F 35 "03/23/09 00:00:00" H 7250 5790 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 7250 5700 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 7250 5610 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7250 5520 60  0001 L CNN "License"
-F 39 "Transistors" H 7250 9250 50  0001 C CNN "Database Table Name"
-F 40 "ICs And Semiconductors SMD" H 7250 9250 50  0001 C CNN "Footprint Library"
 F 41 " " H 7250 9250 50  0001 C CNN "SCEM"
 	1    7250 9250
 	0    1    1    0   
@@ -1066,8 +1064,6 @@ F 35 "03/23/09 00:00:00" H 7250 6590 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 7250 6500 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 7250 6410 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7250 6320 60  0001 L CNN "License"
-F 39 "Transistors" H 7250 10050 50  0001 C CNN "Database Table Name"
-F 40 "ICs And Semiconductors SMD" H 7250 10050 50  0001 C CNN "Footprint Library"
 F 41 " " H 7250 10050 50  0001 C CNN "SCEM"
 	1    7250 10050
 	0    1    1    0   
@@ -1117,8 +1113,6 @@ F 36 "12/16/13 00:00:00" H 10850 5700 60  0001 L CNN "CreateDate"
 F 37 "09/16/14 00:00:00" H 10850 5610 60  0001 L CNN "LatestRevisionDate"
 F 38 "Capacitors SMD" H 10850 5520 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10850 5430 60  0001 L CNN "License"
-F 40 "Capacitors SMD" H 10850 9200 50  0001 C CNN "Database Table Name"
-F 41 "Capacitors SMD" H 10850 9200 50  0001 C CNN "Footprint Library"
 	1    10850 9200
 	0    1    1    0   
 $EndComp
@@ -2525,9 +2519,7 @@ F 31 " " H 10950 475 50  0001 L CNN "ComponentLink1Description"
 F 32 "07/07/14 00:00:00" H 10950 400 50  0001 L CNN "CreateDate"
 F 33 "07/07/14 00:00:00" H 10950 325 50  0001 L CNN "LatestRevisionDate"
 F 34 " " H 10950 250 50  0001 L CNN "SCEM"
-F 35 "Analog & Interface" H 10950 175 50  0001 L CNN "Database Table Name"
 F 36 "ICs And Semiconductors.DbLib" H 10950 100 50  0001 L CNN "Library Name"
-F 37 "ICs And Semiconductors SMD" H 10950 25  50  0001 L CNN "Footprint Library"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10950 -50 50  0001 L CNN "License"
 	1    10950 3600
 	1    0    0    -1  

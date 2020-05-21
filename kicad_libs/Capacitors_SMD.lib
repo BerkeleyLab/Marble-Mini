@@ -41,9 +41,7 @@ F33 " " 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "11/05/14 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 A 320 0 160 1800 1500 0 1 10 N 160 0 181 80
@@ -97,9 +95,7 @@ F33 "0.33mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -151,9 +147,7 @@ F33 "0.33mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "05/27/10 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "05/27/10 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -205,9 +199,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/10/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/10/13 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -259,9 +251,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "04/22/15 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -313,9 +303,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -367,9 +355,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "04/22/15 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -421,9 +407,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -475,9 +459,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "10/25/12 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "10/25/12 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -529,9 +511,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -583,9 +563,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -637,9 +615,7 @@ F33 "0.95mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -691,9 +667,7 @@ F33 "1mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/16/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "09/13/16 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -745,9 +719,7 @@ F33 "0.95mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/16/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "09/16/14 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -799,9 +771,7 @@ F33 "1.35mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "10/25/12 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "10/25/12 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -853,9 +823,7 @@ F33 "1.45mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -907,9 +875,7 @@ F33 "1.4mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "10/16/12 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "10/16/12 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -961,9 +927,7 @@ F33 "1.8mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "04/28/09 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "04/28/09 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -1015,9 +979,7 @@ F33 "1.8mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "11/20/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "03/14/17 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -1069,9 +1031,7 @@ F33 "2.7mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "04/19/10 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "04/19/10 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N

@@ -3456,8 +3456,6 @@ F 35 "03/23/09 00:00:00" H 12150 1590 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 12150 1500 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 12150 1410 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12150 1320 60  0001 L CNN "License"
-F 39 "Transistors" H 12150 5050 50  0001 C CNN "Database Table Name"
-F 40 "ICs And Semiconductors SMD" H 12150 5050 50  0001 C CNN "Footprint Library"
 F 41 " " H 12150 5050 50  0001 C CNN "SCEM"
 	1    12150 5050
 	1    0    0    -1  
@@ -3503,8 +3501,6 @@ F 35 "03/23/09 00:00:00" H 12150 -1810 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 12150 -1900 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 12150 -1990 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12150 -2080 60  0001 L CNN "License"
-F 39 "Transistors" H 12150 1650 50  0001 C CNN "Database Table Name"
-F 40 "ICs And Semiconductors SMD" H 12150 1650 50  0001 C CNN "Footprint Library"
 F 41 " " H 12150 1650 50  0001 C CNN "SCEM"
 	1    12150 1650
 	1    0    0    -1  
@@ -4718,8 +4714,6 @@ F 35 "09/24/13 00:00:00" H 7600 -2290 60  0001 L CNN "CreateDate"
 F 36 "09/24/13 00:00:00" H 7600 -2380 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 7600 -2470 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7600 -2560 60  0001 L CNN "License"
-F 39 "Analog & Interface" H 7600 1850 50  0001 C CNN "Database Table Name"
-F 40 "ICs And Semiconductors SMD" H 7600 1850 50  0001 C CNN "Footprint Library"
 F 41 " " H 7600 1850 50  0001 C CNN "SCEM"
 	1    7600 1850
 	1    0    0    -1  

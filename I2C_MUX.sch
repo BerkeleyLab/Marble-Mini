@@ -453,8 +453,6 @@ F 37 "12/03/07 00:00:00" H 6000 -1390 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -1480 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -1570 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1660 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 2150 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 2150 50  0001 C CNN "Footprint Library"
 	1    6000 2150
 	1    0    0    -1  
 $EndComp
@@ -502,8 +500,6 @@ F 37 "12/03/07 00:00:00" H 6000 -1290 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -1380 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -1470 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1560 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 2250 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 2250 50  0001 C CNN "Footprint Library"
 	1    6000 2250
 	1    0    0    -1  
 $EndComp
@@ -551,8 +547,6 @@ F 37 "12/03/07 00:00:00" H 6000 -1190 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -1280 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -1370 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1460 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 2350 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 2350 50  0001 C CNN "Footprint Library"
 	1    6000 2350
 	1    0    0    -1  
 $EndComp
@@ -600,8 +594,6 @@ F 37 "12/03/07 00:00:00" H 6000 -1090 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -1180 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -1270 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1360 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 2450 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 2450 50  0001 C CNN "Footprint Library"
 	1    6000 2450
 	1    0    0    -1  
 $EndComp
@@ -649,8 +641,6 @@ F 37 "12/03/07 00:00:00" H 6000 -990 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -1080 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -1170 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1260 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 2550 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 2550 50  0001 C CNN "Footprint Library"
 	1    6000 2550
 	1    0    0    -1  
 $EndComp
@@ -698,8 +688,6 @@ F 37 "12/03/07 00:00:00" H 6000 -890 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -980 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -1070 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1160 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 2650 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 2650 50  0001 C CNN "Footprint Library"
 	1    6000 2650
 	1    0    0    -1  
 $EndComp
@@ -747,8 +735,6 @@ F 37 "12/03/07 00:00:00" H 6000 -790 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -880 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -970 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -1060 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 2750 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 2750 50  0001 C CNN "Footprint Library"
 	1    6000 2750
 	1    0    0    -1  
 $EndComp
@@ -796,8 +782,6 @@ F 37 "12/03/07 00:00:00" H 6000 -690 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -780 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -870 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -960 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 2850 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 2850 50  0001 C CNN "Footprint Library"
 	1    6000 2850
 	1    0    0    -1  
 $EndComp
@@ -845,8 +829,6 @@ F 37 "12/03/07 00:00:00" H 6000 -590 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -680 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -770 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -860 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 2950 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 2950 50  0001 C CNN "Footprint Library"
 	1    6000 2950
 	1    0    0    -1  
 $EndComp
@@ -894,8 +876,6 @@ F 37 "12/03/07 00:00:00" H 6000 -490 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -580 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -670 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -760 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 3050 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 3050 50  0001 C CNN "Footprint Library"
 	1    6000 3050
 	1    0    0    -1  
 $EndComp
@@ -943,8 +923,6 @@ F 37 "12/03/07 00:00:00" H 6000 -390 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -480 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -570 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -660 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 3150 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 3150 50  0001 C CNN "Footprint Library"
 	1    6000 3150
 	1    0    0    -1  
 $EndComp
@@ -992,8 +970,6 @@ F 37 "12/03/07 00:00:00" H 6000 -290 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -380 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -470 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -560 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 3250 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 3250 50  0001 C CNN "Footprint Library"
 	1    6000 3250
 	1    0    0    -1  
 $EndComp
@@ -1041,8 +1017,6 @@ F 37 "12/03/07 00:00:00" H 6500 -190 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6500 -280 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6500 -370 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6500 -460 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6500 3350 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6500 3350 50  0001 C CNN "Footprint Library"
 	1    6500 3350
 	1    0    0    -1  
 $EndComp
@@ -1090,8 +1064,6 @@ F 37 "12/03/07 00:00:00" H 6500 -90 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6500 -180 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6500 -270 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6500 -360 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6500 3450 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6500 3450 50  0001 C CNN "Footprint Library"
 	1    6500 3450
 	1    0    0    -1  
 $EndComp
@@ -1139,8 +1111,6 @@ F 37 "12/03/07 00:00:00" H 6000 10  60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 -80 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -170 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -260 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 3550 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 3550 50  0001 C CNN "Footprint Library"
 	1    6000 3550
 	1    0    0    -1  
 $EndComp
@@ -1188,8 +1158,6 @@ F 37 "12/03/07 00:00:00" H 6000 110 60  0001 L CNN "CreateDate"
 F 38 "10/17/12 00:00:00" H 6000 20  60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 6000 -70 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6000 -160 60  0001 L CNN "License"
-F 41 "Resistors SMD" H 6000 3650 50  0001 C CNN "Database Table Name"
-F 42 "Resistors SMD" H 6000 3650 50  0001 C CNN "Footprint Library"
 	1    6000 3650
 	1    0    0    -1  
 $EndComp

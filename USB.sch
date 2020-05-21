@@ -3879,8 +3879,6 @@ F 35 "03/23/09 00:00:00" H 11050 2140 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 11050 2050 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 11050 1960 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11050 1870 60  0001 L CNN "License"
-F 39 "Transistors" H 11050 5600 50  0001 C CNN "Database Table Name"
-F 40 "ICs And Semiconductors SMD" H 11050 5600 50  0001 C CNN "Footprint Library"
 F 41 " " H 11050 5600 50  0001 C CNN "SCEM"
 	1    11050 5600
 	-1   0    0    -1  
@@ -4786,8 +4784,6 @@ F 35 "03/23/09 00:00:00" H 5850 6440 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 5850 6350 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 5850 6260 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5850 6170 60  0001 L CNN "License"
-F 39 "Transistors" H 5850 9900 50  0001 C CNN "Database Table Name"
-F 40 "ICs And Semiconductors SMD" H 5850 9900 50  0001 C CNN "Footprint Library"
 F 41 " " H 5850 9900 50  0001 C CNN "SCEM"
 	1    5850 9900
 	-1   0    0    -1  
@@ -4866,8 +4862,6 @@ F 35 "03/23/09 00:00:00" H 4700 6690 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 4700 6600 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 4700 6510 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4700 6420 60  0001 L CNN "License"
-F 39 "Transistors" H 4700 10150 50  0001 C CNN "Database Table Name"
-F 40 "ICs And Semiconductors SMD" H 4700 10150 50  0001 C CNN "Footprint Library"
 F 41 " " H 4700 10150 50  0001 C CNN "SCEM"
 	1    4700 10150
 	-1   0    0    -1  
@@ -4915,8 +4909,6 @@ F 35 "03/23/09 00:00:00" H 4700 7090 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 4700 7000 60  0001 L CNN "LatestRevisionDate"
 F 37 "ICs And Semiconductors SMD" H 4700 6910 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4700 6820 60  0001 L CNN "License"
-F 39 "Transistors" H 4700 10550 50  0001 C CNN "Database Table Name"
-F 40 "ICs And Semiconductors SMD" H 4700 10550 50  0001 C CNN "Footprint Library"
 F 41 " " H 4700 10550 50  0001 C CNN "SCEM"
 	1    4700 10550
 	-1   0    0    -1  
