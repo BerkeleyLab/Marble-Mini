@@ -1,4 +1,4 @@
-(module "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" (layer F.Cu) (tedit 5C617AF0)
+(module LED_KINGBRIGHT_KPH-1608CGCK (layer F.Cu) (tedit 5EC7B9AF)
   (descr "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm")
   (attr smd)
   (fp_text reference LD10 (at -3.937 0.1524) (layer F.SilkS) hide
@@ -38,9 +38,9 @@
   (fp_line (start -1.475 0.65) (end -1.475 -0.65) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1.475 -0.65) (end 1.475 -0.65) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.475 0.65) (end 1.475 -0.65) (layer F.CrtYd) (width 0.05))
-  (pad 2 smd rect (at -0.825 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask)
+  (pad C smd rect (at -0.825 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.102))
-  (pad 1 smd rect (at 0.825 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask)
+  (pad A smd rect (at 0.825 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.102))
   (model ${CERN}/LED_KINGBRIGHT_KPH-1608CGCK_Part1.stp
     (at (xyz 0 0 0))
