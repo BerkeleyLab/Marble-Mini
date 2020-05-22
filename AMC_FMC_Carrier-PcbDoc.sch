@@ -2353,4 +2353,120 @@ Connection ~ 3250 15500
 Wire Wire Line
 	3400 15500 3600 15500
 Connection ~ 3400 15500
+$Comp
+L Pads:PLATED_HOLE2.7_PAD5.0 B11
+U 1 1 5ECD5570
+P 4000 15250
+F 0 "B11" H 3985 15355 50  0000 C CNN
+F 1 "PLATED_HOLE2.7_PAD5.0" H 4000 15080 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 4000 14270 60  0001 L CNN
+F 3 "" H 4000 14900 60  0001 L CNN
+F 4 "Plated Hole" H 4000 14810 60  0001 L CNN "Pole4"
+F 5 "PLATED_HOLE2.7_PAD5.0" H 4000 14810 60  0001 L CNN "Part Number"
+F 6 "Single Terminal Socket" H 4000 14720 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 4000 14630 60  0001 L CNN "Library Path"
+F 8 " " H 4000 14540 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 4000 14450 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 4000 14360 60  0001 L CNN "Component Type"
+F 11 "1" H 4000 14180 60  0001 L CNN "Pin Count"
+F 12 " " H 4000 14090 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 4000 14000 60  0001 L CNN "Footprint Path"
+F 14 "MTG270_500" H 4000 13910 60  0001 L CNN "Footprint Ref"
+F 15 "Plated Hole" H 4000 13820 60  0001 L CNN "Family"
+F 16 "No" H 4000 13730 60  0001 L CNN "Mounted"
+F 17 "No" H 4000 13640 60  0001 L CNN "Socket"
+F 18 "No" H 4000 13550 60  0001 L CNN "SMD"
+F 19 "No" H 4000 13460 60  0001 L CNN "Sense"
+F 20 " " H 4000 13370 60  0001 L CNN "Sense Comment"
+F 21 "None" H 4000 13280 60  0001 L CNN "Status"
+F 22 " " H 4000 13190 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4000 13010 60  0001 L CNN "Part Description"
+F 24 " " H 4000 12920 60  0001 L CNN "Manufacturer"
+F 25 " " H 4000 12830 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 4000 12740 60  0001 L CNN "ComponentHeight"
+F 27 " " H 4000 12650 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 4000 12560 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 4000 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 4000 12200 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 4000 12020 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 4000 11930 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 4000 11840 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 4000 11750 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4000 11660 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 4000 11570 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4000 11480 60  0001 L CNN "License"
+F 38 "dnf" H 4000 15250 50  0001 C CNN "config"
+	1    4000 15250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pads:PLATED_HOLE2.7_PAD5.0 B12
+U 1 1 5ECD6329
+P 4150 15250
+F 0 "B12" H 4135 15355 50  0000 C CNN
+F 1 "PLATED_HOLE2.7_PAD5.0" H 4150 15080 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 4150 14270 60  0001 L CNN
+F 3 "" H 4150 14900 60  0001 L CNN
+F 4 "Plated Hole" H 4150 14810 60  0001 L CNN "Pole4"
+F 5 "PLATED_HOLE2.7_PAD5.0" H 4150 14810 60  0001 L CNN "Part Number"
+F 6 "Single Terminal Socket" H 4150 14720 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 4150 14630 60  0001 L CNN "Library Path"
+F 8 " " H 4150 14540 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 4150 14450 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 4150 14360 60  0001 L CNN "Component Type"
+F 11 "1" H 4150 14180 60  0001 L CNN "Pin Count"
+F 12 " " H 4150 14090 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 4150 14000 60  0001 L CNN "Footprint Path"
+F 14 "MTG270_500" H 4150 13910 60  0001 L CNN "Footprint Ref"
+F 15 "Plated Hole" H 4150 13820 60  0001 L CNN "Family"
+F 16 "No" H 4150 13730 60  0001 L CNN "Mounted"
+F 17 "No" H 4150 13640 60  0001 L CNN "Socket"
+F 18 "No" H 4150 13550 60  0001 L CNN "SMD"
+F 19 "No" H 4150 13460 60  0001 L CNN "Sense"
+F 20 " " H 4150 13370 60  0001 L CNN "Sense Comment"
+F 21 "None" H 4150 13280 60  0001 L CNN "Status"
+F 22 " " H 4150 13190 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4150 13010 60  0001 L CNN "Part Description"
+F 24 " " H 4150 12920 60  0001 L CNN "Manufacturer"
+F 25 " " H 4150 12830 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 4150 12740 60  0001 L CNN "ComponentHeight"
+F 27 " " H 4150 12650 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 4150 12560 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 4150 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 4150 12200 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 4150 12020 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 4150 11930 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 4150 11840 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 4150 11750 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4150 11660 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 4150 11570 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4150 11480 60  0001 L CNN "License"
+F 38 "dnf" H 4150 15250 50  0001 C CNN "config"
+	1    4150 15250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ECDA445
+P 4350 15250
+AR Path="/5BD32060/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8AFE1/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5ECDA445" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4350 15000 50  0001 C CNN
+F 1 "GND" H 4355 15077 50  0000 C CNN
+F 2 "" H 4350 15250 50  0001 C CNN
+F 3 "" H 4350 15250 50  0001 C CNN
+	1    4350 15250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 15250 4150 15250
+Wire Wire Line
+	4150 15250 4350 15250
+Connection ~ 4150 15250
 $EndSCHEMATC
