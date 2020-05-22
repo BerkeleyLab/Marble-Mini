@@ -4095,6 +4095,7 @@ F 37 "10/17/12 00:00:00" H 7950 4670 60  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 7950 4580 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7950 4490 60  0001 L CNN "License"
 F 40 "dnf" V 8150 8450 50  0000 L CNN "config"
+F 41 "0" H 7950 4400 50  0000 L CNN "Val"
 	1    7950 8300
 	0    1    1    0   
 $EndComp
@@ -5859,6 +5860,7 @@ F 37 "10/17/12 00:00:00" H 7950 6370 60  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 7950 6280 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7950 6190 60  0001 L CNN "License"
 F 40 "dnf" V 8250 10050 50  0000 L CNN "config"
+F 41 "0" H 7950 6100 50  0000 L CNN "Val"
 	1    7950 10000
 	0    1    1    0   
 $EndComp
