@@ -1320,7 +1320,7 @@ F 31 " " H 4500 -2375 50  0001 L CNN "ComponentLink2Description"
 F 32 "CERN DEM JLC" H 4500 -2450 50  0001 L CNN "Author"
 F 33 "02/27/12 00:00:00" H 4500 -2525 50  0001 L CNN "CreateDate"
 F 34 "02/27/12 00:00:00" H 4500 -2600 50  0001 L CNN "LatestRevisionDate"
-F 35 "Connectors.DbLib" H 4500 -2750 50  0001 L CNN "Library Name"
+F 35 "TYCO" H 4500 -2750 50  0001 L CNN "Library Name"
 F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4500 -2900 50  0001 L CNN "License"
 	1    4500 1850
 	1    0    0    -1  
