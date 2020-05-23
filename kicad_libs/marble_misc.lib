@@ -118,8 +118,8 @@ F2 "Marble:AG5300" 1200 -250 50 H I L CNN
 F3 "" 1200 -350 50 H I L CNN
 F4 "Power-over-Ethernet Plus Module" 1200 -450 50 H I L CNN "Description"
 F5 "14" 1200 -550 50 H I L CNN "Height"
-F6 "Silvertel" 1200 -750 50 H I L CNN "Manufacturer_Name"
-F7 "AG5300" 1200 -850 50 H I L CNN "Manufacturer_Part_Number"
+F6 "Silvertel" 1200 -750 50 H I L CNN "Manufacturer"
+F7 "AG5300" 1200 -850 50 H I L CNN "Manufacturer Part Number"
 DRAW
 P 5 0 1 6 250 -250 1150 -250 1150 -850 250 -850 250 -250 f
 X VIN+ 1 50 -350 200 R 50 50 0 0 P
@@ -1508,8 +1508,8 @@ F2 "Marble:HDT0001" 1050 100 50 H I L CNN
 F3 "https://www.ckswitches.com/media/1307/hdt.pdf" 1050 0 50 H I L CNN
 F4 "HDT0001 (Detector Switches)" 1050 -100 50 H I L CNN "Description"
 F5 "3" 1050 -200 50 H I L CNN "Height"
-F6 "C & K COMPONENTS" 1050 -300 50 H I L CNN "Manufacturer_Name"
-F7 "HDT0001" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F6 "C & K COMPONENTS" 1050 -300 50 H I L CNN "Manufacturer"
+F7 "HDT0001" 1050 -400 50 H I L CNN "Manufacturer Part Number"
 F8 "7931598" 1050 -500 50 H I L CNN "RS Part Number"
 F9 "http://uk.rs-online.com/web/p/products/7931598" 1050 -600 50 H I L CNN "RS Price/Stock"
 F10 "70417475" 1050 -700 50 H I L CNN "Allied_Number"
@@ -2773,9 +2773,8 @@ F0 "U" 200 50 50 H V C CNN
 F1 "SN65MLVD2DRBT" 450 -550 50 H V C CNN
 F2 "Marble:SON50P300X300X80-9N-R175X248" 200 -100 50 H I C CNN
 F3 "" 200 -200 50 H I C CNN
-F4 "SN65MLVD2DRBT" 200 -300 50 H V C CNN "Value"
-F5 "TEXAS INSTRUMENTS" 200 -400 50 H V C CNN "Manufacturer"
-F6 "SN65MLVD2DRBT" 200 -500 50 H V C CNN "Manufacturer Part Number"
+F4 "TEXAS INSTRUMENTS" 200 -300 50 H V C CNN "Manufacturer"
+F5 "SN65MLVD2DRBT" 200 -400 50 H V C CNN "Manufacturer Part Number"
 DRAW
 S 200 0 700 -500 0 1 0 f
 X VCC 1 900 -350 200 L 50 50 1 1 I

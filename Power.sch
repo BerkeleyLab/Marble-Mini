@@ -666,9 +666,8 @@ F 2 "Marble:AG5300" H 6700 8400 50  0001 L CNN
 F 3 "https://www.silvertel.com/images/datasheets/Ag5300-datasheet-smallest-30W-Power-Over-Ethernet-Plus-Module-PoEplusPD.pdf" H 6700 8300 50  0001 L CNN
 F 4 "Power-over-Ethernet Plus Module" H 6700 8200 50  0001 L CNN "Description"
 F 5 "14" H 6700 8100 50  0001 L CNN "Height"
-F 6 "Silvertel" H 6700 7900 50  0001 L CNN "Manufacturer_Name"
+F 6 "Silvertel" H 6700 7900 50  0001 L CNN "Manufacturer"
 F 7 "AG5300" H 6700 7800 50  0001 L CNN "Manufacturer Part Number"
-F 8 "AG5300" H 5550 8300 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5550 8300
 	1    0    0    -1  
 $EndComp

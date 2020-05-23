@@ -1195,7 +1195,7 @@ F 2 "Marble:HDT0001" H 4000 9300 50  0001 L CNN
 F 3 "https://www.ckswitches.com/media/1307/hdt.pdf" H 4000 9200 50  0001 L CNN
 F 4 "HDT0001 (Detector Switches)" H 4000 9100 50  0001 L CNN "Description"
 F 5 "3" H 4000 9000 50  0001 L CNN "Height"
-F 6 "C & K COMPONENTS" H 4000 8900 50  0001 L CNN "Manufacturer_Name"
+F 6 "C & K COMPONENTS" H 4000 8900 50  0001 L CNN "Manufacturer"
 F 7 "HDT0001" H 4000 8800 50  0001 L CNN "Manufacturer Part Number"
 F 8 "7931598" H 4000 8700 50  0001 L CNN "RS Part Number"
 F 9 "http://uk.rs-online.com/web/p/products/7931598" H 4000 8600 50  0001 L CNN "RS Price/Stock"
