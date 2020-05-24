@@ -1157,17 +1157,17 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0805_22UF_16V_10%_X5R C?
+L Capacitors_SMD:CC0805_22UF_25V_20%_X5R C?
 U 1 1 5C9B3966
 P 2700 5050
 AR Path="/5BD31F9F/5C9B3966" Ref="C?"  Part="1" 
 AR Path="/5BD31F9A/5C9B3966" Ref="C62"  Part="1" 
 F 0 "C62" V 2804 5160 50  0000 L CNN
-F 1 "CC0805_22UF_16V_10%_X5R" H 2700 4790 60  0001 L CNN
+F 1 "CC0805_22UF_25V_20%_X5R" H 2700 4790 60  0001 L CNN
 F 2 "Marble:CAPC2012X135N" H 2700 3980 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC1206_X7R_KEMET.pdf" H 2700 4610 60  0001 L CNN
 F 4 "22uF" V 2895 5160 50  0000 L CNN "Val"
-F 5 "CC0805_22UF_16V_10%_X5R" H 2700 4520 60  0001 L CNN "Part Number"
+F 5 "CC0805_22UF_25V_20%_X5R" H 2700 4520 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 2700 4430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 2700 4340 60  0001 L CNN "Library Path"
 F 8 "=Value" H 2700 4250 60  0001 L CNN "Comment"
@@ -1179,12 +1179,12 @@ F 13 "CAPC2012X135N" H 2700 3710 60  0001 L CNN "Footprint Ref"
 F 14 " " H 2700 3620 60  0001 L CNN "PackageDescription"
 F 15 "Preferred" H 2700 3440 60  0001 L CNN "Status"
 F 16 " " H 2700 3350 60  0001 L CNN "Status Comment"
-F 17 "16V" H 2700 3260 60  0001 L CNN "Voltage"
+F 17 "25V" H 2700 3260 60  0001 L CNN "Voltage"
 F 18 "X5R" H 2700 3170 60  0001 L CNN "TC"
-F 19 "±10%" H 2700 3080 60  0001 L CNN "Tolerance"
+F 19 "±20%" H 2700 3080 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 2700 2990 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 2700 2900 60  0001 L CNN "Manufacturer"
-F 22 "CC0805_22UF_16V_10%_X5R" H 2700 2810 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0805_22UF_25V_20%_X5R" H 2700 2810 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0805" H 2700 2720 60  0001 L CNN "Case"
 F 24 "Yes" H 2700 2630 60  0001 L CNN "Mounted"
 F 25 "No" H 2700 2540 60  0001 L CNN "Socket"
@@ -1193,12 +1193,12 @@ F 27 " " H 2700 2360 60  0001 L CNN "PressFit"
 F 28 "No" H 2700 2270 60  0001 L CNN "Sense"
 F 29 " " H 2700 2180 60  0001 L CNN "Sense Comment"
 F 30 " " H 2700 2090 60  0001 L CNN "ComponentHeight"
-F 31 "Murata" H 2700 2000 60  0001 L CNN "Manufacturer1 Example"
-F 32 "GRM21BR61C226ME44L" H 2700 1910 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Yageo" H 2700 2000 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CC0805MKX5R8BB226" H 2700 1910 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "1.35mm" H 2700 1820 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 2700 1640 60  0001 L CNN "Author"
 F 35 "10/25/12 00:00:00" H 2700 1550 60  0001 L CNN "CreateDate"
-F 36 "10/25/12 00:00:00" H 2700 1460 60  0001 L CNN "LatestRevisionDate"
+F 36 "05/24/20 00:00:00" H 2700 1460 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 2700 1370 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2700 1280 60  0001 L CNN "License"
 	1    2700 5050

@@ -67,7 +67,7 @@ echo "$f"
 test -r "$f"
 test "$f" = `find "$f" -newer $A.xml`
 echo generated files are OK
-echo starting post-procesing
+echo starting post-processing
 
 # Additional postprocessing
 # input ${A}_bom_9.csv $A-all.pos
