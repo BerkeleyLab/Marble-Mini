@@ -2413,17 +2413,17 @@ F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
+L Capacitors_SMD:CC0402_100NF_25V_10%_X5R C?
 U 1 1 5C79494C
 P 2600 4050
 AR Path="/5C16BF8E/5DB9B7E6/5C79494C" Ref="C?"  Part="1" 
 AR Path="/5C16BF8E/5C79494C" Ref="C130"  Part="1" 
 F 0 "C130" V 2650 4050 50  0000 L CNN
-F 1 "CC0402_100NF_16V_10%_X5R" H 2600 3790 60  0001 L CNN
+F 1 "CC0402_100NF_25V_10%_X5R" H 2600 3790 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 2600 2980 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_MURATA_GRM.pdf" H 2600 3610 60  0001 L CNN
 F 4 "100nF" V 2850 4050 50  0000 L CNN "Val"
-F 5 "CC0402_100NF_16V_10%_X5R" H 2600 3520 60  0001 L CNN "Part Number"
+F 5 "CC0402_100NF_25V_10%_X5R" H 2600 3520 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 2600 3430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 2600 3340 60  0001 L CNN "Library Path"
 F 8 "=Value" H 2600 3250 60  0001 L CNN "Comment"
@@ -2435,12 +2435,12 @@ F 13 "CAPC1005X55N" H 2600 2710 60  0001 L CNN "Footprint Ref"
 F 14 " " H 2600 2620 60  0001 L CNN "PackageDescription"
 F 15 "None" H 2600 2440 60  0001 L CNN "Status"
 F 16 " " H 2600 2350 60  0001 L CNN "Status Comment"
-F 17 "16V" H 2600 2260 60  0001 L CNN "Voltage"
+F 17 "25V" H 2600 2260 60  0001 L CNN "Voltage"
 F 18 "X5R" H 2600 2170 60  0001 L CNN "TC"
 F 19 "±10%" H 2600 2080 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 2600 1990 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 2600 1900 60  0001 L CNN "Manufacturer"
-F 22 "CC0402_100NF_16V_10%_X5R" H 2600 1810 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0402_100NF_25V_10%_X5R" H 2600 1810 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 2600 1720 60  0001 L CNN "Case"
 F 24 "Yes" H 2600 1630 60  0001 L CNN "Mounted"
 F 25 "No" H 2600 1540 60  0001 L CNN "Socket"
@@ -2449,8 +2449,8 @@ F 27 " " H 2600 1360 60  0001 L CNN "PressFit"
 F 28 "No" H 2600 1270 60  0001 L CNN "Sense"
 F 29 " " H 2600 1180 60  0001 L CNN "Sense Comment"
 F 30 " " H 2600 1090 60  0001 L CNN "ComponentHeight"
-F 31 "MURATA" H 2600 1000 60  0001 L CNN "Manufacturer1 Example"
-F 32 "GRM155R61C104KA88D" H 2600 910 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 2600 1000 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL05A104KA5NNNC" H 2600 910 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.55mm" H 2600 820 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 2600 640 60  0001 L CNN "Author"
 F 35 "12/10/13 00:00:00" H 2600 550 60  0001 L CNN "CreateDate"
@@ -2564,17 +2564,17 @@ Connection ~ 4850 4050
 Wire Wire Line
 	4850 4050 5200 4050
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
+L Capacitors_SMD:CC0402_100NF_25V_10%_X5R C?
 U 1 1 5C80ED53
 P 4400 1850
 AR Path="/5C16BF8E/5DB9B7E6/5C80ED53" Ref="C?"  Part="1" 
 AR Path="/5C16BF8E/5C80ED53" Ref="C131"  Part="1" 
 F 0 "C131" V 4450 1850 50  0000 L CNN
-F 1 "CC0402_100NF_16V_10%_X5R" H 4400 1590 60  0001 L CNN
+F 1 "CC0402_100NF_25V_10%_X5R" H 4400 1590 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 4400 780 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_MURATA_GRM.pdf" H 4400 1410 60  0001 L CNN
 F 4 "100nF" V 4650 1850 50  0000 L CNN "Val"
-F 5 "CC0402_100NF_16V_10%_X5R" H 4400 1320 60  0001 L CNN "Part Number"
+F 5 "CC0402_100NF_25V_10%_X5R" H 4400 1320 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 4400 1230 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 4400 1140 60  0001 L CNN "Library Path"
 F 8 "=Value" H 4400 1050 60  0001 L CNN "Comment"
@@ -2586,12 +2586,12 @@ F 13 "CAPC1005X55N" H 4400 510 60  0001 L CNN "Footprint Ref"
 F 14 " " H 4400 420 60  0001 L CNN "PackageDescription"
 F 15 "None" H 4400 240 60  0001 L CNN "Status"
 F 16 " " H 4400 150 60  0001 L CNN "Status Comment"
-F 17 "16V" H 4400 60  60  0001 L CNN "Voltage"
+F 17 "25V" H 4400 60  60  0001 L CNN "Voltage"
 F 18 "X5R" H 4400 -30 60  0001 L CNN "TC"
 F 19 "±10%" H 4400 -120 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 4400 -210 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 4400 -300 60  0001 L CNN "Manufacturer"
-F 22 "CC0402_100NF_16V_10%_X5R" H 4400 -390 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0402_100NF_25V_10%_X5R" H 4400 -390 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 4400 -480 60  0001 L CNN "Case"
 F 24 "Yes" H 4400 -570 60  0001 L CNN "Mounted"
 F 25 "No" H 4400 -660 60  0001 L CNN "Socket"
@@ -2600,8 +2600,8 @@ F 27 " " H 4400 -840 60  0001 L CNN "PressFit"
 F 28 "No" H 4400 -930 60  0001 L CNN "Sense"
 F 29 " " H 4400 -1020 60  0001 L CNN "Sense Comment"
 F 30 " " H 4400 -1110 60  0001 L CNN "ComponentHeight"
-F 31 "MURATA" H 4400 -1200 60  0001 L CNN "Manufacturer1 Example"
-F 32 "GRM155R61C104KA88D" H 4400 -1290 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 4400 -1200 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL05A104KA5NNNC" H 4400 -1290 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.55mm" H 4400 -1380 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 4400 -1560 60  0001 L CNN "Author"
 F 35 "12/10/13 00:00:00" H 4400 -1650 60  0001 L CNN "CreateDate"
@@ -2612,17 +2612,17 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
+L Capacitors_SMD:CC0402_100NF_25V_10%_X5R C?
 U 1 1 5C81E3E8
 P 2200 1850
 AR Path="/5C16BF8E/5DB9B7E6/5C81E3E8" Ref="C?"  Part="1" 
 AR Path="/5C16BF8E/5C81E3E8" Ref="C128"  Part="1" 
 F 0 "C128" V 2250 1850 50  0000 L CNN
-F 1 "CC0402_100NF_16V_10%_X5R" H 2200 1590 60  0001 L CNN
+F 1 "CC0402_100NF_25V_10%_X5R" H 2200 1590 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 2200 780 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_MURATA_GRM.pdf" H 2200 1410 60  0001 L CNN
 F 4 "100nF" V 2450 1850 50  0000 L CNN "Val"
-F 5 "CC0402_100NF_16V_10%_X5R" H 2200 1320 60  0001 L CNN "Part Number"
+F 5 "CC0402_100NF_25V_10%_X5R" H 2200 1320 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 2200 1230 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 2200 1140 60  0001 L CNN "Library Path"
 F 8 "=Value" H 2200 1050 60  0001 L CNN "Comment"
@@ -2634,12 +2634,12 @@ F 13 "CAPC1005X55N" H 2200 510 60  0001 L CNN "Footprint Ref"
 F 14 " " H 2200 420 60  0001 L CNN "PackageDescription"
 F 15 "None" H 2200 240 60  0001 L CNN "Status"
 F 16 " " H 2200 150 60  0001 L CNN "Status Comment"
-F 17 "16V" H 2200 60  60  0001 L CNN "Voltage"
+F 17 "25V" H 2200 60  60  0001 L CNN "Voltage"
 F 18 "X5R" H 2200 -30 60  0001 L CNN "TC"
 F 19 "±10%" H 2200 -120 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 2200 -210 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 2200 -300 60  0001 L CNN "Manufacturer"
-F 22 "CC0402_100NF_16V_10%_X5R" H 2200 -390 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0402_100NF_25V_10%_X5R" H 2200 -390 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 2200 -480 60  0001 L CNN "Case"
 F 24 "Yes" H 2200 -570 60  0001 L CNN "Mounted"
 F 25 "No" H 2200 -660 60  0001 L CNN "Socket"
@@ -2648,8 +2648,8 @@ F 27 " " H 2200 -840 60  0001 L CNN "PressFit"
 F 28 "No" H 2200 -930 60  0001 L CNN "Sense"
 F 29 " " H 2200 -1020 60  0001 L CNN "Sense Comment"
 F 30 " " H 2200 -1110 60  0001 L CNN "ComponentHeight"
-F 31 "MURATA" H 2200 -1200 60  0001 L CNN "Manufacturer1 Example"
-F 32 "GRM155R61C104KA88D" H 2200 -1290 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 2200 -1200 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL05A104KA5NNNC" H 2200 -1290 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.55mm" H 2200 -1380 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 2200 -1560 60  0001 L CNN "Author"
 F 35 "12/10/13 00:00:00" H 2200 -1650 60  0001 L CNN "CreateDate"
@@ -2974,17 +2974,17 @@ F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
+L Capacitors_SMD:CC0402_100NF_25V_10%_X5R C?
 U 1 1 5C9C1496
 P 13100 1050
 AR Path="/5C16BF8E/5DB9B7E6/5C9C1496" Ref="C?"  Part="1" 
 AR Path="/5C16BF8E/5C9C1496" Ref="C134"  Part="1" 
 F 0 "C134" V 13150 1050 50  0000 L CNN
-F 1 "CC0402_100NF_16V_10%_X5R" H 13100 790 60  0001 L CNN
+F 1 "CC0402_100NF_25V_10%_X5R" H 13100 790 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 13100 -20 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_MURATA_GRM.pdf" H 13100 610 60  0001 L CNN
 F 4 "100nF" V 13350 1050 50  0000 L CNN "Val"
-F 5 "CC0402_100NF_16V_10%_X5R" H 13100 520 60  0001 L CNN "Part Number"
+F 5 "CC0402_100NF_25V_10%_X5R" H 13100 520 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 13100 430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 13100 340 60  0001 L CNN "Library Path"
 F 8 "=Value" H 13100 250 60  0001 L CNN "Comment"
@@ -2996,12 +2996,12 @@ F 13 "CAPC1005X55N" H 13100 -290 60  0001 L CNN "Footprint Ref"
 F 14 " " H 13100 -380 60  0001 L CNN "PackageDescription"
 F 15 "None" H 13100 -560 60  0001 L CNN "Status"
 F 16 " " H 13100 -650 60  0001 L CNN "Status Comment"
-F 17 "16V" H 13100 -740 60  0001 L CNN "Voltage"
+F 17 "25V" H 13100 -740 60  0001 L CNN "Voltage"
 F 18 "X5R" H 13100 -830 60  0001 L CNN "TC"
 F 19 "±10%" H 13100 -920 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 13100 -1010 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 13100 -1100 60  0001 L CNN "Manufacturer"
-F 22 "CC0402_100NF_16V_10%_X5R" H 13100 -1190 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0402_100NF_25V_10%_X5R" H 13100 -1190 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 13100 -1280 60  0001 L CNN "Case"
 F 24 "Yes" H 13100 -1370 60  0001 L CNN "Mounted"
 F 25 "No" H 13100 -1460 60  0001 L CNN "Socket"
@@ -3010,8 +3010,8 @@ F 27 " " H 13100 -1640 60  0001 L CNN "PressFit"
 F 28 "No" H 13100 -1730 60  0001 L CNN "Sense"
 F 29 " " H 13100 -1820 60  0001 L CNN "Sense Comment"
 F 30 " " H 13100 -1910 60  0001 L CNN "ComponentHeight"
-F 31 "MURATA" H 13100 -2000 60  0001 L CNN "Manufacturer1 Example"
-F 32 "GRM155R61C104KA88D" H 13100 -2090 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 13100 -2000 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL05A104KA5NNNC" H 13100 -2090 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.55mm" H 13100 -2180 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 13100 -2360 60  0001 L CNN "Author"
 F 35 "12/10/13 00:00:00" H 13100 -2450 60  0001 L CNN "CreateDate"
@@ -3022,17 +3022,17 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
+L Capacitors_SMD:CC0402_100NF_25V_10%_X5R C?
 U 1 1 5C9EFEB4
 P 13100 4450
 AR Path="/5C16BF8E/5DB9B7E6/5C9EFEB4" Ref="C?"  Part="1" 
 AR Path="/5C16BF8E/5C9EFEB4" Ref="C135"  Part="1" 
 F 0 "C135" V 13150 4450 50  0000 L CNN
-F 1 "CC0402_100NF_16V_10%_X5R" H 13100 4190 60  0001 L CNN
+F 1 "CC0402_100NF_25V_10%_X5R" H 13100 4190 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 13100 3380 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_MURATA_GRM.pdf" H 13100 4010 60  0001 L CNN
 F 4 "100nF" V 13350 4450 50  0000 L CNN "Val"
-F 5 "CC0402_100NF_16V_10%_X5R" H 13100 3920 60  0001 L CNN "Part Number"
+F 5 "CC0402_100NF_25V_10%_X5R" H 13100 3920 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 13100 3830 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 13100 3740 60  0001 L CNN "Library Path"
 F 8 "=Value" H 13100 3650 60  0001 L CNN "Comment"
@@ -3044,12 +3044,12 @@ F 13 "CAPC1005X55N" H 13100 3110 60  0001 L CNN "Footprint Ref"
 F 14 " " H 13100 3020 60  0001 L CNN "PackageDescription"
 F 15 "None" H 13100 2840 60  0001 L CNN "Status"
 F 16 " " H 13100 2750 60  0001 L CNN "Status Comment"
-F 17 "16V" H 13100 2660 60  0001 L CNN "Voltage"
+F 17 "25V" H 13100 2660 60  0001 L CNN "Voltage"
 F 18 "X5R" H 13100 2570 60  0001 L CNN "TC"
 F 19 "±10%" H 13100 2480 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 13100 2390 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 13100 2300 60  0001 L CNN "Manufacturer"
-F 22 "CC0402_100NF_16V_10%_X5R" H 13100 2210 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0402_100NF_25V_10%_X5R" H 13100 2210 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 13100 2120 60  0001 L CNN "Case"
 F 24 "Yes" H 13100 2030 60  0001 L CNN "Mounted"
 F 25 "No" H 13100 1940 60  0001 L CNN "Socket"
@@ -3058,8 +3058,8 @@ F 27 " " H 13100 1760 60  0001 L CNN "PressFit"
 F 28 "No" H 13100 1670 60  0001 L CNN "Sense"
 F 29 " " H 13100 1580 60  0001 L CNN "Sense Comment"
 F 30 " " H 13100 1490 60  0001 L CNN "ComponentHeight"
-F 31 "MURATA" H 13100 1400 60  0001 L CNN "Manufacturer1 Example"
-F 32 "GRM155R61C104KA88D" H 13100 1310 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 13100 1400 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL05A104KA5NNNC" H 13100 1310 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.55mm" H 13100 1220 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 13100 1040 60  0001 L CNN "Author"
 F 35 "12/10/13 00:00:00" H 13100 950 60  0001 L CNN "CreateDate"
@@ -4213,17 +4213,17 @@ F 34 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 NoConn ~ 1450 1950
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
+L Capacitors_SMD:CC0402_100NF_25V_10%_X5R C?
 U 1 1 5CDE0828
 P 5650 2350
 AR Path="/5C16BF8E/5DB9B7E6/5CDE0828" Ref="C?"  Part="1" 
 AR Path="/5C16BF8E/5CDE0828" Ref="C357"  Part="1" 
 F 0 "C357" V 5700 2350 50  0000 L CNN
-F 1 "CC0402_100NF_16V_10%_X5R" H 5650 2090 60  0001 L CNN
+F 1 "CC0402_100NF_25V_10%_X5R" H 5650 2090 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 5650 1280 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_MURATA_GRM.pdf" H 5650 1910 60  0001 L CNN
 F 4 "100nF" V 5900 2350 50  0000 L CNN "Val"
-F 5 "CC0402_100NF_16V_10%_X5R" H 5650 1820 60  0001 L CNN "Part Number"
+F 5 "CC0402_100NF_25V_10%_X5R" H 5650 1820 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 5650 1730 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 5650 1640 60  0001 L CNN "Library Path"
 F 8 "=Value" H 5650 1550 60  0001 L CNN "Comment"
@@ -4235,12 +4235,12 @@ F 13 "CAPC1005X55N" H 5650 1010 60  0001 L CNN "Footprint Ref"
 F 14 " " H 5650 920 60  0001 L CNN "PackageDescription"
 F 15 "None" H 5650 740 60  0001 L CNN "Status"
 F 16 " " H 5650 650 60  0001 L CNN "Status Comment"
-F 17 "16V" H 5650 560 60  0001 L CNN "Voltage"
+F 17 "25V" H 5650 560 60  0001 L CNN "Voltage"
 F 18 "X5R" H 5650 470 60  0001 L CNN "TC"
 F 19 "±10%" H 5650 380 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 5650 290 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 5650 200 60  0001 L CNN "Manufacturer"
-F 22 "CC0402_100NF_16V_10%_X5R" H 5650 110 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0402_100NF_25V_10%_X5R" H 5650 110 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 5650 20  60  0001 L CNN "Case"
 F 24 "Yes" H 5650 -70 60  0001 L CNN "Mounted"
 F 25 "No" H 5650 -160 60  0001 L CNN "Socket"
@@ -4249,8 +4249,8 @@ F 27 " " H 5650 -340 60  0001 L CNN "PressFit"
 F 28 "No" H 5650 -430 60  0001 L CNN "Sense"
 F 29 " " H 5650 -520 60  0001 L CNN "Sense Comment"
 F 30 " " H 5650 -610 60  0001 L CNN "ComponentHeight"
-F 31 "MURATA" H 5650 -700 60  0001 L CNN "Manufacturer1 Example"
-F 32 "GRM155R61C104KA88D" H 5650 -790 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 5650 -700 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL05A104KA5NNNC" H 5650 -790 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.55mm" H 5650 -880 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 5650 -1060 60  0001 L CNN "Author"
 F 35 "12/10/13 00:00:00" H 5650 -1150 60  0001 L CNN "CreateDate"
