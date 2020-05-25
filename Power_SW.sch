@@ -2201,15 +2201,15 @@ Connection ~ 13550 2350
 Wire Wire Line
 	13550 2350 13900 2350
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C159
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C159
 U 1 1 5D461ED4
 P 12650 1600
 F 0 "C159" V 12700 1600 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 12650 1340 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 12650 1340 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 12650 530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 12650 1160 60  0001 L CNN
 F 4 "4.7uF" V 12900 1600 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 12650 1070 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 12650 1070 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 12650 980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 12650 890 60  0001 L CNN "Library Path"
 F 8 "=Value" H 12650 800 60  0001 L CNN "Comment"
@@ -2221,12 +2221,12 @@ F 13 "CAPC1709X95N" H 12650 260 60  0001 L CNN "Footprint Ref"
 F 14 " " H 12650 170 60  0001 L CNN "PackageDescription"
 F 15 "None" H 12650 -10 60  0001 L CNN "Status"
 F 16 " " H 12650 -100 60  0001 L CNN "Status Comment"
-F 17 "16V" H 12650 -190 60  0001 L CNN "Voltage"
+F 17 "25V" H 12650 -190 60  0001 L CNN "Voltage"
 F 18 "X5R" H 12650 -280 60  0001 L CNN "TC"
 F 19 "±10%" H 12650 -370 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 12650 -460 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 12650 -550 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 12650 -640 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 12650 -640 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 12650 -730 60  0001 L CNN "Case"
 F 24 "Yes" H 12650 -820 60  0001 L CNN "Mounted"
 F 25 "No" H 12650 -910 60  0001 L CNN "Socket"
@@ -2235,8 +2235,8 @@ F 27 " " H 12650 -1090 60  0001 L CNN "PressFit"
 F 28 "No" H 12650 -1180 60  0001 L CNN "Sense"
 F 29 " " H 12650 -1270 60  0001 L CNN "Sense Comment"
 F 30 " " H 12650 -1360 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 12650 -1450 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 12650 -1540 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 12650 -1450 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 12650 -1540 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 12650 -1630 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 12650 -1810 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 12650 -1900 60  0001 L CNN "CreateDate"
@@ -2247,15 +2247,15 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C161
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C161
 U 1 1 5D4B3A9B
 P 12650 3400
 F 0 "C161" V 12700 3400 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 12650 3140 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 12650 3140 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 12650 2330 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 12650 2960 60  0001 L CNN
 F 4 "4.7uF" V 12900 3400 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 12650 2870 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 12650 2870 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 12650 2780 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 12650 2690 60  0001 L CNN "Library Path"
 F 8 "=Value" H 12650 2600 60  0001 L CNN "Comment"
@@ -2267,12 +2267,12 @@ F 13 "CAPC1709X95N" H 12650 2060 60  0001 L CNN "Footprint Ref"
 F 14 " " H 12650 1970 60  0001 L CNN "PackageDescription"
 F 15 "None" H 12650 1790 60  0001 L CNN "Status"
 F 16 " " H 12650 1700 60  0001 L CNN "Status Comment"
-F 17 "16V" H 12650 1610 60  0001 L CNN "Voltage"
+F 17 "25V" H 12650 1610 60  0001 L CNN "Voltage"
 F 18 "X5R" H 12650 1520 60  0001 L CNN "TC"
 F 19 "±10%" H 12650 1430 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 12650 1340 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 12650 1250 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 12650 1160 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 12650 1160 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 12650 1070 60  0001 L CNN "Case"
 F 24 "Yes" H 12650 980 60  0001 L CNN "Mounted"
 F 25 "No" H 12650 890 60  0001 L CNN "Socket"
@@ -2281,8 +2281,8 @@ F 27 " " H 12650 710 60  0001 L CNN "PressFit"
 F 28 "No" H 12650 620 60  0001 L CNN "Sense"
 F 29 " " H 12650 530 60  0001 L CNN "Sense Comment"
 F 30 " " H 12650 440 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 12650 350 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 12650 260 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 12650 350 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 12650 260 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 12650 170 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 12650 -10 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 12650 -100 60  0001 L CNN "CreateDate"
@@ -2293,15 +2293,15 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C347
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C347
 U 1 1 5D4C7FD6
 P 13550 4150
 F 0 "C347" V 13600 4150 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 13550 3890 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 13550 3890 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 13550 3080 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 13550 3710 60  0001 L CNN
 F 4 "4.7uF" V 13800 4150 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 13550 3620 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 13550 3620 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 13550 3530 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 13550 3440 60  0001 L CNN "Library Path"
 F 8 "=Value" H 13550 3350 60  0001 L CNN "Comment"
@@ -2313,12 +2313,12 @@ F 13 "CAPC1709X95N" H 13550 2810 60  0001 L CNN "Footprint Ref"
 F 14 " " H 13550 2720 60  0001 L CNN "PackageDescription"
 F 15 "None" H 13550 2540 60  0001 L CNN "Status"
 F 16 " " H 13550 2450 60  0001 L CNN "Status Comment"
-F 17 "16V" H 13550 2360 60  0001 L CNN "Voltage"
+F 17 "25V" H 13550 2360 60  0001 L CNN "Voltage"
 F 18 "X5R" H 13550 2270 60  0001 L CNN "TC"
 F 19 "±10%" H 13550 2180 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 13550 2090 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 13550 2000 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 13550 1910 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 13550 1910 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 13550 1820 60  0001 L CNN "Case"
 F 24 "Yes" H 13550 1730 60  0001 L CNN "Mounted"
 F 25 "No" H 13550 1640 60  0001 L CNN "Socket"
@@ -2327,8 +2327,8 @@ F 27 " " H 13550 1460 60  0001 L CNN "PressFit"
 F 28 "No" H 13550 1370 60  0001 L CNN "Sense"
 F 29 " " H 13550 1280 60  0001 L CNN "Sense Comment"
 F 30 " " H 13550 1190 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 13550 1100 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 13550 1010 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 13550 1100 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 13550 1010 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 13550 920 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 13550 740 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 13550 650 60  0001 L CNN "CreateDate"
@@ -2339,15 +2339,15 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C195
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C195
 U 1 1 5D4DC83C
 P 12650 5200
 F 0 "C195" V 12700 5200 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 12650 4940 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 12650 4940 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 12650 4130 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 12650 4760 60  0001 L CNN
 F 4 "4.7uF" V 12900 5200 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 12650 4670 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 12650 4670 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 12650 4580 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 12650 4490 60  0001 L CNN "Library Path"
 F 8 "=Value" H 12650 4400 60  0001 L CNN "Comment"
@@ -2359,12 +2359,12 @@ F 13 "CAPC1709X95N" H 12650 3860 60  0001 L CNN "Footprint Ref"
 F 14 " " H 12650 3770 60  0001 L CNN "PackageDescription"
 F 15 "None" H 12650 3590 60  0001 L CNN "Status"
 F 16 " " H 12650 3500 60  0001 L CNN "Status Comment"
-F 17 "16V" H 12650 3410 60  0001 L CNN "Voltage"
+F 17 "25V" H 12650 3410 60  0001 L CNN "Voltage"
 F 18 "X5R" H 12650 3320 60  0001 L CNN "TC"
 F 19 "±10%" H 12650 3230 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 12650 3140 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 12650 3050 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 12650 2960 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 12650 2960 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 12650 2870 60  0001 L CNN "Case"
 F 24 "Yes" H 12650 2780 60  0001 L CNN "Mounted"
 F 25 "No" H 12650 2690 60  0001 L CNN "Socket"
@@ -2373,8 +2373,8 @@ F 27 " " H 12650 2510 60  0001 L CNN "PressFit"
 F 28 "No" H 12650 2420 60  0001 L CNN "Sense"
 F 29 " " H 12650 2330 60  0001 L CNN "Sense Comment"
 F 30 " " H 12650 2240 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 12650 2150 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 12650 2060 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 12650 2150 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 12650 2060 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 12650 1970 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 12650 1790 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 12650 1700 60  0001 L CNN "CreateDate"
@@ -2385,15 +2385,15 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C348
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C348
 U 1 1 5D4F0D75
 P 13550 5950
 F 0 "C348" V 13600 5950 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 13550 5690 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 13550 5690 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 13550 4880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 13550 5510 60  0001 L CNN
 F 4 "4.7uF" V 13800 5950 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 13550 5420 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 13550 5420 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 13550 5330 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 13550 5240 60  0001 L CNN "Library Path"
 F 8 "=Value" H 13550 5150 60  0001 L CNN "Comment"
@@ -2405,12 +2405,12 @@ F 13 "CAPC1709X95N" H 13550 4610 60  0001 L CNN "Footprint Ref"
 F 14 " " H 13550 4520 60  0001 L CNN "PackageDescription"
 F 15 "None" H 13550 4340 60  0001 L CNN "Status"
 F 16 " " H 13550 4250 60  0001 L CNN "Status Comment"
-F 17 "16V" H 13550 4160 60  0001 L CNN "Voltage"
+F 17 "25V" H 13550 4160 60  0001 L CNN "Voltage"
 F 18 "X5R" H 13550 4070 60  0001 L CNN "TC"
 F 19 "±10%" H 13550 3980 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 13550 3890 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 13550 3800 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 13550 3710 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 13550 3710 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 13550 3620 60  0001 L CNN "Case"
 F 24 "Yes" H 13550 3530 60  0001 L CNN "Mounted"
 F 25 "No" H 13550 3440 60  0001 L CNN "Socket"
@@ -2419,8 +2419,8 @@ F 27 " " H 13550 3260 60  0001 L CNN "PressFit"
 F 28 "No" H 13550 3170 60  0001 L CNN "Sense"
 F 29 " " H 13550 3080 60  0001 L CNN "Sense Comment"
 F 30 " " H 13550 2990 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 13550 2900 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 13550 2810 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 13550 2900 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 13550 2810 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 13550 2720 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 13550 2540 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 13550 2450 60  0001 L CNN "CreateDate"
@@ -2431,15 +2431,15 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C331
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C331
 U 1 1 5D50542F
 P 12650 7000
 F 0 "C331" V 12700 7000 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 12650 6740 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 12650 6740 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 12650 5930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 12650 6560 60  0001 L CNN
 F 4 "4.7uF" V 12900 7000 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 12650 6470 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 12650 6470 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 12650 6380 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 12650 6290 60  0001 L CNN "Library Path"
 F 8 "=Value" H 12650 6200 60  0001 L CNN "Comment"
@@ -2451,12 +2451,12 @@ F 13 "CAPC1709X95N" H 12650 5660 60  0001 L CNN "Footprint Ref"
 F 14 " " H 12650 5570 60  0001 L CNN "PackageDescription"
 F 15 "None" H 12650 5390 60  0001 L CNN "Status"
 F 16 " " H 12650 5300 60  0001 L CNN "Status Comment"
-F 17 "16V" H 12650 5210 60  0001 L CNN "Voltage"
+F 17 "25V" H 12650 5210 60  0001 L CNN "Voltage"
 F 18 "X5R" H 12650 5120 60  0001 L CNN "TC"
 F 19 "±10%" H 12650 5030 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 12650 4940 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 12650 4850 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 12650 4760 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 12650 4760 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 12650 4670 60  0001 L CNN "Case"
 F 24 "Yes" H 12650 4580 60  0001 L CNN "Mounted"
 F 25 "No" H 12650 4490 60  0001 L CNN "Socket"
@@ -2465,8 +2465,8 @@ F 27 " " H 12650 4310 60  0001 L CNN "PressFit"
 F 28 "No" H 12650 4220 60  0001 L CNN "Sense"
 F 29 " " H 12650 4130 60  0001 L CNN "Sense Comment"
 F 30 " " H 12650 4040 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 12650 3950 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 12650 3860 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 12650 3950 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 12650 3860 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 12650 3770 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 12650 3590 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 12650 3500 60  0001 L CNN "CreateDate"
@@ -2477,15 +2477,15 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C349
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C349
 U 1 1 5D519966
 P 13550 7750
 F 0 "C349" V 13600 7750 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 13550 7490 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 13550 7490 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 13550 6680 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 13550 7310 60  0001 L CNN
 F 4 "4.7uF" V 13800 7750 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 13550 7220 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 13550 7220 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 13550 7130 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 13550 7040 60  0001 L CNN "Library Path"
 F 8 "=Value" H 13550 6950 60  0001 L CNN "Comment"
@@ -2497,12 +2497,12 @@ F 13 "CAPC1709X95N" H 13550 6410 60  0001 L CNN "Footprint Ref"
 F 14 " " H 13550 6320 60  0001 L CNN "PackageDescription"
 F 15 "None" H 13550 6140 60  0001 L CNN "Status"
 F 16 " " H 13550 6050 60  0001 L CNN "Status Comment"
-F 17 "16V" H 13550 5960 60  0001 L CNN "Voltage"
+F 17 "25V" H 13550 5960 60  0001 L CNN "Voltage"
 F 18 "X5R" H 13550 5870 60  0001 L CNN "TC"
 F 19 "±10%" H 13550 5780 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 13550 5690 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 13550 5600 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 13550 5510 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 13550 5510 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 13550 5420 60  0001 L CNN "Case"
 F 24 "Yes" H 13550 5330 60  0001 L CNN "Mounted"
 F 25 "No" H 13550 5240 60  0001 L CNN "Socket"
@@ -2511,8 +2511,8 @@ F 27 " " H 13550 5060 60  0001 L CNN "PressFit"
 F 28 "No" H 13550 4970 60  0001 L CNN "Sense"
 F 29 " " H 13550 4880 60  0001 L CNN "Sense Comment"
 F 30 " " H 13550 4790 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 13550 4700 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 13550 4610 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 13550 4700 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 13550 4610 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 13550 4520 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 13550 4340 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 13550 4250 60  0001 L CNN "CreateDate"
@@ -2523,15 +2523,15 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C105
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C105
 U 1 1 5D56C93B
 P 5300 1050
 F 0 "C105" V 5350 1050 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 5300 790 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 5300 790 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 5300 -20 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 5300 610 60  0001 L CNN
 F 4 "4.7uF" V 5550 1050 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 5300 520 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 5300 520 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 5300 430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 5300 340 60  0001 L CNN "Library Path"
 F 8 "=Value" H 5300 250 60  0001 L CNN "Comment"
@@ -2543,12 +2543,12 @@ F 13 "CAPC1709X95N" H 5300 -290 60  0001 L CNN "Footprint Ref"
 F 14 " " H 5300 -380 60  0001 L CNN "PackageDescription"
 F 15 "None" H 5300 -560 60  0001 L CNN "Status"
 F 16 " " H 5300 -650 60  0001 L CNN "Status Comment"
-F 17 "16V" H 5300 -740 60  0001 L CNN "Voltage"
+F 17 "25V" H 5300 -740 60  0001 L CNN "Voltage"
 F 18 "X5R" H 5300 -830 60  0001 L CNN "TC"
 F 19 "±10%" H 5300 -920 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 5300 -1010 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 5300 -1100 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 5300 -1190 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 5300 -1190 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 5300 -1280 60  0001 L CNN "Case"
 F 24 "Yes" H 5300 -1370 60  0001 L CNN "Mounted"
 F 25 "No" H 5300 -1460 60  0001 L CNN "Socket"
@@ -2557,8 +2557,8 @@ F 27 " " H 5300 -1640 60  0001 L CNN "PressFit"
 F 28 "No" H 5300 -1730 60  0001 L CNN "Sense"
 F 29 " " H 5300 -1820 60  0001 L CNN "Sense Comment"
 F 30 " " H 5300 -1910 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 5300 -2000 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 5300 -2090 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 5300 -2000 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 5300 -2090 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 5300 -2180 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 5300 -2360 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 5300 -2450 60  0001 L CNN "CreateDate"
@@ -2571,15 +2571,15 @@ $EndComp
 Connection ~ 5300 1050
 Connection ~ 5300 1350
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C127
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C127
 U 1 1 5D5D25A8
 P 5450 4200
 F 0 "C127" V 5500 4000 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 5450 3940 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 5450 3940 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 5450 3130 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 5450 3760 60  0001 L CNN
 F 4 "4.7uF" V 5700 3950 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 5450 3670 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 5450 3670 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 5450 3580 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 5450 3490 60  0001 L CNN "Library Path"
 F 8 "=Value" H 5450 3400 60  0001 L CNN "Comment"
@@ -2591,12 +2591,12 @@ F 13 "CAPC1709X95N" H 5450 2860 60  0001 L CNN "Footprint Ref"
 F 14 " " H 5450 2770 60  0001 L CNN "PackageDescription"
 F 15 "None" H 5450 2590 60  0001 L CNN "Status"
 F 16 " " H 5450 2500 60  0001 L CNN "Status Comment"
-F 17 "16V" H 5450 2410 60  0001 L CNN "Voltage"
+F 17 "25V" H 5450 2410 60  0001 L CNN "Voltage"
 F 18 "X5R" H 5450 2320 60  0001 L CNN "TC"
 F 19 "±10%" H 5450 2230 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 5450 2140 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 5450 2050 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 5450 1960 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 5450 1960 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 5450 1870 60  0001 L CNN "Case"
 F 24 "Yes" H 5450 1780 60  0001 L CNN "Mounted"
 F 25 "No" H 5450 1690 60  0001 L CNN "Socket"
@@ -2605,8 +2605,8 @@ F 27 " " H 5450 1510 60  0001 L CNN "PressFit"
 F 28 "No" H 5450 1420 60  0001 L CNN "Sense"
 F 29 " " H 5450 1330 60  0001 L CNN "Sense Comment"
 F 30 " " H 5450 1240 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 5450 1150 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 5450 1060 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 5450 1150 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 5450 1060 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 5450 970 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 5450 790 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 5450 700 60  0001 L CNN "CreateDate"
@@ -3285,15 +3285,15 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 Connection ~ 12350 7000
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C142
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C142
 U 1 1 5D9F9049
 P 5850 8050
 F 0 "C142" V 5900 8050 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 5850 7790 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 5850 7790 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 5850 6980 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 5850 7610 60  0001 L CNN
 F 4 "4.7uF" V 6100 8050 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 5850 7520 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 5850 7520 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 5850 7430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 5850 7340 60  0001 L CNN "Library Path"
 F 8 "=Value" H 5850 7250 60  0001 L CNN "Comment"
@@ -3305,12 +3305,12 @@ F 13 "CAPC1709X95N" H 5850 6710 60  0001 L CNN "Footprint Ref"
 F 14 " " H 5850 6620 60  0001 L CNN "PackageDescription"
 F 15 "None" H 5850 6440 60  0001 L CNN "Status"
 F 16 " " H 5850 6350 60  0001 L CNN "Status Comment"
-F 17 "16V" H 5850 6260 60  0001 L CNN "Voltage"
+F 17 "25V" H 5850 6260 60  0001 L CNN "Voltage"
 F 18 "X5R" H 5850 6170 60  0001 L CNN "TC"
 F 19 "±10%" H 5850 6080 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 5850 5990 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 5850 5900 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 5850 5810 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 5850 5810 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 5850 5720 60  0001 L CNN "Case"
 F 24 "Yes" H 5850 5630 60  0001 L CNN "Mounted"
 F 25 "No" H 5850 5540 60  0001 L CNN "Socket"
@@ -3319,8 +3319,8 @@ F 27 " " H 5850 5360 60  0001 L CNN "PressFit"
 F 28 "No" H 5850 5270 60  0001 L CNN "Sense"
 F 29 " " H 5850 5180 60  0001 L CNN "Sense Comment"
 F 30 " " H 5850 5090 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 5850 5000 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 5850 4910 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 5850 5000 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 5850 4910 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 5850 4820 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 5850 4640 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 5850 4550 60  0001 L CNN "CreateDate"
@@ -3331,15 +3331,15 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C143
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C143
 U 1 1 5DA22347
 P 8300 8050
 F 0 "C143" V 8350 8050 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 8300 7790 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 8300 7790 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 8300 6980 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 8300 7610 60  0001 L CNN
 F 4 "4.7uF" V 8550 8050 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 8300 7520 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 8300 7520 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 8300 7430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 8300 7340 60  0001 L CNN "Library Path"
 F 8 "=Value" H 8300 7250 60  0001 L CNN "Comment"
@@ -3351,12 +3351,12 @@ F 13 "CAPC1709X95N" H 8300 6710 60  0001 L CNN "Footprint Ref"
 F 14 " " H 8300 6620 60  0001 L CNN "PackageDescription"
 F 15 "None" H 8300 6440 60  0001 L CNN "Status"
 F 16 " " H 8300 6350 60  0001 L CNN "Status Comment"
-F 17 "16V" H 8300 6260 60  0001 L CNN "Voltage"
+F 17 "25V" H 8300 6260 60  0001 L CNN "Voltage"
 F 18 "X5R" H 8300 6170 60  0001 L CNN "TC"
 F 19 "±10%" H 8300 6080 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 8300 5990 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 8300 5900 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 8300 5810 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 8300 5810 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 8300 5720 60  0001 L CNN "Case"
 F 24 "Yes" H 8300 5630 60  0001 L CNN "Mounted"
 F 25 "No" H 8300 5540 60  0001 L CNN "Socket"
@@ -3365,8 +3365,8 @@ F 27 " " H 8300 5360 60  0001 L CNN "PressFit"
 F 28 "No" H 8300 5270 60  0001 L CNN "Sense"
 F 29 " " H 8300 5180 60  0001 L CNN "Sense Comment"
 F 30 " " H 8300 5090 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 8300 5000 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 8300 4910 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 8300 5000 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 8300 4910 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 8300 4820 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 8300 4640 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 8300 4550 60  0001 L CNN "CreateDate"
@@ -5719,15 +5719,15 @@ Wire Wire Line
 Wire Wire Line
 	6200 10000 6450 10000
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C139
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C139
 U 1 1 5D300F0D
 P 5850 9750
 F 0 "C139" V 5900 9750 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 5850 9490 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 5850 9490 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 5850 8680 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 5850 9310 60  0001 L CNN
 F 4 "4.7uF" V 6100 9750 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 5850 9220 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 5850 9220 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 5850 9130 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 5850 9040 60  0001 L CNN "Library Path"
 F 8 "=Value" H 5850 8950 60  0001 L CNN "Comment"
@@ -5739,12 +5739,12 @@ F 13 "CAPC1709X95N" H 5850 8410 60  0001 L CNN "Footprint Ref"
 F 14 " " H 5850 8320 60  0001 L CNN "PackageDescription"
 F 15 "None" H 5850 8140 60  0001 L CNN "Status"
 F 16 " " H 5850 8050 60  0001 L CNN "Status Comment"
-F 17 "16V" H 5850 7960 60  0001 L CNN "Voltage"
+F 17 "25V" H 5850 7960 60  0001 L CNN "Voltage"
 F 18 "X5R" H 5850 7870 60  0001 L CNN "TC"
 F 19 "±10%" H 5850 7780 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 5850 7690 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 5850 7600 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 5850 7510 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 5850 7510 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 5850 7420 60  0001 L CNN "Case"
 F 24 "Yes" H 5850 7330 60  0001 L CNN "Mounted"
 F 25 "No" H 5850 7240 60  0001 L CNN "Socket"
@@ -5753,8 +5753,8 @@ F 27 " " H 5850 7060 60  0001 L CNN "PressFit"
 F 28 "No" H 5850 6970 60  0001 L CNN "Sense"
 F 29 " " H 5850 6880 60  0001 L CNN "Sense Comment"
 F 30 " " H 5850 6790 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 5850 6700 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 5850 6610 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 5850 6700 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 5850 6610 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 5850 6520 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 5850 6340 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 5850 6250 60  0001 L CNN "CreateDate"
@@ -6097,15 +6097,15 @@ Connection ~ 7800 4800
 Wire Wire Line
 	7800 4800 7800 4900
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C144
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C144
 U 1 1 5CF08194
 P 7800 4900
 F 0 "C144" V 7850 4900 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 7800 4640 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 7800 4640 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 7800 3830 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 7800 4460 60  0001 L CNN
 F 4 "4.7uF" V 8050 4900 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 7800 4370 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 7800 4370 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 7800 4280 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 7800 4190 60  0001 L CNN "Library Path"
 F 8 "=Value" H 7800 4100 60  0001 L CNN "Comment"
@@ -6117,12 +6117,12 @@ F 13 "CAPC1709X95N" H 7800 3560 60  0001 L CNN "Footprint Ref"
 F 14 " " H 7800 3470 60  0001 L CNN "PackageDescription"
 F 15 "None" H 7800 3290 60  0001 L CNN "Status"
 F 16 " " H 7800 3200 60  0001 L CNN "Status Comment"
-F 17 "16V" H 7800 3110 60  0001 L CNN "Voltage"
+F 17 "25V" H 7800 3110 60  0001 L CNN "Voltage"
 F 18 "X5R" H 7800 3020 60  0001 L CNN "TC"
 F 19 "±10%" H 7800 2930 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 7800 2840 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 7800 2750 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 7800 2660 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 7800 2660 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 7800 2570 60  0001 L CNN "Case"
 F 24 "Yes" H 7800 2480 60  0001 L CNN "Mounted"
 F 25 "No" H 7800 2390 60  0001 L CNN "Socket"
@@ -6131,8 +6131,8 @@ F 27 " " H 7800 2210 60  0001 L CNN "PressFit"
 F 28 "No" H 7800 2120 60  0001 L CNN "Sense"
 F 29 " " H 7800 2030 60  0001 L CNN "Sense Comment"
 F 30 " " H 7800 1940 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 7800 1850 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 7800 1760 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 7800 1850 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 7800 1760 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 7800 1670 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 7800 1490 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 7800 1400 60  0001 L CNN "CreateDate"
@@ -6143,15 +6143,15 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C361
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C361
 U 1 1 5CF2125F
 P 8150 4900
 F 0 "C361" V 8200 4900 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 8150 4640 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 8150 4640 60  0001 L CNN
 F 2 "Marble:CAPC1709X95N" H 8150 3830 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 8150 4460 60  0001 L CNN
 F 4 "4.7uF" V 8400 4900 50  0000 L CNN "Val"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 8150 4370 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 8150 4370 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 8150 4280 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 8150 4190 60  0001 L CNN "Library Path"
 F 8 "=Value" H 8150 4100 60  0001 L CNN "Comment"
@@ -6163,12 +6163,12 @@ F 13 "CAPC1709X95N" H 8150 3560 60  0001 L CNN "Footprint Ref"
 F 14 " " H 8150 3470 60  0001 L CNN "PackageDescription"
 F 15 "None" H 8150 3290 60  0001 L CNN "Status"
 F 16 " " H 8150 3200 60  0001 L CNN "Status Comment"
-F 17 "16V" H 8150 3110 60  0001 L CNN "Voltage"
+F 17 "25V" H 8150 3110 60  0001 L CNN "Voltage"
 F 18 "X5R" H 8150 3020 60  0001 L CNN "TC"
 F 19 "±10%" H 8150 2930 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 8150 2840 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 8150 2750 60  0001 L CNN "Manufacturer"
-F 22 "CC0603_4.7UF_16V_10%_X5R" H 8150 2660 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0603_4.7UF_25V_10%_X5R" H 8150 2660 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 8150 2570 60  0001 L CNN "Case"
 F 24 "Yes" H 8150 2480 60  0001 L CNN "Mounted"
 F 25 "No" H 8150 2390 60  0001 L CNN "Socket"
@@ -6177,8 +6177,8 @@ F 27 " " H 8150 2210 60  0001 L CNN "PressFit"
 F 28 "No" H 8150 2120 60  0001 L CNN "Sense"
 F 29 " " H 8150 2030 60  0001 L CNN "Sense Comment"
 F 30 " " H 8150 1940 60  0001 L CNN "ComponentHeight"
-F 31 "TAIYO YUDEN" H 8150 1850 60  0001 L CNN "Manufacturer1 Example"
-F 32 "EMK107ABJ475KA-T" H 8150 1760 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "Samsung" H 8150 1850 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CL10A475KA8NQN" H 8150 1760 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.95mm" H 8150 1670 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 8150 1490 60  0001 L CNN "Author"
 F 35 "12/16/13 00:00:00" H 8150 1400 60  0001 L CNN "CreateDate"
