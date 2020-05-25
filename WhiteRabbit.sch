@@ -2620,15 +2620,15 @@ Wire Wire Line
 	8950 2750 9300 2750
 Connection ~ 700  2600
 $Comp
-L Capacitors_SMD:CC0402_10NF_16V_10%_X7R C107
+L Capacitors_SMD:CC0402_10NF_35V_10%_X7R C107
 U 1 1 5D4CC6CD
 P 3600 2650
 F 0 "C107" V 3704 2760 50  0000 L CNN
-F 1 "CC0402_10NF_16V_10%_X7R" H 3600 2390 60  0001 L CNN
+F 1 "CC0402_10NF_35V_10%_X7R" H 3600 2390 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 3600 1580 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X7R_PHYCOMP.pdf" H 3600 2210 60  0001 L CNN
 F 4 "10nF" V 3795 2760 50  0000 L CNN "Val"
-F 5 "CC0402_10NF_16V_10%_X7R" H 3600 2120 60  0001 L CNN "Part Number"
+F 5 "CC0402_10NF_35V_10%_X7R" H 3600 2120 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 3600 2030 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 3600 1940 60  0001 L CNN "Library Path"
 F 8 "=Value" H 3600 1850 60  0001 L CNN "Comment"
@@ -2640,12 +2640,12 @@ F 13 "CAPC1005X55N" H 3600 1310 60  0001 L CNN "Footprint Ref"
 F 14 " " H 3600 1220 60  0001 L CNN "PackageDescription"
 F 15 "Not Recommended" H 3600 1040 60  0001 L CNN "Status"
 F 16 " " H 3600 950 60  0001 L CNN "Status Comment"
-F 17 "16V" H 3600 860 60  0001 L CNN "Voltage"
+F 17 "35V" H 3600 860 60  0001 L CNN "Voltage"
 F 18 "X7R" H 3600 770 60  0001 L CNN "TC"
 F 19 "±10%" H 3600 680 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 3600 590 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 3600 500 60  0001 L CNN "Manufacturer"
-F 22 "CC0402_10NF_16V_10%_X7R" H 3600 410 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0402_10NF_35V_10%_X7R" H 3600 410 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 3600 320 60  0001 L CNN "Case"
 F 24 "Yes" H 3600 230 60  0001 L CNN "Mounted"
 F 25 "No" H 3600 140 60  0001 L CNN "Socket"
@@ -2654,12 +2654,12 @@ F 27 " " H 3600 -40 60  0001 L CNN "PressFit"
 F 28 "No" H 3600 -130 60  0001 L CNN "Sense"
 F 29 " " H 3600 -220 60  0001 L CNN "Sense Comment"
 F 30 " " H 3600 -310 60  0001 L CNN "ComponentHeight"
-F 31 "PHYCOMP" H 3600 -400 60  0001 L CNN "Manufacturer1 Example"
-F 32 "223878715636" H 3600 -490 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "TDK" H 3600 -400 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CGA2B3X7R1V103K050B" H 3600 -490 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.55mm" H 3600 -580 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 3600 -760 60  0001 L CNN "Author"
 F 35 "12/03/07 00:00:00" H 3600 -850 60  0001 L CNN "CreateDate"
-F 36 "12/03/07 00:00:00" H 3600 -940 60  0001 L CNN "LatestRevisionDate"
+F 36 "05/24/20 00:00:00" H 3600 -940 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 3600 -1030 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3600 -1120 60  0001 L CNN "License"
 	1    3600 2650

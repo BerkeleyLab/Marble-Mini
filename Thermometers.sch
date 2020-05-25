@@ -862,15 +862,15 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_1NF_50V_10%_X7R C188
+L Capacitors_SMD:CC0402_10NF_35V_10%_X7R C188
 U 1 1 5D0544A8
 P 1950 5000
 F 0 "C188" V 2054 5110 50  0000 L CNN
-F 1 "CC0402_1NF_50V_10%_X7R" H 1950 4740 60  0001 L CNN
+F 1 "CC0402_10NF_35V_10%_X7R" H 1950 4740 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 1950 3930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X7R_PHYCOMP.pdf" H 1950 4560 60  0001 L CNN
-F 4 "1nF" V 2145 5110 50  0000 L CNN "Val"
-F 5 "CC0402_1NF_50V_10%_X7R" H 1950 4470 60  0001 L CNN "Part Number"
+F 4 "10nF" V 2145 5110 50  0000 L CNN "Val"
+F 5 "CC0402_10NF_35V_10%_X7R" H 1950 4470 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 1950 4380 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 1950 4290 60  0001 L CNN "Library Path"
 F 8 "=Value" H 1950 4200 60  0001 L CNN "Comment"
@@ -882,12 +882,12 @@ F 13 "CAPC1005X55N" H 1950 3660 60  0001 L CNN "Footprint Ref"
 F 14 " " H 1950 3570 60  0001 L CNN "PackageDescription"
 F 15 "Not Recommended" H 1950 3390 60  0001 L CNN "Status"
 F 16 " " H 1950 3300 60  0001 L CNN "Status Comment"
-F 17 "50V" H 1950 3210 60  0001 L CNN "Voltage"
+F 17 "35V" H 1950 3210 60  0001 L CNN "Voltage"
 F 18 "X7R" H 1950 3120 60  0001 L CNN "TC"
 F 19 "±10%" H 1950 3030 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 1950 2940 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 1950 2850 60  0001 L CNN "Manufacturer"
-F 22 "CC0402_1NF_50V_10%_X7R" H 1950 2760 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0402_10NF_35V_10%_X7R" H 1950 2760 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 1950 2670 60  0001 L CNN "Case"
 F 24 "Yes" H 1950 2580 60  0001 L CNN "Mounted"
 F 25 "No" H 1950 2490 60  0001 L CNN "Socket"
@@ -896,27 +896,27 @@ F 27 " " H 1950 2310 60  0001 L CNN "PressFit"
 F 28 "No" H 1950 2220 60  0001 L CNN "Sense"
 F 29 " " H 1950 2130 60  0001 L CNN "Sense Comment"
 F 30 " " H 1950 2040 60  0001 L CNN "ComponentHeight"
-F 31 "PHYCOMP" H 1950 1950 60  0001 L CNN "Manufacturer1 Example"
-F 32 "223858715623" H 1950 1860 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "TDK" H 1950 1950 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CGA2B3X7R1V103K050B" H 1950 1860 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.55mm" H 1950 1770 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 1950 1590 60  0001 L CNN "Author"
 F 35 "12/03/07 00:00:00" H 1950 1500 60  0001 L CNN "CreateDate"
-F 36 "12/03/07 00:00:00" H 1950 1410 60  0001 L CNN "LatestRevisionDate"
+F 36 "05/24/20 00:00:00" H 1950 1410 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 1950 1320 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1950 1230 60  0001 L CNN "License"
 	1    1950 5000
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_1NF_50V_10%_X7R C189
+L Capacitors_SMD:CC0402_10NF_35V_10%_X7R C189
 U 1 1 5D054632
 P 2400 5000
 F 0 "C189" V 2504 5110 50  0000 L CNN
-F 1 "CC0402_1NF_50V_10%_X7R" H 2400 4740 60  0001 L CNN
+F 1 "CC0402_10NF_35V_10%_X7R" H 2400 4740 60  0001 L CNN
 F 2 "Marble:CAPC1005X55N" H 2400 3930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X7R_PHYCOMP.pdf" H 2400 4560 60  0001 L CNN
-F 4 "1nF" V 2595 5110 50  0000 L CNN "Val"
-F 5 "CC0402_1NF_50V_10%_X7R" H 2400 4470 60  0001 L CNN "Part Number"
+F 4 "10nF" V 2595 5110 50  0000 L CNN "Val"
+F 5 "CC0402_10NF_35V_10%_X7R" H 2400 4470 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 2400 4380 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 2400 4290 60  0001 L CNN "Library Path"
 F 8 "=Value" H 2400 4200 60  0001 L CNN "Comment"
@@ -928,12 +928,12 @@ F 13 "CAPC1005X55N" H 2400 3660 60  0001 L CNN "Footprint Ref"
 F 14 " " H 2400 3570 60  0001 L CNN "PackageDescription"
 F 15 "Not Recommended" H 2400 3390 60  0001 L CNN "Status"
 F 16 " " H 2400 3300 60  0001 L CNN "Status Comment"
-F 17 "50V" H 2400 3210 60  0001 L CNN "Voltage"
+F 17 "35V" H 2400 3210 60  0001 L CNN "Voltage"
 F 18 "X7R" H 2400 3120 60  0001 L CNN "TC"
 F 19 "±10%" H 2400 3030 60  0001 L CNN "Tolerance"
 F 20 "SMD Multilayer Chip Ceramic Capacitor" H 2400 2940 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 2400 2850 60  0001 L CNN "Manufacturer"
-F 22 "CC0402_1NF_50V_10%_X7R" H 2400 2760 60  0001 L CNN "Manufacturer Part Number"
+F 22 "CC0402_10NF_35V_10%_X7R" H 2400 2760 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 2400 2670 60  0001 L CNN "Case"
 F 24 "Yes" H 2400 2580 60  0001 L CNN "Mounted"
 F 25 "No" H 2400 2490 60  0001 L CNN "Socket"
@@ -942,12 +942,12 @@ F 27 " " H 2400 2310 60  0001 L CNN "PressFit"
 F 28 "No" H 2400 2220 60  0001 L CNN "Sense"
 F 29 " " H 2400 2130 60  0001 L CNN "Sense Comment"
 F 30 " " H 2400 2040 60  0001 L CNN "ComponentHeight"
-F 31 "PHYCOMP" H 2400 1950 60  0001 L CNN "Manufacturer1 Example"
-F 32 "223858715623" H 2400 1860 60  0001 L CNN "Manufacturer1 Part Number"
+F 31 "TDK" H 2400 1950 60  0001 L CNN "Manufacturer1 Example"
+F 32 "CGA2B3X7R1V103K050B" H 2400 1860 60  0001 L CNN "Manufacturer1 Part Number"
 F 33 "0.55mm" H 2400 1770 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 34 "CERN DEM JLC" H 2400 1590 60  0001 L CNN "Author"
 F 35 "12/03/07 00:00:00" H 2400 1500 60  0001 L CNN "CreateDate"
-F 36 "12/03/07 00:00:00" H 2400 1410 60  0001 L CNN "LatestRevisionDate"
+F 36 "05/24/20 00:00:00" H 2400 1410 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 2400 1320 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2400 1230 60  0001 L CNN "License"
 	1    2400 5000
