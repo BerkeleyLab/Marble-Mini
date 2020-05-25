@@ -1337,9 +1337,12 @@ ENDDEF
 #
 DEF Conn_ARM_JTAG_SWD_10-Connector J 0 40 Y Y 1 F N
 F0 "J" -100 650 50 H V R CNN
-F1 "Conn_ARM_JTAG_SWD_10-Connector" -100 550 50 H V R BNN
-F2 "Marble:PinHeader_2x05_P1.27mm_Vertical_SMD" 50 -550 50 H I L TNN
-F3 "" -350 -1250 50 V I C CNN
+F1 "FTSH-105-01-L-DV-K" -100 550 50 H V R BNN
+F2 "Marble:SAMTEC_FTSH-105-01-L-DV-K" -100 450 50 H I L TNN
+F3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" -100 350 50 V I C CNN
+F4 "SAMTEC"  -100 250 50 H I L CNN "Manufacturer"
+F5 "FTSH-105-01-L-DV-K" -100 250 50 H I L CNN "Manufacturer Part Number"
+F6 "Yes" -100 150 50 H I L CNN "SMD"
 $FPLIST
  Pin?Header*
  *IDC*
