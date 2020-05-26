@@ -3583,7 +3583,7 @@ F 0 "Y6" H 8200 5465 50  0000 C CNN
 F 1 "OSC_10-280MHZ_SILICON-LAB_Si570BBC000121DG" H 7800 4625 50  0001 L CNN
 F 2 "ICs And Semiconductors SMD:OSC_SILICON-LAB_SI570" H 7800 4550 50  0001 L CNN
 F 3 " " H 7800 4475 50  0001 L CNN
-F 4 "10-280MHz" H 8200 5374 50  0000 C CNN "Val"
+F 4 "Si570, 10-280MHz" H 8200 5374 50  0000 C CNN "Val"
 F 5 "OSC_10-280MHZ_SILICON-LAB_Si570BBC000121DG" H 7800 4400 50  0001 L CNN "Part Number"
 F 6 "Oscillator SILICON-LAB_Si570" H 7800 4325 50  0001 L CNN "Library Ref"
 F 7 "SchLib\\Crystals & Oscillators.SchLib" H 7800 4250 50  0001 L CNN "Library Path"
@@ -3618,6 +3618,7 @@ F 35 "Crystals & Oscillators" H 7800 2150 50  0001 L CNN "Database Table Name"
 F 36 "ICs And Semiconductors.DbLib" H 7800 2075 50  0001 L CNN "Library Name"
 F 37 "ICs And Semiconductors SMD" H 7800 2000 50  0001 L CNN "Footprint Library"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7800 1925 50  0001 L CNN "License"
+F 39 "dnf" H 8350 5450 50  0000 C CNN "config"
 	1    7800 5300
 	1    0    0    -1  
 $EndComp

@@ -3399,6 +3399,7 @@ F 35 "12/03/07 00:00:00" H 3500 2050 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 3500 1960 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 3500 1870 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3500 1780 60  0001 L CNN "License"
+F 39 "dnf" H 3500 5550 50  0000 C CNN "config"
 	1    3500 5550
 	-1   0    0    1   
 $EndComp
@@ -3452,6 +3453,7 @@ F 35 "12/03/07 00:00:00" H 3500 2550 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 3500 2460 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 3500 2370 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3500 2280 60  0001 L CNN "License"
+F 39 "dnf" H 3500 6050 50  0000 C CNN "config"
 	1    3500 6050
 	-1   0    0    1   
 $EndComp
