@@ -2109,9 +2109,7 @@ Wire Wire Line
 	4650 2800 5250 2800
 Wire Wire Line
 	4650 6700 5250 6700
-NoConn ~ 9250 2200
 NoConn ~ 9250 2600
-NoConn ~ 9250 2900
 NoConn ~ 9250 3400
 NoConn ~ 5250 4600
 Wire Wire Line
@@ -2473,7 +2471,7 @@ Text Label 9400 5900 0    50   ~ 10
 Rx18_SE
 Wire Wire Line
 	9250 5900 10600 5900
-NoConn ~ 9250 4200
+NoConn ~ 9250 2200
 $Comp
 L Analog_&_Interface:TCA9517DGKR IC?
 U 1 1 5EE8CD44
@@ -2837,6 +2835,238 @@ $EndComp
 Wire Wire Line
 	12150 4100 11950 4100
 Connection ~ 12150 4100
+$Comp
+L LEDs_&_Displays:LED_KINGBRIGHT_KPH-1608CGCK LD16
+U 1 1 5EDDD120
+P 11100 1850
+F 0 "LD16" V 11100 2020 50  0000 L CNN
+F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 11100 1635 50  0001 L CNN
+F 2 "Marble:LED_KINGBRIGHT_KPH-1608CGCK" H 11100 1560 50  0001 L CNN
+F 3 " " H 11100 1485 50  0001 L CNN
+F 4 "Green" H 11100 960 50  0001 L CNN "Color"
+F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 11100 1410 50  0001 L CNN "Part Number"
+F 6 "LED Green 1C 2A" H 11100 1335 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\LEDs & Displays.SchLib" H 11100 1260 50  0001 L CNN "Library Path"
+F 8 " " H 11100 1185 50  0001 L CNN "Comment"
+F 9 "Standard" H 11100 1110 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 11100 1035 50  0001 L CNN "Component Type"
+F 11 " " H 11100 885 50  0001 L CNN "Device"
+F 12 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 11100 810 50  0001 L CNN "PackageDescription"
+F 13 " " H 11100 735 50  0001 L CNN "Status"
+F 14 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 11100 660 50  0001 L CNN "Part Description"
+F 15 "KINGBRIGHT" H 11100 585 50  0001 L CNN "Manufacturer"
+F 16 "KPH-1608CGCK" H 11100 510 50  0001 L CNN "Manufacturer Part Number"
+F 17 "2" H 11100 435 50  0001 L CNN "Pin Count"
+F 18 " " H 11100 360 50  0001 L CNN "Case"
+F 19 "Yes" H 11100 285 50  0001 L CNN "Mounted"
+F 20 "No" H 11100 210 50  0001 L CNN "Socket"
+F 21 "Yes" H 11100 135 50  0001 L CNN "SMD"
+F 22 "No" H 11100 60  50  0001 L CNN "PressFit"
+F 23 " " H 11100 -15 50  0001 L CNN "Sense Comment"
+F 24 "No" H 11100 -90 50  0001 L CNN "Sense"
+F 25 "No" H 11100 -165 50  0001 L CNN "Bonding"
+F 26 " " H 11100 -240 50  0001 L CNN "Status Comment"
+F 27 "0.65mm" H 11100 -315 50  0001 L CNN "ComponentHeight"
+F 28 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 11100 -390 50  0001 L CNN "Footprint Path"
+F 29 "LED_KINGBRIGHT_KPH-1608CGCK" H 11100 -465 50  0001 L CNN "Footprint Ref"
+F 30 " " H 11100 -540 50  0001 L CNN "ComponentLink1Description"
+F 31 " " H 11100 -615 50  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 11100 -690 50  0001 L CNN "Author"
+F 33 "07/03/17 00:00:00" H 11100 -765 50  0001 L CNN "CreateDate"
+F 34 "07/03/17 00:00:00" H 11100 -840 50  0001 L CNN "LatestRevisionDate"
+F 35 "ICs And Semiconductors SMD" H 11100 -990 50  0001 L CNN "Library Name"
+F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11100 -1140 50  0001 L CNN "License"
+	1    11100 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L LEDs_&_Displays:LED_KINGBRIGHT_KPH-1608CGCK LD17
+U 1 1 5EDFE75C
+P 11700 1850
+F 0 "LD17" V 11700 2020 50  0000 L CNN
+F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 11700 1635 50  0001 L CNN
+F 2 "Marble:LED_KINGBRIGHT_KPH-1608CGCK" H 11700 1560 50  0001 L CNN
+F 3 " " H 11700 1485 50  0001 L CNN
+F 4 "Green" H 11700 960 50  0001 L CNN "Color"
+F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 11700 1410 50  0001 L CNN "Part Number"
+F 6 "LED Green 1C 2A" H 11700 1335 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\LEDs & Displays.SchLib" H 11700 1260 50  0001 L CNN "Library Path"
+F 8 " " H 11700 1185 50  0001 L CNN "Comment"
+F 9 "Standard" H 11700 1110 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 11700 1035 50  0001 L CNN "Component Type"
+F 11 " " H 11700 885 50  0001 L CNN "Device"
+F 12 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 11700 810 50  0001 L CNN "PackageDescription"
+F 13 " " H 11700 735 50  0001 L CNN "Status"
+F 14 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 11700 660 50  0001 L CNN "Part Description"
+F 15 "KINGBRIGHT" H 11700 585 50  0001 L CNN "Manufacturer"
+F 16 "KPH-1608CGCK" H 11700 510 50  0001 L CNN "Manufacturer Part Number"
+F 17 "2" H 11700 435 50  0001 L CNN "Pin Count"
+F 18 " " H 11700 360 50  0001 L CNN "Case"
+F 19 "Yes" H 11700 285 50  0001 L CNN "Mounted"
+F 20 "No" H 11700 210 50  0001 L CNN "Socket"
+F 21 "Yes" H 11700 135 50  0001 L CNN "SMD"
+F 22 "No" H 11700 60  50  0001 L CNN "PressFit"
+F 23 " " H 11700 -15 50  0001 L CNN "Sense Comment"
+F 24 "No" H 11700 -90 50  0001 L CNN "Sense"
+F 25 "No" H 11700 -165 50  0001 L CNN "Bonding"
+F 26 " " H 11700 -240 50  0001 L CNN "Status Comment"
+F 27 "0.65mm" H 11700 -315 50  0001 L CNN "ComponentHeight"
+F 28 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 11700 -390 50  0001 L CNN "Footprint Path"
+F 29 "LED_KINGBRIGHT_KPH-1608CGCK" H 11700 -465 50  0001 L CNN "Footprint Ref"
+F 30 " " H 11700 -540 50  0001 L CNN "ComponentLink1Description"
+F 31 " " H 11700 -615 50  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 11700 -690 50  0001 L CNN "Author"
+F 33 "07/03/17 00:00:00" H 11700 -765 50  0001 L CNN "CreateDate"
+F 34 "07/03/17 00:00:00" H 11700 -840 50  0001 L CNN "LatestRevisionDate"
+F 35 "ICs And Semiconductors SMD" H 11700 -990 50  0001 L CNN "Library Name"
+F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11700 -1140 50  0001 L CNN "License"
+	1    11700 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EE0077F
+P 11100 1200
+AR Path="/5BD32060/5EE0077F" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5C417BCB/5EE0077F" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5EE0077F" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5CAAC367/5EE0077F" Ref="#PWR0681"  Part="1" 
+F 0 "#PWR0681" H 11100 1050 50  0001 C CNN
+F 1 "+3V3" H 11115 1373 50  0000 C CNN
+F 2 "" H 11100 1200 50  0001 C CNN
+F 3 "" H 11100 1200 50  0001 C CNN
+	1    11100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0402_1K_1%_0.0625W_100PPM R306
+U 1 1 5EE533ED
+P 11100 1300
+F 0 "R306" V 11204 1360 50  0000 L CNN
+F 1 "R0402_1K_1%_0.0625W_100PPM" H 11100 1105 50  0001 L CNN
+F 2 "Marble:RESC1005X40N" H 11100 1030 50  0001 L CNN
+F 3 " " H 11100 955 50  0001 L CNN
+F 4 "1k" V 11295 1360 50  0000 L CNN "Val"
+F 5 "R0402_1K_1%_0.0625W_100PPM" H 11100 880 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 11100 805 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 11100 730 50  0001 L CNN "Library Path"
+F 8 "1k" H 11100 655 50  0001 L CNN "Comment"
+F 9 "Standard" H 11100 580 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 11100 505 50  0001 L CNN "Component Type"
+F 11 " " H 11100 430 50  0001 L CNN "PackageDescription"
+F 12 "2" H 11100 355 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 11100 280 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 11100 205 50  0001 L CNN "Footprint Ref"
+F 15 "Not Recommended" H 11100 130 50  0001 L CNN "Status"
+F 16 "0.0625W" H 11100 55  50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 11100 -20 50  0001 L CNN "TC"
+F 18 " " H 11100 -95 50  0001 L CNN "Voltage"
+F 19 "±1%" H 11100 -170 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 11100 -245 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 11100 -320 50  0001 L CNN "Manufacturer"
+F 22 "R0402_1K_1%_0.0625W_100PPM" H 11100 -395 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 11100 -470 50  0001 L CNN "Case"
+F 24 "No" H 11100 -545 50  0001 L CNN "PressFit"
+F 25 "Yes" H 11100 -620 50  0001 L CNN "Mounted"
+F 26 " " H 11100 -695 50  0001 L CNN "Sense Comment"
+F 27 "No" H 11100 -770 50  0001 L CNN "Sense"
+F 28 " " H 11100 -845 50  0001 L CNN "Status Comment"
+F 29 "No" H 11100 -920 50  0001 L CNN "Socket"
+F 30 "Yes" H 11100 -995 50  0001 L CNN "SMD"
+F 31 " " H 11100 -1070 50  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 11100 -1145 50  0001 L CNN "Manufacturer1 Example"
+F 33 "232270671002L" H 11100 -1220 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 11100 -1295 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 11100 -1370 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 11100 -1445 50  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 11100 -1520 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 11100 -1670 50  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11100 -1820 50  0001 L CNN "License"
+	1    11100 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11100 1200 11100 1300
+Wire Wire Line
+	11100 1600 11100 1700
+$Comp
+L Resistors_SMD:R0402_1K_1%_0.0625W_100PPM R307
+U 1 1 5EEB6FB0
+P 11700 1300
+F 0 "R307" V 11804 1360 50  0000 L CNN
+F 1 "R0402_1K_1%_0.0625W_100PPM" H 11700 1105 50  0001 L CNN
+F 2 "Marble:RESC1005X40N" H 11700 1030 50  0001 L CNN
+F 3 " " H 11700 955 50  0001 L CNN
+F 4 "1k" V 11895 1360 50  0000 L CNN "Val"
+F 5 "R0402_1K_1%_0.0625W_100PPM" H 11700 880 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 11700 805 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 11700 730 50  0001 L CNN "Library Path"
+F 8 "1k" H 11700 655 50  0001 L CNN "Comment"
+F 9 "Standard" H 11700 580 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 11700 505 50  0001 L CNN "Component Type"
+F 11 " " H 11700 430 50  0001 L CNN "PackageDescription"
+F 12 "2" H 11700 355 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 11700 280 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 11700 205 50  0001 L CNN "Footprint Ref"
+F 15 "Not Recommended" H 11700 130 50  0001 L CNN "Status"
+F 16 "0.0625W" H 11700 55  50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 11700 -20 50  0001 L CNN "TC"
+F 18 " " H 11700 -95 50  0001 L CNN "Voltage"
+F 19 "±1%" H 11700 -170 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 11700 -245 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 11700 -320 50  0001 L CNN "Manufacturer"
+F 22 "R0402_1K_1%_0.0625W_100PPM" H 11700 -395 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 11700 -470 50  0001 L CNN "Case"
+F 24 "No" H 11700 -545 50  0001 L CNN "PressFit"
+F 25 "Yes" H 11700 -620 50  0001 L CNN "Mounted"
+F 26 " " H 11700 -695 50  0001 L CNN "Sense Comment"
+F 27 "No" H 11700 -770 50  0001 L CNN "Sense"
+F 28 " " H 11700 -845 50  0001 L CNN "Status Comment"
+F 29 "No" H 11700 -920 50  0001 L CNN "Socket"
+F 30 "Yes" H 11700 -995 50  0001 L CNN "SMD"
+F 31 " " H 11700 -1070 50  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 11700 -1145 50  0001 L CNN "Manufacturer1 Example"
+F 33 "232270671002L" H 11700 -1220 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 11700 -1295 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 11700 -1370 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 11700 -1445 50  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 11700 -1520 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 11700 -1670 50  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11700 -1820 50  0001 L CNN "License"
+	1    11700 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EEB7A9F
+P 11700 1200
+AR Path="/5BD32060/5EEB7A9F" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5C417BCB/5EEB7A9F" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5EEB7A9F" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5CAAC367/5EEB7A9F" Ref="#PWR0683"  Part="1" 
+F 0 "#PWR0683" H 11700 1050 50  0001 C CNN
+F 1 "+3V3" H 11715 1373 50  0000 C CNN
+F 2 "" H 11700 1200 50  0001 C CNN
+F 3 "" H 11700 1200 50  0001 C CNN
+	1    11700 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 1200 11700 1300
+Wire Wire Line
+	11700 1600 11700 1700
+Wire Wire Line
+	11100 2200 11100 2000
+Wire Wire Line
+	9250 4200 10200 4200
+Wire Wire Line
+	10200 4200 10200 2200
+Wire Wire Line
+	10200 2200 11100 2200
+Wire Wire Line
+	9250 2900 11700 2900
+Wire Wire Line
+	11700 2000 11700 2900
 Wire Bus Line
 	14050 7300 14050 7600
 Wire Bus Line
