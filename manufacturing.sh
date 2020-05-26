@@ -72,6 +72,7 @@ echo starting post-processing
 # Additional postprocessing
 # input ${A}_bom_9.csv $A-all.pos
 # output marble-xy.pos
+python3 xy_post.py ${A} marble v > marble-stuff.log
 python3 xy_post.py ${A} marble
 
 # Assemble files into fab directory
