@@ -321,7 +321,7 @@ F 3 "" H 1500 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache Y2
+L marble_misc:Oscillator_1VC_2GND_3OUT_4+Vs Y2
 U 1 1 5C2F3070
 P 4050 1950
 F 0 "Y2" H 4350 2139 60  0000 C CNN
@@ -329,6 +329,7 @@ F 1 "VM53S3-25.000-2.5/-30+75" H 4350 2033 60  0000 C CNN
 F 2 "Marble:OSCCC320X500X160-4N" H 4350 2033 60  0001 C CNN
 F 3 "" H 4050 1950 60  0000 C CNN
 F 4 "VM53S3-25.000-2.5/-30+75" H 4050 1950 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Mercury" H 3950 1950 50  0001 C CNN "Manufacturer"
 	1    4050 1950
 	1    0    0    -1  
 $EndComp

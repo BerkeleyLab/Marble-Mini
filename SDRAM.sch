@@ -1690,6 +1690,7 @@ F 1 "TPS51200DRC" H 8150 5987 50  0000 C CNN
 F 2 "Marble:TEXAS_DRC(S-PVSON-N10)" H 8150 6250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps51200.pdf" H 8150 6250 50  0001 C CNN
 F 4 "TPS51200DRC" H 8150 5400 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TEXAS INSTRUMENTS" H 8150 5400 50  0001 C CNN "Manufacturer"
 	1    8150 5400
 	1    0    0    -1  
 $EndComp
