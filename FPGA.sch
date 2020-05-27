@@ -1373,7 +1373,6 @@ I2C_APP_SCL
 Text Label 1650 8450 0    50   ~ 10
 I2C_APP_SDA
 NoConn ~ 8500 8950
-NoConn ~ 8500 9050
 NoConn ~ 8500 9850
 NoConn ~ 8500 9950
 Text HLabel 8700 2000 2    60   Input ~ 12
@@ -1556,4 +1555,8 @@ F 3 "" H 1400 9500 50  0001 C CNN
 	1    1400 9500
 	1    0    0    -1  
 $EndComp
+Text HLabel 8950 9050 2    50   Output ~ 10
+SI570_OE
+Wire Wire Line
+	8500 9050 8950 9050
 $EndSCHEMATC
