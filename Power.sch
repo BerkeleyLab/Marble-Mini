@@ -679,7 +679,8 @@ F 0 "D6" H 3450 8800 50  0000 L CNN
 F 1 "MB210S-TP" H 2650 8800 50  0000 L CNN
 F 2 "Marble:SOIC254P665X290-4N" H 3400 8775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 3250 8650 50  0001 C CNN
-F 4 "MB210S-TP" H 3250 8650 50  0001 C CNN "Manufacturer Part Number"
+F 4 "KMB210STR" H 3250 8650 50  0001 C CNN "Manufacturer Part Number"
+F 5 "SMC" H 3250 8650 50  0001 C CNN "Manufacturer"
 	1    3250 8650
 	1    0    0    -1  
 $EndComp
@@ -691,7 +692,8 @@ F 0 "D7" H 3500 9750 50  0000 L CNN
 F 1 "MB210S-TP" H 2700 9850 50  0000 L CNN
 F 2 "Marble:SOIC254P665X290-4N" H 3400 9775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 3250 9650 50  0001 C CNN
-F 4 "MB210S-TP" H 3250 9650 50  0001 C CNN "Manufacturer Part Number"
+F 4 "KMB210STR" H 3250 9650 50  0001 C CNN "Manufacturer Part Number"
+F 5 "SMC" H 3250 9650 50  0001 C CNN "Manufacturer"
 	1    3250 9650
 	1    0    0    -1  
 $EndComp
@@ -844,7 +846,8 @@ F 0 "D8" V 3554 8929 50  0000 L CNN
 F 1 "SMAJ58A" V 3645 8929 50  0000 L CNN
 F 2 "Marble:DIOM5226X262N" H 3600 8650 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 3550 8850 50  0001 C CNN
-F 4 "SMAJ58A" H 3600 8850 50  0001 C CNN "Manufacturer Part Number"
+F 4 "SMAJ58A-13-F" H 3600 8850 50  0001 C CNN "Manufacturer Part Number"
+F 5 "DIODES INC" H 3600 8850 50  0001 C CNN "Manufacturer"
 	1    3600 8850
 	0    1    1    0   
 $EndComp
