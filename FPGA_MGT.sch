@@ -1299,6 +1299,7 @@ F 35 "12/03/07 00:00:00" H 6050 -2550 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 -2640 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 -2730 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 -2820 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 900 50  0000 R CNN "config"
 	1    6050 950 
 	-1   0    0    1   
 $EndComp
@@ -1398,6 +1399,7 @@ F 35 "12/03/07 00:00:00" H 6050 -2300 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 -2390 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 -2480 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 -2570 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 1150 50  0000 R CNN "config"
 	1    6050 1200
 	-1   0    0    1   
 $EndComp
@@ -1497,6 +1499,7 @@ F 35 "12/03/07 00:00:00" H 6050 -2000 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 -2090 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 -2180 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 -2270 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 1450 50  0000 R CNN "config"
 	1    6050 1500
 	-1   0    0    1   
 $EndComp
@@ -1596,6 +1599,7 @@ F 35 "12/03/07 00:00:00" H 6050 -1750 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 -1840 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 -1930 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 -2020 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 1700 50  0000 R CNN "config"
 	1    6050 1750
 	-1   0    0    1   
 $EndComp
@@ -1695,6 +1699,7 @@ F 35 "12/03/07 00:00:00" H 6050 -1450 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 -1540 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 -1630 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 -1720 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 2000 50  0000 R CNN "config"
 	1    6050 2050
 	-1   0    0    1   
 $EndComp
@@ -1794,6 +1799,7 @@ F 35 "12/03/07 00:00:00" H 6050 -1200 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 -1290 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 -1380 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 -1470 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 2250 50  0000 R CNN "config"
 	1    6050 2300
 	-1   0    0    1   
 $EndComp
@@ -1893,6 +1899,7 @@ F 35 "12/03/07 00:00:00" H 6050 -900 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 -990 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 -1080 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 -1170 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 2550 50  0000 R CNN "config"
 	1    6050 2600
 	-1   0    0    1   
 $EndComp
@@ -1992,6 +1999,7 @@ F 35 "12/03/07 00:00:00" H 6050 -650 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 -740 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 -830 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 -920 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 2800 50  0000 R CNN "config"
 	1    6050 2850
 	-1   0    0    1   
 $EndComp
@@ -2091,6 +2099,7 @@ F 35 "12/03/07 00:00:00" H 6050 -200 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 -290 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 -380 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 -470 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 3250 50  0000 R CNN "config"
 	1    6050 3300
 	-1   0    0    1   
 $EndComp
@@ -2190,6 +2199,7 @@ F 35 "12/03/07 00:00:00" H 6050 50  60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 -40 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 -130 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 -220 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 3500 50  0000 R CNN "config"
 	1    6050 3550
 	-1   0    0    1   
 $EndComp
@@ -2289,6 +2299,7 @@ F 35 "12/03/07 00:00:00" H 6050 350 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 260 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 170 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 80  60  0001 L CNN "License"
+F 39 "+standalone" H 5100 3800 50  0000 R CNN "config"
 	1    6050 3850
 	-1   0    0    1   
 $EndComp
@@ -2388,6 +2399,7 @@ F 35 "12/03/07 00:00:00" H 6050 600 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 510 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 420 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 330 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 4050 50  0000 R CNN "config"
 	1    6050 4100
 	-1   0    0    1   
 $EndComp
@@ -2487,6 +2499,7 @@ F 35 "12/03/07 00:00:00" H 6050 900 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 810 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 720 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 630 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 4350 50  0000 R CNN "config"
 	1    6050 4400
 	-1   0    0    1   
 $EndComp
@@ -2586,6 +2599,7 @@ F 35 "12/03/07 00:00:00" H 6050 1150 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 1060 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 970 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 880 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 4600 50  0000 R CNN "config"
 	1    6050 4650
 	-1   0    0    1   
 $EndComp
@@ -2685,6 +2699,7 @@ F 35 "12/03/07 00:00:00" H 6050 1450 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 1360 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 1270 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 1180 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 4900 50  0000 R CNN "config"
 	1    6050 4950
 	-1   0    0    1   
 $EndComp
@@ -2784,6 +2799,7 @@ F 35 "12/03/07 00:00:00" H 6050 1700 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 6050 1610 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 6050 1520 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6050 1430 60  0001 L CNN "License"
+F 39 "+standalone" H 5100 5150 50  0000 R CNN "config"
 	1    6050 5200
 	-1   0    0    1   
 $EndComp
@@ -3215,6 +3231,7 @@ F 35 "12/03/07 00:00:00" H 2850 850 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 2850 760 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 2850 670 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2850 580 60  0001 L CNN "License"
+F 39 "+standalone" H 1500 4300 50  0000 R CNN "config"
 	1    2850 4350
 	-1   0    0    1   
 $EndComp
@@ -3264,6 +3281,7 @@ F 35 "12/03/07 00:00:00" H 2850 1550 60  0001 L CNN "CreateDate"
 F 36 "12/03/07 00:00:00" H 2850 1460 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors SMD" H 2850 1370 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2850 1280 60  0001 L CNN "License"
+F 39 "+standalone" H 1500 5000 50  0000 R CNN "config"
 	1    2850 5050
 	-1   0    0    1   
 $EndComp
@@ -3461,20 +3479,46 @@ Wire Wire Line
 	3600 3150 4150 3150
 Text Label 4150 2050 2    50   ~ 10
 MGT_RX_0_N
-Text Notes 8500 6750 0    50   ~ 10
+Text Notes 8950 6650 0    50   ~ 10
 config fields / PCB variants
-Text Notes 9050 6900 2    50   Italic 0
+Text Notes 9500 6800 2    50   Italic 0
 no annotation
-Text Notes 9050 7000 2    50   Italic 0
+Text Notes 9500 6900 2    50   Italic 0
 dnf
-Text Notes 9050 7100 2    50   Italic 0
+Text Notes 9500 7000 2    50   Italic 0
 -standalone
-Text Notes 9150 6900 0    50   ~ 0
+Text Notes 9600 6800 0    50   ~ 0
 fit the capacitor in any case
-Text Notes 9150 7000 0    50   ~ 0
+Text Notes 9600 6900 0    50   ~ 0
 do not fit the capacitor
-Text Notes 9150 7100 0    50   ~ 0
-dnf when assembling Marble without AMC
+Text Notes 9600 7000 0    50   ~ 0
+dnf when assembling standalone variant
 Text Label 4150 6150 2    50   ~ 10
 SI570_CLK_N
+Text Notes 9500 7100 2    50   Italic 0
++standalone
+Text Notes 9600 7100 0    50   ~ 0
+fit only for standalone variant
+Text Notes 5900 5850 0    50   Italic 0
+AMC port
+Text Notes 5900 5700 0    50   ~ 10
+default
+Text Notes 5800 6000 2    50   ~ 0
+gigabit clock 1 from
+Text Notes 5900 6000 0    50   Italic 0
+AMC port
+Text Notes 5900 6150 0    50   Italic 0
+CDCM61004
+Text Notes 5800 6150 2    50   ~ 0
+gigabit clock 0 from
+Text Notes 6450 5850 0    50   Italic 0
+4 x SFP modules
+Text Notes 6450 5700 0    50   ~ 10
+standalone
+Text Notes 6450 6000 0    50   Italic 0
+U.FL connector (J2, J5)
+Text Notes 6450 6150 0    50   Italic 0
+CDCM61004 (U20)
+Text Notes 5800 5850 2    50   ~ 0
+8 x gigabit lanes to
 $EndSCHEMATC
