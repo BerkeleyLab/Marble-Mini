@@ -1166,15 +1166,15 @@ Wire Wire Line
 	12550 9200 12700 9200
 Connection ~ 10850 9200
 $Comp
-L Resistors_SMD:R0402_49R9_1%_0.0625W_100PPM R226
+L Resistors_SMD:R0402_51R_1%_0.0625W_100PPM R226
 U 1 1 5F5CA88B
 P 8200 7500
 F 0 "R226" H 8250 7400 50  0000 L CNN
-F 1 "R0402_49R9_1%_0.0625W_100PPM" H 8200 7290 60  0001 L CNN
+F 1 "R0402_51R_1%_0.0625W_100PPM" H 8200 7290 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 8200 6480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 8200 7110 60  0001 L CNN
-F 4 "49R9" H 8250 7600 50  0000 L CNN "Val"
-F 5 "R0402_49R9_1%_0.0625W_100PPM" H 8200 7020 60  0001 L CNN "Part Number"
+F 4 "51" H 8250 7600 50  0000 L CNN "Val"
+F 5 "R0402_51R_1%_0.0625W_100PPM" H 8200 7020 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 8200 6930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 8200 6840 60  0001 L CNN "Library Path"
 F 8 "=Value" H 8200 6750 60  0001 L CNN "Comment"
@@ -1191,7 +1191,7 @@ F 18 " " H 8200 5670 60  0001 L CNN "Voltage"
 F 19 "±1%" H 8200 5580 60  0001 L CNN "Tolerance"
 F 20 "General Purpose Thick Film Chip Resistor" H 8200 5490 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 8200 5400 60  0001 L CNN "Manufacturer"
-F 22 "R0402_49R9_1%_0.0625W_100PPM" H 8200 5310 60  0001 L CNN "Manufacturer Part Number"
+F 22 "R0402_51R_1%_0.0625W_100PPM" H 8200 5310 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 8200 5220 60  0001 L CNN "Case"
 F 24 "No" H 8200 5130 60  0001 L CNN "PressFit"
 F 25 "Yes" H 8200 5040 60  0001 L CNN "Mounted"
@@ -1202,11 +1202,11 @@ F 29 "No" H 8200 4680 60  0001 L CNN "Socket"
 F 30 "Yes" H 8200 4590 60  0001 L CNN "SMD"
 F 31 " " H 8200 4500 60  0001 L CNN "ComponentHeight"
 F 32 "YAGEO PHYCOMP" H 8200 4410 60  0001 L CNN "Manufacturer1 Example"
-F 33 "232270674999L or RC0402FR-0749R9L" H 8200 4320 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "232270675109L" H 8200 4320 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.4mm" H 8200 4230 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 8200 4050 60  0001 L CNN "Author"
-F 36 "10/24/12 00:00:00" H 8200 3960 60  0001 L CNN "CreateDate"
-F 37 "10/24/12 00:00:00" H 8200 3870 60  0001 L CNN "LatestRevisionDate"
+F 36 "12/03/07 00:00:00" H 8200 3960 60  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 8200 3870 60  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 8200 3780 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8200 3690 60  0001 L CNN "License"
 	1    8200 7500
@@ -1217,15 +1217,15 @@ Wire Wire Line
 Wire Wire Line
 	6100 7500 6400 7500
 $Comp
-L Resistors_SMD:R0402_49R9_1%_0.0625W_100PPM R219
+L Resistors_SMD:R0402_51R_1%_0.0625W_100PPM R219
 U 1 1 5F62CBCC
 P 7900 7500
 F 0 "R219" H 7950 7400 50  0000 L CNN
-F 1 "R0402_49R9_1%_0.0625W_100PPM" H 7900 7290 60  0001 L CNN
+F 1 "R0402_51R_1%_0.0625W_100PPM" H 7900 7290 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 7900 6480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 7900 7110 60  0001 L CNN
-F 4 "49R9" H 7950 7600 50  0000 L CNN "Val"
-F 5 "R0402_49R9_1%_0.0625W_100PPM" H 7900 7020 60  0001 L CNN "Part Number"
+F 4 "51" H 7950 7600 50  0000 L CNN "Val"
+F 5 "R0402_51R_1%_0.0625W_100PPM" H 7900 7020 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 7900 6930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 7900 6840 60  0001 L CNN "Library Path"
 F 8 "=Value" H 7900 6750 60  0001 L CNN "Comment"
@@ -1242,7 +1242,7 @@ F 18 " " H 7900 5670 60  0001 L CNN "Voltage"
 F 19 "±1%" H 7900 5580 60  0001 L CNN "Tolerance"
 F 20 "General Purpose Thick Film Chip Resistor" H 7900 5490 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 7900 5400 60  0001 L CNN "Manufacturer"
-F 22 "R0402_49R9_1%_0.0625W_100PPM" H 7900 5310 60  0001 L CNN "Manufacturer Part Number"
+F 22 "R0402_51R_1%_0.0625W_100PPM" H 7900 5310 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 7900 5220 60  0001 L CNN "Case"
 F 24 "No" H 7900 5130 60  0001 L CNN "PressFit"
 F 25 "Yes" H 7900 5040 60  0001 L CNN "Mounted"
@@ -1253,26 +1253,26 @@ F 29 "No" H 7900 4680 60  0001 L CNN "Socket"
 F 30 "Yes" H 7900 4590 60  0001 L CNN "SMD"
 F 31 " " H 7900 4500 60  0001 L CNN "ComponentHeight"
 F 32 "YAGEO PHYCOMP" H 7900 4410 60  0001 L CNN "Manufacturer1 Example"
-F 33 "232270674999L or RC0402FR-0749R9L" H 7900 4320 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "232270675109L" H 7900 4320 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.4mm" H 7900 4230 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 7900 4050 60  0001 L CNN "Author"
-F 36 "10/24/12 00:00:00" H 7900 3960 60  0001 L CNN "CreateDate"
-F 37 "10/24/12 00:00:00" H 7900 3870 60  0001 L CNN "LatestRevisionDate"
+F 36 "12/03/07 00:00:00" H 7900 3960 60  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 7900 3870 60  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 7900 3780 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7900 3690 60  0001 L CNN "License"
 	1    7900 7500
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistors_SMD:R0402_49R9_1%_0.0625W_100PPM R211
+L Resistors_SMD:R0402_51R_1%_0.0625W_100PPM R211
 U 1 1 5F64CF3F
 P 7600 7500
 F 0 "R211" H 7650 7400 50  0000 L CNN
-F 1 "R0402_49R9_1%_0.0625W_100PPM" H 7600 7290 60  0001 L CNN
+F 1 "R0402_51R_1%_0.0625W_100PPM" H 7600 7290 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 7600 6480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 7600 7110 60  0001 L CNN
-F 4 "49R9" H 7650 7600 50  0000 L CNN "Val"
-F 5 "R0402_49R9_1%_0.0625W_100PPM" H 7600 7020 60  0001 L CNN "Part Number"
+F 4 "51" H 7650 7600 50  0000 L CNN "Val"
+F 5 "R0402_51R_1%_0.0625W_100PPM" H 7600 7020 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 7600 6930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 7600 6840 60  0001 L CNN "Library Path"
 F 8 "=Value" H 7600 6750 60  0001 L CNN "Comment"
@@ -1289,7 +1289,7 @@ F 18 " " H 7600 5670 60  0001 L CNN "Voltage"
 F 19 "±1%" H 7600 5580 60  0001 L CNN "Tolerance"
 F 20 "General Purpose Thick Film Chip Resistor" H 7600 5490 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 7600 5400 60  0001 L CNN "Manufacturer"
-F 22 "R0402_49R9_1%_0.0625W_100PPM" H 7600 5310 60  0001 L CNN "Manufacturer Part Number"
+F 22 "R0402_51R_1%_0.0625W_100PPM" H 7600 5310 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 7600 5220 60  0001 L CNN "Case"
 F 24 "No" H 7600 5130 60  0001 L CNN "PressFit"
 F 25 "Yes" H 7600 5040 60  0001 L CNN "Mounted"
@@ -1300,26 +1300,26 @@ F 29 "No" H 7600 4680 60  0001 L CNN "Socket"
 F 30 "Yes" H 7600 4590 60  0001 L CNN "SMD"
 F 31 " " H 7600 4500 60  0001 L CNN "ComponentHeight"
 F 32 "YAGEO PHYCOMP" H 7600 4410 60  0001 L CNN "Manufacturer1 Example"
-F 33 "232270674999L or RC0402FR-0749R9L" H 7600 4320 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "232270675109L" H 7600 4320 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.4mm" H 7600 4230 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 7600 4050 60  0001 L CNN "Author"
-F 36 "10/24/12 00:00:00" H 7600 3960 60  0001 L CNN "CreateDate"
-F 37 "10/24/12 00:00:00" H 7600 3870 60  0001 L CNN "LatestRevisionDate"
+F 36 "12/03/07 00:00:00" H 7600 3960 60  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 7600 3870 60  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 7600 3780 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7600 3690 60  0001 L CNN "License"
 	1    7600 7500
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistors_SMD:R0402_49R9_1%_0.0625W_100PPM R208
+L Resistors_SMD:R0402_51R_1%_0.0625W_100PPM R208
 U 1 1 5F66D2B5
 P 7300 7500
 F 0 "R208" H 7350 7400 50  0000 L CNN
-F 1 "R0402_49R9_1%_0.0625W_100PPM" H 7300 7290 60  0001 L CNN
+F 1 "R0402_51R_1%_0.0625W_100PPM" H 7300 7290 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 7300 6480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 7300 7110 60  0001 L CNN
-F 4 "49R9" H 7350 7600 50  0000 L CNN "Val"
-F 5 "R0402_49R9_1%_0.0625W_100PPM" H 7300 7020 60  0001 L CNN "Part Number"
+F 4 "51" H 7350 7600 50  0000 L CNN "Val"
+F 5 "R0402_51R_1%_0.0625W_100PPM" H 7300 7020 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 7300 6930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 7300 6840 60  0001 L CNN "Library Path"
 F 8 "=Value" H 7300 6750 60  0001 L CNN "Comment"
@@ -1336,7 +1336,7 @@ F 18 " " H 7300 5670 60  0001 L CNN "Voltage"
 F 19 "±1%" H 7300 5580 60  0001 L CNN "Tolerance"
 F 20 "General Purpose Thick Film Chip Resistor" H 7300 5490 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 7300 5400 60  0001 L CNN "Manufacturer"
-F 22 "R0402_49R9_1%_0.0625W_100PPM" H 7300 5310 60  0001 L CNN "Manufacturer Part Number"
+F 22 "R0402_51R_1%_0.0625W_100PPM" H 7300 5310 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 7300 5220 60  0001 L CNN "Case"
 F 24 "No" H 7300 5130 60  0001 L CNN "PressFit"
 F 25 "Yes" H 7300 5040 60  0001 L CNN "Mounted"
@@ -1347,26 +1347,26 @@ F 29 "No" H 7300 4680 60  0001 L CNN "Socket"
 F 30 "Yes" H 7300 4590 60  0001 L CNN "SMD"
 F 31 " " H 7300 4500 60  0001 L CNN "ComponentHeight"
 F 32 "YAGEO PHYCOMP" H 7300 4410 60  0001 L CNN "Manufacturer1 Example"
-F 33 "232270674999L or RC0402FR-0749R9L" H 7300 4320 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "232270675109L" H 7300 4320 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.4mm" H 7300 4230 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 7300 4050 60  0001 L CNN "Author"
-F 36 "10/24/12 00:00:00" H 7300 3960 60  0001 L CNN "CreateDate"
-F 37 "10/24/12 00:00:00" H 7300 3870 60  0001 L CNN "LatestRevisionDate"
+F 36 "12/03/07 00:00:00" H 7300 3960 60  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 7300 3870 60  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 7300 3780 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7300 3690 60  0001 L CNN "License"
 	1    7300 7500
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistors_SMD:R0402_49R9_1%_0.0625W_100PPM R207
+L Resistors_SMD:R0402_51R_1%_0.0625W_100PPM R207
 U 1 1 5F68D62E
 P 7000 7500
 F 0 "R207" H 7050 7400 50  0000 L CNN
-F 1 "R0402_49R9_1%_0.0625W_100PPM" H 7000 7290 60  0001 L CNN
+F 1 "R0402_51R_1%_0.0625W_100PPM" H 7000 7290 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 7000 6480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 7000 7110 60  0001 L CNN
-F 4 "49R9" H 7050 7600 50  0000 L CNN "Val"
-F 5 "R0402_49R9_1%_0.0625W_100PPM" H 7000 7020 60  0001 L CNN "Part Number"
+F 4 "51" H 7050 7600 50  0000 L CNN "Val"
+F 5 "R0402_51R_1%_0.0625W_100PPM" H 7000 7020 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 7000 6930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 7000 6840 60  0001 L CNN "Library Path"
 F 8 "=Value" H 7000 6750 60  0001 L CNN "Comment"
@@ -1383,7 +1383,7 @@ F 18 " " H 7000 5670 60  0001 L CNN "Voltage"
 F 19 "±1%" H 7000 5580 60  0001 L CNN "Tolerance"
 F 20 "General Purpose Thick Film Chip Resistor" H 7000 5490 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 7000 5400 60  0001 L CNN "Manufacturer"
-F 22 "R0402_49R9_1%_0.0625W_100PPM" H 7000 5310 60  0001 L CNN "Manufacturer Part Number"
+F 22 "R0402_51R_1%_0.0625W_100PPM" H 7000 5310 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 7000 5220 60  0001 L CNN "Case"
 F 24 "No" H 7000 5130 60  0001 L CNN "PressFit"
 F 25 "Yes" H 7000 5040 60  0001 L CNN "Mounted"
@@ -1394,26 +1394,26 @@ F 29 "No" H 7000 4680 60  0001 L CNN "Socket"
 F 30 "Yes" H 7000 4590 60  0001 L CNN "SMD"
 F 31 " " H 7000 4500 60  0001 L CNN "ComponentHeight"
 F 32 "YAGEO PHYCOMP" H 7000 4410 60  0001 L CNN "Manufacturer1 Example"
-F 33 "232270674999L or RC0402FR-0749R9L" H 7000 4320 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "232270675109L" H 7000 4320 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.4mm" H 7000 4230 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 7000 4050 60  0001 L CNN "Author"
-F 36 "10/24/12 00:00:00" H 7000 3960 60  0001 L CNN "CreateDate"
-F 37 "10/24/12 00:00:00" H 7000 3870 60  0001 L CNN "LatestRevisionDate"
+F 36 "12/03/07 00:00:00" H 7000 3960 60  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 7000 3870 60  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 7000 3780 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7000 3690 60  0001 L CNN "License"
 	1    7000 7500
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistors_SMD:R0402_49R9_1%_0.0625W_100PPM R206
+L Resistors_SMD:R0402_51R_1%_0.0625W_100PPM R206
 U 1 1 5F6AD9A8
 P 6700 7500
 F 0 "R206" H 6750 7400 50  0000 L CNN
-F 1 "R0402_49R9_1%_0.0625W_100PPM" H 6700 7290 60  0001 L CNN
+F 1 "R0402_51R_1%_0.0625W_100PPM" H 6700 7290 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6700 6480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6700 7110 60  0001 L CNN
-F 4 "49R9" H 6750 7600 50  0000 L CNN "Val"
-F 5 "R0402_49R9_1%_0.0625W_100PPM" H 6700 7020 60  0001 L CNN "Part Number"
+F 4 "51" H 6750 7600 50  0000 L CNN "Val"
+F 5 "R0402_51R_1%_0.0625W_100PPM" H 6700 7020 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6700 6930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6700 6840 60  0001 L CNN "Library Path"
 F 8 "=Value" H 6700 6750 60  0001 L CNN "Comment"
@@ -1430,7 +1430,7 @@ F 18 " " H 6700 5670 60  0001 L CNN "Voltage"
 F 19 "±1%" H 6700 5580 60  0001 L CNN "Tolerance"
 F 20 "General Purpose Thick Film Chip Resistor" H 6700 5490 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 6700 5400 60  0001 L CNN "Manufacturer"
-F 22 "R0402_49R9_1%_0.0625W_100PPM" H 6700 5310 60  0001 L CNN "Manufacturer Part Number"
+F 22 "R0402_51R_1%_0.0625W_100PPM" H 6700 5310 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 6700 5220 60  0001 L CNN "Case"
 F 24 "No" H 6700 5130 60  0001 L CNN "PressFit"
 F 25 "Yes" H 6700 5040 60  0001 L CNN "Mounted"
@@ -1441,26 +1441,26 @@ F 29 "No" H 6700 4680 60  0001 L CNN "Socket"
 F 30 "Yes" H 6700 4590 60  0001 L CNN "SMD"
 F 31 " " H 6700 4500 60  0001 L CNN "ComponentHeight"
 F 32 "YAGEO PHYCOMP" H 6700 4410 60  0001 L CNN "Manufacturer1 Example"
-F 33 "232270674999L or RC0402FR-0749R9L" H 6700 4320 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "232270675109L" H 6700 4320 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.4mm" H 6700 4230 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 6700 4050 60  0001 L CNN "Author"
-F 36 "10/24/12 00:00:00" H 6700 3960 60  0001 L CNN "CreateDate"
-F 37 "10/24/12 00:00:00" H 6700 3870 60  0001 L CNN "LatestRevisionDate"
+F 36 "12/03/07 00:00:00" H 6700 3960 60  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 6700 3870 60  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 6700 3780 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6700 3690 60  0001 L CNN "License"
 	1    6700 7500
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistors_SMD:R0402_49R9_1%_0.0625W_100PPM R164
+L Resistors_SMD:R0402_51R_1%_0.0625W_100PPM R164
 U 1 1 5F6CDD23
 P 6400 7500
 F 0 "R164" H 6450 7400 50  0000 L CNN
-F 1 "R0402_49R9_1%_0.0625W_100PPM" H 6400 7290 60  0001 L CNN
+F 1 "R0402_51R_1%_0.0625W_100PPM" H 6400 7290 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6400 6480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6400 7110 60  0001 L CNN
-F 4 "49R9" H 6450 7600 50  0000 L CNN "Val"
-F 5 "R0402_49R9_1%_0.0625W_100PPM" H 6400 7020 60  0001 L CNN "Part Number"
+F 4 "51" H 6450 7600 50  0000 L CNN "Val"
+F 5 "R0402_51R_1%_0.0625W_100PPM" H 6400 7020 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6400 6930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6400 6840 60  0001 L CNN "Library Path"
 F 8 "=Value" H 6400 6750 60  0001 L CNN "Comment"
@@ -1477,7 +1477,7 @@ F 18 " " H 6400 5670 60  0001 L CNN "Voltage"
 F 19 "±1%" H 6400 5580 60  0001 L CNN "Tolerance"
 F 20 "General Purpose Thick Film Chip Resistor" H 6400 5490 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 6400 5400 60  0001 L CNN "Manufacturer"
-F 22 "R0402_49R9_1%_0.0625W_100PPM" H 6400 5310 60  0001 L CNN "Manufacturer Part Number"
+F 22 "R0402_51R_1%_0.0625W_100PPM" H 6400 5310 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 6400 5220 60  0001 L CNN "Case"
 F 24 "No" H 6400 5130 60  0001 L CNN "PressFit"
 F 25 "Yes" H 6400 5040 60  0001 L CNN "Mounted"
@@ -1488,26 +1488,26 @@ F 29 "No" H 6400 4680 60  0001 L CNN "Socket"
 F 30 "Yes" H 6400 4590 60  0001 L CNN "SMD"
 F 31 " " H 6400 4500 60  0001 L CNN "ComponentHeight"
 F 32 "YAGEO PHYCOMP" H 6400 4410 60  0001 L CNN "Manufacturer1 Example"
-F 33 "232270674999L or RC0402FR-0749R9L" H 6400 4320 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "232270675109L" H 6400 4320 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.4mm" H 6400 4230 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 6400 4050 60  0001 L CNN "Author"
-F 36 "10/24/12 00:00:00" H 6400 3960 60  0001 L CNN "CreateDate"
-F 37 "10/24/12 00:00:00" H 6400 3870 60  0001 L CNN "LatestRevisionDate"
+F 36 "12/03/07 00:00:00" H 6400 3960 60  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 6400 3870 60  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 6400 3780 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 3690 60  0001 L CNN "License"
 	1    6400 7500
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistors_SMD:R0402_49R9_1%_0.0625W_100PPM R141
+L Resistors_SMD:R0402_51R_1%_0.0625W_100PPM R141
 U 1 1 5F6EE09D
 P 6100 7500
 F 0 "R141" H 6150 7400 50  0000 L CNN
-F 1 "R0402_49R9_1%_0.0625W_100PPM" H 6100 7290 60  0001 L CNN
+F 1 "R0402_51R_1%_0.0625W_100PPM" H 6100 7290 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 6100 6480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6100 7110 60  0001 L CNN
-F 4 "49R9" H 6150 7600 50  0000 L CNN "Val"
-F 5 "R0402_49R9_1%_0.0625W_100PPM" H 6100 7020 60  0001 L CNN "Part Number"
+F 4 "51" H 6150 7600 50  0000 L CNN "Val"
+F 5 "R0402_51R_1%_0.0625W_100PPM" H 6100 7020 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6100 6930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6100 6840 60  0001 L CNN "Library Path"
 F 8 "=Value" H 6100 6750 60  0001 L CNN "Comment"
@@ -1524,7 +1524,7 @@ F 18 " " H 6100 5670 60  0001 L CNN "Voltage"
 F 19 "±1%" H 6100 5580 60  0001 L CNN "Tolerance"
 F 20 "General Purpose Thick Film Chip Resistor" H 6100 5490 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 6100 5400 60  0001 L CNN "Manufacturer"
-F 22 "R0402_49R9_1%_0.0625W_100PPM" H 6100 5310 60  0001 L CNN "Manufacturer Part Number"
+F 22 "R0402_51R_1%_0.0625W_100PPM" H 6100 5310 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 6100 5220 60  0001 L CNN "Case"
 F 24 "No" H 6100 5130 60  0001 L CNN "PressFit"
 F 25 "Yes" H 6100 5040 60  0001 L CNN "Mounted"
@@ -1535,11 +1535,11 @@ F 29 "No" H 6100 4680 60  0001 L CNN "Socket"
 F 30 "Yes" H 6100 4590 60  0001 L CNN "SMD"
 F 31 " " H 6100 4500 60  0001 L CNN "ComponentHeight"
 F 32 "YAGEO PHYCOMP" H 6100 4410 60  0001 L CNN "Manufacturer1 Example"
-F 33 "232270674999L or RC0402FR-0749R9L" H 6100 4320 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "232270675109L" H 6100 4320 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.4mm" H 6100 4230 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 6100 4050 60  0001 L CNN "Author"
-F 36 "10/24/12 00:00:00" H 6100 3960 60  0001 L CNN "CreateDate"
-F 37 "10/24/12 00:00:00" H 6100 3870 60  0001 L CNN "LatestRevisionDate"
+F 36 "12/03/07 00:00:00" H 6100 3960 60  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 6100 3870 60  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 6100 3780 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6100 3690 60  0001 L CNN "License"
 	1    6100 7500
