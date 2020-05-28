@@ -12,25 +12,13 @@
 #
 # click schematic
 #  Tools / Generate Bill of Materials
+#    Make sure `Command line:` is empty
 #    Generate, Close
 #
 # click layout
-#    press "B" to refill the zones
 #    highly recommended to run DRC
 #
-#  File / Fabrication Outputs / Footprint Position (.pos) File ...
-#    [X] ASCII
-#    [X] Millimeters
-#    [X] Single file for board
-#    Generate Position File
-#
-#  File / Fabrication Outputs / Drill (.drl) File ...
-#
 #  File / Fabrication Outputs / IPC-D-356 Netlist File ...
-#
-#  File / Plot
-#    Gerber
-#      Plot
 #
 set -e
 # Assume kicad is in our $PATH
@@ -42,9 +30,12 @@ KB=$HOME/git/KiBoM/KiBOM_CLI.py
 # Then checkout commit 38525f3.  Master branch (as of July 10, 2019,
 # commit 5c25a8c) fails, and I have not investigated why.
 
-# remove any stray stale files 
+# remove any stray stale files
 # AMC_FMC_Carrier-PcbDoc_bom_9.csv is checked into git, which is a mistake.
 rm -f marble*.dat ${A}_bom_9.csv
+
+# Generate .drl, .pos and .gbr files
+python kicad_exporter.py $A.kicad_pcb PCB_layers
 
 # Check that all the right files are made
 die=0
@@ -58,7 +49,10 @@ echo OK
 
 # Run KiBoM from the command line
 echo running KiBoM
+# for KiBom 38525f3
 python $KB $A.xml $A
+# for KiBom dae2583
+# python3 -m kibom $A.xml .csv
 echo KiBoM complete
 
 # One more cross-check
