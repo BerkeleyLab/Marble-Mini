@@ -14,11 +14,11 @@ def xy_main(iname, oname, verbose=False):
         for row in reader:
             if len(row) > 3 and row[0][0] in "123456789":
                 # print(row)
-                partn = row[6]  # header in _bom_9.csv describes this as "Value"
+                partn = row[8]  # header in _bom_9.csv describes this as "Value"
                 if "SLOT" in partn or "HOLE" in partn:
                     continue
                 order_count += 1
-                refids = row[3].split()
+                refids = row[5].split()
                 for r in refids:
                     refids_keep[r] = True
                 orders[partn] = orders[partn]+len(refids) if partn in orders else len(refids)
@@ -46,6 +46,9 @@ def xy_main(iname, oname, verbose=False):
                         p_top[partn] = p_top[partn]+1 if partn in p_top else 1
                     if s_bot:
                         p_bot[partn] = p_bot[partn]+1 if partn in p_bot else 1
+                else:
+                    # print("skipping refid %s (%s)" % (refid, partn))
+                    pass
     if verbose:
         # Long list
         print(".. top bot  SMD components")
