@@ -14,11 +14,11 @@ def xy_main(iname, oname, verbose=False):
         for row in reader:
             if len(row) > 3 and row[0][0] in "123456789":
                 # print(row)
-                partn = row[8]  # header in _bom_9.csv describes this as "Value"
+                partn = row[6]  # header in _bom_9.csv describes this as "Value"
                 if "SLOT" in partn or "HOLE" in partn:
                     continue
                 order_count += 1
-                refids = row[5].split()
+                refids = row[3].split()
                 for r in refids:
                     refids_keep[r] = True
                 orders[partn] = orders[partn]+len(refids) if partn in orders else len(refids)
