@@ -153,6 +153,10 @@ class Kicad_exporter:
         for m in modules:
             if m.GetAttributes() & pcbnew.MOD_VIRTUAL:  # skip if virtual!
                 continue
+
+            if m.GetAttributes() & pcbnew.MOD_CMS == 0:  # skip if not SMD
+                continue
+
             m_props.append(self.get_pos_props(m))
 
         m_props = natural_sort(m_props)  # naturally sort by reference
