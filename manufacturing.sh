@@ -28,7 +28,14 @@ KB=$HOME/git/KiBoM/KiBOM_CLI.py
 # KiBoM is cloned from
 # https://github.com/SchrodingersGat/KiBoM
 # Then checkout commit 38525f3.  Master branch (as of July 10, 2019,
-# commit 5c25a8c) fails, and I have not investigated why.
+# commit 5c25a8c) fails, see KiBoM issue #101
+#   https://github.com/SchrodingersGat/KiBoM/issues/101
+
+# Make sure we're running under bash so brace expansion works
+if ! test "`echo A{B,C}`" = "AB AC"; then
+  echo "Error, not running under bash"
+  exit 1
+fi
 
 # remove any stray stale files
 # AMC_FMC_Carrier-PcbDoc_bom_9.csv is checked into git, which is a mistake.
@@ -63,6 +70,11 @@ test "$f" = `find "$f" -newer $A.xml`
 echo generated files are OK
 echo starting post-processing
 
+# Map generics to orderables
+# Implied dependence on file generic_subst
+test -r generic_subst
+python3 non_generic.py "$f" "${A}_bom_9a.csv"
+
 # Additional postprocessing
 # input ${A}_bom_9.csv $A-all.pos
 # output marble-xy.pos
@@ -78,7 +90,7 @@ for f in *.gbr *.drl; do
 done
 cd ..
 cp marble-xy.pos fab/marble-xy.pos
-cp ${A}_bom_9.csv fab/marble-bom.csv
+cp ${A}_bom_9a.csv fab/marble-bom.csv
 cp $A.d356 fab/marble-ipc-d-356.txt
 cp stackup.csv.txt fab/marble-stack.txt
 # XXX confirm/correct board stackup diagram with Creotech
