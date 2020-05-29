@@ -2556,4 +2556,10 @@ Wire Wire Line
 	4300 15250 4500 15250
 Text Notes 4950 15050 0    50   ~ 0
 AMC holes not grounded
+Wire Wire Line
+	5000 15250 5150 15250
+Wire Wire Line
+	5000 15500 5150 15500
+NoConn ~ 5150 15250
+NoConn ~ 5150 15500
 $EndSCHEMATC
