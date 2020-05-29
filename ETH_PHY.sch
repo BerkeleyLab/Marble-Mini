@@ -2419,6 +2419,7 @@ F 32 "04/30/14 00:00:00" H 12500 -4380 60  0001 L CNN "CreateDate"
 F 33 "04/30/14 00:00:00" H 12500 -4470 60  0001 L CNN "LatestRevisionDate"
 F 34 "Miscellaneous THD" H 12500 -4560 60  0001 L CNN "Library Name"
 F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12500 -4650 60  0001 L CNN "License"
+F 36 "+standalone" H 12500 1900 50  0001 C CNN "config"
 	1    12500 1900
 	1    0    0    -1  
 $EndComp

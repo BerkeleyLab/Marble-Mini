@@ -1427,6 +1427,7 @@ F 33 "06/04/13 00:00:00" H 2550 -2130 60  0001 L CNN "CreateDate"
 F 34 "06/12/13 00:00:00" H 2550 -2220 60  0001 L CNN "LatestRevisionDate"
 F 35 "TYCO" H 2550 -2310 60  0001 L CNN "Library Name"
 F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 -2400 60  0001 L CNN "License"
+F 37 "+standalone" H 2550 4100 50  0001 C CNN "config"
 	1    2550 4100
 	1    0    0    -1  
 $EndComp

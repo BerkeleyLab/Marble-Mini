@@ -668,6 +668,7 @@ F 4 "Power-over-Ethernet Plus Module" H 6700 8200 50  0001 L CNN "Description"
 F 5 "14" H 6700 8100 50  0001 L CNN "Height"
 F 6 "Silvertel" H 6700 7900 50  0001 L CNN "Manufacturer"
 F 7 "AG5300" H 6700 7800 50  0001 L CNN "Manufacturer Part Number"
+F 8 "+standalone" H 5550 8300 50  0001 C CNN "config"
 	1    5550 8300
 	1    0    0    -1  
 $EndComp
@@ -3551,6 +3552,7 @@ F 35 "12/19/07 00:00:00" H 6200 4700 60  0001 L CNN "CreateDate"
 F 36 "04/22/15 00:00:00" H 6200 4610 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors THD" H 6200 4520 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6200 4430 60  0001 L CNN "License"
+F 39 "+standalone" H 6200 8200 50  0001 C CNN "config"
 	1    6200 8200
 	1    0    0    -1  
 $EndComp
@@ -3597,6 +3599,7 @@ F 35 "12/19/07 00:00:00" H 6200 5950 60  0001 L CNN "CreateDate"
 F 36 "04/22/15 00:00:00" H 6200 5860 60  0001 L CNN "LatestRevisionDate"
 F 37 "Capacitors THD" H 6200 5770 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6200 5680 60  0001 L CNN "License"
+F 39 "+standalone" H 6200 9450 50  0001 C CNN "config"
 	1    6200 9450
 	1    0    0    -1  
 $EndComp
