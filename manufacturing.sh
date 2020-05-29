@@ -34,8 +34,8 @@ KB=$HOME/git/KiBoM/KiBOM_CLI.py
 # AMC_FMC_Carrier-PcbDoc_bom_9.csv is checked into git, which is a mistake.
 rm -f marble*.dat ${A}_bom_9.csv
 
-# Generate .drl, .pos and .gbr files
-python kicad_exporter.py $A.kicad_pcb PCB_layers
+echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
+python3 kicad_exporter.py $A.kicad_pcb PCB_layers
 
 # Check that all the right files are made
 die=0
