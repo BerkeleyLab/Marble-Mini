@@ -1816,7 +1816,7 @@ $EndSheet
 $Comp
 L power:GND #PWR?
 U 1 1 5D64BA99
-P 3600 15250
+P 3450 15250
 AR Path="/5BD32060/5D64BA99" Ref="#PWR?"  Part="1" 
 AR Path="/5BABAC65/5D64BA99" Ref="#PWR?"  Part="1" 
 AR Path="/5CC24E97/5D64BA99" Ref="#PWR?"  Part="1" 
@@ -1825,17 +1825,17 @@ AR Path="/5CC6DBF7/5D64BA99" Ref="#PWR?"  Part="1"
 AR Path="/5CC8AFE1/5D64BA99" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA3D/5D64BA99" Ref="#PWR?"  Part="1" 
 AR Path="/5D64BA99" Ref="#PWR0266"  Part="1" 
-F 0 "#PWR0266" H 3600 15000 50  0001 C CNN
-F 1 "GND" H 3605 15077 50  0000 C CNN
-F 2 "" H 3600 15250 50  0001 C CNN
-F 3 "" H 3600 15250 50  0001 C CNN
-	1    3600 15250
+F 0 "#PWR0266" H 3450 15000 50  0001 C CNN
+F 1 "GND" H 3455 15077 50  0000 C CNN
+F 2 "" H 3450 15250 50  0001 C CNN
+F 3 "" H 3450 15250 50  0001 C CNN
+	1    3450 15250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D67B2EB
-P 3600 15500
+P 3450 15500
 AR Path="/5BD32060/5D67B2EB" Ref="#PWR?"  Part="1" 
 AR Path="/5BABAC65/5D67B2EB" Ref="#PWR?"  Part="1" 
 AR Path="/5CC24E97/5D67B2EB" Ref="#PWR?"  Part="1" 
@@ -1844,11 +1844,11 @@ AR Path="/5CC6DBF7/5D67B2EB" Ref="#PWR?"  Part="1"
 AR Path="/5CC8AFE1/5D67B2EB" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA3D/5D67B2EB" Ref="#PWR?"  Part="1" 
 AR Path="/5D67B2EB" Ref="#PWR0467"  Part="1" 
-F 0 "#PWR0467" H 3600 15250 50  0001 C CNN
-F 1 "GND" H 3605 15327 50  0000 C CNN
-F 2 "" H 3600 15500 50  0001 C CNN
-F 3 "" H 3600 15500 50  0001 C CNN
-	1    3600 15500
+F 0 "#PWR0467" H 3450 15250 50  0001 C CNN
+F 1 "GND" H 3455 15327 50  0000 C CNN
+F 2 "" H 3450 15500 50  0001 C CNN
+F 3 "" H 3450 15500 50  0001 C CNN
+	1    3450 15500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2316,41 +2316,31 @@ branch: fab2
 $Comp
 L Pads:PLATED_HOLE2.8_PAD0 B10
 U 1 1 5EBE33C9
-P 3400 15500
-F 0 "B10" H 3390 15605 50  0000 C CNN
-F 1 "PLATED_HOLE2.8_PAD0" H 3400 15345 50  0001 L CNN
-F 2 "Marble:HOLE2.8_PAD0" H 3400 15270 50  0001 L CNN
-F 3 "" H 3400 15195 50  0001 L CNN
-F 4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3400 12495 50  0001 L CNN "License"
-F 5 "dnf" H 3400 15500 50  0001 C CNN "config"
-	1    3400 15500
+P 5000 15500
+F 0 "B10" H 4990 15605 50  0000 C CNN
+F 1 "PLATED_HOLE2.8_PAD0" H 5000 15345 50  0001 L CNN
+F 2 "Marble:HOLE2.8_PAD0" H 5000 15270 50  0001 L CNN
+F 3 "" H 5000 15195 50  0001 L CNN
+F 4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5000 12495 50  0001 L CNN "License"
+F 5 "dnf" H 5000 15500 50  0001 C CNN "config"
+	1    5000 15500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Pads:SLOT_2_11 B9
 U 1 1 5EBE3B57
-P 3400 15250
-F 0 "B9" H 3400 15350 50  0000 C CNN
-F 1 "SLOT_2_11" H 3400 15095 50  0001 L CNN
-F 2 "Marble:HOLE2_SLOT11" H 3400 15020 50  0001 L CNN
-F 3 "" H 3400 14945 50  0001 L CNN
-F 4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3400 12245 50  0001 L CNN "License"
-F 5 "dnf" H 3400 15250 50  0001 C CNN "config"
-	1    3400 15250
+P 5000 15250
+F 0 "B9" H 5000 15350 50  0000 C CNN
+F 1 "SLOT_2_11" H 5000 15095 50  0001 L CNN
+F 2 "Marble:HOLE2_SLOT11" H 5000 15020 50  0001 L CNN
+F 3 "" H 5000 14945 50  0001 L CNN
+F 4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5000 12245 50  0001 L CNN "License"
+F 5 "dnf" H 5000 15250 50  0001 C CNN "config"
+	1    5000 15250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 15250 3600 15250
-Wire Wire Line
-	3400 15250 3250 15250
-Connection ~ 3400 15250
 Connection ~ 3250 15250
-Wire Wire Line
-	3250 15500 3400 15500
 Connection ~ 3250 15500
-Wire Wire Line
-	3400 15500 3600 15500
-Connection ~ 3400 15500
 $Comp
 L Pads:PLATED_HOLE2.7_PAD5.0 B11
 U 1 1 5ECD5570
@@ -2446,7 +2436,7 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5ECDA445
-P 4350 15250
+P 4500 15250
 AR Path="/5BD32060/5ECDA445" Ref="#PWR?"  Part="1" 
 AR Path="/5BABAC65/5ECDA445" Ref="#PWR?"  Part="1" 
 AR Path="/5CC24E97/5ECDA445" Ref="#PWR?"  Part="1" 
@@ -2455,17 +2445,17 @@ AR Path="/5CC6DBF7/5ECDA445" Ref="#PWR?"  Part="1"
 AR Path="/5CC8AFE1/5ECDA445" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA3D/5ECDA445" Ref="#PWR?"  Part="1" 
 AR Path="/5ECDA445" Ref="#PWR0680"  Part="1" 
-F 0 "#PWR0680" H 4350 15000 50  0001 C CNN
-F 1 "GND" H 4355 15077 50  0000 C CNN
-F 2 "" H 4350 15250 50  0001 C CNN
-F 3 "" H 4350 15250 50  0001 C CNN
-	1    4350 15250
+F 0 "#PWR0680" H 4500 15000 50  0001 C CNN
+F 1 "GND" H 4505 15077 50  0000 C CNN
+F 2 "" H 4500 15250 50  0001 C CNN
+F 3 "" H 4500 15250 50  0001 C CNN
+	1    4500 15250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4000 15250 4150 15250
 Wire Wire Line
-	4150 15250 4350 15250
+	4150 15250 4300 15250
 Connection ~ 4150 15250
 Wire Notes Line
 	11350 3500 12150 3500
@@ -2511,4 +2501,59 @@ Text Label 13400 9800 2    50   ~ 10
 SI570_OE
 Wire Wire Line
 	12950 9800 13400 9800
+Wire Wire Line
+	3250 15500 3450 15500
+Wire Wire Line
+	3250 15250 3450 15250
+$Comp
+L Pads:PLATED_HOLE2.7_PAD5.0 B13
+U 1 1 5F05A5A0
+P 4300 15250
+F 0 "B13" H 4285 15355 50  0000 C CNN
+F 1 "PLATED_HOLE2.7_PAD5.0" H 4300 15080 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 4300 14270 60  0001 L CNN
+F 3 "" H 4300 14900 60  0001 L CNN
+F 4 "Plated Hole" H 4300 14810 60  0001 L CNN "Pole4"
+F 5 "PLATED_HOLE2.7_PAD5.0" H 4300 14810 60  0001 L CNN "Part Number"
+F 6 "Single Terminal Socket" H 4300 14720 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 4300 14630 60  0001 L CNN "Library Path"
+F 8 " " H 4300 14540 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 4300 14450 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 4300 14360 60  0001 L CNN "Component Type"
+F 11 "1" H 4300 14180 60  0001 L CNN "Pin Count"
+F 12 " " H 4300 14090 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 4300 14000 60  0001 L CNN "Footprint Path"
+F 14 "MTG270_500" H 4300 13910 60  0001 L CNN "Footprint Ref"
+F 15 "Plated Hole" H 4300 13820 60  0001 L CNN "Family"
+F 16 "No" H 4300 13730 60  0001 L CNN "Mounted"
+F 17 "No" H 4300 13640 60  0001 L CNN "Socket"
+F 18 "No" H 4300 13550 60  0001 L CNN "SMD"
+F 19 "No" H 4300 13460 60  0001 L CNN "Sense"
+F 20 " " H 4300 13370 60  0001 L CNN "Sense Comment"
+F 21 "None" H 4300 13280 60  0001 L CNN "Status"
+F 22 " " H 4300 13190 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4300 13010 60  0001 L CNN "Part Description"
+F 24 " " H 4300 12920 60  0001 L CNN "Manufacturer"
+F 25 " " H 4300 12830 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 4300 12740 60  0001 L CNN "ComponentHeight"
+F 27 " " H 4300 12650 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 4300 12560 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 4300 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 4300 12200 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 4300 12020 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 4300 11930 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 4300 11840 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 4300 11750 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4300 11660 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 4300 11570 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4300 11480 60  0001 L CNN "License"
+F 38 "dnf" H 4300 15250 50  0001 C CNN "config"
+	1    4300 15250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 15250
+Wire Wire Line
+	4300 15250 4500 15250
+Text Notes 4950 15050 0    50   ~ 0
+AMC holes not grounded
 $EndSCHEMATC
