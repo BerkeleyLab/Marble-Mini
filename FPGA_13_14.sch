@@ -683,17 +683,17 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R?
+L Resistors_SMD:R0402_1K_1%_0.0625W_100PPM R?
 U 1 1 5F9465E2
 P 12200 3300
 AR Path="/5C907554/5CAAC367/5F9465E2" Ref="R?"  Part="1" 
 AR Path="/5C907554/5CC8CB69/5F9465E2" Ref="R221"  Part="1" 
 F 0 "R221" V 12300 3350 50  0000 L CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 12200 3090 60  0001 L CNN
+F 1 "R0402_1K_1%_0.0625W_100PPM" H 12200 3090 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12200 2280 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 12200 2910 60  0001 L CNN
-F 4 "2k2" V 12395 3360 50  0000 L CNN "Val"
-F 5 "R0402_2K2_1%_0.0625W_100PPM" H 12200 2820 60  0001 L CNN "Part Number"
+F 4 "1k" V 12395 3360 50  0000 L CNN "Val"
+F 5 "R0402_1K_1%_0.0625W_100PPM" H 12200 2820 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12200 2730 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12200 2640 60  0001 L CNN "Library Path"
 F 8 "=Value" H 12200 2550 60  0001 L CNN "Comment"
@@ -710,7 +710,7 @@ F 18 " " H 12200 1470 60  0001 L CNN "Voltage"
 F 19 "±1%" H 12200 1380 60  0001 L CNN "Tolerance"
 F 20 "General Purpose Thick Film Chip Resistor" H 12200 1290 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 12200 1200 60  0001 L CNN "Manufacturer"
-F 22 "R0402_2K2_1%_0.0625W_100PPM" H 12200 1110 60  0001 L CNN "Manufacturer Part Number"
+F 22 "R0402_1K_1%_0.0625W_100PPM" H 12200 1110 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 12200 1020 60  0001 L CNN "Case"
 F 24 "No" H 12200 930 60  0001 L CNN "PressFit"
 F 25 "Yes" H 12200 840 60  0001 L CNN "Mounted"
@@ -721,7 +721,7 @@ F 29 "No" H 12200 480 60  0001 L CNN "Socket"
 F 30 "Yes" H 12200 390 60  0001 L CNN "SMD"
 F 31 " " H 12200 300 60  0001 L CNN "ComponentHeight"
 F 32 "YAGEO PHYCOMP" H 12200 210 60  0001 L CNN "Manufacturer1 Example"
-F 33 "232270672202L" H 12200 120 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "232270671002L" H 12200 120 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.4mm" H 12200 30  60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 12200 -150 60  0001 L CNN "Author"
 F 36 "12/03/07 00:00:00" H 12200 -240 60  0001 L CNN "CreateDate"
@@ -733,17 +733,17 @@ F 40 "dnf" V 12200 3350 50  0000 L CNN "config"
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R?
+L Resistors_SMD:R0402_1K_1%_0.0625W_100PPM R?
 U 1 1 5F958ABD
 P 12200 3600
 AR Path="/5C907554/5CAAC367/5F958ABD" Ref="R?"  Part="1" 
 AR Path="/5C907554/5CC8CB69/5F958ABD" Ref="R222"  Part="1" 
 F 0 "R222" V 12304 3660 50  0000 L CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 12200 3390 60  0001 L CNN
+F 1 "R0402_1K_1%_0.0625W_100PPM" H 12200 3390 60  0001 L CNN
 F 2 "Marble:RESC1005X40N" H 12200 2580 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 12200 3210 60  0001 L CNN
-F 4 "2k2" V 12395 3660 50  0000 L CNN "Val"
-F 5 "R0402_2K2_1%_0.0625W_100PPM" H 12200 3120 60  0001 L CNN "Part Number"
+F 4 "1k" V 12395 3660 50  0000 L CNN "Val"
+F 5 "R0402_1K_1%_0.0625W_100PPM" H 12200 3120 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12200 3030 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12200 2940 60  0001 L CNN "Library Path"
 F 8 "=Value" H 12200 2850 60  0001 L CNN "Comment"
@@ -760,7 +760,7 @@ F 18 " " H 12200 1770 60  0001 L CNN "Voltage"
 F 19 "±1%" H 12200 1680 60  0001 L CNN "Tolerance"
 F 20 "General Purpose Thick Film Chip Resistor" H 12200 1590 60  0001 L CNN "Part Description"
 F 21 "GENERIC" H 12200 1500 60  0001 L CNN "Manufacturer"
-F 22 "R0402_2K2_1%_0.0625W_100PPM" H 12200 1410 60  0001 L CNN "Manufacturer Part Number"
+F 22 "R0402_1K_1%_0.0625W_100PPM" H 12200 1410 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 12200 1320 60  0001 L CNN "Case"
 F 24 "No" H 12200 1230 60  0001 L CNN "PressFit"
 F 25 "Yes" H 12200 1140 60  0001 L CNN "Mounted"
@@ -771,7 +771,7 @@ F 29 "No" H 12200 780 60  0001 L CNN "Socket"
 F 30 "Yes" H 12200 690 60  0001 L CNN "SMD"
 F 31 " " H 12200 600 60  0001 L CNN "ComponentHeight"
 F 32 "YAGEO PHYCOMP" H 12200 510 60  0001 L CNN "Manufacturer1 Example"
-F 33 "232270672202L" H 12200 420 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "232270671002L" H 12200 420 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.4mm" H 12200 330 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 12200 150 60  0001 L CNN "Author"
 F 36 "12/03/07 00:00:00" H 12200 60  60  0001 L CNN "CreateDate"
