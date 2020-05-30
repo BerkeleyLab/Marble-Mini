@@ -1,11 +1,14 @@
 #!/bin/bash
-# It is supposedly possible to script some of the export steps,
-# e.g., see https://electronics.stackexchange.com/questions/390135/command-line-interface-for-kicad
-# For now I'll do those export steps by hand, as documented here.
+# run this script from the `Marble-Mini` project directory:
+# $ bash scripts/manufacturing.sh
+#
 # Versions tested on Debian Buster 2020-05-12:
-#  KiCad 5.1.5
+#  KiCad 5.1.5, 5.1.6-rc1
 #  KiBoM commit 38525f3  XXX port to 1.7.1
 #    (commit 38525f3 is not python3-compatible)
+#
+# The export-steps have been scripted as far as reasonably possible with
+# Kicad 5.1.x, some files still need to be generated manually ...
 #
 # Start the GUI with:
 #  kicad AMC_FMC_Carrier-PcbDoc.pro
@@ -42,7 +45,7 @@ fi
 rm -f marble*.dat ${A}_bom_9.csv
 
 echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
-python3 kicad_exporter.py $A.kicad_pcb PCB_layers
+python3 scripts/kicad_exporter.py $A.kicad_pcb PCB_layers
 
 # Check that all the right files are made
 die=0
@@ -56,10 +59,10 @@ echo OK
 
 # Run KiBoM from the command line
 echo running KiBoM
-# for KiBom 38525f3
-python $KB $A.xml $A
+# for KiBom 38525f3 (untested)
+python $KB --cfg scripts/bom.ini $A.xml $A
 # for KiBom dae2583
-# python3 -m kibom $A.xml .csv
+# python3 -m kibom --cfg scripts/bom.ini $A.xml .csv
 echo KiBoM complete
 
 # One more cross-check
@@ -72,14 +75,14 @@ echo starting post-processing
 
 # Map generics to orderables
 # Implied dependence on file generic_subst
-test -r generic_subst
-python3 non_generic.py "$f" "${A}_bom_9a.csv"
+test -r scripts/generic_subst
+python3 scripts/non_generic.py "$f" "${A}_bom_9a.csv"
 
 # Additional postprocessing
 # input ${A}_bom_9.csv $A-all.pos
 # output marble-xy.pos
-python3 xy_post.py ${A} marble v > marble-stuff.log
-python3 xy_post.py ${A} marble
+python3 scripts/xy_post.py ${A} marble v > marble-stuff.log
+python3 scripts/xy_post.py ${A} marble
 
 # Assemble files into fab directory
 rm -rf fab
@@ -97,7 +100,7 @@ cp stackup.csv.txt fab/marble-stack.txt
 
 # fancy Larry stuff, presumably nobody will care
 (cd fab && sha256sum * > marble-sha256.txt)
-(cat README_fab.txt; cd fab; sha256sum marble-sha256.txt) > fab/README_fab.txt
+(cat docs/README_fab.txt; cd fab; sha256sum marble-sha256.txt) > fab/README_fab.txt
 
 # Create the final zip file
 rm -f marble-fab.zip

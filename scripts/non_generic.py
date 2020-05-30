@@ -7,7 +7,7 @@ def non_generic(iname, oname, verbose=False):
     # Read mapping file
     manuf_ng = {}
     partn_ng = {}
-    with open("generic_subst", "r") as f:
+    with open("scripts/generic_subst", "r") as f:
         for ll in f.readlines():
             if ll[0] == "#":
                 continue

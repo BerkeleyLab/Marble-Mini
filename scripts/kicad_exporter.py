@@ -5,7 +5,7 @@ Script pcbnew fabrication output
 import sys
 import pcbnew
 import os
-from os.path import join
+from os.path import join, basename
 from datetime import datetime
 import re
 
@@ -28,17 +28,10 @@ class Kicad_exporter:
         plot_dir: output directory for the gerber files
         zone_refill: if True, re-calculate copper fills before plotting
         '''
-        self.f_name = f_name
         self.plot_dir = plot_dir
-        if not os.path.isfile(f_name) or not os.access(f_name, os.R_OK):
-            print("%s: not readable, aborting" % f_name)
-            return None
-        try:
-            self.board = board = pcbnew.LoadBoard(f_name)
-        except Exception:
-            print("%s: failed to load with pcbnew, aborting" % f_name)
-            return None
-        # after this point, chances of failure are low
+        # Will raise an exception if file cannot be opened
+        self.board = board = pcbnew.LoadBoard(f_name)
+        self.f_name = basename(f_name)
 
         if zone_refill:
             print('filling zones ...')

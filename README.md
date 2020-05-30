@@ -7,13 +7,13 @@ This design is the result of a collaboration between [LBNL](https://www.lbl.gov/
 
 ## Original concept:
 
-![block diagram](block_3.png)
+![block diagram](docs/block_3.png)
 
-## [Specifications](specs.md)
+## [Specifications](docs/specs.md)
 
 ## (Almost) Reality:
 
-![layout](marble_top.png)
+![layout](docs/marble_top.png)
 
 ## Configuration
 
@@ -59,15 +59,15 @@ To aid in understanding subsystems that are splattered over multiple sheets, her
 block diagrams that can act as introductions or indexes to the actual machine-readable
 and DRC'd schematics.
 
-* I2C subsystems: [marble_i2.eps](marble_i2c.eps)
-* Power Routing: [mm_power.eps](mm_power.eps)
+* I2C subsystems: [marble_i2.eps](docs/marble_i2c.eps)
+* Power Routing: [mm_power.eps](docs/mm_power.eps)
 
 These are EPS files, authored using xcircuit.
 Maybe you want to use GhostView to look at them.
 
 ## Generating artifacts for manufacturing
 
-This includes Gerbers and BoM files.  See manufacturing.sh.
+This includes Gerbers and BoM files.  See `scripts/manufacturing.sh`.
 
 ## Xilinx constraint file
 
