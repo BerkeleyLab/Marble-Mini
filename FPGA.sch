@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 "FPGA TOP"
 Comment4 ""
 $EndDescr
-Text HLabel 4050 5950 2    50   Input ~ 10
+Text HLabel 4250 5950 2    50   Input ~ 10
 FPGA_RESETn
 $Sheet
 S 2200 5050 1500 2000
@@ -32,36 +32,18 @@ F10 "CCLK" O R 3700 6300 50
 F11 "BOOT_MODE[0..2]" I R 3700 6450 50 
 F12 "PROG_B" I R 3700 6650 50 
 $EndSheet
-Wire Wire Line
-	3700 5950 4050 5950
-Text HLabel 4050 5500 2    50   Input ~ 10
+Text HLabel 4250 5500 2    50   Input ~ 10
 FPGA_TDI
-Text HLabel 4050 5600 2    50   Output ~ 10
+Text HLabel 4250 5600 2    50   Output ~ 10
 FPGA_TDO
-Text HLabel 4050 5700 2    50   Input ~ 10
+Text HLabel 4250 5700 2    50   Input ~ 10
 FPGA_TMS
-Text HLabel 4050 5800 2    50   Input ~ 10
+Text HLabel 4250 5800 2    50   Input ~ 10
 FPGA_TCK
-Wire Wire Line
-	4050 5500 3700 5500
-Wire Wire Line
-	4050 5600 3700 5600
-Wire Wire Line
-	4050 5700 3700 5700
-Wire Wire Line
-	4050 5800 3700 5800
-Text HLabel 4050 5200 2    50   Output ~ 10
+Text HLabel 4250 5200 2    50   Output ~ 10
 DXP_0
-Text HLabel 4050 5300 2    50   Output ~ 10
+Text HLabel 4250 5300 2    50   Output ~ 10
 DXN_0
-Wire Wire Line
-	3700 5200 4050 5200
-Wire Wire Line
-	4050 5300 3700 5300
-Text HLabel 4050 6100 2    50   Output ~ 10
-FPGA_DONE
-Wire Wire Line
-	4050 6100 3700 6100
 $Sheet
 S 8000 4850 1350 2800
 U 5DCA928C
@@ -240,10 +222,10 @@ Wire Wire Line
 	7650 6600 8000 6600
 Wire Wire Line
 	7650 6700 8000 6700
-Text HLabel 4050 6450 2    50   Input ~ 10
+Text HLabel 4200 6450 2    50   Input ~ 10
 BOOT_MODE[0..2]
 Wire Bus Line
-	3700 6450 4050 6450
+	3700 6450 4200 6450
 $Sheet
 S 2350 1700 1600 2100
 U 5C721515
@@ -276,7 +258,7 @@ F25 "FPGA_TxD" I R 3950 2950 50
 F26 "FPGA_RxD" O R 3950 3050 50 
 $EndSheet
 $Sheet
-S 6950 1700 1600 2400
+S 6950 1700 1600 2600
 U 5CAAC367
 F0 "FPGA_15_16" 50
 F1 "FPGA_15_16.sch" 50
@@ -315,6 +297,7 @@ F33 "RGMII_TX_EN" I L 6950 3400 50
 F34 "RGMII_TX_CLK" I L 6950 3500 50 
 F35 "RGMII_RX_DV" I L 6950 3600 50 
 F36 "RGMII_RX_CLK" I L 6950 3700 50 
+F37 "FPGA_DONE" I L 6950 4200 50 
 $EndSheet
 $Sheet
 S 9950 1700 1500 2350
@@ -686,8 +669,8 @@ FPGA_INT
 Wire Wire Line
 	8700 3650 8550 3650
 Wire Wire Line
-	4050 6300 3700 6300
-Text Label 3800 6300 0    50   ~ 10
+	4250 6300 3700 6300
+Text Label 4250 6300 2    50   ~ 10
 CCLK
 Text Label 9550 2100 0    50   ~ 10
 CCLK
@@ -703,10 +686,10 @@ Wire Wire Line
 	8550 2400 8700 2400
 Wire Wire Line
 	8550 2500 8700 2500
-Text HLabel 4050 6650 2    50   Input ~ 10
+Text HLabel 4200 6650 2    50   Input ~ 10
 PROG_B
 Wire Wire Line
-	4050 6650 3700 6650
+	4200 6650 3700 6650
 $Comp
 L power:GND #PWR?
 U 1 1 5C5ED591
@@ -1565,4 +1548,28 @@ F 3 "" H 1100 8350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 8400 1100 8350
+Wire Wire Line
+	4250 6100 3700 6100
+Text HLabel 4250 6100 2    50   Output ~ 10
+FPGA_DONE
+Text Label 3750 6100 0    50   ~ 0
+FPGA_DONE
+Wire Wire Line
+	6950 4200 6200 4200
+Text Label 6200 4200 0    50   ~ 10
+FPGA_DONE
+Wire Wire Line
+	3700 5200 4250 5200
+Wire Wire Line
+	3700 5300 4250 5300
+Wire Wire Line
+	3700 5500 4250 5500
+Wire Wire Line
+	3700 5600 4250 5600
+Wire Wire Line
+	3700 5700 4250 5700
+Wire Wire Line
+	3700 5800 4250 5800
+Wire Wire Line
+	3700 5950 4250 5950
 $EndSCHEMATC

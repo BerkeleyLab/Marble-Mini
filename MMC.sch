@@ -3959,13 +3959,13 @@ F 3 "" H 2750 550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2750 550  2950 550 
+Connection ~ 2950 550 
+Wire Wire Line
+	2950 550  3250 550 
 Wire Bus Line
 	11600 7200 11600 7400
 Wire Bus Line
 	12150 6100 12150 6300
 Wire Bus Line
 	10450 2900 10450 3650
-Connection ~ 2950 550 
-Wire Wire Line
-	2950 550  3250 550 
 $EndSCHEMATC
