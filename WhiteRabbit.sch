@@ -332,6 +332,7 @@ F 2 "Marble:OSCCC320X500X160-4N" H 4350 2033 60  0001 C CNN
 F 3 "" H 4050 1950 60  0000 C CNN
 F 4 "VM53S3-25.000-2.5/-30+75" H 4050 1950 50  0001 C CNN "Manufacturer Part Number"
 F 5 "Mercury" H 3950 1950 50  0001 C CNN "Manufacturer"
+F 6 "dnf" H 4350 1500 50  0000 C CNN "config"
 	1    4050 1950
 	1    0    0    -1  
 $EndComp
@@ -1242,8 +1243,8 @@ F 11 " " H 7800 3100 60  0001 L CNN "Device"
 F 12 "Oscillator, Side Concave, 2.54mm Pitch, 6 Pins, 5.00mm L X 7.00mm W X 1.70mm H, CFPV-45 Series" H 7800 2920 60  0001 L CNN "PackageDescription"
 F 13 " " H 7800 2740 60  0001 L CNN "Status"
 F 14 "3.3V, ±100ppm, 15pF, 0..70°C, HCMOS Tri-State Surface Mount, VCXO Voltage Controlled Oscillator (CFPV-45 Series)" H 7800 2650 60  0001 L CNN "Part Description"
-F 15 "IQD FREQUENCY PRODUCTS" H 7800 2560 60  0001 L CNN "Manufacturer"
-F 16 "LFVCXO026156" H 7800 2470 60  0001 L CNN "Manufacturer Part Number"
+F 15 "KYOCERA" H 7800 2560 60  0001 L CNN "Manufacturer"
+F 16 "KV7050B20.0000C3GD00" H 7800 2470 60  0001 L CNN "Manufacturer Part Number"
 F 17 "6" H 7800 2380 60  0001 L CNN "Pin Count"
 F 18 " " H 7800 2290 60  0001 L CNN "Case"
 F 19 "Yes" H 7800 2200 60  0001 L CNN "Mounted"
@@ -3470,8 +3471,8 @@ F 11 " " H 4050 -250 60  0001 L CNN "Device"
 F 12 "Oscillator IVT3200C Serie, corner concave; 4 pin, 2.50mm L X 3.2mm W X 1.1mm H" H 4050 -430 60  0001 L CNN "PackageDescription"
 F 13 " " H 4050 -610 60  0001 L CNN "Status"
 F 14 "11pF 3.3V ±1ppm Surface Mount TCXO Voltage Controlled Oscillator (IT3200C Series)" H 4050 -700 60  0001 L CNN "Part Description"
-F 15 "RAKON" H 4050 -790 60  0001 L CNN "Manufacturer"
-F 16 "IVT3205CR 25.0 MHz" H 4050 -880 60  0001 L CNN "Manufacturer Part Number"
+F 15 "TAITEN" H 4000 1500 60  0000 L CNN "Manufacturer"
+F 16 "TXEAADSANF-25.000000" H 4000 1400 60  0000 L CNN "Manufacturer Part Number"
 F 17 "4" H 4050 -970 60  0001 L CNN "Pin Count"
 F 18 " " H 4050 -1060 60  0001 L CNN "Case"
 F 19 "Yes" H 4050 -1150 60  0001 L CNN "Mounted"
@@ -3492,7 +3493,7 @@ F 33 "02/08/10 00:00:00" H 4050 -2770 60  0001 L CNN "CreateDate"
 F 34 "02/08/10 00:00:00" H 4050 -2860 60  0001 L CNN "LatestRevisionDate"
 F 35 "ICs And Semiconductors SMD" H 4050 -2950 60  0001 L CNN "Library Name"
 F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4050 -3040 60  0001 L CNN "License"
-F 37 "dnf" H 4350 700 50  0000 C CNN "config"
+F 37 "" H 4350 700 50  0001 C CNN "config"
 	1    4050 1150
 	1    0    0    -1  
 $EndComp
