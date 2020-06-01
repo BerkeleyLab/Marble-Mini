@@ -4,7 +4,6 @@ Script pcbnew fabrication output
 '''
 import sys
 import pcbnew
-import os
 from os.path import join, basename
 from datetime import datetime
 import re
@@ -185,6 +184,9 @@ class Kicad_exporter:
 {orientation_deg:8.4f}  \
 {side:6s}
 '''.format(*max_lens, **m))
+            f.write('''\
+## End
+''')
 
 
 if __name__ == "__main__":
