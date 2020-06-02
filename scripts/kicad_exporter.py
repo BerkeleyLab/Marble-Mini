@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 '''
-Script pcbnew fabrication output
+Scripted pcbnew fabrication output.
+Generates gerber, drill and position files of a PCB.
 '''
-import sys
 import pcbnew
+import argparse
 from os.path import join, basename
 from datetime import datetime
 import re
@@ -128,7 +129,7 @@ class Kicad_exporter:
             'reference': m.GetReference(),
             'side': 'top' if layer == pcbnew.F_Cu else 'bottom',
             'package': m.GetFPID().GetLibItemName().wx_str(),
-            'orientation_deg': m.GetOrientationDegrees(),
+            'orientation_deg': m.GetOrientation() / 10.0,
             # pcbnew has the minus on posy as well
             'position_mm': (pcbnew.ToMM(pos[0]), -pcbnew.ToMM(pos[1]))
         }
@@ -158,7 +159,7 @@ class Kicad_exporter:
         #  Write fixed column width .csv file
         # ------------------------------------
         # count max. chars / column
-        max_lens = [0, 0, 0]
+        max_lens = [8, 8, 16]
         for ps in m_props:
             for i, k in enumerate(('reference', 'value', 'package')):
                 if len(ps[k]) > max_lens[i]:
@@ -184,21 +185,27 @@ class Kicad_exporter:
 {orientation_deg:8.4f}  \
 {side:6s}
 '''.format(*max_lens, **m))
-            f.write('''\
-## End
-''')
+            f.write('## End\n')
 
 
 if __name__ == "__main__":
-    board_name = sys.argv[1]
-    plot_dir = sys.argv[2]
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('kicad_pcb', help='the `.kicad_pcb` file to export')
+    parser.add_argument('export_dir', help='output directory')
+    parser.add_argument(
+        '-l', '--layers',
+        default=0,
+        type=int,
+        help='Number of inner layers (InX.Cu) to export. Default: 0'
+    )
+    args = parser.parse_args()
 
     l_names = ['Cu', 'Mask', 'Paste', 'SilkS']
     layers = [f + ll for ll in l_names for f in ['F.', 'B.']]
-    layers += ['In{}.Cu'.format(i + 1) for i in range(6)]
     layers += ['Edge.Cuts']
+    layers += ['In{}.Cu'.format(i + 1) for i in range(args.layers)]
 
-    ke = Kicad_exporter(board_name, plot_dir)
+    ke = Kicad_exporter(args.kicad_pcb, args.export_dir)
     ke.export_gerbers(layers)
     ke.export_drills()
     ke.export_pos()

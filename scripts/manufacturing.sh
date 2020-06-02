@@ -45,7 +45,7 @@ fi
 rm -f marble*.dat ${A}_bom_9.csv
 
 echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
-python3 scripts/kicad_exporter.py $A.kicad_pcb PCB_layers
+python3 scripts/kicad_exporter.py --layers 6 $A.kicad_pcb PCB_layers
 
 # Check that all the right files are made
 die=0
