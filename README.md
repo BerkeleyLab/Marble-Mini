@@ -39,18 +39,20 @@ Note: Electrical Rules Checker reports 10 errors and 11 warnings. All of them ar
 
 ## Major Parts
 
-* U1: Xilinx [XC7A100T-2FGG484](https://www.xilinx.com/products/silicon-devices/fpga/artix-7.html) FPGA (see note)
+* U1: Xilinx [XC7A100T-2FGG484](https://www.xilinx.com/products/silicon-devices/fpga/artix-7.html) FPGA (see note 1)
 * U2: NXP [LPC1776FET180](https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/lpc-cortex-m-mcus/lpc1700-cortex-m3:MC_1403790745385#/) Microcontroller
-* U3: Micron [MT41K512M16HA](https://www.micron.com/products/dram/ddr3-sdram/part-catalog/mt41k512m16ha-125) or similar DDR3 x16 memory up to 8Gb
+* U3: Micron [MT41K512M16HA](https://www.micron.com/products/dram/ddr3-sdram/part-catalog/mt41k512m16ha-125) or similar DDR3 x16 memory up to 8Gb (see note 2)
 * U4: Marvell [88E1512](https://www.marvell.com/documents/eoxwrbluvwybgxvagkkf/) Ethernet PHY
 * U20: TI [CDCM61004](http://www.ti.com/product/CDCM61004) Clock Generator
 * U23: FTDI [FT4232H-56Q](https://www.ftdichip.com/Products/ICs/FT4232H.htm) USB interface
 * U30: Cypress [S25FL128S](https://www.cypress.com/documentation/datasheets/s25fl128ss25fl256s-128-mb-16-mb256-mb-32-mb-30v-spi-flash-memory) Flash Memory
 * U35: Maxlinear [XRP7724](https://www.maxlinear.com/product/power-management/universal-pmics/universal-pmics/xrp7724) Quad PWM Power Controller
-* Y2: Mercury [VM53S3-25.000](https://docs-apac.rs-online.com/webdocs/151c/0900766b8151cb85.pdf) 25 MHz VCTCXO
+* Y1: Taitien [TXEAADSANF-25.000000](https://www.taitien.com/wp-content/uploads/2015/12/XO-0076_TX.pdf) 25 MHz VCTCXO
 
-Note: U1 is compatible with XC7A35T through XC7A200T; need XC7A75T or larger
+Note 1: U1 is compatible with XC7A35T through XC7A200T; need XC7A75T or larger
 to get all User I/O of dual-LPC-FMC
+
+Note 2: Xilinx MIG doesn't recognize one of the address pins, which limits usable capacity to 4 Gb; [LiteDRAM](https://github.com/enjoy-digital/litedram) does not have that limitation.
 
 ## Auxiliary documentation
 
@@ -62,7 +64,7 @@ and DRC'd schematics.
 * I2C subsystems: [marble_i2.eps](docs/marble_i2c.eps)
 * Power Routing: [mm_power.eps](docs/mm_power.eps)
 
-These are EPS files, authored using (xcircuit)[http://opencircuitdesign.com/xcircuit/].
+These are EPS files, authored using [xcircuit](http://opencircuitdesign.com/xcircuit/).
 Maybe you want to use GhostView to look at them.
 
 ## Scripting and processing
