@@ -65,20 +65,15 @@ and DRC'd schematics.
 These are EPS files, authored using xcircuit.
 Maybe you want to use GhostView to look at them.
 
-## Generating artifacts for manufacturing
+## Scripting and processing
 
-This includes Gerbers and BoM files.  See `scripts/manufacturing.sh`.
+See the [scripts subdirectory](scripts/README.md) for
+instructions and helper scripts covering:
 
-## Xilinx constraint file
-
-We have a somewhat specialized tool for creating an xdc file for this board,
-based on a netlist file exported from KiCad.
-In the KiCad (version 5.1.x) schematic GUI (eeschema):
-* use menu picks Tools / Generate Netlist File
-* OrcadPCB2 tab / Generate Netlist / Save
-* result shows up as AMC_FMC_Carrier-PcbDoc.net
-* Finally from the command line run "python3 netlist_to_xdc.py AMC_FMC_Carrier-PcbDoc.net"
-* result shows up as Marble.xdc
+* Updating the I2C subsystem diagram in schematics
+* Inserting QR code on silkcsreen
+* Generating artifacts for manufacturing
+* Generating Xilinx constraint file
 
 ## Copyright
 
