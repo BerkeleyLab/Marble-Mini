@@ -30,17 +30,17 @@ F22 "No" 0 -1975 50 H I L CNN "Sense"
 F23 " " 0 -2050 50 H I L CNN "Sense Comment"
 F24 " " 0 -2125 50 H I L CNN "Status Comment"
 F25 "None" 0 -2200 50 H I L CNN "Status"
-F27 "12V/5A, 2.1mm Diameter Pin, DC Power Socket With  Switch (DC10A Type)" 0 -2350 50 H I L CNN "Part Description"
-F28 "CLIFF ELECTRONIC COMPONENTS" 0 -2425 50 H I L CNN "Manufacturer"
-F29 "FC68148 (DC-10A)" 0 -2500 50 H I L CNN "Manufacturer Part Number"
-F30 "11mm" 0 -2575 50 H I L CNN "ComponentHeight"
-F31 " " 0 -2650 50 H I L CNN "ComponentLink1Description"
-F32 " " 0 -2725 50 H I L CNN "ComponentLink2Description"
-F33 "CERN DEM JLC" 0 -2800 50 H I L CNN "Author"
-F34 "11/23/10 00:00:00" 0 -2875 50 H I L CNN "CreateDate"
-F35 "11/23/10 00:00:00" 0 -2950 50 H I L CNN "LatestRevisionDate"
-F37 "Connectors.DbLib" 0 -3100 50 H I L CNN "Library Name"
-F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3250 50 H I L CNN "License"
+F26 "12V/5A, 2.1mm Diameter Pin, DC Power Socket With  Switch (DC10A Type)" 0 -2350 50 H I L CNN "Part Description"
+F27 "CLIFF ELECTRONIC COMPONENTS" 0 -2425 50 H I L CNN "Manufacturer"
+F28 "FC68148 (DC-10A)" 0 -2500 50 H I L CNN "Manufacturer Part Number"
+F29 "11mm" 0 -2575 50 H I L CNN "ComponentHeight"
+F30 " " 0 -2650 50 H I L CNN "ComponentLink1Description"
+F31 " " 0 -2725 50 H I L CNN "ComponentLink2Description"
+F32 "CERN DEM JLC" 0 -2800 50 H I L CNN "Author"
+F33 "11/23/10 00:00:00" 0 -2875 50 H I L CNN "CreateDate"
+F34 "11/23/10 00:00:00" 0 -2950 50 H I L CNN "LatestRevisionDate"
+F35 "Connectors.DbLib" 0 -3100 50 H I L CNN "Library Name"
+F36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3250 50 H I L CNN "License"
 DRAW
 S 0 -400 400 0 0 1 0 f
 P 2 0 1 10 0 -300 250 -300 N
@@ -97,14 +97,31 @@ F32 " " 0 -2525 50 H I L CNN "ComponentLink2Description"
 F33 "CERN DEM JLC" 0 -2600 50 H I L CNN "Author"
 F34 "03/24/10 00:00:00" 0 -2675 50 H I L CNN "CreateDate"
 F35 "03/24/10 00:00:00" 0 -2750 50 H I L CNN "LatestRevisionDate"
-F37 "Connectors.DbLib" 0 -2900 50 H I L CNN "Library Name"
-F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3050 50 H I L CNN "License"
+F36 "Connectors.DbLib" 0 -2900 50 H I L CNN "Library Name"
+F37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3050 50 H I L CNN "License"
 DRAW
 A -250 0 102 787 -787 0 1 10 N -230 100 -230 -100
 P 2 0 1 20 -190 0 -240 0 N
 P 2 0 1 10 -120 -100 -162 -58 N
 X 1 1 0 0 200 L 0 0 0 1 P
 X 2 2 0 -100 120 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# TE_641119-2
+#
+DEF TE_641119-2 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "TE_641119-2" 0 -200 50 H V C CNN
+F2 "Marble:641119-2" 0 -300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
