@@ -3880,4 +3880,6 @@ F 3 "" H 7550 5100 50  0001 C CNN
 	1    7550 5100
 	1    0    0    -1  
 $EndComp
+Text Notes 4100 3100 0    59   ~ 0
+Note: KiCad throws an ERC error here,\n"Conflict problem between pins", arising\nfrom both Y1 and Y2 driving the output.\nKiCad's eeschem doesn't understand the\nKiBoM semantics of the config: dnf\nattribute on Y2.
 $EndSCHEMATC

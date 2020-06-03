@@ -35,8 +35,6 @@ in this repo, or will save files that are not compatible with
 collaborators' reference installations.
 We also make use of [KiBoM](https://github.com/SchrodingersGat/KiBoM).
 
-Note: Electrical Rules Checker reports 10 errors and 11 warnings. All of them are caused by errors in the library models. In order to remove them, the corresponding ERC settings should be deactivated (for errors: Output pin <-> Output pin, Power output pin <-> Power output pin, Power output pin <-> Output pin, Open collector <-> Output pin, and for warnings: Power output pin <-> Bidirectional pin).
-
 ## Major Parts
 
 * U1: Xilinx [XC7A100T-2FGG484](https://www.xilinx.com/products/silicon-devices/fpga/artix-7.html) FPGA (see note 1)
