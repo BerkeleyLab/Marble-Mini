@@ -63,7 +63,7 @@ $EndSheet
 Wire Wire Line
 	3600 2400 3600 2150
 Wire Wire Line
-	1450 1850 1900 1850
+	1450 1850 1800 1850
 Wire Wire Line
 	2850 2600 2950 2600
 $Comp
@@ -4918,6 +4918,45 @@ Wire Wire Line
 Connection ~ 7350 4250
 Wire Wire Line
 	7350 4250 7350 4050
+$Comp
+L Miscellaneous:TE_641119-2 J17
+U 1 1 5EDDE66C
+P 1250 1100
+F 0 "J17" H 1358 1371 50  0000 C CNN
+F 1 "TE_641119-2" H 1358 1280 50  0000 C CNN
+F 2 "Marble:641119-2" H 1250 800 50  0001 C CNN
+F 3 "" H 1250 1100 50  0001 C CNN
+F 4 "dnf" H 1500 1200 50  0000 C CNN "config"
+	1    1250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EDDF617
+P 1550 1350
+AR Path="/5C16C03C/5EDDF617" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA59/5EDDF617" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5EDDF617" Ref="#PWR0694"  Part="1" 
+F 0 "#PWR0694" H 1550 1100 50  0001 C CNN
+F 1 "GND" H 1555 1177 50  0000 C CNN
+F 2 "" H 1550 1350 50  0001 C CNN
+F 3 "" H 1550 1350 50  0001 C CNN
+	1    1550 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1200 1550 1200
+Wire Wire Line
+	1550 1200 1550 1350
+Wire Wire Line
+	1450 1100 1800 1100
+Wire Wire Line
+	1800 1100 1800 1850
 Wire Bus Line
 	2100 8250 2100 9850
+Connection ~ 1800 1850
+Wire Wire Line
+	1800 1850 1900 1850
+Text Notes 1650 950  0    50   ~ 0
+MTA-156-2
 $EndSCHEMATC
