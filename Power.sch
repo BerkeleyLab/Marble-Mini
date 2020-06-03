@@ -4921,14 +4921,14 @@ Wire Wire Line
 $Comp
 L Miscellaneous:TE_641119-2 J17
 U 1 1 5EDDE66C
-P 1250 1100
-F 0 "J17" H 1358 1371 50  0000 C CNN
-F 1 "TE_641119-2" H 1358 1280 50  0000 C CNN
-F 2 "Marble:641119-2" H 1250 800 50  0001 C CNN
-F 3 "" H 1250 1100 50  0001 C CNN
-F 4 "dnf" H 1500 1200 50  0000 C CNN "config"
-	1    1250 1100
-	1    0    0    -1  
+P 1050 1200
+F 0 "J17" H 1158 1471 50  0000 C CNN
+F 1 "TE_641119-2" H 1158 1380 50  0000 C CNN
+F 2 "Marble:641119-2" H 1050 900 50  0001 C CNN
+F 3 "" H 1050 1200 50  0001 C CNN
+F 4 "dnf" H 1300 1300 50  0000 C CNN "config"
+	1    1050 1200
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -4945,18 +4945,18 @@ F 3 "" H 1550 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1200 1550 1200
-Wire Wire Line
 	1550 1200 1550 1350
 Wire Wire Line
-	1450 1100 1800 1100
-Wire Wire Line
 	1800 1100 1800 1850
-Wire Bus Line
-	2100 8250 2100 9850
 Connection ~ 1800 1850
 Wire Wire Line
 	1800 1850 1900 1850
-Text Notes 1650 950  0    50   ~ 0
+Text Notes 1050 1000 0    50   ~ 0
 MTA-156-2
+Wire Wire Line
+	1250 1100 1800 1100
+Wire Wire Line
+	1250 1200 1550 1200
+Wire Bus Line
+	2100 8250 2100 9850
 $EndSCHEMATC
