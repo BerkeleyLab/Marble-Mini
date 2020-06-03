@@ -1,14 +1,14 @@
 Marble board
 LBNL-Creotech collaboration: Dual FMC (LPC) NAD/AMC Carrier
 
-https://github.com/BerkeleyLab/Marble
+https://github.com/BerkeleyLab/Marble-Mini
 
 This packet contains the usual manufacturing files for both
 PCB fabrication and turn-key assembly:
 Gerber, Drill, IPC-D-356, Board stackup, BoM, and X-Y placement.
 
 The design is created in, and these manufacturing files are mostly
-exported from, KiCad version 5.1.2.
+exported from, KiCad version 5.1.5.
 
 This is an 8-layer, 1.6mm board.  Materials and thicknesses
 according to the board stackup description:
@@ -20,6 +20,8 @@ standard, approximately 149 mm x 184 mm.
 
 The layout is set up for gold-fingers on the AMC edge,
 but this prototyping run does not need that process step.
+What it does need is kapton tape placed over those fingers
+before pressing-on Cage1.
 
 Copper Gerber files, in order:
   marble-F_Cu.gbr
