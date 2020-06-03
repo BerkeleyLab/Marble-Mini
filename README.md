@@ -1,6 +1,6 @@
 # Marble-Mini board
 
-Marble-mini is a Dual FMC (LPC) AMC FPGA carrier with a Xilinx Artix-7 FPGA. It's a general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications.
+Marble-Mini is a Dual FMC (LPC) AMC FPGA carrier with a Xilinx Artix-7 FPGA. It's a general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications.
 It includes features relevant for deployment to unattended sites (e.g., accelerator service galleries), as well as for general development and testing.
 
 This design is the result of a collaboration between [LBNL](https://www.lbl.gov/) and [CreoTECH](http://creotech.pl/en/home/).
@@ -62,12 +62,12 @@ and DRC'd schematics.
 * I2C subsystems: [marble_i2.eps](docs/marble_i2c.eps)
 * Power Routing: [mm_power.eps](docs/mm_power.eps)
 
-These are EPS files, authored using xcircuit.
+These are EPS files, authored using (xcircuit)[http://opencircuitdesign.com/xcircuit/].
 Maybe you want to use GhostView to look at them.
 
 ## Scripting and processing
 
-See the [scripts subdirectory](scripts/README.md) for
+See the [scripts subdirectory](scripts) for
 instructions and helper scripts covering:
 
 * Updating the I2C subsystem diagram in schematics
