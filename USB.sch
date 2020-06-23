@@ -732,9 +732,9 @@ Text Notes 8200 6100 0    50   ~ 10
 TxD OUT
 Text Notes 8200 6200 0    50   ~ 10
 RxD IN
-Text Notes 8200 6300 0    50   ~ 10
+Text Notes 8200 4500 0    50   ~ 10
 RTS OUT
-Text Notes 8200 6500 0    50   ~ 10
+Text Notes 8200 4700 0    50   ~ 10
 DTR OUT
 Wire Wire Line
 	8000 6100 9550 6100
@@ -748,14 +748,6 @@ Wire Wire Line
 	9450 6200 9450 8650
 Wire Wire Line
 	9450 8650 10050 8650
-Wire Wire Line
-	8000 6300 8650 6300
-Wire Wire Line
-	8650 6300 8650 9200
-Wire Wire Line
-	8000 6500 8550 6500
-Wire Wire Line
-	8550 6500 8550 9150
 Wire Wire Line
 	11050 8550 11350 8550
 Wire Wire Line
@@ -5282,9 +5274,7 @@ F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 NoConn ~ 8000 4300
 NoConn ~ 8000 4400
-NoConn ~ 8000 4500
 NoConn ~ 8000 4600
-NoConn ~ 8000 4700
 NoConn ~ 8000 4800
 NoConn ~ 8000 4900
 NoConn ~ 8000 5000
@@ -5429,4 +5419,14 @@ Wire Wire Line
 Connection ~ 5250 1900
 Wire Wire Line
 	5250 1900 5450 1900
+Wire Wire Line
+	8650 4500 8000 4500
+Wire Wire Line
+	8550 4700 8000 4700
+Wire Wire Line
+	8650 4500 8650 9200
+Wire Wire Line
+	8550 4700 8550 9150
+NoConn ~ 8000 6300
+NoConn ~ 8000 6500
 $EndSCHEMATC
