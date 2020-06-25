@@ -107,7 +107,7 @@ rm -f marble-fab.zip
 zip marble-fab.zip fab/*
 
 if true; then  # clean-up step, disable when debugging
-  rm -f marble*.dat marble-xy.pos $A.d356 $A.xml ${A}_bom_9.csv ${A}_bom_9.csv.tmp
+  rm -f marble*.dat marble-xy.pos $A.d356 $A.xml ${A}_bom_9.csv ${A}_bom_9.csv.tmp ${A}_bom_9a.csv
   rm -rf PCB_layers fab
 fi
 # marble-fab.zip is the only generated file that should remain
