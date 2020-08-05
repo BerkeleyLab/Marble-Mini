@@ -75,6 +75,50 @@ instructions and helper scripts covering:
 * Generating artifacts for manufacturing
 * Generating Xilinx constraint file
 
+## Notes on powering a Marble-Mini
+
+The Marble-Mini runs from a single-supply, mostly tested in the 7V to 12V range,
+provided either from a barrel connector (J1), an MTA-156 header (J17),
+or Power over Ethernet (PoE).  By itself, it draws less than 5 Watts, but of course
+that can increase depending on how big a design is loaded on the FPGA.
+
+J1 is a CLIFF DC-10A (FC68148) rated for 12V, 5A.
+It has a 2.1mm diameter center pin, and is meant for use with 5.5mm barrels.
+If you reach in your drawer, you're likely to find a connector-compatible
+9V or 12V wall-wart that can power it up.
+
+If you want to buy something dedicated, here are some low-power,
+North America plug options I find at Digi-Key:
+
+* Tri-Mag L6R06H-090  $5.76  9V  0.67A
+* Triad WSU090-0800   $8.12  9V  0.80A
+
+Those should be fine for desk use without high-power add-ons (SFP, FMC, fan).
+A little higher power:
+
+* Qualtek QFWB-18-12-US01     $8.38  12V  1.50A
+* XP Power VEL18US120-US-JA  $12.75  12V  1.50A
+* PhiHong PMA18A-120PHW      $12.66  12V  1.50A  (Medical rated)
+
+If you have FMC cards, pay extra attention to the supply: some FMC cards
+are designed purely for the official +12V FMC spec; others really don't care.
+The Marble-Mini just passes the input supply onto those FMC pins, through FET switches.
+
+I truly recommend using a bench supply initially to check voltage and current
+needs of a specific setup, including both the Marble-Mini and its add-ons.
+Attaching a bench supply to Marble-Mini through the barrel connector requires
+an adapter, easily sourced from eBay because they're used in security camera wiring.
+A good search term is "security camera 12v DC 2.1mm power pigtail".
+
+When building in a chassis, it's appropriate to use the MTA-156 connector (J17)
+instead of the barrel.  Our shops are used to crimping contacts and inserting them
+in an SL-156 series shell such as TEConn 770849-2.  Current handling in this case
+is limited by the wire size, e.g., about 5A for 20 AWG.
+
+The design configuration for on-board current sensing of the 12V input is
+compatible with up to 5.8A.  Any higher and you should replace R301, R302, and R303
+with a smaller value than 0.082 Ohms.
+
 ## Copyright
 
 Marble Copyright (c) 2019, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Department of Energy). All rights reserved.
