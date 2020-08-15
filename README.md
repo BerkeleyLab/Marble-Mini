@@ -45,6 +45,7 @@ We also make use of [KiBoM](https://github.com/SchrodingersGat/KiBoM).
 * U23: FTDI [FT4232H-56Q](https://www.ftdichip.com/Products/ICs/FT4232H.htm) USB interface
 * U30: Cypress [S25FL128S](https://www.cypress.com/documentation/datasheets/s25fl128ss25fl256s-128-mb-16-mb256-mb-32-mb-30v-spi-flash-memory) Flash Memory
 * U35: Maxlinear [XRP7724](https://www.maxlinear.com/product/power-management/universal-pmics/universal-pmics/xrp7724) Quad PWM Power Controller
+* U40: Silvertel [Ag5300](https://silvertel.com/ag5300/) Power over Ethernet (PoE) module
 * Y1: Taitien [TXEAADSANF-25.000000](https://www.taitien.com/wp-content/uploads/2015/12/XO-0076_TX.pdf) 25 MHz VCTCXO
 
 Note 1: U1 is compatible with XC7A35T through XC7A200T; need XC7A75T or larger
@@ -118,6 +119,11 @@ is limited by the wire size, e.g., about 5A for 20 AWG.
 The design configuration for on-board current sensing of the 12V input is
 compatible with up to 5.8A.  Any higher and you should replace R301, R302, and R303
 with a smaller value than 0.082 Ohms.
+
+The PoE option can be convenient for casual desk use, if you already have
+[PoE](https://en.wikipedia.org/wiki/Power_over_Ethernet) infrastructure.
+Please read Silvertel's [Application Note](https://silvertel.com/images/appsnotes/ANX-POE-Thermal-Considerations.pdf)
+about thermal considerations before designing that option into a chassis.
 
 ## Copyright
 
