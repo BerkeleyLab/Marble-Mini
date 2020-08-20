@@ -1062,10 +1062,10 @@ Wire Wire Line
 Wire Wire Line
 	6500 1450 6850 1450
 Wire Wire Line
-	9700 2450 8850 2450
-Text HLabel 9700 2450 2    50   Output ~ 10
+	10200 2450 9350 2450
+Text HLabel 10200 2450 2    50   Output ~ 10
 CLK_25MHZ
-Text Label 9100 2450 0    50   ~ 10
+Text Label 9600 2450 0    50   ~ 10
 CLK_25MHZ
 Text Notes 7350 1550 0    50   ~ 10
 1
@@ -3875,4 +3875,53 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    5500 1250
 	1    0    0    -1  
 $EndComp
+$Comp
+L Resistors_SMD:R0402_40R2_1%_0.0625W_100PPM R95
+U 1 1 5F44DEF8
+P 9050 2450
+F 0 "R95" H 9200 2647 50  0000 C CNN
+F 1 "R0402_40R2_1%_0.0625W_100PPM" H 9050 2255 50  0001 L CNN
+F 2 "Marble:RESC1005X40N" H 9050 2180 50  0001 L CNN
+F 3 " " H 9050 2105 50  0001 L CNN
+F 4 "40R2" H 9200 2556 50  0000 C CNN "Val"
+F 5 "R0402_40R2_1%_0.0625W_100PPM" H 9050 2030 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 9050 1955 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 9050 1880 50  0001 L CNN "Library Path"
+F 8 "40R2" H 9050 1805 50  0001 L CNN "Comment"
+F 9 "Standard" H 9050 1730 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 9050 1655 50  0001 L CNN "Component Type"
+F 11 " " H 9050 1580 50  0001 L CNN "PackageDescription"
+F 12 "2" H 9050 1505 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 9050 1430 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 9050 1355 50  0001 L CNN "Footprint Ref"
+F 15 "None" H 9050 1280 50  0001 L CNN "Status"
+F 16 "0.0625W" H 9050 1205 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 9050 1130 50  0001 L CNN "TC"
+F 18 " " H 9050 1055 50  0001 L CNN "Voltage"
+F 19 "±1%" H 9050 980 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 9050 905 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 9050 830 50  0001 L CNN "Manufacturer"
+F 22 "R0402_40R2_1%_0.0625W_100PPM" H 9050 755 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 9050 680 50  0001 L CNN "Case"
+F 24 "No" H 9050 605 50  0001 L CNN "PressFit"
+F 25 "Yes" H 9050 530 50  0001 L CNN "Mounted"
+F 26 " " H 9050 455 50  0001 L CNN "Sense Comment"
+F 27 "No" H 9050 380 50  0001 L CNN "Sense"
+F 28 " " H 9050 305 50  0001 L CNN "Status Comment"
+F 29 "No" H 9050 230 50  0001 L CNN "Socket"
+F 30 "Yes" H 9050 155 50  0001 L CNN "SMD"
+F 31 " " H 9050 80  50  0001 L CNN "ComponentHeight"
+F 32 "VISHAY" H 9050 5   50  0001 L CNN "Manufacturer1 Example"
+F 33 "CRCW040240R2FKED" H 9050 -70 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 9050 -145 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 9050 -220 50  0001 L CNN "Author"
+F 36 "02/03/15 00:00:00" H 9050 -295 50  0001 L CNN "CreateDate"
+F 37 "02/03/15 00:00:00" H 9050 -370 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 9050 -520 50  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9050 -670 50  0001 L CNN "License"
+	1    9050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2450 9050 2450
 $EndSCHEMATC
