@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 25 25
-Title "Marble"
+Title "Marble-Mini"
 Date "2019-01-16"
 Rev "9"
 Comp "Michał Gąska / WUT"
