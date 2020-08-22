@@ -2562,4 +2562,6 @@ Wire Wire Line
 	5000 15500 5150 15500
 NoConn ~ 5150 15250
 NoConn ~ 5150 15500
+Text Notes 2500 2500 0    394  ~ 79
+Marble-Mini
 $EndSCHEMATC
