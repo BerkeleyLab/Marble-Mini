@@ -5,6 +5,12 @@ It includes features relevant for deployment to unattended sites (e.g., accelera
 
 This design is the result of a collaboration between [LBNL](https://www.lbl.gov/) and [CreoTECH](http://creotech.pl/en/home/).
 
+A Marble-Mini is related to the [Marble](https://github.com/BerkeleyLab/Marble).
+Both are Open Hardware FMC carriers.  Marble-Mini is simpler (8 layer PCB instead of 12),
+and uses a less-capable and less-costly FPGA (Artix instead of Kintex).  Major parts
+of their design are electrically equivalent, and consequently their firmware and
+software support can strongly overlap.
+
 ## Original concept:
 
 ![block diagram](docs/block_3.png)
