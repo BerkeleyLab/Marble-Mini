@@ -22,6 +22,7 @@
 #    highly recommended to run DRC
 #
 #  File / Fabrication Outputs / IPC-D-356 Netlist File ...
+#    Save
 #
 set -e
 # Assume kicad is in our $PATH

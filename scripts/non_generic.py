@@ -26,6 +26,10 @@ def non_generic(iname, oname, verbose=False):
                 # print(row)
                 manuf = row[1]
                 partn = row[2]
+                if partn[0:2] == "b'":
+                    # Can happen when wrong python version used for KiBoM
+                    print("Corrupted input file: " + iname)
+                    exit(1)
                 if manuf == "GENERIC":
                     try:
                         pp = partn, manuf_ng[partn], partn_ng[partn]
