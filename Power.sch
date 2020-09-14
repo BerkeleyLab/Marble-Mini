@@ -669,6 +669,7 @@ F 5 "14" H 6700 8100 50  0001 L CNN "Height"
 F 6 "Silvertel" H 6700 7900 50  0001 L CNN "Manufacturer"
 F 7 "AG5300" H 6700 7800 50  0001 L CNN "Manufacturer Part Number"
 F 8 "+standalone" H 5550 8300 50  0001 C CNN "config"
+F 9 "No" H 5550 8300 50  0001 C CNN "SMD"
 	1    5550 8300
 	1    0    0    -1  
 $EndComp
@@ -682,6 +683,7 @@ F 2 "Marble:SOIC254P665X290-4N" H 3400 8775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 3250 8650 50  0001 C CNN
 F 4 "KMB210STR" H 3250 8650 50  0001 C CNN "Manufacturer Part Number"
 F 5 "SMC" H 3250 8650 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 3250 8650 50  0001 C CNN "SMD"
 	1    3250 8650
 	1    0    0    -1  
 $EndComp
@@ -695,6 +697,7 @@ F 2 "Marble:SOIC254P665X290-4N" H 3400 9775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 3250 9650 50  0001 C CNN
 F 4 "KMB210STR" H 3250 9650 50  0001 C CNN "Manufacturer Part Number"
 F 5 "SMC" H 3250 9650 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 3250 9650 50  0001 C CNN "SMD"
 	1    3250 9650
 	1    0    0    -1  
 $EndComp
@@ -722,6 +725,7 @@ F 2 "Marble:INDC2012X145N" H 4250 8650 50  0001 C CNN
 F 3 " " H 4250 8650 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4250 8650 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TDK" V 4250 8650 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 4250 8650 50  0001 C CNN "SMD"
 	1    4250 8650
 	0    -1   -1   0   
 $EndComp
@@ -743,6 +747,7 @@ F 2 "Marble:INDC2012X145N" H 4750 8650 50  0001 C CNN
 F 3 " " H 4750 8650 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4750 8650 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TDK" V 4750 8650 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 4750 8650 50  0001 C CNN "SMD"
 	1    4750 8650
 	0    -1   -1   0   
 $EndComp
@@ -764,6 +769,7 @@ F 2 "Marble:INDC2012X145N" H 5250 8650 50  0001 C CNN
 F 3 " " H 5250 8650 50  0001 C CNN
 F 4 "MPZ2012S102A" V 5250 8650 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TDK" V 5250 8650 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 5250 8650 50  0001 C CNN "SMD"
 	1    5250 8650
 	0    -1   -1   0   
 $EndComp
@@ -784,6 +790,7 @@ F 1 "1k@100MHz" V 4349 9050 50  0000 C CNN
 F 2 "Marble:INDC2012X145N" H 4250 9050 50  0001 C CNN
 F 3 " " H 4250 9050 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4250 9050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Yes" H 4250 9050 50  0001 C CNN "SMD"
 	1    4250 9050
 	0    -1   -1   0   
 $EndComp
@@ -804,6 +811,7 @@ F 1 "1k@100MHz" V 4849 9050 50  0000 C CNN
 F 2 "Marble:INDC2012X145N" H 4750 9050 50  0001 C CNN
 F 3 " " H 4750 9050 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4750 9050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Yes" H 4750 9050 50  0001 C CNN "SMD"
 	1    4750 9050
 	0    -1   -1   0   
 $EndComp
@@ -824,6 +832,7 @@ F 1 "1k@100MHz" V 5349 9050 50  0000 C CNN
 F 2 "Marble:INDC2012X145N" H 5250 9050 50  0001 C CNN
 F 3 " " H 5250 9050 50  0001 C CNN
 F 4 "MPZ2012S102A" V 5250 9050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Yes" H 5250 9050 50  0001 C CNN "SMD"
 	1    5250 9050
 	0    -1   -1   0   
 $EndComp
@@ -849,6 +858,7 @@ F 2 "Marble:DIOM5226X262N" H 3600 8650 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 3550 8850 50  0001 C CNN
 F 4 "SMAJ58A-13-F" H 3600 8850 50  0001 C CNN "Manufacturer Part Number"
 F 5 "DIODES INC" H 3600 8850 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 3600 8850 50  0001 C CNN "SMD"
 	1    3600 8850
 	0    1    1    0   
 $EndComp
@@ -4927,6 +4937,7 @@ F 1 "TE_641119-2" H 1158 1380 50  0000 C CNN
 F 2 "Marble:641119-2" H 1050 900 50  0001 C CNN
 F 3 "" H 1050 1200 50  0001 C CNN
 F 4 "dnf" H 1300 1300 50  0000 C CNN "config"
+F 5 "No" H 1050 1200 50  0001 C CNN "SMD"
 	1    1050 1200
 	1    0    0    1   
 $EndComp

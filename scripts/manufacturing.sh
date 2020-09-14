@@ -95,6 +95,7 @@ done
 cd ..
 cp marble-xy.pos fab/marble-xy.pos
 cp ${A}_bom_9a.csv fab/marble-bom.csv
+mv marble-stuff.log fab/
 cp $A.d356 fab/marble-ipc-d-356.txt
 cp stackup.csv.txt fab/marble-stack.txt
 # XXX confirm/correct board stackup diagram with Creotech

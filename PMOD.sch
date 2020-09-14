@@ -393,6 +393,7 @@ F 3 " " H 3750 2900 50  0001 C CNN
 F 4 "PPTC062LJBN-RC" H 3750 2900 50  0001 C CNN "Manufacturer Part Number"
 F 5 "+standalone" H 3750 2900 50  0001 C CNN "config"
 F 6 "SULLINS" H 3750 2900 50  0001 C CNN "Manufacturer"
+F 7 "No" H 3750 2900 50  0001 C CNN "SMD"
 	1    3750 2900
 	1    0    0    -1  
 $EndComp
@@ -407,6 +408,7 @@ F 3 " " H 6750 2900 50  0001 C CNN
 F 4 "PPTC062LJBN-RC" H 6750 2900 50  0001 C CNN "Manufacturer Part Number"
 F 5 "+standalone" H 6750 2900 50  0001 C CNN "config"
 F 6 "SULLINS" H 6750 2900 50  0001 C CNN "Manufacturer"
+F 7 "No" H 6750 2900 50  0001 C CNN "SMD"
 	1    6750 2900
 	1    0    0    -1  
 $EndComp
@@ -421,6 +423,7 @@ F 3 " " H 6750 4400 50  0001 C CNN
 F 4 "PPTC062LJBN-RC" H 6750 4400 50  0001 C CNN "Manufacturer Part Number"
 F 5 "+standalone" H 6750 4400 50  0001 C CNN "config"
 F 6 "SULLINS" H 6750 4400 50  0001 C CNN "Manufacturer"
+F 7 "No" H 6750 4400 50  0001 C CNN "SMD"
 	1    6750 4400
 	1    0    0    -1  
 $EndComp

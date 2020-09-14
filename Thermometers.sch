@@ -23,6 +23,7 @@ F 2 "Marble:SOP65P490X109-8N" H 6900 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 6900 1850 50  0001 C CNN
 F 4 "LM75AIMM/NOPB" H 6900 1850 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TEXAS INSTRUMENTS" H 6900 1850 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 6900 1850 50  0001 C CNN "SMD"
 	1    6900 1850
 	1    0    0    -1  
 $EndComp
@@ -143,6 +144,7 @@ F 2 "Marble:SOP65P490X109-8N" H 6900 3750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 6900 3750 50  0001 C CNN
 F 4 "LM75AIMM/NOPB" H 6900 3750 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TEXAS INSTRUMENTS" H 6900 3750 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 6900 3750 50  0001 C CNN "SMD"
 	1    6900 3750
 	1    0    0    -1  
 $EndComp
@@ -378,6 +380,7 @@ F 2 "Marble:SOIC127P600X175-8N" H 6900 5675 50  0001 L CIN
 F 3 "www.st.com/resource/en/datasheet/CD00001537.pdf" H 6700 5750 50  0001 L CNN
 F 4 "STS8DN6LF6AG" H 6700 5750 50  0001 C CNN "Manufacturer Part Number"
 F 5 "ST MICROELECTRONICS" H 6700 5750 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 6700 5750 50  0001 C CNN "SMD"
 	1    6700 5750
 	1    0    0    -1  
 $EndComp
@@ -391,6 +394,7 @@ F 2 "Marble:SOIC127P600X175-8N" H 8500 5675 50  0001 L CIN
 F 3 "www.st.com/resource/en/datasheet/CD00001537.pdf" H 8300 5750 50  0001 L CNN
 F 4 "STS8DN6LF6AG" H 8300 5750 50  0001 C CNN "Manufacturer Part Number"
 F 5 "ST MICROELECTRONICS" H 8300 5750 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 8300 5750 50  0001 C CNN "SMD"
 	2    8300 5750
 	1    0    0    -1  
 $EndComp
@@ -638,6 +642,7 @@ F 2 "Marble:Fan_Pin_Header_Straight_1x03" H 8400 5060 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 8400 5060 50  0001 C CNN
 F 4 "SWR25X-NRTC-S03-ST-BA" H 8400 5150 50  0001 C CNN "Manufacturer Part Number"
 F 5 "SULLINS" H 8400 5150 50  0001 C CNN "Manufacturer"
+F 6 "No" H 8400 5150 50  0001 C CNN "SMD"
 	1    8400 5150
 	1    0    0    -1  
 $EndComp
@@ -1558,6 +1563,7 @@ F 2 "Marble:Fan_Pin_Header_Straight_1x03" H 6800 5060 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 6800 5060 50  0001 C CNN
 F 4 "SWR25X-NRTC-S03-ST-BA" H 6800 5150 50  0001 C CNN "Manufacturer Part Number"
 F 5 "SULLINS" H 6800 5150 50  0001 C CNN "Manufacturer"
+F 6 "No" H 6800 5150 50  0001 C CNN "SMD"
 	1    6800 5150
 	1    0    0    -1  
 $EndComp

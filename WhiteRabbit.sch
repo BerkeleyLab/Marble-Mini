@@ -93,6 +93,7 @@ F 2 "Marble:SOIC127P600X175-8N" H 2200 6900 60  0001 C CNN
 F 3 "" H 2200 6900 60  0000 C CNN
 F 4 "LM336M-2.5" V 2200 6900 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TEXAS INSTRUMENTS" V 2200 6900 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 2200 6900 50  0001 C CNN "SMD"
 	1    2200 6900
 	0    -1   -1   0   
 $EndComp
@@ -295,6 +296,7 @@ F 2 "Marble:SOT95P284X122-5N" H 2000 2583 60  0001 C CNN
 F 3 "" H 1700 2500 60  0000 C CNN
 F 4 "LP5951MF-3.0/NOPB" H 1700 2500 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TEXAS INSTRUMENTS" H 1700 2500 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 1700 2500 50  0001 C CNN "SMD"
 	1    1700 2500
 	1    0    0    -1  
 $EndComp
@@ -333,6 +335,7 @@ F 3 "" H 4050 1950 60  0000 C CNN
 F 4 "VM53S3-25.000-2.5/-30+75" H 4050 1950 50  0001 C CNN "Manufacturer Part Number"
 F 5 "Mercury" H 3950 1950 50  0001 C CNN "Manufacturer"
 F 6 "dnf" H 4350 1500 50  0000 C CNN "config"
+F 7 "Yes" H 4050 1950 50  0001 C CNN "SMD"
 	1    4050 1950
 	1    0    0    -1  
 $EndComp

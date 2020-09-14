@@ -1208,6 +1208,7 @@ F 11 "https://www.alliedelec.com/c-k-hdt0001/70417475/" H 4000 8400 50  0001 L C
 F 12 "611-HDT0001" H 4000 8300 50  0001 L CNN "Mouser Part Number"
 F 13 "https://www.mouser.com/Search/Refine.aspx?Keyword=611-HDT0001" H 4000 8200 50  0001 L CNN "Mouser Price/Stock"
 F 14 "-standalone" H 2950 9200 50  0001 C CNN "config"
+F 15 "Yes" H 2950 9200 50  0001 C CNN "SMD"
 	1    2950 9200
 	-1   0    0    -1  
 $EndComp
