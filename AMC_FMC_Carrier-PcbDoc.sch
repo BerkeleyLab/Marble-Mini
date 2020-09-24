@@ -5,8 +5,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 25
 Title "Marble-Mini"
-Date "2019-01-16"
-Rev "9"
+Date "2020-09-24"
+Rev "release v1.1"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
@@ -2312,8 +2312,6 @@ Wire Notes Line
 	12450 9900 12950 9900
 Wire Notes Line
 	12450 8450 12950 8450
-Text Notes 18700 15200 0    50   ~ 0
-branch: fab2
 $Comp
 L Pads:PLATED_HOLE2.8_PAD0 B10
 U 1 1 5EBE33C9
