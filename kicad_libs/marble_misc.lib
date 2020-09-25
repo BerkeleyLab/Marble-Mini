@@ -96,7 +96,7 @@ ENDDEF
 DEF 1.5KExxA-Diode D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "1.5KExxA-Diode" 0 -100 50 H V C CNN
-F2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" 0 -200 50 H I C CNN
+F2 "Marble:D_DO-201AE_P15.24mm_Horizontal" 0 -200 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 $FPLIST
  D?DO?201AE*
@@ -114,21 +114,21 @@ ENDDEF
 DEF AG5300-AG5300 U 0 30 Y Y 1 F N
 F0 "U" 1200 -50 50 H V L CNN
 F1 "AG5300-AG5300" 1200 -150 50 H V L CNN
-F2 "AG5300" 1200 -250 50 H I L CNN
-F3 "https://www.silvertel.com/images/datasheets/Ag5300-datasheet-smallest-30W-Power-Over-Ethernet-Plus-Module-PoEplusPD.pdf" 1200 -350 50 H I L CNN
+F2 "Marble:AG5300" 1200 -250 50 H I L CNN
+F3 "" 1200 -350 50 H I L CNN
 F4 "Power-over-Ethernet Plus Module" 1200 -450 50 H I L CNN "Description"
 F5 "14" 1200 -550 50 H I L CNN "Height"
-F6 "Silvertel" 1200 -750 50 H I L CNN "Manufacturer_Name"
-F7 "AG5300" 1200 -850 50 H I L CNN "Manufacturer_Part_Number"
+F6 "Silvertel" 1200 -750 50 H I L CNN "Manufacturer"
+F7 "AG5300" 1200 -850 50 H I L CNN "Manufacturer Part Number"
 DRAW
 P 5 0 1 6 250 -250 1150 -250 1150 -850 250 -850 250 -250 f
-X VIN+ 1 50 -350 200 R 50 50 0 0 B
-X -VDC_2 10 1350 -750 200 L 50 50 0 0 B
-X VIN- 2 50 -750 200 R 50 50 0 0 B
-X AT-DET 3 50 -550 200 R 50 50 0 0 B
-X -VDC_1 7 1350 -650 200 L 50 50 0 0 B
-X +VDC 8 1350 -350 200 L 50 50 0 0 B
-X ADJ 9 1350 -450 200 L 50 50 0 0 B
+X VIN+ 1 50 -350 200 R 50 50 0 0 P
+X -VDC_2 10 1350 -750 200 L 50 50 0 0 P
+X VIN- 2 50 -750 200 R 50 50 0 0 P
+X AT-DET 3 50 -550 200 R 50 50 0 0 O
+X -VDC_1 7 1350 -650 200 L 50 50 0 0 P
+X +VDC 8 1350 -350 200 L 50 50 0 0 P
+X ADJ 9 1350 -450 200 L 50 50 0 0 I
 ENDDRAW
 ENDDEF
 #
@@ -137,7 +137,7 @@ ENDDEF
 DEF BELFUSE_0826-1X1T-HS-F-Miscellaneous J 0 60 Y Y 1 F N
 F0 "J" 900 50 50 H V C CNN
 F1 "BELFUSE_0826-1X1T-HS-F-Miscellaneous" 900 -3050 50 H V C CNN
-F2 "Miscellaneous THD:BELFUSE_0826-1X1T-80-F" 0 -3150 60 H I L CNN
+F2 "Marble:BELFUSE_0826-1X1T-80-F" 0 -3150 60 H I L CNN
 F3 "" 0 -3220 60 H I L CNN
 F4 "BELFUSE_0826-1X1T-HS-F" 0 -3310 60 H I L CNN "Part Number"
 F5 "BELFUSE_0826-1X1T-HS-F" 0 -3400 60 H I L CNN "Library Ref"
@@ -145,11 +145,11 @@ F6 "SchLib\\Connectors.SchLib" 0 -3490 60 H I L CNN "Library Path"
 F7 "=Family" 0 -3580 60 H I L CNN "Comment"
 F8 "Standard" 0 -3670 60 H I L CNN "Component Kind"
 F9 "Standard" 0 -3760 60 H I L CNN "Component Type"
-F10 "~~" 0 -3850 60 H I L CNN "Device"
+F10 " " 0 -3850 60 H I L CNN "Device"
 F11 "BELFUSE_0826-1X1T-80-F" 0 -3940 60 H I L CNN "Footprint"
-F12 "~~" 0 -4030 60 H I L CNN "PackageDescription"
+F12 " " 0 -4030 60 H I L CNN "PackageDescription"
 F13 "20" 0 -4120 60 H I L CNN "Pin Count"
-F14 "~~" 0 -4210 60 H I L CNN "Case"
+F14 " " 0 -4210 60 H I L CNN "Case"
 F15 "PcbLib\\Miscellaneous THD.PcbLib" 0 -4300 60 H I L CNN "Footprint Path"
 F16 "BELFUSE_0826-1X1T-80-F" 0 -4390 60 H I L CNN "Footprint Ref"
 F17 "RJ45" 0 -4480 60 H I L CNN "Family"
@@ -158,19 +158,15 @@ F19 "No" 0 -4660 60 H I L CNN "Socket"
 F20 "No" 0 -4750 60 H I L CNN "PressFit"
 F21 "No" 0 -4840 60 H I L CNN "SMD"
 F22 "No" 0 -4930 60 H I L CNN "Sense"
-F23 "~~" 0 -5020 60 H I L CNN "Sense Comment"
-F24 "~~" 0 -5110 60 H I L CNN "Status Comment"
+F23 " " 0 -5020 60 H I L CNN "Sense Comment"
+F24 " " 0 -5110 60 H I L CNN "Status Comment"
 F25 "None" 0 -5200 60 H I L CNN "Status"
-F26 "~~" 0 -5290 60 H I L CNN "SCEM"
 F27 "1 Port, Orange Green/Yellow LEDs, RJ45 1000BaseT, PoE, Gigabit MagJack® Connector Module" 0 -5380 60 H I L CNN "Part Description"
 F28 "BELFUSE" 0 -5470 60 H I L CNN "Manufacturer"
 F29 "0826-1X1T-80-F" 0 -5560 60 H I L CNN "Manufacturer Part Number"
 F30 "13.61mm" 0 -5650 60 H I L CNN "ComponentHeight"
-F31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BELFUSE_0826-1X1T-80-F.pdf" 0 -5740 60 H I L CNN "HelpURL"
-F32 "~~" 0 -5830 60 H I L CNN "ComponentLink1URL"
-F33 "~~" 0 -5920 60 H I L CNN "ComponentLink1Description"
-F34 "~~" 0 -6010 60 H I L CNN "ComponentLink2URL"
-F35 "~~" 0 -6100 60 H I L CNN "ComponentLink2Description"
+F33 " " 0 -5920 60 H I L CNN "ComponentLink1Description"
+F35 " " 0 -6100 60 H I L CNN "ComponentLink2Description"
 F36 "CERN DEM JLC" 0 -6190 60 H I L CNN "Author"
 F37 "04/30/14 00:00:00" 0 -6280 60 H I L CNN "CreateDate"
 F38 "04/30/14 00:00:00" 0 -6370 60 H I L CNN "LatestRevisionDate"
@@ -482,7 +478,7 @@ ENDDEF
 DEF CMP-0001-00058-2-AMC P 0 40 Y Y 1 F N
 F0 "P" 13800 -90 60 H V L BNN
 F1 "CMP-0001-00058-2-AMC" 13800 -190 60 H V L BNN
-F2 "" 0 0 60 H V C CNN
+F2 "Marble:AMC-GF-2D-750-O274" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
 C 100 -300 30 0 1 10 F
@@ -1341,9 +1337,12 @@ ENDDEF
 #
 DEF Conn_ARM_JTAG_SWD_10-Connector J 0 40 Y Y 1 F N
 F0 "J" -100 650 50 H V R CNN
-F1 "Conn_ARM_JTAG_SWD_10-Connector" -100 550 50 H V R BNN
-F2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" 50 -550 50 H I L TNN
-F3 "" -350 -1250 50 V I C CNN
+F1 "FTSH-105-01-L-DV-K" -100 550 50 H V R BNN
+F2 "Marble:SAMTEC_FTSH-105-01-L-DV-K" -100 450 50 H I L TNN
+F3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" -100 350 50 V I C CNN
+F4 "SAMTEC"  -100 250 50 H I L CNN "Manufacturer"
+F5 "FTSH-105-01-L-DV-K" -100 250 50 H I L CNN "Manufacturer Part Number"
+F6 "Yes" -100 150 50 H I L CNN "SMD"
 $FPLIST
  Pin?Header*
  *IDC*
@@ -1399,9 +1398,9 @@ P 2 0 1 0 0 -300 0 -280 N
 P 2 0 1 0 0 -188 0 -204 N
 P 2 0 1 0 0 68 0 82 N
 P 2 0 1 0 0 80 0 100 N
-X Tacho 1 -300 0 100 R 50 50 1 1 P
+X - 1 0 -300 100 U 50 50 1 1 P
 X + 2 0 200 100 D 50 50 1 1 P
-X - 3 0 -300 100 U 50 50 1 1 P
+X Tacho 3 -300 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1410,7 +1409,7 @@ ENDDEF
 DEF HDMIULC6-4SC6-Diodes D 0 60 Y Y 1 L N
 F0 "D" 200 50 50 H V C CNN
 F1 "HDMIULC6-4SC6-Diodes" 200 -450 50 H V C CNN
-F2 "ICs And Semiconductors SMD:SOT95P280X145-6N" 0 -680 60 H I L CNN
+F2 "Marble:SOT95P280X145-6N" 0 -680 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\HDMIULC6-4SC6.pdf" 0 -770 60 H I L CNN
 F4 "HDMIULC6-4SC6" 0 -860 60 H I L CNN "Part Number"
 F5 "HDMIULC6-4SC6" 0 -950 60 H I L CNN "Library Ref"
@@ -1422,8 +1421,8 @@ F10 "HDMIULC6-4SC6" 0 -1400 60 H I L CNN "Device"
 F11 "SOT95P280X145-6N" 0 -1490 60 H I L CNN "Footprint"
 F12 "SOT23, 6-Leads, Body 1.6x3.0mm, Pitch 0.95mm, IPC Medium Density" 0 -1580 60 H I L CNN "PackageDescription"
 F13 "6V" 0 -1670 60 H I L CNN "Voltage"
-F14 "~~" 0 -1760 60 H I L CNN "Power"
-F15 "~~" 0 -1850 60 H I L CNN "Status"
+F14 " " 0 -1760 60 H I L CNN "Power"
+F15 " " 0 -1850 60 H I L CNN "Status"
 F16 "Ultra Large Bandwidth HDMI ESD (15kV) Protection" 0 -1940 60 H I L CNN "Part Description"
 F17 "ST MICROELECTRONICS" 0 -2030 60 H I L CNN "Manufacturer"
 F18 "HDMIULC6-4SC6" 0 -2120 60 H I L CNN "Manufacturer Part Number"
@@ -1434,17 +1433,14 @@ F22 "No" 0 -2480 60 H I L CNN "Socket"
 F23 "Yes" 0 -2570 60 H I L CNN "SMD"
 F24 "No" 0 -2660 60 H I L CNN "PressFit"
 F25 "No" 0 -2750 60 H I L CNN "Sense"
-F26 "~~" 0 -2840 60 H I L CNN "Sense Comment"
+F26 " " 0 -2840 60 H I L CNN "Sense Comment"
 F27 "No" 0 -2930 60 H I L CNN "Bonding"
-F28 "~~" 0 -3020 60 H I L CNN "Status Comment"
+F28 " " 0 -3020 60 H I L CNN "Status Comment"
 F29 "1.45mm" 0 -3110 60 H I L CNN "ComponentHeight"
 F30 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -3200 60 H I L CNN "Footprint Path"
 F31 "SOT95P280X145-6N" 0 -3290 60 H I L CNN "Footprint Ref"
-F32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\HDMIULC6-4SC6.pdf" 0 -3380 60 H I L CNN "HelpURL"
-F33 "~~" 0 -3470 60 H I L CNN "ComponentLink1URL"
-F34 "~~" 0 -3560 60 H I L CNN "ComponentLink1Description"
-F35 "~~" 0 -3650 60 H I L CNN "ComponentLink2URL"
-F36 "~~" 0 -3740 60 H I L CNN "ComponentLink2Description"
+F34 " " 0 -3560 60 H I L CNN "ComponentLink1Description"
+F36 " " 0 -3740 60 H I L CNN "ComponentLink2Description"
 F37 "CERN DEM JLC" 0 -3830 60 H I L CNN "Author"
 F38 "06/04/12 00:00:00" 0 -3920 60 H I L CNN "CreateDate"
 F39 "07/03/12 00:00:00" 0 -4010 60 H I L CNN "LatestRevisionDate"
@@ -1511,12 +1507,12 @@ ENDDEF
 DEF HDT0001-HDT0001 S 0 30 Y Y 1 F N
 F0 "S" 1050 300 50 H V L CNN
 F1 "HDT0001-HDT0001" 1050 200 50 H V L CNN
-F2 "HDT0001" 1050 100 50 H I L CNN
+F2 "Marble:HDT0001" 1050 100 50 H I L CNN
 F3 "https://www.ckswitches.com/media/1307/hdt.pdf" 1050 0 50 H I L CNN
 F4 "HDT0001 (Detector Switches)" 1050 -100 50 H I L CNN "Description"
 F5 "3" 1050 -200 50 H I L CNN "Height"
-F6 "C & K COMPONENTS" 1050 -300 50 H I L CNN "Manufacturer_Name"
-F7 "HDT0001" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F6 "C & K COMPONENTS" 1050 -300 50 H I L CNN "Manufacturer"
+F7 "HDT0001" 1050 -400 50 H I L CNN "Manufacturer Part Number"
 F8 "7931598" 1050 -500 50 H I L CNN "RS Part Number"
 F9 "http://uk.rs-online.com/web/p/products/7931598" 1050 -600 50 H I L CNN "RS Price/Stock"
 F10 "70417475" 1050 -700 50 H I L CNN "Allied_Number"
@@ -1525,10 +1521,10 @@ F12 "611-HDT0001" 1050 -900 50 H I L CNN "Mouser Part Number"
 F13 "https://www.mouser.com/Search/Refine.aspx?Keyword=611-HDT0001" 1050 -1000 50 H I L CNN "Mouser Price/Stock"
 DRAW
 P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
-X NO_1 1 0 0 200 R 50 50 0 0 B
-X NO_2 2 0 -100 200 R 50 50 0 0 B
-X COM_1 3 1200 0 200 L 50 50 0 0 B
-X COM_2 4 1200 -100 200 L 50 50 0 0 B
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 0 -100 200 R 50 50 0 0 P
+X COM_1 3 1200 0 200 L 50 50 0 0 P
+X COM_2 4 1200 -100 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -1537,20 +1533,20 @@ ENDDEF
 DEF HIROSE_ZX62RD-AB-5P8-Miscellaneous J 0 60 Y Y 1 L N
 F0 "J" 300 50 50 H V C CNN
 F1 "HIROSE_ZX62RD-AB-5P8-Miscellaneous" 0 -990 60 H I L CNN
-F2 "Miscellaneous SMD:HIROSE_ZX62RD-AB-5P8" 0 -1080 60 H I L CNN
+F2 "Marble:HIROSE_ZX62RD-AB-5P8" 0 -1080 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\HIROSE_ZX62RD-AB-5P8.pdf" 0 -1170 60 H I L CNN
-F4 "Micro-USB AB 2.0" 300 -850 50 H V C CNN "~"
+F4 "Micro-USB AB 2.0" 300 -850 50 H V C CNN "Val"
 F5 "HIROSE_ZX62RD-AB-5P8" 0 -1260 60 H I L CNN "Part Number"
 F6 "Connector USB 5 Pin + 1Shield" 0 -1350 60 H I L CNN "Library Ref"
 F7 "SchLib\\Connectors.SchLib" 0 -1440 60 H I L CNN "Library Path"
 F8 "=Family" 0 -1530 60 H I L CNN "Comment"
 F9 "Standard" 0 -1620 60 H I L CNN "Component Kind"
 F10 "Standard" 0 -1710 60 H I L CNN "Component Type"
-F11 "~~" 0 -1800 60 H I L CNN "Device"
+F11 " " 0 -1800 60 H I L CNN "Device"
 F12 "HIROSE_ZX62RD-AB-5P8" 0 -1890 60 H I L CNN "Footprint"
-F13 "~~" 0 -1980 60 H I L CNN "PackageDescription"
+F13 " " 0 -1980 60 H I L CNN "PackageDescription"
 F14 "7" 0 -2070 60 H I L CNN "Pin Count"
-F15 "~~" 0 -2160 60 H I L CNN "Case"
+F15 " " 0 -2160 60 H I L CNN "Case"
 F16 "PcbLib\\Miscellaneous SMD.PcbLib" 0 -2250 60 H I L CNN "Footprint Path"
 F17 "HIROSE_ZX62RD-AB-5P8" 0 -2340 60 H I L CNN "Footprint Ref"
 F18 "Micro-USB AB 2.0" 0 -2430 60 H I L CNN "Family"
@@ -1559,19 +1555,15 @@ F20 "No" 0 -2610 60 H I L CNN "Socket"
 F21 "No" 0 -2700 60 H I L CNN "PressFit"
 F22 "Yes" 0 -2790 60 H I L CNN "SMD"
 F23 "No" 0 -2880 60 H I L CNN "Sense"
-F24 "~~" 0 -2970 60 H I L CNN "Sense Comment"
-F25 "~~" 0 -3060 60 H I L CNN "Status Comment"
+F24 " " 0 -2970 60 H I L CNN "Sense Comment"
+F25 " " 0 -3060 60 H I L CNN "Status Comment"
 F26 "Obsolete" 0 -3150 60 H I L CNN "Status"
-F27 "~~" 0 -3240 60 H I L CNN "SCEM"
 F28 "Micro-USB 2.0 Right Angle, SMD Type AB - Reverse (Top mount), Shell Through Hole" 0 -3330 60 H I L CNN "Part Description"
 F29 "HIROSE (HRS)" 0 -3420 60 H I L CNN "Manufacturer"
 F30 "ZX62RD-AB-5P8" 0 -3510 60 H I L CNN "Manufacturer Part Number"
 F31 "2.35mm" 0 -3600 60 H I L CNN "ComponentHeight"
-F32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\HIROSE_ZX62RD-AB-5P8.pdf" 0 -3690 60 H I L CNN "HelpURL"
-F33 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\HIROSE_ZX62RD-AB-5P8_Package-Drawing.pdf" 0 -3780 60 H I L CNN "ComponentLink1URL"
 F34 "Package-Drawing" 0 -3870 60 H I L CNN "ComponentLink1Description"
-F35 "~~" 0 -3960 60 H I L CNN "ComponentLink2URL"
-F36 "~~" 0 -4050 60 H I L CNN "ComponentLink2Description"
+F36 " " 0 -4050 60 H I L CNN "ComponentLink2Description"
 F37 "CERN DEM JLC" 0 -4140 60 H I L CNN "Author"
 F38 "10/29/14 00:00:00" 0 -4230 60 H I L CNN "CreateDate"
 F39 "06/22/17 00:00:00" 0 -4320 60 H I L CNN "LatestRevisionDate"
@@ -1597,11 +1589,11 @@ P 2 0 1 10 350 -200 450 -200 N
 P 2 0 1 10 350 -150 550 -150 N
 P 2 0 1 10 550 -650 550 -150 N
 P 2 0 1 10 600 0 600 -800 N
-X VBUS 1 -200 -200 200 R 60 60 0 1 B
+X VBUS 1 -200 -200 200 R 60 60 0 1 w
 X -D 2 -200 -300 200 R 60 60 0 1 B
 X +D 3 -200 -400 200 R 60 60 0 1 B
 X ID 4 -200 -500 200 R 60 60 0 1 P
-X GND 5 -200 -600 200 R 60 60 0 1 B
+X GND 5 -200 -600 200 R 60 60 0 1 W
 X SH 6 -200 -700 200 R 0 0 0 1 W
 ENDDRAW
 ENDDEF
@@ -1902,7 +1894,7 @@ ENDDEF
 DEF M93C46-WMN6TP-Logic IC 0 60 Y Y 1 L N
 F0 "IC" 350 50 50 H V C CNN
 F1 "M93C46-WMN6TP-Logic" 350 -750 50 H V C CNN
-F2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" 0 -980 60 H I L CNN
+F2 "Marble:SOIC127P600X175-8N" 0 -980 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\M93C46-WMN6TP.pdf" 0 -1070 60 H I L CNN
 F4 "M93C46-WMN6TP" 0 -1160 60 H I L CNN "Part Number"
 F5 "M93C46-WMN6TP" 0 -1250 60 H I L CNN "Library Ref"
@@ -1913,7 +1905,7 @@ F9 "Standard" 0 -1610 60 H I L CNN "Component Type"
 F10 "M93C46-WMN6TP" 0 -1700 60 H I L CNN "Device"
 F11 "SOIC127P600X175-8N" 0 -1790 60 H I L CNN "Footprint"
 F12 "SOIC 8, Pitch 1.27mm - Body 4x5mm, IPC Medium Density" 0 -1880 60 H I L CNN "PackageDescription"
-F13 "~~" 0 -1970 60 H I L CNN "Status"
+F13 " " 0 -1970 60 H I L CNN "Status"
 F14 "1Kbit (128 x 8 bit or 64 x 16 bit) MICROWIRE® Serial Access EEPROM" 0 -2060 60 H I L CNN "Part Description"
 F15 "ST MICROELECTRONICS" 0 -2150 60 H I L CNN "Manufacturer"
 F16 "M93C46-WMN6TP" 0 -2240 60 H I L CNN "Manufacturer Part Number"
@@ -1925,16 +1917,13 @@ F21 "Yes" 0 -2690 60 H I L CNN "SMD"
 F22 "No" 0 -2780 60 H I L CNN "PressFit"
 F23 "No" 0 -2870 60 H I L CNN "Sense"
 F24 "No" 0 -2960 60 H I L CNN "Bonding"
-F25 "~~" 0 -3050 60 H I L CNN "Sense Comment"
-F26 "~~" 0 -3140 60 H I L CNN "Status Comment"
+F25 " " 0 -3050 60 H I L CNN "Sense Comment"
+F26 " " 0 -3140 60 H I L CNN "Status Comment"
 F27 "1.75mm" 0 -3230 60 H I L CNN "ComponentHeight"
 F28 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -3320 60 H I L CNN "Footprint Path"
 F29 "SOIC127P600X175-8N" 0 -3410 60 H I L CNN "Footprint Ref"
-F30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\M93C46-WMN6TP.pdf" 0 -3500 60 H I L CNN "HelpURL"
-F31 "~~" 0 -3590 60 H I L CNN "ComponentLink1URL"
-F32 "~~" 0 -3680 60 H I L CNN "ComponentLink1Description"
-F33 "~~" 0 -3770 60 H I L CNN "ComponentLink2URL"
-F34 "~~" 0 -3860 60 H I L CNN "ComponentLink2Description"
+F32 " " 0 -3680 60 H I L CNN "ComponentLink1Description"
+F34 " " 0 -3860 60 H I L CNN "ComponentLink2Description"
 F35 "CERN DEM JLC" 0 -3950 60 H I L CNN "Author"
 F36 "11/15/12 00:00:00" 0 -4040 60 H I L CNN "CreateDate"
 F37 "11/15/12 00:00:00" 0 -4130 60 H I L CNN "LatestRevisionDate"
@@ -1958,7 +1947,7 @@ ENDDEF
 DEF MB6S-Diode_Bridge D 0 0 Y Y 1 F N
 F0 "D" 100 275 50 H V L CNN
 F1 "MB6S-Diode_Bridge" 100 200 50 H V L CNN
-F2 "Package_TO_SOT_SMD:TO-269AA" 150 125 50 H I L CNN
+F2 "Marble:TO-269AA" 150 125 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  TO?269AA*
@@ -2015,19 +2004,19 @@ ENDDEF
 DEF MOLEX_87831-1420-MOLEX J 0 60 Y Y 1 L N
 F0 "J" 150 50 50 H V C CNN
 F1 "MOLEX_87831-1420-MOLEX" 0 -1590 60 H I L CNN
-F2 "MOLEX THD:MOLEX_87831-1420" 0 -1680 60 H I L CNN
+F2 "Marble:MOLEX_87831-1420" 0 -1680 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MOLEX_87831-1420.pdf" 0 -1770 60 H I L CNN
-F4 "Milli-Grid™" 0 -1860 60 H I L CNN
+F4 "Milli-Grid™" 0 -1860 60 H I L CNN "Val"
 F5 "MOLEX_87831-1420" 0 -1860 60 H I L CNN "Part Number"
 F6 "Connector 14 Male" 0 -1950 60 H I L CNN "Library Ref"
 F7 "SchLib\\Connectors.SchLib" 0 -2040 60 H I L CNN "Library Path"
-F8 "~~" 0 -2130 60 H I L CNN "Comment"
+F8 " " 0 -2130 60 H I L CNN "Comment"
 F9 "Standard" 0 -2220 60 H I L CNN "Component Kind"
 F10 "Standard" 0 -2310 60 H I L CNN "Component Type"
 F11 "MOLEX_87831-1420" 0 -2400 60 H I L CNN "Footprint"
-F12 "~~" 0 -2490 60 H I L CNN "PackageDescription"
+F12 " " 0 -2490 60 H I L CNN "PackageDescription"
 F13 "14" 0 -2580 60 H I L CNN "Pin Count"
-F14 "~~" 0 -2670 60 H I L CNN "Case"
+F14 " " 0 -2670 60 H I L CNN "Case"
 F15 "PcbLib\\MOLEX THD.PcbLib" 0 -2760 60 H I L CNN "Footprint Path"
 F16 "MOLEX_87831-1420" 0 -2850 60 H I L CNN "Footprint Ref"
 F17 "Milli-Grid™" 0 -2940 60 H I L CNN "Family"
@@ -2036,20 +2025,16 @@ F19 "No" 0 -3120 60 H I L CNN "Socket"
 F20 "No" 0 -3210 60 H I L CNN "SMD"
 F21 "No" 0 -3300 60 H I L CNN "PressFit"
 F22 "No" 0 -3390 60 H I L CNN "Sense"
-F23 "~~" 0 -3480 60 H I L CNN "Sense Comment"
+F23 " " 0 -3480 60 H I L CNN "Sense Comment"
 F24 "None" 0 -3570 60 H I L CNN "Status"
-F25 "~~" 0 -3660 60 H I L CNN "Status Comment"
-F26 "~~" 0 -3750 60 H I L CNN "SCEM"
-F27 "~~" 0 -3840 60 H I L CNN "Device"
+F25 " " 0 -3660 60 H I L CNN "Status Comment"
+F27 " " 0 -3840 60 H I L CNN "Device"
 F28 "2.00mm (.079\") Pitch Milli-Grid™ Header, Vertical, Shrouded, Center Polarization Slot, Locking Window, 14 Circuits" 0 -3930 60 H I L CNN "Part Description"
 F29 "MOLEX" 0 -4020 60 H I L CNN "Manufacturer"
 F30 "87831-1420" 0 -4110 60 H I L CNN "Manufacturer Part Number"
 F31 "6.4mm" 0 -4200 60 H I L CNN "ComponentHeight"
-F32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MOLEX_87831-1420.pdf" 0 -4290 60 H I L CNN "HelpURL"
-F33 "~~" 0 -4380 60 H I L CNN "ComponentLink1URL"
-F34 "~~" 0 -4470 60 H I L CNN "ComponentLink1Description"
-F35 "~~" 0 -4560 60 H I L CNN "ComponentLink2URL"
-F36 "~~" 0 -4650 60 H I L CNN "ComponentLink2Description"
+F34 " " 0 -4470 60 H I L CNN "ComponentLink1Description"
+F36 " " 0 -4650 60 H I L CNN "ComponentLink2Description"
 F37 "CERN DEM JLC" 0 -4740 60 H I L CNN "Author"
 F38 "04/13/10 00:00:00" 0 -4830 60 H I L CNN "CreateDate"
 F39 "04/13/10 00:00:00" 0 -4920 60 H I L CNN "LatestRevisionDate"
@@ -2212,34 +2197,34 @@ P 2 0 2 10 300 -400 240 -400 N
 P 2 0 2 10 300 -300 240 -300 N
 P 2 0 2 10 300 -200 240 -200 N
 P 2 0 2 10 300 -100 240 -100 N
-X 1 1 -200 -100 200 R 60 0 0 1 B
-X 10 10 -200 -1000 200 R 60 0 0 1 B
-X 11 11 -200 -1100 200 R 60 0 0 1 B
-X 12 12 -200 -1200 200 R 60 0 0 1 B
-X 13 13 -200 -1300 200 R 60 0 0 1 B
-X 14 14 -200 -1400 200 R 60 0 0 1 B
-X 2 2 -200 -200 200 R 60 0 0 1 B
-X 3 3 -200 -300 200 R 60 0 0 1 B
-X 4 4 -200 -400 200 R 60 0 0 1 B
-X 5 5 -200 -500 200 R 60 0 0 1 B
-X 6 6 -200 -600 200 R 60 0 0 1 B
-X 7 7 -200 -700 200 R 60 0 0 1 B
-X 8 8 -200 -800 200 R 60 0 0 1 B
-X 9 9 -200 -900 200 R 60 0 0 1 B
-X 1 1 -200 -100 200 R 60 0 0 2 B
-X 10 10 500 -500 200 L 60 0 0 2 B
-X 11 11 -200 -600 200 R 60 0 0 2 B
-X 12 12 500 -600 200 L 60 0 0 2 B
-X 13 13 -200 -700 200 R 60 0 0 2 B
-X 14 14 500 -700 200 L 60 0 0 2 B
-X 2 2 500 -100 200 L 60 0 0 2 B
-X 3 3 -200 -200 200 R 60 0 0 2 B
-X 4 4 500 -200 200 L 60 0 0 2 B
-X 5 5 -200 -300 200 R 60 0 0 2 B
-X 6 6 500 -300 200 L 60 0 0 2 B
-X 7 7 -200 -400 200 R 60 0 0 2 B
-X 8 8 500 -400 200 L 60 0 0 2 B
-X 9 9 -200 -500 200 R 60 0 0 2 B
+X 1 1 -200 -100 200 R 60 0 0 1 P
+X 10 10 -200 -1000 200 R 60 0 0 1 P
+X 11 11 -200 -1100 200 R 60 0 0 1 P
+X 12 12 -200 -1200 200 R 60 0 0 1 P
+X 13 13 -200 -1300 200 R 60 0 0 1 P
+X 14 14 -200 -1400 200 R 60 0 0 1 P
+X 2 2 -200 -200 200 R 60 0 0 1 P
+X 3 3 -200 -300 200 R 60 0 0 1 P
+X 4 4 -200 -400 200 R 60 0 0 1 P
+X 5 5 -200 -500 200 R 60 0 0 1 P
+X 6 6 -200 -600 200 R 60 0 0 1 P
+X 7 7 -200 -700 200 R 60 0 0 1 P
+X 8 8 -200 -800 200 R 60 0 0 1 P
+X 9 9 -200 -900 200 R 60 0 0 1 P
+X 1 1 -200 -100 200 R 60 0 0 2 P
+X 10 10 500 -500 200 L 60 0 0 2 P
+X 11 11 -200 -600 200 R 60 0 0 2 P
+X 12 12 500 -600 200 L 60 0 0 2 P
+X 13 13 -200 -700 200 R 60 0 0 2 P
+X 14 14 500 -700 200 L 60 0 0 2 P
+X 2 2 500 -100 200 L 60 0 0 2 P
+X 3 3 -200 -200 200 R 60 0 0 2 P
+X 4 4 500 -200 200 L 60 0 0 2 P
+X 5 5 -200 -300 200 R 60 0 0 2 P
+X 6 6 500 -300 200 L 60 0 0 2 P
+X 7 7 -200 -400 200 R 60 0 0 2 P
+X 8 8 500 -400 200 L 60 0 0 2 P
+X 9 9 -200 -500 200 R 60 0 0 2 P
 ENDDRAW
 ENDDEF
 #
@@ -2248,7 +2233,7 @@ ENDDEF
 DEF MT41K512M16HA-125_E-Logic IC 0 60 Y Y 1 L N
 F0 "IC" 500 50 50 H V C CNN
 F1 "MT41K512M16HA-125_E-Logic" 500 -5850 50 H V C CNN
-F2 "ICs And Semiconductors SMD_BGA:BGA96C80P9X16_900X1400X120" 0 -6080 60 H I L CNN
+F2 "Marble:BGA96C80P9X16_900X1400X120" 0 -6080 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MT41K512M16HA-125-E.pdf" 0 -6170 60 H I L CNN
 F4 "MT41K512M16HA-125:E" 0 -6260 60 H I L CNN "Part Number"
 F5 "MT41K512M16HA-125:E" 0 -6350 60 H I L CNN "Library Ref"
@@ -2259,7 +2244,7 @@ F9 "Standard" 0 -6710 60 H I L CNN "Component Type"
 F10 "MT41K512M16HA-125:E" 0 -6800 60 H I L CNN "Device"
 F11 "BGA96C80P9X16_900X1400X120" 0 -6890 60 H I L CNN "Footprint"
 F12 "BGA 0.8mm, Pitch, Square 96 Pin, 9 Columns x 16 Rows, Body 14mm X 9mm X 1.2mm H" 0 -6980 60 H I L CNN "PackageDescription"
-F13 "~~" 0 -7070 60 H I L CNN "Status"
+F13 " " 0 -7070 60 H I L CNN "Status"
 F14 "+1.35V, 8Gb (64 Meg x 16 x 8 banks) DDR3L SDRAM" 0 -7160 60 H I L CNN "Part Description"
 F15 "MICRON TECHNOLOGY" 0 -7250 60 H I L CNN "Manufacturer"
 F16 "MT41K512M16HA-125:E" 0 -7340 60 H I L CNN "Manufacturer Part Number"
@@ -2271,16 +2256,13 @@ F21 "Yes" 0 -7790 60 H I L CNN "SMD"
 F22 "No" 0 -7880 60 H I L CNN "PressFit"
 F23 "No" 0 -7970 60 H I L CNN "Sense"
 F24 "No" 0 -8060 60 H I L CNN "Bonding"
-F25 "~~" 0 -8150 60 H I L CNN "Sense Comment"
-F26 "~~" 0 -8240 60 H I L CNN "Status Comment"
+F25 " " 0 -8150 60 H I L CNN "Sense Comment"
+F26 " " 0 -8240 60 H I L CNN "Status Comment"
 F27 "1.2mm" 0 -8330 60 H I L CNN "ComponentHeight"
 F28 "PcbLib\\ICs And Semiconductors SMD_BGA.PcbLib" 0 -8420 60 H I L CNN "Footprint Path"
 F29 "BGA96C80P9X16_900X1400X120" 0 -8510 60 H I L CNN "Footprint Ref"
-F30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MT41K512M16HA-125-E.pdf" 0 -8600 60 H I L CNN "HelpURL"
-F31 "~~" 0 -8690 60 H I L CNN "ComponentLink1URL"
-F32 "~~" 0 -8780 60 H I L CNN "ComponentLink1Description"
-F33 "~~" 0 -8870 60 H I L CNN "ComponentLink2URL"
-F34 "~~" 0 -8960 60 H I L CNN "ComponentLink2Description"
+F32 " " 0 -8780 60 H I L CNN "ComponentLink1Description"
+F34 " " 0 -8960 60 H I L CNN "ComponentLink2Description"
 F35 "CERN DEM BC" 0 -9050 60 H I L CNN "Author"
 F36 "10/05/15 00:00:00" 0 -9140 60 H I L CNN "CreateDate"
 F37 "10/05/15 00:00:00" 0 -9230 60 H I L CNN "LatestRevisionDate"
@@ -2392,7 +2374,7 @@ ENDDEF
 DEF NC7SZ66P5X-Standard_Logic IC 0 60 Y Y 1 L N
 F0 "IC" 300 50 50 H V C CNN
 F1 "NC7SZ66P5X-Standard_Logic" 300 -450 50 H V C CNN
-F2 "ICs And Semiconductors SMD:SOT65P210X110-5N" 0 -680 60 H I L CNN
+F2 "Marble:SOT65P210X110-5N" 0 -680 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\NC7SZ66P5X.pdf" 0 -770 60 H I L CNN
 F4 "NC7SZ66P5X" 0 -860 60 H I L CNN "Part Number"
 F5 "NC7SZ66P5X" 0 -950 60 H I L CNN "Library Ref"
@@ -2403,7 +2385,7 @@ F9 "Standard" 0 -1310 60 H I L CNN "Component Type"
 F10 "NC7SZ66P5X" 0 -1400 60 H I L CNN "Device"
 F11 "SOT65P210X110-5N" 0 -1490 60 H I L CNN "Footprint"
 F12 "SOT353, SC70-5, SOT, 0.65mm Pitch, 5 pin, 1.25mm W X 2.00mm L X 1.10mm H, IPC Medium Density" 0 -1580 60 H I L CNN "PackageDescription"
-F13 "~~" 0 -1670 60 H I L CNN "Status"
+F13 " " 0 -1670 60 H I L CNN "Status"
 F14 "Low Voltage Single SPST Normally Open Bus Switch" 0 -1760 60 H I L CNN "Part Description"
 F15 "FAIRCHILD SEMICONDUCTOR" 0 -1850 60 H I L CNN "Manufacturer"
 F16 "NC7SZ66P5X" 0 -1940 60 H I L CNN "Manufacturer Part Number"
@@ -2414,18 +2396,15 @@ F20 "No" 0 -2300 60 H I L CNN "Socket"
 F21 "Yes" 0 -2390 60 H I L CNN "SMD"
 F22 "No" 0 -2480 60 H I L CNN "PressFit"
 F23 "No" 0 -2570 60 H I L CNN "Sense"
-F24 "~~" 0 -2660 60 H I L CNN "Sense Comment"
+F24 " " 0 -2660 60 H I L CNN "Sense Comment"
 F25 "No" 0 -2750 60 H I L CNN "Bonding"
-F26 "~~" 0 -2840 60 H I L CNN "Status Comment"
+F26 " " 0 -2840 60 H I L CNN "Status Comment"
 F27 "1.1mm" 0 -2930 60 H I L CNN "ComponentHeight"
 F28 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -3020 60 H I L CNN "Footprint Path"
 F29 "SOT65P210X110-5N" 0 -3110 60 H I L CNN "Footprint Ref"
 F30 "CERN DEM JLC" 0 -3200 60 H I L CNN "Author"
-F31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\NC7SZ66P5X.pdf" 0 -3290 60 H I L CNN "HelpURL"
-F32 "~~" 0 -3380 60 H I L CNN "ComponentLink1URL"
-F33 "~~" 0 -3470 60 H I L CNN "ComponentLink1Description"
-F34 "~~" 0 -3560 60 H I L CNN "ComponentLink2URL"
-F35 "~~" 0 -3650 60 H I L CNN "ComponentLink2Description"
+F33 " " 0 -3470 60 H I L CNN "ComponentLink1Description"
+F35 " " 0 -3650 60 H I L CNN "ComponentLink2Description"
 F36 "07/07/14 00:00:00" 0 -3740 60 H I L CNN "CreateDate"
 F37 "07/07/14 00:00:00" 0 -3830 60 H I L CNN "LatestRevisionDate"
 F38 "ICs And Semiconductors SMD" 0 -3920 60 H I L CNN "Library Name"
@@ -2462,7 +2441,7 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 S 0 -200 750 -1000 0 1 0 f
 X OUT 1 950 -300 200 L 50 50 1 1 O
-X OUT 2 950 -400 200 L 50 50 1 1 O
+X OUT 2 950 -400 200 L 50 50 1 1 P
 X NC 3 -200 -950 200 R 50 50 1 1 I
 X FB/ADJ 4 950 -600 200 L 50 50 1 1 I
 X GND 5 950 -950 200 L 50 50 1 1 I
@@ -2493,11 +2472,11 @@ X VDD 4 -200 -100 200 R 70 70 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache
+# Oscillator_1VC_2GND_3OUT_4+Vs
 #
-DEF Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache OSC 0 40 Y Y 1 F N
+DEF Oscillator_1VC_2GND_3OUT_4+Vs OSC 0 40 Y Y 1 F N
 F0 "OSC" 200 50 60 H V L BNN
-F1 "Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache" 300 -450 60 H V L BNN
+F1 "Oscillator_1VC_2GND_3OUT_4+Vs" 300 -450 60 H V L BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -2518,18 +2497,18 @@ ENDDEF
 DEF PB_TYCO_FSM2JSMA-Switches PB 0 60 Y Y 1 L N
 F0 "PB" 310 200 50 H V C CNN
 F1 "PB_TYCO_FSM2JSMA-Switches" 0 -170 60 H I L CNN
-F2 "Switches:PB_TYCO_FSM2JSMA" 0 -260 60 H I L CNN
+F2 "Marble:PB_TYCO_FSM2JSMA" 0 -260 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PB_TYCO_FSM2JSMA.pdf" 0 -350 60 H I L CNN
-F4 "Push Button" 0 -440 60 H I L CNN
+F4 "Push Button" 0 -440 60 H I L CNN "Val"
 F5 "PB_TYCO_FSM2JSMA" 0 -440 60 H I L CNN "Part Number"
 F6 "PB SPST 12NO-34NO" 0 -530 60 H I L CNN "Library Ref"
 F7 "SchLib\\Switches.SchLib" 0 -620 60 H I L CNN "Library Path"
-F8 "~~" 0 -710 60 H I L CNN "Comment"
+F8 " " 0 -710 60 H I L CNN "Comment"
 F9 "Standard" 0 -800 60 H I L CNN "Component Kind"
 F10 "Standard" 0 -890 60 H I L CNN "Component Type"
 F11 "PB_TYCO_FSM2JSMA" 0 -980 60 H I L CNN "Footprint"
 F12 "4" 0 -1070 60 H I L CNN "Pin Count"
-F13 "~~" 0 -1160 60 H I L CNN "Case"
+F13 " " 0 -1160 60 H I L CNN "Case"
 F14 "PcbLib\\Switches.PcbLib" 0 -1250 60 H I L CNN "Footprint Path"
 F15 "PB_TYCO_FSM2JSMA" 0 -1340 60 H I L CNN "Footprint Ref"
 F16 "Body 6mm x 6mm, Surface Mount Tactile Switches, TYCO ALCOSWITCH FSMJSMA Series" 0 -1430 60 H I L CNN "PackageDescription"
@@ -2539,22 +2518,18 @@ F19 "No" 0 -1700 60 H I L CNN "Socket"
 F20 "Yes" 0 -1790 60 H I L CNN "SMD"
 F21 "No" 0 -1880 60 H I L CNN "PressFit"
 F22 "No" 0 -1970 60 H I L CNN "Sense"
-F23 "~~" 0 -2060 60 H I L CNN "Sense Comment"
+F23 " " 0 -2060 60 H I L CNN "Sense Comment"
 F24 "None" 0 -2150 60 H I L CNN "Status"
-F25 "~~" 0 -2240 60 H I L CNN "Status Comment"
-F26 "~~" 0 -2330 60 H I L CNN "SCEM"
+F25 " " 0 -2240 60 H I L CNN "Status Comment"
 F27 "12VDC 50mA SPST Tactile  Push-Button Switch" 0 -2420 60 H I L CNN "Part Description"
 F28 "TYCO ELECTRONICS" 0 -2510 60 H I L CNN "Manufacturer"
 F29 "FSM2JSMA or  2-1437565-7" 0 -2600 60 H I L CNN "Manufacturer Part Number"
 F30 "4.59mm" 0 -2690 60 H I L CNN "ComponentHeight"
-F31 "~~" 0 -2780 60 H I L CNN "Manufacturer1 Example"
-F32 "~~" 0 -2870 60 H I L CNN "Manufacturer1 Part Number"
-F33 "~~" 0 -2960 60 H I L CNN "Manufacturer1 ComponentHeight"
-F34 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PB_TYCO_FSM2JSMA.pdf" 0 -3050 60 H I L CNN "HelpURL"
-F35 "~~" 0 -3140 60 H I L CNN "ComponentLink1URL"
-F36 "~~" 0 -3230 60 H I L CNN "ComponentLink1Description"
-F37 "~~" 0 -3320 60 H I L CNN "ComponentLink2URL"
-F38 "~~" 0 -3410 60 H I L CNN "ComponentLink2Description"
+F31 " " 0 -2780 60 H I L CNN "Manufacturer1 Example"
+F32 " " 0 -2870 60 H I L CNN "Manufacturer1 Part Number"
+F33 " " 0 -2960 60 H I L CNN "Manufacturer1 ComponentHeight"
+F36 " " 0 -3230 60 H I L CNN "ComponentLink1Description"
+F38 " " 0 -3410 60 H I L CNN "ComponentLink2Description"
 F39 "CERN DEM JLC" 0 -3500 60 H I L CNN "Author"
 F40 "09/08/08 00:00:00" 0 -3590 60 H I L CNN "CreateDate"
 F41 "06/21/12 00:00:00" 0 -3680 60 H I L CNN "LatestRevisionDate"
@@ -2580,7 +2555,7 @@ ENDDEF
 DEF PRTR5V0U2X-Diodes D 0 60 Y Y 1 L N
 F0 "D" 200 50 50 H V C CNN
 F1 "PRTR5V0U2X-Diodes" 200 -550 50 H V C CNN
-F2 "ICs And Semiconductors SMD:SOT190P230X110-4N" 0 -780 60 H I L CNN
+F2 "Marble:SOT190P230X110-4N" 0 -780 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PRTR5V0U2X.pdf" 0 -870 60 H I L CNN
 F4 "PRTR5V0U2X" 0 -960 60 H I L CNN "Part Number"
 F5 "PRTR5V0U2X" 0 -1050 60 H I L CNN "Library Ref"
@@ -2592,8 +2567,8 @@ F10 "PRTR5V0U2X" 0 -1500 60 H I L CNN "Device"
 F11 "SOT190P230X110-4N" 0 -1590 60 H I L CNN "Footprint"
 F12 "SOT143B, SOT, 1.90mm Pitch; 4 Pin, 1.30mm W X 2.90mm L X 1.10mm H body, IPC Medium Density" 0 -1680 60 H I L CNN "PackageDescription"
 F13 "5.5V" 0 -1770 60 H I L CNN "Voltage"
-F14 "~~" 0 -1860 60 H I L CNN "Power"
-F15 "~~" 0 -1950 60 H I L CNN "Status"
+F14 " " 0 -1860 60 H I L CNN "Power"
+F15 " " 0 -1950 60 H I L CNN "Status"
 F16 "Ultra Low Capacitance (1pF) Double Rail-to-Rail ESD Protection Diode (8kV)" 0 -2040 60 H I L CNN "Part Description"
 F17 "NXP SEMICONDUCTORS" 0 -2130 60 H I L CNN "Manufacturer"
 F18 "PRTR5V0U2X" 0 -2220 60 H I L CNN "Manufacturer Part Number"
@@ -2604,17 +2579,14 @@ F22 "No" 0 -2580 60 H I L CNN "Socket"
 F23 "Yes" 0 -2670 60 H I L CNN "SMD"
 F24 "No" 0 -2760 60 H I L CNN "PressFit"
 F25 "No" 0 -2850 60 H I L CNN "Sense"
-F26 "~~" 0 -2940 60 H I L CNN "Sense Comment"
+F26 " " 0 -2940 60 H I L CNN "Sense Comment"
 F27 "No" 0 -3030 60 H I L CNN "Bonding"
-F28 "~~" 0 -3120 60 H I L CNN "Status Comment"
+F28 " " 0 -3120 60 H I L CNN "Status Comment"
 F29 "1.1mm" 0 -3210 60 H I L CNN "ComponentHeight"
 F30 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -3300 60 H I L CNN "Footprint Path"
 F31 "SOT190P230X110-4N" 0 -3390 60 H I L CNN "Footprint Ref"
-F32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PRTR5V0U2X.pdf" 0 -3480 60 H I L CNN "HelpURL"
-F33 "~~" 0 -3570 60 H I L CNN "ComponentLink1URL"
-F34 "~~" 0 -3660 60 H I L CNN "ComponentLink1Description"
-F35 "~~" 0 -3750 60 H I L CNN "ComponentLink2URL"
-F36 "~~" 0 -3840 60 H I L CNN "ComponentLink2Description"
+F34 " " 0 -3660 60 H I L CNN "ComponentLink1Description"
+F36 " " 0 -3840 60 H I L CNN "ComponentLink2Description"
 F37 "CERN DEM JLC" 0 -3930 60 H I L CNN "Author"
 F38 "03/22/11 00:00:00" 0 -4020 60 H I L CNN "CreateDate"
 F39 "03/22/11 00:00:00" 0 -4110 60 H I L CNN "LatestRevisionDate"
@@ -2686,23 +2658,23 @@ ENDDEF
 #
 # SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC
 #
-DEF SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC J 0 60 Y Y 1 L N
+DEF SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC J 0 60 Y Y 1 F N
 F0 "J" 150 50 50 H V C CNN
 F1 "SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC" 0 -2400 60 H I L CNN
-F2 "SAMTEC SMD:SAMTEC_MHDMR-19-02-H-TH-L-TR" 0 -2490 60 H I L CNN
-F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_MHDMR-19-02-H-TH-L-TR.pdf" 0 -2580 60 H I L CNN
-F4 "HDMI" 0 -2670 60 H I L CNN
+F2 "Marble:10029449-111RLF" 0 -2490 60 H I L CNN
+F3 "" 0 -2580 60 H I L CNN
+F4 "HDMI" 0 -2670 60 H I L CNN "Val"
 F5 "SAMTEC_MHDMR-19-02-H-TH-L-TR" 0 -2670 60 H I L CNN "Part Number"
 F6 "Connector HDMI 19 Male + 1 Shield" 0 -2760 60 H I L CNN "Library Ref"
 F7 "SchLib\\Connectors.SchLib" 0 -2850 60 H I L CNN "Library Path"
-F8 "~~" 0 -2940 60 H I L CNN "Comment"
+F8 " " 0 -2940 60 H I L CNN "Comment"
 F9 "Standard" 0 -3030 60 H I L CNN "Component Kind"
 F10 "Standard" 0 -3120 60 H I L CNN "Component Type"
-F11 "~~" 0 -3210 60 H I L CNN "Device"
+F11 " " 0 -3210 60 H I L CNN "Device"
 F12 "SAMTEC_MHDMR-19-02-H-TH-L-TR" 0 -3300 60 H I L CNN "Footprint"
-F13 "~~" 0 -3390 60 H I L CNN "PackageDescription"
+F13 " " 0 -3390 60 H I L CNN "PackageDescription"
 F14 "20" 0 -3480 60 H I L CNN "Pin Count"
-F15 "~~" 0 -3570 60 H I L CNN "Case"
+F15 " " 0 -3570 60 H I L CNN "Case"
 F16 "PcbLib\\SAMTEC SMD.PcbLib" 0 -3660 60 H I L CNN "Footprint Path"
 F17 "SAMTEC_MHDMR-19-02-H-TH-L-TR" 0 -3750 60 H I L CNN "Footprint Ref"
 F18 "HDMI" 0 -3840 60 H I L CNN "Family"
@@ -2710,20 +2682,16 @@ F19 "Yes" 0 -3930 60 H I L CNN "Mounted"
 F20 "No" 0 -4020 60 H I L CNN "Socket"
 F21 "No" 0 -4110 60 H I L CNN "PressFit"
 F22 "No" 0 -4200 60 H I L CNN "Sense"
-F23 "~~" 0 -4290 60 H I L CNN "Sense Comment"
+F23 " " 0 -4290 60 H I L CNN "Sense Comment"
 F24 "Yes" 0 -4380 60 H I L CNN "SMD"
-F25 "~~" 0 -4470 60 H I L CNN "Status Comment"
+F25 " " 0 -4470 60 H I L CNN "Status Comment"
 F26 "None" 0 -4560 60 H I L CNN "Status"
-F27 "~~" 0 -4650 60 H I L CNN "SCEM"
 F28 "19 Contacts, Pitch 0.4mm, Right Angle, Mini  HDMI High Speed I/O Receptacle" 0 -4740 60 H I L CNN "Part Description"
 F29 "SAMTEC" 0 -4830 60 H I L CNN "Manufacturer"
 F30 "MHDMR-19-02-H-TH-L-TR" 0 -4920 60 H I L CNN "Manufacturer Part Number"
 F31 "3.2mm" 0 -5010 60 H I L CNN "ComponentHeight"
-F32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_MHDMR-19-02-H-TH-L-TR.pdf" 0 -5100 60 H I L CNN "HelpURL"
-F33 "~~" 0 -5190 60 H I L CNN "ComponentLink1URL"
-F34 "~~" 0 -5280 60 H I L CNN "ComponentLink1Description"
-F35 "~~" 0 -5370 60 H I L CNN "ComponentLink2URL"
-F36 "~~" 0 -5460 60 H I L CNN "ComponentLink2Description"
+F34 " " 0 -5280 60 H I L CNN "ComponentLink1Description"
+F36 " " 0 -5460 60 H I L CNN "ComponentLink2Description"
 F37 "CERN DEM JLC" 0 -5550 60 H I L CNN "Author"
 F38 "10/19/10 00:00:00" 0 -5640 60 H I L CNN "CreateDate"
 F39 "10/19/10 00:00:00" 0 -5730 60 H I L CNN "LatestRevisionDate"
@@ -2780,23 +2748,23 @@ P 2 0 1 10 400 -2300 400 0 N
 P 2 0 1 10 400 0 0 0 N
 X 1 1 -200 -200 200 R 60 0 0 1 B
 X 10 10 -200 -1100 200 R 60 0 0 1 B
-X 11 11 -200 -1200 200 R 60 0 0 1 B
+X 11 11 -200 -1200 200 R 60 0 0 1 W
 X 12 12 -200 -1300 200 R 60 0 0 1 B
 X 13 13 -200 -1400 200 R 60 0 0 1 B
 X 14 14 -200 -1500 200 R 60 0 0 1 B
 X 15 15 -200 -1600 200 R 60 0 0 1 B
 X 16 16 -200 -1700 200 R 60 0 0 1 B
-X 17 17 -200 -1800 200 R 60 0 0 1 B
-X 18 18 -200 -1900 200 R 60 0 0 1 B
+X 17 17 -200 -1800 200 R 60 0 0 1 W
+X 18 18 -200 -1900 200 R 60 0 0 1 W
 X 19 19 -200 -2000 200 R 60 0 0 1 B
-X 2 2 -200 -300 200 R 60 0 0 1 B
+X 2 2 -200 -300 200 R 60 0 0 1 W
 X 20 20 -200 -2200 200 R 0 0 0 1 W
 X 3 3 -200 -400 200 R 60 0 0 1 B
 X 4 4 -200 -500 200 R 60 0 0 1 B
-X 5 5 -200 -600 200 R 60 0 0 1 B
+X 5 5 -200 -600 200 R 60 0 0 1 W
 X 6 6 -200 -700 200 R 60 0 0 1 B
 X 7 7 -200 -800 200 R 60 0 0 1 B
-X 8 8 -200 -900 200 R 60 0 0 1 B
+X 8 8 -200 -900 200 R 60 0 0 1 W
 X 9 9 -200 -1000 200 R 60 0 0 1 B
 ENDDRAW
 ENDDEF
@@ -2806,13 +2774,14 @@ ENDDEF
 DEF SN65MLVD2DRBT U 0 40 Y Y 1 F N
 F0 "U" 200 50 50 H V C CNN
 F1 "SN65MLVD2DRBT" 450 -550 50 H V C CNN
-F2 "ICs And Semiconductors SMD:SON50P300X300X80-9N-R175X248" 200 -100 50 H I C CNN
-F3 "" 200 -100 50 H I C CNN
-F4 "SN65MLVD2DRBT" 0 0 50 H V C CNN "PN"
+F2 "Marble:SON50P300X300X80-9N-R175X248" 200 -100 50 H I C CNN
+F3 "" 200 -200 50 H I C CNN
+F4 "TEXAS INSTRUMENTS" 200 -300 50 H V C CNN "Manufacturer"
+F5 "SN65MLVD2DRBT" 200 -400 50 H V C CNN "Manufacturer Part Number"
 DRAW
 S 200 0 700 -500 0 1 0 f
 X VCC 1 900 -350 200 L 50 50 1 1 I
-X ~RE 2 0 -100 200 R 50 50 1 1 O
+X ~RE 2 0 -100 200 R 50 50 1 1 I
 X R 3 0 -200 200 R 50 50 1 1 O
 X GND 4 0 -350 200 R 50 50 1 1 I
 X GND 5 0 -450 200 R 50 50 1 1 I
@@ -2827,7 +2796,7 @@ ENDDEF
 DEF SN74LVC1G125DCKT-Standard_Logic IC 0 60 Y Y 1 L N
 F0 "IC" 200 -50 50 H V L CNN
 F1 "SN74LVC1G125DCKT-Standard_Logic" 200 -300 50 H V L CNN
-F2 "ICs And Semiconductors SMD:SOT65P210X110-5N" 0 -540 60 H I L CNN
+F2 "Marble:SOT65P210X110-5N" 0 -540 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G125DCKT.pdf" 0 -630 60 H I L CNN
 F4 "SN74LVC1G125DCKT" 0 -720 60 H I L CNN "Part Number"
 F5 "741G125" 0 -810 60 H I L CNN "Library Ref"
@@ -2838,7 +2807,7 @@ F9 "Standard" 0 -1170 60 H I L CNN "Component Type"
 F10 "SN74LVC1G125DCKT" 0 -1260 60 H I L CNN "Device"
 F11 "SOT65P210X110-5N" 0 -1350 60 H I L CNN "Footprint"
 F12 "SOT353, SC70-5, SOT, 0.65mm Pitch, 5 pin, 1.25mm W X 2.00mm L X 1.10mm H, IPC Medium Density" 0 -1440 60 H I L CNN "PackageDescription"
-F13 "~~" 0 -1530 60 H I L CNN "Status"
+F13 " " 0 -1530 60 H I L CNN "Status"
 F14 "Single Bus Buffer Gate With 3-State Outputs" 0 -1620 60 H I L CNN "Part Description"
 F15 "TEXAS INSTRUMENTS" 0 -1710 60 H I L CNN "Manufacturer"
 F16 "SN74LVC1G125DCKT" 0 -1800 60 H I L CNN "Manufacturer Part Number"
@@ -2849,18 +2818,15 @@ F20 "No" 0 -2160 60 H I L CNN "Socket"
 F21 "Yes" 0 -2250 60 H I L CNN "SMD"
 F22 "No" 0 -2340 60 H I L CNN "PressFit"
 F23 "No" 0 -2430 60 H I L CNN "Sense"
-F24 "~~" 0 -2520 60 H I L CNN "Sense Comment"
+F24 " " 0 -2520 60 H I L CNN "Sense Comment"
 F25 "No" 0 -2610 60 H I L CNN "Bonding"
-F26 "~~" 0 -2700 60 H I L CNN "Status Comment"
+F26 " " 0 -2700 60 H I L CNN "Status Comment"
 F27 "1.1mm" 0 -2790 60 H I L CNN "ComponentHeight"
 F28 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2880 60 H I L CNN "Footprint Path"
 F29 "SOT65P210X110-5N" 0 -2970 60 H I L CNN "Footprint Ref"
 F30 "CERN DEM JLC" 0 -3060 60 H I L CNN "Author"
-F31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G125DCKT.pdf" 0 -3150 60 H I L CNN "HelpURL"
-F32 "~~" 0 -3240 60 H I L CNN "ComponentLink1URL"
-F33 "~~" 0 -3330 60 H I L CNN "ComponentLink1Description"
-F34 "~~" 0 -3420 60 H I L CNN "ComponentLink2URL"
-F35 "~~" 0 -3510 60 H I L CNN "ComponentLink2Description"
+F33 " " 0 -3330 60 H I L CNN "ComponentLink1Description"
+F35 " " 0 -3510 60 H I L CNN "ComponentLink2Description"
 F36 "12/19/11 00:00:00" 0 -3600 60 H I L CNN "CreateDate"
 F37 "12/19/11 00:00:00" 0 -3690 60 H I L CNN "LatestRevisionDate"
 F38 "ICs And Semiconductors SMD" 0 -3780 60 H I L CNN "Library Name"
@@ -2882,7 +2848,7 @@ ENDDEF
 DEF SS16-Diodes D 0 60 Y Y 1 L N
 F0 "D" 150 110 50 H V C CNN
 F1 "SS16-Diodes" 150 -100 50 H V C CNN
-F2 "ICs And Semiconductors SMD:DIOM5127X229N" 0 -330 60 H I L CNN
+F2 "Marble:DIOM5127X229N" 0 -330 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SS16.pdf" 0 -420 60 H I L CNN
 F4 "SS16" 0 -510 60 H I L CNN "Part Number"
 F5 "Diode Schottky" 0 -600 60 H I L CNN "Library Ref"
@@ -2895,7 +2861,7 @@ F11 "DIOM5127X229N" 0 -1140 60 H I L CNN "Footprint"
 F12 "DO-214-AC Molded Diode, Body 5.1x2.7mm, IPC Medium Density" 0 -1230 60 H I L CNN "PackageDescription"
 F13 "60V" 0 -1320 60 H I L CNN "Voltage"
 F14 "1A" 0 -1410 60 H I L CNN "Power"
-F15 "~~" 0 -1500 60 H I L CNN "Status"
+F15 " " 0 -1500 60 H I L CNN "Status"
 F16 "Surface Mount Schottky Barrier Rectifier" 0 -1590 60 H I L CNN "Part Description"
 F17 "VISHAY GENERAL SEMICONDUCTOR" 0 -1680 60 H I L CNN "Manufacturer"
 F18 "SS16" 0 -1770 60 H I L CNN "Manufacturer Part Number"
@@ -2906,17 +2872,14 @@ F22 "No" 0 -2130 60 H I L CNN "Socket"
 F23 "Yes" 0 -2220 60 H I L CNN "SMD"
 F24 "No" 0 -2310 60 H I L CNN "PressFit"
 F25 "No" 0 -2400 60 H I L CNN "Sense"
-F26 "~~" 0 -2490 60 H I L CNN "Sense Comment"
+F26 " " 0 -2490 60 H I L CNN "Sense Comment"
 F27 "No" 0 -2580 60 H I L CNN "Bonding"
-F28 "~~" 0 -2670 60 H I L CNN "Status Comment"
+F28 " " 0 -2670 60 H I L CNN "Status Comment"
 F29 "2.29mm" 0 -2760 60 H I L CNN "ComponentHeight"
 F30 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2850 60 H I L CNN "Footprint Path"
 F31 "DIOM5127X229N" 0 -2940 60 H I L CNN "Footprint Ref"
-F32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SS16.pdf" 0 -3030 60 H I L CNN "HelpURL"
-F33 "~~" 0 -3120 60 H I L CNN "ComponentLink1URL"
-F34 "~~" 0 -3210 60 H I L CNN "ComponentLink1Description"
-F35 "~~" 0 -3300 60 H I L CNN "ComponentLink2URL"
-F36 "~~" 0 -3390 60 H I L CNN "ComponentLink2Description"
+F34 " " 0 -3210 60 H I L CNN "ComponentLink1Description"
+F36 " " 0 -3390 60 H I L CNN "ComponentLink2Description"
 F37 "CERN DEM JLC" 0 -3480 60 H I L CNN "Author"
 F38 "07/15/08 00:00:00" 0 -3570 60 H I L CNN "CreateDate"
 F39 "08/23/10 00:00:00" 0 -3660 60 H I L CNN "LatestRevisionDate"
@@ -2940,7 +2903,7 @@ ENDDEF
 DEF STS2DNE60-Transistor_FET Q 0 0 Y N 2 F N
 F0 "Q" 200 75 50 H V L CNN
 F1 "STS2DNE60-Transistor_FET" 200 0 50 H V L CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 200 -75 50 H I L CIN
+F2 "Marble:SOIC-8_3.9x4.9mm_P1.27mm" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
  SOIC*3.9x4.9mm*P1.27mm*
@@ -2999,7 +2962,7 @@ ENDDEF
 DEF TCA9548ARGER-Interface_Expansion U 0 40 Y Y 1 F N
 F0 "U" -300 850 50 H V L CNN
 F1 "TCA9548ARGER-Interface_Expansion" 40 850 50 H V L CNN
-F2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" 0 -1000 50 H I C CNN
+F2 "Marble:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" 0 -1000 50 H I C CNN
 F3 "" 50 250 50 H I C CNN
 $FPLIST
  QFN*1EP*4x4mm*P0.5mm*
@@ -3039,7 +3002,7 @@ ENDDEF
 DEF TPS51200DRC-Regulator_Linear U 0 20 Y Y 1 F N
 F0 "U" -300 400 50 H V C CNN
 F1 "TPS51200DRC-Regulator_Linear" 300 400 50 H V C CNN
-F2 "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm" 0 850 50 H I C CNN
+F2 "Marble:TEXAS_DRC(S-PVSON-N10)" 0 850 50 H I C CNN
 F3 "" 0 850 50 H I C CNN
 $FPLIST
  *VSON?10?1EP?3x3mm?P0.5mm*
@@ -3474,11 +3437,11 @@ X MGTRREF_216 F8 1500 -300 250 L 50 50 5 1 W
 X MGTAVCC F9 -1500 200 250 R 50 50 5 1 W
 X VCCO_0 F12 1000 1600 250 D 50 50 6 1 W
 X DONE_0 G11 1500 -200 250 L 50 50 6 1 B
-X VP_0 L10 1500 -800 250 L 50 50 6 1 B
+X VP_0 L10 1500 -800 250 L 50 50 6 1 W
 X CCLK_0 L12 1500 300 250 L 50 50 6 1 B
-X VREFN_0 L9 1500 -1200 250 L 50 50 6 1 B
-X VREFP_0 M10 1500 -1100 250 L 50 50 6 1 B
-X VN_0 M9 1500 -900 250 L 50 50 6 1 B
+X VREFN_0 L9 1500 -1200 250 L 50 50 6 1 W
+X VREFP_0 M10 1500 -1100 250 L 50 50 6 1 W
+X VN_0 M9 1500 -900 250 L 50 50 6 1 W
 X DXP_0 N10 1500 -1400 250 L 50 50 6 1 B
 X PROGRAM_B_0 N12 1500 -400 250 L 50 50 6 1 B
 X DXN_0 N9 1500 -1500 250 L 50 50 6 1 B
@@ -3489,7 +3452,7 @@ X M1_0 U10 1500 100 250 L 50 50 6 1 B
 X M0_0 U11 1500 200 250 L 50 50 6 1 B
 X INIT_B_0 U12 1500 -300 250 L 50 50 6 1 B
 X TDO_0 U13 1500 700 250 L 50 50 6 1 B
-X CFGBVS_0 U8 1500 -600 250 L 50 50 6 1 B
+X CFGBVS_0 U8 1500 -600 250 L 50 50 6 1 I
 X M2_0 U9 1500 0 250 L 50 50 6 1 B
 X TCK_0 V12 1500 500 250 L 50 50 6 1 B
 X GND A11 -1000 900 250 R 50 50 7 1 W
@@ -3620,3 +3583,4 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
+#End Library

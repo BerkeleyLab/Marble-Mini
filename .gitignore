@@ -1,4 +1,5 @@
 *.bak
+*.bck
 *-bak
 *.dcm
 *.cmp
@@ -6,3 +7,4 @@
 fp-info-cache
 *-PcbDoc-rescue.dcm
 *-PcbDoc-rescue.lib
+*-PcbDoc-cache.lib

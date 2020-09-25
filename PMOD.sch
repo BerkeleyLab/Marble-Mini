@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 25
-Title "Marble"
-Date "2019-01-16"
-Rev "9"
+Title "Marble-Mini"
+Date "2020-09-24"
+Rev "release v1.1"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
@@ -389,9 +388,12 @@ U 1 1 5C9E764A
 P 3750 2900
 F 0 "J12" H 3800 3317 50  0000 C CNN
 F 1 "PPTC062LJBN-RC" H 3800 3226 50  0000 C CNN
-F 2 "Connectors_Samtec:SDL-112-X-XX_2x06" H 3750 2900 50  0001 C CNN
-F 3 "~" H 3750 2900 50  0001 C CNN
+F 2 "Marble:SDL-112-X-XX_2x06" H 3750 2900 50  0001 C CNN
+F 3 " " H 3750 2900 50  0001 C CNN
 F 4 "PPTC062LJBN-RC" H 3750 2900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "+standalone" H 3750 2900 50  0001 C CNN "config"
+F 6 "SULLINS" H 3750 2900 50  0001 C CNN "Manufacturer"
+F 7 "No" H 3750 2900 50  0001 C CNN "SMD"
 	1    3750 2900
 	1    0    0    -1  
 $EndComp
@@ -401,9 +403,12 @@ U 1 1 5C9EA39D
 P 6750 2900
 F 0 "J13" H 6800 3317 50  0000 C CNN
 F 1 "PPTC062LJBN-RC" H 6800 3226 50  0000 C CNN
-F 2 "Connectors_Samtec:SDL-112-X-XX_2x06" H 6750 2900 50  0001 C CNN
-F 3 "~" H 6750 2900 50  0001 C CNN
+F 2 "Marble:SDL-112-X-XX_2x06" H 6750 2900 50  0001 C CNN
+F 3 " " H 6750 2900 50  0001 C CNN
 F 4 "PPTC062LJBN-RC" H 6750 2900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "+standalone" H 6750 2900 50  0001 C CNN "config"
+F 6 "SULLINS" H 6750 2900 50  0001 C CNN "Manufacturer"
+F 7 "No" H 6750 2900 50  0001 C CNN "SMD"
 	1    6750 2900
 	1    0    0    -1  
 $EndComp
@@ -413,9 +418,12 @@ U 1 1 5C9EB059
 P 6750 4400
 F 0 "J16" H 6800 4817 50  0000 C CNN
 F 1 "PPTC062LJBN-RC" H 6800 4726 50  0000 C CNN
-F 2 "Connectors_Samtec:SDL-112-X-XX_2x06" H 6750 4400 50  0001 C CNN
-F 3 "~" H 6750 4400 50  0001 C CNN
+F 2 "Marble:SDL-112-X-XX_2x06" H 6750 4400 50  0001 C CNN
+F 3 " " H 6750 4400 50  0001 C CNN
 F 4 "PPTC062LJBN-RC" H 6750 4400 50  0001 C CNN "Manufacturer Part Number"
+F 5 "+standalone" H 6750 4400 50  0001 C CNN "config"
+F 6 "SULLINS" H 6750 4400 50  0001 C CNN "Manufacturer"
+F 7 "No" H 6750 4400 50  0001 C CNN "SMD"
 	1    6750 4400
 	1    0    0    -1  
 $EndComp

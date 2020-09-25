@@ -1,20 +1,19 @@
 EESchema Schematic File Version 4
-LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 16 25
-Title "Marble"
-Date "2019-01-16"
-Rev "9"
+Title "Marble-Mini"
+Date "2020-09-24"
+Rev "release v1.1"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
 Comment3 "FPGA TOP"
 Comment4 ""
 $EndDescr
-Text HLabel 4050 5950 2    50   Input ~ 10
+Text HLabel 4250 5950 2    50   Input ~ 10
 FPGA_RESETn
 $Sheet
 S 2200 5050 1500 2000
@@ -33,36 +32,18 @@ F10 "CCLK" O R 3700 6300 50
 F11 "BOOT_MODE[0..2]" I R 3700 6450 50 
 F12 "PROG_B" I R 3700 6650 50 
 $EndSheet
-Wire Wire Line
-	3700 5950 4050 5950
-Text HLabel 4050 5500 2    50   Input ~ 10
+Text HLabel 4250 5500 2    50   Input ~ 10
 FPGA_TDI
-Text HLabel 4050 5600 2    50   Output ~ 10
+Text HLabel 4250 5600 2    50   Output ~ 10
 FPGA_TDO
-Text HLabel 4050 5700 2    50   Input ~ 10
+Text HLabel 4250 5700 2    50   Input ~ 10
 FPGA_TMS
-Text HLabel 4050 5800 2    50   Input ~ 10
+Text HLabel 4250 5800 2    50   Input ~ 10
 FPGA_TCK
-Wire Wire Line
-	4050 5500 3700 5500
-Wire Wire Line
-	4050 5600 3700 5600
-Wire Wire Line
-	4050 5700 3700 5700
-Wire Wire Line
-	4050 5800 3700 5800
-Text HLabel 4050 5200 2    50   Output ~ 10
+Text HLabel 4250 5200 2    50   Output ~ 10
 DXP_0
-Text HLabel 4050 5300 2    50   Output ~ 10
+Text HLabel 4250 5300 2    50   Output ~ 10
 DXN_0
-Wire Wire Line
-	3700 5200 4050 5200
-Wire Wire Line
-	4050 5300 3700 5300
-Text HLabel 4050 6100 2    50   Output ~ 10
-FPGA_DONE
-Wire Wire Line
-	4050 6100 3700 6100
 $Sheet
 S 8000 4850 1350 2800
 U 5DCA928C
@@ -94,6 +75,8 @@ F24 "SFP_4_TX_P" O R 9350 7350 50
 F25 "SFP_4_TX_N" O R 9350 7450 50 
 F26 "FCLKA_N" I L 8000 6600 50 
 F27 "FCLKA_P" I L 8000 6700 50 
+F28 "SI570_CLK_P" I L 8000 4950 50 
+F29 "SI570_CLK_N" I L 8000 5050 50 
 $EndSheet
 Text HLabel 9700 5050 2    50   Input ~ 10
 FPGA_REF_CLK1_N
@@ -239,10 +222,10 @@ Wire Wire Line
 	7650 6600 8000 6600
 Wire Wire Line
 	7650 6700 8000 6700
-Text HLabel 4050 6450 2    50   Input ~ 10
+Text HLabel 4200 6450 2    50   Input ~ 10
 BOOT_MODE[0..2]
 Wire Bus Line
-	3700 6450 4050 6450
+	3700 6450 4200 6450
 $Sheet
 S 2350 1700 1600 2100
 U 5C721515
@@ -275,7 +258,7 @@ F25 "FPGA_TxD" I R 3950 2950 50
 F26 "FPGA_RxD" O R 3950 3050 50 
 $EndSheet
 $Sheet
-S 6950 1700 1600 2400
+S 6950 1700 1600 2600
 U 5CAAC367
 F0 "FPGA_15_16" 50
 F1 "FPGA_15_16.sch" 50
@@ -314,6 +297,7 @@ F33 "RGMII_TX_EN" I L 6950 3400 50
 F34 "RGMII_TX_CLK" I L 6950 3500 50 
 F35 "RGMII_RX_DV" I L 6950 3600 50 
 F36 "RGMII_RX_CLK" I L 6950 3700 50 
+F37 "FPGA_DONE" I L 6950 4200 50 
 $EndSheet
 $Sheet
 S 9950 1700 1500 2350
@@ -595,21 +579,6 @@ F 3 "" H 2250 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5D0FF2F5
-P 2250 9750
-AR Path="/5BD32060/5D0FF2F5" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5D0FF2F5" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5D0FF2F5" Ref="#PWR0495"  Part="1" 
-AR Path="/5C907554/5CAAC367/5D0FF2F5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0495" H 2250 9600 50  0001 C CNN
-F 1 "+3V3" H 2265 9923 50  0000 C CNN
-F 2 "" H 2250 9750 50  0001 C CNN
-F 3 "" H 2250 9750 50  0001 C CNN
-	1    2250 9750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5D10C91C
 P 1400 9900
@@ -627,36 +596,6 @@ Wire Wire Line
 	1400 9850 1400 9900
 Wire Wire Line
 	1400 9500 1400 9550
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5D12100D
-P 1400 9500
-AR Path="/5BD32060/5D12100D" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5D12100D" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5D12100D" Ref="#PWR0483"  Part="1" 
-AR Path="/5C907554/5CAAC367/5D12100D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0483" H 1400 9350 50  0001 C CNN
-F 1 "+3V3" H 1415 9673 50  0000 C CNN
-F 2 "" H 1400 9500 50  0001 C CNN
-F 3 "" H 1400 9500 50  0001 C CNN
-	1    1400 9500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5D12E7C4
-P 2050 8750
-AR Path="/5BD32060/5D12E7C4" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5D12E7C4" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5D12E7C4" Ref="#PWR0486"  Part="1" 
-AR Path="/5C907554/5CAAC367/5D12E7C4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0486" H 2050 8600 50  0001 C CNN
-F 1 "+3V3" V 2050 8950 50  0000 C CNN
-F 2 "" H 2050 8750 50  0001 C CNN
-F 3 "" H 2050 8750 50  0001 C CNN
-	1    2050 8750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D1504EA
@@ -723,21 +662,6 @@ Wire Wire Line
 	8550 3450 8700 3450
 Wire Wire Line
 	8550 3550 8700 3550
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5DA3DD5C
-P 1100 8400
-AR Path="/5BD32060/5DA3DD5C" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5DA3DD5C" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5DA3DD5C" Ref="#PWR0548"  Part="1" 
-AR Path="/5C907554/5CAAC367/5DA3DD5C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0548" H 1100 8250 50  0001 C CNN
-F 1 "+3V3" H 1115 8573 50  0000 C CNN
-F 2 "" H 1100 8400 50  0001 C CNN
-F 3 "" H 1100 8400 50  0001 C CNN
-	1    1100 8400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1100 9050 1100 8700
 Text HLabel 8700 3650 2    50   Input ~ 10
@@ -745,8 +669,8 @@ FPGA_INT
 Wire Wire Line
 	8700 3650 8550 3650
 Wire Wire Line
-	4050 6300 3700 6300
-Text Label 3800 6300 0    50   ~ 10
+	4250 6300 3700 6300
+Text Label 4250 6300 2    50   ~ 10
 CCLK
 Text Label 9550 2100 0    50   ~ 10
 CCLK
@@ -762,10 +686,10 @@ Wire Wire Line
 	8550 2400 8700 2400
 Wire Wire Line
 	8550 2500 8700 2500
-Text HLabel 4050 6650 2    50   Input ~ 10
+Text HLabel 4200 6650 2    50   Input ~ 10
 PROG_B
 Wire Wire Line
-	4050 6650 3700 6650
+	4200 6650 3700 6650
 $Comp
 L power:GND #PWR?
 U 1 1 5C5ED591
@@ -786,21 +710,6 @@ F 3 "" H 7300 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5C5ED597
-P 7300 9750
-AR Path="/5BD32060/5C5ED597" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5C5ED597" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C5ED597" Ref="#PWR0118"  Part="1" 
-AR Path="/5C907554/5CAAC367/5C5ED597" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0118" H 7300 9600 50  0001 C CNN
-F 1 "+3V3" H 7315 9923 50  0000 C CNN
-F 2 "" H 7300 9750 50  0001 C CNN
-F 3 "" H 7300 9750 50  0001 C CNN
-	1    7300 9750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5C5ED5A4
 P 6850 9850
@@ -818,36 +727,6 @@ Wire Wire Line
 	6850 9800 6850 9850
 Wire Wire Line
 	6850 9450 6850 9500
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5C5ED5AC
-P 6850 9450
-AR Path="/5BD32060/5C5ED5AC" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5C5ED5AC" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C5ED5AC" Ref="#PWR0113"  Part="1" 
-AR Path="/5C907554/5CAAC367/5C5ED5AC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0113" H 6850 9300 50  0001 C CNN
-F 1 "+3V3" H 6865 9623 50  0000 C CNN
-F 2 "" H 6850 9450 50  0001 C CNN
-F 3 "" H 6850 9450 50  0001 C CNN
-	1    6850 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5C5ED5B2
-P 7100 8650
-AR Path="/5BD32060/5C5ED5B2" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5C5ED5B2" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C5ED5B2" Ref="#PWR0117"  Part="1" 
-AR Path="/5C907554/5CAAC367/5C5ED5B2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0117" H 7100 8500 50  0001 C CNN
-F 1 "+3V3" V 7100 8850 50  0000 C CNN
-F 2 "" H 7100 8650 50  0001 C CNN
-F 3 "" H 7100 8650 50  0001 C CNN
-	1    7100 8650
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C5ED5B8
@@ -1012,7 +891,7 @@ U 1 1 5D0D4F3C
 P 7500 8250
 F 0 "U39" H 7900 8415 50  0000 C CNN
 F 1 "PCA9555AHF" H 7900 8324 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:QFN50P400X400X80-25N-S225" H 7500 5360 60  0001 L CNN
+F 2 "Marble:QFN50P400X400X80-25N-S225" H 7500 5360 60  0001 L CNN
 F 3 "" H 7500 6080 60  0001 L CNN
 F 4 "PCA9555AHF" H 7500 5990 60  0001 L CNN "Part Number"
 F 5 "PCA9555AHF" H 7500 5900 60  0001 L CNN "Library Ref"
@@ -1022,7 +901,7 @@ F 8 "Standard" H 7500 5630 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 7500 5540 60  0001 L CNN "Component Type"
 F 10 "PCA9555AHF" H 7500 5450 60  0001 L CNN "Device"
 F 11 "QFN,0.50mm pitch,square;6 pin X 6 pin,4.10mm X 4.10mm body (w/thermal tab 2.25 X 2.25 mm), IPC Medium Density" H 7500 5270 60  0001 L CNN "PackageDescription"
-F 12 "~~" H 7500 5180 60  0001 L CNN "Status"
+F 12 " " H 7500 5180 60  0001 L CNN "Status"
 F 13 "Low-Voltage 16-Bit I2C-bus I/O Port With Interrupt and Weak Pull-Up" H 7500 5090 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 7500 5000 60  0001 L CNN "Manufacturer"
 F 15 "PCA9555AHF" H 7500 4910 60  0001 L CNN "Manufacturer Part Number"
@@ -1033,22 +912,19 @@ F 19 "No" H 7500 4550 60  0001 L CNN "Socket"
 F 20 "Yes" H 7500 4460 60  0001 L CNN "SMD"
 F 21 "No" H 7500 4370 60  0001 L CNN "PressFit"
 F 22 "No" H 7500 4280 60  0001 L CNN "Sense"
-F 23 "~~" H 7500 4190 60  0001 L CNN "Sense Comment"
+F 23 " " H 7500 4190 60  0001 L CNN "Sense Comment"
 F 24 "No" H 7500 4100 60  0001 L CNN "Bonding"
-F 25 "~~" H 7500 4010 60  0001 L CNN "Status Comment"
+F 25 " " H 7500 4010 60  0001 L CNN "Status Comment"
 F 26 "0.8mm" H 7500 3920 60  0001 L CNN "ComponentHeight"
 F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 7500 3830 60  0001 L CNN "Footprint Path"
 F 28 "QFN50P400X400X80-25N-S225" H 7500 3740 60  0001 L CNN "Footprint Ref"
 F 29 "CERN DEM BC" H 7500 3650 60  0001 L CNN "Author"
-F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PCA9555AHF.pdf" H 7500 3560 60  0001 L CNN "HelpURL"
-F 31 "~~" H 7500 3470 60  0001 L CNN "ComponentLink1URL"
-F 32 "~~" H 7500 3380 60  0001 L CNN "ComponentLink2URL"
-F 33 "~~" H 7500 3290 60  0001 L CNN "ComponentLink2Description"
-F 34 "~~" H 7500 3200 60  0001 L CNN "ComponentLink1Description"
-F 35 "07/24/15 00:00:00" H 7500 3110 60  0001 L CNN "CreateDate"
-F 36 "07/24/15 00:00:00" H 7500 3020 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 7500 2930 60  0001 L CNN "Library Name"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7500 2840 60  0001 L CNN "License"
+F 30 " " H 7500 3290 60  0001 L CNN "ComponentLink2Description"
+F 31 " " H 7500 3200 60  0001 L CNN "ComponentLink1Description"
+F 32 "07/24/15 00:00:00" H 7500 3110 60  0001 L CNN "CreateDate"
+F 33 "07/24/15 00:00:00" H 7500 3020 60  0001 L CNN "LatestRevisionDate"
+F 34 "ICs And Semiconductors SMD" H 7500 2930 60  0001 L CNN "Library Name"
+F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7500 2840 60  0001 L CNN "License"
 	1    7500 8250
 	1    0    0    -1  
 $EndComp
@@ -1063,7 +939,7 @@ U 1 1 5D17325E
 P 2450 8250
 F 0 "U34" H 2850 8415 50  0000 C CNN
 F 1 "PCA9555AHF" H 2850 8324 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:QFN50P400X400X80-25N-S225" H 2450 5360 60  0001 L CNN
+F 2 "Marble:QFN50P400X400X80-25N-S225" H 2450 5360 60  0001 L CNN
 F 3 "" H 2450 6080 60  0001 L CNN
 F 4 "PCA9555AHF" H 2450 5990 60  0001 L CNN "Part Number"
 F 5 "PCA9555AHF" H 2450 5900 60  0001 L CNN "Library Ref"
@@ -1073,7 +949,7 @@ F 8 "Standard" H 2450 5630 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 2450 5540 60  0001 L CNN "Component Type"
 F 10 "PCA9555AHF" H 2450 5450 60  0001 L CNN "Device"
 F 11 "QFN,0.50mm pitch,square;6 pin X 6 pin,4.10mm X 4.10mm body (w/thermal tab 2.25 X 2.25 mm), IPC Medium Density" H 2450 5270 60  0001 L CNN "PackageDescription"
-F 12 "~~" H 2450 5180 60  0001 L CNN "Status"
+F 12 " " H 2450 5180 60  0001 L CNN "Status"
 F 13 "Low-Voltage 16-Bit I2C-bus I/O Port With Interrupt and Weak Pull-Up" H 2450 5090 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 2450 5000 60  0001 L CNN "Manufacturer"
 F 15 "PCA9555AHF" H 2450 4910 60  0001 L CNN "Manufacturer Part Number"
@@ -1084,22 +960,19 @@ F 19 "No" H 2450 4550 60  0001 L CNN "Socket"
 F 20 "Yes" H 2450 4460 60  0001 L CNN "SMD"
 F 21 "No" H 2450 4370 60  0001 L CNN "PressFit"
 F 22 "No" H 2450 4280 60  0001 L CNN "Sense"
-F 23 "~~" H 2450 4190 60  0001 L CNN "Sense Comment"
+F 23 " " H 2450 4190 60  0001 L CNN "Sense Comment"
 F 24 "No" H 2450 4100 60  0001 L CNN "Bonding"
-F 25 "~~" H 2450 4010 60  0001 L CNN "Status Comment"
+F 25 " " H 2450 4010 60  0001 L CNN "Status Comment"
 F 26 "0.8mm" H 2450 3920 60  0001 L CNN "ComponentHeight"
 F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2450 3830 60  0001 L CNN "Footprint Path"
 F 28 "QFN50P400X400X80-25N-S225" H 2450 3740 60  0001 L CNN "Footprint Ref"
 F 29 "CERN DEM BC" H 2450 3650 60  0001 L CNN "Author"
-F 30 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PCA9555AHF.pdf" H 2450 3560 60  0001 L CNN "HelpURL"
-F 31 "~~" H 2450 3470 60  0001 L CNN "ComponentLink1URL"
-F 32 "~~" H 2450 3380 60  0001 L CNN "ComponentLink2URL"
-F 33 "~~" H 2450 3290 60  0001 L CNN "ComponentLink2Description"
-F 34 "~~" H 2450 3200 60  0001 L CNN "ComponentLink1Description"
-F 35 "07/24/15 00:00:00" H 2450 3110 60  0001 L CNN "CreateDate"
-F 36 "07/24/15 00:00:00" H 2450 3020 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors SMD" H 2450 2930 60  0001 L CNN "Library Name"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2450 2840 60  0001 L CNN "License"
+F 30 " " H 2450 3290 60  0001 L CNN "ComponentLink2Description"
+F 31 " " H 2450 3200 60  0001 L CNN "ComponentLink1Description"
+F 32 "07/24/15 00:00:00" H 2450 3110 60  0001 L CNN "CreateDate"
+F 33 "07/24/15 00:00:00" H 2450 3020 60  0001 L CNN "LatestRevisionDate"
+F 34 "ICs And Semiconductors SMD" H 2450 2930 60  0001 L CNN "Library Name"
+F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2450 2840 60  0001 L CNN "License"
 	1    2450 8250
 	1    0    0    -1  
 $EndComp
@@ -1128,45 +1001,43 @@ AR Path="/5BCEDA59/5D62BAF4" Ref="C?"  Part="1"
 AR Path="/5C907554/5D62BAF4" Ref="C215"  Part="1" 
 F 0 "C215" V 1504 9660 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 1400 9290 60  0001 L CNN
-F 2 "CAPC0603X33N" H 1400 8480 60  0001 L CNN
+F 2 "Marble:CAPC0603X33N" H 1400 8480 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 1400 9110 60  0001 L CNN
-F 4 "100nF" V 1595 9660 50  0000 L CNN "~"
+F 4 "100nF" V 1595 9660 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 1400 9020 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 1400 8930 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 1400 8840 60  0001 L CNN "Library Path"
 F 8 "=Value" H 1400 8750 60  0001 L CNN "Comment"
 F 9 "Standard" H 1400 8660 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 1400 8570 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 1400 8390 60  0001 L CNN "Pin Count"
+F 11 "2" H 1400 8390 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 1400 8300 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 1400 8210 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 1400 8120 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 1400 8030 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 1400 7940 60  0001 L CNN "Status"
-F 17 "~~" H 1400 7850 60  0001 L CNN "Status Comment"
-F 18 "6.3V" H 1400 7760 60  0001 L CNN "Voltage"
-F 19 "X5R" H 1400 7670 60  0001 L CNN "TC"
-F 20 "±10%" H 1400 7580 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 1400 7490 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 1400 7400 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_100NF_6.3V_10%_X5R" H 1400 7310 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 1400 7220 60  0001 L CNN "Case"
-F 25 "Yes" H 1400 7130 60  0001 L CNN "Mounted"
-F 26 "No" H 1400 7040 60  0001 L CNN "Socket"
-F 27 "Yes" H 1400 6950 60  0001 L CNN "SMD"
-F 28 "~~" H 1400 6860 60  0001 L CNN "PressFit"
-F 29 "No" H 1400 6770 60  0001 L CNN "Sense"
-F 30 "~~" H 1400 6680 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 1400 6590 60  0001 L CNN "ComponentHeight"
-F 32 "AVX" H 1400 6500 60  0001 L CNN "Manufacturer1 Example"
-F 33 "02016D104KAT2A" H 1400 6410 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 1400 6320 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 1400 6230 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 1400 6140 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 1400 6050 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 1400 5960 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 1400 5870 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1400 5780 60  0001 L CNN "License"
+F 14 " " H 1400 8120 60  0001 L CNN "PackageDescription"
+F 15 "Not Recommended" H 1400 7940 60  0001 L CNN "Status"
+F 16 " " H 1400 7850 60  0001 L CNN "Status Comment"
+F 17 "6.3V" H 1400 7760 60  0001 L CNN "Voltage"
+F 18 "X5R" H 1400 7670 60  0001 L CNN "TC"
+F 19 "±10%" H 1400 7580 60  0001 L CNN "Tolerance"
+F 20 "SMD Multilayer Chip Ceramic Capacitor" H 1400 7490 60  0001 L CNN "Part Description"
+F 21 "GENERIC" H 1400 7400 60  0001 L CNN "Manufacturer"
+F 22 "CC0201_100NF_6.3V_10%_X5R" H 1400 7310 60  0001 L CNN "Manufacturer Part Number"
+F 23 "0201" H 1400 7220 60  0001 L CNN "Case"
+F 24 "Yes" H 1400 7130 60  0001 L CNN "Mounted"
+F 25 "No" H 1400 7040 60  0001 L CNN "Socket"
+F 26 "Yes" H 1400 6950 60  0001 L CNN "SMD"
+F 27 " " H 1400 6860 60  0001 L CNN "PressFit"
+F 28 "No" H 1400 6770 60  0001 L CNN "Sense"
+F 29 " " H 1400 6680 60  0001 L CNN "Sense Comment"
+F 30 " " H 1400 6590 60  0001 L CNN "ComponentHeight"
+F 31 "AVX" H 1400 6500 60  0001 L CNN "Manufacturer1 Example"
+F 32 "02016D104KAT2A" H 1400 6410 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "0.33mm" H 1400 6320 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 34 "CERN DEM JLC" H 1400 6140 60  0001 L CNN "Author"
+F 35 "12/03/07 00:00:00" H 1400 6050 60  0001 L CNN "CreateDate"
+F 36 "12/03/07 00:00:00" H 1400 5960 60  0001 L CNN "LatestRevisionDate"
+F 37 "Capacitors SMD" H 1400 5870 60  0001 L CNN "Library Name"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1400 5780 60  0001 L CNN "License"
 	1    1400 9550
 	0    1    1    0   
 $EndComp
@@ -1178,45 +1049,43 @@ AR Path="/5BCEDA59/5D62BB20" Ref="C?"  Part="1"
 AR Path="/5C907554/5D62BB20" Ref="C342"  Part="1" 
 F 0 "C342" V 6954 9610 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 6850 9240 60  0001 L CNN
-F 2 "CAPC0603X33N" H 6850 8430 60  0001 L CNN
+F 2 "Marble:CAPC0603X33N" H 6850 8430 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 6850 9060 60  0001 L CNN
-F 4 "100nF" V 7045 9610 50  0000 L CNN "~"
+F 4 "100nF" V 7045 9610 50  0000 L CNN "Val"
 F 5 "CC0201_100NF_6.3V_10%_X5R" H 6850 8970 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 6850 8880 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 6850 8790 60  0001 L CNN "Library Path"
 F 8 "=Value" H 6850 8700 60  0001 L CNN "Comment"
 F 9 "Standard" H 6850 8610 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6850 8520 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 6850 8340 60  0001 L CNN "Pin Count"
+F 11 "2" H 6850 8340 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 6850 8250 60  0001 L CNN "Footprint Path"
 F 13 "CAPC0603X33N" H 6850 8160 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 6850 8070 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 6850 7980 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 6850 7890 60  0001 L CNN "Status"
-F 17 "~~" H 6850 7800 60  0001 L CNN "Status Comment"
-F 18 "6.3V" H 6850 7710 60  0001 L CNN "Voltage"
-F 19 "X5R" H 6850 7620 60  0001 L CNN "TC"
-F 20 "±10%" H 6850 7530 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 6850 7440 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 6850 7350 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_100NF_6.3V_10%_X5R" H 6850 7260 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 6850 7170 60  0001 L CNN "Case"
-F 25 "Yes" H 6850 7080 60  0001 L CNN "Mounted"
-F 26 "No" H 6850 6990 60  0001 L CNN "Socket"
-F 27 "Yes" H 6850 6900 60  0001 L CNN "SMD"
-F 28 "~~" H 6850 6810 60  0001 L CNN "PressFit"
-F 29 "No" H 6850 6720 60  0001 L CNN "Sense"
-F 30 "~~" H 6850 6630 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 6850 6540 60  0001 L CNN "ComponentHeight"
-F 32 "AVX" H 6850 6450 60  0001 L CNN "Manufacturer1 Example"
-F 33 "02016D104KAT2A" H 6850 6360 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 6850 6270 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 6850 6180 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 6850 6090 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 6850 6000 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 6850 5910 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 6850 5820 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6850 5730 60  0001 L CNN "License"
+F 14 " " H 6850 8070 60  0001 L CNN "PackageDescription"
+F 15 "Not Recommended" H 6850 7890 60  0001 L CNN "Status"
+F 16 " " H 6850 7800 60  0001 L CNN "Status Comment"
+F 17 "6.3V" H 6850 7710 60  0001 L CNN "Voltage"
+F 18 "X5R" H 6850 7620 60  0001 L CNN "TC"
+F 19 "±10%" H 6850 7530 60  0001 L CNN "Tolerance"
+F 20 "SMD Multilayer Chip Ceramic Capacitor" H 6850 7440 60  0001 L CNN "Part Description"
+F 21 "GENERIC" H 6850 7350 60  0001 L CNN "Manufacturer"
+F 22 "CC0201_100NF_6.3V_10%_X5R" H 6850 7260 60  0001 L CNN "Manufacturer Part Number"
+F 23 "0201" H 6850 7170 60  0001 L CNN "Case"
+F 24 "Yes" H 6850 7080 60  0001 L CNN "Mounted"
+F 25 "No" H 6850 6990 60  0001 L CNN "Socket"
+F 26 "Yes" H 6850 6900 60  0001 L CNN "SMD"
+F 27 " " H 6850 6810 60  0001 L CNN "PressFit"
+F 28 "No" H 6850 6720 60  0001 L CNN "Sense"
+F 29 " " H 6850 6630 60  0001 L CNN "Sense Comment"
+F 30 " " H 6850 6540 60  0001 L CNN "ComponentHeight"
+F 31 "AVX" H 6850 6450 60  0001 L CNN "Manufacturer1 Example"
+F 32 "02016D104KAT2A" H 6850 6360 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "0.33mm" H 6850 6270 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 34 "CERN DEM JLC" H 6850 6090 60  0001 L CNN "Author"
+F 35 "12/03/07 00:00:00" H 6850 6000 60  0001 L CNN "CreateDate"
+F 36 "12/03/07 00:00:00" H 6850 5910 60  0001 L CNN "LatestRevisionDate"
+F 37 "Capacitors SMD" H 6850 5820 60  0001 L CNN "Library Name"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6850 5730 60  0001 L CNN "License"
 	1    6850 9500
 	0    1    1    0   
 $EndComp
@@ -1228,46 +1097,44 @@ AR Path="/5BCEDA3D/5D662C0F" Ref="R?"  Part="1"
 AR Path="/5C907554/5D662C0F" Ref="R199"  Part="1" 
 F 0 "R199" H 1200 8500 50  0000 L CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 1100 8190 60  0001 L CNN
-F 2 "RESC1005X40N" H 1100 7380 60  0001 L CNN
+F 2 "Marble:RESC1005X40N" H 1100 7380 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 1100 8010 60  0001 L CNN
-F 4 "2k2" V 1400 8400 50  0000 L CNN "~"
+F 4 "2k2" V 1400 8400 50  0000 L CNN "Val"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 1100 7920 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 1100 7830 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 1100 7740 60  0001 L CNN "Library Path"
 F 8 "=Value" H 1100 7650 60  0001 L CNN "Comment"
 F 9 "Standard" H 1100 7560 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 1100 7470 60  0001 L CNN "Component Type"
-F 11 "~~" H 1100 7290 60  0001 L CNN "PackageDescription"
+F 11 " " H 1100 7290 60  0001 L CNN "PackageDescription"
 F 12 "2" H 1100 7200 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 1100 7110 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 1100 7020 60  0001 L CNN "Footprint Ref"
-F 15 "2k2" H 1100 6930 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 1100 6840 60  0001 L CNN "Status"
-F 17 "0.0625W" H 1100 6750 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 1100 6660 60  0001 L CNN "TC"
-F 19 "~~" H 1100 6570 60  0001 L CNN "Voltage"
-F 20 "±1%" H 1100 6480 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 1100 6390 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 1100 6300 60  0001 L CNN "Manufacturer"
-F 23 "R0402_2K2_1%_0.0625W_100PPM" H 1100 6210 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 1100 6120 60  0001 L CNN "Case"
-F 25 "No" H 1100 6030 60  0001 L CNN "PressFit"
-F 26 "Yes" H 1100 5940 60  0001 L CNN "Mounted"
-F 27 "~~" H 1100 5850 60  0001 L CNN "Sense Comment"
-F 28 "No" H 1100 5760 60  0001 L CNN "Sense"
-F 29 "~~" H 1100 5670 60  0001 L CNN "Status Comment"
-F 30 "No" H 1100 5580 60  0001 L CNN "Socket"
-F 31 "Yes" H 1100 5490 60  0001 L CNN "SMD"
-F 32 "~~" H 1100 5400 60  0001 L CNN "ComponentHeight"
-F 33 "YAGEO PHYCOMP" H 1100 5310 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270672202L" H 1100 5220 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 1100 5130 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 1100 5040 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 1100 4950 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 1100 4860 60  0001 L CNN "CreateDate"
-F 39 "10/17/12 00:00:00" H 1100 4770 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 1100 4680 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1100 4590 60  0001 L CNN "License"
+F 15 "Not Recommended" H 1100 6840 60  0001 L CNN "Status"
+F 16 "0.0625W" H 1100 6750 60  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 1100 6660 60  0001 L CNN "TC"
+F 18 " " H 1100 6570 60  0001 L CNN "Voltage"
+F 19 "±1%" H 1100 6480 60  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 1100 6390 60  0001 L CNN "Part Description"
+F 21 "GENERIC" H 1100 6300 60  0001 L CNN "Manufacturer"
+F 22 "R0402_2K2_1%_0.0625W_100PPM" H 1100 6210 60  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 1100 6120 60  0001 L CNN "Case"
+F 24 "No" H 1100 6030 60  0001 L CNN "PressFit"
+F 25 "Yes" H 1100 5940 60  0001 L CNN "Mounted"
+F 26 " " H 1100 5850 60  0001 L CNN "Sense Comment"
+F 27 "No" H 1100 5760 60  0001 L CNN "Sense"
+F 28 " " H 1100 5670 60  0001 L CNN "Status Comment"
+F 29 "No" H 1100 5580 60  0001 L CNN "Socket"
+F 30 "Yes" H 1100 5490 60  0001 L CNN "SMD"
+F 31 " " H 1100 5400 60  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 1100 5310 60  0001 L CNN "Manufacturer1 Example"
+F 33 "232270672202L" H 1100 5220 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 1100 5130 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 1100 4950 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 1100 4860 60  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 1100 4770 60  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 1100 4680 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1100 4590 60  0001 L CNN "License"
 	1    1100 8400
 	0    1    1    0   
 $EndComp
@@ -1279,45 +1146,42 @@ U 1 1 5DD64C74
 P 9850 9400
 F 0 "LD11" H 9850 9300 50  0000 C CNN
 F 1 "LED_AVAGO_HSMC-C120" H 9850 9170 60  0001 L CNN
-F 2 "ICs And Semiconductors SMD:LED_AVAGO_HSMC-C120" H 9850 8180 60  0001 L CNN
+F 2 "Marble:LED_AVAGO_HSMC-C120" H 9850 8180 60  0001 L CNN
 F 3 "" H 9850 8990 60  0001 L CNN
 F 4 "Red" H 9850 8900 60  0001 L CNN "Pole4"
 F 5 "LED_AVAGO_HSMC-C120" H 9850 8900 60  0001 L CNN "Part Number"
 F 6 "LED Red 1C 2A" H 9850 8810 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\LEDs & Displays.SchLib" H 9850 8720 60  0001 L CNN "Library Path"
-F 8 "~~" H 9850 8630 60  0001 L CNN "Comment"
+F 8 " " H 9850 8630 60  0001 L CNN "Comment"
 F 9 "Standard" H 9850 8540 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 9850 8450 60  0001 L CNN "Component Type"
 F 11 "Red" H 9850 8360 60  0001 L CNN "Color"
-F 12 "~~" H 9850 8270 60  0001 L CNN "Device"
+F 12 " " H 9850 8270 60  0001 L CNN "Device"
 F 13 "Red Chip LED, 2-Leads, Body 1.7x1.1mm, Side Emitting Package" H 9850 8090 60  0001 L CNN "PackageDescription"
-F 14 "~~" H 9850 8000 60  0001 L CNN "Status"
+F 14 " " H 9850 8000 60  0001 L CNN "Status"
 F 15 "High Performance Right Angle Chip Red LED" H 9850 7910 60  0001 L CNN "Part Description"
 F 16 "AVAGO TECHNOLOGIES" H 9850 7820 60  0001 L CNN "Manufacturer"
 F 17 "HSMC-C120" H 9850 7730 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 9850 7640 60  0001 L CNN "Pin Count"
-F 19 "~~" H 9850 7550 60  0001 L CNN "Case"
+F 19 " " H 9850 7550 60  0001 L CNN "Case"
 F 20 "Yes" H 9850 7460 60  0001 L CNN "Mounted"
 F 21 "No" H 9850 7370 60  0001 L CNN "Socket"
 F 22 "Yes" H 9850 7280 60  0001 L CNN "SMD"
 F 23 "No" H 9850 7190 60  0001 L CNN "PressFit"
-F 24 "~~" H 9850 7100 60  0001 L CNN "Sense Comment"
+F 24 " " H 9850 7100 60  0001 L CNN "Sense Comment"
 F 25 "No" H 9850 7010 60  0001 L CNN "Sense"
 F 26 "No" H 9850 6920 60  0001 L CNN "Bonding"
-F 27 "~~" H 9850 6830 60  0001 L CNN "Status Comment"
+F 27 " " H 9850 6830 60  0001 L CNN "Status Comment"
 F 28 "0.7mm" H 9850 6740 60  0001 L CNN "ComponentHeight"
 F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 9850 6650 60  0001 L CNN "Footprint Path"
 F 30 "LED_AVAGO_HSMC-C120" H 9850 6560 60  0001 L CNN "Footprint Ref"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120.pdf" H 9850 6470 60  0001 L CNN "HelpURL"
-F 32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120_DESIGN-GUIDE.pdf" H 9850 6380 60  0001 L CNN "ComponentLink1URL"
-F 33 "Design Guide" H 9850 6290 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 9850 6200 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 9850 6110 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 9850 6020 60  0001 L CNN "Author"
-F 37 "07/22/09 00:00:00" H 9850 5930 60  0001 L CNN "CreateDate"
-F 38 "06/20/12 00:00:00" H 9850 5840 60  0001 L CNN "LatestRevisionDate"
-F 39 "ICs And Semiconductors SMD" H 9850 5750 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9850 5660 60  0001 L CNN "License"
+F 31 "Design Guide" H 9850 6290 60  0001 L CNN "ComponentLink1Description"
+F 32 " " H 9850 6110 60  0001 L CNN "ComponentLink2Description"
+F 33 "CERN DEM JMW" H 9850 6020 60  0001 L CNN "Author"
+F 34 "07/22/09 00:00:00" H 9850 5930 60  0001 L CNN "CreateDate"
+F 35 "06/20/12 00:00:00" H 9850 5840 60  0001 L CNN "LatestRevisionDate"
+F 36 "ICs And Semiconductors SMD" H 9850 5750 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9850 5660 60  0001 L CNN "License"
 	1    9850 9400
 	0    1    1    0   
 $EndComp
@@ -1327,45 +1191,42 @@ U 1 1 5DD902C1
 P 10200 9400
 F 0 "LD12" H 10200 9300 50  0000 C CNN
 F 1 "LED_AVAGO_HSMC-C120" H 10200 9170 60  0001 L CNN
-F 2 "ICs And Semiconductors SMD:LED_AVAGO_HSMC-C120" H 10200 8180 60  0001 L CNN
+F 2 "Marble:LED_AVAGO_HSMC-C120" H 10200 8180 60  0001 L CNN
 F 3 "" H 10200 8990 60  0001 L CNN
 F 4 "Red" H 10200 8900 60  0001 L CNN "Pole4"
 F 5 "LED_AVAGO_HSMC-C120" H 10200 8900 60  0001 L CNN "Part Number"
 F 6 "LED Red 1C 2A" H 10200 8810 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\LEDs & Displays.SchLib" H 10200 8720 60  0001 L CNN "Library Path"
-F 8 "~~" H 10200 8630 60  0001 L CNN "Comment"
+F 8 " " H 10200 8630 60  0001 L CNN "Comment"
 F 9 "Standard" H 10200 8540 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 10200 8450 60  0001 L CNN "Component Type"
 F 11 "Red" H 10200 8360 60  0001 L CNN "Color"
-F 12 "~~" H 10200 8270 60  0001 L CNN "Device"
+F 12 " " H 10200 8270 60  0001 L CNN "Device"
 F 13 "Red Chip LED, 2-Leads, Body 1.7x1.1mm, Side Emitting Package" H 10200 8090 60  0001 L CNN "PackageDescription"
-F 14 "~~" H 10200 8000 60  0001 L CNN "Status"
+F 14 " " H 10200 8000 60  0001 L CNN "Status"
 F 15 "High Performance Right Angle Chip Red LED" H 10200 7910 60  0001 L CNN "Part Description"
 F 16 "AVAGO TECHNOLOGIES" H 10200 7820 60  0001 L CNN "Manufacturer"
 F 17 "HSMC-C120" H 10200 7730 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 10200 7640 60  0001 L CNN "Pin Count"
-F 19 "~~" H 10200 7550 60  0001 L CNN "Case"
+F 19 " " H 10200 7550 60  0001 L CNN "Case"
 F 20 "Yes" H 10200 7460 60  0001 L CNN "Mounted"
 F 21 "No" H 10200 7370 60  0001 L CNN "Socket"
 F 22 "Yes" H 10200 7280 60  0001 L CNN "SMD"
 F 23 "No" H 10200 7190 60  0001 L CNN "PressFit"
-F 24 "~~" H 10200 7100 60  0001 L CNN "Sense Comment"
+F 24 " " H 10200 7100 60  0001 L CNN "Sense Comment"
 F 25 "No" H 10200 7010 60  0001 L CNN "Sense"
 F 26 "No" H 10200 6920 60  0001 L CNN "Bonding"
-F 27 "~~" H 10200 6830 60  0001 L CNN "Status Comment"
+F 27 " " H 10200 6830 60  0001 L CNN "Status Comment"
 F 28 "0.7mm" H 10200 6740 60  0001 L CNN "ComponentHeight"
 F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 10200 6650 60  0001 L CNN "Footprint Path"
 F 30 "LED_AVAGO_HSMC-C120" H 10200 6560 60  0001 L CNN "Footprint Ref"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120.pdf" H 10200 6470 60  0001 L CNN "HelpURL"
-F 32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120_DESIGN-GUIDE.pdf" H 10200 6380 60  0001 L CNN "ComponentLink1URL"
-F 33 "Design Guide" H 10200 6290 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 10200 6200 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 10200 6110 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 10200 6020 60  0001 L CNN "Author"
-F 37 "07/22/09 00:00:00" H 10200 5930 60  0001 L CNN "CreateDate"
-F 38 "06/20/12 00:00:00" H 10200 5840 60  0001 L CNN "LatestRevisionDate"
-F 39 "ICs And Semiconductors SMD" H 10200 5750 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10200 5660 60  0001 L CNN "License"
+F 31 "Design Guide" H 10200 6290 60  0001 L CNN "ComponentLink1Description"
+F 32 " " H 10200 6110 60  0001 L CNN "ComponentLink2Description"
+F 33 "CERN DEM JMW" H 10200 6020 60  0001 L CNN "Author"
+F 34 "07/22/09 00:00:00" H 10200 5930 60  0001 L CNN "CreateDate"
+F 35 "06/20/12 00:00:00" H 10200 5840 60  0001 L CNN "LatestRevisionDate"
+F 36 "ICs And Semiconductors SMD" H 10200 5750 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10200 5660 60  0001 L CNN "License"
 	1    10200 9400
 	0    1    1    0   
 $EndComp
@@ -1377,46 +1238,44 @@ AR Path="/5C16BF8E/5DB9B7E6/5DDC754E" Ref="R?"  Part="1"
 AR Path="/5C907554/5DDC754E" Ref="R265"  Part="1" 
 F 0 "R265" V 10304 9010 50  0000 L CNN
 F 1 "R0402_1K_1%_0.0625W_100PPM" H 10200 8740 60  0001 L CNN
-F 2 "RESC1005X40N" H 10200 7930 60  0001 L CNN
+F 2 "Marble:RESC1005X40N" H 10200 7930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 10200 8560 60  0001 L CNN
-F 4 "1k" V 10395 9010 50  0000 L CNN "~"
+F 4 "1k" V 10395 9010 50  0000 L CNN "Val"
 F 5 "R0402_1K_1%_0.0625W_100PPM" H 10200 8470 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 10200 8380 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 10200 8290 60  0001 L CNN "Library Path"
 F 8 "=Value" H 10200 8200 60  0001 L CNN "Comment"
 F 9 "Standard" H 10200 8110 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 10200 8020 60  0001 L CNN "Component Type"
-F 11 "~~" H 10200 7840 60  0001 L CNN "PackageDescription"
+F 11 " " H 10200 7840 60  0001 L CNN "PackageDescription"
 F 12 "2" H 10200 7750 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 10200 7660 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 10200 7570 60  0001 L CNN "Footprint Ref"
-F 15 "1k" H 10200 7480 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 10200 7390 60  0001 L CNN "Status"
-F 17 "0.0625W" H 10200 7300 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 10200 7210 60  0001 L CNN "TC"
-F 19 "~~" H 10200 7120 60  0001 L CNN "Voltage"
-F 20 "±1%" H 10200 7030 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 10200 6940 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 10200 6850 60  0001 L CNN "Manufacturer"
-F 23 "R0402_1K_1%_0.0625W_100PPM" H 10200 6760 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 10200 6670 60  0001 L CNN "Case"
-F 25 "No" H 10200 6580 60  0001 L CNN "PressFit"
-F 26 "Yes" H 10200 6490 60  0001 L CNN "Mounted"
-F 27 "~~" H 10200 6400 60  0001 L CNN "Sense Comment"
-F 28 "No" H 10200 6310 60  0001 L CNN "Sense"
-F 29 "~~" H 10200 6220 60  0001 L CNN "Status Comment"
-F 30 "No" H 10200 6130 60  0001 L CNN "Socket"
-F 31 "Yes" H 10200 6040 60  0001 L CNN "SMD"
-F 32 "~~" H 10200 5950 60  0001 L CNN "ComponentHeight"
-F 33 "YAGEO PHYCOMP" H 10200 5860 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270671002L" H 10200 5770 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 10200 5680 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 10200 5590 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 10200 5500 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 10200 5410 60  0001 L CNN "CreateDate"
-F 39 "10/17/12 00:00:00" H 10200 5320 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 10200 5230 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10200 5140 60  0001 L CNN "License"
+F 15 "Not Recommended" H 10200 7390 60  0001 L CNN "Status"
+F 16 "0.0625W" H 10200 7300 60  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 10200 7210 60  0001 L CNN "TC"
+F 18 " " H 10200 7120 60  0001 L CNN "Voltage"
+F 19 "±1%" H 10200 7030 60  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 10200 6940 60  0001 L CNN "Part Description"
+F 21 "GENERIC" H 10200 6850 60  0001 L CNN "Manufacturer"
+F 22 "R0402_1K_1%_0.0625W_100PPM" H 10200 6760 60  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 10200 6670 60  0001 L CNN "Case"
+F 24 "No" H 10200 6580 60  0001 L CNN "PressFit"
+F 25 "Yes" H 10200 6490 60  0001 L CNN "Mounted"
+F 26 " " H 10200 6400 60  0001 L CNN "Sense Comment"
+F 27 "No" H 10200 6310 60  0001 L CNN "Sense"
+F 28 " " H 10200 6220 60  0001 L CNN "Status Comment"
+F 29 "No" H 10200 6130 60  0001 L CNN "Socket"
+F 30 "Yes" H 10200 6040 60  0001 L CNN "SMD"
+F 31 " " H 10200 5950 60  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 10200 5860 60  0001 L CNN "Manufacturer1 Example"
+F 33 "232270671002L" H 10200 5770 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 10200 5680 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 10200 5500 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 10200 5410 60  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 10200 5320 60  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 10200 5230 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10200 5140 60  0001 L CNN "License"
 	1    10200 8950
 	0    1    1    0   
 $EndComp
@@ -1428,78 +1287,46 @@ AR Path="/5C16BF8E/5DB9B7E6/5DDD1576" Ref="R?"  Part="1"
 AR Path="/5C907554/5DDD1576" Ref="R264"  Part="1" 
 F 0 "R264" V 9954 9010 50  0000 L CNN
 F 1 "R0402_1K_1%_0.0625W_100PPM" H 9850 8740 60  0001 L CNN
-F 2 "RESC1005X40N" H 9850 7930 60  0001 L CNN
+F 2 "Marble:RESC1005X40N" H 9850 7930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 9850 8560 60  0001 L CNN
-F 4 "1k" V 10045 9010 50  0000 L CNN "~"
+F 4 "1k" V 10045 9010 50  0000 L CNN "Val"
 F 5 "R0402_1K_1%_0.0625W_100PPM" H 9850 8470 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 9850 8380 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 9850 8290 60  0001 L CNN "Library Path"
 F 8 "=Value" H 9850 8200 60  0001 L CNN "Comment"
 F 9 "Standard" H 9850 8110 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 9850 8020 60  0001 L CNN "Component Type"
-F 11 "~~" H 9850 7840 60  0001 L CNN "PackageDescription"
+F 11 " " H 9850 7840 60  0001 L CNN "PackageDescription"
 F 12 "2" H 9850 7750 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 9850 7660 60  0001 L CNN "Footprint Path"
 F 14 "RESC1005X40N" H 9850 7570 60  0001 L CNN "Footprint Ref"
-F 15 "1k" H 9850 7480 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 9850 7390 60  0001 L CNN "Status"
-F 17 "0.0625W" H 9850 7300 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 9850 7210 60  0001 L CNN "TC"
-F 19 "~~" H 9850 7120 60  0001 L CNN "Voltage"
-F 20 "±1%" H 9850 7030 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 9850 6940 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 9850 6850 60  0001 L CNN "Manufacturer"
-F 23 "R0402_1K_1%_0.0625W_100PPM" H 9850 6760 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 9850 6670 60  0001 L CNN "Case"
-F 25 "No" H 9850 6580 60  0001 L CNN "PressFit"
-F 26 "Yes" H 9850 6490 60  0001 L CNN "Mounted"
-F 27 "~~" H 9850 6400 60  0001 L CNN "Sense Comment"
-F 28 "No" H 9850 6310 60  0001 L CNN "Sense"
-F 29 "~~" H 9850 6220 60  0001 L CNN "Status Comment"
-F 30 "No" H 9850 6130 60  0001 L CNN "Socket"
-F 31 "Yes" H 9850 6040 60  0001 L CNN "SMD"
-F 32 "~~" H 9850 5950 60  0001 L CNN "ComponentHeight"
-F 33 "YAGEO PHYCOMP" H 9850 5860 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270671002L" H 9850 5770 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 9850 5680 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 9850 5590 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 9850 5500 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 9850 5410 60  0001 L CNN "CreateDate"
-F 39 "10/17/12 00:00:00" H 9850 5320 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 9850 5230 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9850 5140 60  0001 L CNN "License"
+F 15 "Not Recommended" H 9850 7390 60  0001 L CNN "Status"
+F 16 "0.0625W" H 9850 7300 60  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 9850 7210 60  0001 L CNN "TC"
+F 18 " " H 9850 7120 60  0001 L CNN "Voltage"
+F 19 "±1%" H 9850 7030 60  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 9850 6940 60  0001 L CNN "Part Description"
+F 21 "GENERIC" H 9850 6850 60  0001 L CNN "Manufacturer"
+F 22 "R0402_1K_1%_0.0625W_100PPM" H 9850 6760 60  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 9850 6670 60  0001 L CNN "Case"
+F 24 "No" H 9850 6580 60  0001 L CNN "PressFit"
+F 25 "Yes" H 9850 6490 60  0001 L CNN "Mounted"
+F 26 " " H 9850 6400 60  0001 L CNN "Sense Comment"
+F 27 "No" H 9850 6310 60  0001 L CNN "Sense"
+F 28 " " H 9850 6220 60  0001 L CNN "Status Comment"
+F 29 "No" H 9850 6130 60  0001 L CNN "Socket"
+F 30 "Yes" H 9850 6040 60  0001 L CNN "SMD"
+F 31 " " H 9850 5950 60  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 9850 5860 60  0001 L CNN "Manufacturer1 Example"
+F 33 "232270671002L" H 9850 5770 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 9850 5680 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 9850 5500 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 9850 5410 60  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 9850 5320 60  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 9850 5230 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9850 5140 60  0001 L CNN "License"
 	1    9850 8950
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5DE0B6A0
-P 9850 8950
-AR Path="/5BD32060/5DE0B6A0" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5DE0B6A0" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5DE0B6A0" Ref="#PWR0636"  Part="1" 
-AR Path="/5C907554/5CAAC367/5DE0B6A0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0636" H 9850 8800 50  0001 C CNN
-F 1 "+3V3" H 9865 9123 50  0000 C CNN
-F 2 "" H 9850 8950 50  0001 C CNN
-F 3 "" H 9850 8950 50  0001 C CNN
-	1    9850 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5DE1DB9E
-P 10200 8950
-AR Path="/5BD32060/5DE1DB9E" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5DE1DB9E" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5DE1DB9E" Ref="#PWR0637"  Part="1" 
-AR Path="/5C907554/5CAAC367/5DE1DB9E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0637" H 10200 8800 50  0001 C CNN
-F 1 "+3V3" H 10215 9123 50  0000 C CNN
-F 2 "" H 10200 8950 50  0001 C CNN
-F 3 "" H 10200 8950 50  0001 C CNN
-	1    10200 8950
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8500 9650 9850 9650
@@ -1514,7 +1341,6 @@ I2C_APP_SCL
 Text Label 1650 8450 0    50   ~ 10
 I2C_APP_SDA
 NoConn ~ 8500 8950
-NoConn ~ 8500 9050
 NoConn ~ 8500 9850
 NoConn ~ 8500 9950
 Text HLabel 8700 2000 2    60   Input ~ 12
@@ -1533,4 +1359,217 @@ Wire Wire Line
 	8700 1800 8550 1800
 Wire Wire Line
 	8700 1900 8550 1900
+Text Notes 7800 8850 1    50   ~ 10
+0x42
+Text Notes 2750 8850 1    50   ~ 10
+0x44
+Text HLabel 7650 4950 0    50   Input ~ 0
+SI570_CLK_P
+Text HLabel 7650 5050 0    50   Input ~ 0
+SI570_CLK_N
+Wire Wire Line
+	7650 4950 8000 4950
+Wire Wire Line
+	7650 5050 8000 5050
+$Comp
+L power:+3V3P #PWR?
+U 1 1 5FB15866
+P 9850 8950
+AR Path="/5C16C03C/5FB15866" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5FB15866" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5FB15866" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5FB15866" Ref="#PWR?"  Part="1" 
+AR Path="/5CA40231/5FB15866" Ref="#PWR?"  Part="1" 
+AR Path="/5FB15866" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5FB15866" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5FB15866" Ref="#PWR0686"  Part="1" 
+F 0 "#PWR0686" H 9850 8800 50  0001 C CNN
+F 1 "+3V3P" H 9865 9123 50  0000 C CNN
+F 2 "" H 9850 8950 50  0001 C CNN
+F 3 "" H 9850 8950 50  0001 C CNN
+	1    9850 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3P #PWR?
+U 1 1 5FB1FB6D
+P 10200 8950
+AR Path="/5C16C03C/5FB1FB6D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5FB1FB6D" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5FB1FB6D" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5FB1FB6D" Ref="#PWR?"  Part="1" 
+AR Path="/5CA40231/5FB1FB6D" Ref="#PWR?"  Part="1" 
+AR Path="/5FB1FB6D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5FB1FB6D" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5FB1FB6D" Ref="#PWR0687"  Part="1" 
+F 0 "#PWR0687" H 10200 8800 50  0001 C CNN
+F 1 "+3V3P" H 10215 9123 50  0000 C CNN
+F 2 "" H 10200 8950 50  0001 C CNN
+F 3 "" H 10200 8950 50  0001 C CNN
+	1    10200 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3P #PWR?
+U 1 1 5FB29E49
+P 7300 9750
+AR Path="/5C16C03C/5FB29E49" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5FB29E49" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5FB29E49" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5FB29E49" Ref="#PWR?"  Part="1" 
+AR Path="/5CA40231/5FB29E49" Ref="#PWR?"  Part="1" 
+AR Path="/5FB29E49" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5FB29E49" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5FB29E49" Ref="#PWR0685"  Part="1" 
+F 0 "#PWR0685" H 7300 9600 50  0001 C CNN
+F 1 "+3V3P" H 7315 9923 50  0000 C CNN
+F 2 "" H 7300 9750 50  0001 C CNN
+F 3 "" H 7300 9750 50  0001 C CNN
+	1    7300 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3P #PWR?
+U 1 1 5FB3409A
+P 6850 9450
+AR Path="/5C16C03C/5FB3409A" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5FB3409A" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5FB3409A" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5FB3409A" Ref="#PWR?"  Part="1" 
+AR Path="/5CA40231/5FB3409A" Ref="#PWR?"  Part="1" 
+AR Path="/5FB3409A" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5FB3409A" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5FB3409A" Ref="#PWR0682"  Part="1" 
+F 0 "#PWR0682" H 6850 9300 50  0001 C CNN
+F 1 "+3V3P" H 6865 9623 50  0000 C CNN
+F 2 "" H 6850 9450 50  0001 C CNN
+F 3 "" H 6850 9450 50  0001 C CNN
+	1    6850 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3P #PWR?
+U 1 1 5FB3E338
+P 7100 8650
+AR Path="/5C16C03C/5FB3E338" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5FB3E338" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5FB3E338" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5FB3E338" Ref="#PWR?"  Part="1" 
+AR Path="/5CA40231/5FB3E338" Ref="#PWR?"  Part="1" 
+AR Path="/5FB3E338" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5FB3E338" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5FB3E338" Ref="#PWR0684"  Part="1" 
+F 0 "#PWR0684" H 7100 8500 50  0001 C CNN
+F 1 "+3V3P" V 7100 8850 50  0000 C CNN
+F 2 "" H 7100 8650 50  0001 C CNN
+F 3 "" H 7100 8650 50  0001 C CNN
+	1    7100 8650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3P #PWR?
+U 1 1 5ED673C8
+P 2050 8750
+AR Path="/5C16C03C/5ED673C8" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5ED673C8" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5ED673C8" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5ED673C8" Ref="#PWR?"  Part="1" 
+AR Path="/5CA40231/5ED673C8" Ref="#PWR?"  Part="1" 
+AR Path="/5ED673C8" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5ED673C8" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5ED673C8" Ref="#PWR0486"  Part="1" 
+F 0 "#PWR0486" H 2050 8600 50  0001 C CNN
+F 1 "+3V3P" V 2050 8950 50  0000 C CNN
+F 2 "" H 2050 8750 50  0001 C CNN
+F 3 "" H 2050 8750 50  0001 C CNN
+	1    2050 8750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3P #PWR?
+U 1 1 5ED6B9CE
+P 2250 9750
+AR Path="/5C16C03C/5ED6B9CE" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5ED6B9CE" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5ED6B9CE" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5ED6B9CE" Ref="#PWR?"  Part="1" 
+AR Path="/5CA40231/5ED6B9CE" Ref="#PWR?"  Part="1" 
+AR Path="/5ED6B9CE" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5ED6B9CE" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5ED6B9CE" Ref="#PWR0495"  Part="1" 
+F 0 "#PWR0495" H 2250 9600 50  0001 C CNN
+F 1 "+3V3P" H 2265 9923 50  0000 C CNN
+F 2 "" H 2250 9750 50  0001 C CNN
+F 3 "" H 2250 9750 50  0001 C CNN
+	1    2250 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3P #PWR?
+U 1 1 5EDB5436
+P 1400 9500
+AR Path="/5C16C03C/5EDB5436" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5EDB5436" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5EDB5436" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5EDB5436" Ref="#PWR?"  Part="1" 
+AR Path="/5CA40231/5EDB5436" Ref="#PWR?"  Part="1" 
+AR Path="/5EDB5436" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5EDB5436" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5EDB5436" Ref="#PWR0483"  Part="1" 
+F 0 "#PWR0483" H 1400 9350 50  0001 C CNN
+F 1 "+3V3P" H 1415 9673 50  0000 C CNN
+F 2 "" H 1400 9500 50  0001 C CNN
+F 3 "" H 1400 9500 50  0001 C CNN
+	1    1400 9500
+	1    0    0    -1  
+$EndComp
+Text HLabel 8950 9050 2    50   Output ~ 10
+SI570_OE
+Wire Wire Line
+	8500 9050 8950 9050
+$Comp
+L power:+3V3P #PWR?
+U 1 1 5F5802EE
+P 1100 8350
+AR Path="/5C16C03C/5F5802EE" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5F5802EE" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5F5802EE" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5F5802EE" Ref="#PWR?"  Part="1" 
+AR Path="/5CA40231/5F5802EE" Ref="#PWR?"  Part="1" 
+AR Path="/5F5802EE" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5F5802EE" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5F5802EE" Ref="#PWR0548"  Part="1" 
+F 0 "#PWR0548" H 1100 8200 50  0001 C CNN
+F 1 "+3V3P" H 1115 8523 50  0000 C CNN
+F 2 "" H 1100 8350 50  0001 C CNN
+F 3 "" H 1100 8350 50  0001 C CNN
+	1    1100 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 8400 1100 8350
+Wire Wire Line
+	4250 6100 3700 6100
+Text HLabel 4250 6100 2    50   Output ~ 10
+FPGA_DONE
+Text Label 3750 6100 0    50   ~ 0
+FPGA_DONE
+Wire Wire Line
+	6950 4200 6200 4200
+Text Label 6200 4200 0    50   ~ 10
+FPGA_DONE
+Wire Wire Line
+	3700 5200 4250 5200
+Wire Wire Line
+	3700 5300 4250 5300
+Wire Wire Line
+	3700 5500 4250 5500
+Wire Wire Line
+	3700 5600 4250 5600
+Wire Wire Line
+	3700 5700 4250 5700
+Wire Wire Line
+	3700 5800 4250 5800
+Wire Wire Line
+	3700 5950 4250 5950
 $EndSCHEMATC

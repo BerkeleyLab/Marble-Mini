@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 19 25
-Title "Marble"
-Date "2019-01-16"
-Rev "9"
+Title "Marble-Mini"
+Date "2020-09-24"
+Rev "release v1.1"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
@@ -22,9 +21,11 @@ AR Path="/5C907554/5C8DFB5E" Ref="U?"  Part="3"
 AR Path="/5C907554/5C721515/5C8DFB5E" Ref="U1"  Part="3" 
 F 0 "U1" H 8350 1676 50  0000 C CNN
 F 1 "XC7A100T-2FGG484C" H 8350 1585 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD_BGA:BGA484C100P22X22_2300X2300X240" H 8350 4650 50  0001 C CNN
+F 2 "Marble:BGA484C100P22X22_2300X2300X240" H 8350 4650 50  0001 C CNN
 F 3 "" H 8350 4650 50  0000 C CNN
 F 4 "XC7A100T-2FGG484C" H 8350 4650 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Xilinx" H 8350 4650 50  0001 C CNN "Manufacturer"
+F 6 "Yes" H 8350 4650 50  0001 C CNN "SMD"
 	3    8350 4650
 	1    0    0    -1  
 $EndComp

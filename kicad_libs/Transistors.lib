@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF BC847BV T 0 50 Y Y 2 L N
 F0 "T" 200 150 50 H V R CNN
 F1 "Transistors_BC847BV" 0 -345 50 H I L CNN
-F2 "ICs And Semiconductors SMD:SOTFL50P160X60-6N" 0 -420 50 H I L CNN
+F2 "Marble:SOTFL50P160X60-6N" 0 -420 50 H I L CNN
 F3 " " 0 -495 50 H I L CNN
 F4 "BC847BV" 0 -570 50 H I L CNN "Part Number"
 F5 "BC847BV" 0 -645 50 H I L CNN "Library Ref"
@@ -38,10 +38,7 @@ F30 " " 0 -2520 50 H I L CNN "ComponentLink2Description"
 F31 "CERN DEM JLC" 0 -2595 50 H I L CNN "Author"
 F32 "12/01/11 00:00:00" 0 -2670 50 H I L CNN "CreateDate"
 F33 "12/01/11 00:00:00" 0 -2745 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -2820 50 H I L CNN "SCEM"
-F35 "Transistors" 0 -2895 50 H I L CNN "Database Table Name"
-F36 "ICs And Semiconductors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F36 "ICs And Semiconductors SMD" 0 -2970 50 H I L CNN "Library Name"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 C 190 0 100 1 1 10 N
@@ -76,7 +73,7 @@ ENDDEF
 DEF BC857BV T 0 50 Y Y 2 L N
 F0 "T" 200 150 50 H V R CNN
 F1 "Transistors_BC857BV" 0 -345 50 H I L CNN
-F2 "ICs And Semiconductors SMD:SOTFL50P160X60-6N" 0 -420 50 H I L CNN
+F2 "Marble:SOTFL50P160X60-6N" 0 -420 50 H I L CNN
 F3 " " 0 -495 50 H I L CNN
 F4 "BC857BV" 0 -570 50 H I L CNN "Part Number"
 F5 "BC857BV" 0 -645 50 H I L CNN "Library Ref"
@@ -108,10 +105,7 @@ F30 " " 0 -2520 50 H I L CNN "ComponentLink2Description"
 F31 "CERN DEM JLC" 0 -2595 50 H I L CNN "Author"
 F32 "12/01/11 00:00:00" 0 -2670 50 H I L CNN "CreateDate"
 F33 "12/01/11 00:00:00" 0 -2745 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -2820 50 H I L CNN "SCEM"
-F35 "Transistors" 0 -2895 50 H I L CNN "Database Table Name"
-F36 "ICs And Semiconductors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F36 "ICs And Semiconductors SMD" 0 -2970 50 H I L CNN "Library Name"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 C 190 0 100 1 1 10 N
@@ -146,7 +140,7 @@ ENDDEF
 DEF BSS138LT1G T 0 50 Y Y 1 L N
 F0 "T" 150 200 50 H V R CNN
 F1 "Transistors_BSS138LT1G" 0 -295 50 H I L CNN
-F2 "ICs And Semiconductors SMD:SOT95P240X110-3N" 0 -370 50 H I L CNN
+F2 "Marble:SOT95P240X110-3N" 0 -370 50 H I L CNN
 F3 " " 0 -445 50 H I L CNN
 F4 "BSS138LT1G" 0 -520 50 H I L CNN "Part Number"
 F5 "N-MOSFET-D 1G 2S 3D" 0 -595 50 H I L CNN "Library Ref"
@@ -178,10 +172,7 @@ F30 " " 0 -2470 50 H I L CNN "ComponentLink2Description"
 F31 "CERN DEM JLC" 0 -2545 50 H I L CNN "Author"
 F32 "03/23/09 00:00:00" 0 -2620 50 H I L CNN "CreateDate"
 F33 "03/23/09 00:00:00" 0 -2695 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -2770 50 H I L CNN "SCEM"
-F35 "Transistors" 0 -2845 50 H I L CNN "Database Table Name"
-F36 "ICs And Semiconductors.DbLib" 0 -2920 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -2995 50 H I L CNN "Footprint Library"
+F36 "ICs And Semiconductors SMD" 0 -2920 50 H I L CNN "Library Name"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3070 50 H I L CNN "License"
 DRAW
 C 190 50 100 0 1 10 N
@@ -214,7 +205,7 @@ ENDDEF
 DEF FDMS7608S T 0 50 Y Y 1 L N
 F0 "T" 200 50 50 H V C CNN
 F1 "Transistors_FDMS7608S" 0 -1075 50 H I L CNN
-F2 "ICs And Semiconductors SMD:FAIRCHILD_MLP08P" 0 -1150 50 H I L CNN
+F2 "Marble:FAIRCHILD_MLP08P" 0 -1150 50 H I L CNN
 F3 " " 0 -1225 50 H I L CNN
 F4 "FDMS7608S" 0 -1300 50 H I L CNN "Part Number"
 F5 "FDMS7608S" 0 -1375 50 H I L CNN "Library Ref"
@@ -246,10 +237,7 @@ F30 " " 0 -3250 50 H I L CNN "ComponentLink2Description"
 F31 "CERN DEM MR" 0 -3325 50 H I L CNN "Author"
 F32 "05/25/16 00:00:00" 0 -3400 50 H I L CNN "CreateDate"
 F33 "04/10/17 00:00:00" 0 -3475 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -3550 50 H I L CNN "SCEM"
-F35 "Transistors" 0 -3625 50 H I L CNN "Database Table Name"
-F36 "ICs And Semiconductors.DbLib" 0 -3700 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -3775 50 H I L CNN "Footprint Library"
+F36 "ICs And Semiconductors SMD" 0 -3700 50 H I L CNN "Library Name"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3850 50 H I L CNN "License"
 DRAW
 C 190 -550 100 0 1 10 N
@@ -337,7 +325,7 @@ ENDDEF
 DEF SI4425DDY-T1-GE3 T 0 50 Y Y 1 L N
 F0 "T" 550 -250 50 V V C CNN
 F1 "Transistors_SI4425DDY-T1-GE3" 0 -845 50 H I L CNN
-F2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" 0 -920 50 H I L CNN
+F2 "Marble:SOIC127P600X175-8N" 0 -920 50 H I L CNN
 F3 " " 0 -995 50 H I L CNN
 F4 "SI4425DDY-T1-GE3" 0 -1070 50 H I L CNN "Part Number"
 F5 "SI4425DDY" 0 -1145 50 H I L CNN "Library Ref"
@@ -369,10 +357,7 @@ F30 " " 0 -3020 50 H I L CNN "ComponentLink2Description"
 F31 "CERN DEM MR" 0 -3095 50 H I L CNN "Author"
 F32 "10/05/16 00:00:00" 0 -3170 50 H I L CNN "CreateDate"
 F33 "10/05/16 00:00:00" 0 -3245 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -3320 50 H I L CNN "SCEM"
-F35 "Transistors" 0 -3395 50 H I L CNN "Database Table Name"
-F36 "ICs And Semiconductors.DbLib" 0 -3470 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -3545 50 H I L CNN "Footprint Library"
+F36 "ICs And Semiconductors SMD" 0 -3470 50 H I L CNN "Library Name"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3620 50 H I L CNN "License"
 DRAW
 C 200 -400 10 0 1 10 N
@@ -425,7 +410,7 @@ ENDDEF
 DEF Si2315BDS-T1-E3 T 0 50 Y Y 1 L N
 F0 "T" 150 200 50 H V R CNN
 F1 "Transistors_Si2315BDS-T1-E3" 0 -295 50 H I L CNN
-F2 "ICs And Semiconductors SMD:SOT95P237X112-3N" 0 -370 50 H I L CNN
+F2 "Marble:SOT95P237X112-3N" 0 -370 50 H I L CNN
 F3 " " 0 -445 50 H I L CNN
 F4 "Si2315BDS-T1-E3" 0 -520 50 H I L CNN "Part Number"
 F5 "P-MOSFET-D 1G 2S 3D" 0 -595 50 H I L CNN "Library Ref"
@@ -457,10 +442,7 @@ F30 " " 0 -2470 50 H I L CNN "ComponentLink2Description"
 F31 "CERN DEM JLC" 0 -2545 50 H I L CNN "Author"
 F32 "05/02/11 00:00:00" 0 -2620 50 H I L CNN "CreateDate"
 F33 "05/02/11 00:00:00" 0 -2695 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -2770 50 H I L CNN "SCEM"
-F35 "Transistors" 0 -2845 50 H I L CNN "Database Table Name"
-F36 "ICs And Semiconductors.DbLib" 0 -2920 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -2995 50 H I L CNN "Footprint Library"
+F36 "ICs And Semiconductors SMD" 0 -2920 50 H I L CNN "Library Name"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3070 50 H I L CNN "License"
 DRAW
 C 190 50 100 0 1 10 N

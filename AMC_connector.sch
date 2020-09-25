@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 25
-Title "Marble"
-Date "2019-01-16"
-Rev "9"
+Title "Marble-Mini"
+Date "2020-09-24"
+Rev "release v1.1"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
@@ -22,7 +21,7 @@ AR Path="/5BD3210B" Ref="P?"  Part="1"
 AR Path="/5BD320D5/5BD3210B" Ref="P3"  Part="1" 
 F 0 "P3" H 1520 7753 60  0000 R CNN
 F 1 "CMP-0001-00058-2" H 1520 7647 60  0000 R CNN
-F 2 "moja:AMC-GF-2D-750-O274" H 1550 7900 60  0001 C CNN
+F 2 "Marble:AMC-GF-2D-750-O274" H 1550 7900 60  0001 C CNN
 F 3 "" H 1550 7900 60  0000 C CNN
 F 4 "dnf" H 1550 7900 50  0001 C CNN "config"
 	1    1550 7900
@@ -1342,11 +1341,6 @@ F 3 "" H 1750 6500 50  0001 C CNN
 	1    1750 6500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1750 6493 1750 6500
-Connection ~ 1750 6500
-Wire Wire Line
-	1750 6500 1750 7700
 $Comp
 L marble_misc:+12V_AMC #PWR031
 U 1 1 5DF1FECB
@@ -1444,7 +1438,7 @@ U 1 1 5CAB1052
 P 12000 5400
 F 0 "D1" V 12196 5310 50  0000 R CNN
 F 1 "SS16" V 12105 5310 50  0000 R CNN
-F 2 "DIOM5127X229N" H 12000 4260 60  0001 L CNN
+F 2 "Marble:DIOM5127X229N" H 12000 4260 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SS16.pdf" H 12000 4980 60  0001 L CNN
 F 4 "SS16" H 12000 4890 60  0001 L CNN "Part Number"
 F 5 "Diode Schottky" H 12000 4800 60  0001 L CNN "Library Ref"
@@ -1456,7 +1450,7 @@ F 10 "SS16" H 12000 4350 60  0001 L CNN "Device"
 F 11 "DO-214-AC Molded Diode, Body 5.1x2.7mm, IPC Medium Density" H 12000 4170 60  0001 L CNN "PackageDescription"
 F 12 "60V" H 12000 4080 60  0001 L CNN "Voltage"
 F 13 "1A" H 12000 3990 60  0001 L CNN "Power"
-F 14 "~~" H 12000 3900 60  0001 L CNN "Status"
+F 14 " " H 12000 3900 60  0001 L CNN "Status"
 F 15 "Surface Mount Schottky Barrier Rectifier" H 12000 3810 60  0001 L CNN "Part Description"
 F 16 "VISHAY GENERAL SEMICONDUCTOR" H 12000 3720 60  0001 L CNN "Manufacturer"
 F 17 "SS16" H 12000 3630 60  0001 L CNN "Manufacturer Part Number"
@@ -1467,22 +1461,19 @@ F 21 "No" H 12000 3270 60  0001 L CNN "Socket"
 F 22 "Yes" H 12000 3180 60  0001 L CNN "SMD"
 F 23 "No" H 12000 3090 60  0001 L CNN "PressFit"
 F 24 "No" H 12000 3000 60  0001 L CNN "Sense"
-F 25 "~~" H 12000 2910 60  0001 L CNN "Sense Comment"
+F 25 " " H 12000 2910 60  0001 L CNN "Sense Comment"
 F 26 "No" H 12000 2820 60  0001 L CNN "Bonding"
-F 27 "~~" H 12000 2730 60  0001 L CNN "Status Comment"
+F 27 " " H 12000 2730 60  0001 L CNN "Status Comment"
 F 28 "2.29mm" H 12000 2640 60  0001 L CNN "ComponentHeight"
 F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 12000 2550 60  0001 L CNN "Footprint Path"
 F 30 "DIOM5127X229N" H 12000 2460 60  0001 L CNN "Footprint Ref"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SS16.pdf" H 12000 2370 60  0001 L CNN "HelpURL"
-F 32 "~~" H 12000 2280 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 12000 2190 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 12000 2100 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 12000 2010 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 12000 1920 60  0001 L CNN "Author"
-F 37 "07/15/08 00:00:00" H 12000 1830 60  0001 L CNN "CreateDate"
-F 38 "08/23/10 00:00:00" H 12000 1740 60  0001 L CNN "LatestRevisionDate"
-F 39 "ICs And Semiconductors SMD" H 12000 1650 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12000 1560 60  0001 L CNN "License"
+F 31 " " H 12000 2190 60  0001 L CNN "ComponentLink1Description"
+F 32 " " H 12000 2010 60  0001 L CNN "ComponentLink2Description"
+F 33 "CERN DEM JLC" H 12000 1920 60  0001 L CNN "Author"
+F 34 "07/15/08 00:00:00" H 12000 1830 60  0001 L CNN "CreateDate"
+F 35 "08/23/10 00:00:00" H 12000 1740 60  0001 L CNN "LatestRevisionDate"
+F 36 "ICs And Semiconductors SMD" H 12000 1650 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12000 1560 60  0001 L CNN "License"
 	1    12000 5400
 	0    -1   -1   0   
 $EndComp
@@ -1583,11 +1574,13 @@ Wire Wire Line
 Wire Wire Line
 	3800 4450 4150 4450
 $Comp
-L power:+3.3VP #PWR0631
+L power:+3V3P #PWR0631
 U 1 1 5D7C0506
 P 1950 6700
+AR Path="/5D7C0506" Ref="#PWR0631"  Part="1" 
+AR Path="/5BD320D5/5D7C0506" Ref="#PWR0631"  Part="1" 
 F 0 "#PWR0631" H 1955 6840 50  0001 C CNN
-F 1 "3V3PM" H 1935 6873 50  0000 C CNN
+F 1 "+3V3P" H 1935 6873 50  0000 C CNN
 F 2 "" H 1950 6700 50  0001 C CNN
 F 3 "" H 1950 6700 50  0001 C CNN
 	1    1950 6700
@@ -1948,6 +1941,22 @@ Wire Wire Line
 	9200 3150 10000 3150
 Wire Wire Line
 	9200 3250 10000 3250
+Wire Wire Line
+	1750 6500 1750 6550
+$Comp
+L power:PWR_FLAG #FLG0110
+U 1 1 5EDB0932
+P 1750 6550
+F 0 "#FLG0110" H 1750 6625 50  0001 C CNN
+F 1 "PWR_FLAG" V 1750 6677 50  0000 L CNN
+F 2 "" H 1750 6550 50  0001 C CNN
+F 3 "" H 1750 6550 50  0001 C CNN
+	1    1750 6550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1750 6550
+Wire Wire Line
+	1750 6550 1750 7700
 Wire Bus Line
 	10026 4346 10026 4546
 $EndSCHEMATC

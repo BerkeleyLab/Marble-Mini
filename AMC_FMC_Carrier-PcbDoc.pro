@@ -1,4 +1,4 @@
-update=8/26/2019 9:11:59 AM
+update=Wed May  6 18:49:02 2020
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/Users/Michal/Desktop/Projekty/AMC FMC/import z altiuma/Marble_pagelayout.kicad_wks
+PlotDirectoryName=../schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=C:/Users/Michal/Desktop/Projekty/AMC FMC/import z altiuma/Marble_pagelayout.kicad_wks
@@ -28,7 +38,6 @@ MinViaDrill=0.152
 MinMicroViaDiameter=0.35
 MinMicroViaDrill=0.127
 MinHoleToHole=0.0254
-CopperEdgeClearance=0.05
 TrackWidth1=0.102
 TrackWidth2=0.118
 TrackWidth3=0.127
@@ -37,6 +46,7 @@ TrackWidth5=0.15
 TrackWidth6=0.178
 TrackWidth7=0.254
 TrackWidth8=0.4
+TrackWidth9=0.6
 ViaDiameter1=0.35
 ViaDrill1=0.152
 ViaDiameter2=0.35
@@ -361,13 +371,3 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/Users/Michal/Desktop/Projekty/AMC FMC/import z altiuma/Marble_pagelayout.kicad_wks
-PlotDirectoryName=../schematic/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

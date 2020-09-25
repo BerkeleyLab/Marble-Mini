@@ -1,0 +1,11 @@
+(module HOLE2_SLOT11 (layer F.Cu) (tedit 5EB073AC)
+  (descr "Slot: 2 mm high x 11 mm wide")
+  (fp_text reference B? (at -6.357376 7.949266) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SLOT_2_11 (at 0 3.602) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole oval (at 0 0) (size 11 2) (drill oval 10.6 1.6) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.102))
+)

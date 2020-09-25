@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF CPER_4.7NF_400V_5%_500-250X720X650 C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_THD_CPER_4.7NF_400V_5%_500-250X720X650" 0 -245 50 H I L CNN
-F2 "Capacitors THD:CAPR500-250X720X650" 0 -320 50 H I L CNN
+F2 "Marble:CAPR500-250X720X650" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "4.7nF" 150 -120 50 H V C CNN "Val"
 F5 "CPER_4.7NF_400V_5%_500-250X720X650" 0 -470 50 H I L CNN "Part Number"
@@ -41,9 +41,7 @@ F33 " " 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/19/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "04/22/15 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors THD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors THD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors THD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N

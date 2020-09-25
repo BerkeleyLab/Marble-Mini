@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF SN74AVC2T245RSWR IC 0 50 Y Y 1 L N
 F0 "IC" 300 50 50 H V C CNN
 F1 "Standard_Logic_SN74AVC2T245RSWR" 0 -1175 50 H I L CNN
-F2 "ICs And Semiconductors SMD:QFN40P140X180X55-10N" 0 -1250 50 H I L CNN
+F2 "Marble:QFN40P140X180X55-10N" 0 -1250 50 H I L CNN
 F3 " " 0 -1325 50 H I L CNN
 F4 "SN74AVC2T245RSWR" 0 -1400 50 H I L CNN "Part Number"
 F5 "742T245" 0 -1475 50 H I L CNN "Library Ref"
@@ -38,10 +38,7 @@ F30 " " 0 -3350 50 H I L CNN "ComponentLink1Description"
 F31 " " 0 -3425 50 H I L CNN "ComponentLink2Description"
 F32 "07/07/14 00:00:00" 0 -3500 50 H I L CNN "CreateDate"
 F33 "03/30/17 00:00:00" 0 -3575 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -3650 50 H I L CNN "SCEM"
-F35 "Standard Logic" 0 -3725 50 H I L CNN "Database Table Name"
-F36 "ICs And Semiconductors.DbLib" 0 -3800 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -3875 50 H I L CNN "Footprint Library"
+F36 "ICs And Semiconductors SMD" 0 -3800 50 H I L CNN "Library Name"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3950 50 H I L CNN "License"
 DRAW
 S 0 -1000 600 0 0 1 0 f

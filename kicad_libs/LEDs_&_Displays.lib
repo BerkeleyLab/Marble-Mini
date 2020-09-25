@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF LED_AVAGO_HSMC-C120 LD 0 50 Y Y 1 L N
 F0 "LD" -50 100 50 H V R CNN
 F1 "LEDs_&_Displays_LED_AVAGO_HSMC-C120" 0 -215 50 H I L CNN
-F2 "ICs And Semiconductors SMD:LED_AVAGO_HSMC-C120" 0 -290 50 H I L CNN
+F2 "Marble:LED_AVAGO_HSMC-C120" 0 -290 50 H I L CNN
 F3 " " 0 -365 50 H I L CNN
 F4 "Red" 0 -100 40 H V C CNN "Color"
 F5 "LED_AVAGO_HSMC-C120" 0 -440 50 H I L CNN "Part Number"
@@ -40,9 +40,7 @@ F32 " " 0 -2465 50 H I L CNN "ComponentLink2Description"
 F33 "CERN DEM JMW" 0 -2540 50 H I L CNN "Author"
 F34 "07/22/09 00:00:00" 0 -2615 50 H I L CNN "CreateDate"
 F35 "06/20/12 00:00:00" 0 -2690 50 H I L CNN "LatestRevisionDate"
-F36 "LEDs & Displays" 0 -2765 50 H I L CNN "Database Table Name"
-F37 "ICs And Semiconductors.DbLib" 0 -2840 50 H I L CNN "Library Name"
-F38 "ICs And Semiconductors SMD" 0 -2915 50 H I L CNN "Footprint Library"
+F37 "ICs And Semiconductors SMD" 0 -2840 50 H I L CNN "Library Name"
 F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2990 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 -50 0 50 0 N
@@ -71,7 +69,7 @@ ENDDEF
 DEF LED_KINGBRIGHT_KPH-1608CGCK LD 0 50 Y Y 1 L N
 F0 "LD" -50 100 50 H V R CNN
 F1 "LEDs_&_Displays_LED_KINGBRIGHT_KPH-1608CGCK" 0 -215 50 H I L CNN
-F2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" 0 -290 50 H I L CNN
+F2 "Marble:LED_KINGBRIGHT_KPH-1608CGCK" 0 -290 50 H I L CNN
 F3 " " 0 -365 50 H I L CNN
 F4 "Green" 0 -100 40 H V C CNN "Color"
 F5 "LED_KINGBRIGHT_KPH-1608CGCK" 0 -440 50 H I L CNN "Part Number"
@@ -105,9 +103,7 @@ F32 " " 0 -2465 50 H I L CNN "ComponentLink2Description"
 F33 "CERN DEM JLC" 0 -2540 50 H I L CNN "Author"
 F34 "07/03/17 00:00:00" 0 -2615 50 H I L CNN "CreateDate"
 F35 "07/03/17 00:00:00" 0 -2690 50 H I L CNN "LatestRevisionDate"
-F36 "LEDs & Displays" 0 -2765 50 H I L CNN "Database Table Name"
-F37 "ICs And Semiconductors.DbLib" 0 -2840 50 H I L CNN "Library Name"
-F38 "ICs And Semiconductors SMD" 0 -2915 50 H I L CNN "Footprint Library"
+F37 "ICs And Semiconductors SMD" 0 -2840 50 H I L CNN "Library Name"
 F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2990 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 -50 0 50 0 N

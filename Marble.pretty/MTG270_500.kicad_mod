@@ -1,0 +1,11 @@
+(module Pads:MTG270_500 (layer F.Cu) (tedit 5C6EB022)
+  (descr "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm")
+  (fp_text reference B8 (at -4.5634 -3.333) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PLATED_HOLE2.7_PAD5.0 (at 0 3.602) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -8.694176 -3.531534) (size 5 5) (drill 2.7) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.102))
+)

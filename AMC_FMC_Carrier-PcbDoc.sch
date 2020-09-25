@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 25
-Title "Marble"
-Date "2019-01-16"
-Rev "9"
+Title "Marble-Mini"
+Date "2020-09-24"
+Rev "release v1.1"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
@@ -286,7 +285,7 @@ SFP3
 Text Notes 12550 13400 0    50   ~ 10
 SFP4
 $Sheet
-S 8400 1700 1600 1550
+S 8400 1700 1600 1800
 U 5C16BF13
 F0 "WhiteRabbit" 50
 F1 "WhiteRabbit.sch" 50
@@ -301,6 +300,11 @@ F9 "FPGA_REF_CLK0_N" I R 10000 2800 50
 F10 "FPGA_REF_CLK1_P" I R 10000 2950 50 
 F11 "FPGA_REF_CLK1_N" I R 10000 3050 50 
 F12 "CLK_25MHZ" I L 8400 2550 50 
+F13 "SI570_CLK_P" O R 10000 3250 50 
+F14 "SI570_CLK_N" O R 10000 3350 50 
+F15 "SI570_OE" I L 8400 2050 50 
+F16 "SI570_SDA" B L 8400 2150 50 
+F17 "SI570_SCL" I L 8400 2250 50 
 $EndSheet
 $Sheet
 S 2400 11850 1500 1500
@@ -775,6 +779,9 @@ F124 "RGMII_TX_EN" I L 11350 4500 50
 F125 "RGMII_TX_CLK" I L 11350 4600 50 
 F126 "RGMII_RX_DV" I L 11350 4700 50 
 F127 "RGMII_RX_CLK" I L 11350 4800 50 
+F128 "SI570_CLK_P" I L 11350 3250 50 
+F129 "SI570_CLK_N" I L 11350 3350 50 
+F130 "SI570_OE" O R 12950 9800 50 
 $EndSheet
 Wire Wire Line
 	10000 1800 11350 1800
@@ -804,10 +811,6 @@ Wire Bus Line
 	12950 7550 14200 7550
 Wire Bus Line
 	12950 7750 14200 7750
-Wire Notes Line
-	11350 3200 12150 3200
-Wire Notes Line
-	12150 3200 12150 1600
 Wire Notes Line
 	12150 1600 11350 1600
 Wire Notes Line
@@ -1014,18 +1017,18 @@ Wire Wire Line
 	3500 10100 3100 10100
 Wire Wire Line
 	3500 10200 3100 10200
-Text Label 13050 8800 0    50   ~ 10
+Text Label 13400 8800 2    50   ~ 10
 THERM
-Text Label 13050 8900 0    50   ~ 10
+Text Label 13400 8900 2    50   ~ 10
 ALERT
-Text Label 13050 9000 0    50   ~ 10
+Text Label 13400 9000 2    50   ~ 10
 FANFAIL
 Wire Wire Line
-	13350 8800 12950 8800
+	13400 8800 12950 8800
 Wire Wire Line
-	13350 8900 12950 8900
+	13400 8900 12950 8900
 Wire Wire Line
-	13350 9000 12950 9000
+	13400 9000 12950 9000
 Wire Wire Line
 	6800 9750 11350 9750
 Wire Wire Line
@@ -1057,14 +1060,14 @@ Wire Wire Line
 Wire Wire Line
 	4250 12650 3900 12650
 Wire Wire Line
-	11350 11750 5150 11750
+	11350 11750 7450 11750
 Wire Wire Line
 	5150 11750 5150 12550
 Wire Wire Line
 	5150 12550 4350 12550
 Connection ~ 4350 12550
 Wire Wire Line
-	11350 11850 5250 11850
+	11350 11850 7500 11850
 Wire Wire Line
 	5250 11850 5250 12650
 Wire Wire Line
@@ -1192,11 +1195,11 @@ U 1 1 5DAB8DC7
 P 2950 9200
 F 0 "S1" H 3550 9465 50  0000 C CNN
 F 1 "HDT0001" H 3550 9374 50  0000 C CNN
-F 2 "HDT0001:HDT0001" H 4000 9300 50  0001 L CNN
+F 2 "Marble:HDT0001" H 4000 9300 50  0001 L CNN
 F 3 "https://www.ckswitches.com/media/1307/hdt.pdf" H 4000 9200 50  0001 L CNN
 F 4 "HDT0001 (Detector Switches)" H 4000 9100 50  0001 L CNN "Description"
 F 5 "3" H 4000 9000 50  0001 L CNN "Height"
-F 6 "C & K COMPONENTS" H 4000 8900 50  0001 L CNN "Manufacturer_Name"
+F 6 "C & K COMPONENTS" H 4000 8900 50  0001 L CNN "Manufacturer"
 F 7 "HDT0001" H 4000 8800 50  0001 L CNN "Manufacturer Part Number"
 F 8 "7931598" H 4000 8700 50  0001 L CNN "RS Part Number"
 F 9 "http://uk.rs-online.com/web/p/products/7931598" H 4000 8600 50  0001 L CNN "RS Price/Stock"
@@ -1204,6 +1207,8 @@ F 10 "70417475" H 4000 8500 50  0001 L CNN "Allied_Number"
 F 11 "https://www.alliedelec.com/c-k-hdt0001/70417475/" H 4000 8400 50  0001 L CNN "Allied Price/Stock"
 F 12 "611-HDT0001" H 4000 8300 50  0001 L CNN "Mouser Part Number"
 F 13 "https://www.mouser.com/Search/Refine.aspx?Keyword=611-HDT0001" H 4000 8200 50  0001 L CNN "Mouser Price/Stock"
+F 14 "-standalone" H 2950 9200 50  0001 C CNN "config"
+F 15 "Yes" H 2950 9200 50  0001 C CNN "SMD"
 	1    2950 9200
 	-1   0    0    -1  
 $EndComp
@@ -1213,46 +1218,44 @@ U 1 1 5C72633B
 P 2350 14550
 F 0 "R243" H 2500 14747 50  0000 C CNN
 F 1 "R1206_1M_1%_0.25W_100PPM" H 2350 14340 60  0001 L CNN
-F 2 "RESC3216X65N" H 2350 13530 60  0001 L CNN
+F 2 "Marble:RESC3216X65N" H 2350 13530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_NIC_NRC.pdf" H 2350 14160 60  0001 L CNN
-F 4 "1M" H 2500 14656 50  0000 C CNN "~"
+F 4 "1M" H 2500 14656 50  0000 C CNN "Val"
 F 5 "R1206_1M_1%_0.25W_100PPM" H 2350 14070 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 2350 13980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 2350 13890 60  0001 L CNN "Library Path"
 F 8 "=Value" H 2350 13800 60  0001 L CNN "Comment"
 F 9 "Standard" H 2350 13710 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 2350 13620 60  0001 L CNN "Component Type"
-F 11 "~~" H 2350 13440 60  0001 L CNN "PackageDescription"
+F 11 " " H 2350 13440 60  0001 L CNN "PackageDescription"
 F 12 "2" H 2350 13350 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 2350 13260 60  0001 L CNN "Footprint Path"
 F 14 "RESC3216X65N" H 2350 13170 60  0001 L CNN "Footprint Ref"
-F 15 "1M" H 2350 13080 60  0001 L CNN "Val"
-F 16 "Preferred" H 2350 12990 60  0001 L CNN "Status"
-F 17 "0.25W" H 2350 12900 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 2350 12810 60  0001 L CNN "TC"
-F 19 "~~" H 2350 12720 60  0001 L CNN "Voltage"
-F 20 "±1%" H 2350 12630 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 2350 12540 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 2350 12450 60  0001 L CNN "Manufacturer"
-F 23 "R1206_1M_1%_0.25W_100PPM" H 2350 12360 60  0001 L CNN "Manufacturer Part Number"
-F 24 "1206" H 2350 12270 60  0001 L CNN "Case"
-F 25 "No" H 2350 12180 60  0001 L CNN "PressFit"
-F 26 "Yes" H 2350 12090 60  0001 L CNN "Mounted"
-F 27 "~~" H 2350 12000 60  0001 L CNN "Sense Comment"
-F 28 "No" H 2350 11910 60  0001 L CNN "Sense"
-F 29 "~~" H 2350 11820 60  0001 L CNN "Status Comment"
-F 30 "No" H 2350 11730 60  0001 L CNN "Socket"
-F 31 "Yes" H 2350 11640 60  0001 L CNN "SMD"
-F 32 "~~" H 2350 11550 60  0001 L CNN "ComponentHeight"
-F 33 "NIC COMPONENT" H 2350 11460 60  0001 L CNN "Manufacturer1 Example"
-F 34 "NRC12F1004TRF" H 2350 11370 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.65mm" H 2350 11280 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_NIC_NRC.pdf" H 2350 11190 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 2350 11100 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 2350 11010 60  0001 L CNN "CreateDate"
-F 39 "03/13/08 00:00:00" H 2350 10920 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 2350 10830 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2350 10740 60  0001 L CNN "License"
+F 15 "Preferred" H 2350 12990 60  0001 L CNN "Status"
+F 16 "0.25W" H 2350 12900 60  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 2350 12810 60  0001 L CNN "TC"
+F 18 " " H 2350 12720 60  0001 L CNN "Voltage"
+F 19 "±1%" H 2350 12630 60  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 2350 12540 60  0001 L CNN "Part Description"
+F 21 "GENERIC" H 2350 12450 60  0001 L CNN "Manufacturer"
+F 22 "R1206_1M_1%_0.25W_100PPM" H 2350 12360 60  0001 L CNN "Manufacturer Part Number"
+F 23 "1206" H 2350 12270 60  0001 L CNN "Case"
+F 24 "No" H 2350 12180 60  0001 L CNN "PressFit"
+F 25 "Yes" H 2350 12090 60  0001 L CNN "Mounted"
+F 26 " " H 2350 12000 60  0001 L CNN "Sense Comment"
+F 27 "No" H 2350 11910 60  0001 L CNN "Sense"
+F 28 " " H 2350 11820 60  0001 L CNN "Status Comment"
+F 29 "No" H 2350 11730 60  0001 L CNN "Socket"
+F 30 "Yes" H 2350 11640 60  0001 L CNN "SMD"
+F 31 " " H 2350 11550 60  0001 L CNN "ComponentHeight"
+F 32 "NIC COMPONENT" H 2350 11460 60  0001 L CNN "Manufacturer1 Example"
+F 33 "NRC12F1004TRF" H 2350 11370 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.65mm" H 2350 11280 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 2350 11100 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 2350 11010 60  0001 L CNN "CreateDate"
+F 37 "03/13/08 00:00:00" H 2350 10920 60  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 2350 10830 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2350 10740 60  0001 L CNN "License"
 	1    2350 14550
 	1    0    0    -1  
 $EndComp
@@ -1262,46 +1265,44 @@ U 1 1 5C726512
 P 3150 14550
 F 0 "R244" H 3300 14747 50  0000 C CNN
 F 1 "R1206_1M_1%_0.25W_100PPM" H 3150 14340 60  0001 L CNN
-F 2 "RESC3216X65N" H 3150 13530 60  0001 L CNN
+F 2 "Marble:RESC3216X65N" H 3150 13530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_NIC_NRC.pdf" H 3150 14160 60  0001 L CNN
-F 4 "1M" H 3300 14656 50  0000 C CNN "~"
+F 4 "1M" H 3300 14656 50  0000 C CNN "Val"
 F 5 "R1206_1M_1%_0.25W_100PPM" H 3150 14070 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 3150 13980 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 3150 13890 60  0001 L CNN "Library Path"
 F 8 "=Value" H 3150 13800 60  0001 L CNN "Comment"
 F 9 "Standard" H 3150 13710 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 3150 13620 60  0001 L CNN "Component Type"
-F 11 "~~" H 3150 13440 60  0001 L CNN "PackageDescription"
+F 11 " " H 3150 13440 60  0001 L CNN "PackageDescription"
 F 12 "2" H 3150 13350 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 3150 13260 60  0001 L CNN "Footprint Path"
 F 14 "RESC3216X65N" H 3150 13170 60  0001 L CNN "Footprint Ref"
-F 15 "1M" H 3150 13080 60  0001 L CNN "Val"
-F 16 "Preferred" H 3150 12990 60  0001 L CNN "Status"
-F 17 "0.25W" H 3150 12900 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 3150 12810 60  0001 L CNN "TC"
-F 19 "~~" H 3150 12720 60  0001 L CNN "Voltage"
-F 20 "±1%" H 3150 12630 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 3150 12540 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 3150 12450 60  0001 L CNN "Manufacturer"
-F 23 "R1206_1M_1%_0.25W_100PPM" H 3150 12360 60  0001 L CNN "Manufacturer Part Number"
-F 24 "1206" H 3150 12270 60  0001 L CNN "Case"
-F 25 "No" H 3150 12180 60  0001 L CNN "PressFit"
-F 26 "Yes" H 3150 12090 60  0001 L CNN "Mounted"
-F 27 "~~" H 3150 12000 60  0001 L CNN "Sense Comment"
-F 28 "No" H 3150 11910 60  0001 L CNN "Sense"
-F 29 "~~" H 3150 11820 60  0001 L CNN "Status Comment"
-F 30 "No" H 3150 11730 60  0001 L CNN "Socket"
-F 31 "Yes" H 3150 11640 60  0001 L CNN "SMD"
-F 32 "~~" H 3150 11550 60  0001 L CNN "ComponentHeight"
-F 33 "NIC COMPONENT" H 3150 11460 60  0001 L CNN "Manufacturer1 Example"
-F 34 "NRC12F1004TRF" H 3150 11370 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.65mm" H 3150 11280 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_NIC_NRC.pdf" H 3150 11190 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 3150 11100 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 3150 11010 60  0001 L CNN "CreateDate"
-F 39 "03/13/08 00:00:00" H 3150 10920 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 3150 10830 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3150 10740 60  0001 L CNN "License"
+F 15 "Preferred" H 3150 12990 60  0001 L CNN "Status"
+F 16 "0.25W" H 3150 12900 60  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 3150 12810 60  0001 L CNN "TC"
+F 18 " " H 3150 12720 60  0001 L CNN "Voltage"
+F 19 "±1%" H 3150 12630 60  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 3150 12540 60  0001 L CNN "Part Description"
+F 21 "GENERIC" H 3150 12450 60  0001 L CNN "Manufacturer"
+F 22 "R1206_1M_1%_0.25W_100PPM" H 3150 12360 60  0001 L CNN "Manufacturer Part Number"
+F 23 "1206" H 3150 12270 60  0001 L CNN "Case"
+F 24 "No" H 3150 12180 60  0001 L CNN "PressFit"
+F 25 "Yes" H 3150 12090 60  0001 L CNN "Mounted"
+F 26 " " H 3150 12000 60  0001 L CNN "Sense Comment"
+F 27 "No" H 3150 11910 60  0001 L CNN "Sense"
+F 28 " " H 3150 11820 60  0001 L CNN "Status Comment"
+F 29 "No" H 3150 11730 60  0001 L CNN "Socket"
+F 30 "Yes" H 3150 11640 60  0001 L CNN "SMD"
+F 31 " " H 3150 11550 60  0001 L CNN "ComponentHeight"
+F 32 "NIC COMPONENT" H 3150 11460 60  0001 L CNN "Manufacturer1 Example"
+F 33 "NRC12F1004TRF" H 3150 11370 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.65mm" H 3150 11280 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 3150 11100 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 3150 11010 60  0001 L CNN "CreateDate"
+F 37 "03/13/08 00:00:00" H 3150 10920 60  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 3150 10830 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3150 10740 60  0001 L CNN "License"
 	1    3150 14550
 	1    0    0    -1  
 $EndComp
@@ -1387,18 +1388,18 @@ Text Label 13650 7950 0    50   ~ 10
 Pmod3_[0..7]
 Wire Bus Line
 	13650 7950 14200 7950
-Text Label 13050 9300 0    50   ~ 10
+Text Label 13400 9300 2    50   ~ 10
 FPGA_RTS
-Text Label 13050 9400 0    50   ~ 10
+Text Label 13400 9400 2    50   ~ 10
 FPGA_RxD
-Text Label 13050 9500 0    50   ~ 10
+Text Label 13400 9500 2    50   ~ 10
 FPGA_TxD
 Wire Wire Line
-	13450 9300 12950 9300
+	13400 9300 12950 9300
 Wire Wire Line
-	13450 9400 12950 9400
+	13400 9400 12950 9400
 Wire Wire Line
-	13450 9500 12950 9500
+	13400 9500 12950 9500
 Text Label 3550 8700 0    50   ~ 10
 FPGA_RTS
 Text Label 3550 8600 0    50   ~ 10
@@ -1421,17 +1422,17 @@ U 1 1 5C7E4108
 P 2800 15500
 F 0 "B2" H 2785 15605 50  0000 C CNN
 F 1 "PLATED_HOLE2.7_PAD5.0" H 2800 15330 60  0001 L CNN
-F 2 "Pads:MTG270_500" H 2800 14520 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 2800 14520 60  0001 L CNN
 F 3 "" H 2800 15150 60  0001 L CNN
 F 4 "Plated Hole" H 2800 15060 60  0001 L CNN "Pole4"
 F 5 "PLATED_HOLE2.7_PAD5.0" H 2800 15060 60  0001 L CNN "Part Number"
 F 6 "Single Terminal Socket" H 2800 14970 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 2800 14880 60  0001 L CNN "Library Path"
-F 8 "~~" H 2800 14790 60  0001 L CNN "Comment"
+F 8 " " H 2800 14790 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 2800 14700 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 2800 14610 60  0001 L CNN "Component Type"
 F 11 "1" H 2800 14430 60  0001 L CNN "Pin Count"
-F 12 "~~" H 2800 14340 60  0001 L CNN "Case"
+F 12 " " H 2800 14340 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 2800 14250 60  0001 L CNN "Footprint Path"
 F 14 "MTG270_500" H 2800 14160 60  0001 L CNN "Footprint Ref"
 F 15 "Plated Hole" H 2800 14070 60  0001 L CNN "Family"
@@ -1439,28 +1440,25 @@ F 16 "No" H 2800 13980 60  0001 L CNN "Mounted"
 F 17 "No" H 2800 13890 60  0001 L CNN "Socket"
 F 18 "No" H 2800 13800 60  0001 L CNN "SMD"
 F 19 "No" H 2800 13710 60  0001 L CNN "Sense"
-F 20 "~~" H 2800 13620 60  0001 L CNN "Sense Comment"
+F 20 " " H 2800 13620 60  0001 L CNN "Sense Comment"
 F 21 "None" H 2800 13530 60  0001 L CNN "Status"
-F 22 "~~" H 2800 13440 60  0001 L CNN "Status Comment"
-F 23 "~~" H 2800 13350 60  0001 L CNN "SCEM"
-F 24 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2800 13260 60  0001 L CNN "Part Description"
-F 25 "~~" H 2800 13170 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 2800 13080 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 2800 12990 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 2800 12900 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 2800 12810 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 2800 12720 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 2800 12630 60  0001 L CNN "HelpURL"
-F 32 "~~" H 2800 12540 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 2800 12450 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 2800 12360 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 2800 12270 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 2800 12180 60  0001 L CNN "Author"
-F 37 "09/27/11 00:00:00" H 2800 12090 60  0001 L CNN "CreateDate"
-F 38 "09/27/11 00:00:00" H 2800 12000 60  0001 L CNN "LatestRevisionDate"
-F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2800 11910 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 2800 11820 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2800 11730 60  0001 L CNN "License"
+F 22 " " H 2800 13440 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2800 13260 60  0001 L CNN "Part Description"
+F 24 " " H 2800 13170 60  0001 L CNN "Manufacturer"
+F 25 " " H 2800 13080 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 2800 12990 60  0001 L CNN "ComponentHeight"
+F 27 " " H 2800 12900 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 2800 12810 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 2800 12720 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 2800 12450 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 2800 12270 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 2800 12180 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 2800 12090 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 2800 12000 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2800 11910 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 2800 11820 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2800 11730 60  0001 L CNN "License"
+F 38 "dnf" H 2800 15500 50  0001 C CNN "config"
 	1    2800 15500
 	1    0    0    -1  
 $EndComp
@@ -1470,17 +1468,17 @@ U 1 1 5C874F76
 P 2950 15500
 F 0 "B4" H 2935 15605 50  0000 C CNN
 F 1 "PLATED_HOLE2.7_PAD5.0" H 2950 15330 60  0001 L CNN
-F 2 "Pads:MTG270_500" H 2950 14520 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 2950 14520 60  0001 L CNN
 F 3 "" H 2950 15150 60  0001 L CNN
 F 4 "Plated Hole" H 2950 15060 60  0001 L CNN "Pole4"
 F 5 "PLATED_HOLE2.7_PAD5.0" H 2950 15060 60  0001 L CNN "Part Number"
 F 6 "Single Terminal Socket" H 2950 14970 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 2950 14880 60  0001 L CNN "Library Path"
-F 8 "~~" H 2950 14790 60  0001 L CNN "Comment"
+F 8 " " H 2950 14790 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 2950 14700 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 2950 14610 60  0001 L CNN "Component Type"
 F 11 "1" H 2950 14430 60  0001 L CNN "Pin Count"
-F 12 "~~" H 2950 14340 60  0001 L CNN "Case"
+F 12 " " H 2950 14340 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 2950 14250 60  0001 L CNN "Footprint Path"
 F 14 "MTG270_500" H 2950 14160 60  0001 L CNN "Footprint Ref"
 F 15 "Plated Hole" H 2950 14070 60  0001 L CNN "Family"
@@ -1488,28 +1486,25 @@ F 16 "No" H 2950 13980 60  0001 L CNN "Mounted"
 F 17 "No" H 2950 13890 60  0001 L CNN "Socket"
 F 18 "No" H 2950 13800 60  0001 L CNN "SMD"
 F 19 "No" H 2950 13710 60  0001 L CNN "Sense"
-F 20 "~~" H 2950 13620 60  0001 L CNN "Sense Comment"
+F 20 " " H 2950 13620 60  0001 L CNN "Sense Comment"
 F 21 "None" H 2950 13530 60  0001 L CNN "Status"
-F 22 "~~" H 2950 13440 60  0001 L CNN "Status Comment"
-F 23 "~~" H 2950 13350 60  0001 L CNN "SCEM"
-F 24 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2950 13260 60  0001 L CNN "Part Description"
-F 25 "~~" H 2950 13170 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 2950 13080 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 2950 12990 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 2950 12900 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 2950 12810 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 2950 12720 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 2950 12630 60  0001 L CNN "HelpURL"
-F 32 "~~" H 2950 12540 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 2950 12450 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 2950 12360 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 2950 12270 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 2950 12180 60  0001 L CNN "Author"
-F 37 "09/27/11 00:00:00" H 2950 12090 60  0001 L CNN "CreateDate"
-F 38 "09/27/11 00:00:00" H 2950 12000 60  0001 L CNN "LatestRevisionDate"
-F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2950 11910 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 2950 11820 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 11730 60  0001 L CNN "License"
+F 22 " " H 2950 13440 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2950 13260 60  0001 L CNN "Part Description"
+F 24 " " H 2950 13170 60  0001 L CNN "Manufacturer"
+F 25 " " H 2950 13080 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 2950 12990 60  0001 L CNN "ComponentHeight"
+F 27 " " H 2950 12900 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 2950 12810 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 2950 12720 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 2950 12450 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 2950 12270 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 2950 12180 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 2950 12090 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 2950 12000 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2950 11910 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 2950 11820 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 11730 60  0001 L CNN "License"
+F 38 "dnf" H 2950 15500 50  0001 C CNN "config"
 	1    2950 15500
 	1    0    0    -1  
 $EndComp
@@ -1519,17 +1514,17 @@ U 1 1 5C8A4093
 P 3100 15500
 F 0 "B6" H 3085 15605 50  0000 C CNN
 F 1 "PLATED_HOLE2.7_PAD5.0" H 3100 15330 60  0001 L CNN
-F 2 "Pads:MTG270_500" H 3100 14520 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 3100 14520 60  0001 L CNN
 F 3 "" H 3100 15150 60  0001 L CNN
 F 4 "Plated Hole" H 3100 15060 60  0001 L CNN "Pole4"
 F 5 "PLATED_HOLE2.7_PAD5.0" H 3100 15060 60  0001 L CNN "Part Number"
 F 6 "Single Terminal Socket" H 3100 14970 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 3100 14880 60  0001 L CNN "Library Path"
-F 8 "~~" H 3100 14790 60  0001 L CNN "Comment"
+F 8 " " H 3100 14790 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 3100 14700 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 3100 14610 60  0001 L CNN "Component Type"
 F 11 "1" H 3100 14430 60  0001 L CNN "Pin Count"
-F 12 "~~" H 3100 14340 60  0001 L CNN "Case"
+F 12 " " H 3100 14340 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 3100 14250 60  0001 L CNN "Footprint Path"
 F 14 "MTG270_500" H 3100 14160 60  0001 L CNN "Footprint Ref"
 F 15 "Plated Hole" H 3100 14070 60  0001 L CNN "Family"
@@ -1537,28 +1532,25 @@ F 16 "No" H 3100 13980 60  0001 L CNN "Mounted"
 F 17 "No" H 3100 13890 60  0001 L CNN "Socket"
 F 18 "No" H 3100 13800 60  0001 L CNN "SMD"
 F 19 "No" H 3100 13710 60  0001 L CNN "Sense"
-F 20 "~~" H 3100 13620 60  0001 L CNN "Sense Comment"
+F 20 " " H 3100 13620 60  0001 L CNN "Sense Comment"
 F 21 "None" H 3100 13530 60  0001 L CNN "Status"
-F 22 "~~" H 3100 13440 60  0001 L CNN "Status Comment"
-F 23 "~~" H 3100 13350 60  0001 L CNN "SCEM"
-F 24 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3100 13260 60  0001 L CNN "Part Description"
-F 25 "~~" H 3100 13170 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 3100 13080 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 3100 12990 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 3100 12900 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 3100 12810 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 3100 12720 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 3100 12630 60  0001 L CNN "HelpURL"
-F 32 "~~" H 3100 12540 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 3100 12450 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 3100 12360 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 3100 12270 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 3100 12180 60  0001 L CNN "Author"
-F 37 "09/27/11 00:00:00" H 3100 12090 60  0001 L CNN "CreateDate"
-F 38 "09/27/11 00:00:00" H 3100 12000 60  0001 L CNN "LatestRevisionDate"
-F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3100 11910 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 3100 11820 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3100 11730 60  0001 L CNN "License"
+F 22 " " H 3100 13440 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3100 13260 60  0001 L CNN "Part Description"
+F 24 " " H 3100 13170 60  0001 L CNN "Manufacturer"
+F 25 " " H 3100 13080 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 3100 12990 60  0001 L CNN "ComponentHeight"
+F 27 " " H 3100 12900 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 3100 12810 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 3100 12720 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 3100 12450 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 3100 12270 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 3100 12180 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 3100 12090 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 3100 12000 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3100 11910 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 3100 11820 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3100 11730 60  0001 L CNN "License"
+F 38 "dnf" H 3100 15500 50  0001 C CNN "config"
 	1    3100 15500
 	1    0    0    -1  
 $EndComp
@@ -1568,17 +1560,17 @@ U 1 1 5C8D5D72
 P 3250 15500
 F 0 "B8" H 3235 15605 50  0000 C CNN
 F 1 "PLATED_HOLE2.7_PAD5.0" H 3250 15330 60  0001 L CNN
-F 2 "Pads:MTG270_500" H 3250 14520 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 3250 14520 60  0001 L CNN
 F 3 "" H 3250 15150 60  0001 L CNN
 F 4 "Plated Hole" H 3250 15060 60  0001 L CNN "Pole4"
 F 5 "PLATED_HOLE2.7_PAD5.0" H 3250 15060 60  0001 L CNN "Part Number"
 F 6 "Single Terminal Socket" H 3250 14970 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 3250 14880 60  0001 L CNN "Library Path"
-F 8 "~~" H 3250 14790 60  0001 L CNN "Comment"
+F 8 " " H 3250 14790 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 3250 14700 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 3250 14610 60  0001 L CNN "Component Type"
 F 11 "1" H 3250 14430 60  0001 L CNN "Pin Count"
-F 12 "~~" H 3250 14340 60  0001 L CNN "Case"
+F 12 " " H 3250 14340 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 3250 14250 60  0001 L CNN "Footprint Path"
 F 14 "MTG270_500" H 3250 14160 60  0001 L CNN "Footprint Ref"
 F 15 "Plated Hole" H 3250 14070 60  0001 L CNN "Family"
@@ -1586,28 +1578,25 @@ F 16 "No" H 3250 13980 60  0001 L CNN "Mounted"
 F 17 "No" H 3250 13890 60  0001 L CNN "Socket"
 F 18 "No" H 3250 13800 60  0001 L CNN "SMD"
 F 19 "No" H 3250 13710 60  0001 L CNN "Sense"
-F 20 "~~" H 3250 13620 60  0001 L CNN "Sense Comment"
+F 20 " " H 3250 13620 60  0001 L CNN "Sense Comment"
 F 21 "None" H 3250 13530 60  0001 L CNN "Status"
-F 22 "~~" H 3250 13440 60  0001 L CNN "Status Comment"
-F 23 "~~" H 3250 13350 60  0001 L CNN "SCEM"
-F 24 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3250 13260 60  0001 L CNN "Part Description"
-F 25 "~~" H 3250 13170 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 3250 13080 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 3250 12990 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 3250 12900 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 3250 12810 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 3250 12720 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 3250 12630 60  0001 L CNN "HelpURL"
-F 32 "~~" H 3250 12540 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 3250 12450 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 3250 12360 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 3250 12270 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 3250 12180 60  0001 L CNN "Author"
-F 37 "09/27/11 00:00:00" H 3250 12090 60  0001 L CNN "CreateDate"
-F 38 "09/27/11 00:00:00" H 3250 12000 60  0001 L CNN "LatestRevisionDate"
-F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3250 11910 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 3250 11820 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3250 11730 60  0001 L CNN "License"
+F 22 " " H 3250 13440 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3250 13260 60  0001 L CNN "Part Description"
+F 24 " " H 3250 13170 60  0001 L CNN "Manufacturer"
+F 25 " " H 3250 13080 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 3250 12990 60  0001 L CNN "ComponentHeight"
+F 27 " " H 3250 12900 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 3250 12810 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 3250 12720 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 3250 12450 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 3250 12270 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 3250 12180 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 3250 12090 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 3250 12000 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3250 11910 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 3250 11820 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3250 11730 60  0001 L CNN "License"
+F 38 "dnf" H 3250 15500 50  0001 C CNN "config"
 	1    3250 15500
 	1    0    0    -1  
 $EndComp
@@ -1617,17 +1606,17 @@ U 1 1 5C942131
 P 2800 15250
 F 0 "B1" H 2785 15355 50  0000 C CNN
 F 1 "PLATED_HOLE2.7_PAD5.0" H 2800 15080 60  0001 L CNN
-F 2 "Pads:MTG270_500" H 2800 14270 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 2800 14270 60  0001 L CNN
 F 3 "" H 2800 14900 60  0001 L CNN
 F 4 "Plated Hole" H 2800 14810 60  0001 L CNN "Pole4"
 F 5 "PLATED_HOLE2.7_PAD5.0" H 2800 14810 60  0001 L CNN "Part Number"
 F 6 "Single Terminal Socket" H 2800 14720 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 2800 14630 60  0001 L CNN "Library Path"
-F 8 "~~" H 2800 14540 60  0001 L CNN "Comment"
+F 8 " " H 2800 14540 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 2800 14450 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 2800 14360 60  0001 L CNN "Component Type"
 F 11 "1" H 2800 14180 60  0001 L CNN "Pin Count"
-F 12 "~~" H 2800 14090 60  0001 L CNN "Case"
+F 12 " " H 2800 14090 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 2800 14000 60  0001 L CNN "Footprint Path"
 F 14 "MTG270_500" H 2800 13910 60  0001 L CNN "Footprint Ref"
 F 15 "Plated Hole" H 2800 13820 60  0001 L CNN "Family"
@@ -1635,28 +1624,25 @@ F 16 "No" H 2800 13730 60  0001 L CNN "Mounted"
 F 17 "No" H 2800 13640 60  0001 L CNN "Socket"
 F 18 "No" H 2800 13550 60  0001 L CNN "SMD"
 F 19 "No" H 2800 13460 60  0001 L CNN "Sense"
-F 20 "~~" H 2800 13370 60  0001 L CNN "Sense Comment"
+F 20 " " H 2800 13370 60  0001 L CNN "Sense Comment"
 F 21 "None" H 2800 13280 60  0001 L CNN "Status"
-F 22 "~~" H 2800 13190 60  0001 L CNN "Status Comment"
-F 23 "~~" H 2800 13100 60  0001 L CNN "SCEM"
-F 24 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2800 13010 60  0001 L CNN "Part Description"
-F 25 "~~" H 2800 12920 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 2800 12830 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 2800 12740 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 2800 12650 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 2800 12560 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 2800 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 2800 12380 60  0001 L CNN "HelpURL"
-F 32 "~~" H 2800 12290 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 2800 12200 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 2800 12110 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 2800 12020 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 2800 11930 60  0001 L CNN "Author"
-F 37 "09/27/11 00:00:00" H 2800 11840 60  0001 L CNN "CreateDate"
-F 38 "09/27/11 00:00:00" H 2800 11750 60  0001 L CNN "LatestRevisionDate"
-F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2800 11660 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 2800 11570 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2800 11480 60  0001 L CNN "License"
+F 22 " " H 2800 13190 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2800 13010 60  0001 L CNN "Part Description"
+F 24 " " H 2800 12920 60  0001 L CNN "Manufacturer"
+F 25 " " H 2800 12830 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 2800 12740 60  0001 L CNN "ComponentHeight"
+F 27 " " H 2800 12650 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 2800 12560 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 2800 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 2800 12200 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 2800 12020 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 2800 11930 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 2800 11840 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 2800 11750 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2800 11660 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 2800 11570 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2800 11480 60  0001 L CNN "License"
+F 38 "dnf" H 2800 15250 50  0001 C CNN "config"
 	1    2800 15250
 	1    0    0    -1  
 $EndComp
@@ -1666,17 +1652,17 @@ U 1 1 5C94215D
 P 2950 15250
 F 0 "B3" H 2935 15355 50  0000 C CNN
 F 1 "PLATED_HOLE2.7_PAD5.0" H 2950 15080 60  0001 L CNN
-F 2 "Pads:MTG270_500" H 2950 14270 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 2950 14270 60  0001 L CNN
 F 3 "" H 2950 14900 60  0001 L CNN
 F 4 "Plated Hole" H 2950 14810 60  0001 L CNN "Pole4"
 F 5 "PLATED_HOLE2.7_PAD5.0" H 2950 14810 60  0001 L CNN "Part Number"
 F 6 "Single Terminal Socket" H 2950 14720 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 2950 14630 60  0001 L CNN "Library Path"
-F 8 "~~" H 2950 14540 60  0001 L CNN "Comment"
+F 8 " " H 2950 14540 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 2950 14450 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 2950 14360 60  0001 L CNN "Component Type"
 F 11 "1" H 2950 14180 60  0001 L CNN "Pin Count"
-F 12 "~~" H 2950 14090 60  0001 L CNN "Case"
+F 12 " " H 2950 14090 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 2950 14000 60  0001 L CNN "Footprint Path"
 F 14 "MTG270_500" H 2950 13910 60  0001 L CNN "Footprint Ref"
 F 15 "Plated Hole" H 2950 13820 60  0001 L CNN "Family"
@@ -1684,28 +1670,25 @@ F 16 "No" H 2950 13730 60  0001 L CNN "Mounted"
 F 17 "No" H 2950 13640 60  0001 L CNN "Socket"
 F 18 "No" H 2950 13550 60  0001 L CNN "SMD"
 F 19 "No" H 2950 13460 60  0001 L CNN "Sense"
-F 20 "~~" H 2950 13370 60  0001 L CNN "Sense Comment"
+F 20 " " H 2950 13370 60  0001 L CNN "Sense Comment"
 F 21 "None" H 2950 13280 60  0001 L CNN "Status"
-F 22 "~~" H 2950 13190 60  0001 L CNN "Status Comment"
-F 23 "~~" H 2950 13100 60  0001 L CNN "SCEM"
-F 24 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2950 13010 60  0001 L CNN "Part Description"
-F 25 "~~" H 2950 12920 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 2950 12830 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 2950 12740 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 2950 12650 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 2950 12560 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 2950 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 2950 12380 60  0001 L CNN "HelpURL"
-F 32 "~~" H 2950 12290 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 2950 12200 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 2950 12110 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 2950 12020 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 2950 11930 60  0001 L CNN "Author"
-F 37 "09/27/11 00:00:00" H 2950 11840 60  0001 L CNN "CreateDate"
-F 38 "09/27/11 00:00:00" H 2950 11750 60  0001 L CNN "LatestRevisionDate"
-F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2950 11660 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 2950 11570 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 11480 60  0001 L CNN "License"
+F 22 " " H 2950 13190 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2950 13010 60  0001 L CNN "Part Description"
+F 24 " " H 2950 12920 60  0001 L CNN "Manufacturer"
+F 25 " " H 2950 12830 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 2950 12740 60  0001 L CNN "ComponentHeight"
+F 27 " " H 2950 12650 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 2950 12560 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 2950 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 2950 12200 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 2950 12020 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 2950 11930 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 2950 11840 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 2950 11750 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 2950 11660 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 2950 11570 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 11480 60  0001 L CNN "License"
+F 38 "dnf" H 2950 15250 50  0001 C CNN "config"
 	1    2950 15250
 	1    0    0    -1  
 $EndComp
@@ -1715,17 +1698,17 @@ U 1 1 5C942189
 P 3100 15250
 F 0 "B5" H 3085 15355 50  0000 C CNN
 F 1 "PLATED_HOLE2.7_PAD5.0" H 3100 15080 60  0001 L CNN
-F 2 "Pads:MTG270_500" H 3100 14270 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 3100 14270 60  0001 L CNN
 F 3 "" H 3100 14900 60  0001 L CNN
 F 4 "Plated Hole" H 3100 14810 60  0001 L CNN "Pole4"
 F 5 "PLATED_HOLE2.7_PAD5.0" H 3100 14810 60  0001 L CNN "Part Number"
 F 6 "Single Terminal Socket" H 3100 14720 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 3100 14630 60  0001 L CNN "Library Path"
-F 8 "~~" H 3100 14540 60  0001 L CNN "Comment"
+F 8 " " H 3100 14540 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 3100 14450 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 3100 14360 60  0001 L CNN "Component Type"
 F 11 "1" H 3100 14180 60  0001 L CNN "Pin Count"
-F 12 "~~" H 3100 14090 60  0001 L CNN "Case"
+F 12 " " H 3100 14090 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 3100 14000 60  0001 L CNN "Footprint Path"
 F 14 "MTG270_500" H 3100 13910 60  0001 L CNN "Footprint Ref"
 F 15 "Plated Hole" H 3100 13820 60  0001 L CNN "Family"
@@ -1733,28 +1716,25 @@ F 16 "No" H 3100 13730 60  0001 L CNN "Mounted"
 F 17 "No" H 3100 13640 60  0001 L CNN "Socket"
 F 18 "No" H 3100 13550 60  0001 L CNN "SMD"
 F 19 "No" H 3100 13460 60  0001 L CNN "Sense"
-F 20 "~~" H 3100 13370 60  0001 L CNN "Sense Comment"
+F 20 " " H 3100 13370 60  0001 L CNN "Sense Comment"
 F 21 "None" H 3100 13280 60  0001 L CNN "Status"
-F 22 "~~" H 3100 13190 60  0001 L CNN "Status Comment"
-F 23 "~~" H 3100 13100 60  0001 L CNN "SCEM"
-F 24 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3100 13010 60  0001 L CNN "Part Description"
-F 25 "~~" H 3100 12920 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 3100 12830 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 3100 12740 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 3100 12650 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 3100 12560 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 3100 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 3100 12380 60  0001 L CNN "HelpURL"
-F 32 "~~" H 3100 12290 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 3100 12200 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 3100 12110 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 3100 12020 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 3100 11930 60  0001 L CNN "Author"
-F 37 "09/27/11 00:00:00" H 3100 11840 60  0001 L CNN "CreateDate"
-F 38 "09/27/11 00:00:00" H 3100 11750 60  0001 L CNN "LatestRevisionDate"
-F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3100 11660 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 3100 11570 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3100 11480 60  0001 L CNN "License"
+F 22 " " H 3100 13190 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3100 13010 60  0001 L CNN "Part Description"
+F 24 " " H 3100 12920 60  0001 L CNN "Manufacturer"
+F 25 " " H 3100 12830 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 3100 12740 60  0001 L CNN "ComponentHeight"
+F 27 " " H 3100 12650 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 3100 12560 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 3100 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 3100 12200 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 3100 12020 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 3100 11930 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 3100 11840 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 3100 11750 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3100 11660 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 3100 11570 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3100 11480 60  0001 L CNN "License"
+F 38 "dnf" H 3100 15250 50  0001 C CNN "config"
 	1    3100 15250
 	1    0    0    -1  
 $EndComp
@@ -1764,17 +1744,17 @@ U 1 1 5C9421B5
 P 3250 15250
 F 0 "B7" H 3235 15355 50  0000 C CNN
 F 1 "PLATED_HOLE2.7_PAD5.0" H 3250 15080 60  0001 L CNN
-F 2 "Pads:MTG270_500" H 3250 14270 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 3250 14270 60  0001 L CNN
 F 3 "" H 3250 14900 60  0001 L CNN
 F 4 "Plated Hole" H 3250 14810 60  0001 L CNN "Pole4"
 F 5 "PLATED_HOLE2.7_PAD5.0" H 3250 14810 60  0001 L CNN "Part Number"
 F 6 "Single Terminal Socket" H 3250 14720 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 3250 14630 60  0001 L CNN "Library Path"
-F 8 "~~" H 3250 14540 60  0001 L CNN "Comment"
+F 8 " " H 3250 14540 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 3250 14450 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 3250 14360 60  0001 L CNN "Component Type"
 F 11 "1" H 3250 14180 60  0001 L CNN "Pin Count"
-F 12 "~~" H 3250 14090 60  0001 L CNN "Case"
+F 12 " " H 3250 14090 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 3250 14000 60  0001 L CNN "Footprint Path"
 F 14 "MTG270_500" H 3250 13910 60  0001 L CNN "Footprint Ref"
 F 15 "Plated Hole" H 3250 13820 60  0001 L CNN "Family"
@@ -1782,28 +1762,25 @@ F 16 "No" H 3250 13730 60  0001 L CNN "Mounted"
 F 17 "No" H 3250 13640 60  0001 L CNN "Socket"
 F 18 "No" H 3250 13550 60  0001 L CNN "SMD"
 F 19 "No" H 3250 13460 60  0001 L CNN "Sense"
-F 20 "~~" H 3250 13370 60  0001 L CNN "Sense Comment"
+F 20 " " H 3250 13370 60  0001 L CNN "Sense Comment"
 F 21 "None" H 3250 13280 60  0001 L CNN "Status"
-F 22 "~~" H 3250 13190 60  0001 L CNN "Status Comment"
-F 23 "~~" H 3250 13100 60  0001 L CNN "SCEM"
-F 24 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3250 13010 60  0001 L CNN "Part Description"
-F 25 "~~" H 3250 12920 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 3250 12830 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 3250 12740 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 3250 12650 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 3250 12560 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 3250 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 3250 12380 60  0001 L CNN "HelpURL"
-F 32 "~~" H 3250 12290 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 3250 12200 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 3250 12110 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 3250 12020 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 3250 11930 60  0001 L CNN "Author"
-F 37 "09/27/11 00:00:00" H 3250 11840 60  0001 L CNN "CreateDate"
-F 38 "09/27/11 00:00:00" H 3250 11750 60  0001 L CNN "LatestRevisionDate"
-F 39 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3250 11660 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 3250 11570 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3250 11480 60  0001 L CNN "License"
+F 22 " " H 3250 13190 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3250 13010 60  0001 L CNN "Part Description"
+F 24 " " H 3250 12920 60  0001 L CNN "Manufacturer"
+F 25 " " H 3250 12830 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 3250 12740 60  0001 L CNN "ComponentHeight"
+F 27 " " H 3250 12650 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 3250 12560 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 3250 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 3250 12200 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 3250 12020 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 3250 11930 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 3250 11840 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 3250 11750 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 3250 11660 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 3250 11570 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3250 11480 60  0001 L CNN "License"
+F 38 "dnf" H 3250 15250 50  0001 C CNN "config"
 	1    3250 15250
 	1    0    0    -1  
 $EndComp
@@ -1840,7 +1817,7 @@ $EndSheet
 $Comp
 L power:GND #PWR?
 U 1 1 5D64BA99
-P 3400 15250
+P 3450 15250
 AR Path="/5BD32060/5D64BA99" Ref="#PWR?"  Part="1" 
 AR Path="/5BABAC65/5D64BA99" Ref="#PWR?"  Part="1" 
 AR Path="/5CC24E97/5D64BA99" Ref="#PWR?"  Part="1" 
@@ -1849,17 +1826,17 @@ AR Path="/5CC6DBF7/5D64BA99" Ref="#PWR?"  Part="1"
 AR Path="/5CC8AFE1/5D64BA99" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA3D/5D64BA99" Ref="#PWR?"  Part="1" 
 AR Path="/5D64BA99" Ref="#PWR0266"  Part="1" 
-F 0 "#PWR0266" H 3400 15000 50  0001 C CNN
-F 1 "GND" H 3405 15077 50  0000 C CNN
-F 2 "" H 3400 15250 50  0001 C CNN
-F 3 "" H 3400 15250 50  0001 C CNN
-	1    3400 15250
+F 0 "#PWR0266" H 3450 15000 50  0001 C CNN
+F 1 "GND" H 3455 15077 50  0000 C CNN
+F 2 "" H 3450 15250 50  0001 C CNN
+F 3 "" H 3450 15250 50  0001 C CNN
+	1    3450 15250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D67B2EB
-P 3400 15500
+P 3450 15500
 AR Path="/5BD32060/5D67B2EB" Ref="#PWR?"  Part="1" 
 AR Path="/5BABAC65/5D67B2EB" Ref="#PWR?"  Part="1" 
 AR Path="/5CC24E97/5D67B2EB" Ref="#PWR?"  Part="1" 
@@ -1868,11 +1845,11 @@ AR Path="/5CC6DBF7/5D67B2EB" Ref="#PWR?"  Part="1"
 AR Path="/5CC8AFE1/5D67B2EB" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA3D/5D67B2EB" Ref="#PWR?"  Part="1" 
 AR Path="/5D67B2EB" Ref="#PWR0467"  Part="1" 
-F 0 "#PWR0467" H 3400 15250 50  0001 C CNN
-F 1 "GND" H 3405 15327 50  0000 C CNN
-F 2 "" H 3400 15500 50  0001 C CNN
-F 3 "" H 3400 15500 50  0001 C CNN
-	1    3400 15500
+F 0 "#PWR0467" H 3450 15250 50  0001 C CNN
+F 1 "GND" H 3455 15327 50  0000 C CNN
+F 2 "" H 3450 15500 50  0001 C CNN
+F 3 "" H 3450 15500 50  0001 C CNN
+	1    3450 15500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1884,9 +1861,6 @@ Wire Wire Line
 	3100 15500 3250 15500
 Connection ~ 3100 15500
 Wire Wire Line
-	3250 15500 3400 15500
-Connection ~ 3250 15500
-Wire Wire Line
 	2800 15250 2950 15250
 Wire Wire Line
 	2950 15250 3100 15250
@@ -1894,26 +1868,23 @@ Connection ~ 2950 15250
 Wire Wire Line
 	3100 15250 3250 15250
 Connection ~ 3100 15250
-Wire Wire Line
-	3250 15250 3400 15250
-Connection ~ 3250 15250
 $Comp
 L Pads:FIDUCIAL_TARGET_C100-200 FTG1
 U 1 1 5CE2E544
 P 2800 14900
 F 0 "FTG1" H 2888 14900 50  0000 L CNN
 F 1 "FIDUCIAL_TARGET_C100-200" H 2800 14750 60  0001 L CNN
-F 2 "Pads:FIDUCIAL_TOP_S200-400" H 2800 13940 60  0001 L CNN
+F 2 "Marble:FIDUCIAL_TOP_S200-400" H 2800 13940 60  0001 L CNN
 F 3 "" H 2800 14570 60  0001 L CNN
-F 4 "~~" H 2800 14480 60  0001 L CNN "Pole4"
+F 4 " " H 2800 14480 60  0001 L CNN "Pole4"
 F 5 "FIDUCIAL_TARGET_C100-200" H 2800 14480 60  0001 L CNN "Part Number"
 F 6 "Fiducial Target" H 2800 14390 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 2800 14300 60  0001 L CNN "Library Path"
-F 8 "~~" H 2800 14210 60  0001 L CNN "Comment"
+F 8 " " H 2800 14210 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 2800 14120 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 2800 14030 60  0001 L CNN "Component Type"
 F 11 "1" H 2800 13850 60  0001 L CNN "Pin Count"
-F 12 "~~" H 2800 13760 60  0001 L CNN "Case"
+F 12 " " H 2800 13760 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 2800 13670 60  0001 L CNN "Footprint Path"
 F 14 "FIDUCIAL_TOP_C100-200" H 2800 13580 60  0001 L CNN "Footprint Ref"
 F 15 "Fiducial" H 2800 13490 60  0001 L CNN "Family"
@@ -1921,28 +1892,24 @@ F 16 "No" H 2800 13400 60  0001 L CNN "Mounted"
 F 17 "No" H 2800 13310 60  0001 L CNN "Socket"
 F 18 "Yes" H 2800 13220 60  0001 L CNN "SMD"
 F 19 "No" H 2800 13130 60  0001 L CNN "Sense"
-F 20 "~~" H 2800 13040 60  0001 L CNN "Sense Comment"
+F 20 " " H 2800 13040 60  0001 L CNN "Sense Comment"
 F 21 "None" H 2800 12950 60  0001 L CNN "Status"
-F 22 "~~" H 2800 12860 60  0001 L CNN "Status Comment"
-F 23 "~~" H 2800 12770 60  0001 L CNN "SCEM"
-F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 2800 12680 60  0001 L CNN "Part Description"
-F 25 "~~" H 2800 12590 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 2800 12500 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 2800 12410 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 2800 12320 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 2800 12230 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 2800 12140 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 2800 12050 60  0001 L CNN "HelpURL"
-F 32 "~~" H 2800 11960 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 2800 11870 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 2800 11780 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 2800 11690 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 2800 11600 60  0001 L CNN "Author"
-F 37 "02/09/10 00:00:00" H 2800 11510 60  0001 L CNN "CreateDate"
-F 38 "04/04/12 00:00:00" H 2800 11420 60  0001 L CNN "LatestRevisionDate"
-F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 2800 11330 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 2800 11240 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2800 11150 60  0001 L CNN "License"
+F 22 " " H 2800 12860 60  0001 L CNN "Status Comment"
+F 23 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 2800 12680 60  0001 L CNN "Part Description"
+F 24 " " H 2800 12590 60  0001 L CNN "Manufacturer"
+F 25 " " H 2800 12500 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 2800 12410 60  0001 L CNN "ComponentHeight"
+F 27 " " H 2800 12320 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 2800 12230 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 2800 12140 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 2800 11870 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 2800 11690 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 2800 11600 60  0001 L CNN "Author"
+F 33 "02/09/10 00:00:00" H 2800 11510 60  0001 L CNN "CreateDate"
+F 34 "04/04/12 00:00:00" H 2800 11420 60  0001 L CNN "LatestRevisionDate"
+F 35 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 2800 11330 60  0001 L CNN "PackageDescription"
+F 36 "Pads" H 2800 11240 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2800 11150 60  0001 L CNN "License"
 	1    2800 14900
 	1    0    0    -1  
 $EndComp
@@ -1952,17 +1919,17 @@ U 1 1 5CE31A16
 P 3150 14900
 F 0 "FTG2" H 3238 14900 50  0000 L CNN
 F 1 "FIDUCIAL_TARGET_C100-200" H 3150 14750 60  0001 L CNN
-F 2 "Pads:FIDUCIAL_TOP_S200-400" H 3150 13940 60  0001 L CNN
+F 2 "Marble:FIDUCIAL_TOP_S200-400" H 3150 13940 60  0001 L CNN
 F 3 "" H 3150 14570 60  0001 L CNN
-F 4 "~~" H 3150 14480 60  0001 L CNN "Pole4"
+F 4 " " H 3150 14480 60  0001 L CNN "Pole4"
 F 5 "FIDUCIAL_TARGET_C100-200" H 3150 14480 60  0001 L CNN "Part Number"
 F 6 "Fiducial Target" H 3150 14390 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 3150 14300 60  0001 L CNN "Library Path"
-F 8 "~~" H 3150 14210 60  0001 L CNN "Comment"
+F 8 " " H 3150 14210 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 3150 14120 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 3150 14030 60  0001 L CNN "Component Type"
 F 11 "1" H 3150 13850 60  0001 L CNN "Pin Count"
-F 12 "~~" H 3150 13760 60  0001 L CNN "Case"
+F 12 " " H 3150 13760 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 3150 13670 60  0001 L CNN "Footprint Path"
 F 14 "FIDUCIAL_TOP_C100-200" H 3150 13580 60  0001 L CNN "Footprint Ref"
 F 15 "Fiducial" H 3150 13490 60  0001 L CNN "Family"
@@ -1970,28 +1937,24 @@ F 16 "No" H 3150 13400 60  0001 L CNN "Mounted"
 F 17 "No" H 3150 13310 60  0001 L CNN "Socket"
 F 18 "Yes" H 3150 13220 60  0001 L CNN "SMD"
 F 19 "No" H 3150 13130 60  0001 L CNN "Sense"
-F 20 "~~" H 3150 13040 60  0001 L CNN "Sense Comment"
+F 20 " " H 3150 13040 60  0001 L CNN "Sense Comment"
 F 21 "None" H 3150 12950 60  0001 L CNN "Status"
-F 22 "~~" H 3150 12860 60  0001 L CNN "Status Comment"
-F 23 "~~" H 3150 12770 60  0001 L CNN "SCEM"
-F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3150 12680 60  0001 L CNN "Part Description"
-F 25 "~~" H 3150 12590 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 3150 12500 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 3150 12410 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 3150 12320 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 3150 12230 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 3150 12140 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 3150 12050 60  0001 L CNN "HelpURL"
-F 32 "~~" H 3150 11960 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 3150 11870 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 3150 11780 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 3150 11690 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 3150 11600 60  0001 L CNN "Author"
-F 37 "02/09/10 00:00:00" H 3150 11510 60  0001 L CNN "CreateDate"
-F 38 "04/04/12 00:00:00" H 3150 11420 60  0001 L CNN "LatestRevisionDate"
-F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3150 11330 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 3150 11240 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3150 11150 60  0001 L CNN "License"
+F 22 " " H 3150 12860 60  0001 L CNN "Status Comment"
+F 23 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3150 12680 60  0001 L CNN "Part Description"
+F 24 " " H 3150 12590 60  0001 L CNN "Manufacturer"
+F 25 " " H 3150 12500 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 3150 12410 60  0001 L CNN "ComponentHeight"
+F 27 " " H 3150 12320 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 3150 12230 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 3150 12140 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 3150 11870 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 3150 11690 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 3150 11600 60  0001 L CNN "Author"
+F 33 "02/09/10 00:00:00" H 3150 11510 60  0001 L CNN "CreateDate"
+F 34 "04/04/12 00:00:00" H 3150 11420 60  0001 L CNN "LatestRevisionDate"
+F 35 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3150 11330 60  0001 L CNN "PackageDescription"
+F 36 "Pads" H 3150 11240 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3150 11150 60  0001 L CNN "License"
 	1    3150 14900
 	1    0    0    -1  
 $EndComp
@@ -2001,17 +1964,17 @@ U 1 1 5CE32256
 P 3500 14900
 F 0 "FTG3" H 3588 14900 50  0000 L CNN
 F 1 "FIDUCIAL_TARGET_C100-200" H 3500 14750 60  0001 L CNN
-F 2 "Pads:FIDUCIAL_BOT_S200-400" H 3500 13940 60  0001 L CNN
+F 2 "Marble:FIDUCIAL_BOT_S200-400" H 3500 13940 60  0001 L CNN
 F 3 "" H 3500 14570 60  0001 L CNN
-F 4 "~~" H 3500 14480 60  0001 L CNN "Pole4"
+F 4 " " H 3500 14480 60  0001 L CNN "Pole4"
 F 5 "FIDUCIAL_TARGET_C100-200" H 3500 14480 60  0001 L CNN "Part Number"
 F 6 "Fiducial Target" H 3500 14390 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 3500 14300 60  0001 L CNN "Library Path"
-F 8 "~~" H 3500 14210 60  0001 L CNN "Comment"
+F 8 " " H 3500 14210 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 3500 14120 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 3500 14030 60  0001 L CNN "Component Type"
 F 11 "1" H 3500 13850 60  0001 L CNN "Pin Count"
-F 12 "~~" H 3500 13760 60  0001 L CNN "Case"
+F 12 " " H 3500 13760 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 3500 13670 60  0001 L CNN "Footprint Path"
 F 14 "FIDUCIAL_TOP_C100-200" H 3500 13580 60  0001 L CNN "Footprint Ref"
 F 15 "Fiducial" H 3500 13490 60  0001 L CNN "Family"
@@ -2019,28 +1982,24 @@ F 16 "No" H 3500 13400 60  0001 L CNN "Mounted"
 F 17 "No" H 3500 13310 60  0001 L CNN "Socket"
 F 18 "Yes" H 3500 13220 60  0001 L CNN "SMD"
 F 19 "No" H 3500 13130 60  0001 L CNN "Sense"
-F 20 "~~" H 3500 13040 60  0001 L CNN "Sense Comment"
+F 20 " " H 3500 13040 60  0001 L CNN "Sense Comment"
 F 21 "None" H 3500 12950 60  0001 L CNN "Status"
-F 22 "~~" H 3500 12860 60  0001 L CNN "Status Comment"
-F 23 "~~" H 3500 12770 60  0001 L CNN "SCEM"
-F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3500 12680 60  0001 L CNN "Part Description"
-F 25 "~~" H 3500 12590 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 3500 12500 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 3500 12410 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 3500 12320 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 3500 12230 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 3500 12140 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 3500 12050 60  0001 L CNN "HelpURL"
-F 32 "~~" H 3500 11960 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 3500 11870 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 3500 11780 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 3500 11690 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 3500 11600 60  0001 L CNN "Author"
-F 37 "02/09/10 00:00:00" H 3500 11510 60  0001 L CNN "CreateDate"
-F 38 "04/04/12 00:00:00" H 3500 11420 60  0001 L CNN "LatestRevisionDate"
-F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3500 11330 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 3500 11240 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3500 11150 60  0001 L CNN "License"
+F 22 " " H 3500 12860 60  0001 L CNN "Status Comment"
+F 23 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3500 12680 60  0001 L CNN "Part Description"
+F 24 " " H 3500 12590 60  0001 L CNN "Manufacturer"
+F 25 " " H 3500 12500 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 3500 12410 60  0001 L CNN "ComponentHeight"
+F 27 " " H 3500 12320 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 3500 12230 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 3500 12140 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 3500 11870 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 3500 11690 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 3500 11600 60  0001 L CNN "Author"
+F 33 "02/09/10 00:00:00" H 3500 11510 60  0001 L CNN "CreateDate"
+F 34 "04/04/12 00:00:00" H 3500 11420 60  0001 L CNN "LatestRevisionDate"
+F 35 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3500 11330 60  0001 L CNN "PackageDescription"
+F 36 "Pads" H 3500 11240 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3500 11150 60  0001 L CNN "License"
 	1    3500 14900
 	1    0    0    -1  
 $EndComp
@@ -2050,17 +2009,17 @@ U 1 1 5CE3274F
 P 3850 14900
 F 0 "FTG4" H 3938 14900 50  0000 L CNN
 F 1 "Pads:FIDUCIAL_BOT_S200-400" H 3850 14750 60  0001 L CNN
-F 2 "Pads:FIDUCIAL_BOT_S200-400" H 3850 13940 60  0001 L CNN
+F 2 "Marble:FIDUCIAL_BOT_S200-400" H 3850 13940 60  0001 L CNN
 F 3 "" H 3850 14570 60  0001 L CNN
-F 4 "~~" H 3850 14480 60  0001 L CNN "Pole4"
+F 4 " " H 3850 14480 60  0001 L CNN "Pole4"
 F 5 "FIDUCIAL_TARGET_C100-200" H 3850 14480 60  0001 L CNN "Part Number"
 F 6 "Fiducial Target" H 3850 14390 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Pads.SchLib" H 3850 14300 60  0001 L CNN "Library Path"
-F 8 "~~" H 3850 14210 60  0001 L CNN "Comment"
+F 8 " " H 3850 14210 60  0001 L CNN "Comment"
 F 9 "Standard (No BOM)" H 3850 14120 60  0001 L CNN "Component Kind"
 F 10 "Standard (No BOM)" H 3850 14030 60  0001 L CNN "Component Type"
 F 11 "1" H 3850 13850 60  0001 L CNN "Pin Count"
-F 12 "~~" H 3850 13760 60  0001 L CNN "Case"
+F 12 " " H 3850 13760 60  0001 L CNN "Case"
 F 13 "PcbLib\\Pads.PcbLib" H 3850 13670 60  0001 L CNN "Footprint Path"
 F 14 "FIDUCIAL_TOP_C100-200" H 3850 13580 60  0001 L CNN "Footprint Ref"
 F 15 "Fiducial" H 3850 13490 60  0001 L CNN "Family"
@@ -2068,28 +2027,24 @@ F 16 "No" H 3850 13400 60  0001 L CNN "Mounted"
 F 17 "No" H 3850 13310 60  0001 L CNN "Socket"
 F 18 "Yes" H 3850 13220 60  0001 L CNN "SMD"
 F 19 "No" H 3850 13130 60  0001 L CNN "Sense"
-F 20 "~~" H 3850 13040 60  0001 L CNN "Sense Comment"
+F 20 " " H 3850 13040 60  0001 L CNN "Sense Comment"
 F 21 "None" H 3850 12950 60  0001 L CNN "Status"
-F 22 "~~" H 3850 12860 60  0001 L CNN "Status Comment"
-F 23 "~~" H 3850 12770 60  0001 L CNN "SCEM"
-F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3850 12680 60  0001 L CNN "Part Description"
-F 25 "~~" H 3850 12590 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 3850 12500 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 3850 12410 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 3850 12320 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 3850 12230 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 3850 12140 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 3850 12050 60  0001 L CNN "HelpURL"
-F 32 "~~" H 3850 11960 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 3850 11870 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 3850 11780 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 3850 11690 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 3850 11600 60  0001 L CNN "Author"
-F 37 "02/09/10 00:00:00" H 3850 11510 60  0001 L CNN "CreateDate"
-F 38 "04/04/12 00:00:00" H 3850 11420 60  0001 L CNN "LatestRevisionDate"
-F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3850 11330 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 3850 11240 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3850 11150 60  0001 L CNN "License"
+F 22 " " H 3850 12860 60  0001 L CNN "Status Comment"
+F 23 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3850 12680 60  0001 L CNN "Part Description"
+F 24 " " H 3850 12590 60  0001 L CNN "Manufacturer"
+F 25 " " H 3850 12500 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 3850 12410 60  0001 L CNN "ComponentHeight"
+F 27 " " H 3850 12320 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 3850 12230 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 3850 12140 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 3850 11870 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 3850 11690 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 3850 11600 60  0001 L CNN "Author"
+F 33 "02/09/10 00:00:00" H 3850 11510 60  0001 L CNN "CreateDate"
+F 34 "04/04/12 00:00:00" H 3850 11420 60  0001 L CNN "LatestRevisionDate"
+F 35 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3850 11330 60  0001 L CNN "PackageDescription"
+F 36 "Pads" H 3850 11240 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3850 11150 60  0001 L CNN "License"
 	1    3850 14900
 	1    0    0    -1  
 $EndComp
@@ -2253,13 +2208,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 6650 8500 6650
 Wire Wire Line
-	7600 7900 7700 7900
-Wire Wire Line
-	7700 7900 7700 6550
-Wire Wire Line
 	7600 7900 7600 13000
-Wire Wire Line
-	7700 6550 8500 6550
 Wire Wire Line
 	7600 7550 6800 7550
 Wire Wire Line
@@ -2358,9 +2307,260 @@ Wire Notes Line
 Wire Notes Line
 	12350 8550 12350 9550
 Wire Notes Line
-	12450 8450 12450 9600
+	12450 8450 12450 9900
 Wire Notes Line
-	12450 9600 12950 9600
+	12450 9900 12950 9900
 Wire Notes Line
 	12450 8450 12950 8450
+$Comp
+L Pads:PLATED_HOLE2.8_PAD0 B10
+U 1 1 5EBE33C9
+P 5000 15500
+F 0 "B10" H 4990 15605 50  0000 C CNN
+F 1 "PLATED_HOLE2.8_PAD0" H 5000 15345 50  0001 L CNN
+F 2 "Marble:HOLE2.8_PAD0" H 5000 15270 50  0001 L CNN
+F 3 "" H 5000 15195 50  0001 L CNN
+F 4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5000 12495 50  0001 L CNN "License"
+F 5 "dnf" H 5000 15500 50  0001 C CNN "config"
+	1    5000 15500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pads:SLOT_2_11 B9
+U 1 1 5EBE3B57
+P 5000 15250
+F 0 "B9" H 5000 15350 50  0000 C CNN
+F 1 "SLOT_2_11" H 5000 15095 50  0001 L CNN
+F 2 "Marble:HOLE2_SLOT11" H 5000 15020 50  0001 L CNN
+F 3 "" H 5000 14945 50  0001 L CNN
+F 4 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5000 12245 50  0001 L CNN "License"
+F 5 "dnf" H 5000 15250 50  0001 C CNN "config"
+	1    5000 15250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 15250
+Connection ~ 3250 15500
+$Comp
+L Pads:PLATED_HOLE2.7_PAD5.0 B11
+U 1 1 5ECD5570
+P 4000 15250
+F 0 "B11" H 3985 15355 50  0000 C CNN
+F 1 "PLATED_HOLE2.7_PAD5.0" H 4000 15080 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 4000 14270 60  0001 L CNN
+F 3 "" H 4000 14900 60  0001 L CNN
+F 4 "Plated Hole" H 4000 14810 60  0001 L CNN "Pole4"
+F 5 "PLATED_HOLE2.7_PAD5.0" H 4000 14810 60  0001 L CNN "Part Number"
+F 6 "Single Terminal Socket" H 4000 14720 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 4000 14630 60  0001 L CNN "Library Path"
+F 8 " " H 4000 14540 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 4000 14450 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 4000 14360 60  0001 L CNN "Component Type"
+F 11 "1" H 4000 14180 60  0001 L CNN "Pin Count"
+F 12 " " H 4000 14090 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 4000 14000 60  0001 L CNN "Footprint Path"
+F 14 "MTG270_500" H 4000 13910 60  0001 L CNN "Footprint Ref"
+F 15 "Plated Hole" H 4000 13820 60  0001 L CNN "Family"
+F 16 "No" H 4000 13730 60  0001 L CNN "Mounted"
+F 17 "No" H 4000 13640 60  0001 L CNN "Socket"
+F 18 "No" H 4000 13550 60  0001 L CNN "SMD"
+F 19 "No" H 4000 13460 60  0001 L CNN "Sense"
+F 20 " " H 4000 13370 60  0001 L CNN "Sense Comment"
+F 21 "None" H 4000 13280 60  0001 L CNN "Status"
+F 22 " " H 4000 13190 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4000 13010 60  0001 L CNN "Part Description"
+F 24 " " H 4000 12920 60  0001 L CNN "Manufacturer"
+F 25 " " H 4000 12830 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 4000 12740 60  0001 L CNN "ComponentHeight"
+F 27 " " H 4000 12650 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 4000 12560 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 4000 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 4000 12200 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 4000 12020 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 4000 11930 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 4000 11840 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 4000 11750 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4000 11660 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 4000 11570 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4000 11480 60  0001 L CNN "License"
+F 38 "dnf" H 4000 15250 50  0001 C CNN "config"
+	1    4000 15250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pads:PLATED_HOLE2.7_PAD5.0 B12
+U 1 1 5ECD6329
+P 4150 15250
+F 0 "B12" H 4135 15355 50  0000 C CNN
+F 1 "PLATED_HOLE2.7_PAD5.0" H 4150 15080 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 4150 14270 60  0001 L CNN
+F 3 "" H 4150 14900 60  0001 L CNN
+F 4 "Plated Hole" H 4150 14810 60  0001 L CNN "Pole4"
+F 5 "PLATED_HOLE2.7_PAD5.0" H 4150 14810 60  0001 L CNN "Part Number"
+F 6 "Single Terminal Socket" H 4150 14720 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 4150 14630 60  0001 L CNN "Library Path"
+F 8 " " H 4150 14540 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 4150 14450 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 4150 14360 60  0001 L CNN "Component Type"
+F 11 "1" H 4150 14180 60  0001 L CNN "Pin Count"
+F 12 " " H 4150 14090 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 4150 14000 60  0001 L CNN "Footprint Path"
+F 14 "MTG270_500" H 4150 13910 60  0001 L CNN "Footprint Ref"
+F 15 "Plated Hole" H 4150 13820 60  0001 L CNN "Family"
+F 16 "No" H 4150 13730 60  0001 L CNN "Mounted"
+F 17 "No" H 4150 13640 60  0001 L CNN "Socket"
+F 18 "No" H 4150 13550 60  0001 L CNN "SMD"
+F 19 "No" H 4150 13460 60  0001 L CNN "Sense"
+F 20 " " H 4150 13370 60  0001 L CNN "Sense Comment"
+F 21 "None" H 4150 13280 60  0001 L CNN "Status"
+F 22 " " H 4150 13190 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4150 13010 60  0001 L CNN "Part Description"
+F 24 " " H 4150 12920 60  0001 L CNN "Manufacturer"
+F 25 " " H 4150 12830 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 4150 12740 60  0001 L CNN "ComponentHeight"
+F 27 " " H 4150 12650 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 4150 12560 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 4150 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 4150 12200 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 4150 12020 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 4150 11930 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 4150 11840 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 4150 11750 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4150 11660 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 4150 11570 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4150 11480 60  0001 L CNN "License"
+F 38 "dnf" H 4150 15250 50  0001 C CNN "config"
+	1    4150 15250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ECDA445
+P 4500 15250
+AR Path="/5BD32060/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8AFE1/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5ECDA445" Ref="#PWR?"  Part="1" 
+AR Path="/5ECDA445" Ref="#PWR0680"  Part="1" 
+F 0 "#PWR0680" H 4500 15000 50  0001 C CNN
+F 1 "GND" H 4505 15077 50  0000 C CNN
+F 2 "" H 4500 15250 50  0001 C CNN
+F 3 "" H 4500 15250 50  0001 C CNN
+	1    4500 15250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 15250 4150 15250
+Wire Wire Line
+	4150 15250 4300 15250
+Connection ~ 4150 15250
+Wire Notes Line
+	11350 3500 12150 3500
+Wire Notes Line
+	12150 1600 12150 3500
+Wire Wire Line
+	10000 3250 11350 3250
+Wire Wire Line
+	10000 3350 11350 3350
+Wire Wire Line
+	8400 2250 7700 2250
+Wire Wire Line
+	7500 7800 7500 11850
+Connection ~ 7500 11850
+Wire Wire Line
+	7500 11850 5250 11850
+Wire Wire Line
+	8400 2150 7650 2150
+Wire Wire Line
+	7450 7750 7450 11750
+Connection ~ 7450 11750
+Wire Wire Line
+	7450 11750 5150 11750
+Wire Wire Line
+	7750 7900 7750 6550
+Wire Wire Line
+	7750 6550 8500 6550
+Wire Wire Line
+	7600 7900 7750 7900
+Wire Wire Line
+	7700 7800 7700 2250
+Wire Wire Line
+	7500 7800 7700 7800
+Wire Wire Line
+	7650 2150 7650 7750
+Wire Wire Line
+	7450 7750 7650 7750
+Text Label 7650 2050 0    50   ~ 10
+SI570_OE
+Wire Wire Line
+	7650 2050 8400 2050
+Text Label 13400 9800 2    50   ~ 10
+SI570_OE
+Wire Wire Line
+	12950 9800 13400 9800
+Wire Wire Line
+	3250 15500 3450 15500
+Wire Wire Line
+	3250 15250 3450 15250
+$Comp
+L Pads:PLATED_HOLE2.7_PAD5.0 B13
+U 1 1 5F05A5A0
+P 4300 15250
+F 0 "B13" H 4285 15355 50  0000 C CNN
+F 1 "PLATED_HOLE2.7_PAD5.0" H 4300 15080 60  0001 L CNN
+F 2 "Marble:HOLE2.7_PAD5.0" H 4300 14270 60  0001 L CNN
+F 3 "" H 4300 14900 60  0001 L CNN
+F 4 "Plated Hole" H 4300 14810 60  0001 L CNN "Pole4"
+F 5 "PLATED_HOLE2.7_PAD5.0" H 4300 14810 60  0001 L CNN "Part Number"
+F 6 "Single Terminal Socket" H 4300 14720 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 4300 14630 60  0001 L CNN "Library Path"
+F 8 " " H 4300 14540 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 4300 14450 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 4300 14360 60  0001 L CNN "Component Type"
+F 11 "1" H 4300 14180 60  0001 L CNN "Pin Count"
+F 12 " " H 4300 14090 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 4300 14000 60  0001 L CNN "Footprint Path"
+F 14 "MTG270_500" H 4300 13910 60  0001 L CNN "Footprint Ref"
+F 15 "Plated Hole" H 4300 13820 60  0001 L CNN "Family"
+F 16 "No" H 4300 13730 60  0001 L CNN "Mounted"
+F 17 "No" H 4300 13640 60  0001 L CNN "Socket"
+F 18 "No" H 4300 13550 60  0001 L CNN "SMD"
+F 19 "No" H 4300 13460 60  0001 L CNN "Sense"
+F 20 " " H 4300 13370 60  0001 L CNN "Sense Comment"
+F 21 "None" H 4300 13280 60  0001 L CNN "Status"
+F 22 " " H 4300 13190 60  0001 L CNN "Status Comment"
+F 23 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4300 13010 60  0001 L CNN "Part Description"
+F 24 " " H 4300 12920 60  0001 L CNN "Manufacturer"
+F 25 " " H 4300 12830 60  0001 L CNN "Manufacturer Part Number"
+F 26 "0mm" H 4300 12740 60  0001 L CNN "ComponentHeight"
+F 27 " " H 4300 12650 60  0001 L CNN "Manufacturer1 Example"
+F 28 " " H 4300 12560 60  0001 L CNN "Manufacturer1 Part Number"
+F 29 " " H 4300 12470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 30 " " H 4300 12200 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 4300 12020 60  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JMW" H 4300 11930 60  0001 L CNN "Author"
+F 33 "09/27/11 00:00:00" H 4300 11840 60  0001 L CNN "CreateDate"
+F 34 "09/27/11 00:00:00" H 4300 11750 60  0001 L CNN "LatestRevisionDate"
+F 35 "Plated Through Hole: Hole Dia.=2.7mm Pad Dia.=5.0mm" H 4300 11660 60  0001 L CNN "PackageDescription"
+F 36 "Eletro-mechanical.DbLib" H 4300 11570 60  0001 L CNN "Library Name"
+F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4300 11480 60  0001 L CNN "License"
+F 38 "dnf" H 4300 15250 50  0001 C CNN "config"
+	1    4300 15250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 15250
+Wire Wire Line
+	4300 15250 4500 15250
+Text Notes 4950 15050 0    50   ~ 0
+AMC holes not grounded
+Wire Wire Line
+	5000 15250 5150 15250
+Wire Wire Line
+	5000 15500 5150 15500
+NoConn ~ 5150 15250
+NoConn ~ 5150 15500
+Text Notes 2500 2500 0    394  ~ 79
+Marble-Mini
 $EndSCHEMATC

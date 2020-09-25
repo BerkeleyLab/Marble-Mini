@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF CAE830-1020_470UF_16V_20% C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CAE830-1020_470UF_16V_20%" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPAE830X1020N" 0 -320 50 H I L CNN
+F2 "Marble:CAPAE830X1020N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "470uF" 150 -120 50 H V C CNN "Val"
 F5 "CAE830-1020_470UF_16V_20%" 0 -470 50 H I L CNN "Part Number"
@@ -41,9 +41,7 @@ F33 " " 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "11/05/14 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 A 320 0 160 1800 1500 0 1 10 N 160 0 181 80
@@ -62,7 +60,7 @@ ENDDEF
 DEF CC0201_100NF_6.3V_10%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0201_100NF_6.3V_10%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC0603X33N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC0603X33N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "100nF" 150 -120 50 H V C CNN "Val"
 F5 "CC0201_100NF_6.3V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -97,9 +95,7 @@ F33 "0.33mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -116,7 +112,7 @@ ENDDEF
 DEF CC0201_470NF_4V_20%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0201_470NF_4V_20%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC0603X33N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC0603X33N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "470nF" 150 -120 50 H V C CNN "Val"
 F5 "CC0201_470NF_4V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -151,9 +147,7 @@ F33 "0.33mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "05/27/10 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "05/27/10 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -170,7 +164,7 @@ ENDDEF
 DEF CC0402_100NF_16V_10%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0402_100NF_16V_10%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC1005X55N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "100nF" 150 -120 50 H V C CNN "Val"
 F5 "CC0402_100NF_16V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -205,9 +199,59 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/10/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/10/13 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# CC0402_100NF_25V_10%_X5R
+#
+DEF CC0402_100NF_25V_10%_X5R C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "Capacitors_SMD_CC0402_100NF_25V_10%_X5R" 0 -245 50 H I L CNN
+F2 "Marble:CAPC1005X55N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "100nF" 150 -120 50 H V C CNN "Val"
+F5 "CC0402_100NF_25V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "100nF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC1005X55N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "None" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "25V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X5R" 0 -1445 50 H I L CNN "TC"
+F19 "±10%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0402_100NF_25V_10%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "Samsung" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "CL05A104KA5NNNC" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "12/10/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "05/25/20 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -224,7 +268,7 @@ ENDDEF
 DEF CC0402_100PF_50V_5%_C0G C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0402_100PF_50V_5%_C0G" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC1005X55N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "100pF" 150 -120 50 H V C CNN "Val"
 F5 "CC0402_100PF_50V_5%_C0G" 0 -470 50 H I L CNN "Part Number"
@@ -259,9 +303,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "04/22/15 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -278,7 +320,7 @@ ENDDEF
 DEF CC0402_10NF_16V_10%_X7R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0402_10NF_16V_10%_X7R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC1005X55N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "10nF" 150 -120 50 H V C CNN "Val"
 F5 "CC0402_10NF_16V_10%_X7R" 0 -470 50 H I L CNN "Part Number"
@@ -313,9 +355,59 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# CC0402_10NF_35V_10%_X7R
+#
+DEF CC0402_10NF_35V_10%_X7R C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "Capacitors_SMD_CC0402_10NF_35V_10%_X7R" 0 -245 50 H I L CNN
+F2 "Marble:CAPC1005X55N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "10nF" 150 -120 50 H V C CNN "Val"
+F5 "CC0402_10NF_35V_10%_X7R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "10nF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC1005X55N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "Not Recommended" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "35V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X7R" 0 -1445 50 H I L CNN "TC"
+F19 "±10%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0402_10NF_35V_10%_X7R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "TDK" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "CGA2B3X7R1V103K050B" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "05/24/20 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -332,7 +424,7 @@ ENDDEF
 DEF CC0402_150PF_50V_5%_C0G C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0402_150PF_50V_5%_C0G" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC1005X55N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "150pF" 150 -120 50 H V C CNN "Val"
 F5 "CC0402_150PF_50V_5%_C0G" 0 -470 50 H I L CNN "Part Number"
@@ -367,9 +459,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "04/22/15 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -386,7 +476,7 @@ ENDDEF
 DEF CC0402_1NF_50V_10%_X7R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0402_1NF_50V_10%_X7R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC1005X55N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "1nF" 150 -120 50 H V C CNN "Val"
 F5 "CC0402_1NF_50V_10%_X7R" 0 -470 50 H I L CNN "Part Number"
@@ -421,9 +511,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -440,7 +528,7 @@ ENDDEF
 DEF CC0402_1UF_16V_10%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0402_1UF_16V_10%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC1005X55N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "1uF" 150 -120 50 H V C CNN "Val"
 F5 "CC0402_1UF_16V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -475,9 +563,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "10/25/12 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "10/25/12 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -494,7 +580,7 @@ ENDDEF
 DEF CC0402_2.2NF_50V_10%_X7R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0402_2.2NF_50V_10%_X7R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC1005X55N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "2.2nF" 150 -120 50 H V C CNN "Val"
 F5 "CC0402_2.2NF_50V_10%_X7R" 0 -470 50 H I L CNN "Part Number"
@@ -529,9 +615,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -548,7 +632,7 @@ ENDDEF
 DEF CC0402_22PF_50V_5%_C0G C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0402_22PF_50V_5%_C0G" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC1005X55N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "22pF" 150 -120 50 H V C CNN "Val"
 F5 "CC0402_22PF_50V_5%_C0G" 0 -470 50 H I L CNN "Part Number"
@@ -583,9 +667,7 @@ F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -602,7 +684,7 @@ ENDDEF
 DEF CC0603_10UF_6.3V_20%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0603_10UF_6.3V_20%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1608X87N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC1608X87N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "10uF" 150 -120 50 H V C CNN "Val"
 F5 "CC0603_10UF_6.3V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -637,9 +719,7 @@ F33 "0.95mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -656,7 +736,7 @@ ENDDEF
 DEF CC0603_22UF_6.3V_20%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0603_22UF_6.3V_20%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1709X100N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC1709X100N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "22uF" 150 -120 50 H V C CNN "Val"
 F5 "CC0603_22UF_6.3V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -691,9 +771,7 @@ F33 "1mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/16/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "09/13/16 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -710,7 +788,7 @@ ENDDEF
 DEF CC0603_4.7UF_16V_10%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0603_4.7UF_16V_10%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1709X95N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC1709X95N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "4.7uF" 150 -120 50 H V C CNN "Val"
 F5 "CC0603_4.7UF_16V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -745,9 +823,59 @@ F33 "0.95mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/16/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "09/16/14 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# CC0603_4.7UF_25V_10%_X5R
+#
+DEF CC0603_4.7UF_25V_10%_X5R C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "Capacitors_SMD_CC0603_4.7UF_25V_10%_X5R" 0 -245 50 H I L CNN
+F2 "Marble:CAPC1709X95N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "4.7uF" 150 -120 50 H V C CNN "Val"
+F5 "CC0603_4.7UF_25V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "4.7uF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC1709X95N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "None" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "25V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X5R" 0 -1445 50 H I L CNN "TC"
+F19 "±10%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0603_4.7UF_25V_10%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0603" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "Samsung" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "CL10A475KA8NQN" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "0.95mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "12/16/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "05/25/20 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -764,7 +892,7 @@ ENDDEF
 DEF CC0805_22UF_16V_10%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0805_22UF_16V_10%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC2012X135N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC2012X135N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "22uF" 150 -120 50 H V C CNN "Val"
 F5 "CC0805_22UF_16V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -793,15 +921,65 @@ F27 " " 0 -2120 50 H I L CNN "PressFit"
 F28 "No" 0 -2195 50 H I L CNN "Sense"
 F29 " " 0 -2270 50 H I L CNN "Sense Comment"
 F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
-F31 "TDK" 0 -2420 50 H I L CNN "Manufacturer1 Example"
-F32 "C2012X5R1C226KT" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F31 "Murata" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "GRM21BR61C226ME44L" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
 F33 "1.35mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "10/25/12 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "10/25/12 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# CC0805_22UF_25V_20%_X5R
+#
+DEF CC0805_22UF_25V_20%_X5R C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "Capacitors_SMD_CC0805_22UF_25V_20%_X5R" 0 -245 50 H I L CNN
+F2 "Marble:CAPC2012X135N" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "22uF" 150 -120 50 H V C CNN "Val"
+F5 "CC0805_22UF_25V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "22uF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 "2" 0 -920 50 H I L CNN "Pin Count"
+F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
+F13 "CAPC2012X135N" 0 -1070 50 H I L CNN "Footprint Ref"
+F14 " " 0 -1145 50 H I L CNN "PackageDescription"
+F15 "Preferred" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "25V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X5R" 0 -1445 50 H I L CNN "TC"
+F19 "±20%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0805_22UF_25V_20%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "0805" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 "No" 0 -1970 50 H I L CNN "Socket"
+F26 "Yes" 0 -2045 50 H I L CNN "SMD"
+F27 " " 0 -2120 50 H I L CNN "PressFit"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "Yageo" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "CC0805MKX5R8BB226" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "1.35mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "10/25/12 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "05/24/20 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -818,7 +996,7 @@ ENDDEF
 DEF CC0805_4.7UF_10V_10%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0805_4.7UF_10V_10%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC2012X135N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC2012X135N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "4.7uF" 150 -120 50 H V C CNN "Val"
 F5 "CC0805_4.7UF_10V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -853,9 +1031,7 @@ F33 "1.45mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "12/03/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "12/03/07 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -872,7 +1048,7 @@ ENDDEF
 DEF CC0805_47UF_6.3V_20%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC0805_47UF_6.3V_20%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC2012X140N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC2012X140N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "47uF" 150 -120 50 H V C CNN "Val"
 F5 "CC0805_47UF_6.3V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -907,9 +1083,7 @@ F33 "1.4mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "10/16/12 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "10/16/12 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -926,7 +1100,7 @@ ENDDEF
 DEF CC1206_10UF_16V_10%_X7R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC1206_10UF_16V_10%_X7R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC3216X140N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC3216X140N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "10uF" 150 -120 50 H V C CNN "Val"
 F5 "CC1206_10UF_16V_10%_X7R" 0 -470 50 H I L CNN "Part Number"
@@ -961,9 +1135,7 @@ F33 "1.8mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "04/28/09 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "04/28/09 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -980,7 +1152,7 @@ ENDDEF
 DEF CC1206_47UF_25V_20%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC1206_47UF_25V_20%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC3216X180N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC3216X180N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "47uF" 150 -120 50 H V C CNN "Val"
 F5 "CC1206_47UF_25V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -1015,9 +1187,7 @@ F33 "1.8mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "11/20/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "03/14/17 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
@@ -1034,7 +1204,7 @@ ENDDEF
 DEF CC1210_100UF_6.3V_20%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
 F1 "Capacitors_SMD_CC1210_100UF_6.3V_20%_X5R" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC3225X270N" 0 -320 50 H I L CNN
+F2 "Marble:CAPC3225X270N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "100uF" 150 -120 50 H V C CNN "Val"
 F5 "CC1210_100UF_6.3V_20%_X5R" 0 -470 50 H I L CNN "Part Number"
@@ -1069,9 +1239,7 @@ F33 "2.7mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
 F35 "04/19/10 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
 F36 "04/19/10 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
