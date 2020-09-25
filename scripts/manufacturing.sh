@@ -28,7 +28,7 @@ set -e
 # Assume kicad is in our $PATH
 # The following setup unfortunately depends on where KiBoM is installed
 A=AMC_FMC_Carrier-PcbDoc
-KB=$HOME/git/KiBoM/KiBOM_CLI.py
+KB=../KiBoM/KiBOM_CLI.py
 # KiBoM is cloned from
 # https://github.com/SchrodingersGat/KiBoM
 # Then checkout commit 38525f3.  Master branch (as of July 10, 2019,
@@ -37,7 +37,7 @@ KB=$HOME/git/KiBoM/KiBOM_CLI.py
 
 # ver needs to match the Rev attribute in .sch files
 # KiBoM seems to peek at that attribute when naming its output file
-ver="release v1.1"
+ver="v1.1"
 
 # Make sure we're running under bash so brace expansion works
 if ! test "`echo A{B,C}`" = "AB AC"; then
