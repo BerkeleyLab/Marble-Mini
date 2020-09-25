@@ -35,6 +35,10 @@ KB=$HOME/git/KiBoM/KiBOM_CLI.py
 # commit 5c25a8c) fails, see KiBoM issue #101
 #   https://github.com/SchrodingersGat/KiBoM/issues/101
 
+# ver needs to match the Rev attribute in .sch files
+# KiBoM seems to peek at that attribute when naming its output file
+ver="release v1.1"
+
 # Make sure we're running under bash so brace expansion works
 if ! test "`echo A{B,C}`" = "AB AC"; then
   echo "Error, not running under bash"
@@ -42,8 +46,7 @@ if ! test "`echo A{B,C}`" = "AB AC"; then
 fi
 
 # remove any stray stale files
-# AMC_FMC_Carrier-PcbDoc_bom_9.csv is checked into git, which is a mistake.
-rm -f marble*.dat ${A}_bom_9.csv
+rm -f marble*.dat
 
 echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
 python3 scripts/kicad_exporter.py --layers 6 $A.kicad_pcb PCB_layers
@@ -67,23 +70,23 @@ python $KB --cfg scripts/bom.ini $A.xml $A
 echo KiBoM complete
 
 # One more cross-check
-f=${A}_bom_9.csv
+f=${A}_bom_${ver}.csv
 echo "$f"
 test -r "$f"
-test "$f" = `find "$f" -newer $A.xml`
+test "$f" = "`find "$f" -newer $A.xml`"
 echo generated files are OK
 echo starting post-processing
 
 # Map generics to orderables
 # Implied dependence on file generic_subst
 test -r scripts/generic_subst
-python3 scripts/non_generic.py "$f" "${A}_bom_9a.csv"
+python3 scripts/non_generic.py "$f" "${A}_bom_${ver}a.csv"
 
 # Additional postprocessing
-# input ${A}_bom_9.csv $A-all.pos
+# input ${A}_bom_${ver}.csv $A-all.pos
 # output marble-xy.pos
-python3 scripts/xy_post.py ${A} marble v > marble-stuff.log
-python3 scripts/xy_post.py ${A} marble
+python3 scripts/xy_post.py ${A} marble "$ver" v > marble-stuff.log
+python3 scripts/xy_post.py ${A} marble "$ver"
 
 # Assemble files into fab directory
 rm -rf fab
@@ -94,7 +97,7 @@ for f in *.gbr *.drl; do
 done
 cd ..
 cp marble-xy.pos fab/marble-xy.pos
-cp ${A}_bom_9a.csv fab/marble-bom.csv
+cp "${A}_bom_${ver}a.csv" fab/marble-bom.csv
 mv marble-stuff.log fab/
 cp $A.d356 fab/marble-ipc-d-356.txt
 cp stackup.csv.txt fab/marble-stack.txt
@@ -109,7 +112,7 @@ rm -f marble-fab.zip
 zip marble-fab.zip fab/*
 
 if true; then  # clean-up step, disable when debugging
-  rm -f marble*.dat marble-xy.pos $A.d356 $A.xml ${A}_bom_9.csv ${A}_bom_9.csv.tmp ${A}_bom_9a.csv
+  rm -f marble*.dat marble-xy.pos $A.d356 $A.xml "${A}_bom_${ver}.csv" "${A}_bom_${ver}.csv.tmp" "${A}_bom_${ver}a.csv"
   rm -rf PCB_layers fab
 fi
 # marble-fab.zip is the only generated file that should remain
