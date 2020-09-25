@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 25
 Title "Marble-Mini"
-Date "2020-09-24"
-Rev "release v1.1"
+Date "2020-09-25"
+Rev "v1.1"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
