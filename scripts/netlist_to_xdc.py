@@ -31,6 +31,16 @@ def edit_row(row, text):
     if text == 'FMC2':
         text = '/FMC_2/'
     io_number, name = row.replace(text, '').split(" ")
+    # Compared to earlier versions, some signals are run through
+    # level translators.  The schematic codes the FPGA side of the translator
+    # chip with "_T" suffix.
+    # Drop that here.  No application signal names have that suffix.
+    if name[-2:] == "_T":
+        name = name[:-2]
+    # Special case of the above, I2C_{SCL,SDA} are the voltage-translated
+    # versions of I2C_FPGA_{SCL,SDA}.
+    if name[:5] == "I2C_S":
+        name = "I2C_FPGA_S" + name[5:]
     x_prefix = 'set_property -dict {PACKAGE_PIN ' + io_number + ' '
     x_suffix = '} [get_ports ' + name + ']'
 
