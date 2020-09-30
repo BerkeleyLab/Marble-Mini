@@ -39,7 +39,7 @@ def xy_main(iname, oname, vers, verbose=False):
                 s_bot = side == "bottom"
                 if not s_top and not s_bot:
                     print("problem: side %s" % side)
-                if refid in refids_keep:
+                if refid in refids_keep or "FIDUCIAL" in partn:
                     fo.write(ll)
                     p_tot[partn] = True
                     if s_top:
@@ -47,8 +47,8 @@ def xy_main(iname, oname, vers, verbose=False):
                     if s_bot:
                         p_bot[partn] = p_bot[partn]+1 if partn in p_bot else 1
                 else:
-                    # print("skipping refid %s (%s)" % (refid, partn))
-                    pass
+                    if verbose:
+                        print("skipping refid %s (%s)" % (refid, partn))
     if verbose:
         # Long list
         print(".. top bot  SMD components")
