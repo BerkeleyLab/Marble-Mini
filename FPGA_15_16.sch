@@ -3497,6 +3497,10 @@ Text HLabel 13650 4650 2    50   Input ~ 10
 FPGA_DONE
 Wire Wire Line
 	11200 4650 13650 4650
+Text Label 10000 5700 2    50   ~ 10
+I2C_FPGA_SW_RST_T
+Text Label 10000 6000 2    50   ~ 10
+EXP_INT_T
 Wire Bus Line
 	14050 7300 14050 7600
 Wire Bus Line
@@ -3505,8 +3509,8 @@ Wire Bus Line
 	14600 5000 14600 5750
 Wire Bus Line
 	13600 4850 13600 5750
-Text Label 10000 5700 2    50   ~ 10
-I2C_FPGA_SW_RST_T
-Text Label 10000 6000 2    50   ~ 10
-EXP_INT_T
+Text Label 10000 4200 2    50   ~ 10
+LD16
+Text Label 10000 2900 2    50   ~ 10
+LD17
 $EndSCHEMATC
