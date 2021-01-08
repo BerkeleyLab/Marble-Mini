@@ -3505,4 +3505,8 @@ Wire Bus Line
 	14600 5000 14600 5750
 Wire Bus Line
 	13600 4850 13600 5750
+Text Label 9800 2900 2    50   ~ 10
+LD17
+Text Label 10000 4200 2    50   ~ 10
+LD16
 $EndSCHEMATC
