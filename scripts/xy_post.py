@@ -9,12 +9,12 @@ def xy_main(iname, oname, verbose=False):
     refids_keep = {}
     orders = {}
     order_count = 0
-    with open(iname + "_bom_9.csv", "r") as f:
+    with open("%s_BOM.csv" % iname, "r") as f:
         reader = csv.reader(f)
         for row in reader:
             if len(row) > 3 and row[0][0] in "123456789":
                 # print(row)
-                partn = row[6]  # header in _bom_9.csv describes this as "Value"
+                partn = row[6]  # header in _bom_foo.csv describes this as "Value"
                 if "SLOT" in partn or "HOLE" in partn:
                     continue
                 order_count += 1
@@ -39,7 +39,7 @@ def xy_main(iname, oname, verbose=False):
                 s_bot = side == "bottom"
                 if not s_top and not s_bot:
                     print("problem: side %s" % side)
-                if refid in refids_keep:
+                if refid in refids_keep or "FIDUCIAL" in partn:
                     fo.write(ll)
                     p_tot[partn] = True
                     if s_top:
@@ -47,8 +47,8 @@ def xy_main(iname, oname, verbose=False):
                     if s_bot:
                         p_bot[partn] = p_bot[partn]+1 if partn in p_bot else 1
                 else:
-                    # print("skipping refid %s (%s)" % (refid, partn))
-                    pass
+                    if verbose:
+                        print("skipping refid %s (%s)" % (refid, partn))
     if verbose:
         # Long list
         print(".. top bot  SMD components")
