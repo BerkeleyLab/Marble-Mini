@@ -59,6 +59,16 @@ to get all User I/O of dual-LPC-FMC
 
 Note 2: Xilinx MIG doesn't recognize one of the address pins, which limits usable capacity to 4 Gb; [LiteDRAM](https://github.com/enjoy-digital/litedram) does not have that limitation.
 
+## Wish List for next fab run
+
+* Rotate D6 and D7 for proper PoE operation
+* Fix U6 voltages, see Marble commit d0337d336, Dec 10 2020
+* Configure 88E1512 for VDDO_LEVEL = 2.5V / PHYAD[0] = 1
+* Replace 1.8V and 1.2V LDOs (U37 and U36) with bigger package (easier soldering, smaller K/W)
+* 3.0 mm mounting holes
+* Round fiducials
+* Add a test point for ground
+
 ## Auxiliary documentation
 
 25-page schematics like this are a modern reality, but that doesn't mean they are easy to navigate.
