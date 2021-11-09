@@ -34,7 +34,7 @@ Configuration of the GTP port routing is accomplished with placement of
 
 ## Tools
 
-The schematic/layout tool used is [KiCad EDA](http://www.kicad-pcb.org/)
+The schematic/layout tool used is [KiCad EDA](http://www.kicad.org/)
 version 5.1.2 or later in the 5.1.x series.
 Other versions will very likely either not read the files
 in this repo, or will save files that are not compatible with
